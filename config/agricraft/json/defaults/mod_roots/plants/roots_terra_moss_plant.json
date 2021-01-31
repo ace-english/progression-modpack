@@ -1,0 +1,77 @@
+{
+  "path": "mod_roots/plants/roots_terra_moss_plant.json",
+  "enabled": true,
+  "id": "roots:terra_moss_plant",
+  "plant_name": "Terra Moss",
+  "seed_name": "Terra Moss Sprouts",
+  "seed_items": [
+    {
+      "item": "roots:terra_spores",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Terra moss."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.3,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 5,
+        "chance": 0.9,
+        "required": true,
+        "item": "roots:terra_moss",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "cobblestone",
+      "elemental_soil_soil",
+      "caelic_soil_soil",
+      "magmatic_soil_soil",
+      "terran_soil_soil",
+      "aqueous_soil_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "roots:items/terra_spores",
+    "plant_textures": [
+      "agricraft:blocks/crop_botania_green1",
+      "agricraft:blocks/crop_botania_green1",
+      "agricraft:blocks/crop_botania_green1",
+      "agricraft:blocks/crop_botania_green2",
+      "agricraft:blocks/crop_botania_green2",
+      "agricraft:blocks/crop_botania_green3",
+      "agricraft:blocks/crop_botania_green3",
+      "agricraft:blocks/crop_botania_green4"
+    ]
+  }
+}

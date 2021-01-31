@@ -1,0 +1,95 @@
+0.2 issues
+--------------------
+Saw an apple tree anyway
+[ ] double silver ore
+	mystical world and immersive engineering
+two venison
+	pams, mystical world
+Crashed on a sheep rendering for some reason
+[x] pams crops only drop seeds when easy harvested
+Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
+
+
+
+0.1 issues
+-----------------------------
+[x] alchohol oredict
+	[ ] forestry wine, brandy, liquor
+[ ] make terra moss somehow automatable
+	[ ] agricraft-over cobblestone, use spores, use sme harvestcraft crop animation
+	[ ] test it?
+[ ] consolidate forestry and pam's
+	[x] disable selected trees from world gen
+	[x] remove crafting recipies for selected seeds and saplings
+	[x] update market features
+	[x] hide in JEI
+	[ ] seeds?
+		[x] remove from garden drops
+		[ ] remove from market
+		[x] remove agricraft crops
+		[x] remove agricraft recipies
+		[ ] remove from JEI
+[ ] too many bees
+	Pam's bee spawning can be disabled in the harvestcraft config
+		[x] don't count as sweetened
+	[ ] two honey comb blocks
+		[ ] ore dict, make one recipie
+	[ ] two honey combs
+	Oh god BOP made more
+	animania bees produce fluid
+	pams bees produce honey and wax, not real fond of the way they work though
+	forestry bees make everything else
+[ ] no more books in inventory. maybe one book?
+	[x] disabled forestry book
+	[ ] mystic world book needs to go
+
+[ ] hops
+	[x] add hops to agricraft
+	[x] add to market
+	[x] remove pam's hops
+	[ ] texture
+[ ] nutmeg
+	[ ] remove listAllSpice from nutmeg(must be ground first)
+	[x] add allSpice to ground nutmeg
+[x] grow sunflowers
+	[x] dandelion x sugar
+	[x] add to market
+
+[x] nutrition mod?
+	[x] turn up pams?
+[ ] achievements
+	[ ] Make a monster girl dinner
+	
+[x] animania eggs to market
+[x] remove harvestcraft market
+
+Tweaking the spread rate seems to have fixed Agricraft, but...
+	[ ] sunflowers missing texture
+	[ ] Can we make our own plant texture? If so, could make some improvements
+	[x] bitch, I have fixed 
+	[x] CROPS GROW A LITTLE FAST NOW
+	
+Build a starting area with book dispensers
+
+closed issues
+--------------------
+[x] agricraft flowers drop flower not dye?
+	https://agridocs.readthedocs.io/en/latest/agri_plant/
+[?] three copper ores
+	unidict should have solved this but there are still some issues - 2 copper ores??
+	[x] disabled immersive engineering copper spawn
+	[x] disabled mystical world copper
+	[x] hidden in JEI
+
+[x] monster lunch
+	[x] just make a ordeidct entry for "meal" and require it in a recipie
+[x] string oredict hemp
+[x] jerky oredict
+[x] remove roots book recipie
+[x] turn down pam spreading
+[x] add cropLemon to citron
+[x] jackfruit
+	[x] add cook recipie for harvestcraft:jackfruititem -> harvestcraft:bbqjackfruititem
+[x] fix animania's ore dict entries
+	[x] milk - must be done by nbt data
+	[x] premium meat
