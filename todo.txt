@@ -1,13 +1,16 @@
 0.2 issues
 --------------------
 Saw an apple tree anyway
-[ ] double silver ore
-	mystical world and immersive engineering
+[ ] many silver ore
+	mystical world, immersive engineering, and bewitchment
 two venison
 	pams, mystical world
-Crashed on a sheep rendering for some reason
+[x] Crashed on a sheep rendering for some reason
+	was DSurround x animania, fixed module
 [x] pams crops only drop seeds when easy harvested
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
+[ ] bewitchment x agricraft
+[ ] clipboard needs a crafting recipie
 
 
 
