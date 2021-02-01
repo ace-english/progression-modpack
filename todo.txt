@@ -1,5 +1,3 @@
-[ ] Set up default options
-[ ] maybe a guide book?
 [x] alchohol oredict
 	[ ] forestry wine, brandy, liquor
 [ ] consolidate forestry and pam's
@@ -38,6 +36,7 @@
 [x] grow sunflowers
 	[x] dandelion x sugar
 	[x] add to market
+	[ ] texture broken
 [x] nutrition mod?
 	[x] turn up pams?
 [ ] achievements
@@ -52,18 +51,42 @@ Saw an apple tree anyway
 	mystical world, immersive engineering, and bewitchment
 two venison
 	pams, mystical world
-[x] Crashed on a sheep rendering for some reason
-	was DSurround x animania, fixed module
-[x] pams crops only drop seeds when easy harvested
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 [ ] bewitchment x agricraft
 [ ] clipboard needs a crafting recipie
 [ ] avocado saplings need to be removed
 [ ] juniper berries from witchery should be consolidated
+	[ ] add cropJuniperberry to bewitchment
+	[ ] remove Pam's juniper
 Play with new dimensions and JED
 Going to consider hiding all that repetitive shit in JEI
+[ ] Set up default options
+[ ] maybe a guide book?
+[ ] Unify amethyst
+	witchery, mystical world, BOP
+	[ ] Just need to disable spawning from two of them
+	Recipies good
+
+
 
 Build a starting area with book dispensers
+	Misc
+		Universal Bestiary
+		Food Book
+		Skill Book
+		World
+	Argiculture
+		-Forester's Manual
+		-Animania Manual
+	Magic
+		-Druidic Arts
+		-Book of Shadows
+		-Wizard's Handbook
+	Engineering
+		-Materials and You
+		-Materials and You - Armour Addendum
+		-Engineer's Manual
+
 
 closed issues
 --------------------
@@ -91,3 +114,6 @@ closed issues
 	[x] test it? no.
 [x] animania eggs to market
 [x] remove harvestcraft market
+[x] Crashed on a sheep rendering for some reason
+	was DSurround x animania, fixed module
+[x] pams crops only drop seeds when easy harvested
