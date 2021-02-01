@@ -1,0 +1,175 @@
+AI Improvements
+Agricraft
+Akashic Tome
+Animania
+Apotheosis
+AppleSkin
+Armor Toughness Bar
+Armory Expansion
+Aroma1997s Dimensional World
+Baubles
+Bed patch
+Better Advancements
+Bewitchment
+BiblioCraft
+Binnie's
+Biomes o Plenty
+Blockcraftery
+Bonsai Trees 2
+Bookshelf
+Career Bees
+Carry On
+Ceramics
+Chisel
+Chisels n bits
+Clumps
+Colytra (normal variant)
+Comforts
+Common Capabilities
+Compact Machines
+Composter
+Construct's Armory
+Cooking for Blockheads
+CraftTweaker
+Craftable Elytra
+Craftable Spawn Egg
+Crafting Tweaks
+Culinary construct
+Custom Main Menu
+Default Options
+Diet hoppers
+Ding
+Dirt2Path
+DiscordSuite
+Draconic Evolution
+Dude! Where's my Horse?
+Dynamic Surroundings
+Enchantment Descriptions
+Engineer's Doors
+Extra Rails
+Extra Utilities
+ExtraTiC
+FPS Reducer
+FTB Backups
+FTB Utilities
+Fairy lights
+Farming for Blockheads
+FastFurnace
+FastWorkbench
+FoamFix​
+Forestry
+Fullscreen Windowed
+Grappling hook
+Grimoire of Gaia
+Guidebook
+HWYLA
+HelpFixer
+Horse Stats
+Horse Tweaks
+Hunting Dimension
+Immersive Petroleum
+Immersive engineering
+Industrial Foregoing
+Initial Inventory
+Inventory Tweaks
+JAOPCA
+JEI
+JEI Integration
+JEI Villagers
+JourneyMap
+JourneyMap (by techbrew)
+Just Enough Dimensions
+Just Enough Energistics
+Just Enough Items
+Just Enough Petroleum
+Just Enough Resources
+Just Enough Throwing In Fluids
+Just sleep
+KleeSlabs
+Level Up
+Macaw's Bridges
+MalisisDoors
+Mekanism
+Mekanism Generators
+Mekanism Tools
+Minecraft Comes Alive
+ModTweaker
+Morpheus
+Mouse Tweaks
+MultiBeds
+Multipart forge
+Mystical World
+Nature's Compass
+No Mob Spawning on Trees
+No Night Vision Flashing
+NotEnoughIDs
+NuclearCraft Overhauled
+Nutrition
+OC XNet Driver
+OldJavaWarning
+OpenBlocks
+OpenComputers
+Optifine
+Ore Tweaker
+Pam's brewcraft
+Pam's harvestcraft + pam's cookables + just enough harvestcraft
+Phosphor
+Pickle tweaks
+Platforms
+Pretty Beaches
+Project Red - Base
+Project Red - Compat
+Project Red - Fabrication
+Project Red - Integration
+Quark
+Quark
+Quick Leaf Decay
+QuickStore
+RandomPatches
+ReAuth
+Recurrent Complex
+Redstone Flux
+Resource Loader
+Roots
+Schematica
+Serene Seasons
+Simple Camp Fire
+Simple Storage Network
+SimpleHarvest
+Skeleton Horse Spawn
+Slab Machines
+SlimyBoyos
+Spice of Life: Carrot Edition
+Steve's Carts Reborn
+Storage drawers
+Streams
+SwingThroughGrass
+The Creeping Nether
+The Twilight Forest
+Thermal Expansion
+Thermal Foundation
+Thermal Innovation
+Tic dynamic
+Tinker's construct
+Tinkers' Tool Leveling
+Tips
+Tomb Many Graves 2
+Tomb many graves
+Traveller's Backpack
+Tweaker’s Compendium
+Tweaker’s Construct
+UniDict
+Universal Bestiary
+Unlimited Chisel Works
+Unloader
+Useful Nullifiers
+WAIM - What am I missing?
+Wall-Jump!
+Wawla - What Are We Looking At
+Waystones
+Web slinger
+WirelessCharger
+WrapUp
+XNet
+YNot
+Zombie Horse Spawn
