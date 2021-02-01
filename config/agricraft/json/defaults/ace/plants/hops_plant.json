@@ -1,5 +1,5 @@
 {
-  "path": "mod_forestry/plants/hops_plant.json",
+  "path": "ace/plants/hops_plant.json",
   "enabled": true,
   "id": "extratrees:hops_plant",
   "plant_name": "Hops",
@@ -59,14 +59,14 @@
     "render_type": "hash",
     "seed_texture": "extratrees:items/hops",
     "plant_textures": [
-      "harvestcraft:blocks/crops/hops_stage_0",
-      "harvestcraft:blocks/crops/hops_stage_0",
-      "harvestcraft:blocks/crops/hops_stage_0",
-      "harvestcraft:blocks/crops/hops_stage_1",
-      "harvestcraft:blocks/crops/hops_stage_1",
-      "harvestcraft:blocks/crops/hops_stage_2",
-      "harvestcraft:blocks/crops/hops_stage_2",
-      "harvestcraft:blocks/crops/hops_stage_3"
+      "brewcraft:blocks/crops/hops_stage_0",
+      "brewcraft:blocks/crops/hops_stage_0",
+      "brewcraft:blocks/crops/hops_stage_0",
+      "brewcraft:blocks/crops/hops_stage_1",
+      "brewcraft:blocks/crops/hops_stage_1",
+      "brewcraft:blocks/crops/hops_stage_2",
+      "brewcraft:blocks/crops/hops_stage_2",
+      "brewcraft:blocks/crops/hops_stage_3"
     ]
   }
 }
