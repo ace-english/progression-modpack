@@ -25,11 +25,6 @@
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
 [ ] Broken textures on twilight forest wood doors.
-[ ] hops
-	[x] add hops to agricraft
-	[x] add to market
-	[x] remove pam's hops
-	[ ] texture
 [ ] nutmeg
 	[ ] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
@@ -52,8 +47,11 @@ Saw an apple tree anyway
 two venison
 	pams, mystical world
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
+	I lowkey don't care about those Bibliocraft items and I think 
 [ ] bewitchment x agricraft
 [ ] clipboard needs a crafting recipie
+	paper, wooden slab, feather, ink? Like a book but without the leather.
+	Try shaped
 [ ] avocado saplings need to be removed
 [ ] juniper berries from witchery should be consolidated
 	[ ] add cropJuniperberry to bewitchment
@@ -66,6 +64,8 @@ Going to consider hiding all that repetitive shit in JEI
 	witchery, mystical world, BOP
 	[ ] Just need to disable spawning from two of them
 	Recipies good
+[ ] agricraft ender lily
+	black mystic agriculture flower ought to do it. Grow on end stone
 
 
 
@@ -117,3 +117,8 @@ closed issues
 [x] Crashed on a sheep rendering for some reason
 	was DSurround x animania, fixed module
 [x] pams crops only drop seeds when easy harvested
+[x] hops
+	[x] add hops to agricraft
+	[x] add to market
+	[x] remove pam's hops
+	[x] texture
