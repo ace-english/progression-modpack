@@ -103,4 +103,4 @@ closed issues
 	[x] premium meat
 [x] make terra moss somehow automatable
 	[x] agricraft-over cobblestone, use spores, use sme harvestcraft crop animation
-	[x] test it?
+	[x] test it? no.
