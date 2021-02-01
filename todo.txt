@@ -1,3 +1,8 @@
+TODO BEFORE RELEASE
+----------------
+Set up default options
+maybe a guide book?
+
 0.2 issues
 --------------------
 Saw an apple tree anyway
@@ -11,6 +16,10 @@ two venison
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 [ ] bewitchment x agricraft
 [ ] clipboard needs a crafting recipie
+[ ] avocado saplings need to be removed
+[ ] juniper berries from witchery should be consolidated
+Play with new dimensions and JED
+Going to consider hiding all that repetitive shit in JEI
 
 
 
@@ -18,9 +27,6 @@ Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 -----------------------------
 [x] alchohol oredict
 	[ ] forestry wine, brandy, liquor
-[ ] make terra moss somehow automatable
-	[ ] agricraft-over cobblestone, use spores, use sme harvestcraft crop animation
-	[ ] test it?
 [ ] consolidate forestry and pam's
 	[x] disable selected trees from world gen
 	[x] remove crafting recipies for selected seeds and saplings
@@ -83,7 +89,6 @@ closed issues
 	[x] disabled immersive engineering copper spawn
 	[x] disabled mystical world copper
 	[x] hidden in JEI
-
 [x] monster lunch
 	[x] just make a ordeidct entry for "meal" and require it in a recipie
 [x] string oredict hemp
@@ -96,3 +101,6 @@ closed issues
 [x] fix animania's ore dict entries
 	[x] milk - must be done by nbt data
 	[x] premium meat
+[x] make terra moss somehow automatable
+	[x] agricraft-over cobblestone, use spores, use sme harvestcraft crop animation
+	[x] test it?
