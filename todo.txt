@@ -51,6 +51,7 @@ Going to consider hiding all that repetitive shit in JEI
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
+[ ] Broken textures on twilight forest wood doors.
 
 [ ] hops
 	[x] add hops to agricraft
