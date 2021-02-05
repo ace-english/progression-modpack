@@ -30,8 +30,8 @@ Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
 craftable eggs has no recipies, cannot be configured
-[ ] Add Forestry fruit to ore dict, shipping bin
-	64 stacks
+[ ] Add Forestry fruit to ore dict, shipping bin?
+	64 stack
 Animania sucks
 	- nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
