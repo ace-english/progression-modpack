@@ -30,7 +30,6 @@ Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
 craftable eggs has no recipies, cannot be configured
-[ ] Bafflecap agricraft
 [ ] Add Forestry fruit to ore dict, shipping bin
 	64 stacks
 Animania sucks
@@ -154,3 +153,4 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 		cropJuniper
 		Death Protection Poppet: popper, diamond, juniperberry, heart
 		Juniper Tea: 3 juniper, sugar, bottle in cauldron
+[x] Bafflecap agricraft
