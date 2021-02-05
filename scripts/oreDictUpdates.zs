@@ -94,4 +94,14 @@ oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 val oreDictHoneycomb = <ore:honeycomb>;
 oreDictHoneycomb.add(<forestry:bee_combs>);
 oreDictHoneycomb.add(<harvestcraft:honeycombitem>);
-recipes.addShapeless(<harvestcraft:honeycomb>,[oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]);
+//these changes enable you to convert forestry honeycomb into pam's honeycomb. Am I cool with that? I think so
+recipes.remove(<forestry:bee_combs_0>);
+recipes.remove(<harvestcraft:honeycomb>);
+recipes.addShaped(<harvestcraft:honeycomb>,[
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
+]);
+
+//bee grubs as fish bait
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
