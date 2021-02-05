@@ -95,6 +95,3 @@ val oreDictHoneycomb = <ore:honeycomb>;
 oreDictHoneycomb.add(<forestry:bee_combs>);
 oreDictHoneycomb.add(<harvestcraft:honeycombitem>);
 recipes.addShapeless(<harvestcraft:honeycomb>,[oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]);
-
-//remove mystic book
-//mods.initialinventory.InvHandler.removeStartingItem("mystic encyclopedia", <item:mysticworld:apple>);
