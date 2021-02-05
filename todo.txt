@@ -5,8 +5,8 @@ too many bees
 		[x] don't count as sweetened
 	[x] two honey comb blocks
 		[x] ore dict, make one recipie
-	[ ] two honey combs
 	Oh god BOP made more
+		-they come from a fukken wasp nest in the nether, imma leave it be, like I usually do with wasp nests
 	animania bees produce fluid
 	pams bees produce honey and wax, not real fond of the way they work though
 	forestry bees make everything else
@@ -52,7 +52,8 @@ Going to consider hiding all that repetitive shit in JEI
 craftable eggs has no recipies, cannot be configured
 [ ] play with spells json
 [ ] Bafflecap agricraft
-Add Forestry fruit to ore dict, shipping bin
+[ ] Add Forestry fruit to ore dict, shipping bin
+	64 stacks
 Animania sucks
 	- nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
@@ -155,3 +156,4 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] mekanism
 [x] Bee grub for fish bait
 [x] agricraft ender lily
+[x] crystal crop
