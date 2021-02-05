@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:garlicitem",
+        "item": "bewitchment:garlic",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
