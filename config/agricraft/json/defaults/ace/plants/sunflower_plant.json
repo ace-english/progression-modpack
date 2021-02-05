@@ -1,5 +1,5 @@
 {
-  "path": "vanilla/plants/sunflower_plant.json",
+  "path": "ace/plants/sunflower_plant.json",
   "enabled": true,
   "id": "vanilla:sunflower_plant",
   "plant_name": "Sunflower",
@@ -57,16 +57,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:iteams/sunflowerseedsitem",
+    "seed_texture": "harvestcraft:items/sunflowerseedsitem",
     "plant_textures": [
-      "agricraft:blocks/crop_dandelion1",
-      "agricraft:blocks/crop_dandelion1",
-      "agricraft:blocks/crop_dandelion2",
-      "agricraft:blocks/crop_dandelion2",
-      "agricraft:blocks/crop_dandelion2",
-      "agricraft:blocks/crop_dandelion3",
-      "agricraft:blocks/crop_dandelion3",
-      "minecraft:blocks/sunflower"
+      "agricraft:blocks/crop_botania_yellow1",
+      "agricraft:blocks/crop_botania_yellow1",
+      "agricraft:blocks/crop_botania_yellow2",
+      "agricraft:blocks/crop_botania_yellow2",
+      "agricraft:blocks/crop_botania_yellow2",
+      "agricraft:blocks/crop_botania_yellow3",
+      "agricraft:blocks/crop_botania_yellow3",
+      "agricraft:blocks/crop_botania_yellow4"
     ]
   }
 }
