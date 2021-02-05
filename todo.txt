@@ -19,38 +19,17 @@ too many bees
 	[x] add allSpice to ground nutmeg
 [ ] achievements
 	[ ] Make a monster girl dinner
-Saw an apple tree anyway
 two venison
 	pams, mystical world
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 	I lowkey don't care about those Bibliocraft items
-[ ] bewitchment x agricraft
-	[ ] aconitum
-	[ ] belladonna
-	[ ] helleborn
-	[ ] mandrake
-	[ ] white sage
-	[ ] wormwood
-	[x] garlic
-		- add Grilled Garlic recipie - any garlic in bewitchment:witches_oven, secondary result bewitchment:cloudy_oil
-		- voodoo protection poppet: shapeless(bewitchment:poppet, cropGarlic, bewitchment:white_sage, ingotSilver)
-		nature's blessing ritual
-		[x] replaced crop yield from agricraft garlic to Bewitchment garlic
-	juniper
-		[x] remove Pam's juniper
-		found in incenses
-		cropJuniper
-		Death Protection Poppet: popper, diamond, juniperberry, heart
-		Juniper Tea: 3 juniper, sugar, bottle in cauldron
 [ ] Binnie's missing fluids
 	[ ] gin - cropJuniper (juniper juice first?)
 	[ ] rum
 Play with new dimensions and JED
-Going to consider hiding all that repetitive shit in JEI
 [ ] Set up default options
 [ ] maybe a guide book?
 craftable eggs has no recipies, cannot be configured
-[ ] play with spells json
 [ ] Bafflecap agricraft
 [ ] Add Forestry fruit to ore dict, shipping bin
 	64 stacks
@@ -61,18 +40,15 @@ Animania sucks
 almond milk?
 [ ] remove chisel from JEI?
 
-/* "parent1": "vanilla:blue_orchid_plant",
- "parent2": "resource:quartzanthemum_plant"*/
-
 Build a starting area with book dispensers
 	Misc
 		Universal Bestiary
 		Food Book
 		Skill Book
-		World
 	Argiculture
 		-Forester's Manual
 		-Animania Manual
+		-Agricultural Journal
 	Magic
 		-Druidic Arts
 		-Book of Shadows
@@ -82,6 +58,9 @@ Build a starting area with book dispensers
 		-Materials and You - Armour Addendum
 		-Engineer's Manual
 		-open computers manual
+		-Xnet manual
+	Adventure
+		-Traveler's Logbook
 
 
 closed issues
@@ -157,3 +136,21 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 [x] Bee grub for fish bait
 [x] agricraft ender lily
 [x] crystal crop
+[x] bewitchment x agricraft
+	[x] aconitum
+	[x] belladonna
+	[x] helleborn
+	[x] mandrake
+	[x] white sage
+	[x] wormwood
+	[x] garlic
+		- add Grilled Garlic recipie - any garlic in bewitchment:witches_oven, secondary result bewitchment:cloudy_oil
+		- voodoo protection poppet: shapeless(bewitchment:poppet, cropGarlic, bewitchment:white_sage, ingotSilver)
+		nature's blessing ritual
+		[x] replaced crop yield from agricraft garlic to Bewitchment garlic
+	juniper
+		[x] remove Pam's juniper
+		found in incenses
+		cropJuniper
+		Death Protection Poppet: popper, diamond, juniperberry, heart
+		Juniper Tea: 3 juniper, sugar, bottle in cauldron
