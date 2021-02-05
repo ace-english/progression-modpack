@@ -37,7 +37,6 @@ Animania sucks
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use well
 almond milk?
-[ ] remove chisel from JEI?
 
 Build a starting area with book dispensers
 	Misc
@@ -154,3 +153,4 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 		Death Protection Poppet: popper, diamond, juniperberry, heart
 		Juniper Tea: 3 juniper, sugar, bottle in cauldron
 [x] Bafflecap agricraft
+[x] remove chisel from JEI
