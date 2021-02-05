@@ -1,0 +1,72 @@
+{
+  "path": "ace/plants/enderlily_plant.json",
+  "enabled": true,
+  "id": "ace:enderlily_plant",
+  "plant_name": "Enderlily",
+  "seed_name": "Ender Seeds",
+  "seed_items": [
+    {
+      "item": "endercrop:ender_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "This crop has an otherworldly glint about it. Grows on end stone in low light conditions. Yields ender pearls"
+  },
+  "growth_chance": 0.5,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.9,
+        "required": true,
+        "item": "minecraft:ender_pearl",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 1,
+    "max_light": 10,
+    "soils": [
+      "end_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "endercrop:items/ender_seeds",
+    "plant_textures": [
+      "endercrop:blocks/ender_crop_stage0",
+      "endercrop:blocks/ender_crop_stage1",
+      "endercrop:blocks/ender_crop_stage2",
+      "endercrop:blocks/ender_crop_stage3",
+      "endercrop:blocks/ender_crop_stage4",
+      "endercrop:blocks/ender_crop_stage5",
+      "endercrop:blocks/ender_crop_stage6",
+      "endercrop:blocks/ender_crop_stage7"
+    ]
+  }
+}

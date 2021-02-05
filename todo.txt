@@ -49,7 +49,6 @@ Play with new dimensions and JED
 Going to consider hiding all that repetitive shit in JEI
 [ ] Set up default options
 [ ] maybe a guide book?
-[ ] agricraft ender lily
 craftable eggs has no recipies, cannot be configured
 [ ] play with spells json
 [ ] Bafflecap agricraft
@@ -155,3 +154,4 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] disabled mystical world copper
 	[x] mekanism
 [x] Bee grub for fish bait
+[x] agricraft ender lily
