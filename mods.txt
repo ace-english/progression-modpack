@@ -7,6 +7,7 @@ AppleSkin
 Armor Toughness Bar
 Armory Expansion
 Aroma1997s Dimensional World
+AstikorCarts [Horse Carts]
 Baubles
 Bed patch
 Better Advancements
@@ -17,37 +18,39 @@ Biomes o Plenty
 Blockcraftery
 Bonsai Trees 2
 Bookshelf
+------ All good to here.
 Career Bees
 Carry On
 Ceramics
-Chisel
+Chisel - New
 Chisels n bits
-Clumps
+Clumps - New
 Colytra (normal variant)
 Comforts
-Common Capabilities
-Compact Machines
-Composter
+Common Capabilities - New
+Compact Machines - New
+Canny Composter
 Construct's Armory
 Cooking for Blockheads
-CraftTweaker
+CraftTweaker - New
 Craftable Elytra
 Craftable Spawn Egg
-Crafting Tweaks
+Craftable Horse Armour & Saddle
+Crafting Tweaks - New
 Culinary construct
-Custom Main Menu
+Custom Main Menu - New
 Default Options
 Diet hoppers
 Ding
-Dirt2Path
+Dirt2Path - New
 DiscordSuite
-Draconic Evolution
-Dude! Where's my Horse?
+Draconic Evolution - New
+Dude! Where's my Horse? - New
 Dynamic Surroundings
+------ All good to go here.
 Enchantment Descriptions
-Engineer's Doors
-Extra Rails
-Extra Utilities
+Engineer's Doors - NEW
+Extra Rails - NEW (Seems to have some functionality issues with teleportation rails. Might be non-usable?)
 ExtraTiC
 FPS Reducer
 FTB Backups
@@ -59,16 +62,19 @@ FastWorkbench
 FoamFix​
 Forestry
 Fullscreen Windowed
-Grappling hook
-Grimoire of Gaia
+Grappling hook mod - NEW
+Grimoire of Gaia - NEW
 Guidebook
+------ All good to go here.
 HWYLA
 HelpFixer
 Horse Stats
-Horse Tweaks
+Horse Tweaks --- Can't find this?
 Hunting Dimension
-Immersive Petroleum
-Immersive engineering
+Immersive Cables
+Immersive Petroleum - NEW
+Immersive Engineering
+Immersive Tech
 Industrial Foregoing
 Initial Inventory
 Inventory Tweaks
@@ -77,16 +83,18 @@ JEI
 JEI Integration
 JEI Villagers
 JourneyMap
-JourneyMap (by techbrew)
 Just Enough Dimensions
-Just Enough Energistics
+Just Enough Energistics <--- CUT
 Just Enough Items
 Just Enough Petroleum
 Just Enough Resources
 Just Enough Throwing In Fluids
+Just Enough Brewcraft
+Just Enough ID's
 Just sleep
 KleeSlabs
-Level Up
+Level Up - NEW
+------
 Macaw's Bridges
 MalisisDoors
 Mekanism
