@@ -37,7 +37,8 @@ Animania sucks
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use well
 almond milk?
-[ ] remove chisel from JEI?
+[x] remove chisel from JEI
+[ ] horse armor and saddle recipies
 
 Build a starting area with book dispensers
 	Misc
