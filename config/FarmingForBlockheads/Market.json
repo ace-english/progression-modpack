@@ -59,6 +59,7 @@
     "harvestcraft:grapefruit_sapling",
     "harvestcraft:hazelnut_sapling",
     "harvestcraft:lemon_sapling",
+    "harvestcraft:avocado_sapling",
     "harvestcraft:lime_sapling",
     "harvestcraft:mango_sapling",
     "harvestcraft:nutmeg_sapling",
@@ -76,6 +77,7 @@
     "harvestcraft:hops_seed",
     "harvestcraft:elderberry_seed",
     "harvestcraft:cranberry_seed",
+    "harvestcraft:juniperberry_seed",
     "harvestcraft:raspberry_seed"
   ],
   "custom entries": {
@@ -98,7 +100,19 @@
     "animania:entity_egg_foal_draft": "2*minecraft:emerald",
     "extratrees:hops": "1*minecraft:emerald",
     "minecraft:lead": "1*minecraft:emerald",
+    "bewitchment:aconitum_seeds": "1*minecraft:emerald",
+    "bewitchment:belladonna_seeds": "1*minecraft:emerald",
+    "bewitchment:hellebore_seeds": "1*minecraft:emerald",
+    "bewitchment:mandrake_seeds": "1*minecraft:emerald",
+    "bewitchment:white_sage_seeds": "1*minecraft:emerald",
+    "bewitchment:wormwood_seeds": "1*minecraft:emerald",
+    "bewitchment:cypress_sapling": "2*minecraft:emerald",
+    "bewitchment:elder_sapling": "2*minecraft:emerald",
+    "bewitchment:juniper_sapling": "2*minecraft:emerald",
     "harvestcraft:queenbeeitem": "2*minecraft:emerald",
+    "quark:variant_sapling:0": "2*minecraft:emerald",
+    "quark:variant_sapling:1": "2*minecraft:emerald",
+    "mysticalworld:aubergine_seed": "1*minecraft:emerald",
     "harvestcraft:sunflowerseedsitem": "1*minecraft:emerald"
   }
 }

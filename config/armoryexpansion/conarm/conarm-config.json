@@ -15,6 +15,35 @@
       "enableProjectile": false
     },
     "name": "xu_demonic_metal",
+<<<<<<< HEAD
+=======
+    "material": true,
+    "fluid": true,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+    "name": "knightmetal",
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
     "material": true,
     "fluid": true,
     "traits": true,
@@ -92,7 +121,10 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+<<<<<<< HEAD
     "name": "chaotic_plustic",
+=======
+    "name": "xu_magical_wood",
     "material": true,
     "fluid": false,
     "traits": true,
@@ -118,7 +150,38 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+    "name": "nagascale",
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+<<<<<<< HEAD
     "name": "fierymetal",
+=======
+    "name": "xu_evil_metal",
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
     "material": true,
     "fluid": true,
     "traits": true,
@@ -196,6 +259,7 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+<<<<<<< HEAD
     "name": "malachite_gem",
     "material": true,
     "fluid": false,
@@ -251,6 +315,11 @@
     "name": "amethyst",
     "material": true,
     "fluid": false,
+=======
+    "name": "xu_enchanted_metal",
+    "material": true,
+    "fluid": true,
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
     "traits": true,
     "armorOptions": {
       "enableArmor": true,

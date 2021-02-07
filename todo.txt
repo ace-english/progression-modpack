@@ -1,25 +1,12 @@
-[ ] Set up default options
-[ ] maybe a guide book?
 [x] alchohol oredict
 	[ ] forestry wine, brandy, liquor
-[ ] consolidate forestry and pam's
-	[x] disable selected trees from world gen
-	[x] remove crafting recipies for selected seeds and saplings
-	[x] update market features
-	[x] hide in JEI
-	[ ] seeds?
-		[x] remove from garden drops
-		[ ] remove from market
-		[x] remove agricraft crops
-		[x] remove agricraft recipies
-		[ ] remove from JEI
-[ ] too many bees
+too many bees
 	Pam's bee spawning can be disabled in the harvestcraft config
 		[x] don't count as sweetened
-	[ ] two honey comb blocks
-		[ ] ore dict, make one recipie
-	[ ] two honey combs
+	[x] two honey comb blocks
+		[x] ore dict, make one recipie
 	Oh god BOP made more
+		-they come from a fukken wasp nest in the nether, imma leave it be, like I usually do with wasp nests
 	animania bees produce fluid
 	pams bees produce honey and wax, not real fond of the way they work though
 	forestry bees make everything else
@@ -27,53 +14,58 @@
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
 [ ] Broken textures on twilight forest wood doors.
-[ ] hops
-	[x] add hops to agricraft
-	[x] add to market
-	[x] remove pam's hops
-	[ ] texture
 [ ] nutmeg
 	[ ] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
-[x] grow sunflowers
-	[x] dandelion x sugar
-	[x] add to market
-[x] nutrition mod?
-	[x] turn up pams?
 [ ] achievements
 	[ ] Make a monster girl dinner
-Tweaking the spread rate seems to have fixed Agricraft, but...
-	[ ] sunflowers missing texture
-	[ ] Can we make our own plant texture? If so, could make some improvements
-	[x] bitch, I have fixed 
-	[x] CROPS GROW A LITTLE FAST NOW
-Saw an apple tree anyway
-[ ] many silver ore
-	mystical world, immersive engineering, and bewitchment
 two venison
 	pams, mystical world
-[x] Crashed on a sheep rendering for some reason
-	was DSurround x animania, fixed module
-[x] pams crops only drop seeds when easy harvested
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
-[ ] bewitchment x agricraft
-[ ] clipboard needs a crafting recipie
-[ ] avocado saplings need to be removed
-[ ] juniper berries from witchery should be consolidated
+	I lowkey don't care about those Bibliocraft items
+[ ] Binnie's missing fluids
+	[ ] gin - cropJuniper (juniper juice first?)
+	[ ] rum
 Play with new dimensions and JED
-Going to consider hiding all that repetitive shit in JEI
+[ ] Set up default options
+[ ] maybe a guide book?
+craftable eggs has no recipies, cannot be configured
+[ ] Add Forestry fruit to ore dict, shipping bin
+	64 stacks
+Animania sucks
+	- nothing drops fey leather
+	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
+	- won't use trough but will use well
+almond milk?
+[ ] remove chisel from JEI?
 
 Build a starting area with book dispensers
+	Misc
+		Universal Bestiary
+		Food Book
+		Skill Book
+	Argiculture
+		-Forester's Manual
+		-Animania Manual
+		-Agricultural Journal
+	Magic
+		-Druidic Arts
+		-Book of Shadows
+		-Wizard's Handbook
+	Engineering
+		-Materials and You
+		-Materials and You - Armour Addendum
+		-Engineer's Manual
+		-open computers manual
+		-Xnet manual
+	Adventure
+		-Traveler's Logbook
+
 
 closed issues
 --------------------
 [x] agricraft flowers drop flower not dye?
 	https://agridocs.readthedocs.io/en/latest/agri_plant/
-[?] three copper ores
-	unidict should have solved this but there are still some issues - 2 copper ores??
-	[x] disabled immersive engineering copper spawn
-	[x] disabled mystical world copper
-	[x] hidden in JEI
 [x] monster lunch
 	[x] just make a ordeidct entry for "meal" and require it in a recipie
 [x] string oredict hemp
@@ -91,3 +83,74 @@ closed issues
 	[x] test it? no.
 [x] animania eggs to market
 [x] remove harvestcraft market
+[x] Crashed on a sheep rendering for some reason
+	was DSurround x animania, fixed module
+[x] pams crops only drop seeds when easy harvested
+[x] hops
+	[x] add hops to agricraft
+	[x] add to market
+	[x] remove pam's hops
+	[x] texture
+[x] nutrition mod?
+	[x] turn up pams?
+[x] Unify amethyst
+	witchery, mystical world, BOP
+	[x] disabled witchery
+	[x] disabled mystical world
+	Recipies good
+[x] many silver ore
+	mystical world, immersive engineering, and bewitchment
+	[x] IE disabled
+	[x] bewitchment disabled
+Tweaking the spread rate seems to have fixed Agricraft, but...
+	[x] sunflowers missing texture
+	[x] bitch, I have fixed 
+	[x] CROPS GROW A LITTLE FAST NOW
+[x] clipboard needs a crafting recipie
+[x] grow sunflowers
+	[x] dandelion x sugar
+	[x] add to market
+	[x] texture broken
+[x] consolidate forestry and pam's
+	[x] disable selected trees from world gen
+	[x] remove crafting recipies for selected seeds and saplings
+	[x] update market features
+	[x] hide in JEI
+	[x] seeds?
+		[x] remove from garden drops
+		[x] remove from market
+		[x] remove agricraft crops
+		[x] remove agricraft recipies
+		[x] remove from JEI
+[x] avocado saplings need to be removed
+	[x] market
+[x] too much salt
+	[x] mekanism disabled
+	[x] bewitchment disabled
+[x] copper ores
+	unidict should have solved this but there are still some issues - 2 copper ores??
+	[x] disabled immersive engineering copper spawn
+	[x] disabled mystical world copper
+	[x] mekanism
+[x] Bee grub for fish bait
+[x] agricraft ender lily
+[x] crystal crop
+[x] bewitchment x agricraft
+	[x] aconitum
+	[x] belladonna
+	[x] helleborn
+	[x] mandrake
+	[x] white sage
+	[x] wormwood
+	[x] garlic
+		- add Grilled Garlic recipie - any garlic in bewitchment:witches_oven, secondary result bewitchment:cloudy_oil
+		- voodoo protection poppet: shapeless(bewitchment:poppet, cropGarlic, bewitchment:white_sage, ingotSilver)
+		nature's blessing ritual
+		[x] replaced crop yield from agricraft garlic to Bewitchment garlic
+	juniper
+		[x] remove Pam's juniper
+		found in incenses
+		cropJuniper
+		Death Protection Poppet: popper, diamond, juniperberry, heart
+		Juniper Tea: 3 juniper, sugar, bottle in cauldron
+[x] Bafflecap agricraft

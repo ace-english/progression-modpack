@@ -11,6 +11,9 @@ import mods.jei.JEI;
 //apricot
 recipes.removeShapeless(<harvestcraft:apricot_sapling>, [<harvestcraft:apricotitem>,<harvestcraft:apricotitem>,<harvestcraft:apricotitem>,<ore:treeSapling>]);
 
+//avocado
+recipes.removeShapeless(<harvestcraft:avocado_sapling>, [<harvestcraft:avocadoitem>,<harvestcraft:avocadoitem>,<harvestcraft:avocadoitem>,<ore:treeSapling>]);
+
 //apple
 recipes.removeShapeless(<harvestcraft:apple_sapling>, [<minecraft:apple>,<minecraft:apple>,<minecraft:apple>,<ore:treeSapling>]);
 

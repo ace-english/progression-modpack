@@ -23,6 +23,7 @@
   },
   {
     "coreMaterialStats": {
+<<<<<<< HEAD
       "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
@@ -45,6 +46,8 @@
   },
   {
     "coreMaterialStats": {
+=======
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
       "durability": 42.0,
       "defense": 27.0,
       "materialType": "core"
@@ -89,8 +92,35 @@
   },
   {
     "coreMaterialStats": {
+<<<<<<< HEAD
       "durability": 33.0,
       "defense": 29.7,
+=======
+      "durability": 1.0,
+      "defense": 9.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.68,
+      "modifier": 21.17647,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.68,
+      "materialType": "trim"
+    },
+    "identifier": "xu_magical_wood",
+    "color": -131160,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 19.350002,
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
       "materialType": "core"
     },
     "platesMaterialStats": {
@@ -105,6 +135,28 @@
     },
     "identifier": "fierymetal",
     "color": -142243,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 31.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.3919997,
+      "modifier": 21.17647,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.3919997,
+      "materialType": "trim"
+    },
+    "identifier": "xu_evil_metal",
+    "color": -131160,
     "type": "METAL",
     "castable": true,
     "craftable": false
@@ -155,6 +207,7 @@
   },
   {
     "coreMaterialStats": {
+<<<<<<< HEAD
       "durability": 30.0,
       "defense": 27.45,
       "materialType": "core"
@@ -206,10 +259,20 @@
     "platesMaterialStats": {
       "durability": 11.2,
       "modifier": 31.764706,
+=======
+      "durability": 16.0,
+      "defense": 15.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 23.294117,
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
       "toughness": 0.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
+<<<<<<< HEAD
       "extraDurability": 11.2,
       "materialType": "trim"
     },
@@ -218,6 +281,16 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+=======
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "xu_enchanted_metal",
+    "color": -4197792,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
   },
   {
     "coreMaterialStats": {

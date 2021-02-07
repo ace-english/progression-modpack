@@ -1,0 +1,8 @@
+{
+  "path": "ace/mutations/enderlily_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "ace:enderlily_plant",
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "resource:quartzanthemum_plant"
+}

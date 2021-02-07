@@ -1,8 +1,0 @@
-{
-  "path": "vanilla/mutations/sunflower_mutation.json",
-  "enabled": true,
-  "chance": 0.75,
-  "child": "vanilla:sunflower_plant",
-  "parent1": "vanilla:dandelion_plant",
-  "parent2": "vanilla:sugarcane_plant"
-}
