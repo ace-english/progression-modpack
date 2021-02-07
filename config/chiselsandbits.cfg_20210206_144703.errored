@@ -163,7 +163,9 @@ crafting {
     B:knightminer.ceramics.blocks.BlockClayRainbow=true
     B:knightminer.ceramics.blocks.BlockClaySoft=true
     B:knightminer.ceramics.blocks.BlockStained=true
+<<<<<<< HEAD
     B:landmaster.plustic.block.MetalBlock=true
+=======
     B:li.cil.oc.common.block.ChameliumBlock=true
     B:li.cil.oc.common.block.FakeEndstone=true
     B:mcjty.xnet.blocks.redstoneproxy.RedstoneProxyBlock=true
@@ -172,6 +174,7 @@ crafting {
     B:mekanism.common.block.BlockOre=true
     B:mekanism.common.block.BlockPlastic=true
     B:mekanism.common.block.BlockSalt=true
+>>>>>>> d4754101e0de70daddc80f3b632d662eb3c1fe0d
     B:net.blay09.mods.cookingforblockheads.block.BlockKitchenFloor=true
     B:net.malisis.doors.block.RustyLadder=true
     B:net.minecraft.block.Block=true
