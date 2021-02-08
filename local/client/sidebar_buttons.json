@@ -9,7 +9,7 @@
 		"toggle.rain": true,
 		"toggle.day": true,
 		"toggle.night": true,
-		"heal": true,
+		"heal": false,
 		"claimed_chunks": true,
 		"trash_can": true,
 		"leaderboards": true
