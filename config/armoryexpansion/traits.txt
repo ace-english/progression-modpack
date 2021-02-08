@@ -21,6 +21,7 @@
   "hellish",
   "superhot_armor",
   "thundering",
+  "slimey_pink",
   "veiled",
   "heavy",
   "cheap_armor",
