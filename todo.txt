@@ -33,12 +33,13 @@ craftable eggs has no recipies, cannot be configured
 [ ] Add Forestry fruit to ore dict, shipping bin?
 	64 stack
 Animania sucks
-	- nothing drops fey leather
+	[ ] nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
-	- won't use trough but will use well
+	- won't use trough but will use source blocks
 almond milk?
 [x] remove chisel from JEI
 [ ] horse armor and saddle recipies
+[ ] spicy nutriton?
 
 Build a starting area with book dispensers
 	Misc
@@ -59,6 +60,7 @@ Build a starting area with book dispensers
 		-Engineer's Manual
 		-open computers manual
 		-Xnet manual
+		-Nuclearcraft Guide
 	Adventure
 		-Traveler's Logbook
 
