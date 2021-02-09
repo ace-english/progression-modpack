@@ -13,7 +13,6 @@ too many bees
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
-[x] Broken textures on twilight forest wood doors.
 [ ] nutmeg
 	[ ] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
@@ -169,3 +168,4 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] tweak threshold
 	[x] localization
 	[x] remove spicy stuff from veggie nutrition
+[x] Broken textures on twilight forest wood doors.
