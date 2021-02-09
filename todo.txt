@@ -29,7 +29,6 @@ Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
 craftable eggs has no recipies, cannot be configured
-[ ] Add Forestry fruit to ore dict, shipping bin?
 	64 stack
 Animania sucks
 	[ ] nothing drops fey leather
@@ -37,10 +36,6 @@ Animania sucks
 	- won't use trough but will use source blocks
 	[ ] adjust roots summonings?
 almond milk?
-[ ] crab meat
-	[ ] add recipie
-	[ ] ore dict update
-	[ ] imitation crab meat recipie
 [ ] no more polished stone rocks
 [ ] special item by request
 
@@ -169,3 +164,7 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] localization
 	[x] remove spicy stuff from veggie nutrition
 [x] Broken textures on twilight forest wood doors.
+[x] crab meat
+	[x] add recipie
+	[x] ore dict update
+	[x] imitation crab meat recipie
