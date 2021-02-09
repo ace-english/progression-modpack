@@ -38,8 +38,19 @@ Animania sucks
 	- won't use trough but will use source blocks
 almond milk?
 [x] remove chisel from JEI
-[ ] horse armor and saddle recipies
+[x] horse armor and saddle recipies
 [ ] spicy nutriton?
+	[x] tweak threshold
+	[ ] localization
+	[ ] remove spicy stuff from veggie nutrition
+[ ] crab meat
+	[ ] add recipie
+	[ ] ore dict update
+	[ ] update quark drops table?
+	[ ] imitation crab meat recipie
+[ ] no more polished stone rocks
+[ ] special item by request
+
 
 Build a starting area with book dispensers
 	Misc
