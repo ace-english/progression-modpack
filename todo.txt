@@ -38,7 +38,7 @@ Animania sucks
 	- won't use trough but will use well
 almond milk?
 [x] remove chisel from JEI
-[ ] horse armor and saddle recipies
+[ ] horse armor and saddle recipies - Load error about gold helmet and leggings?
 
 Build a starting area with book dispensers
 	Misc
