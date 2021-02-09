@@ -1,0 +1,14 @@
+{
+	"name": "spice_tolerance",
+	"potion": "minecraft:fire_resistance",
+	"amplifier": 0,
+	"minimum": 95,
+	"maximum": 100,
+	"detect": "any",
+	"nutrients": [
+		"spicy"
+	],
+	"cumulative_modifier": 1,
+	"particles": "transparent",
+	"enabled": true
+}

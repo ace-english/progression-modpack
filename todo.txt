@@ -13,7 +13,7 @@ too many bees
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
-[ ] Broken textures on twilight forest wood doors.
+[x] Broken textures on twilight forest wood doors.
 [ ] nutmeg
 	[ ] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
@@ -36,17 +36,11 @@ Animania sucks
 	[ ] nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
+	[ ] adjust roots summonings?
 almond milk?
-[x] remove chisel from JEI
-[x] horse armor and saddle recipies
-[ ] spicy nutriton?
-	[x] tweak threshold
-	[ ] localization
-	[ ] remove spicy stuff from veggie nutrition
 [ ] crab meat
 	[ ] add recipie
 	[ ] ore dict update
-	[ ] update quark drops table?
 	[ ] imitation crab meat recipie
 [ ] no more polished stone rocks
 [ ] special item by request
@@ -169,3 +163,9 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 		Juniper Tea: 3 juniper, sugar, bottle in cauldron
 [x] Bafflecap agricraft
 [x] remove chisel from JEI
+[x] remove chisel from JEI
+[x] horse armor and saddle recipies
+[x] spicy nutriton
+	[x] tweak threshold
+	[x] localization
+	[x] remove spicy stuff from veggie nutrition
