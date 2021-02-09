@@ -1,0 +1,43 @@
+{
+	"name": "spicy",
+	"icon": "minecraft:blaze_powder",
+	"color": "ff0000",
+	"decay": 2.5,
+	"visible": true,
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"cropChilipepper"
+		],
+		"items": [
+			"harvestcraft:stuffedchilipeppersitem",
+			"harvestcraft:pepperjellyitem",
+			"harvestcraft:pepperjellyandcrackersitem",
+			"harvestcraft:peanutsoupitem",
+			"harvestcraft:padthaiitem",
+			"harvestcraft:generaltsochickenitem",
+			"harvestcraft:extremechiliitem",
+			"harvestcraft:enchiladaitem",
+			"harvestcraft:enchiladaitem",
+			"harvestcraft:deluxnachositem",
+			"harvestcraft:curryitem",
+			"harvestcraft:chilipoppersitem",
+			"harvestcraft:chilidonutitem",
+			"harvestcraft:chilicupcakeitem",
+			"harvestcraft:chickencurryitem",
+			"harvestcraft:deluxechickencurryitem",
+			"harvestcraft:baconwrappedchiliitem",
+			"harvestcraft:ghostpepperabsintheitem",
+			"harvestcraft:vindalooitem",
+			"harvestcraft:paneertikkamasalaitem",
+			"harvestcraft:kimchiitem",
+			"harvestcraft:okracreoleitem",
+			"harvestcraft:chorizoitem",
+			"harvestcraft:sardinesinhotsauceitem",
+			"harvestcraft:netherwingsitem",
+			"harvestcraft:hotwingsitem",
+			"harvestcraft:creeperwingsitem",
+			"harvestcraft:gumboitem"
+		]
+	}
+}
