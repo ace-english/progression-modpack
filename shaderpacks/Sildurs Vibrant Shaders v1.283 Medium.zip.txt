@@ -1,13 +1,11 @@
-#Tue Feb 09 15:02:36 PST 2021
-Adaptive_sharpening=true
+#Tue Feb 09 15:47:13 PST 2021
 animationSpeed=0.5
 Depth_of_Field=true
-Distance_Blur=true
-DoF_Strength=120
 Lens_Flares=true
 metallicRefl=true
 morningFog=true
 nMap=1
+Penumbra=true
 polishedRefl=true
 RainReflections=true
 shadowMapResolution=2048
