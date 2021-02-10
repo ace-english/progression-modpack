@@ -39,7 +39,6 @@ almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
 
-
 Build a starting area with book dispensers
 	Misc
 		Universal Bestiary
@@ -156,7 +155,6 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 		Death Protection Poppet: popper, diamond, juniperberry, heart
 		Juniper Tea: 3 juniper, sugar, bottle in cauldron
 [x] Bafflecap agricraft
-[x] remove chisel from JEI
 [x] remove chisel from JEI
 [x] horse armor and saddle recipies
 [x] spicy nutriton
