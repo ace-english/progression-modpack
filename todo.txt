@@ -41,6 +41,9 @@ almond milk?
 Jakob's Requests:
 [ ] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
 [ ] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
+Missing Textures: ( ) Item - Mod
+[ ] Vertical Air - DoubleSlabs
+[ ] Doors x3 - Twilight Forest
 
 Build a starting area with book dispensers
 	Misc
