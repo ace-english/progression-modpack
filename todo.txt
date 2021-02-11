@@ -13,9 +13,6 @@ too many bees
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
-[ ] nutmeg
-	[ ] remove listAllSpice from nutmeg(must be ground first)
-	[x] add allSpice to ground nutmeg
 [ ] achievements
 	[ ] Make a monster girl dinner
 two venison
@@ -35,6 +32,11 @@ Animania sucks
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
 	[ ] adjust roots summonings?
+Roosts rituals
+	[ ] animania
+	[ ] quark crab
+	[ ] bewitchment
+[ ] betwitchment owls only
 almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
@@ -166,3 +168,6 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] add recipie
 	[x] ore dict update
 	[x] imitation crab meat recipie
+[x] nutmeg
+	[x] remove listAllSpice from nutmeg(must be ground first)
+	[x] add allSpice to ground nutmeg
