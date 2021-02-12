@@ -11,10 +11,10 @@ recipes.addShapeless("Voodoo Protection Poppet", <bewitchment:poppet_voodooprote
 //add juniper to ore dict for recipies
 <ore:cropJuniper>.add(<bewitchment:juniper_berries>);
 <ore:listAllfruit>.add(<bewitchment:juniper_berries>);
-<ore:listAllberries>.add(<bewitchment:juniper_berries>);
+<ore:listAllberry>.add(<bewitchment:juniper_berries>);
 
 //add elderberries to ore dict for recipies
-<ore:listAllberries>.add(<bewitchment:elderberries>);
+<ore:listAllberry>.add(<bewitchment:elderberries>);
 <ore:listAllfruit>.add(<bewitchment:elderberries>);
 <ore:cropElderberry>.add(<bewitchment:elderberries>);
 
@@ -32,7 +32,8 @@ SummonCreatures.addLifeEssence(<entity:bewitchment:snake>);
 Pacifist.addEntity(<entity:bewitchment:snake>);
 
 //toad
-SummonCreatures.addEntity(<entity:bewitchment:toad>, [<minecraft:spider_eye>, <ore:lilypad>]);
+//SummonCreatures.addEntity(<entity:bewitchment:toad>, [<minecraft:spider_eye>, <ore:lilypad>]);
+SummonCreatures.addEntity(<entity:bewitchment:toad>, [<minecraft:spider_eye>, <minecraft:waterlily>]);
 SummonCreatures.addLifeEssence(<entity:bewitchment:toad>);
 Pacifist.addEntity(<entity:bewitchment:toad>);
 
