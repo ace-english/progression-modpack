@@ -10,7 +10,7 @@ too many bees
 	animania bees produce fluid
 	pams bees produce honey and wax, not real fond of the way they work though
 	forestry bees make everything else
-	[ ] add bop honeycomb to presser
+	[ ] add bop honeycomb to presser?
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[x] mystic world book needs to go
@@ -25,30 +25,16 @@ Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 	[ ] rum
 Play with new dimensions and JED
 craftable eggs has no recipies, cannot be configured
-	64 stack
-Animania sucks
-	[ ] nothing drops fey leather
-	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
-	- won't use trough but will use source blocks
-Roosts rituals
-	[x] animania
-	[x] quark crab
-	[x] bewitchment
-	[ ] animal harvest
 almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
 Jakob's Requests:
-[ ] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
-[ ] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
 [ ] Steel Trapdoor from Engineers doors won't open?
-[ ] Remove prop items from Grimoir of Gaia from JEI.
 [ ] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 2x lead
 Missing Textures: ( ) Item - Mod
 [ ] Vertical Air - DoubleSlabs
-[ ] Doors x3 - Twilight Forest
 
-Final must have items:
+Final items:
 [ ] Set up default options
 [ ] maybe a guide book?
 [ ] Menu?
@@ -186,3 +172,16 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] add allSpice to ground nutmeg
 [x] betwitchment owls only
 [x] betwitchment toads only
+Animania sucks
+	[x] nothing drops fey leather
+	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
+	- won't use trough but will use source blocks
+Roosts rituals
+	[x] animania
+	[x] quark crab
+	[x] bewitchment
+	[x] animal harvest
+[x] Doors x3 - Twilight Forest
+[x] Remove prop items from Grimoir of Gaia from JEI.
+[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
+[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
