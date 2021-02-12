@@ -1,3 +1,5 @@
+import mods.roots.SummonCreatures;
+
 recipes.addShapeless("imitation_crab", <harvestcraft:imitationcrabsticksitem>, [<ore:listAllfishraw>,<minecraft:dye:9>, <ore:foodSalt>, <ore:listAllegg>]);
 val oreDictCrab=<ore:foodCrabRaw>;
 oreDictCrab.add(<harvestcraft:imitationcrabsticksitem>);
@@ -8,3 +10,7 @@ val oreDictCookedCrab=<ore:foodCrabcooked>;
 oreDictCookedCrab.add(<quark:cooked_crab_leg>);
 
 furnace.addRecipe(<quark:cooked_crab_leg>, <harvestcraft:imitationcrabsticksitem>);
+
+//roots summon
+SummonCreatures.addEntity(<entity:quark:crab>, [<ore:foodCrabRaw>, <minecraft:sand>]);
+SummonCreatures.addLifeEssence(<entity:quark:crab>);
