@@ -25,27 +25,31 @@ SummonCreatures.addEntity(<entity:bewitchment:owl>, [<ore:feather>, <ore:cropEld
 SummonCreatures.removeEntity(<entity:mysticalworld:entity_owl>);
 SummonCreatures.removeLifeEssence(<entity:mysticalworld:entity_owl>);
 Pacifist.addEntity(<entity:bewitchment:owl>);
+AnimalHarvest.addEntity(<entity:bewitchment:owl>);
 
 //snake
 SummonCreatures.addEntity(<entity:bewitchment:snake>, [<ore:string>, <bewitchment:belladonna>]);
 SummonCreatures.addLifeEssence(<entity:bewitchment:snake>);
 Pacifist.addEntity(<entity:bewitchment:snake>);
+AnimalHarvest.addEntity(<entity:bewitchment:snake>);
 
 //toad
-//SummonCreatures.addEntity(<entity:bewitchment:toad>, [<minecraft:spider_eye>, <ore:lilypad>]);
 SummonCreatures.addEntity(<entity:bewitchment:toad>, [<minecraft:spider_eye>, <minecraft:waterlily>]);
 SummonCreatures.addLifeEssence(<entity:bewitchment:toad>);
 Pacifist.addEntity(<entity:bewitchment:toad>);
+AnimalHarvest.addEntity(<entity:bewitchment:toad>);
 
 //lizard
 SummonCreatures.addEntity(<entity:bewitchment:lizard>, [<minecraft:spider_eye>, <bewitchment:wormwood>]);
 SummonCreatures.addLifeEssence(<entity:bewitchment:lizard>);
 Pacifist.addEntity(<entity:bewitchment:lizard>);
+AnimalHarvest.addEntity(<entity:bewitchment:lizard>);
 
 //raven
 SummonCreatures.addEntity(<entity:bewitchment:raven>, [<ore:feather>, <ore:nuggetSilver>]);
 SummonCreatures.addLifeEssence(<entity:bewitchment:raven>);
 Pacifist.addEntity(<entity:bewitchment:raven>);
+AnimalHarvest.addEntity(<entity:bewitchment:raven>);
 
 //add runic shears entries
 RunicShears.addEntityRecipe("raven_feather",<bewitchment:ravens_feather>,<entity:bewitchment:raven>, 20 * 60);

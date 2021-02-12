@@ -33,7 +33,7 @@ Animania sucks
 Roosts rituals
 	[x] animania
 	[x] quark crab
-	[ ] bewitchment
+	[x] bewitchment
 	[ ] animal harvest
 almond milk?
 [ ] no more polished stone rocks
