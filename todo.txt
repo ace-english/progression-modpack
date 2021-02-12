@@ -10,6 +10,7 @@ too many bees
 	animania bees produce fluid
 	pams bees produce honey and wax, not real fond of the way they work though
 	forestry bees make everything else
+	[ ] add bop honeycomb to presser
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
 	[ ] mystic world book needs to go
@@ -31,12 +32,13 @@ Animania sucks
 	[ ] nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
-	[ ] adjust roots summonings?
 Roosts rituals
 	[ ] animania
 	[ ] quark crab
 	[ ] bewitchment
+	[ ] animal harvest
 [ ] betwitchment owls only
+[ ] betwitchment toads only
 almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
