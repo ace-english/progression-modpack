@@ -24,8 +24,6 @@ Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 	[ ] gin - cropJuniper (juniper juice first?)
 	[ ] rum
 Play with new dimensions and JED
-[ ] Set up default options
-[ ] maybe a guide book?
 craftable eggs has no recipies, cannot be configured
 	64 stack
 Animania sucks
@@ -37,11 +35,15 @@ Roosts rituals
 	[x] quark crab
 	[ ] bewitchment
 	[ ] animal harvest
-[ ] betwitchment owls only
-[ ] betwitchment toads only
 almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
+
+Final must have items:
+[ ] Set up default options
+[ ] maybe a guide book?
+[ ] Menu?
+[ ] Tips
 
 Build a starting area with book dispensers
 	Misc
@@ -173,3 +175,5 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 [x] nutmeg
 	[x] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
+[x] betwitchment owls only
+[x] betwitchment toads only
