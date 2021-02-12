@@ -31,6 +31,7 @@ almond milk?
 Jakob's Requests:
 [ ] Steel Trapdoor from Engineers doors won't open?
 [ ] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 2x lead
+	removed some ores
 Missing Textures: ( ) Item - Mod
 [ ] Vertical Air - DoubleSlabs
 
@@ -39,6 +40,7 @@ Final items:
 [ ] maybe a guide book?
 [ ] Menu?
 [ ] Tips
+[ ] Achievments?
 
 Build a starting area with book dispensers
 	Misc
@@ -130,10 +132,12 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] mekanism disabled
 	[x] bewitchment disabled
 [x] copper ores
-	unidict should have solved this but there are still some issues - 2 copper ores??
+	unidict should have solved this but there are still some issues
 	[x] disabled immersive engineering copper spawn
 	[x] disabled mystical world copper
 	[x] mekanism
+	[ ] neuclearcraft
+	[ ] forestry
 [x] Bee grub for fish bait
 [x] agricraft ender lily
 [x] crystal crop
