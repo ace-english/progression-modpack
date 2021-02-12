@@ -135,3 +135,7 @@ oreDictFlowers.add(<biomesoplenty:flower_1:5>);
 //fix bop stuff
 <ore:listAllfruit>.add(<biomesoplenty:berries>);
 <ore:listAllberries>.add(<biomesoplenty:berries>);
+recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
+recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
+recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
