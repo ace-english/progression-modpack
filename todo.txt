@@ -13,7 +13,7 @@ too many bees
 	[ ] add bop honeycomb to presser
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
-	[ ] mystic world book needs to go
+	[x] mystic world book needs to go
 [ ] achievements
 	[ ] Make a monster girl dinner
 two venison
@@ -33,8 +33,8 @@ Animania sucks
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
 Roosts rituals
-	[ ] animania
-	[ ] quark crab
+	[x] animania
+	[x] quark crab
 	[ ] bewitchment
 	[ ] animal harvest
 [ ] betwitchment owls only
