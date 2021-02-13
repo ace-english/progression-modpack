@@ -41,6 +41,7 @@ Final items:
 [ ] Menu?
 [ ] Tips
 [ ] Achievments?
+[ ] Name?
 
 Build a starting area with book dispensers
 	Misc
