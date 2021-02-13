@@ -82,8 +82,8 @@ oreDictSeed.add(<harvestcraft:sunflowerseedsitem>);
 
 //nutmeg isn't a spice, but ground nutmeg is
 val nutmeg = <extratrees:food:53>;
-val oreDictSpice=<ore:listAllSpice>;
-oreDictSpice.remove(nutmeg);
+val oreDictSpice=<ore:listAllspice>;
+oreDictSpice.remove([nutmeg]);
 //recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<harvestcraft:mortarandpestleitem>.transformReplace(<harvestcraft:mortarandpestleitem>), <extratrees:food:53>]);
 oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 
@@ -105,3 +105,37 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
 
 //bee grubs as fish bait
 recipes.addShapeless(<harvestcraft:fishtrapbaititem>, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
+
+//fix BoP flowers
+val oreDictFlowers=<ore:listAllflower>;
+oreDictFlowers.addAll(<ore:allTallFlowers>);
+oreDictFlowers.add(<biomesoplenty:flower_0:0>);
+oreDictFlowers.add(<biomesoplenty:flower_0:1>);
+oreDictFlowers.add(<biomesoplenty:flower_0:2>);
+oreDictFlowers.add(<biomesoplenty:flower_0:3>);
+oreDictFlowers.add(<biomesoplenty:flower_0:4>);
+oreDictFlowers.add(<biomesoplenty:flower_0:5>);
+oreDictFlowers.add(<biomesoplenty:flower_0:6>);
+oreDictFlowers.add(<biomesoplenty:flower_0:7>);
+oreDictFlowers.add(<biomesoplenty:flower_0:8>);
+oreDictFlowers.add(<biomesoplenty:flower_0:9>);
+oreDictFlowers.add(<biomesoplenty:flower_0:10>);
+oreDictFlowers.add(<biomesoplenty:flower_0:11>);
+oreDictFlowers.add(<biomesoplenty:flower_0:12>);
+oreDictFlowers.add(<biomesoplenty:flower_0:13>);
+oreDictFlowers.add(<biomesoplenty:flower_0:14>);
+oreDictFlowers.add(<biomesoplenty:flower_0:15>);
+oreDictFlowers.add(<biomesoplenty:flower_1:0>);
+oreDictFlowers.add(<biomesoplenty:flower_1:1>);
+oreDictFlowers.add(<biomesoplenty:flower_1:2>);
+oreDictFlowers.add(<biomesoplenty:flower_1:3>);
+oreDictFlowers.add(<biomesoplenty:flower_1:4>);
+oreDictFlowers.add(<biomesoplenty:flower_1:5>);
+
+//fix bop stuff
+<ore:listAllfruit>.add(<biomesoplenty:berries>);
+<ore:listAllberries>.add(<biomesoplenty:berries>);
+recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
+recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
+recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);

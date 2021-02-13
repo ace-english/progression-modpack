@@ -43,7 +43,7 @@ Jakob's Requests:
 [ ] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
 [ ] Steel Trapdoor from Engineers doors won't open?
 [ ] Remove prop items from Grimoir of Gaia from JEI.
-[ ] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 2x lead
+[ ] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
 Missing Textures: ( ) Item - Mod
 [ ] Vertical Air - DoubleSlabs
 [ ] Doors x3 - Twilight Forest
