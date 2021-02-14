@@ -12,7 +12,8 @@ too many bees
 	forestry bees make everything else
 [ ] no more books in inventory. maybe one book?
 	[x] disabled forestry book
-	[ ] mystic world book needs to go
+	[x] mystic world book needs to go
+	[x] Tinker's construct book
 [ ] nutmeg
 	[ ] remove listAllSpice from nutmeg(must be ground first)
 	[x] add allSpice to ground nutmeg
@@ -39,11 +40,11 @@ almond milk?
 [ ] no more polished stone rocks
 [ ] special item by request
 Jakob's Requests:
-[ ] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
-[ ] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
+[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
+[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
 [ ] Steel Trapdoor from Engineers doors won't open?
-[ ] Remove prop items from Grimoir of Gaia from JEI.
-[ ] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
+[x] Remove prop items from Grimoir of Gaia from JEI.
+[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
 Missing Textures: ( ) Item - Mod
 [ ] Vertical Air - DoubleSlabs
 [ ] Doors x3 - Twilight Forest
