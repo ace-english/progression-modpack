@@ -127,7 +127,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -160,13 +160,15 @@
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:1.png","mainmenu:2.png","mainmenu:3.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
         }
     }
 }
