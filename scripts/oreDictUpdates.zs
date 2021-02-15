@@ -55,6 +55,7 @@ oreDictAlchohol.add(<brewcraft:redbeeritem>);
 oreDictAlchohol.add(<brewcraft:bluebeeritem>);
 oreDictAlchohol.add(<brewcraft:malortitem>);
 oreDictAlchohol.add(<brewcraft:rennalgolditem>);
+oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 
 
 //remove strictly better roots book recipie
@@ -139,3 +140,7 @@ recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
 recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
 recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
 recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
+
+//rename backpack more appropriately
+<forestry:adventurer_bag>.displayName ="Farmer's Backpack";
+<forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";

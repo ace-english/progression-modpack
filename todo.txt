@@ -10,13 +10,6 @@ too many bees
 	animania bees produce fluid
 	pams bees produce honey and wax, not real fond of the way they work though
 	forestry bees make everything else
-[ ] no more books in inventory. maybe one book?
-	[x] disabled forestry book
-	[x] mystic world book needs to go
-	[x] Tinker's construct book
-[ ] nutmeg
-	[ ] remove listAllSpice from nutmeg(must be ground first)
-	[x] add allSpice to ground nutmeg
 [ ] achievements
 	[ ] Make a monster girl dinner
 two venison
@@ -29,39 +22,22 @@ Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
-	[ ] JEI
-	[ ] Journey Map
-	[ ] Grimoire of Gaia
-	[ ] Traveler's Backpack
-	[ ] Nutrition and Spice of Life
-	Food and crops
-	[ ] Enable shaders
-	Baubles
-	Akashic tome
-	Graves
-	World gen and Natures Compass
+	[x] JEI
+	[x] Journey Map
+	[x] Grimoire of Gaia
+	[x] Traveler's Backpack
+	[x] Nutrition and Spice of Life
+	[x] Food and crops, seasons
+	[x] Enable shaders
+	[ ] Baubles
+	[ ] Akashic tome
+	[ ] Graves
+	[ ] World gen and Natures Compass
 	[ ] Carryon
-	Seasons
-	[ ] Put it in the default inventory
+	[ ] skill trees
+	[x] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
-	64 stack
-Animania sucks
-	[ ] nothing drops fey leather
-	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
-	- won't use trough but will use source blocks
-	[ ] adjust roots summonings?
-almond milk?
 [ ] no more polished stone rocks
-[ ] special item by request
-Jakob's Requests:
-[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
-[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
-[ ] Steel Trapdoor from Engineers doors won't open?
-[x] Remove prop items from Grimoir of Gaia from JEI.
-[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
-Missing Textures: ( ) Item - Mod
-[ ] Vertical Air - DoubleSlabs
-[x] Doors x3 - Twilight Forest
 
 Build a starting area with book dispensers
 	Misc
@@ -85,7 +61,7 @@ Build a starting area with book dispensers
 		-Nuclearcraft Guide
 	Adventure
 		-Traveler's Logbook
-
+[ ] drunk?
 
 closed issues
 --------------------
@@ -190,3 +166,42 @@ Tweaking the spread rate seems to have fixed Agricraft, but...
 	[x] add recipie
 	[x] ore dict update
 	[x] imitation crab meat recipie
+[x] no more books in inventory. maybe one book?
+	[x] disabled forestry book
+	[x] mystic world book needs to go
+	[x] Tinker's construct book
+Jakob's Requests:
+[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
+[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
+[x] Steel Trapdoor from Engineers doors won't open?
+	[x] remove recipe
+	[x] hide in JEI
+[x] Remove prop items from Grimoir of Gaia from JEI.
+[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
+Missing Textures: ( ) Item - Mod
+[x] Vertical Air - DoubleSlabs
+[x] Doors x3 - Twilight Forest
+Animania sucks
+	[x] nothing drops fey leather
+	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
+	- won't use trough but will use source blocks
+	[x] adjust roots summonings?
+[x] nutmeg
+	[x] remove listAllSpice from nutmeg(must be ground first)
+	[x] add allSpice to ground nutmegnutmeg
+[x] special item by request
+Jakob's Requests:
+[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
+[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
+[x] Steel Trapdoor from Engineers doors won't open?
+[x] Remove prop items from Grimoir of Gaia from JEI.
+[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
+Missing Textures: ( ) Item - Mod
+[x] Vertical Air - DoubleSlabs
+[x] Doors x3 - Twilight Forest
+Animania sucks
+	[x] nothing drops fey leather
+	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
+	- won't use trough but will use source blocks
+	[ ] adjust roots summonings?
+[x] almond milk
