@@ -1,11 +1,11 @@
-<book title="Hello friend!" cover="ace:introbook">
+<book title="Hello friend!" cover="harvestcraft:queenbeeitem">
     <chapter>
         <page>
             <p>Welcome friend!</p>
             <p>This modpack was made for you with love. Eclosed in this book are some things to keep in mind.</p>
         </page>
         <page>
-            <p>All the new 
+            <p>All the new items and activies can be pretty overwhelming. To get started, grab one of the guidebooks from the starting room, or craft your own.</p>
         </page>
         <page>
             

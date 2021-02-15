@@ -29,6 +29,20 @@ Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
+	[ ] JEI
+	[ ] Journey Map
+	[ ] Grimoire of Gaia
+	[ ] Traveler's Backpack
+	[ ] Nutrition and Spice of Life
+	Food and crops
+	[ ] Enable shaders
+	Baubles
+	Akashic tome
+	Graves
+	World gen and Natures Compass
+	[ ] Carryon
+	Seasons
+	[ ] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
 	64 stack
 Animania sucks
@@ -47,7 +61,7 @@ Jakob's Requests:
 [x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
 Missing Textures: ( ) Item - Mod
 [ ] Vertical Air - DoubleSlabs
-[ ] Doors x3 - Twilight Forest
+[x] Doors x3 - Twilight Forest
 
 Build a starting area with book dispensers
 	Misc
