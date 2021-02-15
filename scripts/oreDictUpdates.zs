@@ -144,3 +144,5 @@ recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushr
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
 <forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";
+//hide busted trapdoor
+recipes.remove(<engineersdoors:trapdoor_steel>);

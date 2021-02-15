@@ -37,7 +37,9 @@ Play with new dimensions and JED
 	[ ] skill trees
 	[x] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
+	64 stack
 [ ] no more polished stone rocks
+[ ] special item by request
 
 Build a starting area with book dispensers
 	Misc
