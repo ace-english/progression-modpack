@@ -1,0 +1,38 @@
+<book title="Hello friend!">
+    <chapter>
+        <page>
+            <title>Welcome friend!</title>
+            <p><image src="atb:cover" tw="100" th="100"/></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>This modpack was made for you with love. Enclosed in this book are some things to keep in mind.</p>
+        </page>
+    </chapter>
+    <chapter>
+		<page>
+			<title>Traveler's Backpack</title>
+			<p>You can make a backpack to hold an extra inventory's worth of stuff. It also can cointain tanks for fluids, a crafting table, and a bedroll!</p>
+			<p>Sleeping in a bedroll does not move your spawn point.</p>
+			<recipe key="travelersbackpack:travelers_backpack_standard"></recipe>
+		</page>
+    </chapter>
+	<chapter id="recipes">
+        <page id="tcon1">
+            <recipe type="gbook:crafting" key="tconstruct:common/book"/>
+            <p>Useful for blueprints, and for learning about Tinker's Construct tools and materials</p>
+        </page>
+     </chapter>
+</book>
