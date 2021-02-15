@@ -34,23 +34,22 @@ Play with new dimensions and JED
 	[ ] Grimoire of Gaia
 	[ ] Traveler's Backpack
 	[ ] Nutrition and Spice of Life
-	Food and crops
+	Food and crops, seasons
 	[ ] Enable shaders
-	Baubles
-	Akashic tome
-	Graves
-	World gen and Natures Compass
+	[ ] Baubles
+	[ ] Akashic tome
+	[ ] Graves
+	[ ] World gen and Natures Compass
 	[ ] Carryon
 	Seasons
 	[ ] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
 	64 stack
 Animania sucks
-	[ ] nothing drops fey leather
+	[x] nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
-	[ ] adjust roots summonings?
-almond milk?
+	[x] adjust roots summonings?
 [ ] no more polished stone rocks
 [ ] special item by request
 Jakob's Requests:
