@@ -165,7 +165,7 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["mainmenu:1.png","mainmenu:2.png","mainmenu:3.png"],
+                "images" : ["mainmenu:1.png", "mainmenu:2.png", "mainmenu:3.png", "mainmenu:4.png", "mainmenu:5.png", "mainmenu:6.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }
