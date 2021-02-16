@@ -16,9 +16,6 @@ two venison
 	pams, mystical world
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 	I lowkey don't care about those Bibliocraft items
-[ ] Binnie's missing fluids
-	[ ] gin - cropJuniper (juniper juice first?)
-	[ ] rum
 Play with new dimensions and JED
 [ ] Set up default options
 [ ] maybe a guide book?
@@ -29,17 +26,17 @@ Play with new dimensions and JED
 	[x] Nutrition and Spice of Life
 	[x] Food and crops, seasons
 	[x] Enable shaders
-	[ ] Baubles
-	[ ] Akashic tome
-	[ ] Graves
-	[ ] World gen and Natures Compass
-	[ ] Carryon
-	[ ] skill trees
+	[x] Baubles
+	[x] Akashic tome
+	[x] Graves
+	[x] World gen and Natures Compass
+	[x] Carryon
+	[x] skill trees
 	[x] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
-[ ] special item by request
+[ ] drunk?
 
 Build a starting area with book dispensers
 	Misc
@@ -63,7 +60,6 @@ Build a starting area with book dispensers
 		-Nuclearcraft Guide
 	Adventure
 		-Traveler's Logbook
-[ ] drunk?
 
 closed issues
 --------------------
@@ -205,5 +201,10 @@ Animania sucks
 	[x] nothing drops fey leather
 	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
 	- won't use trough but will use source blocks
-	[ ] adjust roots summonings?
+	[x] adjust roots summonings?
 [x] almond milk
+[x] special item by request
+[x] Binnie's missing fluids
+	[x] gin - cropJuniper (juniper juice first?)
+	[x] rum
+	[x] white rum
