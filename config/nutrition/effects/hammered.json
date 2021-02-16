@@ -1,8 +1,8 @@
 {
-	"name": "drunk",
-	"potion": "minecraft:nausea",
+	"name": "hammered",
+	"potion": "minecraft:blindness",
 	"amplifier": 1,
-	"minimum": 80,
+	"minimum": 90,
 	"maximum": 100,
 	"detect": "any",
 	"nutrients": [

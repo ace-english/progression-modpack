@@ -57,6 +57,8 @@ oreDictAlchohol.add(<brewcraft:malortitem>);
 oreDictAlchohol.add(<brewcraft:rennalgolditem>);
 oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 
+//exorcised ghosts from Malort's title
+<brewcraft:malortitem>.displayName = "Malort";
 
 //remove strictly better roots book recipie
 recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
@@ -146,3 +148,8 @@ recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushr
 <forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";
 //hide busted trapdoor
 recipes.remove(<engineersdoors:trapdoor_steel>);
+
+//Joe's request
+val midori=<extratrees:binnie.liqueur.melon>;
+midori.displayName="Midori";
+midori.addTooltip("Sorry Jakob, Joe made me do it");
