@@ -1,0 +1,15 @@
+{
+	"name": "alchohol",
+	"icon": "harvestcraft:ironbrewitem",
+	"color": "5c0b51",
+	"decay": 50,
+	"visible": true,
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"alchohol"
+		],
+		"items": [
+		]
+	}
+}
