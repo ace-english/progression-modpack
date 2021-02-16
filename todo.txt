@@ -22,8 +22,6 @@ Play with new dimensions and JED
 craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
-[x] Menu
-[ ] initial bedroll
 
 Build a starting area with book dispensers
 	Misc
@@ -211,3 +209,5 @@ Animania sucks
 	[x] Carryon
 	[x] skill trees
 	[x] Put it in the default inventory
+[x] Menu
+[x] initial bedroll
