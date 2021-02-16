@@ -5,5 +5,12 @@
 	"minimum": 80,
 	"maximum": 100,
 	"detect": "average",
+	"nutrients": [
+		"dairy",
+		"vegetable",
+		"fruit",
+		"protein",
+		"grain"
+	],
 	"enabled": true
 }
