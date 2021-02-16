@@ -26,7 +26,7 @@
     {
         "singleplayer":
         {
-            "text" : "menu.singleplayer",
+            "text" : "SiNgLePlAyEr",
             "posX" : -100,
             "posY" : 48,
             "width" : 200,
@@ -40,7 +40,7 @@
         
         "multiplayer":
         {
-            "text" : "menu.multiplayer",
+            "text" : "Multiplayer!",
             "posX" : -100,
             "posY" : 72,
             "width" : 200,
@@ -82,7 +82,7 @@
         
         "quit":
         {
-            "text" : "menu.quit",
+            "text" : "Quit (like a bitch...)",
             "posX" : 2,
             "posY" : 132,
             "width" : 98,
@@ -127,7 +127,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -160,13 +160,10 @@
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "resources:mainmenu/background_0.png",
+            "mode" : "stretch"
         }
     }
 }
