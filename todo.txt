@@ -12,31 +12,18 @@ too many bees
 	forestry bees make everything else
 [ ] achievements
 	[ ] Make a monster girl dinner
+	[ ] Get blind drunk
 two venison
 	pams, mystical world
 Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
 	I lowkey don't care about those Bibliocraft items
 Play with new dimensions and JED
 [ ] Set up default options
-[ ] maybe a guide book?
-	[x] JEI
-	[x] Journey Map
-	[x] Grimoire of Gaia
-	[x] Traveler's Backpack
-	[x] Nutrition and Spice of Life
-	[x] Food and crops, seasons
-	[x] Enable shaders
-	[x] Baubles
-	[x] Akashic tome
-	[x] Graves
-	[x] World gen and Natures Compass
-	[x] Carryon
-	[x] skill trees
-	[x] Put it in the default inventory
 craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
-[ ] drunk?
+[x] Menu
+[ ] initial bedroll
 
 Build a starting area with book dispensers
 	Misc
@@ -208,3 +195,19 @@ Animania sucks
 	[x] gin - cropJuniper (juniper juice first?)
 	[x] rum
 	[x] white rum
+[x] drunk
+[x] maybe a guide book?
+	[x] JEI
+	[x] Journey Map
+	[x] Grimoire of Gaia
+	[x] Traveler's Backpack
+	[x] Nutrition and Spice of Life
+	[x] Food and crops, seasons
+	[x] Enable shaders
+	[x] Baubles
+	[x] Akashic tome
+	[x] Graves
+	[x] World gen and Natures Compass
+	[x] Carryon
+	[x] skill trees
+	[x] Put it in the default inventory
