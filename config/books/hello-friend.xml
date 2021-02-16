@@ -7,11 +7,12 @@
         </page>
         <page>
             <title>Table of Contents</title>
+            <p><link ref="1:day1">First Day</link></p>
             <p><link ref="1:jei">JEI</link></p>
             <p><link ref="1:map">Map</link></p>
             <p><link ref="1:death">Graves and Death</link></p>
             <p><link ref="1:skills">Class and Skill Tree</link></p>
-            <p><link ref="1:food">Nutrition, Food, and Cooking</link></p>
+            <p><link ref="1:food">Food</link></p>
             <p><link ref="1:mons">Monster Girls</link></p>
             <p><link ref="1:shaders">Enabling Shaders</link></p>
             <p><link ref="1:backpack">Backpack</link></p>
@@ -19,7 +20,7 @@
             <p><link ref="1:agriculture">Agriculture</link></p>
             <p><link ref="1:baubles">Baubles</link></p>
             <p><link ref="1:bop">Biomes and Compass</link></p>
-            <p><link ref="1:carry">Carry animals and objects</link></p>
+            <p><link ref="1:carry">Carry Stuff</link></p>
             <p><link ref="recipes">Skill Book Recipies</link></p>
         </page>
     </chapter>
@@ -30,6 +31,12 @@
             <p></p>
             <p>Learning one mod at a time can help keep you from getting overwhelmed by all the new content.</p>
             <p><link ref="recipes">Skill Book Recipies</link></p>
+        </page>
+		<page id="day1">
+			<title>First Day</title>
+            <p>There's a whole lot of new stuff to explore. Look around!</p>
+            <p>We've provided you with a bedroll so you can rest on your travels. You can make a campfire to cook food on the go. A lot of wild food can be found.</p>
+            <recipe type="gbook:crafting" key="campfire:campfire_recipe"></recipe>
         </page>
         <page id="jei">
             <title>JEI - Just Enough Items</title>
