@@ -1,12 +1,12 @@
 {
 	"name": "hammered",
 	"potion": "minecraft:blindness",
-	"amplifier": 1,
+	"amplifier": 0,
 	"minimum": 90,
 	"maximum": 100,
 	"detect": "any",
 	"nutrients": [
-		"drunk"
+		"alchohol"
 	],
 	"cumulative_modifier": 1,
 	"particles": "transparent",

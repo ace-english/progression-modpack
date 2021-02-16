@@ -2,7 +2,7 @@
 	"name": "alchohol",
 	"icon": "brewcraft:beachrumitem",
 	"color": "5c0b51",
-	"decay": 300,
+	"decay": 75,
 	"visible": true,
 	"enabled": true,
 	"food": {

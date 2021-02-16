@@ -6,7 +6,7 @@
 	"maximum": 100,
 	"detect": "any",
 	"nutrients": [
-		"drunk"
+		"alchohol"
 	],
 	"cumulative_modifier": 1,
 	"particles": "transparent",
