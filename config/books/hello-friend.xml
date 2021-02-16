@@ -1,24 +1,139 @@
 <book title="Hello friend!">
     <chapter>
         <page>
-            <title>Welcome friend!</title>
-            <p><image src="atb:cover" tw="100" th="100"/></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <title align="center">Welcome friend!</title>
+            <p align="center"><image src="atb:cover" tw="100" th="100"/></p>
             <p>This modpack was made for you with love. Enclosed in this book are some things to keep in mind.</p>
+        </page>
+        <page>
+            
+        </page>
+		<page>
+			<title>Skillbook Recipies</title>
+            <p>All the new items and activies can be pretty overwhelming. To get started, grab one of the guidebooks from the starting room, or craft your own.</p>
+            <p></p>
+            <p>Learning one mod at a time can help keep you from getting overwhelmed by all the new content.</p>
+        </page>
+        <page>
+            <p bold="true">Engineering</p>
+                <p indent="5">- <link ref="recipes:tcon1">Materials and You</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Materials and You - Armour Addendum</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Engineer's Manual</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Open Computers Manual</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Xnet manual</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Nuclearcraft Guide</link></p>
+			<p bold="true">Magic</p>
+                <p indent="5">- <link ref="recipes:tcon1">Wizard's Handbook</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Druidic Arts</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Book of Shadows</link></p>
+        </page>
+        <page>
+			<p bold="true">Agriculture</p>
+                <p indent="5">- <link ref="recipes:agricraft">Agricultural Journal</link></p>
+                <p indent="5">- <link ref="recipes:animania">Animania Manual</link></p>
+                <p indent="5">- <link ref="recipes:forestry">Forester's Manual</link></p>
+			<p bold="true">Adventure</p>
+				<p indent="5">- <link ref="recipes:tcon1">Traveler's Logbook</link></p>
+			<p bold="true">General</p>
+                <p indent="5">- <link ref="recipes:tcon1">Universal Bestiary</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Spice of Life</link></p>
+                <p indent="5">- <link ref="recipes:tcon1">Level Up! Skill Tree Book</link></p>
+		</page>
+    </chapter>
+    <chapter>
+        <page>
+            <title>JEI - Just Enough Items</title>
+            <p>If you open your inventory and look to the right, you'll se an outrageous number of items. This is JEI and it's your new best friend. You can search for recipies here!</p>
+            <p>Use the searchbar to search for blocks. Use @blank to search by mod, and $blank to search by ore dict entrry.</p>
+        </page>
+        <page>
+            <title>Journey Map</title>
+            <p>Press J to pull up your map. Here you can view and set waypoints as well as see where you've been. The diamond shaped button in the lower left hand corner is your waypoints.</p>
+            <p>You can set coordinates for your own custom waypoints as well.</p>
+        </page>
+		<page>
+			<title>Graves and Death</title>
+			<p>When you die you will leave a grave behind, as well as a marker in Journey Map. Sneak over this grave to reclaim your items. Equipped items will go back into slosts.</p>
+			<p>You also recieve a list of items you had on death.</p>
+			<p>Grave markers can be cleared in JourneyMap under waypoints by removing the waypoint.</p>
+		</page>
+		<page>
+			<title>Nutrition, Food, and Cooking</title>
+			<p>Nutrition matters now. Press "N" or click on the carrot button in your inventory to bring up your nutrition stats.</p>
+			<p>Keeping your nutrition from dropping too low is important, because at low levels you may experience the "Miner's Fatigue" debuff.</p>
+        </page>
+        <page>
+			<p>If you keep your nutrition levels high, you can recieve various buffs, such as Strength or Toughness. Building up a tolerance to spicy food can lead you to resist fire damage!</p>
+			<p></p>
+			<p>Additionally, eating a variety of food matters more now. Eating the same food over and over will have diminishing returns.</p>
+        </page>
+        <page>
+            <p>Eating new foods can lead to a permanent increase in your health bar.</p>
+			<p>There are lots of new crops and recipies to try out. Build a kitchen with Cooking for Blockheads to experiment.</p>
+		</page>
+        <page>
+            <title>Monster Girls</title>
+            <p>We have added in a lot of new monster girls. Some are friendly, some are less. Hey, if you're a sub, you'll probably be into it.</p>
+            <p>Passive mobs from Grimoire of Gaia can be tamed with some Monster Feed. Monster Feed can be made with quality meals or alchohol.</p>
+            <recipe type="gbook:crafting" key="crafttweaker:monster0"/>
+        </page>
+        <page>
+            <p>If you are attacked in the vicinity of a tamed monster girl, she will fight with you. (Iron golemn AI)</p>
+			<p></p>
+            <p>Hostile Grimoire of Gaia mobs can also be made non-hostile. If you feed her some Premium Monster Feed, she will be passive towards you for a while.</p>
+            <!--<recipe type="gbook:crafting" key="grimoireofgaia:food_monster_feed_premium"/>-->
+            <recipe type="gbook:crafting" key="crafttweaker:monster5"/>
+        </page>
+		<page>
+			<title>Enabling Shaders</title>
+			<p align="center" color="#606060">"RTX on!"</p>
+			<p>To make Minecraft look hella good, go into Options > Video settings > Shaders. We have pre-loaded a couple for you to try out. Jakob likes Sildur's High. Experiment and see which options you like best. You can also download your own and install locally by putting them in the Shaders folder.</p>
+        </page>
+        <page>
+			<p>To get bump maps and reflective textures, go into Resource Packs and select one with advanced materials. We have pre-loaded Vanilla PBR and AVPBR, but you can find others online. Make sure to turn on the "Advanced Materials" setting in your Shaders settings.</p>
+		</page>
+		<page>
+			<title>Traveler's Backpack</title>
+			<p>You can make a backpack to hold an extra inventory's worth of stuff. It also can cointain tanks for fluids, a crafting table, and a bedroll!</p>
+			<p>Sleeping in a bedroll does not move your spawn point.</p>
+			<recipe key="travelersbackpack:travelers_backpack_standard"></recipe>
+		</page>
+		<page>
+			<title>Seasons and Agriculture</title>
+			<p>Seasons have been brought to Minecraft. You can watch the leaves turn colors and snow come to biomes that normally don't see it.</p>
+			<p>Not all crops can grow in all seasons. You can grow underground or in a greenhouse to tolerate the changing weather, however.</p>
+			<p>Many crops and trees can be achieved using cross-breeding. Check out <link ref="recipes:agricraft">Agricraft</link> to get started with breeding stronger crops, and creating new ones.</p>
+        </page>
+        <page>
+			<p>New foods can be found by breaking gardens. Turn these into seeds in your crafting menu, or cook them into delicious new foods.</p>
+			<p>To breed new trees, flowers, and resource bees, check out <link>Forestry</link>.</p>
+			<p>Animals have also been made more complex and interesting. They have to be kept happy to produce resources, and most can only be milked when nursing. Check out <link ref="recipes:animania">Animania</link> to get into animal husbandry.</p>
+		</page>
+    </chapter>
+	<chapter id="recipes">
+        <page id="tcon1">
+            <title>Tinker's Construct</title>
+            <recipe type="gbook:crafting" key="tconstruct:common/book"/>
+            <p>Useful for blueprints, and for learning about Tinker's Construct tools and materials</p>
+            <recipe type="gbook:crafting" key="tconstruct:common/book"/>
+            <p>Useful for blueprints, and for learning about Tinker's Construct tools and materials</p>
+        </page>
+        <page id="agricraft">
+            <title>Agricraft</title>
+            <recipe type="gbook:crafting" key="agricraft:journal"/>
+            <p>Keep track of the seeds you have discovered and potential mutations</p>
+            <recipe type="gbook:crafting" key="agricraft:seed_analyzer"/>
+            <p>Use to record findings in your Agriculture Journal</p>
+        </page>
+        <page id="animania">
+            <title>Agricraft</title>
+            <recipe type="gbook:crafting" key="agricraft:journal"/>
+            <p>Keep track of the seeds you have discovered and potential mutations</p>
+            <recipe type="gbook:crafting" key="agricraft:seed_analyzer"/>
+            <p>Use to record findings in your Agriculture Journal</p>
+        </page>
+        <page id="forestry">
+            <title>Forestry</title>
         </page>
     </chapter>
     <chapter>
