@@ -24,6 +24,7 @@ craftable eggs has no recipies, cannot be configured
 [ ] no more polished stone rocks
 [x] Menu
 [ ] initial bedroll
+[ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 
 Build a starting area with book dispensers
 	Misc
