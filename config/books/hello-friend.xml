@@ -18,7 +18,7 @@
             <p><link ref="1:seasons">Seasons</link></p>
             <p><link ref="1:agriculture">Agriculture</link></p>
             <p><link ref="1:baubles">Baubles</link></p>
-            <p><link ref="1:bop">Biomes and Nature's Compass</link></p>
+            <p><link ref="1:bop">Biomes and Compass</link></p>
             <p><link ref="1:carry">Carry animals and objects</link></p>
             <p><link ref="recipes">Skill Book Recipies</link></p>
         </page>
@@ -136,7 +136,7 @@
                 <p indent="5">- <link ref="recipes:ie">Engineer's Manual</link></p>
                 <p indent="5">- <link ref="recipes:comp">Open Computers Manual</link></p>
                 <p indent="5">- <link ref="recipes:xnet">Xnet manual</link></p>
-                <p indent="5">- <link ref="recipes:nuke">Nuclearcraft Guide</link></p>
+                <!--<p indent="5">- <link ref="recipes:nuke">Nuclearcraft Guide</link></p>-->
 			<p bold="true">Magic</p>
                 <p indent="5">- <link ref="recipes:wiz">Wizard's Handbook</link></p>
                 <p indent="5">- <link ref="recipes:roots">Druidic Arts</link></p>
@@ -174,10 +174,11 @@
             <title>XNet</title>
             <recipe type="gbook:crafting" key="xnet:xnet_manual"/>
         </page>
+        <!-- Sorry nuclearcraft, your naming conventions are shit so you must be commented out
         <page id="nuke">
             <title>Nuclearcraft</title>
             <recipe type="gbook:crafting" key="nuclearcraft:item.patchouli:guide_book"/>
-        </page>
+        </page> -->
         <page id="wiz">
             <title>Wizardry</title>
             <recipe type="gbook:crafting" key="ebwizardry:wizard_handbook"/>
