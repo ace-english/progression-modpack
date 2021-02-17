@@ -103,7 +103,7 @@
 			<title>Traveler's Backpack</title>
 			<p>You can make a backpack to hold an extra inventory's worth of stuff. It also can cointain tanks for fluids, a crafting table, and a bedroll!</p>
 			<p>Sleeping in a bedroll does not move your spawn point.</p>
-			<recipe key="travelersbackpack:travelers_backpack_standard"></recipe>
+			<recipe key="crafttweaker:travelers_bedroll"></recipe>
 		</page>
 		<page>
 			<title id="seasons">Seasons and Agriculture</title>
@@ -161,6 +161,7 @@
                 <p indent="5">- <link ref="recipes:sol">Spice of Life</link></p>
                 <p indent="5">- <link ref="recipes:skills">Level Up! Skill Tree Book</link></p>
                 <p indent="5">- <link ref="recipes:tome">Akashic Tome</link></p>
+                <p indent="5">- <link ref="recipes:gbook">Custom Guidebook</link></p>
 		</page>
         <page id="tcon1">
             <title>Tinker's Construct</title>
@@ -238,6 +239,11 @@
             <recipe type="gbook:crafting" key="akashictome:tome_1"/>
             <p>Too many skillbooks? Keep them all in this one!</p>
             <p>Or put them all on a bookshelf...</p>
+        </page>
+        <page id="gbook">
+            <title>Guidebook: "Hello friend!"</title>
+            <recipe type="gbook:crafting" key="gbook:ace_guidebook"/>
+            <p>(That's this book!)</p>
         </page>
     </chapter>
 </book>
