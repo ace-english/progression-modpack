@@ -22,11 +22,6 @@ Play with new dimensions and JED
 craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
-[x] Use comforts bedroll in traveler's Backpack
-[x] Make all bedrolls dyable sensibly
-	[ ] and hammocks
-[x] Add guidebook recipe
-[x] update guidebook for new bedrolls
 
 Build a starting area with book dispensers
 	Misc
@@ -216,3 +211,8 @@ Animania sucks
 	[x] Put it in the default inventory
 [x] Menu
 [x] initial bedroll
+[x] Use comforts bedroll in traveler's Backpack
+[x] Make all bedrolls dyable sensibly
+	[x] and hammocks
+[x] Add guidebook recipe
+[x] update guidebook for new bedrolls
