@@ -1,6 +1,7 @@
-#Tue Feb 09 22:55:39 PST 2021
+#Tue Feb 16 23:01:20 PST 2021
 animationSpeed=0.5
 Depth_of_Field=true
+DoF_Strength=70
 Lens_Flares=true
 metallicRefl=true
 morningFog=true
