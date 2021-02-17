@@ -242,7 +242,7 @@
         </page>
         <page id="gbook">
             <title>Guidebook: "Hello friend!"</title>
-            <recipe type="gbook:crafting" key="gbook:ace_guidebook"/>
+            <recipe type="gbook:crafting" key="crafttweaker:ace_guidebook"/>
             <p>(That's this book!)</p>
         </page>
     </chapter>
