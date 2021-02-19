@@ -30,3 +30,4 @@ config/agricraft/json/server*
 shaderpacks/*.txt
 *.xcf
 config/jei/bookmarks.ini
+servers.dat
