@@ -24,6 +24,10 @@ craftable eggs has no recipies, cannot be configured
 [ ] no more polished stone rocks
 [ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 [ ] add egg recipes
+[ ] Add BOP dirt to agricraft
+[x] remove flax to dye
+[x] fix bed dye
+[ ] remove railcraft, test
 
 Build a starting area with book dispensers
 	Misc

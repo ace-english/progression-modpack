@@ -49,6 +49,24 @@ recipes.addShapeless("hammock_color13", <comforts:hammock:13>, [<comforts:hammoc
 recipes.addShapeless("hammock_color14", <comforts:hammock:14>, [<comforts:hammock:*>, <ore:dyeRed>]);
 recipes.addShapeless("hammock_color15", <comforts:hammock:15>, [<comforts:hammock:*>, <ore:dyeBlack>]);
 
+//fuck it, minecraft beds too
+recipes.addShapeless("bed_color0", <minecraft:bed:0>, [<minecraft:bed:*>, <ore:dyeWhite>]);
+recipes.addShapeless("bed_color1", <minecraft:bed:1>, [<minecraft:bed:*>, <ore:dyeOrange>]);
+recipes.addShapeless("bed_color2", <minecraft:bed:2>, [<minecraft:bed:*>, <ore:dyeMagenta>]);
+recipes.addShapeless("bed_color3", <minecraft:bed:3>, [<minecraft:bed:*>, <ore:dyeBlue>]);
+recipes.addShapeless("bed_color4", <minecraft:bed:4>, [<minecraft:bed:*>, <ore:dyeYellow>]);
+recipes.addShapeless("bed_color5", <minecraft:bed:5>, [<minecraft:bed:*>, <ore:dyeLime>]);
+recipes.addShapeless("bed_color6", <minecraft:bed:6>, [<minecraft:bed:*>, <ore:dyePink>]);
+recipes.addShapeless("bed_color7", <minecraft:bed:7>, [<minecraft:bed:*>, <ore:dyeGray>]);
+recipes.addShapeless("bed_color8", <minecraft:bed:8>, [<minecraft:bed:*>, <ore:dyeLightGray>]);
+recipes.addShapeless("bed_color9", <minecraft:bed:9>, [<minecraft:bed:*>, <ore:dyeCyan>]);
+recipes.addShapeless("bed_color10", <minecraft:bed:10>, [<minecraft:bed:*>, <ore:dyePurple>]);
+recipes.addShapeless("bed_color11", <minecraft:bed:11>, [<minecraft:bed:*>, <ore:dyeBlue>]);
+recipes.addShapeless("bed_color12", <minecraft:bed:12>, [<minecraft:bed:*>, <ore:dyeBrown>]);
+recipes.addShapeless("bed_color13", <minecraft:bed:13>, [<minecraft:bed:*>, <ore:dyeGreen>]);
+recipes.addShapeless("bed_color14", <minecraft:bed:14>, [<minecraft:bed:*>, <ore:dyeRed>]);
+recipes.addShapeless("bed_color15", <minecraft:bed:15>, [<minecraft:bed:*>, <ore:dyeBlack>]);
+
 val guidebook = <gbook:guidebook>.withTag({Book: "gbook:hello-friend.xml"});
 //add shapeless book + torch to get guidebook?
 recipes.addShapeless("ace_guidebook", guidebook, [<minecraft:book>, <minecraft:torch>]);
