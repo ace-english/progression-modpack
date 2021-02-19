@@ -27,4 +27,7 @@ config/splash.properties
 local/ftbutilities/backups.json
 options.txt
 config/agricraft/json/server*
+shaderpacks/*.txt
+*.xcf
+config/jei/bookmarks.ini
 servers.dat
