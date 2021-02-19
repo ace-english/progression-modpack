@@ -25,8 +25,6 @@ craftable eggs has no recipies, cannot be configured
 [ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 [ ] add egg recipes
 [ ] Add BOP dirt to agricraft
-[x] remove flax to dye
-[x] fix bed dye
 [ ] remove railcraft, test
 
 Build a starting area with book dispensers
@@ -225,3 +223,6 @@ Animania sucks
 [x] add fish egg recipes
 [x] hide extra rods in JEI
 [x] remove duplicate fishing rods
+[x] remove flax to dye
+[x] fix bed dye
+[x] fix milk compat
