@@ -23,6 +23,7 @@ craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
 [ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
+[ ] add egg recipes
 
 Build a starting area with book dispensers
 	Misc
@@ -217,3 +218,6 @@ Animania sucks
 	[x] and hammocks
 [x] Add guidebook recipe
 [x] update guidebook for new bedrolls
+[x] add fish egg recipes
+[x] hide extra rods in JEI
+[x] remove duplicate fishing rods
