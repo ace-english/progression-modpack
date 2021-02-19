@@ -1,4 +1,4 @@
-#Tue Feb 16 23:01:20 PST 2021
+#Thu Feb 18 23:25:57 PST 2021
 animationSpeed=0.5
 Depth_of_Field=true
 DoF_Strength=70
@@ -7,7 +7,6 @@ metallicRefl=true
 morningFog=true
 nMap=1
 Penumbra=true
-polishedRefl=true
 RainReflections=true
 shadowMapResolution=2048
 SSDO=true
