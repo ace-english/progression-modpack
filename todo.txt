@@ -25,10 +25,10 @@ craftable eggs has no recipies, cannot be configured
 [ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 [ ] add egg recipes
 V1 ISSUE:
-[x] TickDynamic needs to be cut.
-[x] Would like to cut Railcraft. Can't do that without world regen :(
-[ ] Add Biomes'O'Plenty grass to general grass types.
-[ ]
+[ ] TickDynamic needs to be cut.
+[ ] Adjust the spawn rate or the stats of osmium. See Tinker'sConstruct stats.
+[ ] Would like to cut Railcraft. Can't do that without world regen :(
+[ ] fix Biomes'O'Plenty grass
 
 Build a starting area with book dispensers
 	Misc
@@ -226,3 +226,6 @@ Animania sucks
 [x] add fish egg recipes
 [x] hide extra rods in JEI
 [x] remove duplicate fishing rods
+[x] remove flax to dye
+[x] fix bed dye
+[x] fix milk compat

@@ -64,7 +64,7 @@ oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
 
 //fix animania milks
-val oreDictMilk = <ore:listAllMilk>;
+val oreDictMilk = <ore:listAllmilk>;
 oreDictMilk.add(<animania:milk_bottle>);
 
 //fix animania meats
@@ -142,6 +142,7 @@ recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
 recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
 recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
 recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
+recipes.removeShapeless(<minecraft:dye:12>*2, [<biomesoplenty:double_plant:0>]);
 
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
