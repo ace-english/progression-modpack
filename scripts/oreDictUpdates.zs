@@ -143,6 +143,8 @@ recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]
 recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
 recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
 recipes.removeShapeless(<minecraft:dye:12>*2, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:2>]);
+recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:0>]);
 
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
