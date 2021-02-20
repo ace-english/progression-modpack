@@ -15,16 +15,13 @@ too many bees
 	[ ] Get blind drunk
 two venison
 	pams, mystical world
-Bibliocraft uses minecraft:dye:0, not ore:dyeBlack
-	I lowkey don't care about those Bibliocraft items
 Play with new dimensions and JED
-[ ] Set up default options
-craftable eggs has no recipies, cannot be configured
-	64 stack
 [ ] no more polished stone rocks
 [ ] add egg recipes
 V1 ISSUE:
 [ ] fix Biomes'O'Plenty grass
+	[x] added conversion recipe
+	[x] works with Agricraft
 
 Build a starting area with book dispensers
 	Misc
@@ -224,8 +221,8 @@ Animania sucks
 [x] remove duplicate fishing rods
 [x] remove flax to dye
 [x] fix bed dye
-[x] fix milk compat
 [x] Cut DoubleSlabs - DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
-V1 Issues:
+V1 Issues:=======
+[x] fix milk compat
 [x] TickDynamic needs to be cut.
 [x] Would like to cut Railcraft. Can't do that without world regen :( - Update, cut without worldgen loss.

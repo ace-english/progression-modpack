@@ -51,6 +51,8 @@
     "min_light": 1,
     "max_light": 10,
     "soils": [
+      "silty_soil",
+      "loamy_soil",
       "farmland_soil"
     ],
     "conditions": [
