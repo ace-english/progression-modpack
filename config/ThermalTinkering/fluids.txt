@@ -40,7 +40,7 @@ liquidtritium                                     ([no block])                  
 liquidfusionfuel                                  ([no block])                                                                     = Liquid D-T Fuel
 liquidlithium                                     ([no block])                                                                     = Liquid Lithium
 heavywater                                        ([no block])                                                                     = Heavy Water
-steam                                             (railcraft:steam)                                                                = Steam
+steam                                             (immersivetech:fluidsteam)                                                       = Steam
 sand                                              (biomesoplenty:sand)                                                             = Quicksand
 honey                                             (biomesoplenty:honey)                                                            = Honey
 blood                                             (biomesoplenty:blood)                                                            = Blood
@@ -166,7 +166,7 @@ binnie.liqueur.cherry                             (extratrees:binnie.liqueur.che
 binnie.liqueur.blackcurrant                       (extratrees:binnie.liqueur.blackcurrant)                                         = Blackcurrant Liqueur
 binnie.liqueur.blackberry                         (extratrees:binnie.liqueur.blackberry)                                           = Blackberry Liqueur
 binnie.liqueur.raspberry                          (extratrees:binnie.liqueur.raspberry)                                            = Raspberry Liqueur
-creosote                                          (railcraft:creosote)                                                             = Creosote Oil
+creosote                                          (immersiveengineering:fluidcreosote)                                             = Creosote Oil
 coal                                              ([no block])                                                                     = Liquifacted Coal
 crude_oil                                         (thermalfoundation:fluid_crude_oil)                                              = Crude Oil
 refined_oil                                       ([no block])                                                                     = Naphtha
