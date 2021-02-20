@@ -31,3 +31,4 @@ shaderpacks/*.txt
 *.xcf
 config/jei/bookmarks.ini
 servers.dat
+WailaErrorOutput.txt
