@@ -32,3 +32,5 @@ shaderpacks/*.txt
 config/jei/bookmarks.ini
 servers.dat
 WailaErrorOutput.txt
+config/splash.properties
+config/InvTweaks.cfg
