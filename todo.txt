@@ -22,7 +22,6 @@ Play with new dimensions and JED
 craftable eggs has no recipies, cannot be configured
 	64 stack
 [ ] no more polished stone rocks
-[ ] DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 [ ] add egg recipes
 V1 ISSUE:
 [ ] fix Biomes'O'Plenty grass
@@ -226,6 +225,7 @@ Animania sucks
 [x] remove flax to dye
 [x] fix bed dye
 [x] fix milk compat
+[x] Cut DoubleSlabs - DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 V1 Issues:
 [x] TickDynamic needs to be cut.
 [x] Would like to cut Railcraft. Can't do that without world regen :( - Update, cut without worldgen loss.
