@@ -31,8 +31,16 @@ turn off thermal foundation lead
 Fix tinker's book to accept ore:string
 [ ] animania milk should work in ceramic buckets
 	WHY DONT THEY STACK
-	fuck the bottled milk, just go straight into freshmilk
-	REMOVE THE BOTTLED MILK
+[ ] bouncy creepers should be rare
+[ ] forestry fruit to bait (oredict listAllfruit)
+[ ] snow block into snowballs
+[ ] disable signpost wyastones
+[ ] nerf death in nutrition
+	-10%, cap 35%?
+can I nerf Electrobob's progression?
+[ ] PIG SCREENSHOT
+[ ] forestry planks to oak boat
+[ ] dominos special $meal
 
 Build a starting area with book dispensers
 	Misc
