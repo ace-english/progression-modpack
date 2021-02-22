@@ -66,6 +66,18 @@ recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<
 //fix animania milks
 val oreDictMilk = <ore:listAllmilk>;
 oreDictMilk.add(<animania:milk_bottle>);
+recipes.addShapeless(<animania:milk_bottle>*4, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}}), <minecraft:glass_bottle>,<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
+
+var clay_holstein_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}});
+var clay_fresian_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_fresian", Amount: 1000}});
+var clay_jersey_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}});
+var clay_goat_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}});
+var clay_sheep_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}});
+
+recipes.addShapeless(<animania:milk_bottle>*4, [clay_holstein_bucket.transformReplace(<ceramics:clay_bucket>), <minecraft:glass_bottle>,<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
+
+recipes.addShapeless(<animania:milk_bottle>, [<harvestcraft:freshmilkitem>, <harvestcraft:freshmilkitem>, <minecraft:glass_bottle>]);
+
 
 //fix animania meats
 val oreDictMeatCooked = <ore:listAllMeatsCooked>;
@@ -107,7 +119,24 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
 ]);
 
 //bee grubs as fish bait
-recipes.addShapeless(<harvestcraft:fishtrapbaititem>, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
+
+/*
+wait this is already in why tf doesnt it work
+
+//forestry fruit bait 
+oreDictFruit=<ore:listAllfruit>;
+oreDictFruit.add(<extratrees:food:0>);
+oreDictFruit.add(<extratrees:food:1>);
+oreDictFruit.add(<extratrees:food:2>);
+oreDictFruit.add(<extratrees:food:3>);
+oreDictFruit.add(<extratrees:food:4>);
+oreDictFruit.add(<extratrees:food:5>);
+oreDictFruit.add(<extratrees:food:6>);
+oreDictFruit.add(<extratrees:food:7>);
+oreDictFruit.add(<extratrees:food:8>);
+*/
+
 
 //fix BoP flowers
 val oreDictFlowers=<ore:listAllflower>;
@@ -136,7 +165,7 @@ oreDictFlowers.add(<biomesoplenty:flower_1:4>);
 oreDictFlowers.add(<biomesoplenty:flower_1:5>);
 
 //fix bop stuff
-<ore:listAllfruit>.add(<biomesoplenty:berries>);
+oreDictFruit.add(<biomesoplenty:berries>);
 <ore:listAllberries>.add(<biomesoplenty:berries>);
 recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
 recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
