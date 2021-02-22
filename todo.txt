@@ -41,6 +41,7 @@ can I nerf Electrobob's progression?
 [ ] PIG SCREENSHOT
 [ ] forestry planks to oak boat
 [ ] dominos special $meal
+[ ] snad
 
 Build a starting area with book dispensers
 	Misc
