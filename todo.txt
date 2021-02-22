@@ -24,46 +24,30 @@ V1 ISSUE:
 	[x] works with Agricraft
 [ ] clay bucket collides with clay jar
 	- rotate craftin recipes mod?
-[ ] cut tinkerless alloy recipes
 [ ] fix fish jerky
-turn off thermal foundation lead
-Fix tinker's book to accept ore:string
+turn off thermal foundation lead?
+[ ] snad
+[ ] add knife to crab recipe
+
+Working on
+[ ] PIG SCREENSHOT
+[x] forestry planks to oak boat
 [ ] animania milk should work in ceramic buckets
 	WHY DONT THEY STACK
-[ ] bouncy creepers should be rare
-[ ] forestry fruit to bait (oredict listAllfruit)
-[ ] snow block into snowballs
-[ ] disable signpost wyastones
+[ ] Fix tinker's book to accept ore:string
+[x] snow block into snowballs
 [ ] nerf death in nutrition
 	-10%, cap 35%?
-can I nerf Electrobob's progression?
-[ ] PIG SCREENSHOT
-[ ] forestry planks to oak boat
-[ ] dominos special $meal
-[ ] snad
+forestry fruit to bait not working
+[ ] disable signpost wyastones
+	wait how many signposts we got
+[ ] cut tinkerless alloy recipes
 
-Build a starting area with book dispensers
-	Misc
-		Universal Bestiary
-		Food Book
-		Skill Book
-	Argiculture
-		-Forester's Manual
-		-Animania Manual
-		-Agricultural Journal
-	Magic
-		-Druidic Arts
-		-Book of Shadows
-		-Wizard's Handbook
-	Engineering
-		-Materials and You
-		-Materials and You - Armour Addendum
-		-Engineer's Manual
-		-open computers manual
-		-Xnet manual
-		-Nuclearcraft Guide
-	Adventure
-		-Traveler's Logbook
+V1.1 issues
+[x] dominos special $meal
+[x] bouncy creepers should be rare
+[x] wizardry wands 33% easier
+
 
 closed issues
 --------------------
