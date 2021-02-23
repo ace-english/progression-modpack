@@ -22,6 +22,15 @@ V1 ISSUE:
 [ ] fix Biomes'O'Plenty grass
 	[x] added conversion recipe
 	[x] works with Agricraft
+[ ] Lime wool texture broken?
+[ ] Add cooked fish to bait list for fish trap.
+[ ] Tinker's Construct Pattern Chest doesn't show up in JEI.
+[ ] Tinker's Construct Part Builder doesn't show up in JEI.
+[ ] Missing Compact Storage mod? The one that lets you make custom sized chests.
+[ ] Tool, MMDlib.crackhammer. What is it and where is it from?
+[ ] Can't cook clown fish in furnace?
+[ ] Remove Clockwork engine from Forestry. Causes server crash on interact.
+[ ]
 
 Build a starting area with book dispensers
 	Misc
