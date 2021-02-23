@@ -26,7 +26,6 @@ V1 ISSUE:
 	- rotate craftin recipes mod?
 [ ] fix fish jerky
 turn off thermal foundation lead?
-[ ] snad
 [ ] add knife to crab recipe
 
 Working on
@@ -49,6 +48,7 @@ V1.1 closed issues
 [x] bouncy creepers should be rare
 [x] wizardry wands 33% easier
 [x] PIG SCREENSHOT
+[x] snad
 
 
 closed issues
