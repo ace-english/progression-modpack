@@ -1,4 +1,4 @@
-#Thu Feb 18 23:25:57 PST 2021
+#Fri Feb 19 19:05:06 PST 2021
 animationSpeed=0.5
 Depth_of_Field=true
 DoF_Strength=70
@@ -9,5 +9,4 @@ nMap=1
 Penumbra=true
 RainReflections=true
 shadowMapResolution=2048
-SSDO=true
 Waving_Lava=false
