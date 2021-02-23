@@ -30,23 +30,25 @@ turn off thermal foundation lead?
 [ ] add knife to crab recipe
 
 Working on
-[ ] PIG SCREENSHOT
-[x] forestry planks to oak boat
 [ ] animania milk should work in ceramic buckets
 	WHY DONT THEY STACK
-[ ] Fix tinker's book to accept ore:string
+[x] Fix tinker's book to accept ore:string
+[x] forestry planks to oak boat
 [x] snow block into snowballs
-[ ] nerf death in nutrition
-	-10%, cap 35%?
 forestry fruit to bait not working
 [ ] disable signpost wyastones
 	wait how many signposts we got
 [ ] cut tinkerless alloy recipes
 
-V1.1 issues
+V1.1 closed issues
+[X] nerf death in Nutrition
+	-fixed mining fatigue so it correctly kicks in at 20%
+	-new death cap at 25%, up from 20%
+	-only lose 10% on death, down from 15
 [x] dominos special $meal
 [x] bouncy creepers should be rare
 [x] wizardry wands 33% easier
+[x] PIG SCREENSHOT
 
 
 closed issues
