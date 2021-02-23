@@ -66,7 +66,6 @@ recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<
 //fix animania milks
 val oreDictMilk = <ore:listAllmilk>;
 oreDictMilk.add(<animania:milk_bottle>);
-recipes.addShapeless(<animania:milk_bottle>*4, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}}), <minecraft:glass_bottle>,<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
 
 var clay_holstein_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}});
 var clay_fresian_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_fresian", Amount: 1000}});
@@ -121,11 +120,11 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
 //bee grubs as fish bait
 recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
 
+val oreDictFruit=<ore:listAllfruit>;
 /*
 wait this is already in why tf doesnt it work
 
 //forestry fruit bait 
-oreDictFruit=<ore:listAllfruit>;
 oreDictFruit.add(<extratrees:food:0>);
 oreDictFruit.add(<extratrees:food:1>);
 oreDictFruit.add(<extratrees:food:2>);
@@ -185,3 +184,39 @@ recipes.remove(<engineersdoors:trapdoor_steel>);
 val midori=<extratrees:binnie.liqueur.melon>;
 midori.displayName="Midori";
 midori.addTooltip("Sorry Jakob, Joe made me do it");
+
+//snow blocks into snowballs
+//recipes.addShapeless(<minecraft:snow_block>, [<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>]);
+recipes.addShapeless(<minecraft:snowball>*4, [<minecraft:snow>]);
+
+//forestry planks into oak boat
+recipes.addShaped(<minecraft:boat>, [
+    [null, null, null],
+    [<forestry:planks.0:*>, null, <forestry:planks.0:*>],
+    [<forestry:planks.0:*>, <forestry:planks.0:*>, <forestry:planks.0:*>]
+]);
+recipes.addShaped(<minecraft:boat>, [
+    [null, null, null],
+    [<forestry:planks.1:*>, null, <forestry:planks.1:*>],
+    [<forestry:planks.1:*>, <forestry:planks.1:*>, <forestry:planks.1:*>]
+]);
+
+//remove easy bronze
+recipes.removeShapeless(<thermalfoundation:material:163>*4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+
+//replace all common oredict crafting
+recipes.replaceAllOccurences(<minecraft:stick>, <ore:stick>);
+recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>);
+
+recipes.replaceAllOccurences(<minecraft:dye:1>, <ore:dyeRed>);
+recipes.replaceAllOccurences(<minecraft:dye:2>, <ore:dyeGreen>);
+recipes.replaceAllOccurences(<minecraft:dye:5>, <ore:dyePurple>);
+recipes.replaceAllOccurences(<minecraft:dye:7>, <ore:dyeLightGray>);
+recipes.replaceAllOccurences(<minecraft:dye:8>, <ore:dyeGray>);
+recipes.replaceAllOccurences(<minecraft:dye:9>, <ore:dyePink>);
+recipes.replaceAllOccurences(<minecraft:dye:10>, <ore:dyeLime>);
+recipes.replaceAllOccurences(<minecraft:dye:11>, <ore:dyeYellow>);
+recipes.replaceAllOccurences(<minecraft:dye:12>, <ore:dyeLightBlue>);
+recipes.replaceAllOccurences(<minecraft:dye:13>, <ore:dyeMagenta>);
+recipes.replaceAllOccurences(<minecraft:dye:14>, <ore:dyeOrange>);
