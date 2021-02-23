@@ -1,7 +1,7 @@
 import mods.roots.SummonCreatures;
 import mods.roots.AnimalHarvest;
 
-recipes.addShapeless("imitation_crab", <harvestcraft:imitationcrabsticksitem>, [<ore:listAllfishraw>,<minecraft:dye:9>, <ore:foodSalt>, <ore:listAllegg>]);
+recipes.addShapeless("imitation_crab", <harvestcraft:imitationcrabsticksitem>, [<harvestcraft:cuttingboarditem>.transformReplace(<harvestcraft:cuttingboarditem>), <ore:listAllfishraw>,<ore:dyePink>, <ore:foodSalt>, <ore:listAllegg>]);
 val oreDictCrab=<ore:foodCrabRaw>;
 oreDictCrab.add(<harvestcraft:imitationcrabsticksitem>);
 <ore:listAllfishraw>.add(<harvestcraft:imitationcrabsticksitem>);
