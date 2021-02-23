@@ -24,18 +24,13 @@ V1 ISSUE:
 	[x] works with Agricraft
 [ ] clay bucket collides with clay jar
 	- rotate craftin recipes mod?
-[ ] fix fish jerky
 turn off thermal foundation lead?
 [ ] add knife to crab recipe
 
 Working on
 [ ] animania milk should work in ceramic buckets
-	WHY DONT THEY STACK
-[x] Fix tinker's book to accept ore:string
-[x] forestry planks to oak boat
-[x] snow block into snowballs
 forestry fruit to bait not working
-[ ] disable signpost wyastones
+[ ] disable signpost waystones
 	wait how many signposts we got
 [ ] cut tinkerless alloy recipes
 
@@ -49,6 +44,9 @@ V1.1 closed issues
 [x] wizardry wands 33% easier
 [x] PIG SCREENSHOT
 [x] snad
+[x] Fix tinker's book to accept ore:string
+[x] forestry planks to oak boat
+[x] snow block into snowballs
 
 
 closed issues
