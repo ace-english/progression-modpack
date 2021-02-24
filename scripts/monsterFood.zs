@@ -126,17 +126,17 @@ oreDictMeal.add(<nuclearcraft:dominos>);
 oreDictMeal.add(<nuclearcraft:moresmore>);
 
 
-recipes.addShapeless("monster0", <grimoireofgaia:food_monster_feed>, [oreDictMeal,<minecraft:paper>]);
-recipes.addShapeless("monster1", <grimoireofgaia:food_monster_feed>, [<ore:alchohol>,<minecraft:paper>]);
-//recipes.addShapeless("monster2", <grimoireofgaia:food_monster_feed>, [<harvestcraft:pomegranatejellysandwichitem>, <ore:listAllSmoothie>,<minecraft:paper>]);
-recipes.addShapeless("monster3", <grimoireofgaia:food_monster_feed>, [<harvestcraft:sushiitem>, <harvestcraft:sushiitem>, <harvestcraft:sushiitem>,<minecraft:paper>]);
-recipes.addShapeless("monster4", <grimoireofgaia:food_monster_feed>, [<harvestcraft:ramenitem>,<harvestcraft:bubbleteaitem>,<harvestcraft:onigiriitem>,<minecraft:paper>]);
+recipes.addShapeless("monster0", <grimoireofgaia:food_monster_feed>, [oreDictMeal,<ore:paper>]);
+recipes.addShapeless("monster1", <grimoireofgaia:food_monster_feed>, [<ore:alchohol>,<ore:paper>]);
+recipes.addShapeless("monster2", <grimoireofgaia:food_monster_feed>, [<harvestcraft:pomegranatejellysandwichitem>, <ore:listAllsoda>, <harvestcraft:friesitem>, <ore:paper>]);
+recipes.addShapeless("monster3", <grimoireofgaia:food_monster_feed>, [<harvestcraft:sushiitem>, <harvestcraft:sushiitem>, <harvestcraft:sushiitem>,<ore:paper>]);
+recipes.addShapeless("monster4", <grimoireofgaia:food_monster_feed>, [<harvestcraft:ramenitem>,<harvestcraft:bubbleteaitem>,<harvestcraft:onigiriitem>,<ore:paper>]);
 
-recipes.addShapeless("monster5", <grimoireofgaia:food_monster_feed_premium>, [oreDictMeal,<minecraft:leather>]);
-recipes.addShapeless("monster6", <grimoireofgaia:food_monster_feed_premium>, [<ore:alchohol>,<minecraft:leather>]);
-//recipes.addShapeless("monster7", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:pomegranatejellysandwichitem>, <ore:listAllSmoothie>,<minecraft:leather>]);
-recipes.addShapeless("monster8", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:sushiitem>, <harvestcraft:sushiitem>, <harvestcraft:sushiitem>,<minecraft:leather>]);
-recipes.addShapeless("monster9", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:ramenitem>,<harvestcraft:bubbleteaitem>,<harvestcraft:onigiriitem>,<minecraft:leather>]);
+recipes.addShapeless("monster5", <grimoireofgaia:food_monster_feed_premium>, [oreDictMeal,<ore:leather>]);
+recipes.addShapeless("monster6", <grimoireofgaia:food_monster_feed_premium>, [<ore:alchohol>,<ore:leather>]);
+recipes.addShapeless("monster7", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:pomegranatejellysandwichitem>, <ore:listAllsoda>, <harvestcraft:friesitem>, <ore:leather>]);
+recipes.addShapeless("monster8", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:sushiitem>, <harvestcraft:sushiitem>, <harvestcraft:sushiitem>,<ore:leather>]);
+recipes.addShapeless("monster9", <grimoireofgaia:food_monster_feed_premium>, [<harvestcraft:ramenitem>,<harvestcraft:bubbleteaitem>,<harvestcraft:onigiriitem>,<ore:leather>]);
 
 /*
 val oreLightMeal = <ore:lightMeal>;
