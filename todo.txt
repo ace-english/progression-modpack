@@ -25,12 +25,13 @@ V1 ISSUE:
 turn off thermal foundation lead?
 
 Working on
-forestry fruit to bait not working
-[ ] disable signpost waystones
-	wait how many signposts we got
-[x] cut tinkerless alloy recipes
+[ ] accessibility
+	- if current settings aren't doing it for David, this might: https://www.curseforge.com/minecraft/mc-mods/zevacs-survival-flight
 
 V1.1 closed issues
+[x] turn off IE nickel
+[x] forestry fruit
+[x] cut tinkerless alloy recipes
 [x] animania milk should work in ceramic buckets
 [x] add knife to crab recipe
 [x] clay bucket collides with clay jar
@@ -46,6 +47,7 @@ V1.1 closed issues
 [x] Fix tinker's book to accept ore:string
 [x] forestry planks to oak boat
 [x] snow block into snowballs
+[x] more eggs
 
 
 closed issues

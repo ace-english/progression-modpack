@@ -35,3 +35,5 @@ WailaErrorOutput.txt
 config/splash.properties
 config/InvTweaks.cfg
 resources/pack.mcmeta
+config/ThermalTinkering/moltenFluids.txt
+config/ThermalTinkering/fluids.txt
