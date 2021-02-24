@@ -86,3 +86,31 @@ SummonCreatures.addEntity(<entity:animania:doe_jack>, [<ore:cropCarrot>, <minecr
 SummonCreatures.addEntity(<entity:animania:buck_chinchilla>, [<ore:cropCarrot>, <mysticalworld:silk_thread>]);
 SummonCreatures.addEntity(<entity:animania:doe_chinchilla>, [<ore:cropCarrot>, <mysticalworld:silk_thread>, <ore:listAllflower>]);
 
+//pig
+SummonCreatures.addEntity(<entity:animania:hog_large_white>, [<ore:cropApple>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_large_white>, [<ore:cropApple>, <animania:block_mud>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:hog_hampshire>, [<ore:cropPumpkin>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_hampshire>, [<ore:cropPumpkin>, <animania:block_mud>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:hog_large_black>, [<ore:listAllmushroom>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_large_black>, [<ore:listAllmushroom>, <animania:block_mud>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:hog_duroc>, [<minecraft:melon>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_duroc>, [<minecraft:melon>, <animania:block_mud>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:hog_old_spot>, [<ore:cropPotato>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_old_spot>, [<ore:cropPotato>, <animania:block_mud>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:hog_yorkshire>, [<ore:cropCarrot>, <animania:block_mud>]);
+SummonCreatures.addEntity(<entity:animania:sow_yorkshire>, [<ore:cropCarrot>, <animania:block_mud>, <ore:listAllflower>]);
+
+//goats
+SummonCreatures.addEntity(<entity:animania:buck_angora>, [<minecraft:tallgrass:1>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_angora>, [<minecraft:tallgrass:1>, <ore:listAllberry>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:buck_alpine>, [<minecraft:leaves:1>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_alpine>, [<minecraft:leaves:1>, <ore:listAllberry>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:buck_fainting>, [<ore:paper>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_fainting>, [<ore:paper>, <ore:listAllberry>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:buck_kinder>, [<minecraft:leaves2:0>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_kinder>, [<minecraft:leaves2:0>, <ore:listAllberry>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:buck_nigerian_dwarf>, [<minecraft:deadbush>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_nigerian_dwarf>, [<minecraft:deadbush>, <ore:listAllberry>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:buck_pygmy>, [<minecraft:sapling:4>, <ore:listAllberry>]);
+SummonCreatures.addEntity(<entity:animania:doe_pygmy>, [<minecraft:sapling:4>, <ore:listAllberry>, <ore:listAllflower>]);
+
