@@ -39,6 +39,9 @@ HarvestCraftTweaker.addPressing(<ore:cropCoconut>, <harvestcraft:coconutmilkitem
 //almond
 HarvestCraftTweaker.addPressing(<ore:cropAlmond>, <harvestcraft:freshmilkitem>, <harvestcraft:grainbaititem>);
 
+//walnut
+HarvestCraftTweaker.addPressing(<ore:cropWalnut>, <harvestcraft:oliveoilitem>, <harvestcraft:grainbaititem>);
+
 //veggie
 HarvestCraftTweaker.addPressing(<ore:cropAvocado>, <harvestcraft:oliveoilitem>, <harvestcraft:veggiebaititem>);
 
