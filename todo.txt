@@ -28,7 +28,10 @@ Working on
 [ ] accessibility
 	- if current settings aren't doing it for David, this might: https://www.curseforge.com/minecraft/mc-mods/zevacs-survival-flight
 
+
 V1.1 closed issues
+[x] remove binnies from market
+[x] ore:salt
 [x] turn off IE nickel
 [x] forestry fruit
 [x] cut tinkerless alloy recipes

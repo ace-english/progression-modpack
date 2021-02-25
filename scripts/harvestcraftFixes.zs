@@ -67,3 +67,7 @@ oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 
 //bee grubs as fish bait
 recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
+
+//SALT
+<ore:salt>.add(<harvestcraft:saltitem>);
+<ore:saltDust>.add(<harvestcraft:saltitem>);
