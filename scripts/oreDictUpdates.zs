@@ -24,82 +24,12 @@ oreDictJerky.add(<tconstruct:edible:22>);
 oreDictJerky.add(<tconstruct:edible:23>);
 oreDictJerky.add(<tconstruct:edible:20>);
 
-//make bbq jackfruit functional
-furnace.addRecipe(<harvestcraft:bbqjackfruititem>, <harvestcraft:jackfruititem>);
-
-//add alchohol to oredict
-val oreDictAlchohol = <ore:alchohol>;
-oreDictAlchohol.add(<brewcraft:beachrumitem>);
-oreDictAlchohol.add(<brewcraft:cherryvodkaitem>);
-oreDictAlchohol.add(<brewcraft:handmadevodkaitem>);
-oreDictAlchohol.add(<brewcraft:hardapplecideritem>);
-oreDictAlchohol.add(<brewcraft:coconutrumitem>);
-oreDictAlchohol.add(<brewcraft:hardlemonadeitem>);
-oreDictAlchohol.add(<brewcraft:honeymeaditem>);
-oreDictAlchohol.add(<brewcraft:pinkmoscatoitem>);
-oreDictAlchohol.add(<brewcraft:pmaxrieslingitem>);
-oreDictAlchohol.add(<brewcraft:riverchardonnayitem>);
-oreDictAlchohol.add(<brewcraft:sakeitem>);
-oreDictAlchohol.add(<brewcraft:savannazinfandelitem>);
-oreDictAlchohol.add(<brewcraft:spicedrumitem>);
-oreDictAlchohol.add(<brewcraft:swampmerlotitem>);
-oreDictAlchohol.add(<brewcraft:tiagapinotnoiritem>);
-oreDictAlchohol.add(<brewcraft:totalvodkaitem>);
-oreDictAlchohol.add(<brewcraft:uglyavocadoginitem>);
-oreDictAlchohol.add(<brewcraft:goldschlageritem>);
-oreDictAlchohol.add(<brewcraft:blackholewhiskeyitem>);
-oreDictAlchohol.add(<brewcraft:pointthreeryeitem>);
-oreDictAlchohol.add(<brewcraft:ghostpepperabsintheitem>);
-oreDictAlchohol.add(<brewcraft:borgiaabsintheitem>);
-oreDictAlchohol.add(<brewcraft:redbeeritem>);
-oreDictAlchohol.add(<brewcraft:bluebeeritem>);
-oreDictAlchohol.add(<brewcraft:malortitem>);
-oreDictAlchohol.add(<brewcraft:rennalgolditem>);
-oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
-
-//exorcised ghosts from Malort's title
-<brewcraft:malortitem>.displayName = "Malort";
-
 //remove strictly better roots book recipie
 recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
-
-//fix animania milks
-val oreDictMilk = <ore:listAllmilk>;
-oreDictMilk.add(<animania:milk_bottle>);
-
-var clay_holstein_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}});
-var clay_fresian_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_fresian", Amount: 1000}});
-var clay_jersey_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}});
-var clay_goat_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}});
-var clay_sheep_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}});
-
-recipes.addShapeless(<animania:milk_bottle>*4, [clay_holstein_bucket.transformReplace(<ceramics:clay_bucket>), <minecraft:glass_bottle>,<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
-
-recipes.addShapeless(<animania:milk_bottle>, [<harvestcraft:freshmilkitem>, <harvestcraft:freshmilkitem>, <minecraft:glass_bottle>]);
-
-
-//fix animania meats
-val oreDictMeatCooked = <ore:listAllMeatsCooked>;
-oreDictMeatCooked.add(<animania:cooked_prime_peacock>);
-oreDictMeatCooked.add(<animania:cooked_peacock>);
-val oreDictMeatRaw = <ore:listAllMeatsRaw>;
-oreDictMeatRaw.add(<animania:raw_prime_peacock>);
-oreDictMeatRaw.add(<animania:raw_peacock>);
 
 //add citron to lemon
 val oreDictLemon = <ore:cropLemon>;
 oreDictLemon.add(<extratrees:food:15>);
-
-//sunflower seeds are seeds
-val oreDictSeed = <ore:listAllSeed>;
-oreDictSeed.add(<harvestcraft:sunflowerseedsitem>);
-
-//nutmeg isn't a spice, but ground nutmeg is
-val nutmeg = <extratrees:food:53>;
-val oreDictSpice=<ore:listAllspice>;
-oreDictSpice.remove([nutmeg]);
-//recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<harvestcraft:mortarandpestleitem>.transformReplace(<harvestcraft:mortarandpestleitem>), <extratrees:food:53>]);
-oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 
 //honey update
 <ore:listAllSugar>.add(<extrabees:honey_drop>);
@@ -117,25 +47,12 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
     [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
 ]);
 
-//bee grubs as fish bait
-recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
-
 val oreDictFruit=<ore:listAllfruit>;
-/*
-wait this is already in why tf doesnt it work
 
-//forestry fruit bait 
-oreDictFruit.add(<extratrees:food:0>);
-oreDictFruit.add(<extratrees:food:1>);
-oreDictFruit.add(<extratrees:food:2>);
-oreDictFruit.add(<extratrees:food:3>);
-oreDictFruit.add(<extratrees:food:4>);
-oreDictFruit.add(<extratrees:food:5>);
-oreDictFruit.add(<extratrees:food:6>);
-oreDictFruit.add(<extratrees:food:7>);
-oreDictFruit.add(<extratrees:food:8>);
-*/
-
+//fix forestry fruit
+val fruitForestry = <ore:fruitForestry>;
+fruitForestry.remove(<forestry:fruits:1>);
+oreDictFruit.mirror(fruitForestry);
 
 //fix BoP flowers
 val oreDictFlowers=<ore:listAllflower>;
@@ -186,7 +103,6 @@ midori.displayName="Midori";
 midori.addTooltip("Sorry Jakob, Joe made me do it");
 
 //snow blocks into snowballs
-//recipes.addShapeless(<minecraft:snow_block>, [<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>]);
 recipes.addShapeless(<minecraft:snowball>*4, [<minecraft:snow>]);
 
 //forestry planks into oak boat
@@ -202,13 +118,17 @@ recipes.addShaped(<minecraft:boat>, [
 ]);
 
 //remove easy bronze
-recipes.removeShapeless(<thermalfoundation:material:163>*4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+//recipes.removeShapeless(<thermalfoundation:material:163>*4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+recipes.removeShapeless(<ore:ingotBronze>*4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+
+
+recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>); //24 pages
+recipes.replaceAllOccurences(<minecraft:feather>, <ore:feather>); //9 pages
+/*
+recipes.replaceAllOccurences(<minecraft:stick>, <ore:stickWood>);
+recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 
 //replace all common oredict crafting
-recipes.replaceAllOccurences(<minecraft:stick>, <ore:stick>);
-recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
-recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>);
-
 recipes.replaceAllOccurences(<minecraft:dye:1>, <ore:dyeRed>);
 recipes.replaceAllOccurences(<minecraft:dye:2>, <ore:dyeGreen>);
 recipes.replaceAllOccurences(<minecraft:dye:5>, <ore:dyePurple>);
@@ -220,3 +140,64 @@ recipes.replaceAllOccurences(<minecraft:dye:11>, <ore:dyeYellow>);
 recipes.replaceAllOccurences(<minecraft:dye:12>, <ore:dyeLightBlue>);
 recipes.replaceAllOccurences(<minecraft:dye:13>, <ore:dyeMagenta>);
 recipes.replaceAllOccurences(<minecraft:dye:14>, <ore:dyeOrange>);
+*/
+
+//string updates
+recipes.removeShaped(<tconstruct:materials:15>, [
+    [<minecraft:string>, <minecraft:string>, <minecraft:string>],
+    [<minecraft:string>, <minecraft:gold_ingot>, <minecraft:string>],
+    [<minecraft:string>, <minecraft:string>, <minecraft:string>]
+]);
+recipes.addShaped(<tconstruct:materials:15>, [
+    [<ore:string>, <ore:string>, <ore:string>],
+    [<ore:string>, <ore:ingotGold>, <ore:string>],
+    [<ore:string>, <ore:string>, <ore:string>]
+]);
+
+recipes.removeShaped(<minecraft:book>, [
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+    [<minecraft:string>, <tconstruct:pattern:0>, <tconstruct:pattern:0>],
+    [null, null, null]
+]);
+recipes.addShaped(<minecraft:book>, [
+    [<ore:paper>, <ore:paper>, <ore:paper>],
+    [<ore:string>, <tconstruct:pattern:0>, <tconstruct:pattern:0>],
+    [null, null, null]
+]);
+
+recipes.removeShaped(<craftelytra:elytra_wing>,[
+    [<minecraft:paper>, <minecraft:feather>, null],
+    [<minecraft:emerald>,<minecraft:paper>, <minecraft:feather>],
+    [<minecraft:string>, <minecraft:paper>, <minecraft:feather>]
+]);
+
+recipes.addShapedMirrored(<craftelytra:elytra_wing>,[
+    [<ore:paper>, <ore:feather>, null],
+    [<minecraft:emerald>,<ore:paper>, <ore:feather>],
+    [<ore:string>, <ore:paper>, <ore:feather>]
+]);
+
+recipes.removeShapeless(<ebwizardry:blank_scroll>, [<minecraft:paper>, <minecraft:string>]);
+recipes.addShapeless(<ebwizardry:blank_scroll>, [<ore:paper>, <ore:string>]);
+
+recipes.removeShaped(<xnet:xnet_manual>, [
+    [<minecraft:redstone>,<minecraft:string>,<minecraft:redstone>],
+    [null,<minecraft:book>,null],
+    [<minecraft:redstone>,null,<minecraft:redstone>]
+]);
+recipes.addShaped(<xnet:xnet_manual>, [
+    [<minecraft:redstone>,<ore:string>,<minecraft:redstone>],
+    [null,<minecraft:book>,null],
+    [<minecraft:redstone>,null,<minecraft:redstone>]
+]);
+
+recipes.removeShaped(<openblocks:rope_ladder>*3, [
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
+]);
+recipes.addShaped(<openblocks:rope_ladder>*3, [
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
+    [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
+]);
