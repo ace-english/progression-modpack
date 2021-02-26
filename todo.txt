@@ -51,6 +51,9 @@ V1.1 closed issues
 [x] forestry planks to oak boat
 [x] snow block into snowballs
 [x] more eggs
+[x] fix milk compat
+[x] TickDynamic needs to be cut.
+[x] Would like to cut Railcraft. Can't do that without world regen :( - Update, cut without worldgen loss.
 
 
 closed issues
@@ -230,6 +233,3 @@ Animania sucks
 [x] fix bed dye
 [x] Cut DoubleSlabs - DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
 V1 Issues:=======
-[x] fix milk compat
-[x] TickDynamic needs to be cut.
-[x] Would like to cut Railcraft. Can't do that without world regen :( - Update, cut without worldgen loss.
