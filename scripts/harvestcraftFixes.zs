@@ -39,6 +39,9 @@ HarvestCraftTweaker.addPressing(<ore:cropCoconut>, <harvestcraft:coconutmilkitem
 //almond
 HarvestCraftTweaker.addPressing(<ore:cropAlmond>, <harvestcraft:freshmilkitem>, <harvestcraft:grainbaititem>);
 
+//walnut
+HarvestCraftTweaker.addPressing(<ore:cropWalnut>, <harvestcraft:oliveoilitem>, <harvestcraft:grainbaititem>);
+
 //veggie
 HarvestCraftTweaker.addPressing(<ore:cropAvocado>, <harvestcraft:oliveoilitem>, <harvestcraft:veggiebaititem>);
 
@@ -47,3 +50,24 @@ HarvestCraftTweaker.addPressing(<ore:cropBeet>, <minecraft:sugar>, <harvestcraft
 
 //olive
 HarvestCraftTweaker.addPressing(<ore:cropOlive>, <harvestcraft:oliveoilitem>, <harvestcraft:fruitbaititem>);
+
+//make bbq jackfruit functional
+furnace.addRecipe(<harvestcraft:bbqjackfruititem>, <harvestcraft:jackfruititem>);
+
+//sunflower seeds are seeds
+val oreDictSeed = <ore:listAllSeed>;
+oreDictSeed.add(<harvestcraft:sunflowerseedsitem>);
+
+//nutmeg isn't a spice, but ground nutmeg is
+val nutmeg = <extratrees:food:53>;
+val oreDictSpice=<ore:listAllspice>;
+oreDictSpice.remove([nutmeg]);
+//recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<harvestcraft:mortarandpestleitem>.transformReplace(<harvestcraft:mortarandpestleitem>), <extratrees:food:53>]);
+oreDictSpice.add(<harvestcraft:groundnutmegitem>);
+
+//bee grubs as fish bait
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
+
+//SALT
+<ore:salt>.add(<harvestcraft:saltitem>);
+<ore:saltDust>.add(<harvestcraft:saltitem>);

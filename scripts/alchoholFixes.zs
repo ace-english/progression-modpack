@@ -5,6 +5,42 @@ import mods.extratrees.Brewery;
 
 //https://www.reddit.com/r/feedthebeast/comments/iejmja/help_1122_adding_rustic_crushing_tub_recipes/
 
+
+
+//add alchohol to oredict
+val oreDictAlchohol = <ore:alchohol>;
+oreDictAlchohol.add(<brewcraft:beachrumitem>);
+oreDictAlchohol.add(<brewcraft:cherryvodkaitem>);
+oreDictAlchohol.add(<brewcraft:handmadevodkaitem>);
+oreDictAlchohol.add(<brewcraft:hardapplecideritem>);
+oreDictAlchohol.add(<brewcraft:coconutrumitem>);
+oreDictAlchohol.add(<brewcraft:hardlemonadeitem>);
+oreDictAlchohol.add(<brewcraft:honeymeaditem>);
+oreDictAlchohol.add(<brewcraft:pinkmoscatoitem>);
+oreDictAlchohol.add(<brewcraft:pmaxrieslingitem>);
+oreDictAlchohol.add(<brewcraft:riverchardonnayitem>);
+oreDictAlchohol.add(<brewcraft:sakeitem>);
+oreDictAlchohol.add(<brewcraft:savannazinfandelitem>);
+oreDictAlchohol.add(<brewcraft:spicedrumitem>);
+oreDictAlchohol.add(<brewcraft:swampmerlotitem>);
+oreDictAlchohol.add(<brewcraft:tiagapinotnoiritem>);
+oreDictAlchohol.add(<brewcraft:totalvodkaitem>);
+oreDictAlchohol.add(<brewcraft:uglyavocadoginitem>);
+oreDictAlchohol.add(<brewcraft:goldschlageritem>);
+oreDictAlchohol.add(<brewcraft:blackholewhiskeyitem>);
+oreDictAlchohol.add(<brewcraft:pointthreeryeitem>);
+oreDictAlchohol.add(<brewcraft:ghostpepperabsintheitem>);
+oreDictAlchohol.add(<brewcraft:borgiaabsintheitem>);
+oreDictAlchohol.add(<brewcraft:redbeeritem>);
+oreDictAlchohol.add(<brewcraft:bluebeeritem>);
+oreDictAlchohol.add(<brewcraft:malortitem>);
+oreDictAlchohol.add(<brewcraft:rennalgolditem>);
+oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
+
+//exorcised ghosts from Malort's title
+<brewcraft:malortitem>.displayName = "Malort";
+
+
 //vodka
 mods.extratrees.FruitPress.addRecipe(<minecraft:potato>, <liquid:binnie.fermented.potatoes>*100);
 
