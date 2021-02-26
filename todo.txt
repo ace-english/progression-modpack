@@ -32,6 +32,22 @@ V1 ISSUE:
 [ ] Remove Clockwork engine from Forestry. Causes server crash on interact.
 [ ] Make right-click-harvest on TC Scythe 3x3 AOE instead of 1.
 [ ] Villagers have 2 jobs? Minecraft comes alive seems to be responsible for one.
+[ ] clay bucket collides with clay jar - rotate craftin recipes mod?
+[ ] cut tinkerless alloy recipes
+[ ] fix fish jerky
+[ ] turn off thermal foundation lead
+[ ] Fix tinker's book to accept ore:string
+[ ] animania milk should work in ceramic buckets WHY DONT THEY STACK
+[ ] bouncy creepers should be rare
+[ ] forestry fruit to bait (oredict listAllfruit)
+[ ] snow block into snowballs
+[ ] disable signpost wyastones
+[ ] nerf death in nutrition -10%, cap 35%?
+[ ] can I nerf Electrobob's progression?
+[ ] PIG SCREENSHOT
+[ ] forestry planks to oak boat
+[ ] dominos special $meal
+[ ] snad
 
 Build a starting area with book dispensers
 	Misc
