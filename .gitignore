@@ -34,5 +34,9 @@ servers.dat
 WailaErrorOutput.txt
 config/splash.properties
 config/InvTweaks.cfg
+<<<<<<< HEAD
 mods/Chunk Pregenerator-V1.12-2.4.1.jar
 config/pregenerator
+=======
+resources/pack.mcmeta
+>>>>>>> cd9c5cfa30117688900f2f26c5d11690a898793d
