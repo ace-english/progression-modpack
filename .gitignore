@@ -34,6 +34,8 @@ servers.dat
 WailaErrorOutput.txt
 config/splash.properties
 config/InvTweaks.cfg
+mods/Chunk Pregenerator-V1.12-2.4.1.jar
+config/pregenerator
 resources/pack.mcmeta
 config/ThermalTinkering/moltenFluids.txt
 config/ThermalTinkering/fluids.txt
