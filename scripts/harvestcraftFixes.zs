@@ -70,4 +70,3 @@ recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:stri
 
 //SALT
 <ore:salt>.add(<harvestcraft:saltitem>);
-<ore:saltDust>.add(<harvestcraft:saltitem>);
