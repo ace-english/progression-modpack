@@ -1,12 +1,12 @@
 {
-  "path": "mod_mysticalagriculture/plants/certus_quartz_plant.json",
+  "path": "mod_rustic/plants/horsetail_plant.json",
   "enabled": true,
-  "id": "mysticalagriculture:certus_quartz_plant",
-  "plant_name": "Certus Quartz",
-  "seed_name": "Certus Quartz Seeds",
+  "id": "rustic:horsetail",
+  "plant_name": "Horsetail",
+  "seed_name": "Horsetail",
   "seed_items": [
     {
-      "item": "mysticalagriculture:certus_quartz_seeds",
+      "item": "rustic:horsetail",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,11 +18,11 @@
   ],
   "description": {
     "translations": {},
-    "default": "Certus Quartz Seeds."
+    "default": "Horsetail."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
-  "bonemeal": false,
+  "bonemeal": true,
   "tier": 1,
   "weedable": false,
   "aggressive": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "mysticalagriculture:certus_quartz_essence",
+        "item": "rustic:horsetail",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -51,22 +51,26 @@
     "min_light": 10,
     "max_light": 16,
     "soils": [
-      "farmland_soil"
+      "farmland_soil",
+      "fertilized_dirt_soil",
+      "fertile_soil",
+      "loamy_farmland_soil",
+      "sandy_farmland_soil",
+      "silty_farmland_soil",
+      "fertilized_farmland_stable_soil",
+      "fertilized_farmland_rich_stable_soil",
+      "fertilized_farmland_rich_soil",
+      "fertilized_farmland_healthy_stable_soil",
+      "fertilized_farmland_healthy_soil"
     ],
     "conditions": []
   },
   "texture": {
-    "render_type": "cross",
-    "seed_texture": "mysticalagriculture:items/certus_quartz_seeds",
+    "render_type": "hash",
+    "seed_texture": "rustic:items/herbs/horsetail",
     "plant_textures": [
-      "mysticalagriculture:blocks/crop0",
-      "mysticalagriculture:blocks/crop1",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop3",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/certus_quartz_crop"
+      "rustic:blocks/herbs/horsetail_seed",
+      "rustic:blocks/herbs/horsetail"
     ]
   }
 }
