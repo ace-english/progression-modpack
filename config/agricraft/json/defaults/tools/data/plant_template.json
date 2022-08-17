@@ -1,12 +1,12 @@
 {
-  "path": "mod_mysticalagriculture/plants/certus_quartz_plant.json",
+  "path": "mod_mysticalagriculture/plants/${Filename}_plant.json",
   "enabled": true,
-  "id": "mysticalagriculture:certus_quartz_plant",
-  "plant_name": "Certus Quartz",
-  "seed_name": "Certus Quartz Seeds",
+  "id": "${Filename}_crop",
+  "plant_name": "${Name} Crop",
+  "seed_name": "${Name} Seeds",
   "seed_items": [
     {
-      "item": "mysticalagriculture:certus_quartz_seeds",
+      "item": "mysticalagriculture:${Seed}",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Certus Quartz Seeds."
+    "default": "${Name} Seeds."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -26,11 +26,9 @@
   "tier": 1,
   "weedable": false,
   "aggressive": false,
-  "spread_chance": 0.1,
+  "spread_chance": 0.0,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
-  "seed_drop_chance": 1.0,
-  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -38,7 +36,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "mysticalagriculture:certus_quartz_essence",
+        "item": "mysticalagriculture:${Drops}",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -53,20 +51,21 @@
     "soils": [
       "farmland_soil"
     ],
-    "conditions": []
+    "bases": [],
+    "nearby": {}
   },
   "texture": {
     "render_type": "cross",
-    "seed_texture": "mysticalagriculture:items/certus_quartz_seeds",
+    "seed_texture": "mysticalagriculture:items/${Seed}",
     "plant_textures": [
-      "mysticalagriculture:blocks/crop0",
-      "mysticalagriculture:blocks/crop1",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop3",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/certus_quartz_crop"
+        "mysticalagriculture:blocks/crop0",
+		"mysticalagriculture:blocks/crop1",
+		"mysticalagriculture:blocks/crop2",
+		"mysticalagriculture:blocks/crop2",
+		"mysticalagriculture:blocks/crop3",
+		"mysticalagriculture:blocks/crop4",
+		"mysticalagriculture:blocks/crop4",
+		"mysticalagriculture:blocks/${Crop}_crop"
     ]
   }
 }
