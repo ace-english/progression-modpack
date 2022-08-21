@@ -124,6 +124,8 @@ recipes.removeShapeless(<ore:ingotBronze>*4, [<ore:ingotTin>, <ore:ingotCopper>,
 
 recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>); //24 pages
 recipes.replaceAllOccurences(<minecraft:feather>, <ore:feather>); //9 pages
+recipes.replaceAllOccurences(<minecraft:trapdoor>, <ore:trapdoorWood>);
+recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>);
 /*
 recipes.replaceAllOccurences(<minecraft:stick>, <ore:stickWood>);
 recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
@@ -201,3 +203,4 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
 ]);
+
