@@ -1,8 +1,8 @@
 {
 	"name": "alchohol",
-	"icon": "brewcraft:beachrumitem",
+	"icon": "harvestcraft:ironbrewitem",
 	"color": "5c0b51",
-	"decay": 75,
+	"decay": 100,
 	"visible": true,
 	"enabled": true,
 	"food": {

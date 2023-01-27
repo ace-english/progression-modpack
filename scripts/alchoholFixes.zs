@@ -9,6 +9,7 @@ import mods.extratrees.Brewery;
 
 //add alchohol to oredict
 val oreDictAlchohol = <ore:alchohol>;
+/*
 oreDictAlchohol.add(<brewcraft:beachrumitem>);
 oreDictAlchohol.add(<brewcraft:cherryvodkaitem>);
 oreDictAlchohol.add(<brewcraft:handmadevodkaitem>);
@@ -35,6 +36,7 @@ oreDictAlchohol.add(<brewcraft:redbeeritem>);
 oreDictAlchohol.add(<brewcraft:bluebeeritem>);
 oreDictAlchohol.add(<brewcraft:malortitem>);
 oreDictAlchohol.add(<brewcraft:rennalgolditem>);
+*/
 oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 
 //exorcised ghosts from Malort's title
