@@ -1,235 +1,174 @@
-[x] alchohol oredict
-	[ ] forestry wine, brandy, liquor
-too many bees
-	Pam's bee spawning can be disabled in the harvestcraft config
-		[x] don't count as sweetened
-	[x] two honey comb blocks
-		[x] ore dict, make one recipie
-	Oh god BOP made more
-		-they come from a fukken wasp nest in the nether, imma leave it be, like I usually do with wasp nests
-	animania bees produce fluid
-	pams bees produce honey and wax, not real fond of the way they work though
-	forestry bees make everything else
-[ ] achievements
-	[ ] Make a monster girl dinner
-	[ ] Get blind drunk
-two venison
-	pams, mystical world
-Play with new dimensions and JED
-[ ] no more polished stone rocks
-[ ] add egg recipes
-V1 ISSUE:
-[ ] fix Biomes'O'Plenty grass
-	[x] added conversion recipe
-	[x] works with Agricraft
-turn off thermal foundation lead?
+Todo:
+	[x] make sure "can't hold disallowed objects" is on
 
-Working on
-[ ] accessibility
-	- if current settings aren't doing it for David, this might: https://www.curseforge.com/minecraft/mc-mods/zevacs-survival-flight
+	[ ] tinker material yew?
+	[ ] adjust demon summoning spell to not require iron
+	[ ] villager tables
+		[ ] buy rose gold
+		[ ] buy gems
+		[ ] jewler villager
+		[ ] remove emerald trades
+		[ ] add coin trades
+	[ ] add cash for monster drops
+	[ ] restrict all books, scrolls, and signs
+	[ ] adjust market for coins
+	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
+	[ ] redcurrant complex
+	[ ] make dinos spawn in stone age
+	[ ] mobs should only spawn with shit that you can have
+	[ ] lock other mobs to appropriate eras
 
-
-V1.1 closed issues
-[x] remove binnies from market
-[x] ore:salt
-[x] turn off IE nickel
-[x] forestry fruit
-[x] cut tinkerless alloy recipes
-[x] animania milk should work in ceramic buckets
-[x] add knife to crab recipe
-[x] clay bucket collides with clay jar
-[X] nerf death in Nutrition
-	-fixed mining fatigue so it correctly kicks in at 20%
-	-new death cap at 25%, up from 20%
-	-only lose 10% on death, down from 15
-[x] dominos special $meal
-[x] bouncy creepers should be rare
-[x] wizardry wands 33% easier
-[x] PIG SCREENSHOT
-[x] snad
-[x] Fix tinker's book to accept ore:string
-[x] forestry planks to oak boat
-[x] snow block into snowballs
-[x] more eggs
-[x] fix milk compat
-[x] TickDynamic needs to be cut.
-[x] Would like to cut Railcraft. Can't do that without world regen :( - Update, cut without worldgen loss.
+tech progression for tools
+	ancient
+	- one for reading
+		- defeat a wizard?
+	- one for farming
+		-buy a hoe from a villager?
+	- vehicles - make the wheel before asticore carts. wheel should be hard
+		- baykok?
+		- nature's compass under this
+	-make a bedroll
+	-make a backpack
+	-pestle and mortar
+		- make bread
+	gotta unlock archery?
+	build a printing press?
+	chocolate factory
+	
+Triumph is for making achievements
+	- look under mod folder for examples
 
 
-closed issues
---------------------
-[x] agricraft flowers drop flower not dye?
-	https://agridocs.readthedocs.io/en/latest/agri_plant/
-[x] monster lunch
-	[x] just make a ordeidct entry for "meal" and require it in a recipie
-[x] string oredict hemp
-[x] jerky oredict
-[x] remove roots book recipie
-[x] turn down pam spreading
-[x] add cropLemon to citron
-[x] jackfruit
-	[x] add cook recipie for harvestcraft:jackfruititem -> harvestcraft:bbqjackfruititem
-[x] fix animania's ore dict entries
-	[x] milk - must be done by nbt data
-	[x] premium meat
-[x] make terra moss somehow automatable
-	[x] agricraft-over cobblestone, use spores, use sme harvestcraft crop animation
-	[x] test it? no.
-[x] animania eggs to market
-[x] remove harvestcraft market
-[x] Crashed on a sheep rendering for some reason
-	was DSurround x animania, fixed module
-[x] pams crops only drop seeds when easy harvested
-[x] hops
-	[x] add hops to agricraft
-	[x] add to market
-	[x] remove pam's hops
-	[x] texture
-[x] nutrition mod?
-	[x] turn up pams?
-[x] Unify amethyst
-	witchery, mystical world, BOP
-	[x] disabled witchery
-	[x] disabled mystical world
-	Recipies good
-[x] many silver ore
-	mystical world, immersive engineering, and bewitchment
-	[x] IE disabled
-	[x] bewitchment disabled
-Tweaking the spread rate seems to have fixed Agricraft, but...
-	[x] sunflowers missing texture
-	[x] bitch, I have fixed 
-	[x] CROPS GROW A LITTLE FAST NOW
-[x] clipboard needs a crafting recipie
-[x] grow sunflowers
-	[x] dandelion x sugar
-	[x] add to market
-	[x] texture broken
-[x] consolidate forestry and pam's
-	[x] disable selected trees from world gen
-	[x] remove crafting recipies for selected seeds and saplings
-	[x] update market features
-	[x] hide in JEI
-	[x] seeds?
-		[x] remove from garden drops
-		[x] remove from market
-		[x] remove agricraft crops
-		[x] remove agricraft recipies
-		[x] remove from JEI
-[x] avocado saplings need to be removed
-	[x] market
-[x] too much salt
-	[x] mekanism disabled
-	[x] bewitchment disabled
-[x] copper ores
-	unidict should have solved this but there are still some issues - 2 copper ores??
-	[x] disabled immersive engineering copper spawn
-	[x] disabled mystical world copper
-	[x] mekanism
-[x] Bee grub for fish bait
-[x] agricraft ender lily
-[x] crystal crop
-[x] bewitchment x agricraft
-	[x] aconitum
-	[x] belladonna
-	[x] helleborn
-	[x] mandrake
-	[x] white sage
-	[x] wormwood
-	[x] garlic
-		- add Grilled Garlic recipie - any garlic in bewitchment:witches_oven, secondary result bewitchment:cloudy_oil
-		- voodoo protection poppet: shapeless(bewitchment:poppet, cropGarlic, bewitchment:white_sage, ingotSilver)
-		nature's blessing ritual
-		[x] replaced crop yield from agricraft garlic to Bewitchment garlic
-	juniper
-		[x] remove Pam's juniper
-		found in incenses
-		cropJuniper
-		Death Protection Poppet: popper, diamond, juniperberry, heart
-		Juniper Tea: 3 juniper, sugar, bottle in cauldron
-[x] Bafflecap agricraft
-[x] remove chisel from JEI
-[x] horse armor and saddle recipies
-[x] spicy nutriton
-	[x] tweak threshold
-	[x] localization
-	[x] remove spicy stuff from veggie nutrition
-[x] Broken textures on twilight forest wood doors.
-[x] crab meat
-	[x] add recipie
-	[x] ore dict update
-	[x] imitation crab meat recipie
-[x] no more books in inventory. maybe one book?
-	[x] disabled forestry book
-	[x] mystic world book needs to go
-	[x] Tinker's construct book
-Jakob's Requests:
-[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
-[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
-[x] Steel Trapdoor from Engineers doors won't open?
-	[x] remove recipe
-	[x] hide in JEI
-[x] Remove prop items from Grimoir of Gaia from JEI.
-[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
-Missing Textures: ( ) Item - Mod
-[x] Vertical Air - DoubleSlabs
-[x] Doors x3 - Twilight Forest
-Animania sucks
-	[x] nothing drops fey leather
-	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
-	- won't use trough but will use source blocks
-	[x] adjust roots summonings?
-[x] nutmeg
-	[x] remove listAllSpice from nutmeg(must be ground first)
-	[x] add allSpice to ground nutmegnutmeg
-[x] special item by request
-Jakob's Requests:
-[x] Turn down spawn rate of slime islands. I think they should be more rare. Like 1/4-1/8th.
-[x] Turn down spown rate on Grimoir of Gaia Girls. I like them a lot, but I think they should be a little less common.
-[x] Steel Trapdoor from Engineers doors won't open?
-[x] Remove prop items from Grimoir of Gaia from JEI.
-[x] Multiple spawn items: 3x copper, 3x tin, 3x silver, 2x uranium, 3x lead [Thermal Foundation, Forestry, Tinkers's Construct, Nuclearcraft, Mekanism]
-Missing Textures: ( ) Item - Mod
-[x] Vertical Air - DoubleSlabs
-[x] Doors x3 - Twilight Forest
-Animania sucks
-	[x] nothing drops fey leather
-	- won't eat out of animania trough, will eat out of Farming for Blockheads trough. Try throwing food?
-	- won't use trough but will use source blocks
-	[x] adjust roots summonings?
-[x] almond milk
-[x] special item by request
-[x] Binnie's missing fluids
-	[x] gin - cropJuniper (juniper juice first?)
-	[x] rum
-	[x] white rum
-[x] drunk
-[x] maybe a guide book?
-	[x] JEI
-	[x] Journey Map
-	[x] Grimoire of Gaia
-	[x] Traveler's Backpack
-	[x] Nutrition and Spice of Life
-	[x] Food and crops, seasons
-	[x] Enable shaders
-	[x] Baubles
-	[x] Akashic tome
-	[x] Graves
-	[x] World gen and Natures Compass
-	[x] Carryon
-	[x] skill trees
-	[x] Put it in the default inventory
-[x] Menu
-[x] initial bedroll
-[x] Use comforts bedroll in traveler's Backpack
-[x] Make all bedrolls dyable sensibly
-	[x] and hammocks
-[x] Add guidebook recipe
-[x] update guidebook for new bedrolls
-[x] add fish egg recipes
-[x] hide extra rods in JEI
-[x] remove duplicate fishing rods
-[x] remove flax to dye
-[x] fix bed dye
-[x] Cut DoubleSlabs - DoubleSlabs only runs with legacy 12.2-0.10.0 version. Newer 12.2-0.11.0 version causes server crash on load. Due to missing class that is addressed in newer forge. We can't run newer forge...
-V1 Issues:=======
+https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
+In the achievement's .txt, add the line
+	addRewardFunction("path-to-function.txt")
+and then in that file, include the commands required
+	gamestage add @p stageZero
+	
+	
+Useful docs:
+https://bitbucket.org/bloodnbonesgaming/triumph/wiki/Home
+https://docs.blamejared.com/1.12/en/Vanilla/Commands
+	
+does antique atlas have a recipe?
+need the work stump from primal tech
+spice of life - should be much higher, ie. has only get one upgrade in prehistoric, 2-3 in medieval, etc
+
+
+
+trumpet skeleton
+villager trade tables
+tumbleweed
+waila stages
+Triumph
+TinkerStages
+
+Prehistoric (0)
+-------------
+Rafts
+Cermaic
+Tcon - flint, bone
+Totemic
+Fishing
+Foraging
+Horse Tweaks Saddles
+Tcon - flint, wood, bone, stone, feather, leaf
+(some) roots stuff
+	- pyre rituals seem fine, except can't get iron for some, which is good
+Pam's bait, traps
+
+Ore
+	Lapis
+	Salt
+	Emerald
+	Ruby
+	Topaz
+	Amber
+	Peridot
+	Malachite
+	Sapphire
+	Tanzanite
+	
+
+lock the wheel and agriculture behind something
+add recipe for grappling hook - wood shaft + lead + copper, bronze, or iron pickaxe heads
+only agricraft farming
+
+
+Medieval (1)
+--------------
+Tcon - smeltery (the iron age has begun)
+	- make it require bronze? bronze block?
+Rustic 
+Boats
+Beds
+Banners
+Glass
+(Stained Glass)
+Bookshelves
+Bewitchment
+Lever
+Wizardry
+	(hide flowers as cyan flowers)
+Bewitchment
+Iron Chests
+Slab Machines
+Moar Boats
+Ore
+	Coal
+	Quartz
+	Copper
+	Tin
+	Iron
+	Gold
+	Garnet
+	Opal
+	Amethyst
+
+Industrial (2)
+-------------
+Minecarts
+TnT
+Villager Market
+Pam's trade crate
+Thaumcraft
+Traveler's Backpacks
+Platforms
+Ore
+	Diamond
+	Lead
+	Redstone
+
+
+Futuristic (3)
+-------------
+open computers
+Psi
+mekanism
+nuclear craft
+Industrial Forgoing
+Immersive Vehicles
+cooking for blockheads
+mystical agriculture
+Ore
+	Diamond
+	Prosperity
+	
+
+Totally disabled:
+-----------------
+regular armour and tools
+regular farming
+harvestcraft seeds from plants (gotta cultivate via agricraft
+	- make sure all seeds are possible first
+	- remove garlic (redundant)
+	- crank agricraft
+vanilla furnace?
+biomesoplenty:biome_finder
+remove three sugarcane->paper
+remove three wildwheat->paper
+
+
+Runestone can be made with gunpowder or lapis
+Runic shears require iron
+	need them for wildewhear, aubergine, spirit herb
