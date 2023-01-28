@@ -49,15 +49,6 @@ recipes.addShapeless("hammock_color13", <comforts:hammock:13>, [<comforts:hammoc
 recipes.addShapeless("hammock_color14", <comforts:hammock:14>, [<comforts:hammock:*>, <ore:dyeRed>]);
 recipes.addShapeless("hammock_color15", <comforts:hammock:15>, [<comforts:hammock:*>, <ore:dyeBlack>]);
 
-//fuck it, minecraft beds too
-recipes.replaceAllOccurences(<minecraft:bed:0>, <minecraft:bed:*>);
-
-val guidebook = <gbook:guidebook>.withTag({Book: "gbook:hello-friend.xml"});
-//add shapeless book + torch to get guidebook?
-recipes.addShapeless("ace_guidebook", guidebook, [<minecraft:book>, <minecraft:torch>]);
-
-//mods.initialinventory.InvHandler.addStartingItem(<travelersbackpack:sleeping_bag_bottom>); //not usable!!
-
 val rand=Math.floor(Math.random()*16);
 
 val itemDef = <comforts:sleeping_bag>.definition;
