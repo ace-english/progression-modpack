@@ -1,6 +1,4 @@
-import mods.jmapstages.JMapStages;
 
-function init() {
 	// Restricts player from making waypoints. If they do make one it will be destroyed automatically.
 	JMapStages.setWaypointStage("mapping");
 
@@ -12,4 +10,3 @@ function init() {
 
 	// Restricts the player from having the minimap open on their screen.
 	JMapStages.setMinimapStage("mapping");
-}
