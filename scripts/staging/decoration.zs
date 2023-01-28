@@ -1,4 +1,4 @@
-/*import crafttweaker.item.IIngredient;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.zenstages.Stage;
@@ -7,32 +7,10 @@ import mods.orestages.OreStages;
 
 import scripts.staging.stages.stageMedieval;
 import scripts.staging.stages.stageIndustrial;
-import scripts.staging.stages.stageModern;
 import scripts.staging.stages.stageDisabled;
 
 static replacementItemsForStage as IIngredient[][][string] = {
-	stageMedieval.stage :[
-		[<minecraft:iron_ore:0>],
-		[<minecraft:coal_ore:0>],
-		[<immersiveengineering:ore:0>]
-		[<minecraft:emerald_ore:0>],
-	],
-	stageIndustrial:[
-		[<minecraft:redstone_ore:0>],
-		[<immersiveengineering:ore:4>],
-		[<immersiveengineering:ore:1>],
-	],
-	stageModern:[
-		[<mekanism:oreblock:0>],
-		[<materialpart:osmium:ore_minecraft_stone>],
-		[<minecraft:diamond_ore:0>],
-		[<immersiveengineering:ore:5>],
 
-	],
-	stageDisabled:[
-		[<tconstruct:ore:0>, <minecraft:netherrack:0>],
-		[<tconstruct:ore:1>, <minecraft:netherrack:0>],
-	]
 };
 
 static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
@@ -44,14 +22,29 @@ static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:torch:2>, <primal_tech:fibre_torch_lit:2>],
 		[<minecraft:torch:3>, <primal_tech:fibre_torch_lit:3>],
 		[<minecraft:torch:4>, <primal_tech:fibre_torch_lit:4>],
-		[<minecraft:torch:5>, <primal_tech:fibre_torch_lit:5>]
+		[<minecraft:torch:5>, <primal_tech:fibre_torch_lit:5>],
+
+        //beds        
+        [<minecraft:bed:0>, <primal:tatami_bed:0>],
+        [<minecraft:bed:1>, <primal:tatami_bed:0>],
+        [<minecraft:bed:2>, <primal:tatami_bed:0>],
+        [<minecraft:bed:3>, <primal:tatami_bed:0>],
+        [<minecraft:bed:4>, <primal:tatami_bed:0>],
+        [<minecraft:bed:5>, <primal:tatami_bed:0>],
+        [<minecraft:bed:6>, <primal:tatami_bed:0>],
+        [<minecraft:bed:7>, <primal:tatami_bed:0>],
+        [<minecraft:bed:8>, <primal:tatami_bed:0>],
+        [<minecraft:bed:9>, <primal:tatami_bed:0>],
+        [<minecraft:bed:10>, <primal:tatami_bed:0>],
+        [<minecraft:bed:11>, <primal:tatami_bed:0>],
+        [<minecraft:bed:12>, <primal:tatami_bed:0>],
+        [<minecraft:bed:13>, <primal:tatami_bed:0>],
+        [<minecraft:bed:14>, <primal:tatami_bed:0>],
+        [<minecraft:bed:15>, <primal:tatami_bed:0>],
 	],
 };
 
 function init() {
-	for stage in ALL_STAGES {
-		stage.addRecipeRegex(stage.recipeRegex);
-	}
 	addOreReplacements(replacementItemsForStage, false);
 	addOreReplacements(nonDefaultReplacementItemsForStage, true);
 }
@@ -71,4 +64,3 @@ function addOreReplacements(replacementItemsForStage as IIngredient[][][string],
 		}
 	}
 }
-*/
