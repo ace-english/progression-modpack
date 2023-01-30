@@ -20,6 +20,8 @@ potential Jakob tasks:
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
 	[x] remove guidebook mod
+	[x] remove draconic
+	[x] remove thermal expansion
 	[ ] add eagle feather to shearing
 	[ ] villager tables
 		[ ] buy rose gold
@@ -27,6 +29,9 @@ potential Jakob tasks:
 		[ ] jewler villager
 		[ ] remove emerald trades
 		[ ] add coin trades
+	[ ] prosperity needs backups
+	[ ] unify hemp
+	[ ] revisit tips
 	paper
 		[ ] remove easy recipes
 	[ ] restrict all books, scrolls, and signs
@@ -34,6 +39,15 @@ potential Jakob tasks:
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
+	[ ] amethyst
+		- bewitchment, BOP
+		- remove BOP?
+	[ ] leather
+		[ ] remove easy leather recipes
+		[ ] remove from pams ground trap
+		[ ] fox pelt from mystical world should work like other pelts
+	[ ] tweak ground trap
+		- can't drop leather - small hides?
 
 tech progression for tools
 	ancient
