@@ -20,8 +20,8 @@ potential Jakob tasks:
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
 	[x] remove guidebook mod
-	[ ] remove draconic
-	[ ] remove thermal expansion
+	[x] remove draconic
+	[x] remove thermal expansion
 	[ ] add eagle feather to shearing
 	[ ] villager tables
 		[ ] buy rose gold
@@ -30,6 +30,8 @@ potential Jakob tasks:
 		[ ] remove emerald trades
 		[ ] add coin trades
 	[ ] prosperity needs backups
+	[ ] unify hemp
+	[ ] revisit tips
 	paper
 		[ ] remove easy recipes
 	[ ] restrict all books, scrolls, and signs
