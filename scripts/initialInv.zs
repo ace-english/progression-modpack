@@ -10,8 +10,11 @@ recipes.addShaped("travelers_bedroll", <travelersbackpack:travelers_backpack>, [
     [<ore:leather>, <comforts:sleeping_bag:*>, <ore:leather>]
 ]);
 
-//Test that
-//update guidebook recipie accordingly
+//add early game sleeping bag. may get tweaked
+recipes.addShaped("primal_bedroll", <comforts:sleeping_bag:12>, [
+    [<ore:cordageQuality>, null, <ore:cordageQuality>],
+    [<ore:leather>, <ore:leather>, <ore:leather>]
+]);
 
 //Make any comforts bag dyable
 recipes.addShapeless("bedroll_color0", <comforts:sleeping_bag:0>, [<comforts:sleeping_bag:*>, <ore:dyeWhite>]);

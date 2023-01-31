@@ -100,7 +100,7 @@ var mermaid = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:mer
 var succubus = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:succubus"}});
 //var goblin = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:goblin"}});
 var spriggan = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:spriggan"}});
-var minotaur = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:minotaur"}});
+var minotaur = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:minotaurus"}});
 var mimic = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:chest"}});
 var sludge_girl = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:sludge_girl"}});
 var nine_tails = <minecraft:spawn_egg>.withTag({EntityTag: {id: "grimoireofgaia:nine_tails"}});
@@ -116,7 +116,7 @@ recipes.addShaped("creep", creep, [
 ]);
 
 recipes.addShaped("minotaur", minotaur, [
-    [<ore:leather>,<thermalfoundation:tool.hammer_iron>,<ore:leather>],
+    [<ore:leather>,<primal_tech:stone_mallet>,<ore:leather>],
     [<ore:leather>,<minecraft:spawn_egg>,<ore:leather>],
     [<ore:leather>,<ore:listAllmilk>,<ore:leather>]
 ]);
@@ -169,8 +169,8 @@ blood.add(<tconstruct:edible:33>);
 blood.add(<bewitchment:bottle_of_vampire_blood>);
 blood.add(<bewitchment:bottle_of_blood>);
 
-val bloodFlorb =<thermalexpansion:florb>.withTag({Fluid: "blood"}).transformReplace(<thermalexpansion:florb>);
-val bloodBucket =<forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}).transformReplace(<minecraft:bucket>);
+//val bloodFlorb =<thermalexpansion:florb>.withTag({Fluid: "blood"}).transformReplace(<thermalexpansion:florb>);
+//val bloodBucket =<forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}).transformReplace(<minecraft:bucket>);
 
 recipes.addShaped("vampire0", vampire, [
     [blood,blood,blood],
@@ -178,6 +178,7 @@ recipes.addShaped("vampire0", vampire, [
     [blood,blood,blood]
 ]);
 
+/*
 recipes.addShaped("vampire1", vampire, [
     [bloodFlorb,bloodFlorb,bloodFlorb],
     [bloodFlorb,<minecraft:spawn_egg>,bloodFlorb],
@@ -189,6 +190,7 @@ recipes.addShaped("vampire2", vampire, [
     [bloodBucket,<minecraft:spawn_egg>,bloodBucket],
     [bloodBucket,bloodBucket,bloodBucket]
 ]);
+*/
 
 recipes.addShapeless("nine_tails", nine_tails, [<minecraft:fire_charge>,<minecraft:spawn_egg>,<grimoireofgaia:misc_fur>]);
 recipes.addShapeless("kikimora", kikimora, [<bewitchment:broom>,<minecraft:spawn_egg>]);

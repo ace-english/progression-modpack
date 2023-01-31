@@ -122,8 +122,6 @@ oreDictMeal.add(<harvestcraft:thankfuldinneritem>);
 oreDictMeal.add(<harvestcraft:minerstewitem>);
 oreDictMeal.add(<harvestcraft:chickendinneritem>);
 oreDictMeal.add(<animania:super_omelette>);
-oreDictMeal.add(<nuclearcraft:dominos>);
-oreDictMeal.add(<nuclearcraft:moresmore>);
 
 
 recipes.addShapeless("monster0", <grimoireofgaia:food_monster_feed>, [oreDictMeal,<ore:paper>]);
