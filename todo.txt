@@ -23,13 +23,16 @@ potential Jakob tasks:
 	[x] remove draconic
 	[x] remove thermal expansion
 	[ ] add eagle feather to shearing
+	[ ] remove beds that don't work
+	[ ] remove nuggets from monster girl drops
 	[ ] villager tables
 		[ ] buy rose gold
 		[ ] buy gems
 		[ ] jewler villager
 		[ ] remove emerald trades
 		[ ] add coin trades
-	[ ] prosperity needs backups
+	[x] prosperity needs backups
+	[ ] remove inferium drops
 	[ ] unify hemp
 	[ ] revisit tips
 	paper
@@ -41,13 +44,17 @@ potential Jakob tasks:
 	[ ] lock other mobs to appropriate eras
 	[ ] amethyst
 		- bewitchment, BOP
-		- remove BOP?
+		- remove BOP amethyst?
 	[ ] leather
 		[ ] remove easy leather recipes
 		[ ] remove from pams ground trap
 		[ ] fox pelt from mystical world should work like other pelts
 	[ ] tweak ground trap
 		- can't drop leather - small hides?
+	[ ] remove jacoba coins
+	[ ] remove warfare
+	[ ] remove nuclearcraft
+	[ ] sol balance
 
 tech progression for tools
 	ancient
@@ -58,6 +65,7 @@ tech progression for tools
 	- vehicles - make the wheel before asticore carts. wheel should be hard
 		- baykok?
 		- nature's compass under this
+	- fire
 	-make a bedroll
 	-make a backpack
 	-pestle and mortar

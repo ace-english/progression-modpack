@@ -40,7 +40,7 @@ oreDictAlchohol.add(<brewcraft:rennalgolditem>);
 oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 
 //exorcised ghosts from Malort's title
-<brewcraft:malortitem>.displayName = "Malort";
+//<brewcraft:malortitem>.displayName = "Malort";
 
 
 //vodka
