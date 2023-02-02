@@ -8,3 +8,5 @@ mods.ItemStages.addItemStage("disabled", <biomesoplenty:biome_finder>);
 mods.ItemStages.addItemStage("disabled", <primal:corn_stalk_wet>);
 
 mods.ItemStages.addItemStage("disabled", <toughasnails:campfire>);
+<cookingforblockheads:cow_jar>
+<cookingforblockheads:milk_jar>
