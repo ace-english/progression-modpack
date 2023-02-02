@@ -8,89 +8,6 @@ import crafttweaker.oredict.IOreDictEntry;
 //add hemp to string
 val oreDictString = <ore:string>;
 oreDictString.add(<immersiveengineering:material:4>);
-
-//create jerky oreDict
-val oreDictJerky = <ore:jerky>;
-oreDictJerky.add(<harvestcraft:beefjerkyitem>);
-oreDictJerky.add(<harvestcraft:zombiejerkyitem>);
-oreDictJerky.add(<tconstruct:edible:10>);
-oreDictJerky.add(<tconstruct:edible:11>);
-oreDictJerky.add(<tconstruct:edible:12>);
-oreDictJerky.add(<tconstruct:edible:13>);
-oreDictJerky.add(<tconstruct:edible:14>);
-oreDictJerky.add(<tconstruct:edible:15>);
-oreDictJerky.add(<tconstruct:edible:21>);
-oreDictJerky.add(<tconstruct:edible:22>);
-oreDictJerky.add(<tconstruct:edible:23>);
-oreDictJerky.add(<tconstruct:edible:20>);
-
-//remove strictly better roots book recipie
-recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
-
-//add citron to lemon
-val oreDictLemon = <ore:cropLemon>;
-oreDictLemon.add(<extratrees:food:15>);
-
-//honey update
-<ore:listAllSugar>.add(<extrabees:honey_drop>);
-<ore:listAllSugar>.add(<forestry:honey_drop>);
-<ore:listAllSugar>.add(<forestry:honeydew>);
-val oreDictHoneycomb = <ore:honeycomb>;
-oreDictHoneycomb.add(<forestry:bee_combs>);
-oreDictHoneycomb.add(<harvestcraft:honeycombitem>);
-//these changes enable you to convert forestry honeycomb into pam's honeycomb. Am I cool with that? I think so
-recipes.remove(<forestry:bee_combs_0>);
-recipes.remove(<harvestcraft:honeycomb>);
-recipes.addShaped(<harvestcraft:honeycomb>,[
-    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
-    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
-    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
-]);
-
-val oreDictFruit=<ore:listAllfruit>;
-
-//fix forestry fruit
-val fruitForestry = <ore:fruitForestry>;
-fruitForestry.remove(<forestry:fruits:1>);
-oreDictFruit.mirror(fruitForestry);
-
-//fix BoP flowers
-val oreDictFlowers=<ore:listAllflower>;
-oreDictFlowers.addAll(<ore:allTallFlowers>);
-oreDictFlowers.add(<biomesoplenty:flower_0:0>);
-oreDictFlowers.add(<biomesoplenty:flower_0:1>);
-oreDictFlowers.add(<biomesoplenty:flower_0:2>);
-oreDictFlowers.add(<biomesoplenty:flower_0:3>);
-oreDictFlowers.add(<biomesoplenty:flower_0:4>);
-oreDictFlowers.add(<biomesoplenty:flower_0:5>);
-oreDictFlowers.add(<biomesoplenty:flower_0:6>);
-oreDictFlowers.add(<biomesoplenty:flower_0:7>);
-oreDictFlowers.add(<biomesoplenty:flower_0:8>);
-oreDictFlowers.add(<biomesoplenty:flower_0:9>);
-oreDictFlowers.add(<biomesoplenty:flower_0:10>);
-oreDictFlowers.add(<biomesoplenty:flower_0:11>);
-oreDictFlowers.add(<biomesoplenty:flower_0:12>);
-oreDictFlowers.add(<biomesoplenty:flower_0:13>);
-oreDictFlowers.add(<biomesoplenty:flower_0:14>);
-oreDictFlowers.add(<biomesoplenty:flower_0:15>);
-oreDictFlowers.add(<biomesoplenty:flower_1:0>);
-oreDictFlowers.add(<biomesoplenty:flower_1:1>);
-oreDictFlowers.add(<biomesoplenty:flower_1:2>);
-oreDictFlowers.add(<biomesoplenty:flower_1:3>);
-oreDictFlowers.add(<biomesoplenty:flower_1:4>);
-oreDictFlowers.add(<biomesoplenty:flower_1:5>);
-
-//fix bop stuff
-oreDictFruit.add(<biomesoplenty:berries>);
-<ore:listAllberries>.add(<biomesoplenty:berries>);
-recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
-recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
-recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
-recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
-recipes.removeShapeless(<minecraft:dye:12>*2, [<biomesoplenty:double_plant:0>]);
-recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:2>]);
-recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:0>]);
-
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
 <forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";
@@ -144,7 +61,125 @@ recipes.replaceAllOccurences(<minecraft:dye:13>, <ore:dyeMagenta>);
 recipes.replaceAllOccurences(<minecraft:dye:14>, <ore:dyeOrange>);
 */
 
-//string updates
+/*
+//create jerky oreDict
+val oreDictJerky = <ore:jerky>;
+oreDictJerky.add(<harvestcraft:beefjerkyitem>);
+oreDictJerky.add(<harvestcraft:zombiejerkyitem>);
+oreDictJerky.add(<tconstruct:edible:10>);
+oreDictJerky.add(<tconstruct:edible:11>);
+oreDictJerky.add(<tconstruct:edible:12>);
+oreDictJerky.add(<tconstruct:edible:13>);
+oreDictJerky.add(<tconstruct:edible:14>);
+oreDictJerky.add(<tconstruct:edible:15>);
+oreDictJerky.add(<tconstruct:edible:21>);
+oreDictJerky.add(<tconstruct:edible:22>);
+oreDictJerky.add(<tconstruct:edible:23>);
+oreDictJerky.add(<tconstruct:edible:20>);
+*/
+
+//remove strictly better roots book recipie
+recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
+
+//add citron to lemon
+val oreDictLemon = <ore:cropLemon>;
+oreDictLemon.add(<extratrees:food:15>);
+
+//honey update
+<ore:listAllSugar>.add(<extrabees:honey_drop>);
+<ore:listAllSugar>.add(<forestry:honey_drop>);
+<ore:listAllSugar>.add(<forestry:honeydew>);
+val oreDictHoneycomb = <ore:honeycomb>;
+oreDictHoneycomb.add(<forestry:bee_combs>);
+oreDictHoneycomb.add(<harvestcraft:honeycombitem>);
+//these changes enable you to convert forestry honeycomb into pam's honeycomb. Am I cool with that? I think so
+recipes.remove(<forestry:bee_combs_0>);
+recipes.remove(<harvestcraft:honeycomb>);
+recipes.addShaped(<harvestcraft:honeycomb>,[
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb],
+    [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
+]);
+
+
+
+/**************************************************************************
+
+    forestert
+    
+**************************************************************************/
+
+
+val oreDictFruit=<ore:listAllfruit>;
+
+//fix forestry fruit
+val fruitForestry = <ore:fruitForestry>;
+fruitForestry.remove(<forestry:fruits:1>);
+oreDictFruit.mirror(fruitForestry);
+
+
+/**************************************************************************
+
+    biomes o plenty
+    
+**************************************************************************/
+val oreDictFlowers=<ore:listAllflower>;
+oreDictFlowers.addAll(<ore:allTallFlowers>);
+oreDictFlowers.add(<biomesoplenty:flower_0:0>);
+oreDictFlowers.add(<biomesoplenty:flower_0:1>);
+oreDictFlowers.add(<biomesoplenty:flower_0:2>);
+oreDictFlowers.add(<biomesoplenty:flower_0:3>);
+oreDictFlowers.add(<biomesoplenty:flower_0:4>);
+oreDictFlowers.add(<biomesoplenty:flower_0:5>);
+oreDictFlowers.add(<biomesoplenty:flower_0:6>);
+oreDictFlowers.add(<biomesoplenty:flower_0:7>);
+oreDictFlowers.add(<biomesoplenty:flower_0:8>);
+oreDictFlowers.add(<biomesoplenty:flower_0:9>);
+oreDictFlowers.add(<biomesoplenty:flower_0:10>);
+oreDictFlowers.add(<biomesoplenty:flower_0:11>);
+oreDictFlowers.add(<biomesoplenty:flower_0:12>);
+oreDictFlowers.add(<biomesoplenty:flower_0:13>);
+oreDictFlowers.add(<biomesoplenty:flower_0:14>);
+oreDictFlowers.add(<biomesoplenty:flower_0:15>);
+oreDictFlowers.add(<biomesoplenty:flower_1:0>);
+oreDictFlowers.add(<biomesoplenty:flower_1:1>);
+oreDictFlowers.add(<biomesoplenty:flower_1:2>);
+oreDictFlowers.add(<biomesoplenty:flower_1:3>);
+oreDictFlowers.add(<biomesoplenty:flower_1:4>);
+oreDictFlowers.add(<biomesoplenty:flower_1:5>);
+
+
+oreDictFruit.add(<biomesoplenty:berries>);
+<ore:listAllberries>.add(<biomesoplenty:berries>);
+recipes.addShapeless(<harvestcraft:riceseeditem>, [<biomesoplenty:plant_1:3>]);
+recipes.addShapeless(<harvestcraft:barleyseeditem>, [<biomesoplenty:plant_1:11>]);
+recipes.addShapeless(<harvestcraft:flaxseeditem>, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<harvestcraft:whitemushroomseeditem>, [<biomesoplenty:mushroom:1>]);
+recipes.removeShapeless(<minecraft:dye:12>*2, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:2>]);
+recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:0>]);
+
+//amethyst
+val amethyst=<ore:gemAmethyst>;
+amethyst.remove(<biomesoplenty:gem>);
+
+
+recipes.removeByRecipeName("biomesoplenty:amethyst_block");
+
+/*
+recipes.addShapeless(<biomesoplenty:gem_block>, [
+    [<biomesoplenty:gem>,<biomesoplenty:gem>,<biomesoplenty:gem>],
+    [<biomesoplenty:gem>,<biomesoplenty:gem>,<biomesoplenty:gem>],
+    [<biomesoplenty:gem>,<biomesoplenty:gem>,<biomesoplenty:gem>]
+]);
+*/
+
+
+/**************************************************************************
+
+    string
+    
+**************************************************************************/
 recipes.removeShaped(<tconstruct:materials:15>, [
     [<minecraft:string>, <minecraft:string>, <minecraft:string>],
     [<minecraft:string>, <minecraft:gold_ingot>, <minecraft:string>],
@@ -204,3 +239,7 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
 ]);
 
+val woodAsh=<ore:ashWood>;
+
+woodAsh.add(<bewitchment:wood_ash>);
+woodAsh.add(<biomesoplenty:ash>);
