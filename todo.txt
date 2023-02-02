@@ -11,6 +11,7 @@ potential Jakob tasks:
 		- macaw's bridges?
 		- industrial whatevers
 		- ships? I saw some but didn't like them very much
+	[ ] druid metal
 
 	[ ] triumph achievements
 	[ ] add recipe for seared brick out of sarias
@@ -22,6 +23,7 @@ potential Jakob tasks:
 	[x] remove guidebook mod
 	[x] remove draconic
 	[x] remove thermal expansion
+	[ ] too many cauldrons
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
 	[ ] remove nuggets from monster girl drops
@@ -35,6 +37,7 @@ potential Jakob tasks:
 	[ ] remove inferium drops
 	[ ] unify hemp
 	[ ] revisit tips
+	[x] no more steves
 	paper
 		[ ] remove easy recipes
 	[ ] restrict all books, scrolls, and signs
@@ -52,46 +55,69 @@ potential Jakob tasks:
 	[ ] tweak ground trap
 		- can't drop leather - small hides?
 	[ ] remove jacoba coins
-	[ ] remove warfare
-	[ ] remove nuclearcraft
+	[x] remove nuclearcraft
 	[ ] sol balance
+	[ ] add more warm blocks
+		[x] campfire
+		[ ] nitres
+	[ ] have we disabled xyz info?
+	[ ] metal dust
+		[ ] horse grinder
+		[ ] anvil
+	[ ] books
+		[ ] add magic books with nbt programatically?
+	[ ] agriculture
+		[ ] agricraft crops
+		[ ] hoes?
+		[ ] seeds
+		[ ] agricraft irrigation
+	[ ] slimy compass in loot tables?
+	[ ] magnets are magic - create magical path for compass not including redstone
+	[ ] remove redstone from pereskia. integrate something from a different mod?
+	
 
 tech progression for tools
 	ancient
-	- one for reading
-		- defeat a wizard?
-	- one for farming
-		-buy a hoe from a villager?
-	- vehicles - make the wheel before asticore carts. wheel should be hard
-		- baykok?
-		- nature's compass under this
-	- fire
-	-make a bedroll
-	-make a backpack
-	-pestle and mortar
-		- make bread
-	gotta unlock archery?
-	build a printing press?
-	chocolate factory
+		- one for reading
+			- defeat a wizard?
+		- one for farming
+			-buy a hoe from a villager?
+		- vehicles - make the wheel before asticore carts. wheel should be hard
+			- baykok?
+			- nature's compass under this
+		- fire
+		-make a bedroll
+		-make a backpack
+		-pestle and mortar
+			- make bread
+		gotta unlock archery?
+		fishing
+		totemic
+		roots
+	medieval
+		build a printing press?
+		twilight forest
+		windmil
+		witchery
+		rustic
+		unlock boats late
+	industrial
+		trains
+	modern
+	future
+	chocolate factory?
 	
 Triumph is for making achievements
 	- look under mod folder for examples
 
 
 https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
-In the achievement's .txt, add the line
-	addRewardFunction("path-to-function.txt")
-and then in that file, include the commands required
-	gamestage add @p stageZero
 	
 	
 Useful docs:
 https://bitbucket.org/bloodnbonesgaming/triumph/wiki/Home
 https://docs.blamejared.com/1.12/en/Vanilla/Commands
-	
-does antique atlas have a recipe?
-need the work stump from primal tech
-spice of life - should be much higher, ie. has get two upgrades in prehistoric, 2 in medieval, etc
+https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
 
 
 Prehistoric (0)
@@ -143,6 +169,7 @@ Wizardry
 	(hide flowers as cyan flowers)
 Bewitchment
 Iron Chests
+cooking for blockheads (some)
 Slab Machines
 Moar Boats
 Ore
@@ -176,7 +203,6 @@ Futuristic (3)
 open computers
 Psi
 mekanism
-nuclear craft
 Industrial Forgoing
 Immersive Vehicles
 cooking for blockheads

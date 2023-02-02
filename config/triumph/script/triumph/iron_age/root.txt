@@ -1,0 +1,8 @@
+setIcon(<rustic:brewing_barrel>)
+setTitle("Iron Age")
+setDescription("Adventuring and forging")
+setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
+setShowToast(false)
+setAnnounceToChat(false)
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stone_age/smelter")
