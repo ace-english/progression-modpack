@@ -11,4 +11,5 @@
 	// Restricts the player from having the minimap open on their screen.
 	mods.jmapstages.JMapStages.setMinimapStage("exploration");
 
-	mods.WailaStages.addWailaStage("medieval");
+<pirates:map>
+	
