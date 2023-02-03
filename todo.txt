@@ -42,6 +42,7 @@ potential Jakob tasks:
 		[ ] add coin trades
 		[ ] buy pelts
 		[ ] lvl 3 farmer - buy shipping bin
+		[ ] add money exchanger villager
 	[x] prosperity needs backups
 	[ ] remove inferium drops
 	[ ] unify hemp
@@ -133,11 +134,14 @@ Triumph is for making achievements
 https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
 	
 	
+If you need staged loot, get https://www.curseforge.com/minecraft/mc-mods/more-loot-stuff
+	
 Useful docs:
 https://bitbucket.org/bloodnbonesgaming/triumph/wiki/Home
 https://docs.blamejared.com/1.12/en/Vanilla/Commands
 https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
-
+https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2546347-1-12-custom-loot-tables
+https://loottweaker-docs.readthedocs.io/en/latest/tutorials/crash-course-basics.html
 
 Prehistoric (0)
 -------------
