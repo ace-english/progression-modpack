@@ -15,9 +15,11 @@ oreDictString.add(<immersiveengineering:material:4>);
 recipes.remove(<engineersdoors:trapdoor_steel>);
 
 //Joe's request
+/*
 val midori=<extratrees:binnie.liqueur.melon>;
 midori.displayName="Midori";
 midori.addTooltip("Sorry Jakob, Joe made me do it");
+*/
 
 //snow blocks into snowballs
 recipes.addShapeless(<minecraft:snowball>*4, [<minecraft:snow>]);
@@ -82,11 +84,11 @@ oreDictJerky.add(<tconstruct:edible:20>);
 recipes.removeShapeless(<minecraft:book>, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:string>]);
 
 //add citron to lemon
-val oreDictLemon = <ore:cropLemon>;
-oreDictLemon.add(<extratrees:food:15>);
+//val oreDictLemon = <ore:cropLemon>;
+//oreDictLemon.add(<extratrees:food:15>);
 
 //honey update
-<ore:listAllSugar>.add(<extrabees:honey_drop>);
+//<ore:listAllSugar>.add(<extrabees:honey_drop>);
 <ore:listAllSugar>.add(<forestry:honey_drop>);
 <ore:listAllSugar>.add(<forestry:honeydew>);
 val oreDictHoneycomb = <ore:honeycomb>;
@@ -240,6 +242,11 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
 ]);
 
 val woodAsh=<ore:ashWood>;
-
 woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
+
+<ore:salt>.add(<primal:salt_dust_netjry>);
+<ore:foodSalt>.remove(<mekanism:saltblock>);
+
+<ore:peltSmall>.add(<mysticalworld:pelt>);
+recipes.removeByRecipeName("mysticalworld:pelt_to_leather");

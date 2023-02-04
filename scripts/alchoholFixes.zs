@@ -1,7 +1,7 @@
 #https://gist.github.com/OrdinatorStouff/ac5719838adfe87ddc0ce5cf22bbd6a1
 import crafttweaker.item.IIngredient;
-import mods.extratrees.FruitPress;
-import mods.extratrees.Brewery;
+//import mods.extratrees.FruitPress;
+//import mods.extratrees.Brewery;
 
 //https://www.reddit.com/r/feedthebeast/comments/iejmja/help_1122_adding_rustic_crushing_tub_recipes/
 
@@ -9,6 +9,8 @@ import mods.extratrees.Brewery;
 
 //add alchohol to oredict
 val oreDictAlchohol = <ore:alchohol>;
+oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
+
 /*
 oreDictAlchohol.add(<brewcraft:beachrumitem>);
 oreDictAlchohol.add(<brewcraft:cherryvodkaitem>);
@@ -36,8 +38,6 @@ oreDictAlchohol.add(<brewcraft:redbeeritem>);
 oreDictAlchohol.add(<brewcraft:bluebeeritem>);
 oreDictAlchohol.add(<brewcraft:malortitem>);
 oreDictAlchohol.add(<brewcraft:rennalgolditem>);
-*/
-oreDictAlchohol.add(<harvestcraft:ironbrewitem>);
 
 //exorcised ghosts from Malort's title
 //<brewcraft:malortitem>.displayName = "Malort";
@@ -73,7 +73,7 @@ mods.extratrees.FruitPress.addRecipe(<bewitchment:elderberries>, <liquid:binnie.
 mods.extratrees.FruitPress.addRecipe(<minecraft:reeds>, <liquid:binnie.spirit.sugarcane>*100);
 mods.extratrees.Distillery.addRecipe(<liquid:binnie.spirit.sugarcane>*1000, <liquid:binnie.rum.white>*1000, 1);
 mods.extratrees.Brewery.addGrainRecipe(<ore:sugarcane>,<liquid:binnie.rum.dark>*1000,<ore:listAllspice>,<extratrees:misc:4>);
-/*
+
 mods.extratrees.Brewery.addRecipe(<liquid:binnie.spirit.sugarcane>*1000, <liquid:binnie.rum.dark>*1000, <ore:listAllspice>);
 mods.extratrees.Brewery.addGrainRecipe(<ore:sugar>,<liquid:binnie.rum.dark>,<ore:listAllspice>,<extratrees:misc:4>);
 mods.extratrees.Brewery.addGrainRecipe(<minecraft:reeds>,<liquid:binnie.rum.dark>*1000,<ore:listAllspice>,<extratrees:misc:4>);
