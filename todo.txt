@@ -5,28 +5,28 @@ potential Jakob tasks:
 	[ ] tinker materials
 		[ ] leather
 		[ ] cold iron
-		[ ] roots
-			[ ] terrastone
-			[ ] sylvan
-			[ ] fey leather
 		[ ] yew
 		[ ] ironwood
+		[ ] fey leather
 		[ ] neptunium
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	[ ] add cash for monster drops
 	[ ] add nutrition to bewitchment food 
-	[ ] add recipe for bedroll out of leather
+	[x] add recipe for bedroll out of leather
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
 		- ships? I saw some but didn't like them very much
-	[ ] druid metal in tcon
-	[ ] cold iron in tcon
 
 	[ ] triumph achievements
 	[x] add recipe for seared brick out of sarias
+	[ ] how early can you get in the nether? Fight a blaze?
+		- alloy tank require blaze rod???
+	[ ] scorched tinker kit from mud bricks
+		- casting table
+		- melter
+		- spout
 	[ ] add grappling hook recipes
-	[ ] adjust demon summoning spell to not require iron\
 	signposts also makes a waystone?
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
@@ -34,25 +34,16 @@ potential Jakob tasks:
 	[x] remove draconic
 	[x] remove thermal expansion
 	[ ] remove arcane essantials
-	[ ] druid terrastone?
-	[ ] how early can you get in the nether? Fight a blaze?
-		- alloy tank require blaze rod???
-	[ ] scorched tinker kit from mud bricks
-		- casting table
-		- melter
-		- spout
-		- can we heat it with a fire or something??
 	[ ] Info accessories
-		- minecraft:compass (prereq for sailing?)
-		- Depth Meter - needs crafting recipe. medieval? prehistoric?
-		- Slimey Compass - add to loot table
-		- <infoaccessories:info_accessory:0> stopwatch - industrial - add recipe
-		<infoaccessories:info_accessory:6> biomealyzer - add recipe - medieval
-		<bibliocraft:plumbline> - ancient? change recipe to require bronze instead?
+		[ ] minecraft:compass (prereq for sailing?)
+		[ ] bibliocraft:plumbline - prehistoric, but bronze?
+		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
+		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
+		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[ ] too many cauldrons
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
-	[ ] remove nuggets from monster girl drops
+	[x] remove nuggets from monster girl drops
 	[ ] villager tables
 		[ ] buy rose gold
 		[ ] buy gems
@@ -64,21 +55,19 @@ potential Jakob tasks:
 		[ ] add money exchanger villager
 	[x] prosperity needs backups
 	[ ] remove inferium drops
-	[ ] unify hemp
+	[?] unify hemp
 	[ ] revisit tips
 	[x] no more steves
-	[ ] remove extra bees
-	[ ] remove extra trees
-	[ ] remove fairy lights
+	[x] remove extra bees
+	[x] remove extra trees
+	[x] remove fairy lights
 	[ ] stage grimoire of gaia mods
 	[ ] add cyborgs
 	[ ] 2 salt block decon recipes
 	[ ] add recipes for cool ancient warfare stuff
 	paper
 		[ ] remove easy recipes
-	[ ] enderlily agricraft
-	[ ] why isn't crops in jei anymore
-	[ ] gonna have to do bewitchment items manually (wood, seeds etc)
+	[x] gonna have to do bewitchment items manually (wood, seeds etc)
 	[ ] restrict all books, scrolls, and signs
 	[ ] adjust market for coins
 	[ ] mobs should only spawn with shit that you can have
@@ -90,7 +79,7 @@ potential Jakob tasks:
 	[ ] leather
 		[ ] remove easy leather recipes
 		[ ] remove from pams ground trap
-		[ ] fox pelt from mystical world should work like other pelts
+		[x] fox pelt from mystical world should work like other pelts
 	[ ] tweak ground trap
 		- can't drop leather - small hides?
 	[ ] remove jacoba coins
@@ -104,13 +93,12 @@ potential Jakob tasks:
 	[ ] metal dust
 		[ ] horse grinder
 		[ ] anvil
-	[ ] books
-		[ ] add magic books with nbt programatically?
 	[ ] agriculture
 		[ ] agricraft crops
 		[ ] hoes?
 		[ ] seeds
 		[ ] agricraft irrigation
+		[ ] other hoe should count for achievement
 	[ ] magnets are magic - create magical path for compass not including redstone
 	[ ] remove redstone from pereskia. integrate something from a different mod?
 	
