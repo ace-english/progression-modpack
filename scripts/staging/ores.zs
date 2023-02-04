@@ -1,7 +1,6 @@
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:coal_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:gold_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <ebwizardry:crystal_ore>);
- mods.orestages.OreStages.addReplacement("medieval", <immersiveengineering:ore:0>);
  mods.orestages.OreStages.addReplacement("medieval", <mca:rose_gold_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <mysticalworld:silver_ore>);
 
@@ -9,8 +8,6 @@
  mods.orestages.OreStages.addReplacement("industrial", <mysticalworld:quartz_ore>);
  mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:ore_quartz>);
  mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:ore_cinnabar>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_terra>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_ignis>);
  mods.orestages.OreStages.addReplacement("industrial", <immersiveengineering:ore:1>); //bauxite (aluminum)
  mods.orestages.OreStages.addReplacement("industrial", <immersiveengineering:ore:4>); //nickel
 

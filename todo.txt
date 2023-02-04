@@ -5,9 +5,13 @@ potential Jakob tasks:
 	[ ] tinker materials
 		[ ] leather
 		[ ] cold iron
+		[ ] roots
+			[ ] terrastone
+			[ ] sylvan
+			[ ] fey leather
 		[ ] yew
 		[ ] ironwood
-		[ ] fey leather
+		[ ] neptunium
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	[ ] add cash for monster drops
 	[ ] add nutrition to bewitchment food 
@@ -20,7 +24,7 @@ potential Jakob tasks:
 	[ ] cold iron in tcon
 
 	[ ] triumph achievements
-	[ ] add recipe for seared brick out of sarias
+	[x] add recipe for seared brick out of sarias
 	[ ] add grappling hook recipes
 	[ ] adjust demon summoning spell to not require iron\
 	signposts also makes a waystone?
@@ -29,7 +33,22 @@ potential Jakob tasks:
 	[x] remove guidebook mod
 	[x] remove draconic
 	[x] remove thermal expansion
+	[ ] remove arcane essantials
 	[ ] druid terrastone?
+	[ ] how early can you get in the nether? Fight a blaze?
+		- alloy tank require blaze rod???
+	[ ] scorched tinker kit from mud bricks
+		- casting table
+		- melter
+		- spout
+		- can we heat it with a fire or something??
+	[ ] Info accessories
+		- minecraft:compass (prereq for sailing?)
+		- Depth Meter - needs crafting recipe. medieval? prehistoric?
+		- Slimey Compass - add to loot table
+		- <infoaccessories:info_accessory:0> stopwatch - industrial - add recipe
+		<infoaccessories:info_accessory:6> biomealyzer - add recipe - medieval
+		<bibliocraft:plumbline> - ancient? change recipe to require bronze instead?
 	[ ] too many cauldrons
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
@@ -80,6 +99,7 @@ potential Jakob tasks:
 	[ ] add more warm blocks
 		[x] campfire
 		[ ] nitres
+		[ ] campfires from ancient warfare
 	[ ] have we disabled xyz info?
 	[ ] metal dust
 		[ ] horse grinder
@@ -91,7 +111,6 @@ potential Jakob tasks:
 		[ ] hoes?
 		[ ] seeds
 		[ ] agricraft irrigation
-	[ ] slimy compass in loot tables?
 	[ ] magnets are magic - create magical path for compass not including redstone
 	[ ] remove redstone from pereskia. integrate something from a different mod?
 	
@@ -142,6 +161,10 @@ https://docs.blamejared.com/1.12/en/Vanilla/Commands
 https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
 https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2546347-1-12-custom-loot-tables
 https://loottweaker-docs.readthedocs.io/en/latest/tutorials/crash-course-basics.html
+
+/ct loottables all 
+
+https://github.com/thephoenixlodge/Heavens-of-Sorcery/blob/master/scripts/dungeon_loot.zs
 
 Prehistoric (0)
 -------------

@@ -59,9 +59,9 @@ val oreDictSeed = <ore:listAllSeed>;
 oreDictSeed.add(<harvestcraft:sunflowerseedsitem>);
 
 //nutmeg isn't a spice, but ground nutmeg is
-val nutmeg = <extratrees:food:53>;
 val oreDictSpice=<ore:listAllspice>;
-oreDictSpice.remove([nutmeg]);
+//val nutmeg = <extratrees:food:53>;
+//oreDictSpice.remove([nutmeg]);
 //recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<harvestcraft:mortarandpestleitem>.transformReplace(<harvestcraft:mortarandpestleitem>), <extratrees:food:53>]);
 oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 
