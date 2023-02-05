@@ -22,4 +22,9 @@ criteria.setEntityType("minecraft:villager")
 //Sets the required item for the criteria. This is the item that must be traded for.
 criteria.setItem(<primal:flint_hoe>)
 
+criteria = addCriteria("traded", "minecraft:villager_trade")
+criteria.setEntityType("minecraft:villager")
+criteria.setItem(<primal:bone_hoe>)
+
+setRequirements("any")
 addRewardFunction("triumph:functions/bee_stages/farming")

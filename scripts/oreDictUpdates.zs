@@ -162,8 +162,9 @@ recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:2>]);
 recipes.addShapeless(<minecraft:dirt>, [<biomesoplenty:dirt:0>]);
 
 //amethyst
-val amethyst=<ore:gemAmethyst>;
-amethyst.remove(<biomesoplenty:gem>);
+<ore:gemAmethyst>.remove(<biomesoplenty:gem>);
+<ore:blockAmethyst>.remove(<biomesoplenty:gem_block>);
+<ore:blockAmethyst>.remove(<bewitchment:block_of_amethyst>);
 
 
 recipes.removeByRecipeName("biomesoplenty:amethyst_block");
