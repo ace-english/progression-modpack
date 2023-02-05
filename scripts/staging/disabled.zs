@@ -1,4 +1,14 @@
 mods.ItemStages.addItemStage("disabled", <biomesoplenty:biome_finder>);
+
+
+mods.ItemStages.addItemStage("disabled", <betterwithmods:stump_remover>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_anvil>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:material:50>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:material:7>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:material:32>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:material:33>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:aesthetic:10>);
+
 mods.ItemStages.addItemStage("disabled", <cookingforblockheads:cow_jar>);
 mods.ItemStages.addItemStage("disabled", <cookingforblockheads:milk_jar>);
 
