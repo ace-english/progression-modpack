@@ -1,6 +1,7 @@
-recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [
-    [<ore:ingotBronze>, <betterwithmods:rope>]
-]);
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
 
 recipes.removeByRecipeName("bibliocraft:plumbline");
 recipes.removeByRecipeName("primal:planks_49");
