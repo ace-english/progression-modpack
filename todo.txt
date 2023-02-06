@@ -1,6 +1,3 @@
-Todo:
-
-
 potential Jakob tasks:
 	[ ] tinker materials
 		[ ] leather
