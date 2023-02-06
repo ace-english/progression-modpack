@@ -49,6 +49,8 @@ mods.ItemStages.removeItemStage(<bewitchment:ravens_feather>);
 mods.ItemStages.removeItemStage(<bewitchment:heart>);
 mods.ItemStages.removeItemStage(<bewitchment:garnet>);
 mods.ItemStages.removeItemStage(<bewitchment:garlic_bread>);
+mods.ItemStages.removeItemStage(<bewitchment:elderberries>);
+mods.ItemStages.removeItemStage(<bewitchment:juniper_berries>);
 mods.ItemStages.removeItemStage(<bewitchment:opal>);
 
 mods.ItemStages.removeItemStage(<immersiveengineering:metal:1>);
@@ -74,3 +76,7 @@ mods.ItemStages.removeItemStage(<immersiveengineering:metal:40>);
 
 mods.ItemStages.removeItemStage(<immersiveengineering:seed:0>);
 mods.ItemStages.removeItemStage(<immersiveengineering:material:4>);
+
+
+mods.ItemStages.removeItemStage(<immersiveengineering:seed:0>);
+mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);

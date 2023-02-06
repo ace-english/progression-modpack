@@ -9,6 +9,7 @@ potential Jakob tasks:
 		[ ] ironwood
 		[ ] fey leather
 		[ ] neptunium
+		[ ] wool
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	[ ] add cash for monster drops
 	[ ] add nutrition to bewitchment food 
@@ -41,6 +42,8 @@ potential Jakob tasks:
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[ ] too many cauldrons
+		- keep primal and bewitchment
+			- rework cool bwm recipes into primal cauldron
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
 	[x] remove nuggets from monster girl drops
@@ -54,7 +57,7 @@ potential Jakob tasks:
 		[ ] lvl 3 farmer - buy shipping bin
 		[ ] add money exchanger villager
 	[x] prosperity needs backups
-	[ ] remove inferium drops
+	[x] remove inferium drops
 	[?] unify hemp
 	[ ] revisit tips
 	[x] no more steves
@@ -65,11 +68,10 @@ potential Jakob tasks:
 	[ ] add cyborgs
 	[ ] 2 salt block decon recipes
 	[ ] add recipes for cool ancient warfare stuff
-	paper
+	[ ] paper
 		[ ] remove easy recipes
 	[x] gonna have to do bewitchment items manually (wood, seeds etc)
 	[ ] restrict all books, scrolls, and signs
-	[ ] adjust market for coins
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
@@ -77,12 +79,14 @@ potential Jakob tasks:
 		- bewitchment, BOP
 		- remove BOP amethyst?
 	[ ] leather
-		[ ] remove easy leather recipes
+		[x] remove easy leather recipes
 		[ ] remove from pams ground trap
 		[x] fox pelt from mystical world should work like other pelts
+		[ ] add wet leather to drying rack recipes
+		[ ] add horse power recipe for resin out of barkWood (or rootsBark)
 	[ ] tweak ground trap
 		- can't drop leather - small hides?
-	[ ] remove jacoba coins
+	[x] remove jacoba coins
 	[x] remove nuclearcraft
 	[ ] sol balance
 	[ ] add more warm blocks
@@ -90,17 +94,27 @@ potential Jakob tasks:
 		[ ] nitres
 		[ ] campfires from ancient warfare
 	[ ] have we disabled xyz info?
-	[ ] metal dust
+	[ ] metal dust recipes
 		[ ] horse grinder
-		[ ] anvil
+		[ ] anvil in-world
 	[ ] agriculture
 		[ ] agricraft crops
 		[ ] hoes?
 		[ ] seeds
 		[ ] agricraft irrigation
 		[ ] other hoe should count for achievement
-	[ ] magnets are magic - create magical path for compass not including redstone
-	[ ] remove redstone from pereskia. integrate something from a different mod?
+	[ ] redstone industrial
+		- magnets are magic - create magical path for compass not including redstone
+		- remove redstone from pereskia. integrate something from a different mod?
+		- compass
+		- clock
+		- thermometer (quicksilver)
+		- concentration incense
+		- filled goblet
+		- stalicripe
+		- gathering ritual
+		- wildifre
+		- chrisopoeia
 	
 
 tech progression for tools

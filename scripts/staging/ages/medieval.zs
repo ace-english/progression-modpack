@@ -2,6 +2,7 @@ mods.WailaStages.addWailaStage("medieval");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.anvil");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.furnace");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.crafting_table");
+mods.ItemStages.stageRecipeCategory("medieval", "minecraft.crafting_table");
 
 mods.ItemStages.stageModItems("medieval","bewitchment");
 mods.ItemStages.stageModItems("medieval","ancientwarfare");
@@ -210,7 +211,6 @@ mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:4>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:5>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:6>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingpress>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:plumbline>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:1>);
 mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:2>);
