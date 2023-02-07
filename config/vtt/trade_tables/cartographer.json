@@ -1,0 +1,23 @@
+{ 
+	Profession:"minecraft:librarian", 
+	Career:"cartographer",
+
+	Offers:{
+		Recipes:[
+			{
+                action:"clear"
+            },
+            {
+                action:"add",CareerLevel:1,
+                buy:{
+                    id:"ordinarycoins:coinsilver",
+                    Count:3
+                },
+                sell:{
+                    id:"minecraft:compass",
+                    Count:1
+                }
+            }
+		]
+	}
+}

@@ -128,6 +128,7 @@ mods.ItemStages.addItemStage("writing", <grimoireofgaia:accessory_headgear>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:misc_book>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book_battle>);
+mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book_buff>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book_ender>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book_freezing>);
 mods.ItemStages.addItemStage("writing", <grimoireofgaia:weapon_book_hunger>);
