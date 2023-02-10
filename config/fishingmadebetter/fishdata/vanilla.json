@@ -94,7 +94,7 @@
       1
     ],
     "timeOutsideOfWater": 20,
-    "allowScaling": true,
+    "allowScaling": false,
     "scalingItem": "minecraft:arrow",
     "scalingItemMetadata": 0,
     "scalingUseWeight": true,

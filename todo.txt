@@ -14,17 +14,30 @@ potential Jakob tasks:
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
-		- ships? I saw some but didn't like them very much
-
 	[ ] triumph achievements
+		[ ] make pretty
+		[ ] gunpowder achievment
 	[x] add recipe for seared brick out of sarias
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
+	[ ] make sure horse pressing required
+	[ ] make totemic more accessible
+		- shark tooth jingles
 	[ ] scorched tinker kit from mud bricks
 		- casting table
 		- melter
 		- spout
 	[ ] add grappling hook recipes
+	[ ] harvestcraft fish file
+		anchovyrawitem
+		charr
+		crayfish
+		mudfish
+		snapper
+		tilapia
+		walleye
+		greenheartfishitem
+		sardine
 	signposts also makes a waystone?
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
@@ -41,18 +54,20 @@ potential Jakob tasks:
 	[ ] too many cauldrons
 		- keep primal and bewitchment
 			- rework cool bwm recipes into primal cauldron
+			-primal_tech wooden basin is the one you remember
+			- add pelts into glue - sevtech?
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
 	[x] remove nuggets from monster girl drops
 	[ ] villager tables
 		[ ] buy rose gold
 		[ ] buy gems
-		[ ] jewler villager
+		[x] jewler villager
 		[ ] remove emerald trades
 		[ ] add coin trades
 		[ ] buy pelts
 		[ ] lvl 3 farmer - buy shipping bin
-		[ ] add money exchanger villager
+		[x] add money exchanger villager
 	[x] prosperity needs backups
 	[x] remove inferium drops
 	[?] unify hemp
