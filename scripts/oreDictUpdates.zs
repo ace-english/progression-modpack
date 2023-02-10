@@ -107,7 +107,7 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
 
 /**************************************************************************
 
-    forestert
+    forestry
     
 **************************************************************************/
 
@@ -118,6 +118,26 @@ val oreDictFruit=<ore:listAllfruit>;
 val fruitForestry = <ore:fruitForestry>;
 fruitForestry.remove(<forestry:fruits:1>);
 oreDictFruit.mirror(fruitForestry);
+
+/**************************************************************************
+
+    fish
+    
+**************************************************************************/
+
+<ore:listAllfishraw>.add(<fishingmadebetter:fish_slice_raw>);
+recipes.removeByRecipeName("harvestcraft:fish_0");
+
+/**************************************************************************
+
+    candles
+    
+**************************************************************************/
+
+recipes.addShaped(<ancientwarfarestructure:altar_candle>.withTag({dyeColor: 0}),[
+    [<bewitchment:black_candle>],
+    [<ore:nuggetIron>]
+]);
 
 
 /**************************************************************************
@@ -241,6 +261,12 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
 ]);
+
+//remove easy leads - glue is easier now
+recipes.removeByRecipeName("mysticalworld:lead");
+recipes.removeByRecipeName("crafttweaker:aniamnia_lead_modified");
+
+//misc
 
 val woodAsh=<ore:ashWood>;
 woodAsh.add(<bewitchment:wood_ash>);
