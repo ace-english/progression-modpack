@@ -193,3 +193,10 @@ mods.ItemStages.addItemStage("industrial", <ironchest:vanilla_copper_shulker_upg
 mods.ItemStages.addItemStage("industrial", <ironchest:vanilla_iron_shulker_upgrade>);
 mods.ItemStages.addItemStage("industrial", <ironchest:wood_copper_chest_upgrade>);
 mods.ItemStages.addItemStage("industrial", <ironchest:wood_iron_chest_upgrade>);
+
+mods.ItemStages.addItemStage("industrial", <minecraft:chest_minecart>);
+mods.ItemStages.addItemStage("industrial", <minecraft:daylight_detector>);
+mods.ItemStages.addItemStage("industrial", <minecraft:detector_rail>);
+mods.ItemStages.addItemStage("industrial", <minecraft:fire_charge>);
+mods.ItemStages.addItemStage("industrial", <minecraft:furnace_minecart>);
+mods.ItemStages.addItemStage("industrial", <minecraft:hopper_minecart>);
