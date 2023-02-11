@@ -264,7 +264,7 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
 
 //remove easy leads - glue is easier now
 recipes.removeByRecipeName("mysticalworld:lead");
-recipes.removeByRecipeName("crafttweaker:aniamnia_lead_modified");
+recipes.removeByRecipeName("crafttweaker:animania_lead_modified");
 
 //misc
 

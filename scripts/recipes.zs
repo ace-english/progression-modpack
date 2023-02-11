@@ -48,3 +48,7 @@ recipes.removeByRecipeName("primal:stick_9");
 recipes.removeByRecipeName("primal:stick_10");
 recipes.removeByRecipeName("primal:stick_11");
 recipes.removeByRecipeName("primal:slab_netherearth_11");
+recipes.removeByRecipeName("harvestcraft:shippingbin");
+recipes.removeByRecipeName("minecraft:fishing_rod");
+
+
