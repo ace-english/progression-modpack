@@ -362,3 +362,9 @@ mods.ItemStages.addItemStage("medieval", <minecraft:carpet:14>);
 mods.ItemStages.addItemStage("medieval", <minecraft:carpet:15>);
 mods.ItemStages.addItemStage("medieval", <minecraft:clock>);
 mods.ItemStages.addItemStage("medieval", <minecraft:enchanting_table>);
+
+
+mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_boots>);
+mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_chestplate>);
+mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_helmet>);
+mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_leggings>);
