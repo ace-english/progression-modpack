@@ -4,6 +4,7 @@ mods.ItemStages.addItemStage("disabled", <biomesoplenty:biome_finder>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:stump_remover>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_anvil>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:material:50>);
+mods.ItemStages.addItemStage("disabled", <betterwithmods:material:5>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:material:7>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:material:32>);
 mods.ItemStages.addItemStage("disabled", <betterwithmods:material:33>);
@@ -65,3 +66,22 @@ mods.ItemStages.addItemStage("disabled", <immersiveengineering:shovel_steel>);
 mods.ItemStages.addItemStage("disabled", <immersiveengineering:axe_steel>);
 mods.ItemStages.addItemStage("disabled", <immersiveengineering:hoe_steel>);
 mods.ItemStages.addItemStage("disabled", <immersiveengineering:sword_steel>);
+
+mods.ItemStages.addItemStage("disabled", <roots:iron_knife>);
+mods.ItemStages.addItemStage("disabled", <roots:diamond_knife>);
+mods.ItemStages.addItemStage("disabled", <roots:gold_knife>);
+mods.ItemStages.addItemStage("disabled", <roots:stone_knife>);
+mods.ItemStages.addItemStage("disabled", <roots:wood_knife>);
+mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_knife>);
+mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_knife>);
+
+mods.ItemStages.addItemStage("disabled", <minecraft:leather_boots>);
+mods.ItemStages.addItemStage("disabled", <minecraft:leather_chestplate>);
+mods.ItemStages.addItemStage("disabled", <minecraft:leather_helmet>);
+mods.ItemStages.addItemStage("disabled", <minecraft:leather_leggings>);
+
+mods.ItemStages.addItemStage("disabled", <harvestcraft:watertrap>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:apiary>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco1>);
+
+mods.ItemStages.addItemStage("disabled", <aquaculture:food:10>);
