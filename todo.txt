@@ -1,22 +1,31 @@
 potential Jakob tasks:
 	[ ] tinker materials
-		[ ] leather
+		[x] leather
 		[ ] cold iron
 		[ ] yew
 		[ ] ironwood
 		[ ] fey leather
 		[ ] neptunium
 		[ ] wool
-	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
-	[ ] add cash for monster drops
-	[ ] add nutrition to bewitchment food 
-	[x] add recipe for bedroll out of leather
+		[ ] garnet
+		[ ] opal
+		[ ] something dumb like bread or cake
+		[ ] chocolate?
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
+	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
+	
+	
+	[x] add cash for monster drops
+	[ ] add nutrition to bewitchment food 
+	[x] add recipe for bedroll out of leather	
 	[ ] triumph achievements
 		[ ] make pretty
-		[ ] gunpowder achievment
+		[ ] achievments
+			- gunpowder
+			- telepastries
+			- tame a monster girl???
 	[x] add recipe for seared brick out of sarias
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
@@ -27,7 +36,7 @@ potential Jakob tasks:
 		- casting table
 		- melter
 		- spout
-	[ ] add grappling hook recipes
+	[x] add grappling hook recipes
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -38,23 +47,24 @@ potential Jakob tasks:
 		walleye
 		greenheartfishitem
 		sardine
+		grimoireofgaia:coalfish
 	signposts also makes a waystone?
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
 	[x] remove guidebook mod
 	[x] remove draconic
 	[x] remove thermal expansion
-	[ ] remove arcane essantials
+	[x] remove arcane essantials
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
-		[ ] bibliocraft:plumbline - prehistoric, but bronze?
+		[x] bibliocraft:plumbline - prehistoric, but bronze?
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[ ] too many cauldrons
 		- keep primal and bewitchment
 			- rework cool bwm recipes into primal cauldron
-			-primal_tech wooden basin is the one you remember
+			- primal_tech wooden basin is the one you remember
 			- add pelts into glue - sevtech?
 	[ ] add eagle feather to shearing
 	[ ] remove beds that don't work
@@ -67,6 +77,7 @@ potential Jakob tasks:
 		[ ] add coin trades
 		[ ] buy pelts
 		[ ] lvl 3 farmer - buy shipping bin
+			[ ] harvestcraft buys
 		[x] add money exchanger villager
 	[x] prosperity needs backups
 	[x] remove inferium drops
@@ -74,12 +85,16 @@ potential Jakob tasks:
 	[ ] revisit tips
 	[x] no more steves
 	[x] remove extra bees
+	[ ] disable extra rice
+	[ ] skins
+		[ ] fig leaf
 	[x] remove extra trees
 	[x] remove fairy lights
-	[ ] stage grimoire of gaia mods
+	[ ] stage grimoire of gaia mobs
 	[ ] add cyborgs
-	[ ] 2 salt block decon recipes
+	[x] 2 salt block decon recipes
 	[ ] add recipes for cool ancient warfare stuff
+		[ ] candles
 	[ ] paper
 		[ ] remove easy recipes
 	[x] gonna have to do bewitchment items manually (wood, seeds etc)
@@ -87,7 +102,7 @@ potential Jakob tasks:
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
-	[ ] amethyst
+	[x] amethyst
 		- bewitchment, BOP
 		- remove BOP amethyst?
 	[ ] leather
@@ -96,8 +111,6 @@ potential Jakob tasks:
 		[x] fox pelt from mystical world should work like other pelts
 		[ ] add wet leather to drying rack recipes
 		[ ] add horse power recipe for resin out of barkWood (or rootsBark)
-	[ ] tweak ground trap
-		- can't drop leather - small hides?
 	[x] remove jacoba coins
 	[x] remove nuclearcraft
 	[ ] sol balance
@@ -105,7 +118,7 @@ potential Jakob tasks:
 		[x] campfire
 		[ ] nitres
 		[ ] campfires from ancient warfare
-	[ ] have we disabled xyz info?
+	[x] have we disabled xyz info?
 	[ ] metal dust recipes
 		[ ] horse grinder
 		[ ] anvil in-world
@@ -159,9 +172,7 @@ tech progression for tools
 	modern
 	future
 	chocolate factory?
-	
-Triumph is for making achievements
-	- look under mod folder for examples
+
 
 
 https://www.youtube.com/watch?v=2LpRBtsw8a0&list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq&index=21
