@@ -26,7 +26,9 @@ potential Jakob tasks:
 			- gunpowder
 			- telepastries
 			- tame a monster girl???
+			- find a graveyard and kill a grimoireofgaia:flesh_lich
 	[x] add recipe for seared brick out of sarias
+	[ ] barley drop barley
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
 	[ ] make sure horse pressing required

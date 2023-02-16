@@ -8,7 +8,8 @@
                 action:"clear"
             },
             {
-                action:"add",CareerLevel:1,
+                action:"add",
+                CareerLevel:1,
                 buy:{
                     id:"ordinarycoins:coinsilver",
                     Count:3
