@@ -4,8 +4,8 @@ potential Jakob tasks:
 		[ ] cold iron
 		[ ] yew
 		[ ] ironwood
-		[ ] fey leather
-		[ ] neptunium
+		[x] fey leather
+		[x] neptunium
 		[ ] wool
 		[ ] garnet
 		[ ] opal
