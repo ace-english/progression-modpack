@@ -11,13 +11,7 @@
  mods.orestages.OreStages.addReplacement("industrial", <immersiveengineering:ore:1>); //bauxite (aluminum)
  mods.orestages.OreStages.addReplacement("industrial", <immersiveengineering:ore:4>); //nickel
 
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_aer>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_ignis>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_aqua>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_terra>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_ordo>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_perditio>);
- mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:crystal_vitium>);
+
 
 
  mods.orestages.OreStages.addReplacement("modern", <mekanism:oreblock:0>, <minecraft:stone>); //osmium
