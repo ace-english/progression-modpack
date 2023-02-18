@@ -1,4 +1,95 @@
-//this is a good place for overrides - things that should be present when the rest of the mod isn't
+
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+import mods.horsepower.ChoppingBlock;
+import mods.horsepower.Grindstone;
+import mods.horsepower.Press;
+import mods.horsepower.Recipes;
+
+/**************************************************************************
+
+    horespower
+    
+**************************************************************************/
+
+// grinder
+recipes.removeByRecipeName("mekanism:coal_1");
+recipes.removeByRecipeName("tcomplement:steelworks/charcoal");
+recipes.removeByRecipeName("chisel:charcoal_uncraft");
+    mods.horsepower.Grindstone.add(<minecraft:clay_ball:0> * 4, <minecraft:clay:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:double_plant:4>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:4>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:double_plant:5>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:red_flower:7>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:double_plant:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:sand:0> * 2, <minecraft:sandstone:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeBlue>.firstItem * 2, <minecraft:dye:4>, 16, false);
+    mods.horsepower.Grindstone.add(<betterwithmods:material:44>, <minecraft:dye:3>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeGreen>.firstItem * 2, <minecraft:dye:2>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeBlack>.firstItem * 2, <minecraft:dye:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>, 16, false);
+    //mods.horsepower.Grindstone.add(<primal:tannin_ground:0> * 2, <ore:barkWood>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:coal:1> * 4, <primal_tech:charcoal_block>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:coal:1> * 9, <mekanism:basicblock:3>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:coal:0> * 9, <minecraft:coal_block:0>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:dye:15> * 9, <minecraft:bone_block:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <rustic:wildberries:0>, 16, false);
+    mods.horsepower.Grindstone.add(<primal:bone_knapp:0> * 2, <minecraft:bone:0>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:dye:15> * 2, <primal:shark_tooth:0>, 16, false);
+    
+
+    for grain in <ore:listAllGrain>.items {
+		mods.horsepower.Grindstone.add(<roots:flour>, grain, 8, false);
+	}
+
+
+	// Recipes with secondary outputs
+	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_knapp:0>, 16, false, <minecraft:dye:15>, 20);
+	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_point:0>, 16, false, <minecraft:dye:15>, 20);
+	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal_tech:bone_shard>, 16, false, <minecraft:dye:15>, 20);
+
+// presser
+recipes.removeByRecipeName("mekanism:basicblock_3");
+	mods.horsepower.Press.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9);
+	mods.horsepower.Press.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4);
+	//mods.horsepower.Press.add(<minecraft:coal:1>, <pickletweaks:coal_piece:1> * 8);
+	//mods.horsepower.Press.add(<minecraft:coal:0>, <pickletweaks:coal_piece:0> * 8);
+	mods.horsepower.Press.add(<primal:salt_netjry_block:0>, <primal:salt_dust_netjry:0> * 4);
+	mods.horsepower.Press.add(<primal:ore_salt:0>, <primal:salt_dust_rock:0> * 4);
+	mods.horsepower.Press.add(<primal:ore_salt:1>, <primal:salt_dust_fire:0> * 4);
+	mods.horsepower.Press.add(<mekanism:saltblock:0>, <mekanism:salt:0> * 4);
+
+/**************************************************************************
+
+    totemic
+    
+**************************************************************************/
+
+recipes.removeByRecipeName("totemic:totem_whittling_knife");
+recipes.addShaped(<totemic:totem_whittling_knife>, [
+    [null, null, <primal:flint_knapp>],
+    [null, <ore:stick>, null],
+    [<ore:stick>, null, null]
+]);
+
+
+//early grappling hook
+recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
+recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
+
+// add items to prehistoric era that are in gated mods
 
 mods.ItemStages.removeItemStage(<bewitchment:juniper_wood>);
 mods.ItemStages.removeItemStage(<bewitchment:cypress_wood>);
