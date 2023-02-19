@@ -39,7 +39,7 @@ Dropt.list("early_thaum_crystals")
         .gameStages("BLACKLIST", "ALL", ["industrial"])
       )
       .addDrop(Dropt.drop()
-          .items([<thaumcraft:nugget>])
+          .items([<thaumcraft:nugget:9>])
       )
   );
 
