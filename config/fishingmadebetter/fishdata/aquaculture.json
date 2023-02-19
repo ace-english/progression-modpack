@@ -359,13 +359,13 @@
       1
     ],
     "timeOutsideOfWater": 15,
-    "allowScaling": false,
-    "scalingItem": "",
+    "allowScaling": true,
+    "scalingItem": "primal:pelt_shark",
     "scalingItemMetadata": 0,
     "scalingUseWeight": false,
     "allowFillet": true,
-    "defaultFillet": true,
-    "filletItem": "",
+    "defaultFillet": false,
+    "filletItem": "primal:shark_meat_raw",
     "filletItemMetadata": 0,
     "filletUseWeight": true,
     "baitItemMap": {
