@@ -81,7 +81,21 @@ mods.ItemStages.addItemStage("disabled", <minecraft:leather_helmet>);
 mods.ItemStages.addItemStage("disabled", <minecraft:leather_leggings>);
 
 mods.ItemStages.addItemStage("disabled", <harvestcraft:watertrap>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:groundtrap>);
 mods.ItemStages.addItemStage("disabled", <harvestcraft:apiary>);
 mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco1>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:hardenedleatherbootsitem>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:hardenedleatherleggingsitem>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:hardenedleatherhelmitem>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:hardenedleatherchestitem>);
+mods.ItemStages.addItemStage("disabled", <harvestcraft:hardenedleatheritem>);
 
 mods.ItemStages.addItemStage("disabled", <aquaculture:food:10>);
+
+mods.ItemStages.addItemStage("disabled", <primal:metalblock:5>);
+mods.ItemStages.addItemStage("disabled", <primal:adamant_plate>);
+mods.ItemStages.addItemStage("disabled", <primal:adamant_ingot>);
+mods.ItemStages.addItemStage("disabled", <primal:adamant_dust>);
+mods.ItemStages.addItemStage("disabled", <primal:adamant_nugget>);
+
+recipes.removeByRecipeName("harvestcraft:market");
