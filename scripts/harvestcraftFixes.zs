@@ -1,5 +1,7 @@
 //requires harvestcraft tweaker https://www.curseforge.com/minecraft/mc-mods/harvestcraft-tweaker
 import mods.harvestcrafttweaker.HarvestCraftTweaker;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 HarvestCraftTweaker.addPressing(<biomesoplenty:filled_honeycomb>, <harvestcraft:honeyitem>, <harvestcraft:beeswaxitem>);
 HarvestCraftTweaker.addPressing(<biomesoplenty:honeycomb>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>);
@@ -60,8 +62,7 @@ oreDictSeed.add(<harvestcraft:sunflowerseedsitem>);
 
 //nutmeg isn't a spice, but ground nutmeg is
 val oreDictSpice=<ore:listAllspice>;
-//val nutmeg = <extratrees:food:53>;
-//oreDictSpice.remove([nutmeg]);
+//oreDictSpice.remove(<extratrees:food:53>);
 //recipes.addShapeless(<harvestcraft:groundnutmegitem>, [<harvestcraft:mortarandpestleitem>.transformReplace(<harvestcraft:mortarandpestleitem>), <extratrees:food:53>]);
 oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 
@@ -70,3 +71,12 @@ recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:stri
 
 //SALT
 <ore:salt>.add(<harvestcraft:saltitem>);
+
+//traps (doesn't work)
+removeGroundTrapByInput(<harvestcraft:fruitbaititem>);
+removeGroundTrapByInput(<harvestcraft:veggiebaititem>);
+removeGroundTrapByInput(<harvestcraft:grainbaititem>);
+addGroundTrap(<harvestcraft:fruitbaititem>, [<minecraft:feather>, <minecraft:egg>, <minecraft:bone>, <minecraft:chicken>, <minecraft:rabbit>, <minecraft:rabbit_hide>, <minecraft:porkchop>]);
+addGroundTrap(<harvestcraft:veggiebaititem>, [<minecraft:feather>, <minecraft:egg>, <minecraft:bone>, <minecraft:chicken>, <mysticalworld:venison>, <primal:pelt_deer>, <minecraft:mutton>]);
+addGroundTrap(<harvestcraft:grainbaititem>, [<minecraft:feather>, <minecraft:egg>, <minecraft:bone>, <minecraft:chicken>, <mysticalworld:venison>, <primal:pelt_deer>, <minecraft:beef>]);
+//<ore:listAllMeatsRaw>, [<bear, wolf, fox, zombie, owl, snake>]
