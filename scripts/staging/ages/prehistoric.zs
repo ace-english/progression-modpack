@@ -73,62 +73,97 @@ mods.horsepower.ChoppingBlock.add(<thaumcraft:log_greatwood>, <thaumcraft:plank_
 mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:charred_planks>*4, 4);
 
 // grinder
-recipes.removeByRecipeName("mekanism:coal_1");
-recipes.removeByRecipeName("tcomplement:steelworks/charcoal");
-recipes.removeByRecipeName("chisel:charcoal_uncraft");
-    mods.horsepower.Grindstone.add(<minecraft:clay_ball:0> * 4, <minecraft:clay:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:double_plant:4>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:4>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:double_plant:5>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:red_flower:7>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:double_plant:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:sand:0> * 2, <minecraft:sandstone:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeBlue>.firstItem * 2, <minecraft:dye:4>, 16, false);
-    mods.horsepower.Grindstone.add(<betterwithmods:material:44>, <minecraft:dye:3>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeGreen>.firstItem * 2, <minecraft:dye:2>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeBlack>.firstItem * 2, <minecraft:dye:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>, 16, false);
-    //mods.horsepower.Grindstone.add(<primal:tannin_ground:0> * 2, <ore:barkWood>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:coal:1> * 4, <primal_tech:charcoal_block>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:coal:1> * 9, <mekanism:basicblock:3>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:coal:0> * 9, <minecraft:coal_block:0>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:dye:15> * 9, <minecraft:bone_block:0>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <rustic:wildberries:0>, 16, false);
-    mods.horsepower.Grindstone.add(<primal:bone_knapp:0> * 2, <minecraft:bone:0>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:dye:15> * 2, <primal:shark_tooth:0>, 16, false);
+    recipes.removeByRecipeName("mekanism:coal_1");
+    recipes.removeByRecipeName("minecraft:coal_block");
+    recipes.removeByRecipeName("tcomplement:steelworks/charcoal");
+    recipes.removeByRecipeName("chisel:charcoal_uncraft");
+    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1");
+    recipes.removeByRecipeName("unidict:dustsalt_x9_size.1");
     
+    recipes.removeByRecipeName("mysticalworld:antlers_to_bone_meal");
+    recipes.removeByRecipeName("jaff:bone_meal_from_fish_bones");
+    recipes.removeByRecipeName("aquaculture:bone_meal_from_fish_bones");
 
-    for grain in <ore:listAllGrain>.items {
-		mods.horsepower.Grindstone.add(<roots:flour>, grain, 8, false);
-	}
+    recipes.removeByRecipeName("biomesoplenty:red_dye_from_rose");
+    recipes.removeByRecipeName("biomesoplenty:red_dye_from_rafflesia");
+    recipes.removeByRecipeName("biomesoplenty:red_dye_from_bromeliad");
+    recipes.removeByRecipeName("primal:red_dye_from_netherwart");
+    recipes.removeByRecipeName("biomesoplenty:pink_dye_from_pink_hibiscus");
+    recipes.removeByRecipeName("biomesoplenty:pink_dye_from_pink_daffodil");
+    recipes.removeByRecipeName("biomesoplenty:pink_dye_from_miners_delight");
+    recipes.removeByRecipeName("biomesoplenty:yellow_dye_from_goldenrod");
+    recipes.removeByRecipeName("biomesoplenty:magenta_dye_from_wildflower");
+    recipes.removeByRecipeName("biomesoplenty:purple_dye_from_violet");
+    recipes.removeByRecipeName("biomesoplenty:purple_dye_from_lavender");
+    recipes.removeByRecipeName("biomesoplenty:cyan_dye_from_swampflower");
+    recipes.removeByRecipeName("biomesoplenty:cyan_dye_from_glowflower");
+    recipes.removeByRecipeName("biomesoplenty:light_gray_dye_from_clover");
+    recipes.removeByRecipeName("biomesoplenty:cyan_dye_from_glowflower");
+    recipes.removeByRecipeName("biomesoplenty:gray_dye_from_wilted_lily");
+    recipes.removeByRecipeName("biomesoplenty:gray_dye_from_ash");
+    recipes.removeByRecipeName("biomesoplenty:lime_dye_from_gloweshroom");
+    recipes.removeByRecipeName("biomesoplenty:light_blue_dye_from_icy_iris");
+    recipes.removeByRecipeName("biomesoplenty:light_blue_dye_from_blue_hydrangea");
+    recipes.removeByRecipeName("biomesoplenty:orange_dye_from_orange_cosmos");
+    recipes.removeByRecipeName("biomesoplenty:orange_dye_from_burning_blossom");
+    recipes.removeByRecipeName("biomesoplenty:blue_dye_from_blue_milkcap");
+    recipes.removeByRecipeName("biomesoplenty:blue_dye_from_bluebells");
+    recipes.removeByRecipeName("biomesoplenty:white_dye_from_white_anemone");
+    recipes.removeByRecipeName("biomesoplenty:white_dye_from_lily_of_the_valley");
+    recipes.removeByRecipeName("biomesoplenty:black_dye_from_deathbloom");
+    recipes.removeByRecipeName("quark:root_dye");
+    recipes.removeByRecipeName("quark:root_dye_1");
+    recipes.removeByRecipeName("quark:root_dye_2");
 
+    mods.horsepower.Grindstone.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:double_plant:4>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:4>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:0>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:double_plant:5>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:red_flower:7>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:double_plant:0>, <ore:dyeYellow>.firstItem, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>, 16, false);
+    //mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 2, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
+    //mods.horsepower.Grindstone.add(<minecraft:dye:2>, <biomesoplenty:green_dye> * 2, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeBlack>.firstItem * 2, <minecraft:dye:0>, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>, 16, false);
+    mods.horsepower.Grindstone.add(<ore:barkWood>, <primal:tannin_ground:0> * 2, 16, false);
+    //wrong order???
+    mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<minecraft:coal:1> * 4, 16, false);
+    mods.horsepower.Grindstone.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:coal_block:0>, <minecraft:coal:0> * 9, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:bone_block:0>, <minecraft:dye:15> * 9, 16, false);
+    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <rustic:wildberries:0>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
+    mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
 
+/*
 	// Recipes with secondary outputs
 	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_knapp:0>, 16, false, <minecraft:dye:15>, 20);
 	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_point:0>, 16, false, <minecraft:dye:15>, 20);
 	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal_tech:bone_shard>, 16, false, <minecraft:dye:15>, 20);
+*/
 
 // presser
-recipes.removeByRecipeName("mekanism:basicblock_3");
-	mods.horsepower.Press.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9);
-	mods.horsepower.Press.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4);
+    recipes.removeByRecipeName("mekanism:basicblock_3");
+	//mods.horsepower.Press.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9);
+	//mods.horsepower.Press.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4);
 	//mods.horsepower.Press.add(<minecraft:coal:1>, <pickletweaks:coal_piece:1> * 8);
 	//mods.horsepower.Press.add(<minecraft:coal:0>, <pickletweaks:coal_piece:0> * 8);
-	mods.horsepower.Press.add(<primal:salt_netjry_block:0>, <primal:salt_dust_netjry:0> * 4);
-	mods.horsepower.Press.add(<primal:ore_salt:0>, <primal:salt_dust_rock:0> * 4);
-	mods.horsepower.Press.add(<primal:ore_salt:1>, <primal:salt_dust_fire:0> * 4);
-	mods.horsepower.Press.add(<mekanism:saltblock:0>, <mekanism:salt:0> * 4);
+	//mods.horsepower.Press.add(<primal:salt_netjry_block:0>, <primal:salt_dust_netjry:0> * 4);
+	//mods.horsepower.Press.add(<primal:ore_salt:0>, <primal:salt_dust_rock:0> * 4);
+	//mods.horsepower.Press.add(<primal:ore_salt:1>, <primal:salt_dust_fire:0> * 4);
+	//mods.horsepower.Press.add(<mekanism:saltblock:0>, <mekanism:salt:0> * 4);
 
 /**************************************************************************
 
