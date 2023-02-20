@@ -14,6 +14,7 @@ mods.ItemStages.addItemStage("modern", <cookingforblockheads:sink>);
 mods.ItemStages.addItemStage("modern", <cookingforblockheads:toaster>);
 
 mods.ItemStages.stageModItems("modern","immersivepetroleum");
+mods.ItemStages.stageModItems("modern", "opencomputers");
 mods.ItemStages.addItemStage("modern", <minecraft:concrete:1>);
 mods.ItemStages.addItemStage("modern", <minecraft:concrete:2>);
 mods.ItemStages.addItemStage("modern", <minecraft:concrete:3>);
