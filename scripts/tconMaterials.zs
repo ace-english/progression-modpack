@@ -8,11 +8,6 @@ import mods.contenttweaker.conarm.ArmorTraitBuilder;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
-import mods.tconstruct.Melting;
-import mods.tconstruct.Casting;
-import crafttweaker.entity.IEntityDefinition;
-import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
 /*****************************************************************
@@ -45,6 +40,34 @@ leather.craftable = true;
 //call this last to make it official
 leather.register();
 
+/*        new material - bread           */
+val bread = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("bread_mat");
+bread.localizedName = "Bread";
+bread.color = 0xc9985f;
+bread.representativeItem = <item:minecraft:bread>;
+//add any items that can be used to craft this material
+bread.addItem(<item:minecraft:bread>);
+bread.addItem(<item:roots:wildewheat_bread>);
+//primal_tech:flatbread
+bread.addCoreMaterialStats(1,2);
+bread.addPlatesMaterialStats(1, 1, 0);
+bread.addTrimMaterialStats(1);
+bread.addHeadMaterialStats(25, 0.5, 2, 0);
+bread.addHandleMaterialStats(0.1, 10);
+bread.addExtraMaterialStats(10);
+//add material trait. list of existing traits can be found at https://github.com/illusivesoulworks/constructsarmory/wiki/Traits-&-Modifiers-Guide
+bread.addMaterialTrait("tasty_armor");
+bread.addMaterialTrait("tasty", "core");
+bread.addMaterialTrait("tasty", "plates");
+bread.addMaterialTrait("tasty", "trim");
+bread.addMaterialTrait("tasty", "head");
+bread.addMaterialTrait("tasty", "handle");
+bread.addMaterialTrait("tasty", "extra");
+bread.castable = false;
+bread.craftable = true;
+//call this last to make it official
+bread.register();
+
 /*        new material - neptunium           */
 //first, make the fluid for the molten version for this
 //documentation: https://docs.blamejared.com/1.12/fr/Mods/ContentTweaker/Vanilla/Creatable_Content/Fluid
@@ -74,9 +97,6 @@ neptunium.addMaterialTrait("aquadynamic", "head");
 neptunium.addMaterialTrait("aquadynamic", "handle");
 neptunium.addMaterialTrait("aquadynamic", "extra");
 neptunium.register();
-
-//mods.tconstruct.Melting.addRecipe(<liquid:molten_neptunium> * 144,<item:aquaculture:loot:1>);
-//mods.tconstruct.Casting.addTableRecipe(<item:aquaculture:loot:1>, <item:tconstruct:cast_custom>, <liquid:molten_neptunium>, 144);
 
 /*        new material - fey_leather           */
 val fey_leather = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("fey_leather_mat");
