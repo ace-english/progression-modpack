@@ -1,9 +1,33 @@
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
+import mods.tconstruct.Melting;
+import mods.tconstruct.Casting;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+#priority 100
+
 
 recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
 
 recipes.removeByRecipeName("bibliocraft:plumbline");
+
+recipes.removeByRecipeName("aquaculture:neptunium_sword");
+recipes.removeByRecipeName("aquaculture:neptunium_shovel");
+recipes.removeByRecipeName("aquaculture:neptunium_pickaxe");
+recipes.removeByRecipeName("aquaculture:neptunium_leggings");
+recipes.removeByRecipeName("aquaculture:neptunium_hoe");
+recipes.removeByRecipeName("aquaculture:neptunium_helmet");
+recipes.removeByRecipeName("aquaculture:neptunium_chestplate");
+recipes.removeByRecipeName("aquaculture:neptunium_boots");
+recipes.removeByRecipeName("aquaculture:neptunium_axe");
+
+recipes.removeByRecipeName("primal:planks_19");
+recipes.removeByRecipeName("primal:planks_21");
 recipes.removeByRecipeName("primal:planks_49");
 recipes.removeByRecipeName("primal:planks_50");
 recipes.removeByRecipeName("primal:planks_51");
@@ -52,3 +76,8 @@ recipes.removeByRecipeName("harvestcraft:shippingbin");
 recipes.removeByRecipeName("minecraft:fishing_rod");
 
 
+
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_neptunium> * 144,<aquaculture:loot:1>);
+mods.tconstruct.Casting.addTableRecipe(<item:aquaculture:loot:1>, <item:tconstruct:cast_custom>, <liquid:molten_neptunium>, 144);

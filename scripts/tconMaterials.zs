@@ -1,5 +1,6 @@
 #modloaded tconstruct contenttweaker conarm aquaculture roots
 #loader contenttweaker
+#priority 900
 
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 import mods.contenttweaker.conarm.ArmorTrait;
@@ -7,6 +8,12 @@ import mods.contenttweaker.conarm.ArmorTraitBuilder;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
+import mods.tconstruct.Melting;
+import mods.tconstruct.Casting;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 /*****************************************************************
 new materials
@@ -67,6 +74,9 @@ neptunium.addMaterialTrait("aquadynamic", "head");
 neptunium.addMaterialTrait("aquadynamic", "handle");
 neptunium.addMaterialTrait("aquadynamic", "extra");
 neptunium.register();
+
+//mods.tconstruct.Melting.addRecipe(<liquid:molten_neptunium> * 144,<item:aquaculture:loot:1>);
+//mods.tconstruct.Casting.addTableRecipe(<item:aquaculture:loot:1>, <item:tconstruct:cast_custom>, <liquid:molten_neptunium>, 144);
 
 /*        new material - fey_leather           */
 val fey_leather = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("fey_leather_mat");
