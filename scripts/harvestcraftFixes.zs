@@ -72,6 +72,7 @@ recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:stri
 //SALT
 <ore:salt>.add(<harvestcraft:saltitem>);
 
+/*
 //traps (doesn't work)
 removeGroundTrapByInput(<harvestcraft:fruitbaititem>);
 removeGroundTrapByInput(<harvestcraft:veggiebaititem>);
@@ -80,3 +81,4 @@ addGroundTrap(<harvestcraft:fruitbaititem>, [<minecraft:feather>, <minecraft:egg
 addGroundTrap(<harvestcraft:veggiebaititem>, [<minecraft:feather>, <minecraft:egg>, <minecraft:bone>, <minecraft:chicken>, <mysticalworld:venison>, <primal:pelt_deer>, <minecraft:mutton>]);
 addGroundTrap(<harvestcraft:grainbaititem>, [<minecraft:feather>, <minecraft:egg>, <minecraft:bone>, <minecraft:chicken>, <mysticalworld:venison>, <primal:pelt_deer>, <minecraft:beef>]);
 //<ore:listAllMeatsRaw>, [<bear, wolf, fox, zombie, owl, snake>]
+*/
