@@ -2,15 +2,32 @@ potential Jakob tasks:
 	[ ] tinker materials
 		[x] leather
 		[ ] cold iron
+			[ ] create material
+			[ ] make ingot work
+			[ ] compare to old gear, make sure it is comparable
+			[ ] hide old gear
 		[ ] yew
 		[ ] ironwood
 		[x] fey leather
 		[x] neptunium
+			[ ] increase melting speed
+			[ ] compare to old gear, make sure it is comparable
 		[ ] wool
 		[ ] garnet
 		[ ] opal
-		[ ] something dumb like bread or cake
+		[ ] bread
+		[ ] cheese
 		[ ] chocolate?
+			[ ] casting recipes for chocolate lol - chocolate covered cherry
+			cocoa -> unsweetened chocolate
+			1 sugar + 2 chocolate = molten dark chocolate
+			2 gelatin + 1 sugar = liquid marshmallow
+			meat or fish -> gelatin
+			half a chocolate ingot + 1.25 buckets of milk =  1 ingot milk chocolate
+			Tasty - all pieces
+			Uplifting (heals occasionally) - plates, trim, handle, extra
+			Moldable (more enchantments) - core, head
+		[ ] smeltery notch apple
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
