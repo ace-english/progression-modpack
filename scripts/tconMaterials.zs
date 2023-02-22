@@ -1,4 +1,4 @@
-#modloaded tconstruct contenttweaker conarm aquaculture roots
+#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft
 #loader contenttweaker
 #priority 900
 
@@ -47,7 +47,9 @@ bread.color = 0xc9985f;
 bread.representativeItem = <item:minecraft:bread>;
 //add any items that can be used to craft this material
 bread.addItem(<item:minecraft:bread>);
-bread.addItem(<item:roots:wildewheat_bread>);
+//bread.addItem(<item:roots:wildewheat_bread>);
+//bread.addItem(<item:harvestcraft:toastitem>);
+//bread.addItem(<item:progressiontweaks:flatbread>);
 //primal_tech:flatbread
 bread.addCoreMaterialStats(1,2);
 bread.addPlatesMaterialStats(1, 1, 0);
@@ -56,10 +58,9 @@ bread.addHeadMaterialStats(25, 0.5, 2, 0);
 bread.addHandleMaterialStats(0.1, 10);
 bread.addExtraMaterialStats(10);
 //add material trait. list of existing traits can be found at https://github.com/illusivesoulworks/constructsarmory/wiki/Traits-&-Modifiers-Guide
-bread.addMaterialTrait("tasty_armor");
-bread.addMaterialTrait("tasty", "core");
-bread.addMaterialTrait("tasty", "plates");
-bread.addMaterialTrait("tasty", "trim");
+bread.addMaterialTrait("tasty_armor", "core");
+bread.addMaterialTrait("tasty_armor", "plates");
+bread.addMaterialTrait("tasty_armor", "trim");
 bread.addMaterialTrait("tasty", "head");
 bread.addMaterialTrait("tasty", "handle");
 bread.addMaterialTrait("tasty", "extra");
@@ -81,9 +82,9 @@ neptunium.localizedName = "Neptunium";
 neptunium.color = 0x00cf94;
 neptunium.liquid = <liquid:molten_neptunium>;
 neptunium.castable = true;
-//neptunium.craftable = false;
+neptunium.craftable = false;
 neptunium.representativeItem = <item:aquaculture:loot:1>;
-neptunium.addItem(<item:aquaculture:loot:1>);
+//neptunium.addItem(<item:aquaculture:loot:1>);
 neptunium.addCoreMaterialStats(10,12);
 neptunium.addPlatesMaterialStats(1, 10, 3);
 neptunium.addTrimMaterialStats(1);
@@ -113,5 +114,30 @@ fey_leather.craftable = true;
 fey_leather.register();
 
 
+
+/*        new material - cheese           */
+var molten_cheese = VanillaFactory.createFluid("molten_cheese", Color.fromHex("ebb400"));
+molten_cheese.register();
+
+val cheese = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("cheese");
+cheese.localizedName = "Cheese";
+cheese.color = 0xebb400;
+cheese.liquid = <liquid:molten_cheese>;
+cheese.castable = true;
+cheese.craftable = false;
+cheese.representativeItem = <item:harvestcraft:cheeseitem>;
+cheese.addCoreMaterialStats(1,2);
+cheese.addPlatesMaterialStats(1, 1, 0);
+cheese.addTrimMaterialStats(1);
+cheese.addHeadMaterialStats(25, 0.5, 2, 0);
+cheese.addHandleMaterialStats(0.1, 10);
+cheese.addExtraMaterialStats(10);
+cheese.addMaterialTrait("tasty_armor", "core");
+cheese.addMaterialTrait("tasty_armor", "plates");
+cheese.addMaterialTrait("tasty_armor", "trim");
+cheese.addMaterialTrait("tasty", "head");
+cheese.addMaterialTrait("tasty", "handle");
+cheese.addMaterialTrait("tasty", "extra");
+cheese.register();
 
 
