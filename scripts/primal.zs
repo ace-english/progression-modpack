@@ -1,3 +1,5 @@
+//https://github.com/An-Sar/PrimalCore/wiki/CraftTweaker:-Cauldron
+
 mods.primal.Smelter.removeAll();
 
 mods.primal.Smelter.addRecipe("tcon_brick", 13, [<tconstruct:soil:0>, <primal:charcoal_mote>], [<tconstruct:materials:0>]);
