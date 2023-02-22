@@ -11,10 +11,7 @@ setDescription("Kill the magic man and steal his fancy words")
 addParent("triumph:stone_age/root")
 
 //Set the position
-setPos(33,-47)
-
-//Hide the connection lines, so I can have a pretty shape
-hideLines()
+setPos(43,-57)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
 

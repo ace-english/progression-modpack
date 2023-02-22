@@ -1,0 +1,8 @@
+setIcon(<rustic:bee>)
+setTitle("Bonus")
+setDescription("Bonus challenges")
+setBackground("biomesoplenty:textures/blocks/honeycomb_block.png")
+setShowToast(false)
+setAnnounceToChat(false)
+addCriteria("location", "minecraft:location")
+setPos(-21,27)

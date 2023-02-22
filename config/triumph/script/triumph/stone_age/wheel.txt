@@ -2,7 +2,7 @@ setIcon(<astikorcarts:wheel>)
 setTitle("Now We're Getting Somewhere")
 setDescription("Invent the wheel")
 addParent("triumph:stone_age/root")
-setPos(82,48)
+setPos(43,29)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
