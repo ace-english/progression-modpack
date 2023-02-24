@@ -101,7 +101,7 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("biomesoplenty:cyan_dye_from_glowflower");
     recipes.removeByRecipeName("biomesoplenty:gray_dye_from_wilted_lily");
     recipes.removeByRecipeName("biomesoplenty:gray_dye_from_ash");
-    recipes.removeByRecipeName("biomesoplenty:lime_dye_from_gloweshroom");
+    recipes.removeByRecipeName("biomesoplenty:lime_dye_from_glowshroom");
     recipes.removeByRecipeName("biomesoplenty:light_blue_dye_from_icy_iris");
     recipes.removeByRecipeName("biomesoplenty:light_blue_dye_from_blue_hydrangea");
     recipes.removeByRecipeName("biomesoplenty:orange_dye_from_orange_cosmos");
@@ -111,10 +111,17 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("biomesoplenty:white_dye_from_white_anemone");
     recipes.removeByRecipeName("biomesoplenty:white_dye_from_lily_of_the_valley");
     recipes.removeByRecipeName("biomesoplenty:black_dye_from_deathbloom");
+    recipes.removeByRecipeName("biomesoplenty:black_dye_from_enderlotus");
+    recipes.removeByRecipeName("biomesoplenty:brown_dye_from_flat_mushroom");
+    recipes.removeByRecipeName("biomesoplenty:brown_dye_from_cattail");
+    recipes.removeByRecipeName("biomesoplenty:brown_dye_from_double_cattail");
     recipes.removeByRecipeName("quark:root_dye");
     recipes.removeByRecipeName("quark:root_dye_1");
     recipes.removeByRecipeName("quark:root_dye_2");
 
+    <ore:dyeRed>.remove(<rustic:wildberries>);
+    <ore:dyeLightGray>.remove(<rustic:ironberries>);
+    <ore:purple>.remove(<rustic:grapes>);
     mods.horsepower.Grindstone.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4, 16, false);
     //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:double_plant:4>, 16, false);
     //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:4>, 16, false);
@@ -127,11 +134,7 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     mods.horsepower.Grindstone.add(<minecraft:double_plant:0>, <ore:dyeYellow>.firstItem, 16, false);
     //mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>, 16, false);
     mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>, 16, false);
-    //mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 2, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
     //mods.horsepower.Grindstone.add(<minecraft:dye:2>, <biomesoplenty:green_dye> * 2, 16, false);
     //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 16, false);
@@ -146,6 +149,11 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <rustic:wildberries:0>, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
+	mods.horsepower.Grindstone.add(<primal:ore_salt:1>, <primal:salt_dust_fire> * 4, 16, false);
+	mods.horsepower.Grindstone.add(<primal:ore_salt:0>, <primal:salt_dust_rock> * 4, 16, false);
+            //mekanism:saltblock:0-mekanism:salt:0@4
+            //primal:salt_netjry_block:0-primal:salt_dust_netjry:0@4
+
 
 /*
 	// Recipes with secondary outputs
@@ -173,11 +181,29 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
 
 recipes.removeByRecipeName("totemic:totem_whittling_knife");
 recipes.addShaped(<totemic:totem_whittling_knife>, [
-    [null, null, <primal:flint_knapp>],
-    [null, <ore:stick>, null],
-    [<ore:stick>, null, null]
+    [null, <primal:flint_knapp>],
+    [<ore:ststickWoodick>, null],
 ]);
 
+//early crafting tables
+mods.recipestages.Recipes.setRecipeStage("medieval", <minecraft:crafting_table>);
+mods.recipestages.Recipes.setRecipeStage("medieval", <slabmachines:workbench_slab>);
+recipes.addShapeless(<horsepower:chopping_block>*2, [<ore:logWood>]);
+recipes.addShaped(<primal_tech:work_stump>, [
+    [<horsepower:chopping_block>],
+    [<ore:logWood>]
+]);
+recipes.removeByRecipeName("primal_tech:recipe_rock");
+recipes.addShapeless(<primal_tech:rock>, [<immcraft:rock>]);
+recipes.addShaped(<tconstruct:tooltables:3>, [
+    [<tconstruct:pattern>],
+    [<primal_tech:work_stump>]
+]);
+
+//early chests
+mods.recipestages.Recipes.setRecipeStage("medieval", <minecraft:chest>);
+mods.recipestages.Recipes.setRecipeStage("medieval", <quark:custom_chest:*>);
+mods.recipestages.Recipes.setRecipeStage("medieval", <slabmachines:chest_slab>);
 
 //early grappling hook
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
