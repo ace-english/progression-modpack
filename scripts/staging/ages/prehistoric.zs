@@ -1,6 +1,8 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.horsepower.ChoppingBlock;
 import mods.horsepower.Grindstone;
@@ -118,35 +120,40 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("quark:root_dye");
     recipes.removeByRecipeName("quark:root_dye_1");
     recipes.removeByRecipeName("quark:root_dye_2");
+    recipes.removeByRecipeName("minecraft:sandstone");
+    recipes.removeByRecipeName("chisel:charcoal");
+    recipes.removeByRecipeName("forestry:charcoal");
+    recipes.removeByRecipeName("forestry:charcoal_block");
+    recipes.removeByRecipeName("primal_tech:recipe_charcoal");
+    recipes.removeByRecipeName("minecraft:clay");
+    recipes.removeByRecipeName("primal:sand");
+    recipes.removeByRecipeName("primal:ore_salt_netjry");
+    recipes.removeByRecipeName("primal:sand_2");
+    recipes.removeByRecipeName("bewitchment:block_of_salt");
+    recipes.removeByRecipeName("unidict:dustsalt_x9_size.1");
+    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1");
+    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2");
+    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2_3");
+    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2_3_4");
+    recipes.removeByRecipeName("mekanism:saltblock");
+    recipes.removeByRecipeName("mekanism:basicblock_3");
 
     <ore:dyeRed>.remove(<rustic:wildberries>);
     <ore:dyeLightGray>.remove(<rustic:ironberries>);
-    <ore:purple>.remove(<rustic:grapes>);
+    <ore:dyePurple>.remove(<rustic:grapes>);
     mods.horsepower.Grindstone.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:double_plant:4>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:4>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <minecraft:red_flower:0>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:double_plant:5>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyePink>.firstItem, <minecraft:red_flower:7>, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:double_plant:0>, <ore:dyeYellow>.firstItem, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>, 16, false);
     mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
-    //mods.horsepower.Grindstone.add(<minecraft:dye:2>, <biomesoplenty:green_dye> * 2, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeBlack>.firstItem * 2, <minecraft:dye:0>, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>, 16, false);
     mods.horsepower.Grindstone.add(<ore:barkWood>, <primal:tannin_ground:0> * 2, 16, false);
-    //wrong order???
     mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<minecraft:coal:1> * 4, 16, false);
     mods.horsepower.Grindstone.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:coal_block:0>, <minecraft:coal:0> * 9, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone_block:0>, <minecraft:dye:15> * 9, 16, false);
-    //mods.horsepower.Grindstone.add(<ore:dyeRed>.firstItem, <rustic:wildberries:0>, 16, false);
+    mods.horsepower.Grindstone.add(<rustic:wildberries>, <minecraft:dye:1>*2, 16, false);
+    mods.horsepower.Grindstone.add(<rustic:ironberries>, <minecraft:dye:7>*2, 16, false);
+    mods.horsepower.Grindstone.add(<rustic:grapes>, <minecraft:dye:5>*2, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
 	mods.horsepower.Grindstone.add(<primal:ore_salt:1>, <primal:salt_dust_fire> * 4, 16, false);
@@ -199,6 +206,14 @@ recipes.addShaped(<tconstruct:tooltables:3>, [
     [<tconstruct:pattern>],
     [<primal_tech:work_stump>]
 ]);
+
+//bear trap
+recipes.addShaped(<openblocks:beartrap>, [
+    [<primal:shark_tooth>, <primal:iron_strand>, <primal:shark_tooth>],
+    [<primal:shark_tooth>, <ore:pressurePlateWood>, <primal:shark_tooth>],
+    [<primal:shark_tooth>, <primal:iron_strand>, <primal:shark_tooth>]
+]);
+
 
 //early chests
 mods.recipestages.Recipes.setRecipeStage("medieval", <minecraft:chest>);
