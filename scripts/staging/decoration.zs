@@ -45,4 +45,4 @@
 
 
  //mods.orestages.OreStages.addReplacement("disabled", <minecraft:furnace:*>, <primal:cauldron>);
-// mods.orestages.OreStages.addReplacement("medieval", <minecraft:crafting_table>, <primal_tech:work_stump>); 
+mods.orestages.OreStages.addReplacement("medieval", <minecraft:crafting_table>, <minecraft:planks:0>); 
