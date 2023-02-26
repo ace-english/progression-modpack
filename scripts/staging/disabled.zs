@@ -97,14 +97,15 @@ mods.ItemStages.addItemStage("disabled", <primal:adamant_plate>);
 mods.ItemStages.addItemStage("disabled", <primal:adamant_ingot>);
 mods.ItemStages.addItemStage("disabled", <primal:adamant_dust>);
 mods.ItemStages.addItemStage("disabled", <primal:adamant_nugget>);
-mods.ItemStages.addItemStage("disabled", <primal:bone_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:flint_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:iron_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:quartz_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:copper_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:diamond_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:emerald_saw>);
-mods.ItemStages.addItemStage("disabled", <primal:obsidian_saw>);
+
+recipes.removeByRecipeName("primal_tech:clay_kiln");
+recipes.removeByRecipeName("primal_tech:recipe_clay_kiln");
+recipes.removeByRecipeName("primal_tech:recipe_flint_saw_blade");
+recipes.removeByRecipeName("primal_tech:recipe_water_saw");
+mods.ItemStages.addItemStage("disabled", <primal_tech:clay_kiln>);
+mods.ItemStages.addItemStage("disabled", <primal_tech:water_saw>);
+mods.ItemStages.addItemStage("disabled", <primal_tech:flint_edged_disc>);
+
 
 mods.ItemStages.addItemStage("disabled", <primal_tech:water_saw>);
 

@@ -1,9 +1,5 @@
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.contenttweaker.Fluid;
-import mods.contenttweaker.Color;
-import mods.tconstruct.Melting;
-import mods.tconstruct.Casting;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -79,5 +75,3 @@ recipes.removeByRecipeName("minecraft:fishing_rod");
 
 
 
-mods.tconstruct.Melting.addRecipe(<liquid:molten_neptunium> * 144,<aquaculture:loot:1>);
-mods.tconstruct.Casting.addTableRecipe(<item:aquaculture:loot:1>, <item:tconstruct:cast_custom>, <liquid:molten_neptunium>, 144);
