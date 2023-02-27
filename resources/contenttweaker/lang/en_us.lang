@@ -1,3 +1,5 @@
 fluid.molten_neptunium=Molten Neptunium
 fluid.molten_cheese=Molten Cheese
+fluid.molten_cold_iron=Liquid Cold Iron
 entity.Villager.moneychanger=Moneychanger
+entity.Villager.jeweler=Jeweler

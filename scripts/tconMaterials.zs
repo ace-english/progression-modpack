@@ -141,3 +141,29 @@ cheese.addMaterialTrait("tasty", "extra");
 cheese.register();
 
 
+/*        new material - cold_iron           */
+var molten_cold_iron = VanillaFactory.createFluid("molten_cold_iron", Color.fromHex("636e6d"));
+molten_cold_iron.register();
+
+val cold_iron = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("cold_iron");
+cold_iron.localizedName = "Cold Iron";
+cold_iron.color = 0x636e6d;
+cold_iron.liquid = <liquid:molten_cold_iron>;
+cold_iron.castable = true;
+cold_iron.craftable = false;
+cold_iron.representativeItem = <item:bewitchment:cold_iron_ingot>;
+cold_iron.addCoreMaterialStats(13,15);
+cold_iron.addPlatesMaterialStats(1, 6, 1);
+cold_iron.addTrimMaterialStats(4);
+cold_iron.addHeadMaterialStats(100, 4.5, 4, 2);
+cold_iron.addHandleMaterialStats(0.85, 70);
+cold_iron.addExtraMaterialStats(100);
+cold_iron.addProjectileMaterialStats();
+cold_iron.addMaterialTrait("shielding_armor", "core");
+cold_iron.addMaterialTrait("shielding_armor", "plates");
+cold_iron.addMaterialTrait("blessed_armor", "trim");
+cold_iron.addMaterialTrait("holy", "projectile");
+cold_iron.addMaterialTrait("holy", "head");
+cold_iron.addMaterialTrait("holy", "handle");
+cold_iron.addMaterialTrait("holy", "extra");
+cold_iron.register();
