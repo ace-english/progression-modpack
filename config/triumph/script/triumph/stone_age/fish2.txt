@@ -4,7 +4,5 @@ setDescription("Catch a fish the CIVILIZED way, ugh")
 addParent("triumph:stone_age/fish")
 setPos(94,-19)
 
-//criteria = addCriteria("caught_fish", "minecraft:fishing_rod_hooked")
-//add fish to inventory + fishing rod in hand???
-criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")
-criteria.setEntityType("jaff:pufferfish")
+criteria = addCriteria("caught_fish", "minecraft:inventory_changed")
+criteria.setEntityType("aquaculture:fish:*")
