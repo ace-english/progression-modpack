@@ -1,4 +1,4 @@
-#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft
+#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks
 #loader contenttweaker
 #priority 900
 
@@ -50,7 +50,6 @@ bread.addItem(<item:minecraft:bread>);
 //bread.addItem(<item:roots:wildewheat_bread>);
 //bread.addItem(<item:harvestcraft:toastitem>);
 //bread.addItem(<item:progressiontweaks:flatbread>);
-//primal_tech:flatbread
 bread.addCoreMaterialStats(1,2);
 bread.addPlatesMaterialStats(1, 1, 0);
 bread.addTrimMaterialStats(1);
@@ -86,14 +85,16 @@ neptunium.craftable = false;
 neptunium.representativeItem = <item:aquaculture:loot:1>;
 //neptunium.addItem(<item:aquaculture:loot:1>);
 neptunium.addCoreMaterialStats(10,12);
-neptunium.addPlatesMaterialStats(1, 10, 3);
+neptunium.addPlatesMaterialStats(1, 10, 2);
 neptunium.addTrimMaterialStats(1);
-neptunium.addHeadMaterialStats(350, 1.2, 5, 2);
+neptunium.addHeadMaterialStats(600, 1.2, 7, 3);
 neptunium.addHandleMaterialStats(0.8, 200);
 neptunium.addExtraMaterialStats(100);
+neptunium.addProjectileMaterialStats();
 neptunium.addMaterialTrait("aquaspeed_armor", "core");
 neptunium.addMaterialTrait("aquaspeed_armor", "plates");
 neptunium.addMaterialTrait("aquaspeed_armor", "trim");
+neptunium.addMaterialTrait("fins", "projectile");
 neptunium.addMaterialTrait("aquadynamic", "head");
 neptunium.addMaterialTrait("aquadynamic", "handle");
 neptunium.addMaterialTrait("aquadynamic", "extra");
