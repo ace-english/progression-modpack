@@ -267,13 +267,9 @@ recipes.removeByRecipeName("mysticalworld:lead");
 recipes.removeByRecipeName("crafttweaker:animania_lead_modified");
 
 //misc
-
 val woodAsh=<ore:ashWood>;
 woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
-
-<ore:salt>.add(<primal:salt_dust_netjry>);
-<ore:foodSalt>.remove(<mekanism:saltblock>);
 
 <ore:peltSmall>.add(<mysticalworld:pelt>);
 recipes.removeByRecipeName("mysticalworld:pelt_to_leather");
