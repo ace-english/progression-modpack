@@ -1,22 +1,10 @@
 potential Jakob tasks:
 	[ ] tinker materials
-		[x] leather
-		[ ] cold iron
-			[ ] create material
-			[ ] make ingot work
-			[ ] compare to old gear, make sure it is comparable
-			[ ] hide old gear
 		[ ] yew
 		[ ] ironwood
-		[x] fey leather
-		[x] neptunium
-			[ ] increase melting speed
-			[ ] compare to old gear, make sure it is comparable
 		[ ] wool
 		[ ] garnet
 		[ ] opal
-		[ ] bread
-		[ ] cheese
 		[ ] chocolate?
 			[ ] casting recipes for chocolate lol - chocolate covered cherry
 			cocoa -> unsweetened chocolate
@@ -34,9 +22,7 @@ potential Jakob tasks:
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	
 	
-	[x] add cash for monster drops
 	[ ] add nutrition to bewitchment food 
-	[x] add recipe for bedroll out of leather	
 	[ ] triumph achievements
 		[x] make pretty
 		[ ] achievments
@@ -47,18 +33,14 @@ potential Jakob tasks:
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 	[ ] flatbread recipe
-	[x] add recipe for seared brick out of sarias
-	[x] barley drop barley
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
-	[x] make sure horse pressing required
 	[ ] make totemic more accessible
 		- shark tooth jingles
 	[ ] scorched tinker kit from mud bricks
 		- casting table
 		- melter
 		- spout
-	[x] add grappling hook recipes
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -70,14 +52,7 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	signposts also makes a waystone?
-	[x] remove no more tree punching
-	[x] make sure "can't hold disallowed objects" is on
-	[x] remove guidebook mod
-	[x] remove draconic
 	[ ] use for bait
-	[x] remove thermal expansion
-	[x] remove arcane essantials
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[x] bibliocraft:plumbline - prehistoric, but bronze?
@@ -90,58 +65,42 @@ potential Jakob tasks:
 			- primal_tech wooden basin is the one you remember
 			- add pelts into glue - sevtech?
 	[ ] add eagle feather to shearing
-	[ ] remove beds that don't work
 	[x] remove nuggets from monster girl drops
 	[ ] villager tables
-		[ ] buy rose gold
 		[ ] buy gems
-		[x] jewler villager
+		[ ] jewler villager
 		[ ] remove emerald trades
 		[ ] add coin trades
 		[ ] buy pelts
 		[ ] lvl 3 farmer - buy shipping bin
 			[ ] harvestcraft buys
 		[x] add money exchanger villager
-	[x] prosperity needs backups
-	[x] remove inferium drops
 	[?] unify hemp
 	[ ] revisit tips
-	[x] no more steves
-	[x] remove extra bees
 	[ ] disable extra rice
 	[ ] skins
 		[ ] fig leaf
-	[x] remove extra trees
-	[x] remove fairy lights
 	[ ] stage grimoire of gaia mobs
 	[ ] add cyborgs
-	[x] 2 salt block decon recipes
 	[ ] add recipes for cool ancient warfare stuff
 		[ ] candles
 	[ ] paper
 		[ ] remove easy recipes
-	[x] gonna have to do bewitchment items manually (wood, seeds etc)
-	[x] restrict all books, scrolls, and signs
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
-	[x] amethyst
-		- bewitchment, BOP
-		- remove BOP amethyst?
 	[ ] leather
 		[x] remove easy leather recipes
 		[x] remove from pams ground trap
 		[x] fox pelt from mystical world should work like other pelts
 		[ ] add wet leather to drying rack recipes
 		[ ] add horse power recipe for resin out of barkWood (or rootsBark)
-	[x] remove jacoba coins
-	[x] remove nuclearcraft
+		[ ] remove leather from backpack mod
 	[ ] sol balance
 	[ ] add more warm blocks
 		[x] campfire
 		[ ] nitres
 		[ ] campfires from ancient warfare
-	[x] have we disabled xyz info?
 	[ ] metal dust recipes
 		[ ] horse grinder
 		[ ] anvil in-world
@@ -163,6 +122,48 @@ potential Jakob tasks:
 		- gathering ritual
 		- wildifre
 		- chrisopoeia
+		
+x --- complete --- x
+		[x] fey leather
+		[x] neptunium
+			[x] increase melting speed
+			[x] compare to old gear, make sure it is comparable
+		[x] bread
+		[x] cheese
+		[x] leather
+		[x] cold iron
+			[x] create material
+			[x] make ingot work
+			[x] compare to old gear, make sure it is comparable
+			[x] hide old gear
+	[x] add cash for monster drops
+	[x] add recipe for bedroll out of leather	
+	[x] 2 salt block decon recipes
+	[x] make sure horse pressing required
+	[x] add grappling hook recipes
+	[x] add recipe for seared brick out of sarias
+	[x] barley drop barley
+	signposts also makes a waystone?
+	[x] remove no more tree punching
+	[x] make sure "can't hold disallowed objects" is on
+	[x] remove guidebook mod
+	[x] remove draconic
+	[x] remove extra trees
+	[x] remove fairy lights
+	[x] remove thermal expansion
+	[x] remove arcane essantials
+	[x] prosperity needs backups
+	[x] remove inferium drops
+	[x] gonna have to do bewitchment items manually (wood, seeds etc)
+	[x] restrict all books, scrolls, and signs
+	[x] remove jacoba coins
+	[x] no more steves
+	[x] remove extra bees
+	[x] remove nuclearcraft
+	[x] have we disabled xyz info?
+	[x] amethyst
+		- bewitchment, BOP
+		- remove BOP amethyst?
 	
 
 tech progression for tools
@@ -239,11 +240,6 @@ Ore
 	Malachite
 	Sapphire
 	Tanzanite
-	
-
-lock the wheel and agriculture behind something
-add recipe for grappling hook - wood shaft + lead + copper, bronze, or iron pickaxe heads
-only agricraft farming
 
 
 Medieval (1)
