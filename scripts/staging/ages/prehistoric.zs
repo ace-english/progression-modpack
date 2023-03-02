@@ -172,8 +172,24 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
 recipes.removeByRecipeName("totemic:totem_whittling_knife");
 recipes.addShaped(<totemic:totem_whittling_knife>, [
     [null, <primal:flint_knapp>],
-    [<ore:ststickWoodick>, null],
+    [<ore:stickWood>, null],
 ]);
+
+recipes.removeByRecipeName("totemic:wind_chime");
+recipes.addShaped(<totemic:wind_chime>, [
+    [null, <totemic:cedar_log>, null],
+    [<ore:stickWood>, <ore:string>, <ore:stickWood>],
+    [null, null, <ore:stickWood>],
+]);
+
+recipes.removeByRecipeName("totemic:iron_bells");
+<totemic:sub_items:1>.displayName = "Jingles";
+recipes.addShaped(<totemic:sub_items:1>, [
+			[<minecraft:bone:0>, <minecraft:reeds:0>, <minecraft:bone:0>],
+			[<minecraft:reeds:0>, <minecraft:bone:0>, <minecraft:reeds:0>]
+]);
+
+
 
 //early crafting tables
 mods.recipestages.Recipes.setRecipeStage("medieval", <minecraft:crafting_table>);
