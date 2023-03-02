@@ -45,3 +45,4 @@ recipes.removeByRecipeName("bewitchment:block_of_cold_iron_to_resource");
 mods.tconstruct.Melting.addRecipe(<liquid:molten_cold_iron> * 144,<bewitchment:cold_iron_ingot>, 400);
 mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_cold_iron>, 144);
 mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_cold_iron>, 144);
+mods.tconstruct.Casting.addBasinRecipe(<bewitchment:block_of_cold_iron>, null, <liquid:molten_cold_iron>, 1296);

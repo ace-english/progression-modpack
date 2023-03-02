@@ -47,9 +47,9 @@ bread.color = 0xc9985f;
 bread.representativeItem = <item:minecraft:bread>;
 //add any items that can be used to craft this material
 bread.addItem(<item:minecraft:bread>);
-//bread.addItem(<item:roots:wildewheat_bread>);
+bread.addItem(<item:roots:wildewheet_bread>);
 //bread.addItem(<item:harvestcraft:toastitem>);
-//bread.addItem(<item:progressiontweaks:flatbread>);
+bread.addItem(<item:progressiontweaks:flat_bread>);
 bread.addCoreMaterialStats(1,2);
 bread.addPlatesMaterialStats(1, 1, 0);
 bread.addTrimMaterialStats(1);

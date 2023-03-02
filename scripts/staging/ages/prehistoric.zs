@@ -79,8 +79,6 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("minecraft:coal_block");
     recipes.removeByRecipeName("tcomplement:steelworks/charcoal");
     recipes.removeByRecipeName("chisel:charcoal_uncraft");
-    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1");
-    recipes.removeByRecipeName("unidict:dustsalt_x9_size.1");
     
     recipes.removeByRecipeName("mysticalworld:antlers_to_bone_meal");
     recipes.removeByRecipeName("jaff:bone_meal_from_fish_bones");
@@ -117,6 +115,9 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("biomesoplenty:brown_dye_from_flat_mushroom");
     recipes.removeByRecipeName("biomesoplenty:brown_dye_from_cattail");
     recipes.removeByRecipeName("biomesoplenty:brown_dye_from_double_cattail");
+    recipes.removeByRecipeName("minecraft:red_sandstone");
+    recipes.removeByRecipeName("biomesoplenty:white_sandstone");
+    recipes.removeByRecipeName("tcomplement:steelworks/charcoal_block");
     recipes.removeByRecipeName("quark:root_dye");
     recipes.removeByRecipeName("quark:root_dye_1");
     recipes.removeByRecipeName("quark:root_dye_2");
@@ -129,14 +130,6 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     recipes.removeByRecipeName("primal:sand");
     recipes.removeByRecipeName("primal:ore_salt_netjry");
     recipes.removeByRecipeName("primal:sand_2");
-    recipes.removeByRecipeName("bewitchment:block_of_salt");
-    recipes.removeByRecipeName("unidict:dustsalt_x9_size.1");
-    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1");
-    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2");
-    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2_3");
-    recipes.removeByRecipeName("unidict:dustsalt_x4_size.1_2_3_4");
-    recipes.removeByRecipeName("mekanism:saltblock");
-    recipes.removeByRecipeName("mekanism:basicblock_3");
 
     <ore:dyeRed>.remove(<rustic:wildberries>);
     <ore:dyeLightGray>.remove(<rustic:ironberries>);
@@ -144,7 +137,9 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     mods.horsepower.Grindstone.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:double_plant:0>, <ore:dyeYellow>.firstItem, 16, false);
     mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 2, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 4, 16, false);
+    mods.horsepower.Grindstone.add(<minecraft:red_sandstone:0>, <minecraft:sand:1> * 4, 16, false);
+    mods.horsepower.Grindstone.add(<biomesoplenty:white_sandstone>, <biomesoplenty:white_sand> * 4, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
     mods.horsepower.Grindstone.add(<ore:barkWood>, <primal:tannin_ground:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<minecraft:coal:1> * 4, 16, false);
@@ -156,29 +151,17 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     mods.horsepower.Grindstone.add(<rustic:grapes>, <minecraft:dye:5>*2, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
-	mods.horsepower.Grindstone.add(<primal:ore_salt:1>, <primal:salt_dust_fire> * 4, 16, false);
-	mods.horsepower.Grindstone.add(<primal:ore_salt:0>, <primal:salt_dust_rock> * 4, 16, false);
-            //mekanism:saltblock:0-mekanism:salt:0@4
-            //primal:salt_netjry_block:0-primal:salt_dust_netjry:0@4
 
 
-/*
-	// Recipes with secondary outputs
-	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_knapp:0>, 16, false, <minecraft:dye:15>, 20);
-	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal:bone_point:0>, 16, false, <minecraft:dye:15>, 20);
-	mods.horsepower.Grindstone.add(<minecraft:dye:15>, <primal_tech:bone_shard>, 16, false, <minecraft:dye:15>, 20);
-*/
+
 
 // presser
-    recipes.removeByRecipeName("mekanism:basicblock_3");
-	//mods.horsepower.Press.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9);
+	mods.horsepower.Press.add(<minecraft:sand:0> * 4, <minecraft:sandstone>);
+	mods.horsepower.Press.add(<minecraft:sand:1> * 4, <minecraft:red_sandstone>);
+	mods.horsepower.Press.add(<biomesoplenty:white_sand> * 4, <biomesoplenty:white_sandstone>);
 	//mods.horsepower.Press.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4);
 	//mods.horsepower.Press.add(<minecraft:coal:1>, <pickletweaks:coal_piece:1> * 8);
 	//mods.horsepower.Press.add(<minecraft:coal:0>, <pickletweaks:coal_piece:0> * 8);
-	//mods.horsepower.Press.add(<primal:salt_netjry_block:0>, <primal:salt_dust_netjry:0> * 4);
-	//mods.horsepower.Press.add(<primal:ore_salt:0>, <primal:salt_dust_rock:0> * 4);
-	//mods.horsepower.Press.add(<primal:ore_salt:1>, <primal:salt_dust_fire:0> * 4);
-	//mods.horsepower.Press.add(<mekanism:saltblock:0>, <mekanism:salt:0> * 4);
 
 /**************************************************************************
 
@@ -223,6 +206,12 @@ mods.recipestages.Recipes.setRecipeStage("medieval", <slabmachines:chest_slab>);
 //early grappling hook
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
+
+//flatbread
+<ore:bread>.add(<progressiontweaks:flat_bread>);
+<ore:foodBread>.add(<progressiontweaks:flat_bread>);
+
+
 
 // add items to prehistoric era that are in gated mods
 
@@ -306,3 +295,9 @@ mods.ItemStages.removeItemStage(<immersiveengineering:material:4>);
 
 mods.ItemStages.removeItemStage(<immersiveengineering:seed:0>);
 mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);
+
+//mods.primal_tech.StoneGrill.addRecipe()
+
+furnace.remove(<minecraft:bread>);
+furnace.addRecipe(<progressiontweaks:flat_bread>, <ore:foodFlour>);
+furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
