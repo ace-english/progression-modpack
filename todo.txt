@@ -16,13 +16,13 @@ potential Jakob tasks:
 			Uplifting (heals occasionally) - plates, trim, handle, extra
 			Moldable (more enchantments) - core, head
 		[ ] smeltery notch apple
+		[ ] soulforged steel
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	
 	
-	[ ] add nutrition to bewitchment food 
 	[ ] triumph achievements
 		[x] make pretty
 		[ ] achievments
@@ -32,11 +32,8 @@ potential Jakob tasks:
 			- tame a monster girl???
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
-	[ ] flatbread recipe
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
-	[ ] make totemic more accessible
-		- shark tooth jingles
 	[ ] scorched tinker kit from mud bricks
 		- casting table
 		- melter
@@ -64,7 +61,6 @@ potential Jakob tasks:
 			- rework cool bwm recipes into primal cauldron
 			- primal_tech wooden basin is the one you remember
 			- add pelts into glue - sevtech?
-	[ ] add eagle feather to shearing
 	[x] remove nuggets from monster girl drops
 	[ ] villager tables
 		[ ] buy gems
@@ -125,6 +121,11 @@ potential Jakob tasks:
 		- chrisopoeia
 		
 x --- complete --- x
+	[x] add nutrition to bewitchment food 
+	[x] flatbread recipe
+	[x] make totemic more accessible
+	[x] add eagle feather to shearing
+	materials
 		[x] fey leather
 		[x] neptunium
 			[x] increase melting speed

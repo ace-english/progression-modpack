@@ -114,3 +114,7 @@ SummonCreatures.addEntity(<entity:animania:doe_nigerian_dwarf>, [<minecraft:dead
 SummonCreatures.addEntity(<entity:animania:buck_pygmy>, [<minecraft:sapling:4>, <ore:listAllberry>]);
 SummonCreatures.addEntity(<entity:animania:doe_pygmy>, [<minecraft:sapling:4>, <ore:listAllberry>, <ore:listAllflower>]);
 
+
+//add custom recipies for new livestock
+//sheep
+SummonCreatures.addEntity(<entity:twilightforest:bighorn_sheep>, [<twilightforest:twilight_leaves>, <ore:blockWool>]);
