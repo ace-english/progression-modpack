@@ -3,6 +3,12 @@ import mods.roots.Pacifist;
 import mods.roots.AnimalHarvest;
 import mods.roots.SummonCreatures;
 
+
+/*********************************************************
+
+add runic shears drop
+
+*********************************************************/
  
 RunicShears.addEntityRecipe("cow_fey_leather0",<roots:fey_leather>,<entity:animania:bull_angus>, 20 * 60);
 RunicShears.addEntityRecipe("cow_fey_leather1",<roots:fey_leather>,<entity:animania:bull_friesian>, 20 * 60);
@@ -70,6 +76,14 @@ RunicShears.addEntityRecipe("peacock_feathers18",<animania:purple_peacock_feathe
 RunicShears.addEntityRecipe("peacock_feathers19",<animania:purple_peacock_feather>,<entity:animania:peacock_purple>, 20 * 60);
 RunicShears.addEntityRecipe("peacock_feathers20",<animania:purple_peacock_feather>,<entity:animania:peachick_purple>, 20 * 60);
 
+RunicShears.addEntityRecipe("buffalo", <totemic:buffalo_items:1>, <entity:totemic:buffalo>,  20 * 3000);
+RunicShears.addEntityRecipe("eagle", <totemic:eagle_drops:0>,  <entity:totemic:bald_eagle>,  20 * 3000);
+
+/*********************************************************
+
+add to pacifist achievement
+
+*********************************************************/
 
 //cows
 Pacifist.addEntity(<entity:animania:bull_angus>);
@@ -223,6 +237,10 @@ Pacifist.addEntity(<entity:animania:ram_suffolk>);
 Pacifist.addEntity(<entity:animania:ewe_suffolk>);
 Pacifist.addEntity(<entity:animania:lamb_suffolk>);
 
+//totemic
+Pacifist.addEntity(<entity:totemic:buffalo>);
+Pacifist.addEntity(<entity:totemic:bald_eagle>);
+
 
 //remove summons for vanilla entities
 SummonCreatures.removeEntity(<entity:minecraft:cow>);
@@ -239,7 +257,11 @@ SummonCreatures.removeLifeEssence(<entity:minecraft:chicken>);
 SummonCreatures.removeLifeEssence(<entity:minecraft:mooshroom>);
 SummonCreatures.removeLifeEssence(<entity:minecraft:rabbit>);
 
-//add life essence for animania creatures
+/*********************************************************
+
+add life essence for creatures
+
+*********************************************************/
 
 //cows
 SummonCreatures.addLifeEssence(<entity:animania:bull_angus>);
@@ -393,7 +415,11 @@ SummonCreatures.addLifeEssence(<entity:animania:ram_suffolk>);
 SummonCreatures.addLifeEssence(<entity:animania:ewe_suffolk>);
 SummonCreatures.addLifeEssence(<entity:animania:lamb_suffolk>);
 
-//animal harvest
+/*********************************************************
+
+add Animal Harvest drops
+
+*********************************************************/
 //cows
 AnimalHarvest.addEntity(<entity:animania:bull_angus>);
 AnimalHarvest.addEntity(<entity:animania:cow_angus>);
@@ -546,7 +572,8 @@ AnimalHarvest.addEntity(<entity:animania:ram_suffolk>);
 AnimalHarvest.addEntity(<entity:animania:ewe_suffolk>);
 AnimalHarvest.addEntity(<entity:animania:lamb_suffolk>);
 
+//totemic
+AnimalHarvest.addEntity(<entity:totemic:buffalo>);
+AnimalHarvest.addEntity(<entity:totemic:bald_eagle>);
 
-//add custom recipies for new livestock
-//sheep
-SummonCreatures.addEntity(<entity:twilightforest:bighorn_sheep>, [<twilightforest:twilight_leaves>, <ore:blockWool>]);
+
