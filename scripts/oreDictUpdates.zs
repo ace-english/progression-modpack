@@ -266,6 +266,14 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
 recipes.removeByRecipeName("mysticalworld:lead");
 recipes.removeByRecipeName("crafttweaker:animania_lead_modified");
 
+//shears
+<ore:toolShears>.add(<minecraft:shears>);
+<ore:toolShears>.add(<ceramics:clay_shears>);
+<ore:toolShears>.add(<roots:runic_shears>);
+<ore:toolShears>.add(<roots:wooden_shears>);
+<ore:toolShears>.add(<primal:quartz_shears>);
+<ore:toolShears>.add(<bewitchment:boline>);
+
 //misc
 val woodAsh=<ore:ashWood>;
 woodAsh.add(<bewitchment:wood_ash>);

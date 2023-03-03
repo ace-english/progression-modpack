@@ -24,6 +24,7 @@ mods.ItemStages.addItemStage("industrial", <conarm:travel_night>);
 mods.ItemStages.stageModItems("industrial","davincisvessels");
 mods.ItemStages.stageModItems("industrial","immersiveengineering");
 mods.ItemStages.stageModItems("industrial","immersivecables");
+mods.ItemStages.stageModItems("industrial","travelersbackpack");
 mods.ItemStages.addItemStage("industrial", <engineersdoors:door_concrete>);
 mods.ItemStages.addItemStage("industrial", <engineersdoors:door_concrete_ornate>);
 mods.ItemStages.addItemStage("industrial", <engineersdoors:door_concrete_reinforced>);
