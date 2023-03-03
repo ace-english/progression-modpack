@@ -227,7 +227,9 @@ recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag
 <ore:bread>.add(<progressiontweaks:flat_bread>);
 <ore:foodBread>.add(<progressiontweaks:flat_bread>);
 
-
+//early plumbob
+recipes.removeByRecipeName("bibliocraft:plumbline");
+recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
 
 // add items to prehistoric era that are in gated mods
 

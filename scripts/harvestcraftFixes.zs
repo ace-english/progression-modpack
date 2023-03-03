@@ -69,6 +69,8 @@ oreDictSpice.add(<harvestcraft:groundnutmegitem>);
 //bee grubs as fish bait
 recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4, [<ore:string>, <ore:string>, <ore:string>, <harvestcraft:grubitem>]);
 
+<ore:listAllcookie>.add(<minecraft:cookie>);
+
 /*
 //traps (doesn't work)
 removeGroundTrapByInput(<harvestcraft:fruitbaititem>);

@@ -50,6 +50,11 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] use for bait
+	[ ] gate iron, gold, diamond upgrades behind medieval
+	[ ] new glue recipe somwehre for dynamite
+	[ ] stone anvil
+		[ ] plates
+		[ ] dust
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[x] bibliocraft:plumbline - prehistoric, but bronze?
@@ -92,7 +97,7 @@ potential Jakob tasks:
 		[ ] fey leather should probably still require processing to meet craftin recipes like backpacks
 		[ ] add wet leather to drying rack recipes
 		[ ] add horse power recipe for resin out of barkWood (or rootsBark)
-		[ ] remove leather from backpack mod
+		[x] remove leather from backpack mod
 	[ ] sol balance
 	[ ] add more warm blocks
 		[x] campfire
