@@ -128,17 +128,6 @@ oreDictFruit.mirror(fruitForestry);
 <ore:listAllfishraw>.add(<fishingmadebetter:fish_slice_raw>);
 recipes.removeByRecipeName("harvestcraft:fish_0");
 
-/**************************************************************************
-
-    candles
-    
-**************************************************************************/
-
-recipes.addShaped(<ancientwarfarestructure:altar_candle>.withTag({dyeColor: 0}),[
-    [<bewitchment:black_candle>],
-    [<ore:nuggetIron>]
-]);
-
 
 /**************************************************************************
 
