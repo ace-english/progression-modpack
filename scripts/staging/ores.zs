@@ -1,3 +1,4 @@
+ 
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:coal_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:gold_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <ebwizardry:crystal_ore>);
@@ -22,6 +23,5 @@
  //mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:inferium_ore>);
  mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_prosperity_ore>, <minecraft:netherrack>);
  mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_inferium_ore>, <minecraft:netherrack>);
- mods.orestages.OreStages.addReplacement("modern", <minecraft:diamond_ore:0>);
  mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:5>); //uranium
  mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:2>); //lead

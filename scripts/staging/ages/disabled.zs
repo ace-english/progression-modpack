@@ -1,4 +1,6 @@
 
+mods.ItemStages.addItemStage("disabled", <animania:bee_hive>);
+mods.ItemStages.addItemStage("disabled", <animania:wild_hive>);
 
 mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_axe>);
 mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_boots>);

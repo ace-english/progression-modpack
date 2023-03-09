@@ -1,3 +1,5 @@
+
+
 mods.ItemStages.addItemStage("industrial", <bibliocraft:printingpress>);
 mods.ItemStages.addItemStage("industrial", <bibliocraft:printplate>);
 mods.ItemStages.addItemStage("industrial", <bibliocraft:typesettingtable>);
