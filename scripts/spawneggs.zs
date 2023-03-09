@@ -87,7 +87,7 @@ peacockFeathers.add(<animania:purple_peacock_feather>);
 peacockFeathers.add(<animania:taupe_peacock_feather>);
 
 recipes.addShapeless("fan", <grimoireofgaia:weapon_fan>,[peacockFeathers, peacockFeathers, peacockFeathers, peacockFeathers, peacockFeathers, peacockFeathers]);
-recipes.addShapeless("ice_fan", <grimoireofgaia:weapon_fan_ice>,[<grimoireofgaia:weapon_fan>, <ore:dustBlizz>]);
+recipes.addShapeless("ice_fan", <grimoireofgaia:weapon_fan_ice>,[<grimoireofgaia:weapon_fan>, <bewitchment:perpetual_ice>]);
 recipes.addShapeless("fire_fan", <grimoireofgaia:weapon_fan_fire>,[<grimoireofgaia:weapon_fan>, <minecraft:blaze_powder>]);
 
 

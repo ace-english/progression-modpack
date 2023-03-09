@@ -5,6 +5,11 @@ potential Jakob tasks:
 		[ ] wool
 		[ ] garnet
 		[ ] opal
+		[ ] arctic
+		[ ] yeti
+		[ ] wool
+		[ ] some kind of magic ice
+		[ ] ironwood (tf)
 		[ ] chocolate?
 			[ ] casting recipes for chocolate lol - chocolate covered cherry
 			cocoa -> unsweetened chocolate
@@ -12,6 +17,7 @@ potential Jakob tasks:
 			2 gelatin + 1 sugar = liquid marshmallow
 			meat or fish -> gelatin
 			half a chocolate ingot + 1.25 buckets of milk =  1 ingot milk chocolate
+			unify existing chocolate
 			Tasty - all pieces
 			Uplifting (heals occasionally) - plates, trim, handle, extra
 			Moldable (more enchantments) - core, head
@@ -34,6 +40,7 @@ potential Jakob tasks:
 			[x] stab a fish (use spear icon)
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
+	[ ] grappling hook modifier for long fall effect?
 	[ ] scorched tinker kit from mud bricks
 		- casting table
 		- melter
@@ -50,8 +57,10 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] use for bait
+		fishbait, fruitbait, grainbait, veggiebait
 	[ ] gate iron, gold, diamond upgrades behind medieval
 	[ ] new glue recipe somwehre for dynamite
+	[x] pick a candle
 	[ ] stone anvil
 		[ ] plates
 		[ ] dust
@@ -85,6 +94,9 @@ potential Jakob tasks:
 	[ ] add cyborgs
 	[ ] add recipes for cool ancient warfare stuff
 		[ ] candles
+	[ ]  water
+		[ ] purified water recipes
+		[ ] can you add tinkers gear to tough as nails
 	[ ] paper
 		[ ] remove easy recipes
 	[ ] mobs should only spawn with shit that you can have
