@@ -227,6 +227,10 @@ recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag
 <ore:bread>.add(<progressiontweaks:flat_bread>);
 <ore:foodBread>.add(<progressiontweaks:flat_bread>);
 
+furnace.remove(<minecraft:bread>);
+furnace.addRecipe(<progressiontweaks:flat_bread>, <ore:foodFlour>);
+furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
+
 //early plumbob
 recipes.removeByRecipeName("bibliocraft:plumbline");
 recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
@@ -315,7 +319,3 @@ mods.ItemStages.removeItemStage(<immersiveengineering:seed:0>);
 mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);
 
 //mods.primal_tech.StoneGrill.addRecipe()
-
-furnace.remove(<minecraft:bread>);
-furnace.addRecipe(<progressiontweaks:flat_bread>, <ore:foodFlour>);
-furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
