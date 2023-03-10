@@ -60,7 +60,7 @@ potential Jakob tasks:
 		fishbait, fruitbait, grainbait, veggiebait
 	[ ] gate iron, gold, diamond upgrades behind medieval
 	[ ] new glue recipe somwehre for dynamite
-	[x] pick a candle
+	[ ] pick a candle
 	[ ] stone anvil
 		[ ] plates
 		[ ] dust
@@ -75,6 +75,8 @@ potential Jakob tasks:
 			- rework cool bwm recipes into primal cauldron
 			- primal_tech wooden basin is the one you remember
 			- add pelts into glue - sevtech?
+		https://github.com/An-Sar/PrimalCore/wiki/CraftTweaker:-Cauldron
+		https://docs.blamejared.com/1.12/en/Mods/Modtweaker/BetterWithMods/Cauldron
 	[x] remove nuggets from monster girl drops
 	[ ] villager tables
 		[ ] buy gems
