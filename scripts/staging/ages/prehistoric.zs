@@ -206,12 +206,14 @@ recipes.addShaped(<tconstruct:tooltables:3>, [
     [<primal_tech:work_stump>]
 ]);
 
+/*
 //bear trap
 recipes.addShaped(<openblocks:beartrap>, [
     [<primal:shark_tooth>, <primal:iron_strand>, <primal:shark_tooth>],
     [<primal:shark_tooth>, <ore:pressurePlateWood>, <primal:shark_tooth>],
     [<primal:shark_tooth>, <primal:iron_strand>, <primal:shark_tooth>]
 ]);
+*/
 
 
 //early chests
