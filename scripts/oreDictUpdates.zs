@@ -240,6 +240,7 @@ recipes.addShaped(<xnet:xnet_manual>, [
     [<minecraft:redstone>,null,<minecraft:redstone>]
 ]);
 
+/*
 recipes.removeShaped(<openblocks:rope_ladder>*3, [
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
@@ -250,6 +251,7 @@ recipes.addShaped(<openblocks:rope_ladder>*3, [
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>],
     [<minecraft:string>,<ore:stickWood>,<minecraft:string>]
 ]);
+*/
 
 //remove easy leads - glue is easier now
 recipes.removeByRecipeName("mysticalworld:lead");
