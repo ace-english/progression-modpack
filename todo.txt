@@ -58,9 +58,17 @@ potential Jakob tasks:
 		grimoireofgaia:coalfish
 	[ ] use for bait
 		fishbait, fruitbait, grainbait, veggiebait
-	[ ] gate iron, gold, diamond upgrades behind medieval
+	[x] gate iron, gold, diamond upgrades behind medieval
+	[ ] add busket casts
+	[ ] string
+		- wool + work tool = 2 string
+		- remove mortar pestle wool
+	[ ] no hot fluid bladder
+	[ ] disable tough canteen for waterskin
+	[ ] rename <primal_tech:fluid_bladder> -> "Waterskin"
+	[ ] remove ore dict string from hemp
 	[ ] new glue recipe somwehre for dynamite
-	[ ] pick a candle
+	[x] pick a candle
 	[ ] stone anvil
 		[ ] plates
 		[ ] dust
@@ -88,17 +96,21 @@ potential Jakob tasks:
 			[ ] harvestcraft buys
 		[x] add money exchanger villager
 	[?] unify hemp
-	[ ] revisit tips
+	[x] revisit tips
 	[ ] disable extra rice
 	[ ] skins
 		[ ] fig leaf
 	[ ] stage grimoire of gaia mobs
 	[ ] add cyborgs
-	[ ] add recipes for cool ancient warfare stuff
-		[ ] candles
+	[x] add recipes for cool ancient warfare stuff
+		[x] candles
+		[x] altars
+		[x] stools
+		[x] shields
+		[x] chairs
 	[ ]  water
 		[ ] purified water recipes
-		[ ] can you add tinkers gear to tough as nails
+		[x] can you add tinkers gear to tough as nails
 	[ ] paper
 		[ ] remove easy recipes
 	[ ] mobs should only spawn with shit that you can have
