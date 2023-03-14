@@ -1,3 +1,6 @@
+
+
+
 mods.WailaStages.addWailaStage("medieval");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.anvil");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.furnace");
@@ -320,6 +323,10 @@ mods.ItemStages.addItemStage("medieval", <cookingforblockheads:spice_rack>);
 mods.ItemStages.addItemStage("medieval", <cookingforblockheads:tool_rack>);
 mods.ItemStages.addItemStage("medieval", <culinaryconstruct:sandwich_station>);
 
+
+mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:2>);
+mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:3>);
+mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:4>);
 
 mods.ItemStages.addItemStage("medieval", <pirates:cell>);
 
