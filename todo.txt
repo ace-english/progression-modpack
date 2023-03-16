@@ -1,4 +1,6 @@
 potential Jakob tasks:
+	[ ] create unique tcon weapons/tools
+		- Ace can add them to villager trade tables
 	[ ] tinker materials
 		[ ] yew
 		[ ] ironwood
