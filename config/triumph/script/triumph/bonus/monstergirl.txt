@@ -1,0 +1,10 @@
+setIcon(<grimoireofgaia:doll_dryad>)
+setTitle("My new waifu")
+setDescription("Tame a monster girl")
+addParent("triumph:bonus/root")
+setPos(9,45)
+
+hideLines()
+
+criteria = addCriteria("tamed_monster", "minecraft:tame_animal")
+criteria.setEntityType("grimoireofgaia:harpy")
