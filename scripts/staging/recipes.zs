@@ -1,5 +1,4 @@
-#priority 4000
-
+#modloaded animania improvedbackpacks roots
 
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -7,6 +6,7 @@ import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import mods.roots.Fey;
 
 //add recipe for <minecraft:fireworks>
 //chainmail
@@ -584,7 +584,7 @@ improvedbackpacks
 *********************************************/
 
 recipes.remove(<improvedbackpacks:backpack>);
-recipes.addShaped(<harvestcraft:saucepanitem>, [
+recipes.addShaped(<improvedbackpacks:backpack>, [
     [<ore:string>,<ore:leather>,<ore:string>],
     [<ore:leather>,<immcraft:chest>,<ore:leather>],
     [<ore:string>,<ore:leather>,<ore:string>]
@@ -605,7 +605,8 @@ roots
 
 *********************************************/
 
-/*
+Fey.removeRecipe(<roots:component_pouch>);
+Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roots:wildroot>, <ore:leather>, <ore:leather>, <immcraft:chest>]);
 
 roots:component_pouch -> remove recipe. [<roots:bark, roots:wildroot>, <ore:wool>, <ore:wool>, <immcraft:chest>]
 
