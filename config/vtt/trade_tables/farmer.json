@@ -4,8 +4,8 @@
 
 	Offers:{
 		Recipes:[
-		
-			{action:"add", buy:{id:"minecraft:beetroot",Count:{min:15,max:19}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1}
+			{action:"clear"},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:4,max:7}},sell:{id:"minecraft:wheat_seeds",Count:3}, CareerLevel:1}	
 			
 		]
 	}
