@@ -11,6 +11,22 @@ import mods.roots.Fey;
 //add recipe for <minecraft:fireworks>
 //chainmail
 
+/*
+var workblade = <ore:toolWorkBlade>.anyDamage().transformDamage();
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, workblade]);
+
+for workblade in <ore:toolWorkBlade>.items{
+    recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, workblade.anyDamage().transformDamage()]);
+}
+*/
+
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:flint_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:quartz_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:iron_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:obsidian_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:opal_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:emerald_workblade>.anyDamage().transformDamage()]);
+recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:diamond_workblade>.anyDamage().transformDamage()]);
 
 /*********************************************
 
@@ -331,14 +347,17 @@ animania
 *********************************************/
 
 //replace wheel
+//recipes.removeByRecipeName("crafttweaker:animania_saddle_modified");
 
-recipes.removeByRecipeName("crafttweaker:animania_saddle_modified");
+
+//recipes.removeByRecipeName("crafttweaker:animania_saddle_modified");
 /*
 recipes.remove(<minecraft:saddle>,[
     [<ore:leather>, <ore:leather>, <ore:leather>],
     [<minecraft:iron_ingot>, <ore:blockWool>, <minecraft:iron_ingot>]
 ]);
 */
+
 
 /*********************************************
 
@@ -361,8 +380,10 @@ recipes.addShaped(<betterwithmods:material:49>,[
     [<betterwithmods:material:30>]
 ]);
 
-*/
+recipes.addShapeless(<betterwithmods:material:19>,[<ore:string>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
+recipes.addShapeless(<betterwithmods:material:28>,[<ore:string>, <minecraft:gunpowder>]);
 
+*/
 recipes.remove(<betterwithmods:single_machine:3>);
 recipes.addShaped(<betterwithmods:single_machine:3>,[
     [<betterwithmods:siding_wood>, <betterwithmods:siding_wood>, <betterwithmods:siding_wood>],
@@ -371,7 +392,6 @@ recipes.addShaped(<betterwithmods:single_machine:3>,[
 ]);
 
 recipes.addShapeless(<betterwithmods:manual>,[<betterwithmods:material:0>, <minecraft:book>]);
-mods.betterwithmods.Cauldron.remove(<betterwithmods:fertilizer>);
 
 furnace.remove(<minecraft:netherbrick>, <minecraft:netherrack>);
 
@@ -497,13 +517,6 @@ recipes.addShaped(<forestry:apiarist_legs>, [
     [woven_silk,null,woven_silk]
 ]);
 
-/*********************************************
-
-golems
-
-*********************************************/
-
-//add recipe for <golems:golem_paper> without the redstone
 
 /*********************************************
 
@@ -564,12 +577,6 @@ infoaccessories
 /*
 
   need recipes:
-
-    <infoaccessories:info_accessory:0> //stopwatch
-    <infoaccessories:info_accessory:1> //stopwatch
-    <infoaccessories:info_accessory:2> //stopwatch
-    <infoaccessories:info_accessory:3> //stopwatch
-    <infoaccessories:info_accessory:4> //stopwatch
     <infoaccessories:info_accessory:6> //biomealayzer
 
 */
@@ -582,7 +589,6 @@ infoaccessories
 improvedbackpacks
 
 *********************************************/
-
 recipes.remove(<improvedbackpacks:backpack>);
 recipes.addShaped(<improvedbackpacks:backpack>, [
     [<ore:string>,<ore:leather>,<ore:string>],
@@ -608,6 +614,12 @@ roots
 Fey.removeRecipe(<roots:component_pouch>);
 Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roots:wildroot>, <ore:leather>, <ore:leather>, <immcraft:chest>]);
 
-roots:component_pouch -> remove recipe. [<roots:bark, roots:wildroot>, <ore:wool>, <ore:wool>, <immcraft:chest>]
 
-*/
+
+/*********************************************
+
+tconstruct
+
+*********************************************/
+
+
