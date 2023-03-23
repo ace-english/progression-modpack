@@ -5,7 +5,32 @@
 	Offers:{
 		Recipes:[
 			{action:"clear"},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:4,max:7}},sell:{id:"minecraft:wheat_seeds",Count:3}, CareerLevel:1}	
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 5}, sell:{id:"minecraft:wheat_seeds", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"primal:flint_hoe", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 30}, sell:{id:"primal:bone_hoe", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 15}, sell:{id:"immersiveengineering:seed", Damage: 0, Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 12}, sell:{id:"minecraft:apple", Count: 5}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"minecraft:cake", Count: 1}, CareerLevel: 4},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 3}, sell:{id:"harvestcraft:shippingbin", Count: 1}, CareerLevel: 4},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 15}, sell:{id:"minecraft:bread", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"harvestcraft:freshmilkitem", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"minecraft:egg", Count: 12}, CareerLevel: 1},
+			{action:"add", buy: {id:"bewitchment:salt", Count: 32}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"primal:salt_dust_netjry", Count: 32}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 14}, sell:{id:"betterwithmods:cooked_egg", Count: 5}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_beef", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_chicken", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_mutton", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_porkchop", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_rabbit", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"mysticalworld:cooked_aubergine", Count: 5}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"mysticalworld:cooked_beetroot", Count: 5}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"mysticalworld:cooked_carrot", Count: 5}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:pumpkin_pie", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"betterwithmods:apple_pie", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"harvestcraft:cottagepieitem", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"harvestcraft:applejellyitem", Count: 5}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 2}, sell:{id:"villagermarket:villager_market", Count: 1}, CareerLevel: 5}
 			
 		]
 	}
