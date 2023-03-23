@@ -4,14 +4,32 @@
 
 	Offers:{
 		Recipes:[
-		
-			{action:"add", buy:{id:"minecraft:beef",Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:mutton",Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:rabbit",Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
-
-			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cooked_beef",Count:{min:5,max:7}}, CareerLevel:2},
-			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cooked_mutton",Count:{min:5,max:7}}, CareerLevel:2},
-			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cooked_rabbit",Count:{min:6,max:8}}, CareerLevel:2}
+			{action:"clear"},
+			{action:"add", buy: {id:"mysticalworld:venison", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
+			{action:"add", buy: {id:"minecraft:porkchop", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
+			{action:"add", buy: {id:"minecraft:chicken", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
+			{action:"add", buy: {id:"minecraft:beef", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
+			{action:"add", buy: {id:"animania:raw_prime_bacon", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_beef", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_chevon", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_chicken", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_mutton", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_peacock", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_pork", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_rabbit", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"animania:raw_prime_steak", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"animania:cooked_chevon", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"animania:cooked_horse", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_bacon", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_beef", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_chevon", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_chicken", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_mutton", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_pork", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_rabbit", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 50}, sell:{id:"animania:cooked_prime_steak", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"mysticalworld:cooked_venison", Count: 2}, CareerLevel: 1},
+			{action:"add", buy: {id:"primal:charcoal_high", Count: 8}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1}
 		]
 	}
 
