@@ -1,0 +1,10 @@
+setIcon(<telepastries:nether_cake>)
+setTitle("Into Hell")
+setDescription("Make a Nether Cake")
+addParent("triumph:stone_age/root")
+setPos(145,7)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<telepastries:nether_cake>)
