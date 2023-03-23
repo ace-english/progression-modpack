@@ -11,7 +11,7 @@ setDescription("Kill the magic man and steal his fancy words")
 addParent("triumph:stone_age/root")
 
 //Set the position
-setPos(43,-57)
+setPos(44,-78)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
 
