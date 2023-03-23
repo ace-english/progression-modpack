@@ -4,7 +4,9 @@
 
 	Offers:{
 		Recipes:[
-			{action:"clear"}
+			{action:"clear"},
+			{action:"add", buy: {id:"primal:plant_papyrus", Count: 9}, sell:{id:"ordinarycoins:coinbronze", Count: 24}, CareerLevel: 1},
+			{action:"add", buy: {id:"minecraft:paper", Count: 9}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1}
 		]
 	}
 }
