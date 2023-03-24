@@ -1,0 +1,8 @@
+setIcon(<primal:charcoal_stack>)
+setTitle("coal")
+setDescription("coal")
+addParent("triumph:stone_age/root")
+setPos(60,7)
+
+criteria = addCriteria("made_coal", "minecraft:inventory_changed")
+criteria.addItem("minecraft:coal")

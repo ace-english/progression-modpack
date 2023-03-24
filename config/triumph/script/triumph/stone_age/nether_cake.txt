@@ -1,8 +1,8 @@
 setIcon(<telepastries:nether_cake>)
-setTitle("Into Hell")
+setTitle("Not in Kansas Anymore")
 setDescription("Make a Nether Cake")
-addParent("triumph:stone_age/root")
-setPos(145,7)
+addParent("triumph:stone_age/agriculture")
+setPos(136,57)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 

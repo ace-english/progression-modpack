@@ -1,8 +1,9 @@
 setIcon(<tconstruct:smeltery_controller>)
 setTitle("The Forge")
 setDescription("Build a Smeltery Controller")
-addParent("triumph:stone_age/root")
-setPos(179,7)
+addParent("triumph:stone_age/crude-iron")
+addParent("triumph:stone_age/nether_cake")
+setPos(186,7)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
