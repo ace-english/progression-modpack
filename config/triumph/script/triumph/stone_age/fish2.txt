@@ -2,7 +2,7 @@ setIcon(<fishingmadebetter:fishing_rod_wood>)
 setTitle("Angling")
 setDescription("Catch a fish the CIVILIZED way, ugh")
 addParent("triumph:stone_age/fish")
-setPos(90,-33)
+setPos(91,-35)
 
 criteria = addCriteria("caught_fish", "minecraft:inventory_changed")
 criteria.setEntityType("aquaculture:fish:*")
