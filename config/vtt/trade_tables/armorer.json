@@ -4,8 +4,19 @@
 
 	Offers:{
 		Recipes:[
-			{action:"clear"},
-			{action:"add", buy:{id:"primal:charcoal_high",Count:{min:6,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:32}, CareerLevel:1}			
+			{action:"clear"},{action:"add", buy: {id:"primal:charcoal_high", Count: 8}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1},
+			{action:"add", buy: {id:"bewitchment:cold_iron_ingot", Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 2}, CareerLevel: 3},
+			{action:"add", buy: {id:"immersiveengineering:metal", Damage: 8, Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 2}, CareerLevel: 3},
+			{action:"add", buy: {id:"mekanism:ingot", Damage: 2, Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"minecraft:iron_ingot", Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "cactus"}, Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "pigiron"}, Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "knightslime"}, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "bronze"}, Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "lead"}, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "silver"}, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "cold_iron"}, Count: 1}, CareerLevel: 3}
+						
 		]
 	}
 }

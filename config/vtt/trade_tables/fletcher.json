@@ -4,12 +4,13 @@
 
 	Offers:{
 		Recipes:[
-		
-			{action:"add", buy:{id:"minecraft:feather",Count:{min:15,max:20}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:flint",Count:{min:15,max:20}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
-			
-			{action:"add", buy:{id:"minecraft:emerald",Count:{min:12,max:15}},sell:{id:"minecraft:bow",Count:1,tag:{ench:"random"}}, CareerLevel:3}
-
+			{action:"clear"},
+			{action:"add", buy: {id:"primal:flint_knapp", Count: 5}, sell:{id:"ordinarycoins:coinbronze", Count: 20}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 12}, sell:{id:"primal:arrow_quartz", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 12}, sell:{id:"primal:arrow_torch_wood", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 30}, sell:{id:"minecraft:feather", Count: 6}, CareerLevel: 1},
+			{action:"add", buy: {id:"minecraft:feather", Count: 10}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 3}, sell:{id:"tconstruct:arrow_head", tag:{Material: "obsidian"}, Count: 1}, CareerLevel: 2}
 		]
 	}
 

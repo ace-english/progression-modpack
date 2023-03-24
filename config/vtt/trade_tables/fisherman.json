@@ -4,11 +4,21 @@
 
 	Offers:{
 		Recipes:[
-
-			{action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:bow"}, CareerLevel:2},
-			{action:"add", buy:{id:"minecraft:emerald",Count:{min:2,max:3}},sell:{id:"minecraft:fishing_rod",Count:1}, CareerLevel:2},
-
-			{action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:8}},sell:{id:"minecraft:fishing_rod",Count:1,tag:{ench:"random"}}, CareerLevel:3}
+			{action:"clear"},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:bobber_lightweight", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:reel_basic", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:bobber_basic", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:hook_basic", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:hook_fatty", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, sell:{id:"fishingmadebetter:hook_barbed", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fishingmadebetter:fishing_rod_wood", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"fishingmadebetter:fish_slice_raw", Count: 6}, sell:{id:"ordinarycoins:coinbronze", Count: {min:15,max:40}}, CareerLevel: 1},
+			{action:"add", buy: {id:"aquaculture:fish", Damage: 0, Count: 3}, sell:{id:"ordinarycoins:coinbronze", Count: {min:25,max:64}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_cod", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_fish", Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"minecraft:cooked_fish", Damage: 1, Count: 3}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"mysticalworld:cooked_squid", Count: 2}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 20}, sell:{id:"primal:shark_meat_cooked", Count: 2}, CareerLevel: 1}
 
 		]
 	}
