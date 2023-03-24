@@ -23,3 +23,6 @@ mods.primal.Smelter.addRecipe("tin", 12, [<ore:oreTin>, <ore:charcoal>, <ore:san
 mods.primal.Smelter.addRecipe("bronze", 48, [<ore:ingotCopper>*3, <ore:ingotTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("bronze_2", 36, [<ore:dustCopper>*3, <ore:dustTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("crude_iron", 6, [<primal:ore_cluster_bog_iron>*4, <primal:charcoal_mote>*2], [<primal:crude_iron_ingot>, <primal:slag>]);
+
+
+<primal_tech:fluid_bladder>.displayName ="Waterskin";
