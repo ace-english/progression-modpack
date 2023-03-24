@@ -7,10 +7,6 @@ potential Jakob tasks:
 		[ ] wool
 		[ ] garnet
 		[ ] opal
-		[ ] arctic
-		[ ] yeti
-		[ ] wool
-		[ ] some kind of magic ice
 		[ ] ironwood (tf)
 		[ ] chocolate?
 			[ ] casting recipes for chocolate lol - chocolate covered cherry
@@ -42,7 +38,6 @@ potential Jakob tasks:
 			[x] stab a fish (use spear icon)
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
-	[ ] grappling hook modifier for long fall effect?
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -54,6 +49,7 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
+	[ ] add more drinks to drink_stats.json
 	[x] use for bait
 		fishbait, fruitbait, grainbait, veggiebait
 	[x] gate iron, gold, diamond upgrades behind medieval
@@ -67,6 +63,7 @@ potential Jakob tasks:
 	[x] rename <primal_tech:fluid_bladder> -> "Waterskin"
 	[x] remove ore dict string from hemp
 	[ ] new glue recipe somwehre for dynamite
+		- crush <ore:beeComb> for honey
 	[x] pick a candle
 	[ ] stone anvil
 		[ ] plates
@@ -86,15 +83,18 @@ potential Jakob tasks:
 		https://docs.blamejared.com/1.12/en/Mods/Modtweaker/BetterWithMods/Cauldron
 	[x] remove nuggets from monster girl drops
 	[ ] villager tables
-		[ ] buy gems
-		[ ] jewler villager
-		[ ] remove emerald trades
-		[ ] add coin trades
+		[x] buy gems
+		[x] jewler villager
+		[x] remove emerald trades
+		[x] add coin trades
 		[x] buy pelts
 		[x] lvl 3 farmer - buy shipping bin
 		[-] add money exchanger villager
 	[?] unify hemp
 	[x] revisit tips
+	[ ] cobblestone medieval
+		- dropt setting for cobblestone
+		- disable 4 rock recipe
 	[ ] disable extra rice
 	[ ] skins
 		[ ] fig leaf
@@ -111,11 +111,11 @@ potential Jakob tasks:
 		[x] can you add tinkers gear to tough as nails
 	[ ] paper
 		[x] remove easy recipes
-		[ ] new pulp recipe
+		[x] new pulp recipe
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
-	[ ] leather
+	[x] leather
 		[x] remove easy leather recipes
 		[x] remove from pams ground trap
 		[x] fox pelt from mystical world should work like other pelts
