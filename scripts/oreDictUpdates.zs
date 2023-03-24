@@ -6,8 +6,8 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 //add hemp to string
-val oreDictString = <ore:string>;
-oreDictString.add(<immersiveengineering:material:4>);
+//val oreDictString = <ore:string>;
+//oreDictString.add(<immersiveengineering:material:4>);
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
 <forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";
