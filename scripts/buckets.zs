@@ -12,4 +12,5 @@ var buckets as IIngredient[] = [
 for bucket in buckets{
     mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, bucket, <liquid:gold>, 288, true);
     mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, bucket, <liquid:alubrass>, 288, true);
+    mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast_clay>, bucket, <liquid:clay>, 288, true);
 }
