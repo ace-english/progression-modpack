@@ -16,15 +16,6 @@ mods.primal.Cauldron.addRecipe(
     [IItemStack[] item_outputs]
 );
 
-mods.primal.Cauldron.addRecipe(
-    "egg", 
-    6, 
-    <liquid:water> * 100,
-    [<minecraft:egg>],
-    [<harvestcraft:boiledeggitem>]
-);
-
-
 
 var milks as IIngredient[] = [
     <liquid:milk_holstein>,
@@ -55,11 +46,30 @@ for milk in milks{
 */
 
 mods.primal.Cauldron.addRecipe(
+    "plant_pulp", 
+    4, 
+    <liquid:water> * 250,
+    [<primal:plant_fiber>*9], 
+    [<primal:plant_fiber_pulp>]
+);
+
+recipes.removeByRecipeName("primal:hide_salted");
+
+mods.primal.Cauldron.addRecipe(
     "salted_hide", 
     6, 
-    <liquid:brine> * 100,
+    <liquid:brine> * 250,
     [<primal:hide_raw>], 
     [<primal:hide_salted>]
+);
+
+<ore:leather>.remove(<roots:fey_leather>);
+mods.primal.Cauldron.addRecipe(
+    "fey_hide", 
+    6, 
+    <liquid:tannin> * 250,
+    [<roots:fey_leather>], 
+    [<primal:hide_tanned>]
 );
 
 mods.primal.Cauldron.addRecipe(
