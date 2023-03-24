@@ -43,10 +43,6 @@ potential Jakob tasks:
 	[ ] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
 	[ ] grappling hook modifier for long fall effect?
-	[ ] scorched tinker kit from mud bricks
-		- casting table
-		- melter
-		- spout
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -58,17 +54,18 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] use for bait
+	[x] use for bait
 		fishbait, fruitbait, grainbait, veggiebait
 	[x] gate iron, gold, diamond upgrades behind medieval
-	[ ] add busket casts
-	[ ] string
+	[x] add busket casts
+	[x] string
 		- wool + work tool = 2 string
 		- remove mortar pestle wool
-	[ ] no hot fluid bladder
-	[ ] disable tough canteen for waterskin
-	[ ] rename <primal_tech:fluid_bladder> -> "Waterskin"
-	[ ] remove ore dict string from hemp
+	[-] no hot fluid bladder
+		- can't do lava - molten iron is fine though I guess
+	[x] disable tough canteen for waterskin
+	[x] rename <primal_tech:fluid_bladder> -> "Waterskin"
+	[x] remove ore dict string from hemp
 	[ ] new glue recipe somwehre for dynamite
 	[x] pick a candle
 	[ ] stone anvil
@@ -80,7 +77,7 @@ potential Jakob tasks:
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
-	[ ] too many cauldrons
+	[x] too many cauldrons
 		- keep primal and bewitchment
 			- rework cool bwm recipes into primal cauldron
 			- primal_tech wooden basin is the one you remember
@@ -93,10 +90,9 @@ potential Jakob tasks:
 		[ ] jewler villager
 		[ ] remove emerald trades
 		[ ] add coin trades
-		[ ] buy pelts
-		[ ] lvl 3 farmer - buy shipping bin
-			[ ] harvestcraft buys
-		[x] add money exchanger villager
+		[x] buy pelts
+		[x] lvl 3 farmer - buy shipping bin
+		[-] add money exchanger villager
 	[?] unify hemp
 	[x] revisit tips
 	[ ] disable extra rice
@@ -110,11 +106,12 @@ potential Jakob tasks:
 		[x] stools
 		[x] shields
 		[x] chairs
-	[ ]  water
-		[ ] purified water recipes
+	[x]  water
+		[x] purified water recipes
 		[x] can you add tinkers gear to tough as nails
 	[ ] paper
-		[ ] remove easy recipes
+		[x] remove easy recipes
+		[ ] new pulp recipe
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
@@ -122,24 +119,15 @@ potential Jakob tasks:
 		[x] remove easy leather recipes
 		[x] remove from pams ground trap
 		[x] fox pelt from mystical world should work like other pelts
-		[ ] fey leather should probably still require processing to meet craftin recipes like backpacks
-		[ ] add wet leather to drying rack recipes
-		[ ] add horse power recipe for resin out of barkWood (or rootsBark)
+		[x] fey leather should probably still require processing to meet craftin recipes like backpacks
+		[x] add wet leather to drying rack recipes
+		[x] add recipe for resin out of barkWood (or rootsBark)
 		[x] remove leather from backpack mod
 	[ ] sol balance
 	[ ] add more warm blocks
 		[x] campfire
 		[ ] nitres
 		[ ] campfires from ancient warfare
-	[ ] metal dust recipes
-		[ ] horse grinder
-		[ ] anvil in-world
-	[ ] agriculture
-		[ ] agricraft crops
-		[ ] hoes?
-		[ ] seeds
-		[ ] agricraft irrigation
-		[ ] other hoe should count for achievement
 	[ ] redstone industrial
 		- magnets are magic - create magical path for compass not including redstone
 		- remove redstone from pereskia. integrate something from a different mod?
