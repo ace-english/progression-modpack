@@ -621,5 +621,10 @@ Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roo
 tconstruct
 
 *********************************************/
-
+recipes.remove(<tconstruct:smeltery_controller>);
+recipes.addShaped(<tconstruct:smeltery_controller>, [
+    [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
+    [<tconstruct:materials:0>,<minecraft:blaze_rod>,<tconstruct:materials:0>],
+    [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
+]);
 
