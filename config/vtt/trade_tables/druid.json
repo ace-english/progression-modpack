@@ -1,0 +1,22 @@
+{ 
+	Profession:"roots:wild_mage", 
+	Career:"wild_mage",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+            {
+				action: "add", 
+				CareerLevel:1, 
+				buy:{
+					id: "minecraft:double_plant",
+					Count: 1
+				}, 
+				sell:{
+					id: "ordinarycoins:coinbronze", 
+					Count:1
+				}
+			}
+		]
+	}
+}
