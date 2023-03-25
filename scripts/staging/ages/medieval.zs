@@ -1293,7 +1293,6 @@ mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:4> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:5> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:ore> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:ore:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:smeltery_controller> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:smeltery_io> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:spaghetti> );
 mods.ItemStages.addItemStage("medieval", <tconstruct:tinker_tank_controller> );
