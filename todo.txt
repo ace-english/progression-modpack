@@ -32,8 +32,8 @@ potential Jakob tasks:
 		[ ] achievments
 			https://minecraft.fandom.com/wiki/Advancement/JSON_format#List_of_triggers
 			- gunpowder
-			- telepastries
-			- tame a monster girl???
+			[x] telepastries
+			[ ] tame a monster girl???
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 	[ ] how early can you get in the nether? Fight a blaze?
@@ -49,85 +49,30 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] add more drinks to drink_stats.json
-	[x] use for bait
-		fishbait, fruitbait, grainbait, veggiebait
-	[x] gate iron, gold, diamond upgrades behind medieval
-	[x] add busket casts
-	[x] string
-		- wool + work tool = 2 string
-		- remove mortar pestle wool
-	[-] no hot fluid bladder
-		- can't do lava - molten iron is fine though I guess
-	[x] disable tough canteen for waterskin
-	[x] rename <primal_tech:fluid_bladder> -> "Waterskin"
-	[x] remove ore dict string from hemp
 	[ ] new glue recipe somwehre for dynamite
-		- crush <ore:beeComb> for honey
-	[x] pick a candle
+		- crush <ore:beeComb> for <harvestcraft:honeyitem>
+		cauldron: chumn + bonemeal + ore:bark, barkWood
 	[ ] stone anvil
-		[ ] plates
-		[ ] dust
+		[x] plates
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[x] bibliocraft:plumbline - prehistoric, but bronze?
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
-	[x] too many cauldrons
-		- keep primal and bewitchment
-			- rework cool bwm recipes into primal cauldron
-			- primal_tech wooden basin is the one you remember
-			- add pelts into glue - sevtech?
-		https://github.com/An-Sar/PrimalCore/wiki/CraftTweaker:-Cauldron
-		https://docs.blamejared.com/1.12/en/Mods/Modtweaker/BetterWithMods/Cauldron
-	[x] remove nuggets from monster girl drops
-	[ ] villager tables
-		[x] buy gems
-		[x] jewler villager
-		[x] remove emerald trades
-		[x] add coin trades
-		[x] buy pelts
-		[x] lvl 3 farmer - buy shipping bin
-		[-] add money exchanger villager
 	[?] unify hemp
 	[x] revisit tips
 	[ ] cobblestone medieval
-		- dropt setting for cobblestone
-		- disable 4 rock recipe
-	[ ] disable extra rice
+		[x] dropt setting for cobblestone
+		[x] disable 4 rock recipe
 	[ ] skins
 		[ ] fig leaf
 	[ ] stage grimoire of gaia mobs
 	[ ] add cyborgs
-	[x] add recipes for cool ancient warfare stuff
-		[x] candles
-		[x] altars
-		[x] stools
-		[x] shields
-		[x] chairs
-	[x]  water
-		[x] purified water recipes
-		[x] can you add tinkers gear to tough as nails
-	[ ] paper
-		[x] remove easy recipes
-		[x] new pulp recipe
 	[ ] mobs should only spawn with shit that you can have
 		[ ] mobs always drop carried loot
 	[ ] lock other mobs to appropriate eras
-	[x] leather
-		[x] remove easy leather recipes
-		[x] remove from pams ground trap
-		[x] fox pelt from mystical world should work like other pelts
-		[x] fey leather should probably still require processing to meet craftin recipes like backpacks
-		[x] add wet leather to drying rack recipes
-		[x] add recipe for resin out of barkWood (or rootsBark)
-		[x] remove leather from backpack mod
 	[ ] sol balance
-	[ ] add more warm blocks
-		[x] campfire
-		[ ] nitres
-		[ ] campfires from ancient warfare
 	[ ] redstone industrial
 		- magnets are magic - create magical path for compass not including redstone
 		- remove redstone from pereskia. integrate something from a different mod?
@@ -140,8 +85,59 @@ potential Jakob tasks:
 		- gathering ritual
 		- wildifre
 		- chrisopoeia
+		//https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	[x] pick a candle
+	[x] too many cauldrons
+		- keep primal and bewitchment
+			- rework cool bwm recipes into primal cauldron
+			- primal_tech wooden basin is the one you remember
+			- add pelts into glue - sevtech?
+		https://github.com/An-Sar/PrimalCore/wiki/CraftTweaker:-Cauldron
+		https://docs.blamejared.com/1.12/en/Mods/Modtweaker/BetterWithMods/Cauldron
+	[x] remove nuggets from monster girl drops
+	[x] villager tables
+		[x] buy gems
+		[x] jewler villager
+		[x] remove emerald trades
+		[x] add coin trades
+		[x] buy pelts
+		[x] lvl 3 farmer - buy shipping bin
+		[-] add money exchanger villager
+	[x] leather
+		[x] remove easy leather recipes
+		[x] remove from pams ground trap
+		[x] fox pelt from mystical world should work like other pelts
+		[x] fey leather should probably still require processing to meet craftin recipes like backpacks
+		[x] add wet leather to drying rack recipes
+		[x] add recipe for resin out of barkWood (or rootsBark)
+		[x] remove leather from backpack mod
+	[x] add recipes for cool ancient warfare stuff
+		[x] candles
+		[x] altars
+		[x] stools
+		[x] shields
+		[x] chairs
+	[x]  water
+		[x] purified water recipes
+		[x] can you add tinkers gear to tough as nails
+	[x] paper
+		[x] remove easy recipes
+		[x] new pulp recipe
+	[x] add more drinks to drink_stats.json
+	[x] use for bait
+		fishbait, fruitbait, grainbait, veggiebait
+	[x] gate iron, gold, diamond upgrades behind medieval
+	[x] add busket casts
+	[x] string
+		- wool + work tool = 2 string
+		- remove mortar pestle wool
+	[-] no hot fluid bladder
+		- can't do lava - molten iron is fine though I guess
+	[x] disable tough canteen for waterskin
+	[x] rename <primal_tech:fluid_bladder> -> "Waterskin"
+	[x] remove ore dict string from hemp
 	[x] add nutrition to bewitchment food 
 	[x] flatbread recipe
 	[x] make totemic more accessible
