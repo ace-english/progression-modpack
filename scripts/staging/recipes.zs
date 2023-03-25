@@ -607,6 +607,30 @@ rustic
 
 /*********************************************
 
+primal
+
+*********************************************/
+
+
+recipes.removeByRecipeName("primal:cobblestone");
+
+
+//  stone anvil time
+
+//	mods.primaltech.StoneAnvil.addRecipe(Itemstack output, IIngredient input);
+
+recipes.remove(<primal:crude_iron_plate>);
+furnace.remove(<primal:diamond_plate>, <minecraft:diamond>);
+
+
+mods.primaltech.StoneAnvil.addRecipe(<minecraft:dye:15>, <death_compass:death_compass>.withTag({}));
+mods.primaltech.StoneAnvil.addRecipe(<primal:diamond_plate>, <minecraft:diamond>);
+mods.primaltech.StoneAnvil.addRecipe(<immersiveengineering:metal:39>, <minecraft:iron_ingot>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:crude_iron_plate>, <primal:crude_iron_ingot>);
+
+
+/*********************************************
+
 roots
 
 *********************************************/
