@@ -2,6 +2,8 @@
 import mods.betterwithmods.Cauldron;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
 
 mods.betterwithmods.Cauldron.removeAll();
 mods.ItemStages.addItemStage("disabled", <betterwithmods:cooking_pot>);
@@ -17,7 +19,11 @@ mods.primal.Cauldron.addRecipe(
 );
 
 
-var milks as IIngredient[] = [
+*/
+
+
+    /*
+var milks as ILiquidStack[] = [
     <liquid:milk_holstein>,
     <liquid:milk_friesian>,
     <liquid:milk_jersey>,
@@ -25,13 +31,12 @@ var milks as IIngredient[] = [
     <liquid:milk_sheep>,
     <liquid:milk>
 ];
-
 for milk in milks{
     mods.primal.Cauldron.addRecipe(
         "chowder", 
         8, 
         milk * 1000,
-        [<ore:listAllfishfresh>,<minecraft:bowl>*2], 
+        [<fishingmadebetter:fish_slice_raw>*4,<minecraft:bowl>*2], 
         [<betterwithmods:chowder>*2]
     );
     mods.primal.Cauldron.addRecipe(
@@ -42,8 +47,7 @@ for milk in milks{
         [<minecraft:mushroom_stew>*2]
     );
 }
-
-*/
+    */
 
 mods.primal.Cauldron.addRecipe(
     "plant_pulp", 
@@ -79,6 +83,14 @@ mods.primal.Cauldron.addRecipe(
     [<betterwithmods:material:21>,<betterwithmods:material:16>*4], 
     [<betterwithmods:material:35>*8]
 );
+
+mods.primal.Cauldron.addRecipe(
+    "chicken_soup", 
+    8, 
+    <liquid:brine> * 250,
+    [<ore:listAllchickencooked>,<ore:listAllveggie>,<harvestcraft:noodlesitem>,<minecraft:bowl>*3], 
+    [<betterwithmods:chicken_soup>*2]
+);
 /*
 
 mods.primal.Cauldron.addRecipe(
@@ -98,14 +110,6 @@ mods.primal.Cauldron.addRecipe(
 );
 
 mods.primal.Cauldron.addRecipe(
-    "chicken_soup", 
-    8, 
-    <liquid:brine> * 250,
-    [<ore:listAllchickencooked>,<ore:listAllveggie>,<harvestcraft:noodlesitem>,<minecraft:bowl>*3], 
-    [<betterwithmods:chicken_soup>*2]
-);
-
-mods.primal.Cauldron.addRecipe(
     "hearty_stew", 
     8, 
     <liquid:brine> * 250,
@@ -119,5 +123,23 @@ mods.primal.Cauldron.addRecipe(
     <liquid:brine> * 250,
     [<ore:cropBeet>*3,<minecraft:bowl>], 
     [<minecraft:beetroot_soup>]
+);
+*/
+
+/*
+mods.primal.Cauldron.addRecipe(
+    "wood_pulp", 
+    2, 
+    <liquid:water> * 250,
+    [<ore:rootsBark>], 
+    [<forestry:wood_pulp>]
+);
+
+mods.primal.Cauldron.addRecipe(
+    "wood_pulp2", 
+    2, 
+    <liquid:water> * 250,
+    [<ore:barkWood>], 
+    [<forestry:wood_pulp>]
 );
 */
