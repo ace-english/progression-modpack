@@ -234,6 +234,7 @@
       "invar": "fluid.invar.name",
       "bitumen_boiling": "Boiling Bitumen",
       "zinc": "Molten Zinc",
+      "molten_chocolate": "Melted Chocolate",
       "milk_goat": "Goat Milk",
       "biodiesel": "Biodiesel",
       "sapphire": "Molten Sapphire",
@@ -306,7 +307,7 @@
       "applejuice": "Apple Juice",
       "knightslime": "Molten Knightslime",
       "ice": "Crushed Ice",
-      "dark_chocolate": "Dark Chocolate",
+      "dark_chocolate": "fluid.dark_chocolate",
       "sage_juice": "Sage Juice",
       "platinum": "fluid.platinum.name",
       "pigiron": "Molten Pigiron",
@@ -366,6 +367,7 @@
       "purifying_fluid": "Purifying Fluid",
       "iron": "Molten Iron",
       "alewort": "Ale Wort",
+      "molten_sugar": "Melted Sugar",
       "lubricant": "Lubricant"
     }
   }

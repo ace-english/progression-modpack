@@ -168,3 +168,43 @@ cold_iron.addMaterialTrait("holy", "head");
 cold_iron.addMaterialTrait("holy", "handle");
 cold_iron.addMaterialTrait("holy", "extra");
 cold_iron.register();
+
+/*        new material - chocolate           */
+var molten_chocolate = VanillaFactory.createFluid("molten_chocolate", Color.fromHex("261505"));
+molten_chocolate.register();
+
+var molten_sugar = VanillaFactory.createFluid("molten_sugar", Color.fromHex("E2D0CA"));
+molten_sugar.register();
+
+var dark_chocolate = VanillaFactory.createFluid("dark_chocolate", Color.fromHex("170d03"));
+dark_chocolate.register();
+
+val chocolate = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("chocolate");
+chocolate.localizedName = "Chocolate";
+chocolate.color = 0x636e6d;
+chocolate.liquid = <liquid:molten_chocolate>;
+chocolate.castable = true;
+chocolate.craftable = false;
+chocolate.representativeItem = <item:betterwithmods:chocolate>;
+chocolate.addCoreMaterialStats(1,2);
+chocolate.addPlatesMaterialStats(1, 1, 0);
+chocolate.addTrimMaterialStats(1);
+chocolate.addHeadMaterialStats(25, 0.5, 2, 0);
+chocolate.addHandleMaterialStats(0.1, 10);
+chocolate.addExtraMaterialStats(10);
+chocolate.addMaterialTrait("tasty_armor", "core");
+chocolate.addMaterialTrait("tasty_armor", "plates");
+chocolate.addMaterialTrait("tasty_armor", "trim");
+chocolate.addMaterialTrait("tasty", "head");
+chocolate.addMaterialTrait("tasty", "handle");
+chocolate.addMaterialTrait("tasty", "extra");
+chocolate.register();
+/*
+chocolate.addMaterialTrait("calcic_armor", "core");
+chocolate.addMaterialTrait("calcic_armor", "plates");
+chocolate.addMaterialTrait("calcic_armor", "trim");
+chocolate.addMaterialTrait("calcic", "projectile");
+chocolate.addMaterialTrait("calcic", "head");
+chocolate.addMaterialTrait("calcic", "handle");
+chocolate.addMaterialTrait("calcic", "extra");
+*/
