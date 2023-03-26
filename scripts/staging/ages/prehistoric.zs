@@ -320,4 +320,17 @@ mods.ItemStages.removeItemStage(<immersiveengineering:material:4>);
 mods.ItemStages.removeItemStage(<immersiveengineering:seed:0>);
 mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);
 
+
+mods.ItemStages.removeItemStage(<thaumcraft:nugget:9>);
+mods.ItemStages.removeItemStage(<thaumcraft:quicksilver>);
+mods.ItemStages.removeItemStage(<thaumcraft:amber>);
+mods.ItemStages.removeItemStage(<thaumcraft:ore_amber>);
+mods.ItemStages.removeItemStage(<thaumcraft:amber>);
+mods.ItemStages.removeItemStage(<thaumcraft:sapling_greatwood>);
+mods.ItemStages.removeItemStage(<thaumcraft:log_greatwood>);
+mods.ItemStages.removeItemStage(<thaumcraft:leaves_greatwood>);
+mods.ItemStages.removeItemStage(<thaumcraft:sapling_silverwood>);
+mods.ItemStages.removeItemStage(<thaumcraft:log_silverwood>);
+mods.ItemStages.removeItemStage(<thaumcraft:leaves_silverwood>);
+
 //mods.primal_tech.StoneGrill.addRecipe()
