@@ -89,24 +89,15 @@ mods.primal.Cauldron.addRecipe(
     8, 
     <liquid:brine> * 250,
     [<ore:listAllchickencooked>,<ore:listAllveggie>,<harvestcraft:noodlesitem>,<minecraft:bowl>*3], 
-    [<betterwithmods:chicken_soup>*2]
+    [<betterwithmods:chicken_soup>*3]
 );
-/*
 
 mods.primal.Cauldron.addRecipe(
     "nethercoal", 
     6, 
     <liquid:water> * 250,
-    [<ore:dustCarbon>,<betterwithmods:material:16>], 
+    [<betterwithmods:material:37>,<betterwithmods:material:16>], 
     [<betterwithmods:material:1>*4]
-);
-
-mods.primal.Cauldron.addRecipe(
-    "blasting_oil", 
-    8, 
-    <liquid:plantoil> * 1000,
-    [<ore:tallow>,<betterwithmods:material:16>*4], 
-    [<betterwithmods:material:29>*2]
 );
 
 mods.primal.Cauldron.addRecipe(
