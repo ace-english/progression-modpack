@@ -31,6 +31,7 @@ potential Jakob tasks:
 			[ ] tame a monster girl???
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
+			[ ] craft terrestrial artifact - get JEI
 	[x] how early can you get in the nether? Fight a blaze?
 		- alloy tank require blaze rod???
 	[ ] harvestcraft fish file
