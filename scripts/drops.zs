@@ -43,3 +43,16 @@ Dropt.list("early_thaum_crystals")
       )
   );
 
+
+
+Dropt.list("early_cobblestone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:stone"])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["medieval"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<primal:rock_stone>])
+      )
+  );
