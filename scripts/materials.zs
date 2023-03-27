@@ -63,3 +63,8 @@ mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatedonutitem>, <ore:f
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolateorangeitem>, <ore:cropOrange>, <liquid:molten_chocolate>, 250);
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatestrawberryitem>, <ore:cropStrawberry>, <liquid:molten_chocolate>, 250);
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>, <ore:dropHoney>, <liquid:molten_chocolate>, 250);
+
+//misc recipes
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
+mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
