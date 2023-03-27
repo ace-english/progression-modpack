@@ -8,7 +8,7 @@ potential Jakob tasks:
 		[ ] garnet
 		[ ] opal
 		[ ] ironwood (tf)
-		[ ] chocolate?
+		[x] chocolate?
 			[x] casting recipes for chocolate lol - chocolate covered cherry
 			[x] cocoa -> unsweetened chocolate
 			[x] dark +milk _ sugar -> milk chocolate alloy			Tasty - all pieces
@@ -16,6 +16,7 @@ potential Jakob tasks:
 			Moldable (more enchantments) - core, head
 		[ ] smeltery notch apple
 		[ ] soulforged steel
+		[ ] chaimail
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -45,7 +46,7 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] new glue recipe somwehre for dynamite
+	[ ] new glue recipe somwhere for dynamite
 		- crush <ore:beeComb> for <harvestcraft:honeyitem>
 		cauldron: chumn + bonemeal + ore:bark, barkWood
 	[x] stone anvil
