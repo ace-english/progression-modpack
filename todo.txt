@@ -4,7 +4,6 @@ potential Jakob tasks:
 	[ ] tinker materials
 		[ ] yew
 		[ ] ironwood
-		[ ] wool
 		[ ] garnet
 		[ ] opal
 		[ ] ironwood (tf)
@@ -16,7 +15,6 @@ potential Jakob tasks:
 			Moldable (more enchantments) - core, head
 		[ ] smeltery notch apple
 		[ ] soulforged steel
-		[ ] chaimail
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -48,9 +46,7 @@ potential Jakob tasks:
 		grimoireofgaia:coalfish
 	[ ] new glue recipe somwhere for dynamite
 		- crush <ore:beeComb> for <harvestcraft:honeyitem>
-		cauldron: chumn + bonemeal + ore:bark, barkWood
-	[x] stone anvil
-		[x] plates
+		cauldron: chum + bonemeal + ore:bark, barkWood
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[x] bibliocraft:plumbline - prehistoric, but bronze?
@@ -59,17 +55,15 @@ potential Jakob tasks:
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[?] unify hemp
 	[x] revisit tips
-	[ ] cobblestone medieval
-		[x] dropt setting for cobblestone
-		[x] disable 4 rock recipe
 	[ ] skins
 		[ ] fig leaf
 	mobs
 		[ ] add cyborgs
-		[ ] mobs should only spawn with shit that you can have
+		[x] mobs should only spawn with shit that you can have
 		[x] mobs always drop carried loot
 		[ ] stage mobs
-		[ ] stage gear
+		[x] stage gear
+			[ ] witch loot
 	[ ] sol balance
 	[ ] redstone industrial
 		- magnets are magic - create magical path for compass not including redstone
@@ -86,6 +80,11 @@ potential Jakob tasks:
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	[x] cobblestone medieval
+		[x] dropt setting for cobblestone
+		[x] disable 4 rock recipe
+	[x] stone anvil
+		[x] plates
 	[x] pick a candle
 	[x] too many cauldrons
 		- keep primal and bewitchment
