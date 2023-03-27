@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
+#priority 100
+
 
 mods.betterwithmods.Cauldron.removeAll();
 mods.ItemStages.addItemStage("disabled", <betterwithmods:cooking_pot>);
@@ -133,7 +135,7 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>], 
     [<forestry:wood_pulp>]
 );
-/*
+
 mods.primal.Cauldron.addRecipe(
     "blasting_oil", 
     8, 
@@ -141,4 +143,3 @@ mods.primal.Cauldron.addRecipe(
     [<ore:tallow>,<betterwithmods:material:16>*4], 
     [<betterwithmods:material:29>*2]
 );
-*/
