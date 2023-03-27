@@ -1,3 +1,7 @@
+mods.jmapstages.JMapStages.setWaypointStage("exploration");
+mods.jmapstages.JMapStages.setFullscreenStage("exploration");
+mods.jmapstages.JMapStages.setDeathpointStage("exploration");
+mods.jmapstages.JMapStages.setMinimapStage("exploration");
 
 mods.ItemStages.addItemStage("modern", <animania:block_hamster_wheel>);
 mods.ItemStages.addItemStage("modern", <bibliocraft:handdrill>);
