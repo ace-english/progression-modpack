@@ -12,7 +12,7 @@ import crafttweaker.item.IItemStack;
 //the bigger the item weight the hiegher the chance to spawn with this item
 
 
-var empty_group = ArmorHandler.createArmorGroup("empty", 0.9);
+var empty_group = ArmorHandler.createArmorGroup("empty", 1);
 
 empty_group.addArmor(ArmorHandler.createArmorSlot("head", null, 1, 0));
 empty_group.addArmor(ArmorHandler.createArmorSlot("chest", null, 1, 0));
@@ -57,6 +57,10 @@ var woodTowerShield as IItemStack = <minecraft:shield>;
 var ironKnife as IItemStack = <tinkers_reforged:runic_knife:5>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 3, Durability: 324, HarvestLevel: 2, Attack: 3.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 3, Durability: 24, HarvestLevel: 2, Attack: 3.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["wood", "iron", "bronze"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "magnetic", color: -3487030, level: 2, magnetic2: 1 as byte}, {identifier: "dense", color: -1852056, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1, xp: 20, bonus_modifiers: 0}], Traits: ["ecological", "magnetic2", "dense", "toolleveling"]});
 var ironSwordKnights as IItemStack = <tconstruct:broadsword:6>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 3, Durability: 271, HarvestLevel: 2, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 3, Durability: 71, HarvestLevel: 2, Attack: 4.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["wood", "iron", "copper"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "magnetic", color: -3487030, level: 2, magnetic2: 1 as byte}, {identifier: "established", color: -1204473, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1, xp: 20, bonus_modifiers: 0}], Traits: ["ecological", "magnetic2", "established", "toolleveling"]});
 
+//assign empty group to all units
+empty_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
+empty_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
+
 //archery units
 var archery_group = ArmorHandler.createArmorGroup("archery", 0.9);
 archery_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
@@ -66,6 +70,7 @@ archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", woodLongbow, 3, 
 
 var crossbow_group = ArmorHandler.createArmorGroup("crossbow", 0.1);
 crossbow_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
+crossbow_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
 crossbow_group.addGameStage("industrial");
 crossbow_group.addArmor(ArmorHandler.createArmorSlot("mainhand", woodCrossbow, 1, 1));
 crossbow_group.addArmor(ArmorHandler.createArmorSlot("offhand", woodCrossbow, 1, 1));
