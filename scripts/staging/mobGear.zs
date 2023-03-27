@@ -22,9 +22,18 @@ empty_group.addArmor(ArmorHandler.createArmorSlot("mainhand", null, 1, 0));
 empty_group.addArmor(ArmorHandler.createArmorSlot("offhand", null, 1, 0));
 
 //longrange
+
+//skeletons do not know how to use tinkers construct
+/*
 var woodCrossbow as IItemStack = <tconstruct:crossbow>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 56, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 56, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Special: {Categories: ["tool", "launcher"]}, TinkerData: {Materials: ["wood", "wood", "wood", "string"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]});
 var woodShortbow as IItemStack = <tconstruct:shortbow>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 26, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 26, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Special: {Categories: ["tool", "launcher"]}, TinkerData: {Materials: ["wood", "wood", "string"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]});
 var woodLongbow as IItemStack = <tconstruct:longbow>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 51, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.5 as float, DrawSpeed: 1.0 as float, FreeModifiers: 3, ProjectileBonusDamage: 0.0 as float, Durability: 51, HarvestLevel: 0, Attack: 1.5 as float, Range: 1.0 as float}, Special: {Categories: ["tool", "launcher"]}, TinkerData: {Materials: ["wood", "wood", "wood", "string"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]});
+*/
+var bow as IItemStack = <minecraft:bow>;
+var compositeBow as IItemStack = <betterwithmods:composite_bow>;
+var ironwoodBow as IItemStack = <primal:ironwood_bow>;
+var yewBow as IItemStack = <primal:yew_bow>;
+var electricBow as IItemStack = <mekanism:electricbow>.withTag({mekData: {energyStored: 120000.0}});
 
 //prehistoric weapons
 var boneAxePrim as IItemStack = <primal_tech:bone_axe>;
@@ -64,16 +73,24 @@ empty_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
 //archery units
 var archery_group = ArmorHandler.createArmorGroup("archery", 0.9);
 archery_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
+archery_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
 archery_group.addGameStage("archery");
-archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", woodShortbow, 5, 1));
-archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", woodLongbow, 3, 1));
+archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", bow, 10, 0));
+archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", ironwoodBow, 3, 1));
+archery_group.addArmor(ArmorHandler.createArmorSlot("mainhand", yewBow, 3, 1));
 
-var crossbow_group = ArmorHandler.createArmorGroup("crossbow", 0.1);
-crossbow_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
-crossbow_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
-crossbow_group.addGameStage("industrial");
-crossbow_group.addArmor(ArmorHandler.createArmorSlot("mainhand", woodCrossbow, 1, 1));
-crossbow_group.addArmor(ArmorHandler.createArmorSlot("offhand", woodCrossbow, 1, 1));
+var composite_group = ArmorHandler.createArmorGroup("composite", 0.1);
+composite_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
+composite_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
+composite_group.addGameStage("medieval");
+composite_group.addArmor(ArmorHandler.createArmorSlot("mainhand", compositeBow, 1, 1));
+
+var gun_group = ArmorHandler.createArmorGroup("gun", 0.1);
+gun_group.addEntity(ArmorHandler.createArmorEntity("minecraft:skeleton"));
+gun_group.addEntity(ArmorHandler.createArmorEntity("mekanism:babyskeleton"));
+gun_group.addArmor(ArmorHandler.createArmorSlot("mainhand", electricBow, 1, 1));
+gun_group.addGameStage("modern");
+
 
 //prehistoric melee units
 var melee_prehistoric_group = ArmorHandler.createArmorGroup("prehistoric", 0.4);
