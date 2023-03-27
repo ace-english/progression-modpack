@@ -104,7 +104,7 @@ mods.primal.Cauldron.addRecipe(
     "hearty_stew", 
     8, 
     <liquid:brine> * 250,
-    [<ore:listAllmeatcooked>,<ore:listAllveggie>,<ore:cookedPotato>,<minecraft:bowl>*4], 
+    [<ore:listAllmeatcooked>,<ore:listAllveggie>,<minecraft:baked_potato>,<minecraft:bowl>*4], 
     [<betterwithmods:hearty_stew>*4]
 );
 
@@ -115,9 +115,9 @@ mods.primal.Cauldron.addRecipe(
     [<ore:cropBeet>*3,<minecraft:bowl>], 
     [<minecraft:beetroot_soup>]
 );
-*/
 
-/*
+
+
 mods.primal.Cauldron.addRecipe(
     "wood_pulp", 
     2, 
@@ -132,5 +132,13 @@ mods.primal.Cauldron.addRecipe(
     <liquid:water> * 250,
     [<ore:barkWood>], 
     [<forestry:wood_pulp>]
+);
+/*
+mods.primal.Cauldron.addRecipe(
+    "blasting_oil", 
+    8, 
+    <liquid:plantoil> * 1000,
+    [<ore:tallow>,<betterwithmods:material:16>*4], 
+    [<betterwithmods:material:29>*2]
 );
 */
