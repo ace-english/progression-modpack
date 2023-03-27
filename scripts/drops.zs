@@ -1,7 +1,6 @@
 import mods.ltt.LootTable;
 import mods.dropt.Dropt;
 import mods.dropt.Harvester;
-
 mods.ltt.LootTable.removeGlobalItem("<ancientwarfare:steel_ingot>");
 mods.ltt.LootTable.removeGlobalItem("<aquaculture:loot:6>");
 mods.ltt.LootTable.removeGlobalItem("<bewitchment:silver_nugget>");
@@ -28,13 +27,15 @@ Dropt.list("barley")
 Dropt.list("early_thaum_crystals")
 
   .add(Dropt.rule()
-      .matchBlocks(["thaumcraft:crystal_aer",
-        "thaumcraft:crystal_ignis",
+      .matchBlocks([
         "thaumcraft:crystal_aqua",
+        "thaumcraft:crystal_ignis",
+        "thaumcraft:crystal_aer",
         "thaumcraft:crystal_terra",
         "thaumcraft:crystal_ordo",
         "thaumcraft:crystal_perditio",
-        "thaumcraft:crystal_vitium"])
+        "thaumcraft:crystal_vitium"
+        ])
       .matchHarvester(Dropt.harvester()
         .gameStages("BLACKLIST", "ALL", ["industrial"])
       )
@@ -56,3 +57,74 @@ Dropt.list("early_cobblestone")
           .items([<primal:rock_stone>])
       )
   );
+
+//add dropt config - chairs drop rustic chairs, tables too
+//<ancientwarfarestructure:table>.withTag({variant: "oak"})
+//<ancientwarfarestructure:altar_lecturn> -> <immcraft:bookstand>
+
+
+Dropt.list("chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_oak>])
+      )
+  );
+
+Dropt.list("oak_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:*#{variant:\"oak\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_oak>])
+      )
+  );
+
+Dropt.list("spruce_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:0#{variant:\"spruce\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_spruce>])
+      )
+  );
+
+Dropt.list("birch_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:0#{variant:\"birch\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_birch>])
+      )
+  );
+
+Dropt.list("jungle_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:0#{variant:\"jungle\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_jungle>])
+      )
+  );
+
+Dropt.list("acacia_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:0#{variant:\"acacia\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_acacia>])
+      )
+  );
+Dropt.list("dark_oak_chair")
+  .add(Dropt.rule()
+      .matchBlocks(["ancientwarfarestructure:chair:0#{variant:\"dark_oak\"}"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:chair_big_oak>])
+      )
+  );
+
+  //next add tables too
+Dropt.list("bookstand")
+
+  .add(Dropt.rule()
+      .matchBlocks(["<ancientwarfarestructure:altar_lecturn>"])
+      .addDrop(Dropt.drop()
+          .items([<immcraft:bookstand>])
+      )
+  );
+
