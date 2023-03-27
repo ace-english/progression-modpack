@@ -24,7 +24,9 @@ mods.primal.Cauldron.addRecipe(
 */
 
 
-    /*
+/*
+    #notallmilk
+    
 var milks as ILiquidStack[] = [
     <liquid:milk_holstein>,
     <liquid:milk_friesian>,
@@ -35,13 +37,6 @@ var milks as ILiquidStack[] = [
 ];
 for milk in milks{
     mods.primal.Cauldron.addRecipe(
-        "chowder", 
-        8, 
-        milk * 1000,
-        [<fishingmadebetter:fish_slice_raw>*4,<minecraft:bowl>*2], 
-        [<betterwithmods:chowder>*2]
-    );
-    mods.primal.Cauldron.addRecipe(
         "mushroom_stew", 
         4, 
         milk * 1000,
@@ -49,7 +44,23 @@ for milk in milks{
         [<minecraft:mushroom_stew>*2]
     );
 }
-    */
+*/
+    mods.primal.Cauldron.addRecipe(
+        "chowder", 
+        8, 
+        <liquid:milk> * 1000,
+        [<fishingmadebetter:fish_slice_raw>*4,<minecraft:bowl>*2], 
+        [<betterwithmods:chowder>*2]
+    );
+recipes.remove(<minecraft:mushroom_stew>);
+    mods.primal.Cauldron.addRecipe(
+        "mushroom_stew", 
+        4, 
+        <liquid:milk> * 1000,
+        [<ore:listAllmushroom>,<ore:listAllmushroom>,<ore:listAllmushroom>,<minecraft:bowl>*2], 
+        [<minecraft:mushroom_stew>*2]
+    );
+    
 
 mods.primal.Cauldron.addRecipe(
     "plant_pulp", 
@@ -142,4 +153,12 @@ mods.primal.Cauldron.addRecipe(
     <liquid:plantoil> * 1000,
     [<ore:tallow>,<betterwithmods:material:16>*4], 
     [<betterwithmods:material:29>*2]
+);
+
+mods.primal.Cauldron.addRecipe(
+    "glue", 
+    8, 
+    <liquid:water> * 1000,
+    [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
+    [<betterwithmods:material:12>*1]
 );
