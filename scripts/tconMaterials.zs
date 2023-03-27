@@ -170,18 +170,18 @@ cold_iron.addMaterialTrait("holy", "extra");
 cold_iron.register();
 
 /*        new material - chocolate           */
-var molten_chocolate = VanillaFactory.createFluid("molten_chocolate", Color.fromHex("261505"));
+var molten_chocolate = VanillaFactory.createFluid("molten_chocolate", Color.fromHex("522700"));
 molten_chocolate.register();
 
 var molten_sugar = VanillaFactory.createFluid("molten_sugar", Color.fromHex("E2D0CA"));
 molten_sugar.register();
 
-var dark_chocolate = VanillaFactory.createFluid("dark_chocolate", Color.fromHex("170d03"));
+var dark_chocolate = VanillaFactory.createFluid("dark_chocolate", Color.fromHex("261505"));
 dark_chocolate.register();
 
 val chocolate = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("chocolate");
 chocolate.localizedName = "Chocolate";
-chocolate.color = 0x636e6d;
+chocolate.color = 0x522700;
 chocolate.liquid = <liquid:molten_chocolate>;
 chocolate.castable = true;
 chocolate.craftable = false;
