@@ -28,6 +28,18 @@ recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:opal_workblade>.
 recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:emerald_workblade>.anyDamage().transformDamage()]);
 recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:diamond_workblade>.anyDamage().transformDamage()]);
 
+
+
+//for progression
+mods.recipestages.Recipes.setRecipeStage("industrial", "davincisvessels:tile.davincis.engine7");
+mods.ItemStages.removeItemStage(<davincisvessels:engine>);
+mods.ItemStages.addItemStage("medieval", <davincisvessels:engine> );
+recipes.addShaped(<davincisvessels:engine>,[
+    [<minecraft:iron_ingot>, <minecraft:water_bucket>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <twilightforest:tower_device>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+
 /*********************************************
 
 ancientwarfare
