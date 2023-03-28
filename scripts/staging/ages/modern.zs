@@ -787,3 +787,4 @@ mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:14> );
 mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:15> );
 mods.ItemStages.addItemStage("modern", <toughasnails:temperature_coil> );
 mods.ItemStages.addItemStage("modern", <toughasnails:temperature_coil:1> );
+mods.ItemStages.addItemStage("modern", <progressiontweaks:nanomachine_frame> );
