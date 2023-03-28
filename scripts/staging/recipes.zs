@@ -640,6 +640,12 @@ mods.primaltech.StoneAnvil.addRecipe(<primal:diamond_plate>, <minecraft:diamond>
 mods.primaltech.StoneAnvil.addRecipe(<immersiveengineering:metal:39>, <minecraft:iron_ingot>);
 mods.primaltech.StoneAnvil.addRecipe(<primal:crude_iron_plate>, <primal:crude_iron_ingot>);
 
+furnace.remove(<minecraft:coal:1>, <totemic:stripped_cedar_log>);
+furnace.remove(<minecraft:coal:1>, <creepingnether:charwood>);
+recipes.removeByRecipeName("creepingnether:charwood_planks");
+recipes.removeByRecipeName("creepingnether:charwood_to_charcoal");
+
+
 
 /*********************************************
 
