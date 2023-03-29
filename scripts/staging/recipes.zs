@@ -396,6 +396,8 @@ recipes.addShapeless(<betterwithmods:material:19>,[<ore:string>, <minecraft:reds
 recipes.addShapeless(<betterwithmods:material:28>,[<ore:string>, <minecraft:gunpowder>]);
 
 */
+recipes.addShapeless(<betterwithmods:material:28>,[<minecraft:gunpowder>, <ore:string>]);
+
 recipes.remove(<betterwithmods:single_machine:3>);
 recipes.addShaped(<betterwithmods:single_machine:3>,[
     [<betterwithmods:siding_wood>, <betterwithmods:siding_wood>, <betterwithmods:siding_wood>],

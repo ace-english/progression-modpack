@@ -6,6 +6,7 @@ potential Jakob tasks:
 		[ ] ironwood
 		[ ] garnet
 		[ ] opal
+		[x] balance amethyst
 		[ ] ironwood (tf)
 		[x] chocolate?
 			[x] casting recipes for chocolate lol - chocolate covered cherry
@@ -13,7 +14,7 @@ potential Jakob tasks:
 			[x] dark +milk _ sugar -> milk chocolate alloy			Tasty - all pieces
 			Uplifting (heals occasionally) - plates, trim, handle, extra
 			Moldable (more enchantments) - core, head
-		[ ] smeltery notch apple
+		[x] smeltery notch apple
 		[ ] soulforged steel
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
@@ -44,7 +45,7 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] new glue recipe somwhere for dynamite
+	[x] new glue recipe somwhere for dynamite
 		- crush <ore:beeComb> for <harvestcraft:honeyitem>
 		cauldron: chum + bonemeal + ore:bark, barkWood
 	[ ] Info accessories
@@ -70,7 +71,7 @@ potential Jakob tasks:
 		- remove redstone from pereskia. integrate something from a different mod?
 		- compass
 		- clock
-		- thermometer (quicksilver)
+		x thermometer (quicksilver)
 		- concentration incense
 		- filled goblet
 		- stalicripe
