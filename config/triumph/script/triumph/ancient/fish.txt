@@ -1,0 +1,16 @@
+setIcon(<progressiontweaks:spear>)
+setTitle("Spearfishing")
+setDescription("Catch a fish the caveman way")
+addParent("triumph:ancient/root")
+setPos(44,-35)
+
+criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")
+criteria.setEntityType("jaff:cod")
+criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")
+criteria.setEntityType("jaff:clownfish")
+criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")
+criteria.setEntityType("jaff:salmon")
+criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")
+criteria.setEntityType("jaff:pufferfish")
+
+setRequirements("any")

@@ -1,0 +1,11 @@
+setIcon(<grapplemod:grapplinghook>)
+setTitle("Grappling Hook!")
+setDescription("Build a grappling hook for better spelunking")
+setFrameType("challenge")
+addParent("triumph:ancient/crude-iron")
+setPos(186,7)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<grapplemod:grapplinghook>)

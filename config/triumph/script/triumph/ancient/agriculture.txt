@@ -1,0 +1,30 @@
+//Set icon item
+setIcon(<primal:flint_hoe>)
+
+//Set title String
+setTitle("The Secret of Agriculture")
+
+//Set description String
+setDescription("Obtain a hoe from a villager to unlock farming")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:ancient/root")
+
+//Set the position
+setPos(44,57)
+
+//Adds criteria named "traded" with the trigger type "minecraft:villager_trade". This function returns the criteria as an object
+criteria = addCriteria("traded", "minecraft:villager_trade")
+
+//Sets the required entity type for the criteria. This is the entity that the player must trade with.
+criteria.setEntityType("minecraft:villager")
+
+//Sets the required item for the criteria. This is the item that must be traded for.
+criteria.setItem(<primal:flint_hoe>)
+
+criteria = addCriteria("traded", "minecraft:villager_trade")
+criteria.setEntityType("minecraft:villager")
+criteria.setItem(<primal:bone_hoe>)
+
+setRequirements("any")
+setRewardFunction("triumph:farming")

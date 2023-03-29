@@ -1,0 +1,14 @@
+setIcon(<primal:charcoal_stack>)
+setTitle("Charcoal")
+setDescription("Make charcoal by burying logs and lighting them on fire")
+addParent("triumph:ancient/root")
+setPos(62,7)
+
+criteria = addCriteria("brokeCharcoal", "triumph:player_break_block")
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setBlock(<primal:charcoal_stack>)
+criteria.setBlock(<primal:charcoal_stack:1>)
+criteria.setBlock(<primal:charcoal_stack:2>)
+criteria.setBlock(<primal:charcoal_stack:3>)
+setRequirements("any")

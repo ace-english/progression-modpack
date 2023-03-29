@@ -1,0 +1,10 @@
+setIcon(<astikorcarts:wheel>)
+setTitle("Now We're Getting Somewhere")
+setDescription("Invent the wheel")
+addParent("triumph:ancient/root")
+setPos(44,94)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<astikorcarts:wheel>)

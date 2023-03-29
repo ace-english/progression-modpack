@@ -1,0 +1,21 @@
+//Set icon item
+setIcon(<minecraft:book>)
+
+//Set title String
+setTitle("Literacy")
+
+//Set description String
+setDescription("Kill the magic man and steal his fancy words")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:ancient/root")
+
+//Set the position
+setPos(44,-78)
+
+criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
+
+//Sets the required entity type for the criteria. This is the entity that the player must kill.
+criteria.setEntityType("ebwizardry:evil_wizard")
+
+setRewardFunction("triumph:literacy")

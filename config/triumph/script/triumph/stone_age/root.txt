@@ -1,8 +1,0 @@
-setIcon(<primal_tech:bone_axe>)
-setTitle("Stone Age")
-setDescription("Hittin stuff with rocks")
-setBackground("minecraft:textures/blocks/stone.png")
-setShowToast(false)
-setAnnounceToChat(false)
-addCriteria("location", "minecraft:location")
-setPos(-14,7)
