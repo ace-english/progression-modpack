@@ -1,8 +1,0 @@
-setIcon(<minecraft:coal>)
-setTitle("Charcoal")
-setDescription("Make an ingot from bog iron in a sariras")
-addParent("triumph:stone_age/root")
-setPos(188,74)
-
-criteria = addCriteria("made_crude_iron", "minecraft:inventory_changed")
-criteria.addItem("primal:crude_iron_ingot")

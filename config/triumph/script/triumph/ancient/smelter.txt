@@ -1,0 +1,15 @@
+setIcon(<tconstruct:smeltery_controller>)
+setTitle("The Forge")
+setDescription("Build a Smeltery Controller")
+setFrameType("challenge")
+addParent("triumph:ancient/crude-iron")
+addParent("triumph:ancient/nether_cake")
+setPos(186,7)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<tconstruct:smeltery_controller>)
+
+setRewardFunction("triumph:medieval")
+visibleIf("triumph:ancient/root")

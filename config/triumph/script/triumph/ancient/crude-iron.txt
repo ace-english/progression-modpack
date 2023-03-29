@@ -1,0 +1,9 @@
+setIcon(<primal:crude_iron_ingot>)
+setTitle("Crude Iron")
+setDescription("Make an ingot from bog iron in a sariras")
+addParent("triumph:ancient/charcoal")
+setPos(117,7)
+
+criteria = addCriteria("made_crude_iron", "minecraft:inventory_changed")
+criteria.addItem("primal:crude_iron_ingot")
+visibleIf("triumph:ancient/root")
