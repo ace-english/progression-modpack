@@ -647,6 +647,9 @@ furnace.remove(<minecraft:coal:1>, <creepingnether:charwood>);
 recipes.removeByRecipeName("creepingnether:charwood_planks");
 recipes.removeByRecipeName("creepingnether:charwood_to_charcoal");
 
+mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:49>, <betterwithmods:material:51>);
+mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:51>, <betterwithmods:material:14>);
+
 
 
 /*********************************************

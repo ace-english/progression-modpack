@@ -18,6 +18,7 @@ documentation:
    https://docs.blamejared.com/1.12/es/Mods/ContentTweaker/Tinkers_Construct/TraitBuilder
    
    https://gist.github.com/Alan19/ce66800e3a5c95891e6d2c7ffe430d4f
+   https://gist.github.com/Insane96/ad63c3beddf242243c92291e3b8164b6
 
  *****************************************************************/
 
@@ -156,7 +157,7 @@ cold_iron.representativeItem = <item:bewitchment:cold_iron_ingot>;
 cold_iron.addCoreMaterialStats(13,15);
 cold_iron.addPlatesMaterialStats(1, 6, 1);
 cold_iron.addTrimMaterialStats(4);
-cold_iron.addHeadMaterialStats(100, 4.5, 4, 2);
+cold_iron.addHeadMaterialStats(200, 6, 5, 2);
 cold_iron.addHandleMaterialStats(0.85, 70);
 cold_iron.addExtraMaterialStats(100);
 cold_iron.addProjectileMaterialStats();
@@ -208,3 +209,31 @@ chocolate.addMaterialTrait("calcic", "head");
 chocolate.addMaterialTrait("calcic", "handle");
 chocolate.addMaterialTrait("calcic", "extra");
 */
+
+
+/*        new material - soulforged steel           */
+var molten_soulsteel = VanillaFactory.createFluid("molten_soulsteel", Color.fromHex("3d3030"));
+molten_soulsteel.register();
+
+val soulsteel = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("soulsteel");
+soulsteel.localizedName = "Soulforged Steel";
+soulsteel.color = 0x1f1f1f;
+soulsteel.liquid = <liquid:molten_soulsteel>;
+soulsteel.castable = true;
+soulsteel.craftable = false;
+soulsteel.representativeItem = <item:betterwithmods:material:14>;
+soulsteel.addCoreMaterialStats(14,17);
+soulsteel.addPlatesMaterialStats(1, 8, 2);
+soulsteel.addTrimMaterialStats(2);
+soulsteel.addHeadMaterialStats(400, 7, 5, 2);
+soulsteel.addHandleMaterialStats(0.9, 100);
+soulsteel.addExtraMaterialStats(50);
+soulsteel.addProjectileMaterialStats();
+soulsteel.addMaterialTrait("dramatic_armor", "core");
+soulsteel.addMaterialTrait("autoforge_armor", "plates");
+soulsteel.addMaterialTrait("dramatic_armor", "trim");
+soulsteel.addMaterialTrait("sharp", "projectile");
+soulsteel.addMaterialTrait("hellish", "head");
+soulsteel.addMaterialTrait("heavy", "handle");
+soulsteel.addMaterialTrait("heavy", "extra");
+soulsteel.register();
