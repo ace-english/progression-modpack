@@ -30,7 +30,7 @@ potential Jakob tasks:
 			[ ] flake flint -> flink axe -> chopping block -> crafting table -> tinkers table (steal from sevtech?)
 			[x] telepastries
 			[ ] tame a monster girl???
-			- find a graveyard and kill a grimoireofgaia:flesh_lich
+			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[ ] craft terrestrial artifact - get JEI
 	[x] sleep should require 60%
