@@ -2,7 +2,7 @@ setIcon(<grimoireofgaia:doll_dryad>)
 setTitle("My new waifu")
 setDescription("Tame a monster girl")
 addParent("triumph:achievement_bonuses/root")
-setPos(9,45)
+setPos(-156,-52)
 
 hideLines()
 
