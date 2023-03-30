@@ -33,10 +33,10 @@ potential Jakob tasks:
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[ ] craft terrestrial artifact - get JEI
-	[ ] sleep should require 60%
-	[ ] don't throw unknown
-	[ ] disable andesite
-	[ ] fix immersive chest recipe
+	[x] sleep should require 60%
+	[x] don't throw unknown
+	[x] disable andesite
+	[x] fix immersive chest recipe
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
