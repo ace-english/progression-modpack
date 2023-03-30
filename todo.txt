@@ -6,7 +6,7 @@ potential Jakob tasks:
 		[ ] ironwood
 		[ ] garnet
 		[ ] opal
-		[x] balance amethyst
+		[ ] balance amethyst
 		[ ] ironwood (tf)
 		[x] chocolate?
 			[x] casting recipes for chocolate lol - chocolate covered cherry
@@ -15,7 +15,7 @@ potential Jakob tasks:
 			Uplifting (heals occasionally) - plates, trim, handle, extra
 			Moldable (more enchantments) - core, head
 		[x] smeltery notch apple
-		[ ] soulforged steel
+		[x] soulforged steel
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -27,13 +27,16 @@ potential Jakob tasks:
 		[ ] achievments
 			https://minecraft.fandom.com/wiki/Advancement/JSON_format#List_of_triggers
 			- gunpowder
+			[ ] flake flint -> flink axe -> chopping block -> crafting table -> tinkers table (steal from sevtech?)
 			[x] telepastries
 			[ ] tame a monster girl???
 			- find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[ ] craft terrestrial artifact - get JEI
-	[x] how early can you get in the nether? Fight a blaze?
-		- alloy tank require blaze rod???
+	[ ] sleep should require 60%
+	[ ] don't throw unknown
+	[ ] disable andesite
+	[ ] fix immersive chest recipe
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -45,9 +48,6 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[x] new glue recipe somwhere for dynamite
-		- crush <ore:beeComb> for <harvestcraft:honeyitem>
-		cauldron: chum + bonemeal + ore:bark, barkWood
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[x] bibliocraft:plumbline - prehistoric, but bronze?
@@ -62,7 +62,7 @@ potential Jakob tasks:
 		[ ] add cyborgs
 		[x] mobs should only spawn with shit that you can have
 		[x] mobs always drop carried loot
-		[ ] stage mobs
+		[x] stage mobs
 		[x] stage gear
 			[ ] witch loot
 	[ ] sol balance
@@ -81,6 +81,8 @@ potential Jakob tasks:
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	[x] new glue recipe somwhere for dynamite
+		cauldron: chum + bonemeal + ore:bark, barkWood
 	[x] cobblestone medieval
 		[x] dropt setting for cobblestone
 		[x] disable 4 rock recipe
