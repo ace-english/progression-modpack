@@ -14,8 +14,6 @@ potential Jakob tasks:
 			[x] dark +milk _ sugar -> milk chocolate alloy			Tasty - all pieces
 			Uplifting (heals occasionally) - plates, trim, handle, extra
 			Moldable (more enchantments) - core, head
-		[x] smeltery notch apple
-		[x] soulforged steel
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -33,10 +31,6 @@ potential Jakob tasks:
 			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[ ] craft terrestrial artifact - get JEI
-	[x] sleep should require 60%
-	[x] don't throw unknown
-	[x] disable andesite
-	[x] fix immersive chest recipe
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -60,9 +54,6 @@ potential Jakob tasks:
 		[ ] fig leaf
 	mobs
 		[ ] add cyborgs
-		[x] mobs should only spawn with shit that you can have
-		[x] mobs always drop carried loot
-		[x] stage mobs
 		[x] stage gear
 			[ ] witch loot
 	[ ] sol balance
@@ -142,6 +133,10 @@ x --- complete --- x
 	[x] flatbread recipe
 	[x] make totemic more accessible
 	[x] add eagle feather to shearing
+	[x] sleep should require 60%
+	[x] don't throw unknown
+	[x] disable andesite
+	[x] fix immersive chest recipe
 	materials
 		[x] fey leather
 		[x] neptunium
@@ -150,6 +145,8 @@ x --- complete --- x
 		[x] bread
 		[x] cheese
 		[x] leather
+		[x] smeltery notch apple
+		[x] soulforged steel
 		[x] cold iron
 			[x] create material
 			[x] make ingot work
@@ -163,6 +160,10 @@ x --- complete --- x
 	[x] add recipe for seared brick out of sarias
 	[x] barley drop barley
 	signposts also makes a waystone?
+	mobs
+		[x] mobs should only spawn with shit that you can have
+		[x] mobs always drop carried loot
+		[x] stage mobs
 	[x] remove no more tree punching
 	[x] make sure "can't hold disallowed objects" is on
 	[x] remove guidebook mod
