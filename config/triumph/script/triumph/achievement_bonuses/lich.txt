@@ -2,7 +2,7 @@ setIcon(<ancientwarfarestructure:gravestone, nbt:{variant: 3}>)
 setTitle("Re-Deaded")
 setDescription("Find and kill a lich king under a graveyard")
 addParent("triumph:achievement_bonuses/root")
-setPos(-108,-96)
+setPos(-122,-91)
 
 hideLines()
 

@@ -4,7 +4,7 @@ setDescription("Build a Smeltery Controller")
 setFrameType("challenge")
 addParent("triumph:ancient/crude-iron")
 addParent("triumph:ancient/nether_cake")
-setPos(186,7)
+setPos(212,17)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 

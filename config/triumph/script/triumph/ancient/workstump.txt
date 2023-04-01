@@ -1,0 +1,10 @@
+setIcon(<primal_tech:work_stump>)
+setTitle("Crafting Table?")
+setDescription("Make a Work Stump. To craft, place items on the grid and hit with a Crafting Rock")
+addParent("triumph:ancient/chopping")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primal_tech:work_stump>)
+
+visibleIf("triumph:ancient/root")
+setPos(83,-9)

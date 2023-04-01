@@ -1,10 +1,8 @@
 setIcon(<telepastries:twilight_cake>)
-setTitle("Not in Kansas Anymore")
-setDescription("Make a Nether Cake")
+setTitle("Into the Woods")
+setDescription("Make a Twilight Forest Cake")
 addParent("triumph:b_medieval/root")
 setPos(81,24)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
-
-//Sets the item for the criteria. This is the item that needs to be crafted.
 criteria.setItem(<telepastries:twilight_cake>)
