@@ -1,0 +1,10 @@
+setIcon(<primal:flint_hatchet>)
+setTitle("Stone Age")
+setDescription("Make a Flint Hatchet")
+addParent("triumph:ancient/flaking")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primal:flint_hatchet>)
+
+visibleIf("triumph:ancient/root")
+setPos(-36,-9)

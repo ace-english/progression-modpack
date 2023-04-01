@@ -1,0 +1,8 @@
+setTitle("Flint Flaking")
+setIcon("minecraft:flint")
+setDescription("Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point")
+addParent("triumph:ancient/root")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:flint_knapp")
+setPos(-69,-4)

@@ -1,0 +1,10 @@
+setIcon(<tconstruct:tooltables:3>)
+setTitle("Tinker Table Soldier Spy")
+setDescription("Craft a Parts Workbench to get some real tools going")
+addParent("triumph:ancient/workstump")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<tconstruct:tooltables:3>)
+
+visibleIf("triumph:ancient/root")
+setPos(128,-23)

@@ -2,7 +2,7 @@ setIcon(<telepastries:nether_cake>)
 setTitle("Not in Kansas Anymore")
 setDescription("Make a Nether Cake")
 addParent("triumph:ancient/agriculture")
-setPos(136,57)
+setPos(121,58)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
