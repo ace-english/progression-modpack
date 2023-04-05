@@ -50,6 +50,20 @@ potential Jakob tasks:
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[?] unify hemp
 	[x] revisit tips
+	[ ] add rock to tinkers
+	[ ] more chopping block recipes
+	[ ] rock to throwing rock
+	[ ] give ore:toolAxe to all tconstruct:hatchet
+	sarias fixes
+		[ ] copper -> aluminum???
+	wolf head recipes
+		glue
+		hide
+	[ ] turn down slime islands?
+	[ ] add more coin recipes and rebalance? 1>8?
+	[ ] more wild mage trades
+	[x] no shaman, mummy, anubis til archery
+	[ ] turn off spooky ambience?
 	[ ] skins
 		[ ] fig leaf
 	mobs
