@@ -627,6 +627,7 @@ primal
 
 
 recipes.removeByRecipeName("primal:cobblestone");
+recipes.addShapeless(<immcraft:rock>, [<primal:rock_stone>]);
 
 
 //  stone anvil time
