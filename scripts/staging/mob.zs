@@ -1,3 +1,7 @@
+mods.MobStages.addStage("archery", "grimoireofgaia:shaman");
+mods.MobStages.addStage("archery", "grimoireofgaia:anubis");
+//mods.MobStages.addStage("archery", "grimoireofgaia:mummy");
+
 mods.MobStages.addStage("medieval", "grimoireofgaia:naga");
 mods.MobStages.addStage("medieval", "grimoireofgaia:siren");
 mods.MobStages.addStage("medieval", "minecraft:witch");
