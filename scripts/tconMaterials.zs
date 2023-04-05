@@ -1,7 +1,8 @@
-#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks
+#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks primal
 #loader contenttweaker
 #priority 900
 
+import mods.contenttweaker.tconstruct.Material;
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 import mods.contenttweaker.conarm.ArmorTrait;
 import mods.contenttweaker.conarm.ArmorTraitBuilder;
@@ -237,3 +238,6 @@ soulsteel.addMaterialTrait("hellish", "head");
 soulsteel.addMaterialTrait("heavy", "handle");
 soulsteel.addMaterialTrait("heavy", "extra");
 soulsteel.register();
+
+/* cobblestone adjustments */
+<ticonmaterial:stone>.addItem(<item:primal:rock_stone>);
