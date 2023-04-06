@@ -651,6 +651,9 @@ recipes.removeByRecipeName("creepingnether:charwood_to_charcoal");
 mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:49>, <betterwithmods:material:51>);
 mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:51>, <betterwithmods:material:14>);
 
+mods.primaltech.StoneAnvil.addRecipe(<mekanism:dust:4>, <mekanism:oreblock:2>);
+mods.primaltech.StoneAnvil.addRecipe(<mysticalworld:copper_dust>, <mysticalworld:copper_ore>);
+
 
 
 /*********************************************
