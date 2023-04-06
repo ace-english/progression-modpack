@@ -329,7 +329,6 @@ mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);
 
 mods.ItemStages.removeItemStage(<thaumcraft:nugget:9>);
 mods.ItemStages.removeItemStage(<thaumcraft:quicksilver>);
-mods.ItemStages.removeItemStage(<thaumcraft:amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:ore_amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:sapling_greatwood>);
