@@ -29,8 +29,6 @@ resources/mainmenu/button_old.png
 .curseclient
 patchouli_data.json
 config/jei/worldSettings.cfg
-config/splash.properties
-config/splash.properties
 local/ftbutilities/backups.json
 options.txt
 config/agricraft/json/server*
@@ -39,7 +37,6 @@ shaderpacks/*.txt
 config/jei/bookmarks.ini
 servers.dat
 WailaErrorOutput.txt
-config/splash.properties
 config/InvTweaks.cfg
 mods/Chunk Pregenerator-V1.12-2.4.1.jar
 config/pregenerator
@@ -50,7 +47,6 @@ config/splash.properties
 UNU Civilian Pack [MTS] 1.12.2-21.3.0-5.3.2.jar
 mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta
 config/InvTweaks.cfg
-config/splash.properties
 mods/UNU Civilian Pack [MTS] 1.12.2-21.3.0-5.3.2.jar
 mods/UNU Parts Pack [MTS] 1.12.2-21.3.0-5.1.4.jar
 config/jei/bookmarks.ini
