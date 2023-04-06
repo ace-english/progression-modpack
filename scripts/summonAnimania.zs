@@ -65,8 +65,8 @@ SummonCreatures.addEntity(<entity:animania:bull_longhorn>, [<ore:leather>, <ore:
 SummonCreatures.addEntity(<entity:animania:cow_longhorn>, [<ore:leather>, <ore:cropRice>, <ore:listAllflower>]);
 
 //horse
-SummonCreatures.addEntity(<entity:animania:stallion_draft>, [<ore:listAllgrain>, <ore:cropApple>, <animania:wheel>]);
-SummonCreatures.addEntity(<entity:animania:mare_draft>, [<ore:listAllgrain>, <ore:cropApple>, <animania:wheel>, <ore:listAllflower>]);
+SummonCreatures.addEntity(<entity:animania:stallion_draft>, [<ore:listAllgrain>, <ore:cropApple>, <astikorcarts:wheel>]);
+SummonCreatures.addEntity(<entity:animania:mare_draft>, [<ore:listAllgrain>, <ore:cropApple>, <astikorcarts:wheel>, <ore:listAllflower>]);
 
 //rabbit
 SummonCreatures.addEntity(<entity:animania:buck_cottontail>, [<ore:cropCarrot>, <minecraft:sapling:0>]);
