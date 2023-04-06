@@ -1,17 +1,5 @@
+import crafttweaker.item.IIngredient;
 
-mods.ItemStages.addItemStage("disabled", <animania:bee_hive>);
-mods.ItemStages.addItemStage("disabled", <animania:wild_hive>);
-
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_axe>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_boots>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_chestplate>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_helmet>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_hoe>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_leggings>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_pickaxe>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_shovel>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_sword>);
-mods.ItemStages.addItemStage("disabled", <aquaculture:food:10>);
 
 recipes.removeByRecipeName("aquaculture:neptunium_sword");
 recipes.removeByRecipeName("aquaculture:neptunium_shovel");
@@ -22,46 +10,8 @@ recipes.removeByRecipeName("aquaculture:neptunium_helmet");
 recipes.removeByRecipeName("aquaculture:neptunium_chestplate");
 recipes.removeByRecipeName("aquaculture:neptunium_boots");
 recipes.removeByRecipeName("aquaculture:neptunium_axe");
-
-mods.ItemStages.addItemStage("disabled", <base:wrench>);
-
-mods.ItemStages.addItemStage("disabled", <betterwithmods:stump_remover>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_anvil>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:50>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:5>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:7>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:32>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:33>);
-mods.ItemStages.addItemStage("disabled", <betterwithmods:aesthetic:10>);
-
-mods.ItemStages.addItemStage("disabled", <biomesoplenty:biome_finder>);
-
-mods.ItemStages.addItemStage("disabled", <cookingforblockheads:cow_jar>);
-mods.ItemStages.addItemStage("disabled", <cookingforblockheads:milk_jar>);
-
-
 recipes.removeByRecipeName("harvestcraft:market");
 recipes.removeByRecipeName("harvestcraft:shippingbin");
-mods.ItemStages.addItemStage("disabled", <harvestcraft:watertrap>);
-mods.ItemStages.addItemStage("disabled", <harvestcraft:groundtrap>);
-mods.ItemStages.addItemStage("disabled", <harvestcraft:apiary>);
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco1>);
-
-mods.ItemStages.addItemStage("disabled", <immersiveengineering:pickaxe_steel>);
-mods.ItemStages.addItemStage("disabled", <immersiveengineering:shovel_steel>);
-mods.ItemStages.addItemStage("disabled", <immersiveengineering:axe_steel>);
-mods.ItemStages.addItemStage("disabled", <immersiveengineering:hoe_steel>);
-mods.ItemStages.addItemStage("disabled", <immersiveengineering:sword_steel>);
-
-
-
-mods.ItemStages.addItemStage("disabled", <pirates:ram_rod>);
-mods.ItemStages.addItemStage("disabled", <pirates:barrel>);
-mods.ItemStages.addItemStage("disabled", <pirates:lantern>);
-mods.ItemStages.addItemStage("disabled", <pirates:cannon>);
-
-
-
 recipes.removeByRecipeName("primal:planks_19");
 recipes.removeByRecipeName("primal:planks_21");
 recipes.removeByRecipeName("primal:planks_49");
@@ -108,21 +58,6 @@ recipes.removeByRecipeName("primal:stick_9");
 recipes.removeByRecipeName("primal:stick_10");
 recipes.removeByRecipeName("primal:stick_11");
 recipes.removeByRecipeName("primal:slab_netherearth_11");
-
-mods.ItemStages.addItemStage("disabled", <primal:corn_stalk_wet>);
-mods.ItemStages.addItemStage("disabled", <primal:metalblock:5>);
-mods.ItemStages.addItemStage("disabled", <primal:adamant_plate>);
-mods.ItemStages.addItemStage("disabled", <primal:adamant_ingot>);
-mods.ItemStages.addItemStage("disabled", <primal:adamant_dust>);
-mods.ItemStages.addItemStage("disabled", <primal:adamant_nugget>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:clay_kiln>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:clay_kiln>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:water_saw>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:flint_edged_disc>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:water_saw>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:water_saw>);
-mods.ItemStages.addItemStage("disabled", <primal_tech:bone_shears>);
-
 recipes.removeByRecipeName("primal_tech:clay_kiln");
 recipes.removeByRecipeName("primal_tech:recipe_clay_kiln");
 recipes.removeByRecipeName("primal_tech:recipe_flint_saw_blade");
@@ -135,450 +70,498 @@ recipes.remove(<minecraft:stone_axe>);
 
 recipes.removeByRecipeName("minecraft:fishing_rod");
 
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:*>);
-mods.ItemStages.addItemStage("disabled", <minecraft:bow>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_axe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_block>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_boots>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_chestplate>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_helmet>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_hoe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_leggings>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_pickaxe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_shovel>);
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_sword>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_shovel>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_sword>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_leggings>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_pickaxe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_chestplate>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_helmet>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_hoe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_axe>);
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_boots>);
-mods.ItemStages.addItemStage("disabled", <minecraft:leather_chestplate>);
-mods.ItemStages.addItemStage("disabled", <minecraft:leather_leggings>);
-//mods.ItemStages.addItemStage("disabled", <minecraft:leather_helmet>); // need for wolf armor
-// mods.ItemStages.addItemStage("disabled", <minecraft:leather_boots>); // need for wolf armor
-
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_knife>);
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_knife>);
-
-mods.ItemStages.addItemStage("disabled", <quark:root_dye:0>);
-mods.ItemStages.addItemStage("disabled", <quark:root_dye:1>);
-mods.ItemStages.addItemStage("disabled", <quark:root_dye:2>);
-
-mods.ItemStages.addItemStage("disabled", <roots:iron_knife>);
-mods.ItemStages.addItemStage("disabled", <roots:diamond_knife>);
-mods.ItemStages.addItemStage("disabled", <roots:gold_knife>);
-mods.ItemStages.addItemStage("disabled", <roots:stone_knife>);
-mods.ItemStages.addItemStage("disabled", <roots:wood_knife>);
-
-mods.ItemStages.addItemStage("disabled", <toughasnails:campfire>);
-
-mods.ItemStages.addItemStage("disabled", <ancientwarfarevehicle:rough_wood> );
-mods.ItemStages.addItemStage("disabled", <animania:bee_hive> );
-mods.ItemStages.addItemStage("disabled", <animania:item_cart> );
-mods.ItemStages.addItemStage("disabled", <animania:item_tiller> );
-mods.ItemStages.addItemStage("disabled", <animania:item_wagon> );
-mods.ItemStages.addItemStage("disabled", <animania:wheel> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_axe> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_boots> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_chestplate> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_helmet> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_hoe> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_leggings> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_shovel> );
-mods.ItemStages.addItemStage("disabled", <aquaculture:neptunium_sword> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:aesthetic> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:broadhead_arrow> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:1> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:2> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:3> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:4> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:5> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:6> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:7> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:8> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:9> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:10> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:11> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:12> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:13> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:14> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle:15> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:candle_holder> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:creative_generator> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:ender_spectacles> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:fertile_farmland> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:fertilizer> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:hibachi> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:leather_tanned_boots> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:leather_tanned_chest> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:leather_tanned_helmet> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:leather_tanned_pants> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:long_friend> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:2> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:3> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:5> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:17> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:20> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:27> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:34> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:36> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:38> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:39> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:40> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:42> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:43> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:45> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:47> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:52> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:53> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:material:54> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:stake> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_axe> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_battleaxe> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_boots> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_chest> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_hacksaw> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_helmet> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_hoe> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_mattock> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_pants> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_saw> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_shovel> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:steel_sword> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:wool_boots> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:wool_chest> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:wool_helmet> );
-mods.ItemStages.addItemStage("disabled", <betterwithmods:wool_pants> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bibliocreativelock> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:biblioglasses> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:1> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:2> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:3> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:4> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:5> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:bookcasecreative:6> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:deathcompass> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:markerpole> );
-mods.ItemStages.addItemStage("disabled", <bibliocraft:testeritem> );
-mods.ItemStages.addItemStage("disabled", <chisel:chisel_diamond> );
-mods.ItemStages.addItemStage("disabled", <chisel:chisel_hitech> );
-mods.ItemStages.addItemStage("disabled", <chisel:chisel_iron> );
-mods.ItemStages.addItemStage("disabled", <cookingforblockheads:cow_jar> );
-mods.ItemStages.addItemStage("disabled", <cookingforblockheads:milk_jar> );
-mods.ItemStages.addItemStage("disabled", <forestry:broken_bronze_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <forestry:broken_bronze_shovel> );
-mods.ItemStages.addItemStage("disabled", <forestry:bronze_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <forestry:bronze_shovel> );
-mods.ItemStages.addItemStage("disabled", <forestry:candle> );
-mods.ItemStages.addItemStage("disabled", <forestry:carton> );
-mods.ItemStages.addItemStage("disabled", <forestry:crafting_material> );
-mods.ItemStages.addItemStage("disabled", <forestry:crafting_material:7> );
-mods.ItemStages.addItemStage("disabled", <forestry:greenhouse> );
-mods.ItemStages.addItemStage("disabled", <forestry:greenhouse.window> );
-mods.ItemStages.addItemStage("disabled", <forestry:greenhouse.window_up> );
-mods.ItemStages.addItemStage("disabled", <forestry:imprinter> );
-mods.ItemStages.addItemStage("disabled", <forestry:kit_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <forestry:kit_shovel> );
-mods.ItemStages.addItemStage("disabled", <forestry:raintank> );
-mods.ItemStages.addItemStage("disabled", <forestry:stump> );
-//mods.ItemStages.addItemStage("disabled", <golems:spawn_bedrock_golem> );
-mods.ItemStages.addItemStage("disabled", <grapplemod:longfallboots> );
-mods.ItemStages.addItemStage("disabled", <grapplemod:longfallboots>.withTag({ench: [{lvl: 1 as short, id: 63}, {lvl: 1 as short, id: 64}, {lvl: 1 as short, id: 65}]}) );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:applejuiceitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:beeswaxitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco1> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco10> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco11> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco12> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco13> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco14> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco15> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco16> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco2> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco3> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco4> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco5> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco6> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco7> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco8> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:candledeco9> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:cookedgrubitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:groundtrap> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:grubitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:peachjuiceitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:pearjuiceitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:persimmonjuiceitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:pressedwax> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:queenbeeitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:royaljellyitem> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:shippingbin> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:waterfilter> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:watertrap> );
-mods.ItemStages.addItemStage("disabled", <harvestcraft:well> );
-mods.ItemStages.addItemStage("disabled", <ichunutil:compact_porkchop> );
-mods.ItemStages.addItemStage("disabled", <immcraft:furnace> );
-mods.ItemStages.addItemStage("disabled", <immcraft:saw> );
-mods.ItemStages.addItemStage("disabled", <immcraft:workbench> );
-mods.ItemStages.addItemStage("disabled", <immcraft:workbench_sec> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:1> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:2> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:3> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:5> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:7> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:8> );
-mods.ItemStages.addItemStage("disabled", <infoaccessories:info_accessory:9> );
-mods.ItemStages.addItemStage("disabled", <microblockcbe:saw_diamond> );
-mods.ItemStages.addItemStage("disabled", <microblockcbe:saw_iron> );
-mods.ItemStages.addItemStage("disabled", <microblockcbe:saw_stone> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:1> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:2> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:3> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:4> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:5> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:6> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:7> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:8> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:9> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:10> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:11> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:12> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:13> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:14> );
-mods.ItemStages.addItemStage("disabled", <minecraft:bed:15> );
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_axe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_chestplate> );
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_hoe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:diamond_leggings> );
-mods.ItemStages.addItemStage("disabled", <minecraft:fishing_rod> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_axe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_boots> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_chestplate> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_helmet> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_hoe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_shovel> );
-mods.ItemStages.addItemStage("disabled", <minecraft:golden_sword> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_axe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_chestplate> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_hoe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_leggings> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_shovel> );
-mods.ItemStages.addItemStage("disabled", <minecraft:iron_sword> );
-mods.ItemStages.addItemStage("disabled", <minecraft:leather_chestplate> );
-mods.ItemStages.addItemStage("disabled", <minecraft:leather_leggings> );
-mods.ItemStages.addItemStage("disabled", <minecraft:map> );
-mods.ItemStages.addItemStage("disabled", <minecraft:stone_axe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:stone_hoe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:stone_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:stone_shovel> );
-mods.ItemStages.addItemStage("disabled", <minecraft:stone_sword> );
-mods.ItemStages.addItemStage("disabled", <minecraft:wooden_axe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:wooden_hoe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:wooden_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <minecraft:wooden_shovel> );
-mods.ItemStages.addItemStage("disabled", <minecraft:wooden_sword> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_axe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_hoe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_knife> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_shovel> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:amethyst_sword> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_axe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_boots> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_chestplate> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_helmet> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_hoe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_knife> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_leggings> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_shovel> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:copper_sword> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_axe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_boots> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_chestplate> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_helmet> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_hoe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_knife> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_leggings> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_shovel> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:silver_sword> );
-mods.ItemStages.addItemStage("disabled", <mysticalworld:tannins> );
-mods.ItemStages.addItemStage("disabled", <ordinarycoins:coinplatinum> );
-mods.ItemStages.addItemStage("disabled", <primal:wootz_dust> );
-mods.ItemStages.addItemStage("disabled", <primal:wootz_ingot> );
-mods.ItemStages.addItemStage("disabled", <primal:wootz_nugget> );
-mods.ItemStages.addItemStage("disabled", <primal:wootz_plate> );
-mods.ItemStages.addItemStage("disabled", <primal_tech:clay_kiln> );
-mods.ItemStages.addItemStage("disabled", <primal_tech:flint_block> );
-mods.ItemStages.addItemStage("disabled", <primal_tech:flint_edged_disc> );
-mods.ItemStages.addItemStage("disabled", <primal_tech:leaf_bed> );
-mods.ItemStages.addItemStage("disabled", <progressiontweaks:lime> );
-mods.ItemStages.addItemStage("disabled", <quark:candle> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:1> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:2> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:3> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:4> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:5> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:6> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:7> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:8> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:9> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:10> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:11> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:12> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:13> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:14> );
-mods.ItemStages.addItemStage("disabled", <quark:candle:15> );
-mods.ItemStages.addItemStage("disabled", <quark:rope> );
-mods.ItemStages.addItemStage("disabled", <quark:smoker> );
-mods.ItemStages.addItemStage("disabled", <roots:living_arrow> );
-mods.ItemStages.addItemStage("disabled", <roots:living_axe> );
-mods.ItemStages.addItemStage("disabled", <roots:living_hoe> );
-mods.ItemStages.addItemStage("disabled", <roots:living_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <roots:living_shovel> );
-mods.ItemStages.addItemStage("disabled", <roots:living_sword> );
-mods.ItemStages.addItemStage("disabled", <roots:stone_knife> );
-mods.ItemStages.addItemStage("disabled", <roots:sylvan_boots> );
-mods.ItemStages.addItemStage("disabled", <roots:sylvan_chestplate> );
-mods.ItemStages.addItemStage("disabled", <roots:sylvan_helmet> );
-mods.ItemStages.addItemStage("disabled", <roots:sylvan_leggings> );
-mods.ItemStages.addItemStage("disabled", <roots:terrastone_axe> );
-mods.ItemStages.addItemStage("disabled", <roots:terrastone_hoe> );
-mods.ItemStages.addItemStage("disabled", <roots:terrastone_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <roots:terrastone_shovel> );
-mods.ItemStages.addItemStage("disabled", <roots:terrastone_sword> );
-mods.ItemStages.addItemStage("disabled", <roots:unending_bowl> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_boots> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_bow> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_chestplate> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_helmet> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_leggings> );
-mods.ItemStages.addItemStage("disabled", <roots:wildwood_quiver> );
-mods.ItemStages.addItemStage("disabled", <roots:wood_knife> );
-mods.ItemStages.addItemStage("disabled", <roots:wooden_shears> );
-mods.ItemStages.addItemStage("disabled", <rustic:apiary> );
-mods.ItemStages.addItemStage("disabled", <rustic:bee> );
-mods.ItemStages.addItemStage("disabled", <rustic:beehive> );
-mods.ItemStages.addItemStage("disabled", <rustic:fertile_soil> );
-mods.ItemStages.addItemStage("disabled", <rustic:honeycomb> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:knightslime_boots> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:knightslime_chestplate> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:knightslime_helmet> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:knightslime_leggings> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:manyullyn_boots> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:manyullyn_chestplate> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:manyullyn_helmet> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:manyullyn_leggings> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:materials> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:steel_boots> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:steel_chestplate> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:steel_helmet> );
-mods.ItemStages.addItemStage("disabled", <tcomplement:steel_leggings> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:slime_boots> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:slime_boots:1> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:slime_boots:2> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:slime_boots:3> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:slime_boots:4> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:stone_torch> );
-mods.ItemStages.addItemStage("disabled", <tconstruct:wooden_hopper> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_axe> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_boots> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_chest> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_helm> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_hoe> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_legs> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_pick> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_shovel> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:thaumium_sword> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_axe> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_boots> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_chest> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_helm> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_hoe> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_legs> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_pick> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_shovel> );
-mods.ItemStages.addItemStage("disabled", <thaumcraft:void_sword> );
-mods.ItemStages.addItemStage("disabled", <totemic:ceremony_cheat> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:fruit_juice> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:fruit_juice:3> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:fruit_juice:8> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:jelled_slime_boots> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:jelled_slime_chestplate> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:jelled_slime_helmet> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:jelled_slime_leggings> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:rain_collector> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:wool_boots> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:wool_chestplate> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:wool_helmet> );
-mods.ItemStages.addItemStage("disabled", <toughasnails:wool_leggings> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:arctic_boots> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:arctic_chestplate> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:arctic_fur> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:arctic_helmet> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:arctic_leggings> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_boots> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_chestplate> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_helmet> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_leggings> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_axe>.withTag({ench: [{lvl: 1 as short, id: 35}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_hoe> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_ingot> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_shovel>.withTag({ench: [{lvl: 1 as short, id: 34}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:ironwood_sword>.withTag({ench: [{lvl: 1 as short, id: 19}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_axe> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_block> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_boots> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_chestplate> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_helmet> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_leggings> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_pickaxe> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_ring> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:knightmetal_sword> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:1> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:2> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:3> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:4> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:5> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:6> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:7> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:8> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:9> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:10> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:11> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:12> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:13> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:miniature_structure:14> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_axe>.withTag({ench: [{lvl: 2 as short, id: 32}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_boots>.withTag({ench: [{lvl: 2 as short, id: 2}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_chestplate>.withTag({ench: [{lvl: 2 as short, id: 3}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_helmet>.withTag({ench: [{lvl: 2 as short, id: 4}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_hoe> );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_leggings>.withTag({ench: [{lvl: 2 as short, id: 1}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_shovel>.withTag({ench: [{lvl: 2 as short, id: 32}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:steeleaf_sword>.withTag({ench: [{lvl: 2 as short, id: 21}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0}, {lvl: 4 as short, id: 2}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}) );
-mods.ItemStages.addItemStage("disabled", <twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]}) );
+var disabled as IIngredient[] = [
+	<animania:bee_hive>,
+	<animania:wild_hive>,
+	<aquaculture:neptunium_axe>,
+	<aquaculture:neptunium_boots>,
+	<aquaculture:neptunium_chestplate>,
+	<aquaculture:neptunium_helmet>,
+	<aquaculture:neptunium_hoe>,
+	<aquaculture:neptunium_leggings>,
+	<aquaculture:neptunium_pickaxe>,
+	<aquaculture:neptunium_shovel>,
+	<aquaculture:neptunium_sword>,
+	<aquaculture:food:10>,
+	<base:wrench>,
+	<betterwithmods:stump_remover>,
+	<betterwithmods:steel_anvil>,
+	<betterwithmods:material:50>,
+	<betterwithmods:material:5>,
+	<betterwithmods:material:7>,
+	<betterwithmods:material:32>,
+	<betterwithmods:material:33>,
+	<betterwithmods:aesthetic:10>,
+	<biomesoplenty:biome_finder>,
+	<cookingforblockheads:cow_jar>,
+	<cookingforblockheads:milk_jar>,
+	<harvestcraft:watertrap>,
+	<harvestcraft:groundtrap>,
+	<harvestcraft:apiary>,
+	<harvestcraft:candledeco1>,
+	<immersiveengineering:pickaxe_steel>,
+	<immersiveengineering:shovel_steel>,
+	<immersiveengineering:axe_steel>,
+	<immersiveengineering:hoe_steel>,
+	<immersiveengineering:sword_steel>,
+	<pirates:ram_rod>,
+	<pirates:barrel>,
+	<pirates:lantern>,
+	<pirates:cannon>,
+	<primal:corn_stalk_wet>,
+	<primal:metalblock:5>,
+	<primal:adamant_plate>,
+	<primal:adamant_ingot>,
+	<primal:adamant_dust>,
+	<primal:adamant_nugget>,
+	<primal_tech:clay_kiln>,
+	<primal_tech:clay_kiln>,
+	<primal_tech:water_saw>,
+	<primal_tech:flint_edged_disc>,
+	<primal_tech:water_saw>,
+	<primal_tech:water_saw>,
+	<primal_tech:bone_shears>,
+	<minecraft:bed:*>,
+	<minecraft:bow>,
+	<minecraft:diamond_axe>,
+	<minecraft:diamond_block>,
+	<minecraft:diamond_boots>,
+	<minecraft:diamond_chestplate>,
+	<minecraft:diamond_helmet>,
+	<minecraft:diamond_hoe>,
+	<minecraft:diamond_leggings>,
+	<minecraft:diamond_pickaxe>,
+	<minecraft:diamond_shovel>,
+	<minecraft:diamond_sword>,
+	<minecraft:golden_shovel>,
+	<minecraft:golden_sword>,
+	<minecraft:golden_leggings>,
+	<minecraft:golden_pickaxe>,
+	<minecraft:golden_chestplate>,
+	<minecraft:golden_helmet>,
+	<minecraft:golden_hoe>,
+	<minecraft:golden_axe>,
+	<minecraft:golden_boots>,
+	<minecraft:leather_chestplate>,
+	<minecraft:leather_leggings>,
+	//	<minecraft:leather_helmet>, // need for wolf armor
+	// 	<minecraft:leather_boots>, // need for wolf armor
+	<mysticalworld:copper_knife>,
+	<mysticalworld:silver_knife>,
+	<quark:root_dye:0>,
+	<quark:root_dye:1>,
+	<quark:root_dye:2>,
+	<roots:iron_knife>,
+	<roots:diamond_knife>,
+	<roots:gold_knife>,
+	<toughasnails:campfire>,
+	<ancientwarfarevehicle:rough_wood>,
+	<animania:bee_hive>,
+	<animania:item_cart>,
+	<animania:item_tiller>,
+	<animania:item_wagon>,
+	<animania:wheel>,
+	<aquaculture:neptunium_axe>,
+	<aquaculture:neptunium_boots>,
+	<aquaculture:neptunium_chestplate>,
+	<aquaculture:neptunium_helmet>,
+	<aquaculture:neptunium_hoe>,
+	<aquaculture:neptunium_leggings>,
+	<aquaculture:neptunium_pickaxe>,
+	<aquaculture:neptunium_shovel>,
+	<aquaculture:neptunium_sword>,
+	<betterwithmods:aesthetic>,
+	<betterwithmods:broadhead_arrow>,
+	<betterwithmods:candle>,
+	<betterwithmods:candle:1>,
+	<betterwithmods:candle:2>,
+	<betterwithmods:candle:3>,
+	<betterwithmods:candle:4>,
+	<betterwithmods:candle:5>,
+	<betterwithmods:candle:6>,
+	<betterwithmods:candle:7>,
+	<betterwithmods:candle:8>,
+	<betterwithmods:candle:9>,
+	<betterwithmods:candle:10>,
+	<betterwithmods:candle:11>,
+	<betterwithmods:candle:12>,
+	<betterwithmods:candle:13>,
+	<betterwithmods:candle:14>,
+	<betterwithmods:candle:15>,
+	<betterwithmods:candle>,
+	<betterwithmods:candle_holder>,
+	<betterwithmods:creative_generator>,
+	<betterwithmods:ender_spectacles>,
+	<betterwithmods:fertile_farmland>,
+	<betterwithmods:fertilizer>,
+	<betterwithmods:hibachi>,
+	<betterwithmods:leather_tanned_boots>,
+	<betterwithmods:leather_tanned_chest>,
+	<betterwithmods:leather_tanned_helmet>,
+	<betterwithmods:leather_tanned_pants>,
+	<betterwithmods:long_friend>,
+	<betterwithmods:material:2>,
+	<betterwithmods:material:3>,
+	<betterwithmods:material:5>,
+	<betterwithmods:material:17>,
+	<betterwithmods:material:20>,
+	<betterwithmods:material:27>,
+	<betterwithmods:material:34>,
+	<betterwithmods:material:36>,
+	<betterwithmods:material:38>,
+	<betterwithmods:material:39>,
+	<betterwithmods:material:40>,
+	<betterwithmods:material:42>,
+	<betterwithmods:material:43>,
+	<betterwithmods:material:45>,
+	<betterwithmods:material:47>,
+	<betterwithmods:material:52>,
+	<betterwithmods:material:53>,
+	<betterwithmods:material:54>,
+	<betterwithmods:stake>,
+	<betterwithmods:steel_axe>,
+	<betterwithmods:steel_battleaxe>,
+	<betterwithmods:steel_boots>,
+	<betterwithmods:steel_chest>,
+	<betterwithmods:steel_hacksaw>,
+	<betterwithmods:steel_helmet>,
+	<betterwithmods:steel_hoe>,
+	<betterwithmods:steel_mattock>,
+	<betterwithmods:steel_pants>,
+	<betterwithmods:steel_pickaxe>,
+	<betterwithmods:steel_saw>,
+	<betterwithmods:steel_shovel>,
+	<betterwithmods:steel_sword>,
+	<betterwithmods:wool_boots>,
+	<betterwithmods:wool_chest>,
+	<betterwithmods:wool_helmet>,
+	<betterwithmods:wool_pants>,
+	<bibliocraft:bibliocreativelock>,
+	<bibliocraft:biblioglasses>,
+	<bibliocraft:bookcasecreative>,
+	<bibliocraft:bookcasecreative:1>,
+	<bibliocraft:bookcasecreative:2>,
+	<bibliocraft:bookcasecreative:3>,
+	<bibliocraft:bookcasecreative:4>,
+	<bibliocraft:bookcasecreative:5>,
+	<bibliocraft:bookcasecreative:6>,
+	<bibliocraft:deathcompass>,
+	<bibliocraft:markerpole>,
+	<bibliocraft:testeritem>,
+	<chisel:chisel_diamond>,
+	<chisel:chisel_hitech>,
+	<chisel:chisel_iron>,
+	<cookingforblockheads:cow_jar>,
+	<cookingforblockheads:milk_jar>,
+	<forestry:broken_bronze_pickaxe>,
+	<forestry:broken_bronze_shovel>,
+	<forestry:bronze_pickaxe>,
+	<forestry:bronze_shovel>,
+	<forestry:candle>,
+	<forestry:carton>,
+	<forestry:crafting_material>,
+	<forestry:crafting_material:7>,
+	<forestry:greenhouse>,
+	<forestry:greenhouse.window>,
+	<forestry:greenhouse.window_up>,
+	<forestry:imprinter>,
+	<forestry:kit_pickaxe>,
+	<forestry:kit_shovel>,
+	<forestry:raintank>,
+	<forestry:stump>,
+	<grapplemod:longfallboots>,
+	<grapplemod:longfallboots>.withTag({ench: [{lvl: 1 as short, id: 63}, {lvl: 1 as short, id: 64}, {lvl: 1 as short, id: 65}]}),
+	<harvestcraft:applejuiceitem>,
+	<harvestcraft:beeswaxitem>,
+	<harvestcraft:candledeco1>,
+	<harvestcraft:candledeco10>,
+	<harvestcraft:candledeco11>,
+	<harvestcraft:candledeco12>,
+	<harvestcraft:candledeco13>,
+	<harvestcraft:candledeco14>,
+	<harvestcraft:candledeco15>,
+	<harvestcraft:candledeco16>,
+	<harvestcraft:candledeco2>,
+	<harvestcraft:candledeco3>,
+	<harvestcraft:candledeco4>,
+	<harvestcraft:candledeco5>,
+	<harvestcraft:candledeco6>,
+	<harvestcraft:candledeco7>,
+	<harvestcraft:candledeco8>,
+	<harvestcraft:candledeco9>,
+	<harvestcraft:cookedgrubitem>,
+	<harvestcraft:groundtrap>,
+	<harvestcraft:grubitem>,
+	<harvestcraft:peachjuiceitem>,
+	<harvestcraft:pearjuiceitem>,
+	<harvestcraft:persimmonjuiceitem>,
+	<harvestcraft:pressedwax>,
+	<harvestcraft:queenbeeitem>,
+	<harvestcraft:royaljellyitem>,
+	<harvestcraft:shippingbin>,
+	<harvestcraft:waterfilter>,
+	<harvestcraft:watertrap>,
+	<harvestcraft:well>,
+	<ichunutil:compact_porkchop>,
+	<immcraft:furnace>,
+	<immcraft:saw>,
+	<immcraft:workbench>,
+	<immcraft:workbench_sec>,
+	<infoaccessories:info_accessory>,
+	<infoaccessories:info_accessory:1>,
+	<infoaccessories:info_accessory:2>,
+	<infoaccessories:info_accessory:3>,
+	<infoaccessories:info_accessory:5>,
+	<infoaccessories:info_accessory:7>,
+	<infoaccessories:info_accessory:8>,
+	<infoaccessories:info_accessory:9>,
+	<microblockcbe:saw_diamond>,
+	<microblockcbe:saw_iron>,
+	<microblockcbe:saw_stone>,
+	<minecraft:bed>,
+	<minecraft:bed:1>,
+	<minecraft:bed:2>,
+	<minecraft:bed:3>,
+	<minecraft:bed:4>,
+	<minecraft:bed:5>,
+	<minecraft:bed:6>,
+	<minecraft:bed:7>,
+	<minecraft:bed:8>,
+	<minecraft:bed:9>,
+	<minecraft:bed:10>,
+	<minecraft:bed:11>,
+	<minecraft:bed:12>,
+	<minecraft:bed:13>,
+	<minecraft:bed:14>,
+	<minecraft:bed:15>,
+	<minecraft:diamond_axe>,
+	<minecraft:diamond_chestplate>,
+	<minecraft:diamond_hoe>,
+	<minecraft:diamond_leggings>,
+	<minecraft:fishing_rod>,
+	<minecraft:golden_axe>,
+	<minecraft:golden_boots>,
+	<minecraft:golden_chestplate>,
+	<minecraft:golden_helmet>,
+	<minecraft:golden_hoe>,
+	<minecraft:golden_shovel>,
+	<minecraft:golden_sword>,
+	<minecraft:iron_axe>,
+	<minecraft:iron_chestplate>,
+	<minecraft:iron_hoe>,
+	<minecraft:iron_leggings>,
+	<minecraft:iron_pickaxe>,
+	<minecraft:iron_shovel>,
+	<minecraft:iron_sword>,
+	<minecraft:leather_chestplate>,
+	<minecraft:leather_leggings>,
+	<minecraft:map>,
+	<minecraft:stone_axe>,
+	<minecraft:stone_hoe>,
+	<minecraft:stone_pickaxe>,
+	<minecraft:stone_shovel>,
+	<minecraft:stone_sword>,
+	<minecraft:wooden_axe>,
+	<minecraft:wooden_hoe>,
+	<minecraft:wooden_pickaxe>,
+	<minecraft:wooden_shovel>,
+	<minecraft:wooden_sword>,
+	<mysticalworld:amethyst_axe>,
+	<mysticalworld:amethyst_hoe>,
+	<mysticalworld:amethyst_knife>,
+	<mysticalworld:amethyst_pickaxe>,
+	<mysticalworld:amethyst_shovel>,
+	<mysticalworld:amethyst_sword>,
+	<mysticalworld:copper_axe>,
+	<mysticalworld:copper_boots>,
+	<mysticalworld:copper_chestplate>,
+	<mysticalworld:copper_helmet>,
+	<mysticalworld:copper_hoe>,
+	<mysticalworld:copper_knife>,
+	<mysticalworld:copper_leggings>,
+	<mysticalworld:copper_pickaxe>,
+	<mysticalworld:copper_shovel>,
+	<mysticalworld:copper_sword>,
+	<mysticalworld:silver_axe>,
+	<mysticalworld:silver_boots>,
+	<mysticalworld:silver_chestplate>,
+	<mysticalworld:silver_helmet>,
+	<mysticalworld:silver_hoe>,
+	<mysticalworld:silver_knife>,
+	<mysticalworld:silver_leggings>,
+	<mysticalworld:silver_pickaxe>,
+	<mysticalworld:silver_shovel>,
+	<mysticalworld:silver_sword>,
+	<mysticalworld:tannins>,
+	<ordinarycoins:coinplatinum>,
+	<primal:wootz_dust>,
+	<primal:wootz_ingot>,
+	<primal:wootz_nugget>,
+	<primal:wootz_plate>,
+	<primal_tech:clay_kiln>,
+	<primal_tech:flint_block>,
+	<primal_tech:flint_edged_disc>,
+	<primal_tech:leaf_bed>,
+	<progressiontweaks:lime>,
+	<quark:candle>,
+	<quark:candle:1>,
+	<quark:candle:2>,
+	<quark:candle:3>,
+	<quark:candle:4>,
+	<quark:candle:5>,
+	<quark:candle:6>,
+	<quark:candle:7>,
+	<quark:candle:8>,
+	<quark:candle:9>,
+	<quark:candle:10>,
+	<quark:candle:11>,
+	<quark:candle:12>,
+	<quark:candle:13>,
+	<quark:candle:14>,
+	<quark:candle:15>,
+	<quark:rope>,
+	<quark:smoker>,
+	<roots:living_arrow>,
+	<roots:living_axe>,
+	<roots:living_hoe>,
+	<roots:living_pickaxe>,
+	<roots:living_shovel>,
+	<roots:living_sword>,
+	<roots:sylvan_boots>,
+	<roots:sylvan_chestplate>,
+	<roots:sylvan_helmet>,
+	<roots:sylvan_leggings>,
+	<roots:terrastone_axe>,
+	<roots:terrastone_hoe>,
+	<roots:terrastone_pickaxe>,
+	<roots:terrastone_shovel>,
+	<roots:terrastone_sword>,
+	<roots:unending_bowl>,
+	<roots:wildwood_boots>,
+	<roots:wildwood_bow>,
+	<roots:wildwood_chestplate>,
+	<roots:wildwood_helmet>,
+	<roots:wildwood_leggings>,
+	<roots:wildwood_quiver>,
+	<roots:wooden_shears>,
+	<rustic:apiary>,
+	<rustic:bee>,
+	<rustic:beehive>,
+	<rustic:fertile_soil>,
+	<rustic:honeycomb>,
+	<tcomplement:knightslime_boots>,
+	<tcomplement:knightslime_chestplate>,
+	<tcomplement:knightslime_helmet>,
+	<tcomplement:knightslime_leggings>,
+	<tcomplement:manyullyn_boots>,
+	<tcomplement:manyullyn_chestplate>,
+	<tcomplement:manyullyn_helmet>,
+	<tcomplement:manyullyn_leggings>,
+	<tcomplement:materials>,
+	<tcomplement:steel_boots>,
+	<tcomplement:steel_chestplate>,
+	<tcomplement:steel_helmet>,
+	<tcomplement:steel_leggings>,
+	<tconstruct:slime_boots>,
+	<tconstruct:slime_boots:1>,
+	<tconstruct:slime_boots:2>,
+	<tconstruct:slime_boots:3>,
+	<tconstruct:slime_boots:4>,
+	<tconstruct:stone_torch>,
+	<tconstruct:wooden_hopper>,
+	<thaumcraft:thaumium_axe>,
+	<thaumcraft:thaumium_boots>,
+	<thaumcraft:thaumium_chest>,
+	<thaumcraft:thaumium_helm>,
+	<thaumcraft:thaumium_hoe>,
+	<thaumcraft:thaumium_legs>,
+	<thaumcraft:thaumium_pick>,
+	<thaumcraft:thaumium_shovel>,
+	<thaumcraft:thaumium_sword>,
+	<thaumcraft:void_axe>,
+	<thaumcraft:void_boots>,
+	<thaumcraft:void_chest>,
+	<thaumcraft:void_helm>,
+	<thaumcraft:void_hoe>,
+	<thaumcraft:void_legs>,
+	<thaumcraft:void_pick>,
+	<thaumcraft:void_shovel>,
+	<thaumcraft:void_sword>,
+	<totemic:ceremony_cheat>,
+	<toughasnails:fruit_juice>,
+	<toughasnails:fruit_juice:3>,
+	<toughasnails:fruit_juice:8>,
+	<toughasnails:jelled_slime_boots>,
+	<toughasnails:jelled_slime_chestplate>,
+	<toughasnails:jelled_slime_helmet>,
+	<toughasnails:jelled_slime_leggings>,
+	<toughasnails:rain_collector>,
+	<toughasnails:wool_boots>,
+	<toughasnails:wool_chestplate>,
+	<toughasnails:wool_helmet>,
+	<toughasnails:wool_leggings>,
+	<twilightforest:arctic_boots>,
+	<twilightforest:arctic_chestplate>,
+	<twilightforest:arctic_fur>,
+	<twilightforest:arctic_helmet>,
+	<twilightforest:arctic_leggings>,
+	<twilightforest:fiery_boots>,
+	<twilightforest:fiery_chestplate>,
+	<twilightforest:fiery_helmet>,
+	<twilightforest:fiery_leggings>,
+	<twilightforest:fiery_pickaxe>,
+	<twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20}]}),
+	<twilightforest:ironwood_axe>.withTag({ench: [{lvl: 1 as short, id: 35}]}),
+	<twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2}]}),
+	<twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0}]}),
+	<twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6}]}),
+	<twilightforest:ironwood_hoe>,
+	<twilightforest:ironwood_ingot>,
+	<twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0}]}),
+	<twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32}]}),
+	<twilightforest:ironwood_shovel>.withTag({ench: [{lvl: 1 as short, id: 34}]}),
+	<twilightforest:ironwood_sword>.withTag({ench: [{lvl: 1 as short, id: 19}]}),
+	<twilightforest:knightmetal_axe>,
+	<twilightforest:knightmetal_block>,
+	<twilightforest:knightmetal_boots>,
+	<twilightforest:knightmetal_chestplate>,
+	<twilightforest:knightmetal_helmet>,
+	<twilightforest:knightmetal_leggings>,
+	<twilightforest:knightmetal_pickaxe>,
+	<twilightforest:knightmetal_ring>,
+	<twilightforest:knightmetal_sword>,
+	<twilightforest:miniature_structure>,
+	<twilightforest:miniature_structure:1>,
+	<twilightforest:miniature_structure:2>,
+	<twilightforest:miniature_structure:3>,
+	<twilightforest:miniature_structure:4>,
+	<twilightforest:miniature_structure:5>,
+	<twilightforest:miniature_structure:6>,
+	<twilightforest:miniature_structure:7>,
+	<twilightforest:miniature_structure:8>,
+	<twilightforest:miniature_structure:9>,
+	<twilightforest:miniature_structure:10>,
+	<twilightforest:miniature_structure:11>,
+	<twilightforest:miniature_structure:12>,
+	<twilightforest:miniature_structure:13>,
+	<twilightforest:miniature_structure:14>,
+	<twilightforest:steeleaf_axe>.withTag({ench: [{lvl: 2 as short, id: 32}]}),
+	<twilightforest:steeleaf_boots>.withTag({ench: [{lvl: 2 as short, id: 2}]}),
+	<twilightforest:steeleaf_chestplate>.withTag({ench: [{lvl: 2 as short, id: 3}]}),
+	<twilightforest:steeleaf_helmet>.withTag({ench: [{lvl: 2 as short, id: 4}]}),
+	<twilightforest:steeleaf_hoe>,
+	<twilightforest:steeleaf_leggings>.withTag({ench: [{lvl: 2 as short, id: 1}]}),
+	<twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35}]}),
+	<twilightforest:steeleaf_shovel>.withTag({ench: [{lvl: 2 as short, id: 32}]}),
+	<twilightforest:steeleaf_sword>.withTag({ench: [{lvl: 2 as short, id: 21}]}),
+	<twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0}, {lvl: 4 as short, id: 2}]}),
+	<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
+	<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
+	<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]})
+	];
+	
+for entry in disabled{
+    mods.ItemStages.addItemStage("disabled", entry);
+	recipes.removeByInput(entry);
+	recipes.remove(entry);
+}
