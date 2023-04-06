@@ -33,7 +33,7 @@ potential Jakob tasks:
 			[ ] tame a monster girl???
 			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
-			[ ] craft terrestrial artifact - get JEI
+			[x] craft terrestrial artifact - get JEI
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -59,7 +59,7 @@ potential Jakob tasks:
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
 	sarias fixes
-		[ ] copper -> aluminum???
+		[x] copper -> aluminum???
 	wolf head recipes
 		glue
 		hide
