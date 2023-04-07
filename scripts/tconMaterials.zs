@@ -277,17 +277,17 @@ amethyst.color = 0x9b5cdd;
 amethyst.castable = false;
 amethyst.craftable = true;
 amethyst.representativeItem = <item:bewitchment:amethyst>;
-fey_leather.addItem(<item:bewitchment:amethyst>);
-amethyst.addCoreMaterialStats(10,15);
-amethyst.addPlatesMaterialStats(1, 6, 0);
-amethyst.addTrimMaterialStats(10);
+amethyst.addItem(<item:bewitchment:amethyst>);
+//amethyst.addCoreMaterialStats(10,15);
+//amethyst.addPlatesMaterialStats(1, 6, 0);
+//amethyst.addTrimMaterialStats(10);
 amethyst.addHeadMaterialStats(200, 7, 5, 2);
 amethyst.addHandleMaterialStats(0.5, 50);
 amethyst.addExtraMaterialStats(100);
 amethyst.addProjectileMaterialStats();
-amethyst.addMaterialTrait("mundane_armor", "core");
-amethyst.addMaterialTrait("mundane_armor", "plates");
-amethyst.addMaterialTrait("dramatic_armor", "trim");
+//amethyst.addMaterialTrait("mundane", "core");
+//amethyst.addMaterialTrait("mundane", "plates");
+//amethyst.addMaterialTrait("dramatic_armor", "trim");
 amethyst.addMaterialTrait("sharp", "projectile");
 amethyst.addMaterialTrait("sharp", "head");
 amethyst.addMaterialTrait("coldblooded", "extra");
@@ -296,4 +296,5 @@ amethyst.register();
 
 
 /* cobblestone adjustments */
-<ticonmaterial:stone>.addItem(<item:primal:rock_stone>);
+val stone =<ticonmaterial:stone>;
+//stone.addItem(<item:primal:rock_stone>);

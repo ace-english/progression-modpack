@@ -6,10 +6,10 @@ potential Jakob tasks:
 		[ ] ironwood
 		[ ] garnet
 		[ ] opal
-		[ ] balance amethyst
+		[x] balance amethyst
 		[ ] ironwood (tf)
 		[ ] amber?
-		[ ] crude iron?
+		[x] crude iron?
 		[x] chocolate?
 			[x] casting recipes for chocolate lol - chocolate covered cherry
 			[x] cocoa -> unsweetened chocolate
@@ -54,7 +54,7 @@ potential Jakob tasks:
 	[?] unify hemp
 	[x] revisit tips
 	[ ] add rock to tinkers
-	[ ] more chopping block recipes
+	[x] more chopping block recipes
 	[x] rock to throwing rock
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
