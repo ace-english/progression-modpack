@@ -17,21 +17,21 @@ import mods.horsepower.Recipes;
 
 //choppermods.horsepower.ChoppingBlock.add(<rustic:log:0>, <rustic:planks:0>*4, 4);
 mods.horsepower.ChoppingBlock.add(<rustic:log:1>, <rustic:planks:1>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:1>, <biomesoplenty:planks_0:1>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:2>, <biomesoplenty:planks_0:2>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:3>, <biomesoplenty:planks_0:3>*4, 4);
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:1>*4, 4); //cherry
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:2>*4, 4); //umbran
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:7>, <biomesoplenty:planks_0:3>*4, 4); //fir
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:4>, <biomesoplenty:planks_0:4>*4, 4);
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:5>*4, 4);
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:6>*4, 4);
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:7>, <biomesoplenty:planks_0:7>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:8>, <biomesoplenty:planks_0:8>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:9>, <biomesoplenty:planks_0:9>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:10>, <biomesoplenty:planks_0:10>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:11>, <biomesoplenty:planks_0:11>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:12>, <biomesoplenty:planks_0:12>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:13>, <biomesoplenty:planks_0:13>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:14>, <biomesoplenty:planks_0:14>*4, 4);
-mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:15>, <biomesoplenty:planks_0:15>*4, 4);
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_2:4>, <biomesoplenty:planks_0:8>*4, 4); //redwood
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_2:5>, <biomesoplenty:planks_0:9>*4, 4); //willow
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_2:6>, <biomesoplenty:planks_0:10>*4, 4); //pine
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_2:7>, <biomesoplenty:planks_0:11>*4, 4); //hellbark
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_3:4>, <biomesoplenty:planks_0:12>*4, 4); //jacaranana
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_3:5>, <biomesoplenty:planks_0:13>*4, 4); //mahognay
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_3:6>, <biomesoplenty:planks_0:14>*4, 4); //ebony
+mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_3:7>, <biomesoplenty:planks_0:15>*4, 4); //eucalyptus
 mods.horsepower.ChoppingBlock.add(<forestry:logs.0:1>, <forestry:planks.0:1>*4, 4);
 mods.horsepower.ChoppingBlock.add(<forestry:logs.0:2>, <forestry:planks.0:2>*4, 4);
 mods.horsepower.ChoppingBlock.add(<forestry:logs.0:3>, <forestry:planks.0:3>*4, 4);
@@ -64,8 +64,6 @@ mods.horsepower.ChoppingBlock.add(<forestry:logs.1:14>, <forestry:planks.1:14>*4
 mods.horsepower.ChoppingBlock.add(<forestry:logs.1:15>, <forestry:planks.1:15>*4, 4);
 mods.horsepower.ChoppingBlock.add(<primal:logs:0>, <primal:planks:0>*4, 4);
 mods.horsepower.ChoppingBlock.add(<primal:logs:1>, <primal:planks:1>*4, 4);
-mods.horsepower.ChoppingBlock.add(<primal:logs:2>, <primal:planks:2>*4, 4);
-mods.horsepower.ChoppingBlock.add(<primal:logs:3>, <primal:planks:3>*4, 4);
 mods.horsepower.ChoppingBlock.add(<bewitchment:cypress_wood>, <bewitchment:cypress_planks>*4, 4);
 mods.horsepower.ChoppingBlock.add(<bewitchment:elder_wood>, <bewitchment:elder_planks>*4, 4);
 mods.horsepower.ChoppingBlock.add(<bewitchment:juniper_wood>, <bewitchment:juniper_planks>*4, 4);
@@ -329,7 +327,6 @@ mods.ItemStages.removeItemStage(<mysticalagriculture:soulstone>);
 
 mods.ItemStages.removeItemStage(<thaumcraft:nugget:9>);
 mods.ItemStages.removeItemStage(<thaumcraft:quicksilver>);
-mods.ItemStages.removeItemStage(<thaumcraft:amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:ore_amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:amber>);
 mods.ItemStages.removeItemStage(<thaumcraft:sapling_greatwood>);

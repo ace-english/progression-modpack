@@ -1,0 +1,10 @@
+//setIcon(<grapplemod:grapplinghook, nbt:{doublehook: 0 as byte, motor: 0 as byte, phaserope: 0 as byte, attract: 1 as byte, rocket: 0 as byte, hookgravity: 1.0, repelforce: 1.0, attractradius: 3.0, pullbackwards: 1 as byte, smartmotor: 0 as byte, detachonkeyrelease: 0 as byte, angle: 20.0, crc32: 1961245979 as long, rocket_vertical_angle: 0.0, rocket_force: 1.0, rocket_refuel_ratio: 15.0, motorwhencrouching: 0 as byte, motorwhennotcrouching: 1 as byte, motordampener: 0 as byte, rocket_active_time: 0.5, throwspeed: 3.5, motoracceleration: 0.2, enderstaff: 0 as byte, oneropepull: 0 as byte, sneakingverticalthrowangle: 0.0, smartdoublemotor: 1 as byte, repel: 1 as byte, sneakingangle: 10.0, motormaxspeed: 4.0, playermovementmult: 1.0, reelin: 1 as byte, sticky: 0 as byte, verticalthrowangle: 0.0, maxlen: 60.0}>)
+setIcon(<grapplemod:grapplinghook>)
+setTitle("Grappling Hook!")
+setDescription("Build a grappling hook for better spelunking")
+setFrameType("challenge")
+addParent("triumph:ancient/crude-iron")
+setPos(158,22)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<grapplemod:grapplinghook>)
