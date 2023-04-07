@@ -6,16 +6,8 @@ potential Jakob tasks:
 		[ ] ironwood
 		[ ] garnet
 		[ ] opal
-		[x] balance amethyst
 		[ ] ironwood (tf)
 		[ ] amber?
-		[x] crude iron?
-		[x] chocolate?
-			[x] casting recipes for chocolate lol - chocolate covered cherry
-			[x] cocoa -> unsweetened chocolate
-			[x] dark +milk _ sugar -> milk chocolate alloy			Tasty - all pieces
-			Uplifting (heals occasionally) - plates, trim, handle, extra
-			Moldable (more enchantments) - core, head
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -23,17 +15,10 @@ potential Jakob tasks:
 	
 	
 	[ ] triumph achievements
-		[x] make pretty
 		[ ] achievments
 			https://minecraft.fandom.com/wiki/Advancement/JSON_format#List_of_triggers
 			- gunpowder
-			[x] flake flint -> flint axe -> chopping block -> crafting table -> tinkers table (steal from sevtech?)
-				- inventory changed never fucking works
-			[x] telepastries
 			[ ] tame a monster girl???
-			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
-			[x] stab a fish (use spear icon)
-			[x] craft terrestrial artifact - get JEI
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -47,15 +32,11 @@ potential Jakob tasks:
 		grimoireofgaia:coalfish
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
-		[x] bibliocraft:plumbline - prehistoric, but bronze?
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[?] unify hemp
-	[x] revisit tips
 	[ ] add rock to tinkers
-	[x] more chopping block recipes
-	[x] rock to throwing rock
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
 	sarias fixes
@@ -64,9 +45,7 @@ potential Jakob tasks:
 		glue
 		hide
 	[ ] turn down slime islands?
-	[x] add more coin recipes and rebalance? 1>8?
 	[ ] more wild mage trades
-	[x] no shaman, mummy, anubis til archery
 	[ ] turn off spooky ambience?
 	[ ] skins
 		[ ] fig leaf
@@ -90,11 +69,35 @@ potential Jakob tasks:
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	achievements
+		[x] make pretty
+			- gunpowder
+			[x] flake flint -> flint axe -> chopping block -> crafting table -> tinkers table (steal from sevtech?)
+				- inventory changed never fucking works
+			[x] telepastries
+			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
+			[x] stab a fish (use spear icon)
+			[x] craft terrestrial artifact - get JEI
+	[x] materials
+		[x] balance amethyst
+		[x] crude iron?
+		[x] chocolate?
+			[x] casting recipes for chocolate lol - chocolate covered cherry
+			[x] cocoa -> unsweetened chocolate
+			[x] dark +milk _ sugar -> milk chocolate alloy			Tasty - all pieces
+			Uplifting (heals occasionally) - plates, trim, handle, extra
+			Moldable (more enchantments) - core, head
+	[x] revisit tips
+	[x] add more coin recipes and rebalance? 1>8?
+	[x] no shaman, mummy, anubis til archery
+	[x] more chopping block recipes
+	[x] rock to throwing rock
 	[x] new glue recipe somwhere for dynamite
 		cauldron: chum + bonemeal + ore:bark, barkWood
 	[x] cobblestone medieval
 		[x] dropt setting for cobblestone
 		[x] disable 4 rock recipe
+	[x] bibliocraft:plumbline - prehistoric, but bronze?
 	[x] stone anvil
 		[x] plates
 	[x] pick a candle
