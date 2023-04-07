@@ -71,6 +71,7 @@ recipes.remove(<minecraft:stone_axe>);
 recipes.removeByRecipeName("minecraft:fishing_rod");
 
 var disabled as IIngredient[] = [
+	<betterwithmods:cooking_pot>,
 	<animania:bee_hive>,
 	<animania:wild_hive>,
 	<aquaculture:neptunium_axe>,
