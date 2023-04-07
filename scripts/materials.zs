@@ -39,15 +39,19 @@ recipes.removeByRecipeName("harvestcraft:cheeseitem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:cheeseitem_dustsalt");
 
 //cold iron
+/*
 recipes.removeByRecipeName("bewitchment:cold_iron_plate");
 recipes.removeByRecipeName("bewitchment:cold_iron_nugget");
 recipes.removeByRecipeName("bewitchment:cold_iron_ingot");
 recipes.removeByRecipeName("bewitchment:block_of_cold_iron");
 recipes.removeByRecipeName("bewitchment:block_of_cold_iron_to_resource");
-mods.tconstruct.Melting.addRecipe(<liquid:molten_cold_iron> * 144,<bewitchment:cold_iron_ingot>, 400);
-mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_cold_iron>, 144);
-mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_cold_iron>, 16);
-mods.tconstruct.Casting.addBasinRecipe(<bewitchment:block_of_cold_iron>, null, <liquid:molten_cold_iron>, 1296);
+*/
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 144,<bewitchment:cold_iron_ingot>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 1296,<bewitchment:block_of_cold_iron>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 16,<bewitchment:cold_iron_nugget>, 400);
+//mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_cold_iron>, 144);
+//mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_cold_iron>, 16);
+//mods.tconstruct.Casting.addBasinRecipe(<bewitchment:block_of_cold_iron>, null, <liquid:molten_cold_iron>, 1296);
 
 //soulforged steel
 mods.tconstruct.Melting.addRecipe(<liquid:molten_soulsteel> * 144,<betterwithmods:material:14>, 400);
@@ -80,6 +84,14 @@ mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolateorangeitem>, <ore:
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatestrawberryitem>, <ore:cropStrawberry>, <liquid:molten_chocolate>, 250);
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>, <ore:dropHoney>, <liquid:molten_chocolate>, 250);
 
+
+//crude iron
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 1296,<primal:block_of_crude_iron>, 400);
+mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_crude_iron>, 144);
+mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_crude_iron>, 16);
+mods.tconstruct.Casting.addBasinRecipe(<primal:metalblock:0>, null, <liquid:molten_crude_iron>, 1296);
+
 //no more blocks by hand
 
 
@@ -87,3 +99,8 @@ mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>,
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
 mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
+
+
+/* cobblestone adjustments */
+<ticonmaterial:stone>.addItem(<primal:rock_stone>);
+
