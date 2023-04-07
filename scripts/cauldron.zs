@@ -75,7 +75,7 @@ recipes.removeByRecipeName("primal:hide_salted");
 mods.primal.Cauldron.addRecipe(
     "salted_hide", 
     6, 
-    <liquid:brine> * 250,
+    <liquid:brine_netjry> * 250,
     [<primal:hide_raw>], 
     [<primal:hide_salted>]
 );
@@ -100,7 +100,7 @@ mods.primal.Cauldron.addRecipe(
 mods.primal.Cauldron.addRecipe(
     "chicken_soup", 
     8, 
-    <liquid:brine> * 250,
+    <liquid:brine_netjry> * 250,
     [<ore:listAllchickencooked>,<ore:listAllveggie>,<harvestcraft:noodlesitem>,<minecraft:bowl>*3], 
     [<betterwithmods:chicken_soup>*3]
 );
@@ -116,7 +116,7 @@ mods.primal.Cauldron.addRecipe(
 mods.primal.Cauldron.addRecipe(
     "hearty_stew", 
     8, 
-    <liquid:brine> * 250,
+    <liquid:brine_netjry> * 250,
     [<ore:listAllmeatcooked>,<ore:listAllveggie>,<minecraft:baked_potato>,<minecraft:bowl>*4], 
     [<betterwithmods:hearty_stew>*4]
 );
@@ -124,7 +124,7 @@ mods.primal.Cauldron.addRecipe(
 mods.primal.Cauldron.addRecipe(
     "beetroot_soup", 
     8, 
-    <liquid:brine> * 250,
+    <liquid:brine_netjry> * 250,
     [<ore:cropBeet>*3,<minecraft:bowl>], 
     [<minecraft:beetroot_soup>]
 );
@@ -162,3 +162,21 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
     [<betterwithmods:material:12>*1]
 );
+
+mods.primal.Cauldron.addRecipe(
+    "salt", 
+    8, 
+    <liquid:water> * 1000,
+    [], 
+    [<bewitchment:salt>*4]
+);
+/*
+recipes.addShaped(<primal:cauldron_lid>,[
+    [<ore:pinWood>],
+    [<primal:crude_iron_plate>]
+]);
+
+recipes.addShaped(<primal:cauldron_lid>,[
+    [<ore:buttonWood>],
+    [<primal:crude_iron_plate>]
+]);*/
