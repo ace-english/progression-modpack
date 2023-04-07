@@ -87,7 +87,7 @@ mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>,
 
 //crude iron
 mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
-mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 1296,<primal:block_of_crude_iron>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 1296,<primal:metalblock:0>, 400);
 mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_crude_iron>, 144);
 mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_crude_iron>, 16);
 mods.tconstruct.Casting.addBasinRecipe(<primal:metalblock:0>, null, <liquid:molten_crude_iron>, 1296);
@@ -101,6 +101,4 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 
 mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
 
 
-/* cobblestone adjustments */
-<ticonmaterial:stone>.addItem(<primal:rock_stone>);
 
