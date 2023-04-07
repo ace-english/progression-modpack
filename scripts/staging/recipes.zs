@@ -679,3 +679,10 @@ recipes.addShaped(<tconstruct:smeltery_controller>, [
     [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
 ]);
 
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {ForgeCaps: {"wizardryutils:summoneditemdata": {}}, id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}), [
+    [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
+    [<primal:metalblock:0>, <tconstruct:tooltables:3>, <primal:metalblock:0>],
+    [<primal:metalblock:0>, null,<primal:metalblock:0>]
+]);
+
+
