@@ -152,9 +152,10 @@ val cold_iron = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("cold_
 cold_iron.localizedName = "Cold Iron";
 cold_iron.color = 0x636e6d;
 cold_iron.liquid = <liquid:molten_cold_iron>;
-cold_iron.castable = true;
-cold_iron.craftable = false;
+cold_iron.castable = false;
+cold_iron.craftable = true;
 cold_iron.representativeItem = <item:bewitchment:cold_iron_ingot>;
+fey_leather.addItem(<item:bewitchment:cold_iron_ingot>);
 cold_iron.addCoreMaterialStats(13,15);
 cold_iron.addPlatesMaterialStats(1, 6, 1);
 cold_iron.addTrimMaterialStats(4);
@@ -238,6 +239,61 @@ soulsteel.addMaterialTrait("hellish", "head");
 soulsteel.addMaterialTrait("heavy", "handle");
 soulsteel.addMaterialTrait("heavy", "extra");
 soulsteel.register();
+
+
+/*        new material - crude_iron          */
+var molten_crude_iron = VanillaFactory.createFluid("molten_crude_iron", Color.fromHex("473f39"));
+molten_crude_iron.register();
+
+val crude_iron = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("crude_iron");
+crude_iron.localizedName = "Crude Iron";
+crude_iron.color = 0x473f39;
+crude_iron.liquid = <liquid:molten_crude_iron>;
+crude_iron.castable = true;
+crude_iron.craftable = false;
+crude_iron.representativeItem = <item:primal:crude_iron_ingot>;
+crude_iron.addCoreMaterialStats(8,10);
+crude_iron.addPlatesMaterialStats(1, 3, 0);
+crude_iron.addTrimMaterialStats(1);
+crude_iron.addHeadMaterialStats(100, 3, 3, 2);
+crude_iron.addHandleMaterialStats(0.75, 60);
+crude_iron.addExtraMaterialStats(40);
+crude_iron.addProjectileMaterialStats();
+crude_iron.addMaterialTrait("cheapskate_armor", "core");
+crude_iron.addMaterialTrait("heavy_armor", "plates");
+crude_iron.addMaterialTrait("cheapskate_armor", "trim");
+crude_iron.addMaterialTrait("crude2", "projectile");
+crude_iron.addMaterialTrait("crude2", "head");
+crude_iron.addMaterialTrait("crude1", "handle");
+crude_iron.addMaterialTrait("crude1", "extra");
+crude_iron.register();
+
+
+
+/*        adjusted material - amethyst           */
+val amethyst = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("amethyst");
+amethyst.localizedName = "Amethyst";
+amethyst.color = 0x9b5cdd;
+amethyst.castable = false;
+amethyst.craftable = true;
+amethyst.representativeItem = <item:bewitchment:amethyst>;
+fey_leather.addItem(<item:bewitchment:amethyst>);
+amethyst.addCoreMaterialStats(10,15);
+amethyst.addPlatesMaterialStats(1, 6, 0);
+amethyst.addTrimMaterialStats(10);
+amethyst.addHeadMaterialStats(200, 7, 5, 2);
+amethyst.addHandleMaterialStats(0.5, 50);
+amethyst.addExtraMaterialStats(100);
+amethyst.addProjectileMaterialStats();
+amethyst.addMaterialTrait("mundane_armor", "core");
+amethyst.addMaterialTrait("mundane_armor", "plates");
+amethyst.addMaterialTrait("dramatic_armor", "trim");
+amethyst.addMaterialTrait("sharp", "projectile");
+amethyst.addMaterialTrait("sharp", "head");
+amethyst.addMaterialTrait("coldblooded", "extra");
+amethyst.register();
+
+
 
 /* cobblestone adjustments */
 <ticonmaterial:stone>.addItem(<item:primal:rock_stone>);
