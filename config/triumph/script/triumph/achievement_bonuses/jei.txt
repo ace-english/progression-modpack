@@ -1,6 +1,6 @@
 setIcon(<biomesoplenty:terrestrial_artifact>)
 setTitle("Worldwalker")
-setDescription("Find gems across various biomes and craft a Terrestrial Artifact")
+setDescription("Find gems across various biomes and craft a Terrestrial Artifact. This achievement will unlock the JEI map")
 addParent("triumph:achievement_bonuses/root")
 setPos(-122,-53)
 
@@ -9,7 +9,7 @@ hideLines()
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<telepastries:terrestrial_artifact>)
+criteria.setItem(<biomesoplenty:terrestrial_artifact>)
 visibleIf("triumph:ancient/root")
 
 setRewardFunction("triumph:exploration")

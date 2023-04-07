@@ -651,6 +651,9 @@ recipes.removeByRecipeName("creepingnether:charwood_to_charcoal");
 mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:49>, <betterwithmods:material:51>);
 mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:51>, <betterwithmods:material:14>);
 
+mods.primaltech.StoneAnvil.addRecipe(<mekanism:dust:4>, <mekanism:oreblock:2>);
+mods.primaltech.StoneAnvil.addRecipe(<mysticalworld:copper_dust>, <mysticalworld:copper_ore>);
+
 
 
 /*********************************************
@@ -675,4 +678,11 @@ recipes.addShaped(<tconstruct:smeltery_controller>, [
     [<tconstruct:materials:0>,<minecraft:blaze_rod>,<tconstruct:materials:0>],
     [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
 ]);
+
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {ForgeCaps: {"wizardryutils:summoneditemdata": {}}, id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}), [
+    [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
+    [<primal:metalblock:0>, <tconstruct:tooltables:3>, <primal:metalblock:0>],
+    [<primal:metalblock:0>, null,<primal:metalblock:0>]
+]);
+
 

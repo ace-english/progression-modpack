@@ -9,7 +9,7 @@ mods.primal.Smelter.addRecipe("carbon", 8, [<primal:charcoal_high>*16, <minecraf
 mods.primal.Smelter.addRecipe("skull", 6, [<minecraft:skull:2>, <primal:charcoal_mote>*3], [<minecraft:skull:0>, <primal:ash_common>]);
 mods.primal.Smelter.addRecipe("charcoal_mote", 2, [<ore:barkWood>], [<primal:charcoal_mote>]);
 mods.primal.Smelter.addRecipe("charcoal", 3, [<ore:logWood>], [<minecraft:coal:1>, <primal:charcoal_mote>*4]);
-mods.primal.Smelter.addRecipe("charcoal_stripped", 3, [<ore:logStripped>], [<minecraft:coal>]);
+//mods.primal.Smelter.addRecipe("charcoal_stripped", 3, [<ore:logStripped>], [<minecraft:coal:1>]);
 mods.primal.Smelter.addRecipe("soul_glass", 6, [<minecraft:soul_sand>, <primal:charcoal_mote>], [<primal:soulglass>]);
 mods.primal.Smelter.addRecipe("glass", 6, [<minecraft:sand>, <primal:charcoal_mote>], [<minecraft:glass>]);
 mods.primal.Smelter.addRecipe("stone", 6, [<minecraft:cobblestone>, <primal:charcoal_mote>], [<minecraft:stone>]);
@@ -18,7 +18,7 @@ mods.primal.Smelter.addRecipe("nether_brick_4", 20, [<ore:stoneNether>, <primal:
 mods.primal.Smelter.addRecipe("nether_brick", 6, [<minecraft:netherrack>, <primal:charcoal_mote>], [<minecraft:netherbrick>]);
 mods.primal.Smelter.addRecipe("cent_egg", 24, [<ore:foodBoiledegg>, <ore:ashWood>, <ore:salt>], [<primal:egg_death>]);
 mods.primal.Smelter.addRecipe("iron", 12, [<ore:oreIron>, <ore:charcoal>, <ore:sand>], [<minecraft:iron_ingot>, <primal:slag>]);
-mods.primal.Smelter.addRecipe("copper", 12, [<ore:oreCopper>, <ore:charcoal>, <ore:sand>], [<immersiveengineering:metal:1>, <primal:slag>]);
+mods.primal.Smelter.addRecipe("copper", 12, [<ore:oreCopper>, <ore:charcoal>, <ore:sand>], [<mysticalworld:copper_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("tin", 12, [<ore:oreTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:6>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("bronze", 48, [<ore:ingotCopper>*3, <ore:ingotTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("bronze_2", 36, [<ore:dustCopper>*3, <ore:dustTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
