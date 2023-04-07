@@ -140,7 +140,7 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     mods.horsepower.Grindstone.add(<biomesoplenty:white_sandstone>, <biomesoplenty:white_sand> * 4, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
     mods.horsepower.Grindstone.add(<ore:barkWood>, <primal:tannin_ground:0> * 2, 16, false);
-    mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<minecraft:coal:1> * 4, 16, false);
+    mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<primal:charcoal_fair> * 9, 16, false);
     mods.horsepower.Grindstone.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:coal_block:0>, <minecraft:coal:0> * 9, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone_block:0>, <minecraft:dye:15> * 9, 16, false);
