@@ -6,6 +6,8 @@
  mods.orestages.OreStages.addReplacement("medieval", <mysticalworld:silver_ore>);
  mods.orestages.OreStages.addReplacement("medieval", <tconstruct:ore:0>); //cobalt
  mods.orestages.OreStages.addReplacement("medieval", <tconstruct:ore:1>); //ardite
+ mods.orestages.OreStages.addReplacement("medieval", <minecraft:netherrack>, <rustic:slate>);
+ mods.orestages.OreStages.addReplacement("medieval", <minecraft:obsidian>, <rustic:slate>);
  
  mods.orestages.OreStages.addReplacement("industrial", <minecraft:coal_ore>);
  mods.orestages.OreStages.addReplacement("industrial", <minecraft:redstone_ore>);
