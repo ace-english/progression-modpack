@@ -361,7 +361,7 @@ mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book>);
 mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book:1>);
 mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book:2>);
 mods.ItemStages.addItemStage("medieval", <cookingforblockheads:spice_rack>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:tool_rack>);
+//mods.ItemStages.addItemStage("medieval", <cookingforblockheads:tool_rack>);
 mods.ItemStages.addItemStage("medieval", <culinaryconstruct:sandwich_station>);
 
 

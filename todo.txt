@@ -41,13 +41,13 @@ potential Jakob tasks:
 		[x] ore dict
 	[ ] 1 salt + 250 water = 250 brine
 	[ ] armor station recipe
-	[ ] crab shell to orange dye
+	[x] crab shell to orange dye
 	[ ] add tcon parts check with immcraft chest
 	[x] pick up hamsters
 	[ ] remove vanilla tools from loot tables
-	[ ] turn down wizards
+	[x] turn down wizards
 	[ ] turn up villages
-	[ ] <ancientwarfare:manual> literacy
+	[x] <ancientwarfare:manual> literacy
 	[ ] maple logs confusing
 	[ ] add copper plate anvil recipe
 	[ ] rafts need to float
