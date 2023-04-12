@@ -103,6 +103,20 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
     [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
 ]);
 
+//trapdoors
+<ore:trapdoorWood>.add(<bewitchment:cypress_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:elder_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:juniper_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:dragons_blood_trapdoor>);
+<ore:trapdoorWood>.add(<roots:wildwood_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:twilight_oak_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:canopy_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:mangrove_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:dark_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:time_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:trans_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:mine_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:sort_trapdoor>);
 
 
 /**************************************************************************
