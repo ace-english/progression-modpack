@@ -30,27 +30,15 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[x] crude iron tool rack
-	[x] work blade + bone knife + roots for more repies
 	[ ] horse press recipe - use thin slab instead of pressure plate
-	[x] turn off wool staging rule
 	[ ] tinker heater recipe
 	trap doors and doors
 		[x] remove the rest
 		[x] replace in recipes
 		[x] ore dict
 	[ ] 1 salt + 250 water = 250 brine
-	[ ] armor station recipe
-	[x] crab shell to orange dye
-	[ ] add tcon parts check with immcraft chest
-	[x] pick up hamsters
-	[ ] remove vanilla tools from loot tables
-	[x] turn down wizards
 	[ ] turn up villages
-	[x] <ancientwarfare:manual> literacy
 	[ ] maple logs confusing
-	[ ] add copper plate anvil recipe
-	[ ] rafts need to float
 	[ ] clay shears
 	- can you make another thaumcraft soap?	
 	[ ] replace emeralds with coins everywhere
@@ -114,6 +102,18 @@ x --- complete --- x
 			Moldable (more enchantments) - core, head
 	[x] revisit tips
 	[x] add more coin recipes and rebalance? 1>8?
+	[x] armor station recipe
+	[x] crab shell to orange dye
+	[x] add tcon parts check with immcraft chest
+	[x] pick up hamsters
+	[x] remove vanilla tools from loot tables
+	[x] turn down wizards
+	[x] <ancientwarfare:manual> literacy
+	[x] add copper plate anvil recipe
+	[x] rafts need to float
+	[x] turn off wool staging rule
+	[x] crude iron tool rack
+	[x] work blade + bone knife + roots for more repies
 	[x] no shaman, mummy, anubis til archery
 	[x] more chopping block recipes
 	[x] rock to throwing rock

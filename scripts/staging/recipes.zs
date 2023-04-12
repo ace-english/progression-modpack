@@ -20,14 +20,6 @@ for workblade in <ore:toolWorkBlade>.items{
 }
 */
 
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:flint_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:quartz_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:iron_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:obsidian_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:opal_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:emerald_workblade>.anyDamage().transformDamage()]);
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, <primal:diamond_workblade>.anyDamage().transformDamage()]);
-
 
 
 //for progression
@@ -503,6 +495,17 @@ bibliocraft
 //                       monocle
 //                       tinted glasses
 
+
+/*********************************************
+
+cookingforblockheads
+
+*********************************************/
+recipes.addShaped(<cookingforblockheads:tool_rack>,[
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+    [<primal:crude_iron_nugget>, null, <primal:crude_iron_nugget>]
+]);
+
 /*********************************************
 
 forestry
@@ -629,6 +632,24 @@ primal
 recipes.removeByRecipeName("primal:cobblestone");
 recipes.addShapeless(<immcraft:rock>, [<primal:rock_stone>]);
 
+recipes.remove(<primal_tech:wooden_hopper>);
+recipes.remove(<primal_tech:charcoal_hopper>);
+recipes.addShaped(<primal_tech:wooden_hopper>, [
+    [<ore:plankWood>,null,<ore:plankWood>],
+    [<ore:plankWood>,null,<ore:plankWood>],
+    [null,<ore:plankWood>, null]
+]);
+recipes.addShaped(<primal_tech:charcoal_hopper>, [
+    [<primal_tech:charcoal_block>,null,<primal_tech:charcoal_block>],
+    [<primal_tech:charcoal_block>,<primal_tech:wooden_hopper>,<primal_tech:charcoal_block>],
+    [null,<primal_tech:charcoal_block>, null]
+]);
+recipes.remove(<horsepower:charcoal_hopper>);
+recipes.addShaped(<horsepower:press>, [
+    [<minecraft:lead>,<ore:stickWood>,<minecraft:lead>],
+    [<ore:plankWood>,<ore:thinWood>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>, <ore:plankWood>]
+]);
 
 //  stone anvil time
 
@@ -640,7 +661,11 @@ furnace.remove(<primal:diamond_plate>, <minecraft:diamond>);
 
 mods.primaltech.StoneAnvil.addRecipe(<minecraft:dye:15>, <death_compass:death_compass>.withTag({}));
 mods.primaltech.StoneAnvil.addRecipe(<primal:diamond_plate>, <minecraft:diamond>);
+mods.primaltech.StoneAnvil.addRecipe(<immersiveengineering:metal:30>, <ore:ingotCopper>);
 mods.primaltech.StoneAnvil.addRecipe(<immersiveengineering:metal:39>, <minecraft:iron_ingot>);
+mods.primaltech.StoneAnvil.addRecipe(<immersiveengineering:metal:40>, <ore:ingotGold>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:tin_plate>, <ore:ingotTin>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:bronze_plate>, <ore:ingotBronze>);
 mods.primaltech.StoneAnvil.addRecipe(<primal:crude_iron_plate>, <primal:crude_iron_ingot>);
 
 furnace.remove(<minecraft:coal:1>, <totemic:stripped_cedar_log>);
@@ -677,6 +702,24 @@ recipes.addShaped(<tconstruct:smeltery_controller>, [
     [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
     [<tconstruct:materials:0>,<minecraft:blaze_rod>,<tconstruct:materials:0>],
     [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
+]);
+
+recipes.addShaped(<tcomplement:melter:8>, [
+    [null,<tconstruct:materials:0>,null],
+    [<tconstruct:materials:0>,<tconstruct:materials:0>,<tconstruct:materials:0>],
+    [<tconstruct:materials:0>,<ore:smelter>,<tconstruct:materials:0>],
+]);
+
+recipes.addShaped(<tconstruct:tooltables:5>, [
+    [null,<tconstruct:pattern:0>,null],
+    [<ore:stickWood>,<immcraft:chest>,<ore:stickWood>],
+    [null,<ore:plankWood>,null],
+]);
+
+recipes.addShaped(<conarm:armorstation>, [
+    [null,<tconstruct:pattern:0>,null],
+    [<tconstruct:pattern:0>,<primal_tech:work_stump>,<tconstruct:pattern:0>],
+    [null,<tconstruct:pattern:0>,null],
 ]);
 
 recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {ForgeCaps: {"wizardryutils:summoneditemdata": {}}, id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}), [
