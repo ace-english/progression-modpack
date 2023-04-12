@@ -70,7 +70,7 @@ recipes.remove(<minecraft:stone_axe>);
 
 recipes.removeByRecipeName("minecraft:fishing_rod");
 
-var disabled as IIngredient[] = [
+var disabledIngredients as IIngredient[] = [
 	<betterwithmods:cooking_pot>,
 	<animania:bee_hive>,
 	<animania:wild_hive>,
@@ -152,9 +152,6 @@ var disabled as IIngredient[] = [
 	<quark:root_dye:0>,
 	<quark:root_dye:1>,
 	<quark:root_dye:2>,
-	<roots:iron_knife>,
-	<roots:diamond_knife>,
-	<roots:gold_knife>,
 	<toughasnails:campfire>,
 	<ancientwarfarevehicle:rough_wood>,
 	<animania:bee_hive>,
@@ -493,6 +490,7 @@ var disabled as IIngredient[] = [
 	<thaumcraft:void_shovel>,
 	<thaumcraft:void_sword>,
 	<totemic:ceremony_cheat>,
+	<totemic:bark_stripper>,
 	<toughasnails:fruit_juice>,
 	<toughasnails:fruit_juice:3>,
 	<toughasnails:fruit_juice:8>,
@@ -565,8 +563,13 @@ var disabled as IIngredient[] = [
 	<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]})
 	];
 	
-for entry in disabled{
+for entry in disabledIngredients{
     mods.ItemStages.addItemStage("disabled", entry);
 	recipes.removeByInput(entry);
 	recipes.remove(entry);
+	//get string
+	var name = entry.commandString as string;
+	var length = name.length();
+	length = length - 1;
+	mods.ltt.LootTable.removeGlobalItem(name.substring(1,length));
 }
