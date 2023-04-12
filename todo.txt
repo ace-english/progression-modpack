@@ -30,6 +30,31 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
+	[x] crude iron tool rack
+	[x] work blade + bone knife + roots for more repies
+	[ ] horse press recipe - use thin slab instead of pressure plate
+	[x] turn off wool staging rule
+	[ ] tinker heater recipe
+	trap doors and doors
+		[x] remove the rest
+		[x] replace in recipes
+		[x] ore dict
+	[ ] 1 salt + 250 water = 250 brine
+	[ ] armor station recipe
+	[ ] crab shell to orange dye
+	[ ] add tcon parts check with immcraft chest
+	[x] pick up hamsters
+	[ ] remove vanilla tools from loot tables
+	[ ] turn down wizards
+	[ ] turn up villages
+	[ ] <ancientwarfare:manual> literacy
+	[ ] maple logs confusing
+	[ ] add copper plate anvil recipe
+	[ ] rafts need to float
+	[ ] clay shears
+	- can you make another thaumcraft soap?	
+	[ ] replace emeralds with coins everywhere
+		- easy villager egg?
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
