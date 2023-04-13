@@ -11,15 +11,6 @@ import mods.roots.Fey;
 //add recipe for <minecraft:fireworks>
 //chainmail
 
-/*
-var workblade = <ore:toolWorkBlade>.anyDamage().transformDamage();
-recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, workblade]);
-
-for workblade in <ore:toolWorkBlade>.items{
-    recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, workblade.anyDamage().transformDamage()]);
-}
-*/
-
 
 
 //for progression
