@@ -32,17 +32,16 @@ potential Jakob tasks:
 		grimoireofgaia:coalfish
 	[ ] horse press recipe - use thin slab instead of pressure plate
 	[ ] tinker heater recipe
-	trap doors and doors
-		[x] remove the rest
-		[x] replace in recipes
-		[x] ore dict
+	roots
+		[ ] easier shears
+		[ ] summon villager
 	[ ] 1 salt + 250 water = 250 brine
-	[ ] turn up villages
 	[ ] maple logs confusing
+	[ ] knife
+		[x] unify
+		[ ] add workblade recipes
 	[ ] clay shears
 	- can you make another thaumcraft soap?	
-	[ ] replace emeralds with coins everywhere
-		- easy villager egg?
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
@@ -52,16 +51,13 @@ potential Jakob tasks:
 	[ ] add rock to tinkers
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
-	sarias fixes
-		[x] copper -> aluminum???
 	wolf head recipes
 		glue
 		hide
-	[ ] turn down slime islands?
 	[ ] more wild mage trades
 	[ ] turn off spooky ambience?
 	[ ] skins
-		[ ] fig leaf
+		[x] fig leaf
 	mobs
 		[ ] add cyborgs
 		[x] stage gear
@@ -91,6 +87,15 @@ x --- complete --- x
 			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[x] craft terrestrial artifact - get JEI
+	[x] turn down slime islands?
+	[-] turn up villages
+	sarias fixes
+		[x] copper -> aluminum???
+	[x] replace emeralds with coins everywhere
+	trap doors and doors
+		[x] remove the rest
+		[x] replace in recipes
+		[x] ore dict
 	[x] materials
 		[x] balance amethyst
 		[x] crude iron?
