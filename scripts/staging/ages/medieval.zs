@@ -692,7 +692,7 @@ mods.ItemStages.addItemStage("medieval", <minecraft:glowstone> );
 mods.ItemStages.addItemStage("medieval", <minecraft:glowstone_dust> );
 mods.ItemStages.addItemStage("medieval", <minecraft:gold_block> );
 mods.ItemStages.addItemStage("medieval", <minecraft:gold_ingot> );
-mods.ItemStages.addItemStage("medieval", <minecraft:gold_nugget> );
+//mods.ItemStages.addItemStage("medieval", <minecraft:gold_nugget> );
 mods.ItemStages.addItemStage("medieval", <minecraft:gold_ore> );
 mods.ItemStages.addItemStage("medieval", <minecraft:golden_apple> );
 mods.ItemStages.addItemStage("medieval", <minecraft:golden_apple:1> );

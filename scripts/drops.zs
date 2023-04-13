@@ -21,7 +21,6 @@ Dropt.list("barley")
 
 
 Dropt.list("early_thaum_crystals")
-
   .add(Dropt.rule()
       .matchBlocks([
         "thaumcraft:crystal_aqua",
@@ -30,8 +29,7 @@ Dropt.list("early_thaum_crystals")
         "thaumcraft:crystal_terra",
         "thaumcraft:crystal_ordo",
         "thaumcraft:crystal_perditio",
-        "thaumcraft:crystal_vitium"
-        ])
+        "thaumcraft:crystal_vitium"])
       .matchHarvester(Dropt.harvester()
         .gameStages("BLACKLIST", "ALL", ["industrial"])
       )
@@ -43,7 +41,6 @@ Dropt.list("early_thaum_crystals")
 
 
 Dropt.list("early_cobblestone")
-
   .add(Dropt.rule()
       .matchBlocks(["minecraft:stone"])
       .matchHarvester(Dropt.harvester()

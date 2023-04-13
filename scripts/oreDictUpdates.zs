@@ -228,15 +228,10 @@ recipes.addShaped(<minecraft:book>, [
     [null, null, null]
 ]);
 
-recipes.removeShaped(<craftelytra:elytra_wing>,[
-    [<minecraft:paper>, <minecraft:feather>, null],
-    [<minecraft:emerald>,<minecraft:paper>, <minecraft:feather>],
-    [<minecraft:string>, <minecraft:paper>, <minecraft:feather>]
-]);
-
+recipes.remove(<craftelytra:elytra_wing>);
 recipes.addShapedMirrored(<craftelytra:elytra_wing>,[
     [<ore:paper>, <ore:feather>, null],
-    [<minecraft:emerald>,<ore:paper>, <ore:feather>],
+    [<ordinarycoins:coingold>,<ore:paper>, <ore:feather>],
     [<ore:string>, <ore:paper>, <ore:feather>]
 ]);
 
