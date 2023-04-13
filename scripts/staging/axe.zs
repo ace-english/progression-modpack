@@ -15,8 +15,3 @@ mods.horsepower.ChoppingBlock.add(<primal:logs_stripped:4>, <primal:brick_mold:4
 mods.horsepower.ChoppingBlock.add(<primal:logs_stripped:5>, <primal:brick_mold:5>.withTag({type: "dark_oak"})*1, 4);
 mods.horsepower.ChoppingBlock.add(<primal:logs_stripped:6>, <primal:brick_mold:6>.withTag({type: "ironwood"})*1, 4);
 mods.horsepower.ChoppingBlock.add(<primal:logs_stripped:7>, <primal:brick_mold:7>.withTag({type: "yew"})*1, 4);
-
-//other stripped wood
-recipes.addShaped(<primal:logs_stripped:0>,[
-    [<ore:toolWorkBlade>, <ore:logWood>],
-]);

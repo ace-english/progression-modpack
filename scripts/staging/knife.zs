@@ -1,8 +1,8 @@
 
 
 
-var knifes = <ore:toolKnife>;
-knifes.add(<animania:carving_knife>);
+var knifes = <ore:toolWorkBlade>;
+//knifes.add(<animania:carving_knife>);
 knifes.add(<tinkers_reforged:runic_knife>);
 knifes.add(<roots:stone_knife>);
 knifes.add(<roots:wood_knife>);
@@ -210,4 +210,139 @@ for knifeEntry in knifes.items{
 
     recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, knife]);
 
+
+    //other stripped wood
+    recipes.addShapeless(<primal:logs_stripped:0>,[<ore:toolWorkBlade>, <ore:logWood>]);
+    //vanilla workblade recipes
+    recipes.addShapeless(<primal:plant_fiber>*3, [<ore:treeSapling>, knife]);
+    recipes.addShapeless(<primal:plant_fiber>*4, [<ore:thatchingMaterial>|<ore:thatchingMaterialBasic>|<primal:daucus_murn_fronds>, knife]);
+    recipes.addShapeless(<primal:nether_fiber>*4, [<primal:nether_root>, knife]);
+    recipes.addShapeless(<primal:void_fiber>*4, [<primal:void_grass_root>, knife]);
+    recipes.addShapeless(<primal:slab_netherearth>*2, [<primal:nether_earth:*>, knife]);
+    recipes.addShapeless(<primal:slab_netherearth>*2, [<ore:blockMudDried>, knife]);
+    recipes.addShapeless(<primal:sharp_bone>, [<ore:bone>, knife]);
+    recipes.addShapeless(<primal:valus_fiber>, [<primal:valus_stalk_fresh>, knife]);
+    recipes.addShapeless(<primal:valus_fiber>*3, [<primal:valus_sepals>, knife]);
+    recipes.addShapeless(<primal:valus_seed>, [<primal:valus_melon>, knife]);
+    recipes.addShapeless(<primal:corypha_seed>, [<primal:corypha_stalk>, knife]);
+    recipes.addShapeless(<primal:devils_tongue_tendril>, [<primal:devils_tongue_sepals>, knife]);
+    recipes.addShapeless(<minecraft:wheat_seeds>*2, [<minecraft:wheat>, knife]);
+    recipes.addShapeless(<primal:searing_sprig>, [<primal:cineris_bloom>, knife]);
+    recipes.addShapeless(<primal:searing_ember>, [<primal:searing_sprig>, knife]);
+
+    recipes.addShapeless(<primal:hide_raw>*4, [<ore:peltLarge>, knife]);
+    recipes.addShapeless(<primal:hide_raw>*4, [<ore:peltMedium>, knife]);
+    recipes.addShapeless(<primal:hide_raw>*2, [<ore:peltSmall>, knife]);
+    
+    recipes.addShapeless(<primal:chum>*2, [<ore:listAllfishraw>, knife]);
+    recipes.addShapeless(<primal:chum>, [<ore:listAllfishrotten>, knife]);
+    recipes.addShapeless(<primal:chum>*2, [<ore:listAllmeatrotten>, knife]);
+    recipes.addShapeless(<primal:chum>*3, [<ore:listAllmeatraw>, knife]);
+    
+    recipes.addShapeless(<primal:diamond_plate>*4, [<minecraft:diamond_horse_armor>, knife]);
+    recipes.addShapeless(<immersiveengineering:metal:39>*4, [<minecraft:iron_horse_armor>, knife]);
+    recipes.addShapeless(<immersiveengineering:metal:40>*4, [<minecraft:golden_horse_armor>, knife]);
+
+    recipes.addShapeless(<primal:ladder_block_cobblestone>, [<minecraft:cobblestone>, knife]);
+    recipes.addShapeless(<primal:ladder_block_cobblestone_mossy>, [<minecraft:mossy_cobblestone>, knife]);
+    recipes.addShapeless(<primal:ladder_block_smoothstone>, [<minecraft:stone>, knife]);
+    recipes.addShapeless(<primal:ladder_block_stonebrick>, [<minecraft:stonebrick:0>, knife]);
+    recipes.addShapeless(<primal:ladder_block_stonebrick_mossy>, [<minecraft:stonebrick:1>, knife]);
+    recipes.addShapeless(<primal:ladder_block_stonebrick_cracked>, [<minecraft:stonebrick:2>, knife]);
+    recipes.addShapeless(<primal:ladder_block_endstone>, [<minecraft:end_stone>, knife]);
+    recipes.addShapeless(<primal:ladder_block_netherrack>, [<minecraft:netherrack>, knife]);
+    recipes.addShapeless(<primal:ladder_block_netherbrick>, [<minecraft:nether_brick>, knife]);
+    recipes.addShapeless(<primal:ladder_block_netherstone>, [<primal:nether_stone>, knife]);
+
+    recipes.addShapeless(<minecraft:stick>, [<minecraft:ladder>, knife]);
+    recipes.addShapeless(<minecraft:stick>*4, [<ore:logSplitNormal>, knife]);
+    recipes.addShapeless(<minecraft:stick>*8, [<ore:logStrippedNormal>, knife]);
+    recipes.addShapeless(<primal:yew_stick>*8, [<primal:logs:1>, knife]);
+    recipes.addShapeless(<primal:ironwood_stick>*8, [<primal:logs:0>, knife]);
+    recipes.addShapeless(<primal:lacquer_stick>*4, [<primal:planks:2>, knife]);
+
+    recipes.addShapeless(<primal:logs_stripped:0>, [<minecraft:log:0>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:1>, [<minecraft:log:1>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:2>, [<minecraft:log:2>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:3>, [<minecraft:log:3>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:4>, [<minecraft:log2:0>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:5>, [<minecraft:log2:1>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:6>, [<primal:logs:0>, knife]);
+    recipes.addShapeless(<primal:logs_stripped:7>, [<primal:logs:1>, knife]);
+    
+    recipes.addShapeless(<primal:corypha_stick>*8, [<ore:logCorypha>, knife]);
+    recipes.addShapeless(<primal:yew_stick>*4, [<primal:logs_split_yew>, knife]);
+    recipes.addShapeless(<primal:ironwood_stick>*4, [<primal:logs_split_ironwood>, knife]);
+
+    recipes.addShapeless(<primal:wood_pin>*2, [<minecraft:stick>, knife]);
+    recipes.addShapeless(<primal:corypha_pin>*2, [<primal:corypha_stick>, knife]);
+
+    recipes.addShapeless(<primal:fletching>*6, [<ore:feather>, knife]);
+    recipes.addShapeless(<primal:leather_strip>*9, [<ore:leather>, knife]);
+
+    recipes.addShapeless(<primal:common_stone:5>, [<primal:common_stone:1>, knife]);
+    recipes.addShapeless(<primal:common_stone:6>, [<primal:common_stone:5>, knife]);
+    recipes.addShapeless(<primal:common_stone:1>, [<primal:common_stone:6>, knife]);
+    recipes.addShapeless(<primal:sarsen_stone:5>, [<primal:sarsen_stone:1>, knife]);
+    recipes.addShapeless(<primal:sarsen_stone:6>, [<primal:sarsen_stone:5>, knife]);
+    recipes.addShapeless(<primal:sarsen_stone:1>, [<primal:sarsen_stone:6>, knife]);
+    recipes.addShapeless(<primal:blue_stone:5>, [<primal:blue_stone:1>, knife]);
+    recipes.addShapeless(<primal:blue_stone:6>, [<primal:blue_stone:5>, knife]);
+    recipes.addShapeless(<primal:blue_stone:1>, [<primal:blue_stone:6>, knife]);
+    recipes.addShapeless(<primal:ortho_stone:5>, [<primal:ortho_stone:1>, knife]);
+    recipes.addShapeless(<primal:ortho_stone:6>, [<primal:ortho_stone:5>, knife]);
+    recipes.addShapeless(<primal:ortho_stone:1>, [<primal:ortho_stone:6>, knife]);
+    recipes.addShapeless(<primal:schist_green_stone:5>, [<primal:schist_green_stone:1>, knife]);
+    recipes.addShapeless(<primal:schist_green_stone:6>, [<primal:schist_green_stone:5>, knife]);
+    recipes.addShapeless(<primal:schist_green_stone:1>, [<primal:schist_green_stone:6>, knife]);
+    recipes.addShapeless(<primal:schist_blue_stone:5>, [<primal:schist_blue_stone:1>, knife]);
+    recipes.addShapeless(<primal:schist_blue_stone:6>, [<primal:schist_blue_stone:5>, knife]);
+    recipes.addShapeless(<primal:schist_blue_stone:1>, [<primal:schist_blue_stone:6>, knife]);
+    recipes.addShapeless(<primal:scoria_stone:5>, [<primal:scoria_stone:1>, knife]);
+    recipes.addShapeless(<primal:scoria_stone:6>, [<primal:scoria_stone:5>, knife]);
+    recipes.addShapeless(<primal:scoria_stone:1>, [<primal:scoria_stone:6>, knife]);
+    recipes.addShapeless(<primal:porphyry_stone:5>, [<primal:porphyry_stone:1>, knife]);
+    recipes.addShapeless(<primal:porphyry_stone:6>, [<primal:porphyry_stone:5>, knife]);
+    recipes.addShapeless(<primal:porphyry_stone:1>, [<primal:porphyry_stone:6>, knife]);
+    recipes.addShapeless(<primal:purpurite_stone:5>, [<primal:purpurite_stone:1>, knife]);
+    recipes.addShapeless(<primal:purpurite_stone:6>, [<primal:purpurite_stone:5>, knife]);
+    recipes.addShapeless(<primal:purpurite_stone:1>, [<primal:purpurite_stone:6>, knife]);
+    recipes.addShapeless(<primal:ferro_stone:5>, [<primal:ferro_stone:1>, knife]);
+    recipes.addShapeless(<primal:ferro_stone:6>, [<primal:ferro_stone:5>, knife]);
+    recipes.addShapeless(<primal:ferro_stone:1>, [<primal:ferro_stone:6>, knife]);
+    recipes.addShapeless(<primal:common_stone:5>, [<primal:common_stone:1>, knife]);
+    recipes.addShapeless(<primal:common_stone:6>, [<primal:common_stone:5>, knife]);
+    recipes.addShapeless(<primal:common_stone:1>, [<primal:common_stone:6>, knife]);
+    recipes.addShapeless(<primal:ciniscotta_block:5>, [<primal:ciniscotta_block:1>, knife]);
+    recipes.addShapeless(<primal:ciniscotta_block:6>, [<primal:ciniscotta_block:5>, knife]);
+    recipes.addShapeless(<primal:ciniscotta_block:1>, [<primal:ciniscotta_block:6>, knife]);
+    recipes.addShapeless(<primal:terracotta_block:5>, [<primal:terracotta_block:1>, knife]);
+    recipes.addShapeless(<primal:terracotta_block:6>, [<primal:terracotta_block:5>, knife]);
+    recipes.addShapeless(<primal:terracotta_block:1>, [<primal:terracotta_block:6>, knife]);
+    recipes.addShapeless(<primal:mud_dried:5>, [<primal:mud_dried:1>, knife]);
+    recipes.addShapeless(<primal:mud_dried:6>, [<primal:mud_dried:5>, knife]);
+    recipes.addShapeless(<primal:mud_dried:1>, [<primal:mud_dried:6>, knife]);
+    recipes.addShapeless(<primal:nether_earth:5>, [<primal:nether_earth:1>, knife]);
+    recipes.addShapeless(<primal:nether_earth:6>, [<primal:nether_earth:5>, knife]);
+    recipes.addShapeless(<primal:nether_earth:1>, [<primal:nether_earth:6>, knife]);
+    recipes.addShapeless(<primal:nether_stone:5>, [<primal:nether_stone:1>, knife]);
+    recipes.addShapeless(<primal:nether_stone:6>, [<primal:nether_stone:5>, knife]);
+    recipes.addShapeless(<primal:nether_stone:1>, [<primal:nether_stone:6>, knife]);
+    recipes.addShapeless(<primal:eroded_end_stone:5>, [<primal:eroded_end_stone:1>, knife]);
+    recipes.addShapeless(<primal:eroded_end_stone:6>, [<primal:eroded_end_stone:5>, knife]);
+    recipes.addShapeless(<primal:eroded_end_stone:1>, [<primal:eroded_end_stone:6>, knife]);
+    recipes.addShapeless(<primal:desiccated_stone:5>, [<primal:desiccated_stone:1>, knife]);
+    recipes.addShapeless(<primal:desiccated_stone:6>, [<primal:desiccated_stone:5>, knife]);
+    recipes.addShapeless(<primal:desiccated_stone:1>, [<primal:desiccated_stone:6>, knife]);
+    recipes.addShapeless(<primal:soul_stone:5>, [<primal:soul_stone:1>, knife]);
+    recipes.addShapeless(<primal:soul_stone:6>, [<primal:soul_stone:5>, knife]);
+    recipes.addShapeless(<primal:soul_stone:1>, [<primal:soul_stone:6>, knife]);
+    recipes.addShapeless(<primal:night_stone:5>, [<primal:night_stone:1>, knife]);
+    recipes.addShapeless(<primal:night_stone:6>, [<primal:night_stone:5>, knife]);
+    recipes.addShapeless(<primal:night_stone:1>, [<primal:night_stone:6>, knife]);
+
+    recipes.addShapeless(<minecraft:tallgrass>, [<primal:tall_grass_seeds>]);
+    recipes.addShapeless(<primal:nether_seed>, [<primal:nether_root>]);
+    recipes.addShapeless(<primal:dry_grass_seed>, [<primal:dry_grass_root>]);
+    recipes.addShapeless(<primal:void_seed>, [<primal:void_grass_root>]);
 }
