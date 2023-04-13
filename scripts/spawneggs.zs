@@ -64,9 +64,9 @@ recipes.addShaped("skeleton", skeleton, [
 ]);
 
 recipes.addShaped("villager", villager, [
-    [<minecraft:beetroot>,<ore:gemEmerald>,<minecraft:wheat>],
-    [<ore:gemEmerald>,<minecraft:spawn_egg>,<ore:gemEmerald>],
-    [<minecraft:carrot>,<ore:gemEmerald>,<minecraft:potato>]
+    [<minecraft:beetroot>,<ordinarycoins:coingold>,<minecraft:wheat>],
+    [<ordinarycoins:coingold>,<minecraft:spawn_egg>,<ordinarycoins:coingold>],
+    [<minecraft:carrot>,<ordinarycoins:coingold>,<minecraft:potato>]
 ]);
 
 recipes.addShaped("witch", witch, [

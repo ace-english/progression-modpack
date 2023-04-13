@@ -3,7 +3,6 @@
 		name: "minecraft:priest"
 	},
 	careers: [
-		"necromancer",
-		"monsterhunter"
+		"necromancer"
 	]
 }
