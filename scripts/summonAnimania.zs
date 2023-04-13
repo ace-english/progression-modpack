@@ -118,3 +118,4 @@ SummonCreatures.addEntity(<entity:animania:doe_pygmy>, [<minecraft:sapling:4>, <
 //add custom recipies for new livestock
 //sheep
 SummonCreatures.addEntity(<entity:twilightforest:bighorn_sheep>, [<twilightforest:twilight_leaves>, <ore:blockWool>]);
+SummonCreatures.addEntity(<entity:minecraft:villager>, [<ore:listAllveggies>, <ore:bread>, <ordinarycoins:coingold>]);

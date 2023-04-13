@@ -33,7 +33,8 @@ potential Jakob tasks:
 	[ ] horse press recipe - use thin slab instead of pressure plate
 	[ ] tinker heater recipe
 	roots
-		[ ] easier shears
+		[x] easier shears
+		[x] pereskia
 		[ ] summon villager
 	[ ] 1 salt + 250 water = 250 brine
 	[ ] maple logs confusing
