@@ -1,0 +1,17 @@
+setIcon(<minecraft:bow>)
+setTitle("1997 Olympic Shotput Champion")
+setDescription("Hit something by throwing a rock or a mud clump at it 50 times. Unlock archery")
+
+addParent("triumph:ancient/rock_throwing")
+
+setFrameType("challenge")
+
+criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")
+
+distance = criteria.getDistanceData()
+distance.setXMin(5)
+
+criteria.setCount(50)
+
+setRewardFunction("triumph:archery")
+setPos(0,70)
