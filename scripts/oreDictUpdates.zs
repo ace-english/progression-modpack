@@ -281,3 +281,16 @@ woodAsh.add(<biomesoplenty:ash>);
 
 <ore:peltSmall>.add(<mysticalworld:pelt>);
 recipes.removeByRecipeName("mysticalworld:pelt_to_leather");
+
+//bark
+for bark in <ore:rootsBark>.items{
+    <ore:barkWood>.add(bark);
+}
+
+<ore:barkOak>.add(<roots:bark_oak>);
+<ore:barkSpruce>.add(<roots:bark_spruce>);
+<ore:barkBirch>.add(<roots:bark_birch>);
+<ore:barkJungle>.add(<roots:bark_jungle>);
+<ore:barkAcacia>.add(<roots:bark_acacia>);
+<ore:barkDarkOak>.add(<roots:bark_dark_oak>);
+<ore:barkOak>.add(<roots:bark_oak>);
