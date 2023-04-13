@@ -37,6 +37,8 @@ potential Jakob tasks:
 		[ ] summon villager
 	[ ] 1 salt + 250 water = 250 brine
 	[ ] maple logs confusing
+	[ ] spooky dogs drop fur
+	[ ] curtain recipe from pelt
 	[ ] knife
 		[x] unify
 		[ ] add workblade recipes
