@@ -103,6 +103,20 @@ recipes.addShaped(<harvestcraft:honeycomb>,[
     [oreDictHoneycomb,oreDictHoneycomb,oreDictHoneycomb]
 ]);
 
+//trapdoors
+<ore:trapdoorWood>.add(<bewitchment:cypress_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:elder_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:juniper_trapdoor>);
+<ore:trapdoorWood>.add(<bewitchment:dragons_blood_trapdoor>);
+<ore:trapdoorWood>.add(<roots:wildwood_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:twilight_oak_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:canopy_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:mangrove_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:dark_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:time_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:trans_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:mine_trapdoor>);
+<ore:trapdoorWood>.add(<twilightforest:sort_trapdoor>);
 
 
 /**************************************************************************
@@ -214,15 +228,10 @@ recipes.addShaped(<minecraft:book>, [
     [null, null, null]
 ]);
 
-recipes.removeShaped(<craftelytra:elytra_wing>,[
-    [<minecraft:paper>, <minecraft:feather>, null],
-    [<minecraft:emerald>,<minecraft:paper>, <minecraft:feather>],
-    [<minecraft:string>, <minecraft:paper>, <minecraft:feather>]
-]);
-
+recipes.remove(<craftelytra:elytra_wing>);
 recipes.addShapedMirrored(<craftelytra:elytra_wing>,[
     [<ore:paper>, <ore:feather>, null],
-    [<minecraft:emerald>,<ore:paper>, <ore:feather>],
+    [<ordinarycoins:coingold>,<ore:paper>, <ore:feather>],
     [<ore:string>, <ore:paper>, <ore:feather>]
 ]);
 

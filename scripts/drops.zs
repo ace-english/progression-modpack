@@ -3,10 +3,6 @@ import mods.dropt.Dropt;
 import mods.dropt.Harvester;
 mods.ltt.LootTable.removeGlobalItem("<ancientwarfare:steel_ingot>");
 mods.ltt.LootTable.removeGlobalItem("<aquaculture:loot:6>");
-mods.ltt.LootTable.removeGlobalItem("<bewitchment:silver_nugget>");
-mods.ltt.LootTable.removeGlobalItem("<minecraft:gold_nugget>");
-mods.ltt.LootTable.removeGlobalItem("<minecraft:iron_nugget>");
-mods.ltt.LootTable.removeGlobalItem("<mysticalworld:copper_nugget>");
 //mods.ltt.LootTable.removeGlobalItem("<harvestcraft:gigapickleseeditem>");
 
 Dropt.list("barley")
@@ -25,7 +21,6 @@ Dropt.list("barley")
 
 
 Dropt.list("early_thaum_crystals")
-
   .add(Dropt.rule()
       .matchBlocks([
         "thaumcraft:crystal_aqua",
@@ -34,8 +29,7 @@ Dropt.list("early_thaum_crystals")
         "thaumcraft:crystal_terra",
         "thaumcraft:crystal_ordo",
         "thaumcraft:crystal_perditio",
-        "thaumcraft:crystal_vitium"
-        ])
+        "thaumcraft:crystal_vitium"])
       .matchHarvester(Dropt.harvester()
         .gameStages("BLACKLIST", "ALL", ["industrial"])
       )
@@ -47,7 +41,6 @@ Dropt.list("early_thaum_crystals")
 
 
 Dropt.list("early_cobblestone")
-
   .add(Dropt.rule()
       .matchBlocks(["minecraft:stone"])
       .matchHarvester(Dropt.harvester()
