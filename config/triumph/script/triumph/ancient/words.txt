@@ -9,9 +9,11 @@ setDescription("Kill the magic man and steal his fancy words")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("triumph:ancient/root")
+hideLines()
+setFrameType("challenge")
 
 //Set the position
-setPos(-20,-82)
+setPos(-22,-89)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
 

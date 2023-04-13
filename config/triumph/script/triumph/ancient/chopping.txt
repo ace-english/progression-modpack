@@ -1,10 +1,10 @@
 setIcon(<horsepower:chopping_block>)
 setTitle("Chopp'd")
 setDescription("Make a chopping block. To make planks, place them on the chopping block and hit repeatedly with an axe")
-addParent("triumph:ancient/wood")
+addParent("triumph:ancient/flint_axe")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<horsepower:chopping_block>)
 
 visibleIf("triumph:ancient/root")
-setPos(43,-9)
+setPos(4,-9)

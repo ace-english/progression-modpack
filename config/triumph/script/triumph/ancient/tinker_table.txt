@@ -7,4 +7,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<tconstruct:tooltables:3>)
 
 visibleIf("triumph:ancient/root")
-setPos(128,-23)
+setPos(86,-25)
