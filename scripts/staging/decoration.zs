@@ -5,6 +5,7 @@
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:torch:3>, <primal_tech:fibre_torch_lit:3>); 
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:torch:4>, <primal_tech:fibre_torch_lit:4>); 
 
+/*
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:0>, <quark:thatch>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:1>, <quark:thatch>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:2>, <quark:thatch>);
@@ -21,6 +22,7 @@
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:13>, <quark:thatch>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:14>, <quark:thatch>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:wool:15>, <quark:thatch>);
+ */
 
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:bed:0>, <primal:tatami_bed:0>);
  mods.orestages.OreStages.addReplacement("medieval", <minecraft:bed:1>, <primal:tatami_bed:0>);
@@ -42,6 +44,7 @@
 
  mods.orestages.OreStages.addReplacement("medieval", <ebwizardry:crystal_flower>, <minecraft:red_flower>);
  
+ mods.orestages.OreStages.addReplacement("medieval", <minecraft:anvil>, <primal_tech:stone_anvil>);
 
 
  //mods.orestages.OreStages.addReplacement("disabled", <minecraft:furnace:*>, <primal:cauldron>);

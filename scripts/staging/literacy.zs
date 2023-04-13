@@ -3,7 +3,9 @@ import crafttweaker.item.IIngredient;
 var items as IIngredient[] = [
 <agricraft:journal>,
 <akashictome:tome>,
+<ancientwarfare:manual>,
 <animania:animania_manual>,
+/*
 <apotheosis:armor_chest_book>,
 <apotheosis:armor_feet_book>,
 <apotheosis:armor_head_book>,
@@ -16,6 +18,7 @@ var items as IIngredient[] = [
 <apotheosis:null_book>,
 <apotheosis:scrap_tome>,
 <apotheosis:weapon_book>,
+*/
 <betterwithmods:arcane_scroll>.withTag({enchant: 0}),
 <betterwithmods:arcane_scroll>.withTag({enchant: 1}),
 <betterwithmods:arcane_scroll>.withTag({enchant: 2}),

@@ -8,16 +8,22 @@
             {
 				action: "add", 
 				CareerLevel:1, 
+				chance: 0.5,
+				maxUses:5,
 				buy:{
 					id: "minecraft:double_plant",
-					Damage: 3,
+					Damage: {min:0,max:5},
 					Count: 1
 				}, 
 				sell:{
 					id: "ordinarycoins:coinbronze", 
-					Count:1
+					Count: {min:1,max:4}
 				}
-			}
+			},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:7,max:16}}, sell:{id:"roots:wildroot", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:7,max:16}}, sell:{id:"roots:terra_moss", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:1,max:5}}, sell:{id:"roots:pereskia", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: {min:1,max:4}}, sell:{id:"roots:wildwood_sapling", Count: 1}, CareerLevel: 5}
 		]
 	}
 }

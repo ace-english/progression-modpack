@@ -30,26 +30,18 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] crude iron tool rack
-	[ ] work blade + bone knife + roots for more repies
 	[ ] horse press recipe - use thin slab instead of pressure plate
-	[ ] turn off wool staging rule
-	[ ] heater recipe
-	[ ] trap doors and doors can be for cavemen
+	[ ] tinker heater recipe
+	roots
+		[ ] easier shears
+		[ ] summon villager
 	[ ] 1 salt + 250 water = 250 brine
-	[ ] armor station recipe
-	[ ] crab shell to orange dye
-	[ ] add tcon parts check with immcraft chest
-	[ ] pick up hamsters
-	[ ] remove vanilla tools from loot tables
-	[ ] turn down wizards
-	[ ] turn up villages
-	[ ] <ancientwarfare:manual> literacy
 	[ ] maple logs confusing
-	[ ] add copped plate anvil recipe
-	[ ] rafts need to float
+	[ ] knife
+		[x] unify
+		[ ] add workblade recipes
 	[ ] clay shears
-	- can you make another thaumcraft soap?
+	- can you make another thaumcraft soap?	
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
@@ -59,16 +51,13 @@ potential Jakob tasks:
 	[ ] add rock to tinkers
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
-	sarias fixes
-		[x] copper -> aluminum???
 	wolf head recipes
 		glue
 		hide
-	[ ] turn down slime islands?
 	[ ] more wild mage trades
 	[ ] turn off spooky ambience?
 	[ ] skins
-		[ ] fig leaf
+		[x] fig leaf
 	mobs
 		[ ] add cyborgs
 		[x] stage gear
@@ -98,6 +87,15 @@ x --- complete --- x
 			[x] find a graveyard and kill a grimoireofgaia:flesh_lich
 			[x] stab a fish (use spear icon)
 			[x] craft terrestrial artifact - get JEI
+	[x] turn down slime islands?
+	[-] turn up villages
+	sarias fixes
+		[x] copper -> aluminum???
+	[x] replace emeralds with coins everywhere
+	trap doors and doors
+		[x] remove the rest
+		[x] replace in recipes
+		[x] ore dict
 	[x] materials
 		[x] balance amethyst
 		[x] crude iron?
@@ -109,6 +107,18 @@ x --- complete --- x
 			Moldable (more enchantments) - core, head
 	[x] revisit tips
 	[x] add more coin recipes and rebalance? 1>8?
+	[x] armor station recipe
+	[x] crab shell to orange dye
+	[x] add tcon parts check with immcraft chest
+	[x] pick up hamsters
+	[x] remove vanilla tools from loot tables
+	[x] turn down wizards
+	[x] <ancientwarfare:manual> literacy
+	[x] add copper plate anvil recipe
+	[x] rafts need to float
+	[x] turn off wool staging rule
+	[x] crude iron tool rack
+	[x] work blade + bone knife + roots for more repies
 	[x] no shaman, mummy, anubis til archery
 	[x] more chopping block recipes
 	[x] rock to throwing rock

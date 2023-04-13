@@ -149,6 +149,7 @@ mods.horsepower.ChoppingBlock.add(<mysticalworld:charred_log>, <mysticalworld:ch
     mods.horsepower.Grindstone.add(<rustic:grapes>, <minecraft:dye:5>*2, 16, false);
     mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
+    mods.horsepower.Grindstone.add(<quark:crab_shell>, <minecraft:dye:14> * 2, 16, false);
 
 
 
@@ -266,10 +267,6 @@ mods.ItemStages.removeItemStage(<bewitchment:juniper_wood_slab>);
 mods.ItemStages.removeItemStage(<bewitchment:cypress_wood_slab>);
 mods.ItemStages.removeItemStage(<bewitchment:elder_wood_slab>);
 mods.ItemStages.removeItemStage(<bewitchment:dragons_blood_slab>);
-mods.ItemStages.removeItemStage(<bewitchment:juniper_trapdoor>);
-mods.ItemStages.removeItemStage(<bewitchment:cypress_trapdoor>);
-mods.ItemStages.removeItemStage(<bewitchment:elder_trapdoor>);
-mods.ItemStages.removeItemStage(<bewitchment:dragons_blood_trapdoor>);
 mods.ItemStages.removeItemStage(<bewitchment:juniper_fence_gate>);
 mods.ItemStages.removeItemStage(<bewitchment:cypress_fence_gate>);
 mods.ItemStages.removeItemStage(<bewitchment:elder_fence_gate>);
