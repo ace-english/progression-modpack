@@ -2,9 +2,9 @@ setIcon(<tconstruct:smeltery_controller>)
 setTitle("The Forge")
 setDescription("Build a Smeltery Controller")
 setFrameType("challenge")
-addParent("triumph:ancient/crude-iron")
+//addParent("triumph:ancient/crude-iron")
 addParent("triumph:ancient/nether_cake")
-setPos(213,29)
+setPos(257,-19)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 

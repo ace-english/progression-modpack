@@ -4,7 +4,7 @@ setTitle("Grappling Hook!")
 setDescription("Build a grappling hook for better spelunking")
 setFrameType("challenge")
 addParent("triumph:ancient/crude-iron")
-setPos(158,22)
+setPos(187,73)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<grapplemod:grapplinghook>)

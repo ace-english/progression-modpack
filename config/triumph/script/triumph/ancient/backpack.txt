@@ -1,0 +1,10 @@
+setIcon(<improvedbackpacks:backpack>)
+setTitle("Backpack Backpack")
+setDescription("Make a backpack. You can equip it in your chest slot. Works as a small portable chest, and is upgradable")
+addParent("triumph:ancient/cauldron")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<improvedbackpacks:backpack>)
+
+visibleIf("triumph:ancient/root")
+setPos(206,29)

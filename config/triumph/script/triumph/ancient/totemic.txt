@@ -1,0 +1,12 @@
+setIcon(<totemic:totem_whittling_knife>)
+setTitle("Latest in knife-based magic")
+setDescription("Create a whittling knife. Can be used to craft totem poles")
+addParent("triumph:ancient/flaking")
+setPos(-44,-95)
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<totemic:totem_whittling_knife>)
+setRewardFunction("triumph:totempedia")

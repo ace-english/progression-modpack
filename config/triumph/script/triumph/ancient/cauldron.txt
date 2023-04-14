@@ -1,0 +1,10 @@
+setIcon(<primal:cauldron>)
+setTitle("Cooking with Fire")
+setDescription("Make a Cauldron. To heat, place over an open flame")
+addParent("triumph:ancient/crude-iron")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primal:cauldron>)
+
+visibleIf("triumph:ancient/root")
+setPos(161,29)

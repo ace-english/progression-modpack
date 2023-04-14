@@ -1,19 +1,12 @@
-//Set icon item
 setIcon(<minecraft:book>)
-
-//Set title String
 setTitle("Literacy")
-
-//Set description String
 setDescription("Kill the magic man and steal his fancy words")
-
-//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("triumph:ancient/root")
 hideLines()
 setFrameType("challenge")
 
 //Set the position
-setPos(-22,-89)
+setPos(59,-106)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
 

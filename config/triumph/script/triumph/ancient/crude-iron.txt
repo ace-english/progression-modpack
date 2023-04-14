@@ -2,7 +2,7 @@ setIcon(<primal:crude_iron_ingot>)
 setTitle("Crude Iron")
 setDescription("Make an ingot from bog iron in a sariras. You can add items to the sariras by throwing them in, then light it with fire sticks or a flint and steel. Shift-click on the sariras to check on the progress")
 addParent("triumph:ancient/charcoal")
-setPos(104,29)
+setPos(124,49)
 
 criteria = addCriteria("made_crude_iron", "minecraft:inventory_changed")
 criteria.addItem("primal:crude_iron_ingot")
