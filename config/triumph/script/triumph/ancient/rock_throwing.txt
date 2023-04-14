@@ -12,7 +12,7 @@ addParent("triumph:ancient/root")
 hideLines()
 
 //Set the position
-setPos(-53,70)
+setPos(-53,59)
 
 
 criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")

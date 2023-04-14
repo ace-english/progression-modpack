@@ -14,4 +14,4 @@ distance.setXMin(5)
 criteria.setCount(50)
 
 setRewardFunction("triumph:archery")
-setPos(0,70)
+setPos(0,59)
