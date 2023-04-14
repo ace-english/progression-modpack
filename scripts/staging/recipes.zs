@@ -631,6 +631,35 @@ rustic
 
 /*********************************************
 
+malisisdoors
+
+*********************************************/
+recipes.addShaped(<malisisdoors:curtain_black>,[
+    [<primal:pelt_bear_black>],
+    [<primal:pelt_bear_black>]
+]);
+recipes.addShaped(<malisisdoors:curtain_gray>,[
+    [<primal:pelt_wolf>],
+    [<primal:pelt_wolf>]
+]);
+var brown_pelt = <primal:pelt_bear_brown>|<primal:pelt_deer>|<totemic:buffalo_items:0>;
+recipes.addShaped(<malisisdoors:curtain_brown>,[
+    [brown_pelt],
+    [brown_pelt]
+]);
+var white_pelt = <primal:pelt_bear_polar>|<primal:pelt_dog>|<primal:pelt_sheep>|<grimoireofgaia:misc_fur>;
+recipes.addShaped(<malisisdoors:curtain_white>,[
+    [white_pelt],
+    [white_pelt]
+]);
+recipes.addShaped(<malisisdoors:curtain_white>,[
+    [<minecraft:rabbit_hide>,<minecraft:rabbit_hide>],
+    [<minecraft:rabbit_hide>,<minecraft:rabbit_hide>],
+    [<minecraft:rabbit_hide>,<minecraft:rabbit_hide>]
+]);
+
+/*********************************************
+
 primal
 
 *********************************************/
