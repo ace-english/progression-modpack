@@ -30,18 +30,18 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] horse press recipe - use thin slab instead of pressure plate
-	[ ] tinker heater recipe
+	[x] horse press recipe - use thin slab instead of pressure plate
+	[x] tinker heater recipe
 	roots
 		[x] easier shears
 		[x] pereskia
 		[ ] summon villager
 	[ ] 1 salt + 250 water = 250 brine
-	[ ] maple logs confusing
-	[ ] knife
+	[x] maple logs confusing
+	[x] knife
 		[x] unify
-		[ ] add workblade recipes
-	[ ] clay shears
+		[x] add workblade recipes
+	[x] clay bottle
 	- can you make another thaumcraft soap?	
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
