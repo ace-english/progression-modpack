@@ -476,6 +476,22 @@ recipes.addShaped(<betterbuilderswands:wanddiamond>, [
     [<ore:stickWood>,null,null]
 ]);
 
+
+/*********************************************
+
+bewitchment
+
+*********************************************/
+
+
+recipes.removeByRecipeName("bewitchment:unfired_jar");
+recipes.addShaped(<bewitchment:unfired_jar>*4, [
+    [null,<minecraft:clay_ball>,null],
+    [<minecraft:clay_ball>,null,<minecraft:clay_ball>],
+    [null,<minecraft:clay_ball>,null]
+]);
+
+
 /*********************************************
 
 bibliocraft
