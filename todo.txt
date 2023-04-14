@@ -39,6 +39,8 @@ potential Jakob tasks:
 	[ ] 1 salt + 250 water = 250 brine
 	[x] maple logs confusing
 	[x] knife
+	[ ] spooky dogs drop fur
+	[ ] curtain recipe from pelt
 		[x] unify
 		[x] add workblade recipes
 	[x] clay bottle
