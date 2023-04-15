@@ -415,6 +415,8 @@ SummonCreatures.addLifeEssence(<entity:animania:ram_suffolk>);
 SummonCreatures.addLifeEssence(<entity:animania:ewe_suffolk>);
 SummonCreatures.addLifeEssence(<entity:animania:lamb_suffolk>);
 
+
+SummonCreatures.addLifeEssence(<entity:minecraft:villager>);
 /*********************************************************
 
 add Animal Harvest drops
