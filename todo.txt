@@ -35,12 +35,20 @@ potential Jakob tasks:
 	roots
 		[x] easier shears
 		[x] pereskia
-		[ ] summon villager
+		[x] summon villager
 	[ ] 1 salt + 250 water = 250 brine
 	[x] maple logs confusing
 	[x] knife
-	[ ] spooky dogs drop fur
-	[ ] curtain recipe from pelt
+	more trades
+		[ ] hedge witch
+		[ ] arborist
+		[ ] farmer bone or flint hoe?
+		[ ] more markets (at level 5)
+		[ ] remove harvestcraft thing
+	[x] too many bare planks
+	[x] spooky dogs drop fur
+	[x] curtain recipe from pelt
+	[x] knives
 		[x] unify
 		[x] add workblade recipes
 	[x] clay bottle
