@@ -30,24 +30,13 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[x] horse press recipe - use thin slab instead of pressure plate
-	[x] tinker heater recipe
-	roots
-		[x] easier shears
-		[x] pereskia
-		[x] summon villager
 	[ ] 1 salt + 250 water = 250 brine
-	[x] maple logs confusing
-	[x] knife
 	more trades
 		[ ] hedge witch
 		[ ] arborist
 		[ ] farmer bone or flint hoe?
 		[ ] more markets (at level 5)
 		[ ] remove harvestcraft thing
-	[x] too many bare planks
-	[x] spooky dogs drop fur
-	[x] curtain recipe from pelt
 	[x] knives
 		[x] unify
 		[x] add workblade recipes
@@ -65,7 +54,6 @@ potential Jakob tasks:
 	wolf head recipes
 		glue
 		hide
-	[ ] more wild mage trades
 	[ ] turn off spooky ambience?
 	[ ] skins
 		[x] fig leaf
@@ -100,6 +88,16 @@ x --- complete --- x
 			[x] craft terrestrial artifact - get JEI
 	[x] turn down slime islands?
 	[-] turn up villages
+	[x] too many bare planks
+	[x] spooky dogs drop fur
+	[x] curtain recipe from pelt
+	[x] maple logs confusing
+	[x] horse press recipe - use thin slab instead of pressure plate
+	[x] tinker heater recipe
+	roots
+		[x] easier shears
+		[x] pereskia
+		[x] summon villager
 	sarias fixes
 		[x] copper -> aluminum???
 	[x] replace emeralds with coins everywhere
