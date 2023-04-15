@@ -230,7 +230,7 @@ for knifeEntry in knifes.items{
     recipes.addShapeless(<primal:searing_sprig>, [<primal:cineris_bloom>, knife]);
     recipes.addShapeless(<primal:searing_ember>, [<primal:searing_sprig>, knife]);
 
-    recipes.addShapeless(<primal:hide_raw>*4, [<ore:peltLarge>, knife]);
+    recipes.addShapeless(<primal:hide_raw>*6, [<ore:peltLarge>, knife]);
     recipes.addShapeless(<primal:hide_raw>*4, [<ore:peltMedium>, knife]);
     recipes.addShapeless(<primal:hide_raw>*2, [<ore:peltSmall>, knife]);
     
