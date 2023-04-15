@@ -9,7 +9,7 @@ setFrameType("challenge")
 criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")
 
 distance = criteria.getDistanceData()
-distance.setXMin(5)
+distance.setAbsoluteMin(5)
 
 criteria.setCount(50)
 

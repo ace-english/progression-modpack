@@ -121,3 +121,16 @@ Dropt.list("bookstand")
       )
   );
 
+
+
+/*********************************************
+
+mobs
+
+*********************************************/
+
+<entity:bewitchment:werewolf>.addDrop(<primal:pelt_dog> % 30);
+
+<entity:bewitchment:black_dog>.addDrop(<primal:pelt_wolf> % 70);
+<entity:bewitchment:black_dog>.addDrop(<minecraft:bone>);
+<entity:bewitchment:black_dog>.addDrop(<primal:wolf_meat_raw>);
