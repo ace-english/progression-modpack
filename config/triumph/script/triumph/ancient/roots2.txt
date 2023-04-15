@@ -3,6 +3,7 @@ setTitle("This is a knife")
 setDescription("Create a runic knife on a tool forge, for Roots and various crafting purposes")
 addParent("triumph:ancient/roots1")
 
-criteria = addCriteria("crafted", "minecraft:inventory_changed")
+//criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<tinkers_reforged:runic_knife>)
 setPos(141,-81)
