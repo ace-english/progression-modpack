@@ -2,7 +2,7 @@ setIcon(<primal:charcoal_stack>)
 setTitle("Charcoal")
 setDescription("Make charcoal by burying logs and lighting them on fire")
 addParent("triumph:ancient/workstump")
-setPos(87,49)
+setPos(87,47)
 //hideLines()
 
 criteria = addCriteria("brokeCharcoal", "triumph:player_break_block")
