@@ -1,6 +1,7 @@
 import mods.roots.Mortar;
 import mods.roots.Fey;
 import mods.roots.Pyre;
+import mods.roots.Rituals;
 
 recipes.remove(<minecraft:gunpowder>);
 Mortar.addRecipe("gunpowder", <minecraft:gunpowder>*3, [
@@ -21,7 +22,15 @@ Pyre.removeRecipe(<roots:pereskia>);
 Pyre.addRecipe("roots:pereskia", <roots:pereskia>*3,
     [<roots:wildroot>,<roots:petals>, <ore:listAllveggie>, <ore:gemAmber>, <minecraft:reeds>]);
 
+Pyre.removeRecipe(<roots:stalicripe>);
+Pyre.addRecipe("roots:stalicripe", <roots:stalicripe>*3,
+    [<minecraft:flint>,<minecraft:stone>, <ore:listAllveggie>, <ore:gemAmber>, <minecraft:reeds>]);
+
 Pyre.removeRecipe(<roots:infernal_bulb>);
 Pyre.addRecipe("roots:infernal_bulb", <roots:infernal_bulb>*3,
     [<roots:wildroot>,<minecraft:magma_cream>, <ore:dustSaltpeter>, <ore:itemLavaBucket>, <betterwithmods:material:16>]);
 
+Rituals.modifyRitual("ritual_grove_supplication", [
+    //<ore:doorWood>|<ore:curtain>, <minecraft:mossy_cobblestone>, <ore:treeSapling>, <roots:wildroot>, <roots:petals>
+    <ore:doorWood>|<ore:curtain>, <minecraft:stone>, <minecraft:iron_ingot>|<primal:crude_iron_ingot>, <roots:wildroot>, <ore:gemAmber>
+]);
