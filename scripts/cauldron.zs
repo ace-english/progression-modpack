@@ -93,7 +93,7 @@ mods.primal.Cauldron.addRecipe(
     "nethersludge", 
     4, 
     <liquid:water> * 250,
-    [<betterwithmods:material:21>,<betterwithmods:material:16>*4], 
+    [<ore:ash>,<betterwithmods:material:16>*4], 
     [<betterwithmods:material:35>*8]
 );
 
