@@ -20,3 +20,8 @@ Fey.addRecipe("runic_shears", <roots:runic_shears>,
 Pyre.removeRecipe(<roots:pereskia>);
 Pyre.addRecipe("roots:pereskia", <roots:pereskia>*3,
     [<roots:wildroot>,<roots:petals>, <ore:listAllveggie>, <ore:gemAmber>, <minecraft:reeds>]);
+
+Pyre.removeRecipe(<roots:infernal_bulb>);
+Pyre.addRecipe("roots:infernal_bulb", <roots:infernal_bulb>*3,
+    [<roots:wildroot>,<minecraft:magma_cream>, <ore:dustSaltpeter>, <ore:itemLavaBucket>, <betterwithmods:material:16>]);
+
