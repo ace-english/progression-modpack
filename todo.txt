@@ -31,6 +31,15 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] 1 salt + 250 water = 250 brine
+	[ ] rock throw
+		- rock + distance??
+	[ ] workblade back iunto knives family
+	[ ] andesite?
+	[ ] make tin easier to find
+	all stagin files - also stage recipes
+	[ ] grove supplication
+		-add curtains
+	[ ] add @sapling to BOP pits
 	more trades
 		[ ] hedge witch
 		[ ] arborist
