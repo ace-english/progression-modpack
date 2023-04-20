@@ -1,15 +1,18 @@
 setIcon(<minecraft:bow>)
 setTitle("1997 Olympic Shotput Champion")
-setDescription("Hit something by throwing a rock or a mud clump at it 50 times. Unlock archery")
+setDescription("Kill something by throwing a rock or a mud clump at it 50 times. Unlock archery")
 
-addParent("triumph:ancient/rock_throwing")
+addParent("triumph:ancient/rock_yeet")
 
 setFrameType("challenge")
 
 criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")
 
-distance = criteria.getDistanceData()
-distance.setAbsoluteMin(5)
+
+criteria = addCriteria("Throw rocks", "minecraft:player_killed_entity")
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)
 
 criteria.setCount(50)
 
