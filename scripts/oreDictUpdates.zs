@@ -21,6 +21,9 @@ midori.displayName="Midori";
 midori.addTooltip("Sorry Jakob, Joe made me do it");
 */
 
+<ore:peltSmall>.add(<mysticalworld:pelt>);
+recipes.removeByRecipeName("mysticalworld:pelt_to_leather");
+
 //snow blocks into snowballs
 recipes.addShapeless(<minecraft:snowball>*4, [<minecraft:snow>]);
 
@@ -274,13 +277,10 @@ recipes.removeByRecipeName("crafttweaker:animania_lead_modified");
 <ore:toolShears>.add(<primal:quartz_shears>);
 <ore:toolShears>.add(<bewitchment:boline>);
 
-//misc
-val woodAsh=<ore:ashWood>;
+//ash
+val woodAsh=<ore:ash>;
 woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
-
-<ore:peltSmall>.add(<mysticalworld:pelt>);
-recipes.removeByRecipeName("mysticalworld:pelt_to_leather");
 
 //bark
 for bark in <ore:rootsBark>.items{
