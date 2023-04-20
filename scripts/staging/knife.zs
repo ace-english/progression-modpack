@@ -1,7 +1,7 @@
 
 
 
-var knifes = <ore:toolWorkBlade>;
+var knifes = <ore:toolKnife>;
 //knifes.add(<animania:carving_knife>);
 knifes.add(<tinkers_reforged:runic_knife>);
 knifes.add(<roots:stone_knife>);
@@ -18,7 +18,13 @@ knifes.add(<fishingmadebetter:fillet_knife_diamond>);
 knifes.add(<fishingmadebetter:scaling_knife_wood>);
 knifes.add(<fishingmadebetter:scaling_knife_iron>);
 knifes.add(<fishingmadebetter:scaling_knife_diamond>);
-
+knifes.add(<primal:diamond_workblade>);
+knifes.add(<primal:emerald_workblade>);
+knifes.add(<primal:flint_workblade>);
+knifes.add(<primal:iron_workblade>);
+knifes.add(<primal:obsidian_workblade>);
+knifes.add(<primal:opal_workblade>);
+knifes.add(<primal:quartz_workblade>);
 
 for knifeEntry in knifes.items{
     var knife=knifeEntry.anyDamage().transformDamage();
@@ -213,6 +219,7 @@ for knifeEntry in knifes.items{
 
     //other stripped wood
     recipes.addShapeless(<primal:logs_stripped:0>,[<ore:toolWorkBlade>, <ore:logWood>]);
+
     //vanilla workblade recipes
     recipes.addShapeless(<primal:plant_fiber>*3, [<ore:treeSapling>, knife]);
     recipes.addShapeless(<primal:plant_fiber>*4, [<ore:thatchingMaterial>|<ore:thatchingMaterialBasic>|<primal:daucus_murn_fronds>, knife]);
@@ -256,7 +263,7 @@ for knifeEntry in knifes.items{
 
     recipes.addShapeless(<minecraft:stick>, [<minecraft:ladder>, knife]);
     recipes.addShapeless(<minecraft:stick>*4, [<ore:logSplitNormal>, knife]);
-    recipes.addShapeless(<minecraft:stick>*8, [<ore:logStrippedNormal>, knife]);
+    recipes.addShapeless(<minecraft:stick>*8, [<ore:strippedNormal>, knife]);
     recipes.addShapeless(<primal:yew_stick>*8, [<primal:logs:1>, knife]);
     recipes.addShapeless(<primal:ironwood_stick>*8, [<primal:logs:0>, knife]);
     recipes.addShapeless(<primal:lacquer_stick>*4, [<primal:planks:2>, knife]);
@@ -341,7 +348,7 @@ for knifeEntry in knifes.items{
     recipes.addShapeless(<primal:night_stone:6>, [<primal:night_stone:5>, knife]);
     recipes.addShapeless(<primal:night_stone:1>, [<primal:night_stone:6>, knife]);
 
-    recipes.addShapeless(<minecraft:tallgrass>, [<primal:tall_grass_seeds>]);
+//    recipes.addShapeless(<minecraft:tallgrass>, [<primal:tall_grass_seeds>]);
     recipes.addShapeless(<primal:nether_seed>, [<primal:nether_root>]);
     recipes.addShapeless(<primal:dry_grass_seed>, [<primal:dry_grass_root>]);
     recipes.addShapeless(<primal:void_seed>, [<primal:void_grass_root>]);
