@@ -1,545 +1,570 @@
+import crafttweaker.item.IIngredient;
+
+
 mods.ItemStages.stageModItems("future", "mysticalagriculture");
 mods.ItemStages.stageModItems("future", "compactmachines3");
 mods.ItemStages.stageModItems("future", "psi");
 mods.ItemStages.stageModItems("future", "portalgun");
+mods.ItemStages.stageModItems("future","mekanismgenerators");
+mods.ItemStages.stageModItems("future","mts");
+mods.ItemStages.stageModItems("future","opencomputers");
+mods.ItemStages.stageModItems("future","projectred-core");
+mods.ItemStages.stageModItems("future","projectred-fabrication");
+mods.ItemStages.stageModItems("future","projectred-integration");
+mods.ItemStages.stageModItems("future","projectred-transmission");
+mods.ItemStages.stageModItems("future","scannable");
+mods.ItemStages.stageModItems("future","storagenetwork");
+mods.ItemStages.stageModItems("future","xnet");
 
-mods.ItemStages.addItemStage("future", <fishingmadebetter:fish_tracker_iron>);
-mods.ItemStages.addItemStage("future", <fishingmadebetter:fish_tracker_diamond>);
-mods.ItemStages.addItemStage("future", <fishingmadebetter:fish_tracker_obsidian>);
-mods.ItemStages.addItemStage("future", <fishingmadebetter:fish_tracker_void>);
-mods.ItemStages.addItemStage("future", <fishingmadebetter:fish_tracker_gold>);
-mods.ItemStages.addItemStage("future", <betterbuilderswands:wandunbreakable> );
-mods.ItemStages.addItemStage("future", <betterwithmods:companion_cube> );
-mods.ItemStages.addItemStage("future", <compactmachines3:fieldprojector> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine:1> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine:2> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine:3> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine:4> );
-mods.ItemStages.addItemStage("future", <compactmachines3:machine:5> );
-mods.ItemStages.addItemStage("future", <compactmachines3:psd> );
-mods.ItemStages.addItemStage("future", <compactmachines3:redstonetunnel> );
-mods.ItemStages.addItemStage("future", <compactmachines3:redstonetunneltool> );
-mods.ItemStages.addItemStage("future", <compactmachines3:tunnel> );
-mods.ItemStages.addItemStage("future", <compactmachines3:tunneltool> );
-mods.ItemStages.addItemStage("future", <compactmachines3:wall> );
-mods.ItemStages.addItemStage("future", <compactmachines3:wallbreakable> );
-mods.ItemStages.addItemStage("future", <malisisdoors:forcefielditem> );
-mods.ItemStages.addItemStage("future", <malisisdoors:hitechdoor> );
-mods.ItemStages.addItemStage("future", <mekanism:anchorupgrade> );
-mods.ItemStages.addItemStage("future", <mekanism:armoredjetpack> );
-mods.ItemStages.addItemStage("future", <mekanism:armoredjetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}) );
-mods.ItemStages.addItemStage("future", <mekanism:atomicalloy> );
-mods.ItemStages.addItemStage("future", <mekanism:atomicdisassembler> );
-mods.ItemStages.addItemStage("future", <mekanism:atomicdisassembler>.withTag({mekData: {energyStored: 1000000.0}}) );
-mods.ItemStages.addItemStage("future", <mekanism:jetpack> );
-mods.ItemStages.addItemStage("future", <mekanism:jetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}) );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_brass_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_brass_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_brass_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:aluminum_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:amber_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:amber_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:amber_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:apatite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:apatite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:apatite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ardite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ardite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ardite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:basalt_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:basalt_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:basalt_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:blaze_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:blaze_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:blaze_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:brass_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:brass_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:brass_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:bronze_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:bronze_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:bronze_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:7> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:8> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:9> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:10> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:11> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:12> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:13> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:14> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:15> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:16> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:17> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:18> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:19> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:charm:20> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chicken_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chicken_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chicken_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:7> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:8> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:9> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:10> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:11> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:12> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:13> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:14> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:15> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:16> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:17> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:18> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:19> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:chunk:20> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_block> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_block:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_block:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_block:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_block:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:coal_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobalt_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobalt_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobalt_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobbled_soulstone_slab> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobbled_soulstone_stairs> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cobbled_soulstone_wall> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:constantan_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:constantan_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:constantan_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:copper_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:copper_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:copper_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:core_remover> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cow_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cow_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:cow_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:7> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:8> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:9> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:14> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:15> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:16> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:17> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:18> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:19> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:20> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:21> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:22> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:23> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:24> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:28> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:29> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:32> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:33> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:34> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:35> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:36> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:37> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:38> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:39> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:40> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:41> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:42> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:43> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:44> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:45> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:48> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:50> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:51> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:52> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:53> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:crafting:54> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:creeper_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:creeper_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:creeper_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:diamond_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:diamond_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:diamond_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dirt_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dirt_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dirt_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dye_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dye_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:dye_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrotine_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrotine_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrotine_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrum_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrum_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:electrum_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:emerald_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:emerald_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:emerald_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:end_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:end_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:end_inferium_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:end_prosperity_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:end_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_amethyst_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_amethyst_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_amethyst_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_biotite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_biotite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ender_biotite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:enderman_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:enderman_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:enderman_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:experience_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:experience_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:experience_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fertilized_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fiery_ingot_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fiery_ingot_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fiery_ingot_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fire_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fire_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:fire_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:7> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:8> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:9> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:15> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:16> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:17> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:18> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gear:19> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ghast_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ghast_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ghast_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_ingot_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_ingot_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_ingot_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_lamp> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:glowstone_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gold_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gold_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:gold_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:growth_accelerator> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:guardian_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:guardian_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:guardian_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:hop_graphite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:hop_graphite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:hop_graphite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ice_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ice_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ice_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_apple> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_arrow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_axe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_boots> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_bow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_chestplate> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_fishing_rod> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_helmet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_hoe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_leggings> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_pickaxe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_scythe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_shears> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_shovel> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_sickle> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:inferium_sword> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:infusion_crystal> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ingot_storage:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_apple> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_arrow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_axe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_boots> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_bow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_chestplate> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_fishing_rod> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_helmet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_hoe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_leggings> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_pickaxe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_scythe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_shears> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_shovel> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_sickle> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:intermedium_sword> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:iron_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:iron_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:iron_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ironwood_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ironwood_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ironwood_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightmetal_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightmetal_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightmetal_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightslime_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightslime_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:knightslime_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lapis_lazuli_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lapis_lazuli_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lapis_lazuli_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lead_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lead_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:lead_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:limestone_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:limestone_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:limestone_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:malachite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:malachite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:malachite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:manyullyn_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:manyullyn_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:manyullyn_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:marble_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:marble_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:marble_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:master_infusion_crystal> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:miners_torch> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:mystical_fertilizer> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:mystical_machine_frame> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nature_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nature_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nature_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_inferium_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_prosperity_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_quartz_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_quartz_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_quartz_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nether_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nickel_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nickel_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:nickel_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:obsidian_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:obsidian_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:obsidian_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:osmium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:osmium_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:osmium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:peridot_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:peridot_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:peridot_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:pig_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:pig_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:pig_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prosperity_ore> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_apple> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_arrow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_axe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_boots> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_bow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_chestplate> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_fishing_rod> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_helmet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_hoe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_leggings> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_pickaxe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_scythe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_shears> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_shovel> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_sickle> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:prudentium_sword> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:quicksilver_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:quicksilver_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:quicksilver_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:rabbit_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:rabbit_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:rabbit_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:redstone_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:redstone_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:redstone_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:refined_obsidian_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:refined_obsidian_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:refined_obsidian_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ruby_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ruby_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ruby_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sapphire_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sapphire_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sapphire_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:seed_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sheep_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sheep_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:sheep_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:silver_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:silver_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:silver_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:skeleton_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:skeleton_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:skeleton_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slate_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slate_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slate_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slime_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slime_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:slime_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soul_glass> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soul_glass_pane> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulium_dagger> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone:6> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone_brick_slab> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone_brick_stairs> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone_brick_wall> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:soulstone_slab> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:spider_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:spider_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:spider_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steel_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steel_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steel_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steeleaf_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steeleaf_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:steeleaf_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:stone_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:stone_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:stone_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:storage:5> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_apple> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_arrow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_axe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_boots> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_bow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_chestplate> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_fishing_rod> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_helmet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_hoe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_leggings> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_pickaxe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_scythe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_shears> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_shovel> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_sickle> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:superium_sword> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_apple> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_arrow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_axe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_boots> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_bow> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_chestplate> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_fishing_rod> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_helmet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_hoe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_leggings> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_pickaxe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_scythe> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_shears> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_shovel> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_sickle> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:supremium_sword> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tanzanite_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tanzanite_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tanzanite_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:thaumium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:thaumium_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:thaumium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier1_inferium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier1_inferium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier2_inferium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier2_inferium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier3_inferium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier3_inferium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier4_inferium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier4_inferium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier5_inferium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tier5_inferium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tin_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tin_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tin_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tinkering_table> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tinkering_table:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tinkering_table:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tinkering_table:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:tinkering_table:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:topaz_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:topaz_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:topaz_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ultimate_furnace> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:ultimate_reprocessor> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:uranium_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:uranium_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:uranium_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:void_metal_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:void_metal_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:void_metal_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:water_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:water_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:water_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:watering_can> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:watering_can:1> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:watering_can:2> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:watering_can:3> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:watering_can:4> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wither_skeleton_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wither_skeleton_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wither_skeleton_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:witherproof_block> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:witherproof_glass> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wood_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wood_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:wood_seeds> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:xp_droplet> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:zombie_crop> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:zombie_essence> );
-mods.ItemStages.addItemStage("future", <mysticalagriculture:zombie_seeds> );
-mods.ItemStages.addItemStage("future", <wirelesscharger:wirelesscharger> );
+var futureIngredients as IIngredient[] = [
+    <fishingmadebetter:fish_tracker_iron>,
+    <fishingmadebetter:fish_tracker_diamond>,
+    <fishingmadebetter:fish_tracker_obsidian>,
+    <fishingmadebetter:fish_tracker_void>,
+    <fishingmadebetter:fish_tracker_gold>,
+    <betterbuilderswands:wandunbreakable>,
+    <betterwithmods:companion_cube>,
+    <compactmachines3:fieldprojector>,
+    <compactmachines3:machine>,
+    <compactmachines3:machine:1>,
+    <compactmachines3:machine:2>,
+    <compactmachines3:machine:3>,
+    <compactmachines3:machine:4>,
+    <compactmachines3:machine:5>,
+    <compactmachines3:psd>,
+    <compactmachines3:redstonetunnel>,
+    <compactmachines3:redstonetunneltool>,
+    <compactmachines3:tunnel>,
+    <compactmachines3:tunneltool>,
+    <compactmachines3:wall>,
+    <compactmachines3:wallbreakable>,
+    <malisisdoors:forcefielditem>,
+    <malisisdoors:hitechdoor>,
+    <mekanism:anchorupgrade>,
+    <mekanism:armoredjetpack>,
+    <mekanism:armoredjetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
+    <mekanism:atomicalloy>,
+    <mekanism:atomicdisassembler>,
+    <mekanism:atomicdisassembler>.withTag({mekData: {energyStored: 1000000.0}}),
+    <mekanism:jetpack>,
+    <mekanism:jetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
+    <mysticalagriculture:aluminum_brass_crop>,
+    <mysticalagriculture:aluminum_brass_essence>,
+    <mysticalagriculture:aluminum_brass_seeds>,
+    <mysticalagriculture:aluminum_crop>,
+    <mysticalagriculture:aluminum_essence>,
+    <mysticalagriculture:aluminum_seeds>,
+    <mysticalagriculture:amber_crop>,
+    <mysticalagriculture:amber_essence>,
+    <mysticalagriculture:amber_seeds>,
+    <mysticalagriculture:apatite_crop>,
+    <mysticalagriculture:apatite_essence>,
+    <mysticalagriculture:apatite_seeds>,
+    <mysticalagriculture:ardite_crop>,
+    <mysticalagriculture:ardite_essence>,
+    <mysticalagriculture:ardite_seeds>,
+    <mysticalagriculture:basalt_crop>,
+    <mysticalagriculture:basalt_essence>,
+    <mysticalagriculture:basalt_seeds>,
+    <mysticalagriculture:blaze_crop>,
+    <mysticalagriculture:blaze_essence>,
+    <mysticalagriculture:blaze_seeds>,
+    <mysticalagriculture:brass_crop>,
+    <mysticalagriculture:brass_essence>,
+    <mysticalagriculture:brass_seeds>,
+    <mysticalagriculture:bronze_crop>,
+    <mysticalagriculture:bronze_essence>,
+    <mysticalagriculture:bronze_seeds>,
+    <mysticalagriculture:charm>,
+    <mysticalagriculture:charm:1>,
+    <mysticalagriculture:charm:2>,
+    <mysticalagriculture:charm:3>,
+    <mysticalagriculture:charm:4>,
+    <mysticalagriculture:charm:5>,
+    <mysticalagriculture:charm:6>,
+    <mysticalagriculture:charm:7>,
+    <mysticalagriculture:charm:8>,
+    <mysticalagriculture:charm:9>,
+    <mysticalagriculture:charm:10>,
+    <mysticalagriculture:charm:11>,
+    <mysticalagriculture:charm:12>,
+    <mysticalagriculture:charm:13>,
+    <mysticalagriculture:charm:14>,
+    <mysticalagriculture:charm:15>,
+    <mysticalagriculture:charm:16>,
+    <mysticalagriculture:charm:17>,
+    <mysticalagriculture:charm:18>,
+    <mysticalagriculture:charm:19>,
+    <mysticalagriculture:charm:20>,
+    <mysticalagriculture:chicken_crop>,
+    <mysticalagriculture:chicken_essence>,
+    <mysticalagriculture:chicken_seeds>,
+    <mysticalagriculture:chunk>,
+    <mysticalagriculture:chunk:1>,
+    <mysticalagriculture:chunk:2>,
+    <mysticalagriculture:chunk:3>,
+    <mysticalagriculture:chunk:4>,
+    <mysticalagriculture:chunk:5>,
+    <mysticalagriculture:chunk:6>,
+    <mysticalagriculture:chunk:7>,
+    <mysticalagriculture:chunk:8>,
+    <mysticalagriculture:chunk:9>,
+    <mysticalagriculture:chunk:10>,
+    <mysticalagriculture:chunk:11>,
+    <mysticalagriculture:chunk:12>,
+    <mysticalagriculture:chunk:13>,
+    <mysticalagriculture:chunk:14>,
+    <mysticalagriculture:chunk:15>,
+    <mysticalagriculture:chunk:16>,
+    <mysticalagriculture:chunk:17>,
+    <mysticalagriculture:chunk:18>,
+    <mysticalagriculture:chunk:19>,
+    <mysticalagriculture:chunk:20>,
+    <mysticalagriculture:coal>,
+    <mysticalagriculture:coal:1>,
+    <mysticalagriculture:coal:2>,
+    <mysticalagriculture:coal:3>,
+    <mysticalagriculture:coal:4>,
+    <mysticalagriculture:coal_block>,
+    <mysticalagriculture:coal_block:1>,
+    <mysticalagriculture:coal_block:2>,
+    <mysticalagriculture:coal_block:3>,
+    <mysticalagriculture:coal_block:4>,
+    <mysticalagriculture:coal_crop>,
+    <mysticalagriculture:coal_essence>,
+    <mysticalagriculture:coal_seeds>,
+    <mysticalagriculture:cobalt_crop>,
+    <mysticalagriculture:cobalt_essence>,
+    <mysticalagriculture:cobalt_seeds>,
+    <mysticalagriculture:cobbled_soulstone_slab>,
+    <mysticalagriculture:cobbled_soulstone_stairs>,
+    <mysticalagriculture:cobbled_soulstone_wall>,
+    <mysticalagriculture:constantan_crop>,
+    <mysticalagriculture:constantan_essence>,
+    <mysticalagriculture:constantan_seeds>,
+    <mysticalagriculture:copper_crop>,
+    <mysticalagriculture:copper_essence>,
+    <mysticalagriculture:copper_seeds>,
+    <mysticalagriculture:core_remover>,
+    <mysticalagriculture:cow_crop>,
+    <mysticalagriculture:cow_essence>,
+    <mysticalagriculture:cow_seeds>,
+    <mysticalagriculture:crafting>,
+    <mysticalagriculture:crafting:1>,
+    <mysticalagriculture:crafting:2>,
+    <mysticalagriculture:crafting:3>,
+    <mysticalagriculture:crafting:4>,
+    <mysticalagriculture:crafting:5>,
+    <mysticalagriculture:crafting:6>,
+    <mysticalagriculture:crafting:7>,
+    <mysticalagriculture:crafting:8>,
+    <mysticalagriculture:crafting:9>,
+    <mysticalagriculture:crafting:14>,
+    <mysticalagriculture:crafting:15>,
+    <mysticalagriculture:crafting:16>,
+    <mysticalagriculture:crafting:17>,
+    <mysticalagriculture:crafting:18>,
+    <mysticalagriculture:crafting:19>,
+    <mysticalagriculture:crafting:20>,
+    <mysticalagriculture:crafting:21>,
+    <mysticalagriculture:crafting:22>,
+    <mysticalagriculture:crafting:23>,
+    <mysticalagriculture:crafting:24>,
+    <mysticalagriculture:crafting:28>,
+    <mysticalagriculture:crafting:29>,
+    <mysticalagriculture:crafting:32>,
+    <mysticalagriculture:crafting:33>,
+    <mysticalagriculture:crafting:34>,
+    <mysticalagriculture:crafting:35>,
+    <mysticalagriculture:crafting:36>,
+    <mysticalagriculture:crafting:37>,
+    <mysticalagriculture:crafting:38>,
+    <mysticalagriculture:crafting:39>,
+    <mysticalagriculture:crafting:40>,
+    <mysticalagriculture:crafting:41>,
+    <mysticalagriculture:crafting:42>,
+    <mysticalagriculture:crafting:43>,
+    <mysticalagriculture:crafting:44>,
+    <mysticalagriculture:crafting:45>,
+    <mysticalagriculture:crafting:48>,
+    <mysticalagriculture:crafting:50>,
+    <mysticalagriculture:crafting:51>,
+    <mysticalagriculture:crafting:52>,
+    <mysticalagriculture:crafting:53>,
+    <mysticalagriculture:crafting:54>,
+    <mysticalagriculture:creeper_crop>,
+    <mysticalagriculture:creeper_essence>,
+    <mysticalagriculture:creeper_seeds>,
+    <mysticalagriculture:diamond_crop>,
+    <mysticalagriculture:diamond_essence>,
+    <mysticalagriculture:diamond_seeds>,
+    <mysticalagriculture:dirt_crop>,
+    <mysticalagriculture:dirt_essence>,
+    <mysticalagriculture:dirt_seeds>,
+    <mysticalagriculture:dye_crop>,
+    <mysticalagriculture:dye_essence>,
+    <mysticalagriculture:dye_seeds>,
+    <mysticalagriculture:electrotine_crop>,
+    <mysticalagriculture:electrotine_essence>,
+    <mysticalagriculture:electrotine_seeds>,
+    <mysticalagriculture:electrum_crop>,
+    <mysticalagriculture:electrum_essence>,
+    <mysticalagriculture:electrum_seeds>,
+    <mysticalagriculture:emerald_crop>,
+    <mysticalagriculture:emerald_essence>,
+    <mysticalagriculture:emerald_seeds>,
+    <mysticalagriculture:end_crop>,
+    <mysticalagriculture:end_essence>,
+    <mysticalagriculture:end_inferium_ore>,
+    <mysticalagriculture:end_prosperity_ore>,
+    <mysticalagriculture:end_seeds>,
+    <mysticalagriculture:ender_amethyst_crop>,
+    <mysticalagriculture:ender_amethyst_essence>,
+    <mysticalagriculture:ender_amethyst_seeds>,
+    <mysticalagriculture:ender_biotite_crop>,
+    <mysticalagriculture:ender_biotite_essence>,
+    <mysticalagriculture:ender_biotite_seeds>,
+    <mysticalagriculture:enderman_crop>,
+    <mysticalagriculture:enderman_essence>,
+    <mysticalagriculture:enderman_seeds>,
+    <mysticalagriculture:experience_crop>,
+    <mysticalagriculture:experience_essence>,
+    <mysticalagriculture:experience_seeds>,
+    <mysticalagriculture:fertilized_essence>,
+    <mysticalagriculture:fiery_ingot_crop>,
+    <mysticalagriculture:fiery_ingot_essence>,
+    <mysticalagriculture:fiery_ingot_seeds>,
+    <mysticalagriculture:fire_crop>,
+    <mysticalagriculture:fire_essence>,
+    <mysticalagriculture:fire_seeds>,
+    <mysticalagriculture:gear>,
+    <mysticalagriculture:gear:1>,
+    <mysticalagriculture:gear:2>,
+    <mysticalagriculture:gear:3>,
+    <mysticalagriculture:gear:4>,
+    <mysticalagriculture:gear:5>,
+    <mysticalagriculture:gear:6>,
+    <mysticalagriculture:gear:7>,
+    <mysticalagriculture:gear:8>,
+    <mysticalagriculture:gear:9>,
+    <mysticalagriculture:gear:15>,
+    <mysticalagriculture:gear:16>,
+    <mysticalagriculture:gear:17>,
+    <mysticalagriculture:gear:18>,
+    <mysticalagriculture:gear:19>,
+    <mysticalagriculture:ghast_crop>,
+    <mysticalagriculture:ghast_essence>,
+    <mysticalagriculture:ghast_seeds>,
+    <mysticalagriculture:glowstone_crop>,
+    <mysticalagriculture:glowstone_essence>,
+    <mysticalagriculture:glowstone_ingot_crop>,
+    <mysticalagriculture:glowstone_ingot_essence>,
+    <mysticalagriculture:glowstone_ingot_seeds>,
+    <mysticalagriculture:glowstone_lamp>,
+    <mysticalagriculture:glowstone_seeds>,
+    <mysticalagriculture:gold_crop>,
+    <mysticalagriculture:gold_essence>,
+    <mysticalagriculture:gold_seeds>,
+    <mysticalagriculture:growth_accelerator>,
+    <mysticalagriculture:guardian_crop>,
+    <mysticalagriculture:guardian_essence>,
+    <mysticalagriculture:guardian_seeds>,
+    <mysticalagriculture:hop_graphite_crop>,
+    <mysticalagriculture:hop_graphite_essence>,
+    <mysticalagriculture:hop_graphite_seeds>,
+    <mysticalagriculture:ice_crop>,
+    <mysticalagriculture:ice_essence>,
+    <mysticalagriculture:ice_seeds>,
+    <mysticalagriculture:inferium_apple>,
+    <mysticalagriculture:inferium_arrow>,
+    <mysticalagriculture:inferium_axe>,
+    <mysticalagriculture:inferium_boots>,
+    <mysticalagriculture:inferium_bow>,
+    <mysticalagriculture:inferium_chestplate>,
+    <mysticalagriculture:inferium_fishing_rod>,
+    <mysticalagriculture:inferium_furnace>,
+    <mysticalagriculture:inferium_helmet>,
+    <mysticalagriculture:inferium_hoe>,
+    <mysticalagriculture:inferium_leggings>,
+    <mysticalagriculture:inferium_ore>,
+    <mysticalagriculture:inferium_pickaxe>,
+    <mysticalagriculture:inferium_reprocessor>,
+    <mysticalagriculture:inferium_scythe>,
+    <mysticalagriculture:inferium_shears>,
+    <mysticalagriculture:inferium_shovel>,
+    <mysticalagriculture:inferium_sickle>,
+    <mysticalagriculture:inferium_sword>,
+    <mysticalagriculture:infusion_crystal>,
+    <mysticalagriculture:ingot_storage>,
+    <mysticalagriculture:ingot_storage:1>,
+    <mysticalagriculture:ingot_storage:2>,
+    <mysticalagriculture:ingot_storage:3>,
+    <mysticalagriculture:ingot_storage:4>,
+    <mysticalagriculture:ingot_storage:5>,
+    <mysticalagriculture:ingot_storage:6>,
+    <mysticalagriculture:intermedium_apple>,
+    <mysticalagriculture:intermedium_arrow>,
+    <mysticalagriculture:intermedium_axe>,
+    <mysticalagriculture:intermedium_boots>,
+    <mysticalagriculture:intermedium_bow>,
+    <mysticalagriculture:intermedium_chestplate>,
+    <mysticalagriculture:intermedium_fishing_rod>,
+    <mysticalagriculture:intermedium_furnace>,
+    <mysticalagriculture:intermedium_helmet>,
+    <mysticalagriculture:intermedium_hoe>,
+    <mysticalagriculture:intermedium_leggings>,
+    <mysticalagriculture:intermedium_pickaxe>,
+    <mysticalagriculture:intermedium_reprocessor>,
+    <mysticalagriculture:intermedium_scythe>,
+    <mysticalagriculture:intermedium_shears>,
+    <mysticalagriculture:intermedium_shovel>,
+    <mysticalagriculture:intermedium_sickle>,
+    <mysticalagriculture:intermedium_sword>,
+    <mysticalagriculture:iron_crop>,
+    <mysticalagriculture:iron_essence>,
+    <mysticalagriculture:iron_seeds>,
+    <mysticalagriculture:ironwood_crop>,
+    <mysticalagriculture:ironwood_essence>,
+    <mysticalagriculture:ironwood_seeds>,
+    <mysticalagriculture:knightmetal_crop>,
+    <mysticalagriculture:knightmetal_essence>,
+    <mysticalagriculture:knightmetal_seeds>,
+    <mysticalagriculture:knightslime_crop>,
+    <mysticalagriculture:knightslime_essence>,
+    <mysticalagriculture:knightslime_seeds>,
+    <mysticalagriculture:lapis_lazuli_crop>,
+    <mysticalagriculture:lapis_lazuli_essence>,
+    <mysticalagriculture:lapis_lazuli_seeds>,
+    <mysticalagriculture:lead_crop>,
+    <mysticalagriculture:lead_essence>,
+    <mysticalagriculture:lead_seeds>,
+    <mysticalagriculture:limestone_crop>,
+    <mysticalagriculture:limestone_essence>,
+    <mysticalagriculture:limestone_seeds>,
+    <mysticalagriculture:malachite_crop>,
+    <mysticalagriculture:malachite_essence>,
+    <mysticalagriculture:malachite_seeds>,
+    <mysticalagriculture:manyullyn_crop>,
+    <mysticalagriculture:manyullyn_essence>,
+    <mysticalagriculture:manyullyn_seeds>,
+    <mysticalagriculture:marble_crop>,
+    <mysticalagriculture:marble_essence>,
+    <mysticalagriculture:marble_seeds>,
+    <mysticalagriculture:master_infusion_crystal>,
+    <mysticalagriculture:miners_torch>,
+    <mysticalagriculture:mystical_fertilizer>,
+    <mysticalagriculture:mystical_machine_frame>,
+    <mysticalagriculture:nature_crop>,
+    <mysticalagriculture:nature_essence>,
+    <mysticalagriculture:nature_seeds>,
+    <mysticalagriculture:nether_crop>,
+    <mysticalagriculture:nether_essence>,
+    <mysticalagriculture:nether_inferium_ore>,
+    <mysticalagriculture:nether_prosperity_ore>,
+    <mysticalagriculture:nether_quartz_crop>,
+    <mysticalagriculture:nether_quartz_essence>,
+    <mysticalagriculture:nether_quartz_seeds>,
+    <mysticalagriculture:nether_seeds>,
+    <mysticalagriculture:nickel_crop>,
+    <mysticalagriculture:nickel_essence>,
+    <mysticalagriculture:nickel_seeds>,
+    <mysticalagriculture:obsidian_crop>,
+    <mysticalagriculture:obsidian_essence>,
+    <mysticalagriculture:obsidian_seeds>,
+    <mysticalagriculture:osmium_crop>,
+    <mysticalagriculture:osmium_essence>,
+    <mysticalagriculture:osmium_seeds>,
+    <mysticalagriculture:peridot_crop>,
+    <mysticalagriculture:peridot_essence>,
+    <mysticalagriculture:peridot_seeds>,
+    <mysticalagriculture:pig_crop>,
+    <mysticalagriculture:pig_essence>,
+    <mysticalagriculture:pig_seeds>,
+    <mysticalagriculture:prosperity_ore>,
+    <mysticalagriculture:prudentium_apple>,
+    <mysticalagriculture:prudentium_arrow>,
+    <mysticalagriculture:prudentium_axe>,
+    <mysticalagriculture:prudentium_boots>,
+    <mysticalagriculture:prudentium_bow>,
+    <mysticalagriculture:prudentium_chestplate>,
+    <mysticalagriculture:prudentium_fishing_rod>,
+    <mysticalagriculture:prudentium_furnace>,
+    <mysticalagriculture:prudentium_helmet>,
+    <mysticalagriculture:prudentium_hoe>,
+    <mysticalagriculture:prudentium_leggings>,
+    <mysticalagriculture:prudentium_pickaxe>,
+    <mysticalagriculture:prudentium_reprocessor>,
+    <mysticalagriculture:prudentium_scythe>,
+    <mysticalagriculture:prudentium_shears>,
+    <mysticalagriculture:prudentium_shovel>,
+    <mysticalagriculture:prudentium_sickle>,
+    <mysticalagriculture:prudentium_sword>,
+    <mysticalagriculture:quicksilver_crop>,
+    <mysticalagriculture:quicksilver_essence>,
+    <mysticalagriculture:quicksilver_seeds>,
+    <mysticalagriculture:rabbit_crop>,
+    <mysticalagriculture:rabbit_essence>,
+    <mysticalagriculture:rabbit_seeds>,
+    <mysticalagriculture:redstone_crop>,
+    <mysticalagriculture:redstone_essence>,
+    <mysticalagriculture:redstone_seeds>,
+    <mysticalagriculture:refined_obsidian_crop>,
+    <mysticalagriculture:refined_obsidian_essence>,
+    <mysticalagriculture:refined_obsidian_seeds>,
+    <mysticalagriculture:ruby_crop>,
+    <mysticalagriculture:ruby_essence>,
+    <mysticalagriculture:ruby_seeds>,
+    <mysticalagriculture:sapphire_crop>,
+    <mysticalagriculture:sapphire_essence>,
+    <mysticalagriculture:sapphire_seeds>,
+    <mysticalagriculture:seed_reprocessor>,
+    <mysticalagriculture:sheep_crop>,
+    <mysticalagriculture:sheep_essence>,
+    <mysticalagriculture:sheep_seeds>,
+    <mysticalagriculture:silver_crop>,
+    <mysticalagriculture:silver_essence>,
+    <mysticalagriculture:silver_seeds>,
+    <mysticalagriculture:skeleton_crop>,
+    <mysticalagriculture:skeleton_essence>,
+    <mysticalagriculture:skeleton_seeds>,
+    <mysticalagriculture:slate_crop>,
+    <mysticalagriculture:slate_essence>,
+    <mysticalagriculture:slate_seeds>,
+    <mysticalagriculture:slime_crop>,
+    <mysticalagriculture:slime_essence>,
+    <mysticalagriculture:slime_seeds>,
+    <mysticalagriculture:soul_glass>,
+    <mysticalagriculture:soul_glass_pane>,
+    <mysticalagriculture:soulium_dagger>,
+    <mysticalagriculture:soulstone>,
+    <mysticalagriculture:soulstone:1>,
+    <mysticalagriculture:soulstone:2>,
+    <mysticalagriculture:soulstone:3>,
+    <mysticalagriculture:soulstone:4>,
+    <mysticalagriculture:soulstone:5>,
+    <mysticalagriculture:soulstone:6>,
+    <mysticalagriculture:soulstone_brick_slab>,
+    <mysticalagriculture:soulstone_brick_stairs>,
+    <mysticalagriculture:soulstone_brick_wall>,
+    <mysticalagriculture:soulstone_slab>,
+    <mysticalagriculture:spider_crop>,
+    <mysticalagriculture:spider_essence>,
+    <mysticalagriculture:spider_seeds>,
+    <mysticalagriculture:steel_crop>,
+    <mysticalagriculture:steel_essence>,
+    <mysticalagriculture:steel_seeds>,
+    <mysticalagriculture:steeleaf_crop>,
+    <mysticalagriculture:steeleaf_essence>,
+    <mysticalagriculture:steeleaf_seeds>,
+    <mysticalagriculture:stone_crop>,
+    <mysticalagriculture:stone_essence>,
+    <mysticalagriculture:stone_seeds>,
+    <mysticalagriculture:storage>,
+    <mysticalagriculture:storage:1>,
+    <mysticalagriculture:storage:2>,
+    <mysticalagriculture:storage:3>,
+    <mysticalagriculture:storage:4>,
+    <mysticalagriculture:storage:5>,
+    <mysticalagriculture:superium_apple>,
+    <mysticalagriculture:superium_arrow>,
+    <mysticalagriculture:superium_axe>,
+    <mysticalagriculture:superium_boots>,
+    <mysticalagriculture:superium_bow>,
+    <mysticalagriculture:superium_chestplate>,
+    <mysticalagriculture:superium_fishing_rod>,
+    <mysticalagriculture:superium_furnace>,
+    <mysticalagriculture:superium_helmet>,
+    <mysticalagriculture:superium_hoe>,
+    <mysticalagriculture:superium_leggings>,
+    <mysticalagriculture:superium_pickaxe>,
+    <mysticalagriculture:superium_reprocessor>,
+    <mysticalagriculture:superium_scythe>,
+    <mysticalagriculture:superium_shears>,
+    <mysticalagriculture:superium_shovel>,
+    <mysticalagriculture:superium_sickle>,
+    <mysticalagriculture:superium_sword>,
+    <mysticalagriculture:supremium_apple>,
+    <mysticalagriculture:supremium_arrow>,
+    <mysticalagriculture:supremium_axe>,
+    <mysticalagriculture:supremium_boots>,
+    <mysticalagriculture:supremium_bow>,
+    <mysticalagriculture:supremium_chestplate>,
+    <mysticalagriculture:supremium_fishing_rod>,
+    <mysticalagriculture:supremium_furnace>,
+    <mysticalagriculture:supremium_helmet>,
+    <mysticalagriculture:supremium_hoe>,
+    <mysticalagriculture:supremium_leggings>,
+    <mysticalagriculture:supremium_pickaxe>,
+    <mysticalagriculture:supremium_reprocessor>,
+    <mysticalagriculture:supremium_scythe>,
+    <mysticalagriculture:supremium_shears>,
+    <mysticalagriculture:supremium_shovel>,
+    <mysticalagriculture:supremium_sickle>,
+    <mysticalagriculture:supremium_sword>,
+    <mysticalagriculture:tanzanite_crop>,
+    <mysticalagriculture:tanzanite_essence>,
+    <mysticalagriculture:tanzanite_seeds>,
+    <mysticalagriculture:thaumium_crop>,
+    <mysticalagriculture:thaumium_essence>,
+    <mysticalagriculture:thaumium_seeds>,
+    <mysticalagriculture:tier1_inferium_crop>,
+    <mysticalagriculture:tier1_inferium_seeds>,
+    <mysticalagriculture:tier2_inferium_crop>,
+    <mysticalagriculture:tier2_inferium_seeds>,
+    <mysticalagriculture:tier3_inferium_crop>,
+    <mysticalagriculture:tier3_inferium_seeds>,
+    <mysticalagriculture:tier4_inferium_crop>,
+    <mysticalagriculture:tier4_inferium_seeds>,
+    <mysticalagriculture:tier5_inferium_crop>,
+    <mysticalagriculture:tier5_inferium_seeds>,
+    <mysticalagriculture:tin_crop>,
+    <mysticalagriculture:tin_essence>,
+    <mysticalagriculture:tin_seeds>,
+    <mysticalagriculture:tinkering_table>,
+    <mysticalagriculture:tinkering_table:1>,
+    <mysticalagriculture:tinkering_table:2>,
+    <mysticalagriculture:tinkering_table:3>,
+    <mysticalagriculture:tinkering_table:4>,
+    <mysticalagriculture:topaz_crop>,
+    <mysticalagriculture:topaz_essence>,
+    <mysticalagriculture:topaz_seeds>,
+    <mysticalagriculture:ultimate_furnace>,
+    <mysticalagriculture:ultimate_reprocessor>,
+    <mysticalagriculture:uranium_crop>,
+    <mysticalagriculture:uranium_essence>,
+    <mysticalagriculture:uranium_seeds>,
+    <mysticalagriculture:void_metal_crop>,
+    <mysticalagriculture:void_metal_essence>,
+    <mysticalagriculture:void_metal_seeds>,
+    <mysticalagriculture:water_crop>,
+    <mysticalagriculture:water_essence>,
+    <mysticalagriculture:water_seeds>,
+    <mysticalagriculture:watering_can>,
+    <mysticalagriculture:watering_can:1>,
+    <mysticalagriculture:watering_can:2>,
+    <mysticalagriculture:watering_can:3>,
+    <mysticalagriculture:watering_can:4>,
+    <mysticalagriculture:wither_skeleton_crop>,
+    <mysticalagriculture:wither_skeleton_essence>,
+    <mysticalagriculture:wither_skeleton_seeds>,
+    <mysticalagriculture:witherproof_block>,
+    <mysticalagriculture:witherproof_glass>,
+    <mysticalagriculture:wood_crop>,
+    <mysticalagriculture:wood_essence>,
+    <mysticalagriculture:wood_seeds>,
+    <mysticalagriculture:xp_droplet>,
+    <mysticalagriculture:zombie_crop>,
+    <mysticalagriculture:zombie_essence>,
+    <mysticalagriculture:zombie_seeds>,
+    <wirelesscharger:wirelesscharger>
+];
+
+for entry in futureIngredients{
+    mods.ItemStages.addItemStage("future", entry);
+    mods.recipestages.Recipes.setRecipeStage("future", entry);
+	//get string
+	var name = entry.commandString as string;
+	var length = name.length();
+	length = length - 1;
+	mods.ltt.LootTable.removeGlobalItem(name.substring(1,length));
+}

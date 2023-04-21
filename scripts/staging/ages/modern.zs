@@ -1,788 +1,796 @@
+import crafttweaker.item.IIngredient;
+
+
 mods.jmapstages.JMapStages.setWaypointStage("exploration");
 mods.jmapstages.JMapStages.setFullscreenStage("exploration");
 mods.jmapstages.JMapStages.setDeathpointStage("exploration");
 mods.jmapstages.JMapStages.setMinimapStage("exploration");
 
-mods.ItemStages.addItemStage("modern", <animania:block_hamster_wheel>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:handdrill>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:discrack>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:cookiejar>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:tape>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:tapemeasure>);
-mods.ItemStages.addItemStage("modern", <bibliocraft:dinnerplate>);
-
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:fridge>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:heating_unit>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:ice_unit>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:kitchen_floor>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:oven>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:preservation_chamber>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:sink>);
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:toaster>);
 
 mods.ItemStages.stageModItems("modern","immersivepetroleum");
-mods.ItemStages.stageModItems("future","mekanismgenerators");
-mods.ItemStages.stageModItems("future","mts");
-mods.ItemStages.stageModItems("future","opencomputers");
-mods.ItemStages.stageModItems("future","projectred-core");
-mods.ItemStages.stageModItems("future","projectred-fabrication");
-mods.ItemStages.stageModItems("future","projectred-integration");
-mods.ItemStages.stageModItems("future","projectred-transmission");
-mods.ItemStages.stageModItems("future","scannable");
-mods.ItemStages.stageModItems("future","storagenetwork");
-mods.ItemStages.stageModItems("future","xnet");
 
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:1>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:2>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:3>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:4>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:5>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:6>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:7>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:8>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:9>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:10>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:11>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:12>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:13>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:14>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete:15>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:1>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:2>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:3>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:4>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:5>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:6>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:7>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:8>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:9>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:10>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:11>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:12>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:13>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:14>);
-mods.ItemStages.addItemStage("modern", <minecraft:concrete_powder:15>);
+var modernIngredients as IIngredient[] = [
+    <animania:block_hamster_wheel>,
+    <bibliocraft:handdrill>,
+    <bibliocraft:discrack>,
+    <bibliocraft:cookiejar>,
+    <bibliocraft:tape>,
+    <bibliocraft:bibliodrill>,
+    <bibliocraft:tapemeasure>,
+    <bibliocraft:dinnerplate>,
 
-mods.ItemStages.addItemStage("modern", <ancientwarfarenpc:shield_round_5> );
-mods.ItemStages.addItemStage("modern", <ancientwarfarenpc:shield_round_6> );
-mods.ItemStages.addItemStage("modern", <ancientwarfarenpc:shield_tribal_1> );
-mods.ItemStages.addItemStage("modern", <ancientwarfarenpc:shield_tribal_2> );
-mods.ItemStages.addItemStage("modern", <ancientwarfarevehicle:ammo_canister_shot_10> );
-mods.ItemStages.addItemStage("modern", <bibliocraft:bibliodrill> );
-mods.ItemStages.addItemStage("modern", <bibliocraft:clipboard> );
-mods.ItemStages.addItemStage("modern", <chisel:auto_chisel> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:fridge> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:heating_unit> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:ice_unit> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:kitchen_floor> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:oven> );
-mods.ItemStages.addItemStage("modern", <cookingforblockheads:toaster> );
-mods.ItemStages.addItemStage("modern", <culinaryconstruct:sandwich_station> );
-mods.ItemStages.addItemStage("modern", <forestry:analyzer> );
-mods.ItemStages.addItemStage("modern", <forestry:arboretum> );
-mods.ItemStages.addItemStage("modern", <forestry:can> );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "iron", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "gold", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "pigiron", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "cobalt", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ardite", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "manyullyn", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "knightslime", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "brass", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "copper", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "tin", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "bronze", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "lead", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "nickel", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "silver", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "electrum", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "steel", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "aluminum", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidhydrogen", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidchlorine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsulfurdioxide", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsulfurtrioxide", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "sulfuricacid", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidhydrogenchloride", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidethene", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsodium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "brine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquiddeuterium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidtritium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidfusionfuel", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquidlithium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "heavywater", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "steam", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "peach_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "pear_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "persimmon_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "peach_schnapps", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "perry", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "persimmon_wine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "sand", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "poison", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "fierymetal", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "knightmetal", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "fiery_essence", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "slop", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "animania_honey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "molten_neptunium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "molten_cheese", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "molten_cold_iron", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "plantoil", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ethanol", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "biodiesel", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "concrete", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "potion", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "uranium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "constantan", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "purified_water", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "bio.ethanol", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "biomass", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "glass", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "seed.oil", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "short.mead", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ironberryjuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "applejuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "alewort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ale", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "cider", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ironwine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "mead", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "wildberrywine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "wine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "diesel", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "gasoline", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "napalm", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "dist_water", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "xpjuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "cinderfire_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "shimmerdew_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "viscous_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "shimmerdew_spirits", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "viscous_brew", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "juniper_berry_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "elderberry_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "wormwood_mixture", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "sage_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "gin", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "elderberry_wine", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "absinthe", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "sage_liqueur", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "titanium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "iridium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "platinum", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "invar", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "amethyst", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ruby", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "sapphire", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "peridot", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "osmium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "thaumium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "kovar", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "lavium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "qivium", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "chocolate_liquor", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "milk_chocolate", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "dark_chocolate", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "flux_goo", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "purifying_fluid", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "stone", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "obsidian", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "clay", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "dirt", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "emerald", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "blueslime", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "purpleslime", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "tannin", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "urushi", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "brine_netjry", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "waste", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "bitumen", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "bitumen_boiling", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "paraffin", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "magma_basaltic", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "ovis_atre_milk", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:can:1>.withTag({Fluid: {FluidName: "smoke", Amount: 1000}}) );
-mods.ItemStages.addItemStage("modern", <forestry:chipsets>.withTag({T: 0 as short}) );
-mods.ItemStages.addItemStage("modern", <forestry:chipsets:1>.withTag({T: 1 as short}) );
-mods.ItemStages.addItemStage("modern", <forestry:chipsets:2>.withTag({T: 2 as short}) );
-mods.ItemStages.addItemStage("modern", <forestry:chipsets:3>.withTag({T: 3 as short}) );
-mods.ItemStages.addItemStage("modern", <forestry:climatiser> );
-mods.ItemStages.addItemStage("modern", <forestry:crafting_material:4> );
-mods.ItemStages.addItemStage("modern", <forestry:crate> );
-mods.ItemStages.addItemStage("modern", <forestry:database> );
-mods.ItemStages.addItemStage("modern", <forestry:fabricator> );
-mods.ItemStages.addItemStage("modern", <forestry:farm_crops> );
-mods.ItemStages.addItemStage("modern", <forestry:farm_ender> );
-mods.ItemStages.addItemStage("modern", <forestry:farm_gourd> );
-mods.ItemStages.addItemStage("modern", <forestry:farm_mushroom> );
-mods.ItemStages.addItemStage("modern", <forestry:farm_nether> );
-mods.ItemStages.addItemStage("modern", <forestry:fermenter> );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 0}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 1}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 2}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 3}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 4}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 5}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 6}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 7}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 8}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 9}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm>.withTag({FarmBlock: 10}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 0}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 1}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 2}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 3}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 4}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 5}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 6}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 7}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 8}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 9}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:2>.withTag({FarmBlock: 10}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 0}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 1}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 2}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 3}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 4}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 5}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 6}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 7}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 8}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 9}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:3>.withTag({FarmBlock: 10}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 0}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 1}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 2}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 3}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 4}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 5}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 6}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 7}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 8}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 9}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:4>.withTag({FarmBlock: 10}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 0}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 1}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 2}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 3}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 4}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 5}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 6}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 7}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 8}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 9}) );
-mods.ItemStages.addItemStage("modern", <forestry:ffarm:5>.withTag({FarmBlock: 10}) );
-mods.ItemStages.addItemStage("modern", <forestry:flexible_casing> );
-mods.ItemStages.addItemStage("modern", <forestry:fluid.bio.ethanol> );
-mods.ItemStages.addItemStage("modern", <forestry:fluid.biomass> );
-mods.ItemStages.addItemStage("modern", <forestry:genetic_filter> );
-mods.ItemStages.addItemStage("modern", <forestry:habitat_former> );
-mods.ItemStages.addItemStage("modern", <forestry:habitat_screen> );
-mods.ItemStages.addItemStage("modern", <forestry:hardened_machine> );
-mods.ItemStages.addItemStage("modern", <forestry:iodine_capsule> );
-mods.ItemStages.addItemStage("modern", <forestry:mailbox> );
-mods.ItemStages.addItemStage("modern", <forestry:portable_alyzer> );
-mods.ItemStages.addItemStage("modern", <forestry:rainmaker> );
-mods.ItemStages.addItemStage("modern", <forestry:soldering_iron> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:1> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:2> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:3> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:4> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:5> );
-mods.ItemStages.addItemStage("modern", <forestry:stamps:6> );
-mods.ItemStages.addItemStage("modern", <forestry:still> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:1> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:2> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:4> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:5> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:6> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:7> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:9> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:10> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:11> );
-mods.ItemStages.addItemStage("modern", <forestry:thermionic_tubes:12> );
-mods.ItemStages.addItemStage("modern", <forestry:trade_station> );
-mods.ItemStages.addItemStage("modern", <grapplemod:repeller> );
-mods.ItemStages.addItemStage("modern", <grapplemod:rocketdoublemotorhook>);
-mods.ItemStages.addItemStage("modern", <grapplemod:rockethook>);
-mods.ItemStages.addItemStage("modern", <grapplemod:rocketupgradeitem> );
-mods.ItemStages.addItemStage("modern", <grapplemod:smarthook>);
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:dummy> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:material> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:metal_device> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:metal_device:1> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:metal_multiblock> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:oil_can> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:CokeOven"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnace"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnaceAdvanced"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:MetalPress"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:SheetmetalTank"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Silo"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Assembler"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:AutoWorkbench"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:BottlingMachine"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Squeezer"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Fermenter"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Refinery"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:DieselGenerator"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:ArcFurnace"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Lightningrod"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Mixer"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:Feedthrough"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IP:DistillationTower"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IP:Pumpjack"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:Distiller"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarReflector"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:SteamTurbine"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:Boiler"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:Alternator"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IT:CokeOvenAdvanced"}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:schematic>.withTag({multiblock: "IE:ExcavatorDemo", flip: 1 as byte}) );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:speedboat> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:stone_decoration> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:upgrades> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:upgrades:1> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:upgrades:2> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:upgrades:3> );
-mods.ItemStages.addItemStage("modern", <immersivepetroleum:upgrades:4> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:garage_door> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:iron_sliding_door> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:laboratory_door> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:rustyhandle> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:rustyhatch> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:rustyladder> );
-mods.ItemStages.addItemStage("modern", <malisisdoors:sliding_trapdoor> );
-mods.ItemStages.addItemStage("modern", <mcwbridges:most1> );
-mods.ItemStages.addItemStage("modern", <mcwbridges:most2> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:6>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:6>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:6>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:6>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:6>.withTag({tier: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:3>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:3>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:3>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:3>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:4>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:4>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:4>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:4>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:basicblock2:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:biofuel> );
-mods.ItemStages.addItemStage("modern", <mekanism:boundingblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:cardboardbox> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:clump:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:compressedcarbon> );
-mods.ItemStages.addItemStage("modern", <mekanism:compresseddiamond> );
-mods.ItemStages.addItemStage("modern", <mekanism:compressedobsidian> );
-mods.ItemStages.addItemStage("modern", <mekanism:compressedredstone> );
-mods.ItemStages.addItemStage("modern", <mekanism:configurationcard> );
-mods.ItemStages.addItemStage("modern", <mekanism:configurator> );
-mods.ItemStages.addItemStage("modern", <mekanism:configurator>.withTag({mekData: {energyStored: 60000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:controlcircuit> );
-mods.ItemStages.addItemStage("modern", <mekanism:controlcircuit:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:controlcircuit:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:controlcircuit:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:craftingformula> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:crystal:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:dictionary> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:dirtydust:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:dust:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:electricbow> );
-mods.ItemStages.addItemStage("modern", <mekanism:electricbow>.withTag({mekData: {energyStored: 120000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:electrolyticcore> );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 0, mekData: {energyStored: 2000000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 1, mekData: {energyStored: 8000000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 2, mekData: {energyStored: 3.2E7}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energytablet> );
-mods.ItemStages.addItemStage("modern", <mekanism:energytablet>.withTag({mekData: {energyStored: 1000000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:energyupgrade> );
-mods.ItemStages.addItemStage("modern", <mekanism:enrichedalloy> );
-mods.ItemStages.addItemStage("modern", <mekanism:enrichediron> );
-mods.ItemStages.addItemStage("modern", <mekanism:filterupgrade> );
-mods.ItemStages.addItemStage("modern", <mekanism:flamethrower> );
-mods.ItemStages.addItemStage("modern", <mekanism:flamethrower>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:freerunners> );
-mods.ItemStages.addItemStage("modern", <mekanism:freerunners>.withTag({mekData: {energyStored: 64000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gasmask> );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "hydrogen"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "oxygen"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "water"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "chlorine"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfurdioxide"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfurtrioxide"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfuricacid"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "hydrogenchloride"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "ethene"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sodium"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "brine"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "deuterium"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "tritium"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "fusionfuel"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "lithium"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:gasupgrade> );
-mods.ItemStages.addItemStage("modern", <mekanism:gaugedropper> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowpanel:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:glowplasticblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:ingot:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:itemproxy> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 5}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 6}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 7}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:5>.withTag({recipeType: 8}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 5}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 6}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 7}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:6>.withTag({recipeType: 8}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 5}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 6}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 7}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:7>.withTag({recipeType: 8}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:11>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:11>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:11>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:11>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:11>.withTag({tier: 4}) );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock2:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:machineblock3:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:mufflingupgrade> );
-mods.ItemStages.addItemStage("modern", <mekanism:networkreader> );
-mods.ItemStages.addItemStage("modern", <mekanism:networkreader>.withTag({mekData: {energyStored: 60000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:nugget> );
-mods.ItemStages.addItemStage("modern", <mekanism:nugget:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:nugget:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:nugget:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:nugget:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:obsidiantnt> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:otherdust:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:plasticfence:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:polyethene> );
-mods.ItemStages.addItemStage("modern", <mekanism:polyethene:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:polyethene:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:polyethene:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:portableteleporter> );
-mods.ItemStages.addItemStage("modern", <mekanism:portableteleporter>.withTag({mekData: {energyStored: 1000000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedalloy> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:reinforcedplasticblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:roadplasticblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:robit> );
-mods.ItemStages.addItemStage("modern", <mekanism:robit>.withTag({mekData: {energyStored: 100000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:salt> );
-mods.ItemStages.addItemStage("modern", <mekanism:saltblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:sawdust> );
-mods.ItemStages.addItemStage("modern", <mekanism:scubatank> );
-mods.ItemStages.addItemStage("modern", <mekanism:scubatank>.withTag({mekData: {stored: {amount: 24000, gasName: "oxygen"}}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:seismicreader> );
-mods.ItemStages.addItemStage("modern", <mekanism:seismicreader>.withTag({mekData: {energyStored: 12000.0}}) );
-mods.ItemStages.addItemStage("modern", <mekanism:shard> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:shard:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:4> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:5> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:6> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:7> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:8> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:9> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:10> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:11> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:12> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:13> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:14> );
-mods.ItemStages.addItemStage("modern", <mekanism:slickplasticblock:15> );
-mods.ItemStages.addItemStage("modern", <mekanism:speedupgrade> );
-mods.ItemStages.addItemStage("modern", <mekanism:substrate> );
-mods.ItemStages.addItemStage("modern", <mekanism:teleportationcore> );
-mods.ItemStages.addItemStage("modern", <mekanism:tierinstaller> );
-mods.ItemStages.addItemStage("modern", <mekanism:tierinstaller:1> );
-mods.ItemStages.addItemStage("modern", <mekanism:tierinstaller:2> );
-mods.ItemStages.addItemStage("modern", <mekanism:tierinstaller:3> );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:1>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:1>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:1>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:1>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:2>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:2>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:2>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:2>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:3>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:3>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:3>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:3>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:4>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:5>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:6>.withTag({tier: 0}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:6>.withTag({tier: 1}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:6>.withTag({tier: 2}) );
-mods.ItemStages.addItemStage("modern", <mekanism:transmitter:6>.withTag({tier: 3}) );
-mods.ItemStages.addItemStage("modern", <mekanism:walkietalkie> );
-mods.ItemStages.addItemStage("modern", <tcomplement:materials:6> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_glass> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:1> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:2> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:3> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:4> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:5> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:6> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:7> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:8> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:9> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:10> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:11> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:12> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:13> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:14> );
-mods.ItemStages.addItemStage("modern", <tconstruct:clear_stained_glass:15> );
-mods.ItemStages.addItemStage("modern", <toughasnails:temperature_coil> );
-mods.ItemStages.addItemStage("modern", <toughasnails:temperature_coil:1> );
-mods.ItemStages.addItemStage("modern", <progressiontweaks:nanomachine_frame> );
+    <cookingforblockheads:fridge>,
+    <cookingforblockheads:heating_unit>,
+    <cookingforblockheads:ice_unit>,
+    <cookingforblockheads:kitchen_floor>,
+    <cookingforblockheads:oven>,
+    <cookingforblockheads:preservation_chamber>,
+    <cookingforblockheads:sink>,
+    <cookingforblockheads:toaster>,
+
+    <minecraft:concrete:1>,
+    <minecraft:concrete:2>,
+    <minecraft:concrete:3>,
+    <minecraft:concrete:4>,
+    <minecraft:concrete:5>,
+    <minecraft:concrete:6>,
+    <minecraft:concrete:7>,
+    <minecraft:concrete:8>,
+    <minecraft:concrete:9>,
+    <minecraft:concrete:10>,
+    <minecraft:concrete:11>,
+    <minecraft:concrete:12>,
+    <minecraft:concrete:13>,
+    <minecraft:concrete:14>,
+    <minecraft:concrete:15>,
+    <minecraft:concrete>,
+    <minecraft:concrete_powder>,
+    <minecraft:concrete_powder:1>,
+    <minecraft:concrete_powder:2>,
+    <minecraft:concrete_powder:3>,
+    <minecraft:concrete_powder:4>,
+    <minecraft:concrete_powder:5>,
+    <minecraft:concrete_powder:6>,
+    <minecraft:concrete_powder:7>,
+    <minecraft:concrete_powder:8>,
+    <minecraft:concrete_powder:9>,
+    <minecraft:concrete_powder:10>,
+    <minecraft:concrete_powder:11>,
+    <minecraft:concrete_powder:12>,
+    <minecraft:concrete_powder:13>,
+    <minecraft:concrete_powder:14>,
+    <minecraft:concrete_powder:15>,
+
+    <ancientwarfarenpc:shield_round_5>,
+    <ancientwarfarenpc:shield_round_6>,
+    <ancientwarfarenpc:shield_tribal_1>,
+    <ancientwarfarenpc:shield_tribal_2>,
+    <ancientwarfarevehicle:ammo_canister_shot_10>,
+    <bibliocraft:bibliodrill>,
+    <bibliocraft:clipboard>,
+    <chisel:auto_chisel>,
+    <cookingforblockheads:fridge>,
+    <cookingforblockheads:heating_unit>,
+    <cookingforblockheads:ice_unit>,
+    <cookingforblockheads:kitchen_floor>,
+    <cookingforblockheads:oven>,
+    <cookingforblockheads:toaster>,
+    <culinaryconstruct:sandwich_station>,
+    <forestry:analyzer>,
+    <forestry:arboretum>,
+    <forestry:can>,
+    <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "iron", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "gold", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "pigiron", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "cobalt", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ardite", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "manyullyn", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "knightslime", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "brass", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "copper", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "tin", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "bronze", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "lead", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "nickel", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "silver", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "electrum", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "steel", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "aluminum", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidhydrogen", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidchlorine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsulfurdioxide", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsulfurtrioxide", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "sulfuricacid", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidhydrogenchloride", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidethene", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidsodium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "brine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquiddeuterium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidtritium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidfusionfuel", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquidlithium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "heavywater", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "steam", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "peach_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "pear_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "persimmon_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "peach_schnapps", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "perry", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "persimmon_wine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "sand", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "blood", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "poison", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "fierymetal", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "knightmetal", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "fiery_essence", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "slop", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "animania_honey", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "molten_neptunium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "molten_cheese", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "molten_cold_iron", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "plantoil", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ethanol", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "biodiesel", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "concrete", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "potion", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "uranium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "constantan", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "purified_water", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "bio.ethanol", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "biomass", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "glass", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "seed.oil", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "short.mead", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ironberryjuice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "applejuice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "alewort", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ale", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "cider", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ironwine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "mead", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "wildberrywine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "wine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "diesel", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "gasoline", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "napalm", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "dist_water", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "xpjuice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "cinderfire_wort", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "shimmerdew_wort", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "viscous_wort", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "shimmerdew_spirits", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "viscous_brew", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "juniper_berry_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "elderberry_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "wormwood_mixture", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "sage_juice", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "gin", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "elderberry_wine", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "absinthe", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "sage_liqueur", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "titanium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "iridium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "platinum", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "invar", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "amethyst", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ruby", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "sapphire", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "peridot", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "osmium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "thaumium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "kovar", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "lavium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "qivium", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "chocolate_liquor", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_chocolate", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "dark_chocolate", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "flux_goo", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "purifying_fluid", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "stone", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "obsidian", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "clay", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "dirt", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "emerald", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "blueslime", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "purpleslime", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "tannin", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "urushi", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "brine_netjry", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "waste", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "bitumen", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "bitumen_boiling", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "paraffin", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "magma_basaltic", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "ovis_atre_milk", Amount: 1000}}),
+    <forestry:can:1>.withTag({Fluid: {FluidName: "smoke", Amount: 1000}}),
+    <forestry:chipsets>.withTag({T: 0 as short}),
+    <forestry:chipsets:1>.withTag({T: 1 as short}),
+    <forestry:chipsets:2>.withTag({T: 2 as short}),
+    <forestry:chipsets:3>.withTag({T: 3 as short}),
+    <forestry:climatiser>,
+    <forestry:crafting_material:4>,
+    <forestry:crate>,
+    <forestry:database>,
+    <forestry:fabricator>,
+    <forestry:farm_crops>,
+    <forestry:farm_ender>,
+    <forestry:farm_gourd>,
+    <forestry:farm_mushroom>,
+    <forestry:farm_nether>,
+    <forestry:fermenter>,
+    <forestry:ffarm>.withTag({FarmBlock: 0}),
+    <forestry:ffarm>.withTag({FarmBlock: 1}),
+    <forestry:ffarm>.withTag({FarmBlock: 2}),
+    <forestry:ffarm>.withTag({FarmBlock: 3}),
+    <forestry:ffarm>.withTag({FarmBlock: 4}),
+    <forestry:ffarm>.withTag({FarmBlock: 5}),
+    <forestry:ffarm>.withTag({FarmBlock: 6}),
+    <forestry:ffarm>.withTag({FarmBlock: 7}),
+    <forestry:ffarm>.withTag({FarmBlock: 8}),
+    <forestry:ffarm>.withTag({FarmBlock: 9}),
+    <forestry:ffarm>.withTag({FarmBlock: 10}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 0}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 1}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 2}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 3}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 4}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 5}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 6}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 7}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 8}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 9}),
+    <forestry:ffarm:2>.withTag({FarmBlock: 10}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 0}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 1}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 2}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 3}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 4}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 5}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 6}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 7}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 8}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 9}),
+    <forestry:ffarm:3>.withTag({FarmBlock: 10}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 0}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 1}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 2}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 3}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 4}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 5}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 6}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 7}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 8}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 9}),
+    <forestry:ffarm:4>.withTag({FarmBlock: 10}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 0}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 1}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 2}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 3}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 4}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 5}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 6}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 7}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 8}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 9}),
+    <forestry:ffarm:5>.withTag({FarmBlock: 10}),
+    <forestry:flexible_casing>,
+    <forestry:fluid.bio.ethanol>,
+    <forestry:fluid.biomass>,
+    <forestry:genetic_filter>,
+    <forestry:habitat_former>,
+    <forestry:habitat_screen>,
+    <forestry:hardened_machine>,
+    <forestry:iodine_capsule>,
+    <forestry:mailbox>,
+    <forestry:portable_alyzer>,
+    <forestry:rainmaker>,
+    <forestry:soldering_iron>,
+    <forestry:stamps>,
+    <forestry:stamps:1>,
+    <forestry:stamps:2>,
+    <forestry:stamps:3>,
+    <forestry:stamps:4>,
+    <forestry:stamps:5>,
+    <forestry:stamps:6>,
+    <forestry:still>,
+    <forestry:thermionic_tubes>,
+    <forestry:thermionic_tubes:1>,
+    <forestry:thermionic_tubes:2>,
+    <forestry:thermionic_tubes:4>,
+    <forestry:thermionic_tubes:5>,
+    <forestry:thermionic_tubes:6>,
+    <forestry:thermionic_tubes:7>,
+    <forestry:thermionic_tubes:9>,
+    <forestry:thermionic_tubes:10>,
+    <forestry:thermionic_tubes:11>,
+    <forestry:thermionic_tubes:12>,
+    <forestry:trade_station>,
+    <grapplemod:repeller>,
+    <grapplemod:rocketdoublemotorhook>,
+    <grapplemod:rockethook>,
+    <grapplemod:rocketupgradeitem>,
+    <grapplemod:smarthook>,
+    <immersivepetroleum:dummy>,
+    <immersivepetroleum:material>,
+    <immersivepetroleum:metal_device>,
+    <immersivepetroleum:metal_device:1>,
+    <immersivepetroleum:metal_multiblock>,
+    <immersivepetroleum:oil_can>,
+    <immersivepetroleum:schematic>,
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:CokeOven"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnace"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnaceAdvanced"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:MetalPress"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:SheetmetalTank"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Silo"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Assembler"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:AutoWorkbench"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:BottlingMachine"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Squeezer"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Fermenter"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Refinery"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:DieselGenerator"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:ArcFurnace"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Lightningrod"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Mixer"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:Feedthrough"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IP:DistillationTower"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IP:Pumpjack"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:Distiller"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarReflector"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:SteamTurbine"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:Boiler"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:Alternator"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IT:CokeOvenAdvanced"}),
+    <immersivepetroleum:schematic>.withTag({multiblock: "IE:ExcavatorDemo", flip: 1 as byte}),
+    <immersivepetroleum:speedboat>,
+    <immersivepetroleum:stone_decoration>,
+    <immersivepetroleum:upgrades>,
+    <immersivepetroleum:upgrades:1>,
+    <immersivepetroleum:upgrades:2>,
+    <immersivepetroleum:upgrades:3>,
+    <immersivepetroleum:upgrades:4>,
+    <malisisdoors:garage_door>,
+    <malisisdoors:iron_sliding_door>,
+    <malisisdoors:laboratory_door>,
+    <malisisdoors:rustyhandle>,
+    <malisisdoors:rustyhatch>,
+    <malisisdoors:rustyladder>,
+    <malisisdoors:sliding_trapdoor>,
+    <mcwbridges:most1>,
+    <mcwbridges:most2>,
+    <mekanism:basicblock>,
+    <mekanism:basicblock:2>,
+    <mekanism:basicblock:4>,
+    <mekanism:basicblock:5>,
+    <mekanism:basicblock:6>.withTag({tier: 0}),
+    <mekanism:basicblock:6>.withTag({tier: 1}),
+    <mekanism:basicblock:6>.withTag({tier: 2}),
+    <mekanism:basicblock:6>.withTag({tier: 3}),
+    <mekanism:basicblock:6>.withTag({tier: 4}),
+    <mekanism:basicblock:7>,
+    <mekanism:basicblock:8>,
+    <mekanism:basicblock:9>,
+    <mekanism:basicblock:10>,
+    <mekanism:basicblock:11>,
+    <mekanism:basicblock:12>,
+    <mekanism:basicblock:14>,
+    <mekanism:basicblock:15>,
+    <mekanism:basicblock2>,
+    <mekanism:basicblock2:1>,
+    <mekanism:basicblock2:2>,
+    <mekanism:basicblock2:3>.withTag({tier: 0}),
+    <mekanism:basicblock2:3>.withTag({tier: 1}),
+    <mekanism:basicblock2:3>.withTag({tier: 2}),
+    <mekanism:basicblock2:3>.withTag({tier: 3}),
+    <mekanism:basicblock2:4>.withTag({tier: 0}),
+    <mekanism:basicblock2:4>.withTag({tier: 1}),
+    <mekanism:basicblock2:4>.withTag({tier: 2}),
+    <mekanism:basicblock2:4>.withTag({tier: 3}),
+    <mekanism:basicblock2:5>,
+    <mekanism:basicblock2:6>,
+    <mekanism:basicblock2:7>,
+    <mekanism:basicblock2:8>,
+    <mekanism:basicblock2:9>,
+    <mekanism:biofuel>,
+    <mekanism:boundingblock>,
+    <mekanism:cardboardbox>,
+    <mekanism:clump>,
+    <mekanism:clump:1>,
+    <mekanism:clump:2>,
+    <mekanism:clump:3>,
+    <mekanism:clump:4>,
+    <mekanism:clump:5>,
+    <mekanism:clump:6>,
+    <mekanism:compressedcarbon>,
+    <mekanism:compresseddiamond>,
+    <mekanism:compressedobsidian>,
+    <mekanism:compressedredstone>,
+    <mekanism:configurationcard>,
+    <mekanism:configurator>,
+    <mekanism:configurator>.withTag({mekData: {energyStored: 60000.0}}),
+    <mekanism:controlcircuit>,
+    <mekanism:controlcircuit:1>,
+    <mekanism:controlcircuit:2>,
+    <mekanism:controlcircuit:3>,
+    <mekanism:craftingformula>,
+    <mekanism:crystal>,
+    <mekanism:crystal:1>,
+    <mekanism:crystal:2>,
+    <mekanism:crystal:3>,
+    <mekanism:crystal:4>,
+    <mekanism:crystal:5>,
+    <mekanism:crystal:6>,
+    <mekanism:dictionary>,
+    <mekanism:dirtydust>,
+    <mekanism:dirtydust:1>,
+    <mekanism:dirtydust:2>,
+    <mekanism:dirtydust:3>,
+    <mekanism:dirtydust:4>,
+    <mekanism:dirtydust:5>,
+    <mekanism:dirtydust:6>,
+    <mekanism:dust>,
+    <mekanism:dust:1>,
+    <mekanism:dust:2>,
+    <mekanism:dust:3>,
+    <mekanism:dust:5>,
+    <mekanism:dust:6>,
+    <mekanism:electricbow>,
+    <mekanism:electricbow>.withTag({mekData: {energyStored: 120000.0}}),
+    <mekanism:electrolyticcore>,
+    <mekanism:energycube>.withTag({tier: 0}),
+    <mekanism:energycube>.withTag({tier: 0, mekData: {energyStored: 2000000.0}}),
+    <mekanism:energycube>.withTag({tier: 1}),
+    <mekanism:energycube>.withTag({tier: 1, mekData: {energyStored: 8000000.0}}),
+    <mekanism:energycube>.withTag({tier: 2}),
+    <mekanism:energycube>.withTag({tier: 2, mekData: {energyStored: 3.2E7}}),
+    <mekanism:energycube>.withTag({tier: 3}),
+    <mekanism:energycube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}}),
+    <mekanism:energycube>.withTag({tier: 4}),
+    <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
+    <mekanism:energytablet>,
+    <mekanism:energytablet>.withTag({mekData: {energyStored: 1000000.0}}),
+    <mekanism:energyupgrade>,
+    <mekanism:enrichedalloy>,
+    <mekanism:enrichediron>,
+    <mekanism:filterupgrade>,
+    <mekanism:flamethrower>,
+    <mekanism:flamethrower>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
+    <mekanism:freerunners>,
+    <mekanism:freerunners>.withTag({mekData: {energyStored: 64000.0}}),
+    <mekanism:gasmask>,
+    <mekanism:gastank>.withTag({tier: 0}),
+    <mekanism:gastank>.withTag({tier: 1}),
+    <mekanism:gastank>.withTag({tier: 2}),
+    <mekanism:gastank>.withTag({tier: 3}),
+    <mekanism:gastank>.withTag({tier: 4}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "hydrogen"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "oxygen"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "water"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "chlorine"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfurdioxide"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfurtrioxide"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sulfuricacid"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "hydrogenchloride"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "ethene"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "sodium"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "brine"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "deuterium"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "tritium"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "fusionfuel"}}}),
+    <mekanism:gastank>.withTag({tier: 4, mekData: {stored: {amount: 2147483647, gasName: "lithium"}}}),
+    <mekanism:gasupgrade>,
+    <mekanism:gaugedropper>,
+    <mekanism:glowpanel>,
+    <mekanism:glowpanel:1>,
+    <mekanism:glowpanel:2>,
+    <mekanism:glowpanel:3>,
+    <mekanism:glowpanel:4>,
+    <mekanism:glowpanel:5>,
+    <mekanism:glowpanel:6>,
+    <mekanism:glowpanel:7>,
+    <mekanism:glowpanel:8>,
+    <mekanism:glowpanel:9>,
+    <mekanism:glowpanel:10>,
+    <mekanism:glowpanel:11>,
+    <mekanism:glowpanel:12>,
+    <mekanism:glowpanel:13>,
+    <mekanism:glowpanel:14>,
+    <mekanism:glowpanel:15>,
+    <mekanism:glowplasticblock>,
+    <mekanism:glowplasticblock:1>,
+    <mekanism:glowplasticblock:2>,
+    <mekanism:glowplasticblock:3>,
+    <mekanism:glowplasticblock:4>,
+    <mekanism:glowplasticblock:5>,
+    <mekanism:glowplasticblock:6>,
+    <mekanism:glowplasticblock:7>,
+    <mekanism:glowplasticblock:8>,
+    <mekanism:glowplasticblock:9>,
+    <mekanism:glowplasticblock:10>,
+    <mekanism:glowplasticblock:11>,
+    <mekanism:glowplasticblock:12>,
+    <mekanism:glowplasticblock:13>,
+    <mekanism:glowplasticblock:14>,
+    <mekanism:glowplasticblock:15>,
+    <mekanism:ingot>,
+    <mekanism:ingot:1>,
+    <mekanism:ingot:2>,
+    <mekanism:ingot:3>,
+    <mekanism:ingot:4>,
+    <mekanism:ingot:5>,
+    <mekanism:itemproxy>,
+    <mekanism:machineblock>,
+    <mekanism:machineblock:1>,
+    <mekanism:machineblock:2>,
+    <mekanism:machineblock:3>,
+    <mekanism:machineblock:4>,
+    <mekanism:machineblock:5>.withTag({recipeType: 0}),
+    <mekanism:machineblock:5>.withTag({recipeType: 1}),
+    <mekanism:machineblock:5>.withTag({recipeType: 2}),
+    <mekanism:machineblock:5>.withTag({recipeType: 3}),
+    <mekanism:machineblock:5>.withTag({recipeType: 4}),
+    <mekanism:machineblock:5>.withTag({recipeType: 5}),
+    <mekanism:machineblock:5>.withTag({recipeType: 6}),
+    <mekanism:machineblock:5>.withTag({recipeType: 7}),
+    <mekanism:machineblock:5>.withTag({recipeType: 8}),
+    <mekanism:machineblock:6>.withTag({recipeType: 0}),
+    <mekanism:machineblock:6>.withTag({recipeType: 1}),
+    <mekanism:machineblock:6>.withTag({recipeType: 2}),
+    <mekanism:machineblock:6>.withTag({recipeType: 3}),
+    <mekanism:machineblock:6>.withTag({recipeType: 4}),
+    <mekanism:machineblock:6>.withTag({recipeType: 5}),
+    <mekanism:machineblock:6>.withTag({recipeType: 6}),
+    <mekanism:machineblock:6>.withTag({recipeType: 7}),
+    <mekanism:machineblock:6>.withTag({recipeType: 8}),
+    <mekanism:machineblock:7>.withTag({recipeType: 0}),
+    <mekanism:machineblock:7>.withTag({recipeType: 1}),
+    <mekanism:machineblock:7>.withTag({recipeType: 2}),
+    <mekanism:machineblock:7>.withTag({recipeType: 3}),
+    <mekanism:machineblock:7>.withTag({recipeType: 4}),
+    <mekanism:machineblock:7>.withTag({recipeType: 5}),
+    <mekanism:machineblock:7>.withTag({recipeType: 6}),
+    <mekanism:machineblock:7>.withTag({recipeType: 7}),
+    <mekanism:machineblock:7>.withTag({recipeType: 8}),
+    <mekanism:machineblock:8>,
+    <mekanism:machineblock:9>,
+    <mekanism:machineblock:10>,
+    <mekanism:machineblock:11>,
+    <mekanism:machineblock:12>,
+    <mekanism:machineblock:13>,
+    <mekanism:machineblock:14>,
+    <mekanism:machineblock:15>,
+    <mekanism:machineblock2>,
+    <mekanism:machineblock2:1>,
+    <mekanism:machineblock2:2>,
+    <mekanism:machineblock2:3>,
+    <mekanism:machineblock2:4>,
+    <mekanism:machineblock2:5>,
+    <mekanism:machineblock2:6>,
+    <mekanism:machineblock2:7>,
+    <mekanism:machineblock2:8>,
+    <mekanism:machineblock2:9>,
+    <mekanism:machineblock2:10>,
+    <mekanism:machineblock2:11>.withTag({tier: 0}),
+    <mekanism:machineblock2:11>.withTag({tier: 1}),
+    <mekanism:machineblock2:11>.withTag({tier: 2}),
+    <mekanism:machineblock2:11>.withTag({tier: 3}),
+    <mekanism:machineblock2:11>.withTag({tier: 4}),
+    <mekanism:machineblock2:12>,
+    <mekanism:machineblock2:13>,
+    <mekanism:machineblock2:14>,
+    <mekanism:machineblock2:15>,
+    <mekanism:machineblock3>,
+    <mekanism:machineblock3:1>,
+    <mekanism:machineblock3:3>,
+    <mekanism:machineblock3:4>,
+    <mekanism:machineblock3:5>,
+    <mekanism:machineblock3:6>,
+    <mekanism:mufflingupgrade>,
+    <mekanism:networkreader>,
+    <mekanism:networkreader>.withTag({mekData: {energyStored: 60000.0}}),
+    <mekanism:nugget>,
+    <mekanism:nugget:1>,
+    <mekanism:nugget:3>,
+    <mekanism:nugget:4>,
+    <mekanism:nugget:5>,
+    <mekanism:obsidiantnt>,
+    <mekanism:otherdust>,
+    <mekanism:otherdust:1>,
+    <mekanism:otherdust:3>,
+    <mekanism:otherdust:4>,
+    <mekanism:otherdust:5>,
+    <mekanism:otherdust:6>,
+    <mekanism:plasticblock>,
+    <mekanism:plasticblock:1>,
+    <mekanism:plasticblock:2>,
+    <mekanism:plasticblock:3>,
+    <mekanism:plasticblock:4>,
+    <mekanism:plasticblock:5>,
+    <mekanism:plasticblock:6>,
+    <mekanism:plasticblock:7>,
+    <mekanism:plasticblock:8>,
+    <mekanism:plasticblock:9>,
+    <mekanism:plasticblock:10>,
+    <mekanism:plasticblock:11>,
+    <mekanism:plasticblock:12>,
+    <mekanism:plasticblock:13>,
+    <mekanism:plasticblock:14>,
+    <mekanism:plasticblock:15>,
+    <mekanism:plasticfence>,
+    <mekanism:plasticfence:1>,
+    <mekanism:plasticfence:2>,
+    <mekanism:plasticfence:3>,
+    <mekanism:plasticfence:4>,
+    <mekanism:plasticfence:5>,
+    <mekanism:plasticfence:6>,
+    <mekanism:plasticfence:7>,
+    <mekanism:plasticfence:8>,
+    <mekanism:plasticfence:9>,
+    <mekanism:plasticfence:10>,
+    <mekanism:plasticfence:11>,
+    <mekanism:plasticfence:12>,
+    <mekanism:plasticfence:13>,
+    <mekanism:plasticfence:14>,
+    <mekanism:plasticfence:15>,
+    <mekanism:polyethene>,
+    <mekanism:polyethene:1>,
+    <mekanism:polyethene:2>,
+    <mekanism:polyethene:3>,
+    <mekanism:portableteleporter>,
+    <mekanism:portableteleporter>.withTag({mekData: {energyStored: 1000000.0}}),
+    <mekanism:reinforcedalloy>,
+    <mekanism:reinforcedplasticblock>,
+    <mekanism:reinforcedplasticblock:1>,
+    <mekanism:reinforcedplasticblock:2>,
+    <mekanism:reinforcedplasticblock:3>,
+    <mekanism:reinforcedplasticblock:4>,
+    <mekanism:reinforcedplasticblock:5>,
+    <mekanism:reinforcedplasticblock:6>,
+    <mekanism:reinforcedplasticblock:7>,
+    <mekanism:reinforcedplasticblock:8>,
+    <mekanism:reinforcedplasticblock:9>,
+    <mekanism:reinforcedplasticblock:10>,
+    <mekanism:reinforcedplasticblock:11>,
+    <mekanism:reinforcedplasticblock:12>,
+    <mekanism:reinforcedplasticblock:13>,
+    <mekanism:reinforcedplasticblock:14>,
+    <mekanism:reinforcedplasticblock:15>,
+    <mekanism:roadplasticblock>,
+    <mekanism:roadplasticblock:1>,
+    <mekanism:roadplasticblock:2>,
+    <mekanism:roadplasticblock:3>,
+    <mekanism:roadplasticblock:4>,
+    <mekanism:roadplasticblock:5>,
+    <mekanism:roadplasticblock:6>,
+    <mekanism:roadplasticblock:7>,
+    <mekanism:roadplasticblock:8>,
+    <mekanism:roadplasticblock:9>,
+    <mekanism:roadplasticblock:10>,
+    <mekanism:roadplasticblock:11>,
+    <mekanism:roadplasticblock:12>,
+    <mekanism:roadplasticblock:13>,
+    <mekanism:roadplasticblock:14>,
+    <mekanism:roadplasticblock:15>,
+    <mekanism:robit>,
+    <mekanism:robit>.withTag({mekData: {energyStored: 100000.0}}),
+    <mekanism:salt>,
+    <mekanism:saltblock>,
+    <mekanism:sawdust>,
+    <mekanism:scubatank>,
+    <mekanism:scubatank>.withTag({mekData: {stored: {amount: 24000, gasName: "oxygen"}}}),
+    <mekanism:seismicreader>,
+    <mekanism:seismicreader>.withTag({mekData: {energyStored: 12000.0}}),
+    <mekanism:shard>,
+    <mekanism:shard:1>,
+    <mekanism:shard:2>,
+    <mekanism:shard:3>,
+    <mekanism:shard:4>,
+    <mekanism:shard:5>,
+    <mekanism:shard:6>,
+    <mekanism:slickplasticblock>,
+    <mekanism:slickplasticblock:1>,
+    <mekanism:slickplasticblock:2>,
+    <mekanism:slickplasticblock:3>,
+    <mekanism:slickplasticblock:4>,
+    <mekanism:slickplasticblock:5>,
+    <mekanism:slickplasticblock:6>,
+    <mekanism:slickplasticblock:7>,
+    <mekanism:slickplasticblock:8>,
+    <mekanism:slickplasticblock:9>,
+    <mekanism:slickplasticblock:10>,
+    <mekanism:slickplasticblock:11>,
+    <mekanism:slickplasticblock:12>,
+    <mekanism:slickplasticblock:13>,
+    <mekanism:slickplasticblock:14>,
+    <mekanism:slickplasticblock:15>,
+    <mekanism:speedupgrade>,
+    <mekanism:substrate>,
+    <mekanism:teleportationcore>,
+    <mekanism:tierinstaller>,
+    <mekanism:tierinstaller:1>,
+    <mekanism:tierinstaller:2>,
+    <mekanism:tierinstaller:3>,
+    <mekanism:transmitter>.withTag({tier: 0}),
+    <mekanism:transmitter>.withTag({tier: 1}),
+    <mekanism:transmitter>.withTag({tier: 2}),
+    <mekanism:transmitter>.withTag({tier: 3}),
+    <mekanism:transmitter:1>.withTag({tier: 0}),
+    <mekanism:transmitter:1>.withTag({tier: 1}),
+    <mekanism:transmitter:1>.withTag({tier: 2}),
+    <mekanism:transmitter:1>.withTag({tier: 3}),
+    <mekanism:transmitter:2>.withTag({tier: 0}),
+    <mekanism:transmitter:2>.withTag({tier: 1}),
+    <mekanism:transmitter:2>.withTag({tier: 2}),
+    <mekanism:transmitter:2>.withTag({tier: 3}),
+    <mekanism:transmitter:3>.withTag({tier: 0}),
+    <mekanism:transmitter:3>.withTag({tier: 1}),
+    <mekanism:transmitter:3>.withTag({tier: 2}),
+    <mekanism:transmitter:3>.withTag({tier: 3}),
+    <mekanism:transmitter:4>.withTag({tier: 0}),
+    <mekanism:transmitter:5>.withTag({tier: 0}),
+    <mekanism:transmitter:6>.withTag({tier: 0}),
+    <mekanism:transmitter:6>.withTag({tier: 1}),
+    <mekanism:transmitter:6>.withTag({tier: 2}),
+    <mekanism:transmitter:6>.withTag({tier: 3}),
+    <mekanism:walkietalkie>,
+    <tcomplement:materials:6>,
+    <tconstruct:clear_glass>,
+    <tconstruct:clear_stained_glass>,
+    <tconstruct:clear_stained_glass:1>,
+    <tconstruct:clear_stained_glass:2>,
+    <tconstruct:clear_stained_glass:3>,
+    <tconstruct:clear_stained_glass:4>,
+    <tconstruct:clear_stained_glass:5>,
+    <tconstruct:clear_stained_glass:6>,
+    <tconstruct:clear_stained_glass:7>,
+    <tconstruct:clear_stained_glass:8>,
+    <tconstruct:clear_stained_glass:9>,
+    <tconstruct:clear_stained_glass:10>,
+    <tconstruct:clear_stained_glass:11>,
+    <tconstruct:clear_stained_glass:12>,
+    <tconstruct:clear_stained_glass:13>,
+    <tconstruct:clear_stained_glass:14>,
+    <tconstruct:clear_stained_glass:15>,
+    <toughasnails:temperature_coil>,
+    <toughasnails:temperature_coil:1>,
+    <progressiontweaks:nanomachine_frame>
+];
+
+
+for entry in modernIngredients{
+    mods.ItemStages.addItemStage("modern", entry);
+    mods.recipestages.Recipes.setRecipeStage("modern", entry);
+	//get string
+	var name = entry.commandString as string;
+	var length = name.length();
+	length = length - 1;
+	mods.ltt.LootTable.removeGlobalItem(name.substring(1,length));
+}

@@ -16,7 +16,7 @@ mods.primal.Smelter.addRecipe("stone", 6, [<minecraft:cobblestone>, <primal:char
 mods.primal.Smelter.addRecipe("soul_to_glass", 6, [<primal:soulglass>, <primal:charcoal_mote>], [<minecraft:glass>*2]);
 mods.primal.Smelter.addRecipe("nether_brick_4", 20, [<ore:stoneNether>, <primal:charcoal_mote>*4], [<minecraft:netherbrick>*4]);
 mods.primal.Smelter.addRecipe("nether_brick", 6, [<minecraft:netherrack>, <primal:charcoal_mote>], [<minecraft:netherbrick>]);
-mods.primal.Smelter.addRecipe("cent_egg", 24, [<ore:foodBoiledegg>, <ore:ashWood>, <ore:salt>], [<primal:egg_death>]);
+mods.primal.Smelter.addRecipe("cent_egg", 24, [<ore:foodBoiledegg>, <ore:ash>, <ore:salt>], [<primal:egg_death>]);
 mods.primal.Smelter.addRecipe("iron", 12, [<ore:oreIron>, <ore:charcoal>, <ore:sand>], [<minecraft:iron_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("copper", 12, [<ore:oreCopper>, <ore:charcoal>, <ore:sand>], [<mysticalworld:copper_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("tin", 12, [<ore:oreTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:6>, <primal:slag>]);
