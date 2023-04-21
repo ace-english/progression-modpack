@@ -15,8 +15,8 @@
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "bronze"}, Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "lead"}, Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "silver"}, Count: 1}, CareerLevel: 3},
-			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "cold_iron"}, Count: 1}, CareerLevel: 3}
-						
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:0}}, sell:{id:"conarm:armor_plate", tag:{Material: "cold_iron"}, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 20}, sell:{id:"villagermarket:villager_market", Count: 1}, CareerLevel: 5}
 		]
 	}
 }
