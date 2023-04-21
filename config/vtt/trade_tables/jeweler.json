@@ -7,17 +7,25 @@
 			{action:"add", buy: {id:"minecraft:diamond", Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 20}, CareerLevel: 1},
 			{action:"add", buy: {id:"minecraft:emerald", Count: 1}, sell:{id:"ordinarycoins:coingold", Count: 1}, CareerLevel: 1},
 			{action:"add", buy: {id:"bewitchment:amethyst", Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 10}, CareerLevel: 1},
-			{action:"add", buy: {id:"ordinarycoins:amber", Count: 1}, sell:{id:"ordinarycoins:coincopper", Count: 20}, CareerLevel: 1},
+			{action:"add", buy: {id:"thaumcraft:amber", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: 15}, CareerLevel: 1},
 			{action:"add", buy: {id:"bewitchment:garnet", Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 10}, CareerLevel: 1},
 			{action:"add", buy: {id:"bewitchment:opal", Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 10}, CareerLevel: 1},
-			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 1, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 15}, CareerLevel: 1},
-			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 1}, sell:{id:"minecraft:diamond", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 1, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 15}, CareerLevel: 2},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 2, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: {min:5,max:9}}, CareerLevel: 2},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 3, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: {min:5,max:9}}, CareerLevel: 2},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 4, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: {min:5,max:9}}, CareerLevel: 2},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 5, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: {min:5,max:9}}, CareerLevel: 2},
+			{action:"add", buy: {id:"biomesoplenty:gem", Damage: 6, Count: 1}, sell:{id:"ordinarycoins:coinsilver", Count: 15}, CareerLevel: 2},
+			{action:"add", buy: {id:"primal:opal", Count: 8}, sell:{id:"minecraft:diamond", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 10}, sell:{id:"minecraft:diamond", Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 30}, sell:{id:"minecraft:dye", Damage:4, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 50}, sell:{id:"minecraft:quartz", Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 3}, sell:{id:"minecraft:emerald", Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 20}, sell:{id:"thaumcraft:amber", Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 40}, sell:{id:"bewitchment:amethyst", Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 40}, sell:{id:"bewitchment:garnet", Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 40}, sell:{id:"bewitchment:opal", Count: 1}, CareerLevel: 2},
-			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 60}, sell:{id:"biomesoplenty:gem", Damage: 1, Count: 1}, CareerLevel: 2}
+			{action:"add", chance:0.25, buy: {id:"ordinarycoins:coinsilver", Count: 60}, sell:{id:"biomesoplenty:gem", Damage: {min:1, max:6}, Count: 1}, CareerLevel: 2}
 		]		
 	}
 }

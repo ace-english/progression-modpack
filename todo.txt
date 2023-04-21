@@ -8,6 +8,7 @@ potential Jakob tasks:
 		[ ] opal
 		[ ] ironwood (tf)
 		[ ] amber?
+		[ ] eagle feather
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -31,21 +32,29 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] 1 salt + 250 water = 250 brine
-	[ ] rock throw
+	[x] rock throw
 		- rock + distance??
-	[ ] workblade back iunto knives family
+	[x] workblade back iunto knives family
 	[ ] andesite?
+	[ ] easy planks
 	[ ] make tin easier to find
-	all stagin files - also stage recipes
-	[ ] grove supplication
+	[x] all stagin files - also stage recipes
+	[ ] check primal for plank config?
+	[x] grove supplication
 		-add curtains
-	[ ] add @sapling to BOP pits
+	[x] add @sapling to BOP pits
+	[x] more horse pull animals
+		[x] goats
+		[x] dogs
+		[x] not llamas
 	more trades
-		[ ] hedge witch
-		[ ] arborist
-		[ ] farmer bone or flint hoe?
-		[ ] more markets (at level 5)
-		[ ] remove harvestcraft thing
+		[x] hedge witch
+		[x] arborist
+		[x] farmer bone or flint hoe?
+		[x] more markets (at level 5)
+		[x] remove harvestcraft thing
+		[x] jewler buy amber, sell lapis
+		[x] librarian books
 	[x] knives
 		[x] unify
 		[x] add workblade recipes
@@ -68,6 +77,7 @@ potential Jakob tasks:
 		[x] fig leaf
 	mobs
 		[ ] add cyborgs
+		[ ] dinos?
 		[x] stage gear
 			[ ] witch loot
 	[ ] sol balance

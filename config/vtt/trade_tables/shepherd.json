@@ -16,11 +16,12 @@
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinbronze", Count: {min:45, max:64}}, sell:{id:"animania:entity_egg_foal_draft", Count:1}},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_frog", Count:1}},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:20, max:30}}, sell:{id:"animania:entity_egg_toad", Count:1}},
-			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_headgehog_albino", Count:1}},
+			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_hedgehog_albino", Count:1}},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_ferret_grey", Count:1}},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_ferret_white", Count:1}},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinbronze", Count: {min:14, max:25}}, sell:{id:"animania:entity_egg_hamster", Count:1}},
-			{action:"add", CareerLevel:3, buy:{id:"ordinarycoins:coinbronze", Count: {min:30, max:50}}, sell:{id:"animania:entity_egg_dart_frog", Count:1}}
+			{action:"add", CareerLevel:3, buy:{id:"ordinarycoins:coinbronze", Count: {min:30, max:50}}, sell:{id:"animania:entity_egg_dart_frog", Count:1}},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 20}, sell:{id:"villagermarket:villager_market", Count: 1}, CareerLevel: 5}
 
 		]
 	}

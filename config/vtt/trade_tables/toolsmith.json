@@ -13,7 +13,8 @@
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:binding"}, Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:axe_head"}, Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:pick_head"}, Count: 1}, CareerLevel: 3},
-			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:shovel_head"}, Count: 1}, CareerLevel: 3}
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:shovel_head"}, Count: 1}, CareerLevel: 3},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 20}, sell:{id:"villagermarket:villager_market", Count: 1}, CareerLevel: 5}
 			
 		]
 	}

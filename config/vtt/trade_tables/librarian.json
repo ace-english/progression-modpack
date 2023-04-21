@@ -6,7 +6,18 @@
 		Recipes:[
 			{action:"clear"},
 			{action:"add", buy: {id:"primal:plant_papyrus", Count: 9}, sell:{id:"ordinarycoins:coinbronze", Count: 24}, CareerLevel: 1},
-			{action:"add", buy: {id:"minecraft:paper", Count: 9}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1}
+			{action:"add", buy: {id:"minecraft:paper", Count: 9}, sell:{id:"ordinarycoins:coinbronze", Count: 32}, CareerLevel: 1},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:2},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:2},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:2},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:3},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:3},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:4},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:4},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:5},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:5},
+			{ action:"add", buy:{ id:"ordinarycoins:coingold", Count:{min:8,max:20}}, sell:{ id:"minecraft:enchanted_book", Count:1, tag:{ench:"random"}},  CareerLevel:5},
+			{action:"add", buy: {id:"ordinarycoins:coingold", Count: 20}, sell:{id:"villagermarket:villager_market", Count: 1}, CareerLevel: 5}
 		]
 	}
 }
