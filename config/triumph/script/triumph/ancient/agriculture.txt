@@ -27,4 +27,4 @@ criteria.setEntityType("minecraft:villager")
 criteria.setItem(<primal:bone_hoe>)
 
 setRequirements("any")
-setRewardFunction("triumph:farming")
+setRewardFunction("triumph:agriculture")

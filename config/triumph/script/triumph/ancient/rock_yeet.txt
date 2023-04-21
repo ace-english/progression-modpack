@@ -1,0 +1,28 @@
+
+//Set icon item
+setIcon(<immcraft:rock>)
+
+//Set title String
+setTitle("49 to go...")
+
+//Set description String
+setDescription("Kill something by throwing a rock or a mud clump at it")
+
+addParent("triumph:ancient/root")
+hideLines()
+
+//Set the position
+setPos(-53,59)
+
+
+criteria = addCriteria("hurt_wolf", "minecraft:player_killed_entity")
+
+//entityData = criteria.getEntityData()
+
+//distanceData = entityData.getDistanceData()
+//distanceData.setHorizontalMin(5)
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)
+
+//https://minecraft.fandom.com/wiki/Advancement/JSON_format#minecraft:player_hurt_entity
