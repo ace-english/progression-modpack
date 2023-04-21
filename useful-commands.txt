@@ -1,0 +1,2 @@
+Restores your last grave:
+/tmg_restore latest

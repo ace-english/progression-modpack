@@ -1,3 +1,6 @@
+import crafttweaker.item.IIngredient;
+
+
 mods.WailaStages.addWailaStage("medieval");
 
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.anvil");
@@ -14,1701 +17,1715 @@ mods.ItemStages.stageModItems("medieval","tfspellpack");
 mods.ItemStages.stageModItems("medieval","waystones");
 mods.ItemStages.stageModItems("medieval","wizardryutils");
 
-mods.ItemStages.addItemStage("medieval", <minecraft:furnace>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:armorstand:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:atlasbook>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:atlasplate>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bell>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bibliochase>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:biblioclipboard>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bibliocreativelock>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bibliodrill>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:biblioglasses>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:biblioredbook>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bigbook>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcase:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:bookcasecreative:6>);
-mods.ItemStages.addItemStage("medieval", <forestry:worktable> );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf>.withTag({type: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:1>.withTag({type: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:2>.withTag({type: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:3>.withTag({type: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:4>.withTag({type: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:5>.withTag({type: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:6>.withTag({type: "ironwood"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:7>.withTag({type: "yew"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:8>.withTag({type: "lacquer"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_shelf:9>.withTag({type: "corypha"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab>.withTag({type: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:1>.withTag({type: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:2>.withTag({type: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:3>.withTag({type: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:4>.withTag({type: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:5>.withTag({type: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:6>.withTag({type: "ironwood"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:7>.withTag({type: "yew"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:8>.withTag({type: "lacquer"}) );
-mods.ItemStages.addItemStage("medieval", <primal:worktable_slab:9>.withTag({type: "corypha"}) );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:case:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clipboard>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:clock:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:compass>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:deathcompass>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:desk:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancysign:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framingboard>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framingsaw>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framingsheet>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:furniturepaneler:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:label:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:7>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:8>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:9>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:10>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:11>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:12>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:13>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:14>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampgold:15>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:7>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:8>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:9>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:10>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:11>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:12>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:13>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:14>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lampiron:15>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:7>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:8>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:9>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:10>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:11>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:12>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:13>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:14>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterngold:15>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:7>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:8>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:9>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:10>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:11>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:12>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:13>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:14>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:lanterniron:15>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:mapframe:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:maptool>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:markerpole>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingcanvas>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeborderless:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframefancy:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframeflat:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframemiddle:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingframesimple:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:paintingpress>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:recipebook>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:shelf:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:slottedbook>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:stockroomcatalog>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:7>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:8>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:9>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:10>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:11>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:12>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:13>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:14>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:15>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:6>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:testeritem>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:1>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:2>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:3>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:4>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:5>);
-mods.ItemStages.addItemStage("medieval", <bibliocraft:toolrack:6>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_cherry>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_ebony>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_ethereal>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_eucalyptus>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_fir>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_hellbark>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_jacaranda>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_magic>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_mahogany>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_mangrove>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_palm>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_pine>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_redwood>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_sacred_oak>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_umbran>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:boat_willow>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:sacred_oak_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:cherry_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:umbran_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:fir_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:magic_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:mangrove_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:palm_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:redwood_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:willow_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:pine_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:hellbark_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:jacaranda_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:mahogany_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:ebony_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:eucalyptus_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:ethereal_door>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:bramble_plant>);
-mods.ItemStages.addItemStage("medieval", <biomesoplenty:brown_dye>);
-mods.ItemStages.addItemStage("medieval", <conarm:frosty_soles>);
-mods.ItemStages.addItemStage("medieval", <conarm:gauntlet_mat>);
-mods.ItemStages.addItemStage("medieval", <conarm:gauntlet_mat_attack>);
-mods.ItemStages.addItemStage("medieval", <conarm:gauntlet_mat_reach>);
-mods.ItemStages.addItemStage("medieval", <conarm:gauntlet_mat_speed>);
-mods.ItemStages.addItemStage("medieval", <conarm:invisible_ink>);
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat>);
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_blast>);
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_fire>);
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_proj>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_belt>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_belt_base>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_cloak>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_potion>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_sack>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_slowfall>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_sneak>);
-mods.ItemStages.addItemStage("medieval", <conarm:travel_soul>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cabinet>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cooking_table>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:corner>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:counter>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cutting_board>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:fruit_basket>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book:1>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:recipe_book:2>);
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:spice_rack>);
-//mods.ItemStages.addItemStage("medieval", <cookingforblockheads:tool_rack>);
-mods.ItemStages.addItemStage("medieval", <culinaryconstruct:sandwich_station>);
+
+var medievalIngredients as IIngredient[] = [
+    <minecraft:furnace>,
+    <bibliocraft:armorstand>,
+    <bibliocraft:armorstand:1>,
+    <bibliocraft:armorstand:2>,
+    <bibliocraft:armorstand:3>,
+    <bibliocraft:armorstand:4>,
+    <bibliocraft:armorstand:5>,
+    <bibliocraft:armorstand:6>,
+    <bibliocraft:atlasbook>,
+    <bibliocraft:atlasplate>,
+    <bibliocraft:bell>,
+    <bibliocraft:bibliochase>,
+    <bibliocraft:biblioclipboard>,
+    <bibliocraft:bibliocreativelock>,
+    <bibliocraft:bibliodrill>,
+    <bibliocraft:biblioglasses>,
+    <bibliocraft:biblioredbook>,
+    <bibliocraft:bigbook>,
+    <bibliocraft:bookcase>,
+    <bibliocraft:bookcase:1>,
+    <bibliocraft:bookcase:2>,
+    <bibliocraft:bookcase:3>,
+    <bibliocraft:bookcase:4>,
+    <bibliocraft:bookcase:5>,
+    <bibliocraft:bookcase:6>,
+    <bibliocraft:bookcasecreative>,
+    <bibliocraft:bookcasecreative:1>,
+    <bibliocraft:bookcasecreative:2>,
+    <bibliocraft:bookcasecreative:3>,
+    <bibliocraft:bookcasecreative:4>,
+    <bibliocraft:bookcasecreative:5>,
+    <bibliocraft:bookcasecreative:6>,
+    <forestry:worktable>,
+    <primal:worktable_shelf>.withTag({type: "oak"}),
+    <primal:worktable_shelf:1>.withTag({type: "spruce"}),
+    <primal:worktable_shelf:2>.withTag({type: "birch"}),
+    <primal:worktable_shelf:3>.withTag({type: "jungle"}),
+    <primal:worktable_shelf:4>.withTag({type: "acacia"}),
+    <primal:worktable_shelf:5>.withTag({type: "dark_oak"}),
+    <primal:worktable_shelf:6>.withTag({type: "ironwood"}),
+    <primal:worktable_shelf:7>.withTag({type: "yew"}),
+    <primal:worktable_shelf:8>.withTag({type: "lacquer"}),
+    <primal:worktable_shelf:9>.withTag({type: "corypha"}),
+    <primal:worktable_slab>.withTag({type: "oak"}),
+    <primal:worktable_slab:1>.withTag({type: "spruce"}),
+    <primal:worktable_slab:2>.withTag({type: "birch"}),
+    <primal:worktable_slab:3>.withTag({type: "jungle"}),
+    <primal:worktable_slab:4>.withTag({type: "acacia"}),
+    <primal:worktable_slab:5>.withTag({type: "dark_oak"}),
+    <primal:worktable_slab:6>.withTag({type: "ironwood"}),
+    <primal:worktable_slab:7>.withTag({type: "yew"}),
+    <primal:worktable_slab:8>.withTag({type: "lacquer"}),
+    <primal:worktable_slab:9>.withTag({type: "corypha"}),
+    <bibliocraft:case>,
+    <bibliocraft:case:1>,
+    <bibliocraft:case:2>,
+    <bibliocraft:case:3>,
+    <bibliocraft:case:4>,
+    <bibliocraft:case:5>,
+    <bibliocraft:case:6>,
+    <bibliocraft:clipboard>,
+    <bibliocraft:clock>,
+    <bibliocraft:clock:1>,
+    <bibliocraft:clock:2>,
+    <bibliocraft:clock:3>,
+    <bibliocraft:clock:4>,
+    <bibliocraft:clock:5>,
+    <bibliocraft:clock:6>,
+    <bibliocraft:compass>,
+    <bibliocraft:deathcompass>,
+    <bibliocraft:desk>,
+    <bibliocraft:desk:1>,
+    <bibliocraft:desk:2>,
+    <bibliocraft:desk:3>,
+    <bibliocraft:desk:4>,
+    <bibliocraft:desk:5>,
+    <bibliocraft:desk:6>,
+    <bibliocraft:fancysign>,
+    <bibliocraft:fancysign:1>,
+    <bibliocraft:fancysign:2>,
+    <bibliocraft:fancysign:3>,
+    <bibliocraft:fancysign:4>,
+    <bibliocraft:fancysign:5>,
+    <bibliocraft:fancysign:6>,
+    <bibliocraft:fancyworkbench>,
+    <bibliocraft:fancyworkbench:1>,
+    <bibliocraft:fancyworkbench:2>,
+    <bibliocraft:fancyworkbench:3>,
+    <bibliocraft:fancyworkbench:4>,
+    <bibliocraft:fancyworkbench:5>,
+    <bibliocraft:fancyworkbench:6>,
+    <bibliocraft:framedchest>,
+    <bibliocraft:framedchest:1>,
+    <bibliocraft:framedchest:2>,
+    <bibliocraft:framedchest:3>,
+    <bibliocraft:framedchest:4>,
+    <bibliocraft:framedchest:5>,
+    <bibliocraft:framedchest:6>,
+    <bibliocraft:framingboard>,
+    <bibliocraft:framingsaw>,
+    <bibliocraft:framingsheet>,
+    <bibliocraft:furniturepaneler>,
+    <bibliocraft:furniturepaneler:1>,
+    <bibliocraft:furniturepaneler:2>,
+    <bibliocraft:furniturepaneler:3>,
+    <bibliocraft:furniturepaneler:4>,
+    <bibliocraft:furniturepaneler:5>,
+    <bibliocraft:furniturepaneler:6>,
+    <bibliocraft:label>,
+    <bibliocraft:label:1>,
+    <bibliocraft:label:2>,
+    <bibliocraft:label:3>,
+    <bibliocraft:label:4>,
+    <bibliocraft:label:5>,
+    <bibliocraft:label:6>,
+    <bibliocraft:lampgold>,
+    <bibliocraft:lampgold:1>,
+    <bibliocraft:lampgold:2>,
+    <bibliocraft:lampgold:3>,
+    <bibliocraft:lampgold:4>,
+    <bibliocraft:lampgold:5>,
+    <bibliocraft:lampgold:6>,
+    <bibliocraft:lampgold:7>,
+    <bibliocraft:lampgold:8>,
+    <bibliocraft:lampgold:9>,
+    <bibliocraft:lampgold:10>,
+    <bibliocraft:lampgold:11>,
+    <bibliocraft:lampgold:12>,
+    <bibliocraft:lampgold:13>,
+    <bibliocraft:lampgold:14>,
+    <bibliocraft:lampgold:15>,
+    <bibliocraft:lampiron>,
+    <bibliocraft:lampiron:1>,
+    <bibliocraft:lampiron:2>,
+    <bibliocraft:lampiron:3>,
+    <bibliocraft:lampiron:4>,
+    <bibliocraft:lampiron:5>,
+    <bibliocraft:lampiron:6>,
+    <bibliocraft:lampiron:7>,
+    <bibliocraft:lampiron:8>,
+    <bibliocraft:lampiron:9>,
+    <bibliocraft:lampiron:10>,
+    <bibliocraft:lampiron:11>,
+    <bibliocraft:lampiron:12>,
+    <bibliocraft:lampiron:13>,
+    <bibliocraft:lampiron:14>,
+    <bibliocraft:lampiron:15>,
+    <bibliocraft:lanterngold>,
+    <bibliocraft:lanterngold:1>,
+    <bibliocraft:lanterngold:2>,
+    <bibliocraft:lanterngold:3>,
+    <bibliocraft:lanterngold:4>,
+    <bibliocraft:lanterngold:5>,
+    <bibliocraft:lanterngold:6>,
+    <bibliocraft:lanterngold:7>,
+    <bibliocraft:lanterngold:8>,
+    <bibliocraft:lanterngold:9>,
+    <bibliocraft:lanterngold:10>,
+    <bibliocraft:lanterngold:11>,
+    <bibliocraft:lanterngold:12>,
+    <bibliocraft:lanterngold:13>,
+    <bibliocraft:lanterngold:14>,
+    <bibliocraft:lanterngold:15>,
+    <bibliocraft:lanterniron>,
+    <bibliocraft:lanterniron:1>,
+    <bibliocraft:lanterniron:2>,
+    <bibliocraft:lanterniron:3>,
+    <bibliocraft:lanterniron:4>,
+    <bibliocraft:lanterniron:5>,
+    <bibliocraft:lanterniron:6>,
+    <bibliocraft:lanterniron:7>,
+    <bibliocraft:lanterniron:8>,
+    <bibliocraft:lanterniron:9>,
+    <bibliocraft:lanterniron:10>,
+    <bibliocraft:lanterniron:11>,
+    <bibliocraft:lanterniron:12>,
+    <bibliocraft:lanterniron:13>,
+    <bibliocraft:lanterniron:14>,
+    <bibliocraft:lanterniron:15>,
+    <bibliocraft:mapframe>,
+    <bibliocraft:mapframe:1>,
+    <bibliocraft:mapframe:2>,
+    <bibliocraft:mapframe:3>,
+    <bibliocraft:mapframe:4>,
+    <bibliocraft:mapframe:5>,
+    <bibliocraft:mapframe:6>,
+    <bibliocraft:maptool>,
+    <bibliocraft:markerpole>,
+    <bibliocraft:paintingcanvas>,
+    <bibliocraft:paintingframeborderless>,
+    <bibliocraft:paintingframeborderless:1>,
+    <bibliocraft:paintingframeborderless:2>,
+    <bibliocraft:paintingframeborderless:3>,
+    <bibliocraft:paintingframeborderless:4>,
+    <bibliocraft:paintingframeborderless:5>,
+    <bibliocraft:paintingframeborderless:6>,
+    <bibliocraft:paintingframefancy>,
+    <bibliocraft:paintingframefancy:1>,
+    <bibliocraft:paintingframefancy:2>,
+    <bibliocraft:paintingframefancy:3>,
+    <bibliocraft:paintingframefancy:4>,
+    <bibliocraft:paintingframefancy:5>,
+    <bibliocraft:paintingframefancy:6>,
+    <bibliocraft:paintingframeflat>,
+    <bibliocraft:paintingframeflat:1>,
+    <bibliocraft:paintingframeflat:2>,
+    <bibliocraft:paintingframeflat:3>,
+    <bibliocraft:paintingframeflat:4>,
+    <bibliocraft:paintingframeflat:5>,
+    <bibliocraft:paintingframeflat:6>,
+    <bibliocraft:paintingframemiddle>,
+    <bibliocraft:paintingframemiddle:1>,
+    <bibliocraft:paintingframemiddle:2>,
+    <bibliocraft:paintingframemiddle:3>,
+    <bibliocraft:paintingframemiddle:4>,
+    <bibliocraft:paintingframemiddle:5>,
+    <bibliocraft:paintingframemiddle:6>,
+    <bibliocraft:paintingframesimple>,
+    <bibliocraft:paintingframesimple:1>,
+    <bibliocraft:paintingframesimple:2>,
+    <bibliocraft:paintingframesimple:3>,
+    <bibliocraft:paintingframesimple:4>,
+    <bibliocraft:paintingframesimple:5>,
+    <bibliocraft:paintingframesimple:6>,
+    <bibliocraft:paintingpress>,
+    <bibliocraft:potionshelf>,
+    <bibliocraft:potionshelf:1>,
+    <bibliocraft:potionshelf:2>,
+    <bibliocraft:potionshelf:3>,
+    <bibliocraft:potionshelf:4>,
+    <bibliocraft:potionshelf:5>,
+    <bibliocraft:potionshelf:6>,
+    <bibliocraft:recipebook>,
+    <bibliocraft:seat>,
+    <bibliocraft:seat:1>,
+    <bibliocraft:seat:2>,
+    <bibliocraft:seat:3>,
+    <bibliocraft:seat:4>,
+    <bibliocraft:seat:5>,
+    <bibliocraft:seat:6>,
+    <bibliocraft:seatback1>,
+    <bibliocraft:seatback2>,
+    <bibliocraft:seatback3>,
+    <bibliocraft:seatback4>,
+    <bibliocraft:seatback5>,
+    <bibliocraft:shelf>,
+    <bibliocraft:shelf:1>,
+    <bibliocraft:shelf:2>,
+    <bibliocraft:shelf:3>,
+    <bibliocraft:shelf:4>,
+    <bibliocraft:shelf:5>,
+    <bibliocraft:shelf:6>,
+    <bibliocraft:slottedbook>,
+    <bibliocraft:stockroomcatalog>,
+    <bibliocraft:swordpedestal>,
+    <bibliocraft:swordpedestal:1>,
+    <bibliocraft:swordpedestal:2>,
+    <bibliocraft:swordpedestal:3>,
+    <bibliocraft:swordpedestal:4>,
+    <bibliocraft:swordpedestal:5>,
+    <bibliocraft:swordpedestal:6>,
+    <bibliocraft:swordpedestal:7>,
+    <bibliocraft:swordpedestal:8>,
+    <bibliocraft:swordpedestal:9>,
+    <bibliocraft:swordpedestal:10>,
+    <bibliocraft:swordpedestal:11>,
+    <bibliocraft:swordpedestal:12>,
+    <bibliocraft:swordpedestal:13>,
+    <bibliocraft:swordpedestal:14>,
+    <bibliocraft:swordpedestal:15>,
+    <bibliocraft:table>,
+    <bibliocraft:table:1>,
+    <bibliocraft:table:2>,
+    <bibliocraft:table:3>,
+    <bibliocraft:table:4>,
+    <bibliocraft:table:5>,
+    <bibliocraft:table:6>,
+    <bibliocraft:testeritem>,
+    <bibliocraft:toolrack>,
+    <bibliocraft:toolrack:1>,
+    <bibliocraft:toolrack:2>,
+    <bibliocraft:toolrack:3>,
+    <bibliocraft:toolrack:4>,
+    <bibliocraft:toolrack:5>,
+    <bibliocraft:toolrack:6>,
+    <biomesoplenty:boat_cherry>,
+    <biomesoplenty:boat_ebony>,
+    <biomesoplenty:boat_ethereal>,
+    <biomesoplenty:boat_eucalyptus>,
+    <biomesoplenty:boat_fir>,
+    <biomesoplenty:boat_hellbark>,
+    <biomesoplenty:boat_jacaranda>,
+    <biomesoplenty:boat_magic>,
+    <biomesoplenty:boat_mahogany>,
+    <biomesoplenty:boat_mangrove>,
+    <biomesoplenty:boat_palm>,
+    <biomesoplenty:boat_pine>,
+    <biomesoplenty:boat_redwood>,
+    <biomesoplenty:boat_sacred_oak>,
+    <biomesoplenty:boat_umbran>,
+    <biomesoplenty:boat_willow>,
+    <biomesoplenty:sacred_oak_door>,
+    <biomesoplenty:cherry_door>,
+    <biomesoplenty:umbran_door>,
+    <biomesoplenty:fir_door>,
+    <biomesoplenty:magic_door>,
+    <biomesoplenty:mangrove_door>,
+    <biomesoplenty:palm_door>,
+    <biomesoplenty:redwood_door>,
+    <biomesoplenty:willow_door>,
+    <biomesoplenty:pine_door>,
+    <biomesoplenty:hellbark_door>,
+    <biomesoplenty:jacaranda_door>,
+    <biomesoplenty:mahogany_door>,
+    <biomesoplenty:ebony_door>,
+    <biomesoplenty:eucalyptus_door>,
+    <biomesoplenty:ethereal_door>,
+    <biomesoplenty:bramble_plant>,
+    <biomesoplenty:brown_dye>,
+    <conarm:frosty_soles>,
+    <conarm:gauntlet_mat>,
+    <conarm:gauntlet_mat_attack>,
+    <conarm:gauntlet_mat_reach>,
+    <conarm:gauntlet_mat_speed>,
+    <conarm:invisible_ink>,
+    <conarm:resist_mat>,
+    <conarm:resist_mat_blast>,
+    <conarm:resist_mat_fire>,
+    <conarm:resist_mat_proj>,
+    <conarm:travel_belt>,
+    <conarm:travel_belt_base>,
+    <conarm:travel_cloak>,
+    <conarm:travel_potion>,
+    <conarm:travel_sack>,
+    <conarm:travel_slowfall>,
+    <conarm:travel_sneak>,
+    <conarm:travel_soul>,
+    <cookingforblockheads:cabinet>,
+    <cookingforblockheads:cooking_table>,
+    <cookingforblockheads:corner>,
+    <cookingforblockheads:counter>,
+    <cookingforblockheads:cutting_board>,
+    <cookingforblockheads:fruit_basket>,
+    <cookingforblockheads:recipe_book>,
+    <cookingforblockheads:recipe_book:1>,
+    <cookingforblockheads:recipe_book:2>,
+    <cookingforblockheads:spice_rack>,
+//    <cookingforblockheads:tool_rack>,
+    <culinaryconstruct:sandwich_station>,
 
 
-mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:2>);
-mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:3>);
-mods.ItemStages.addItemStage("medieval", <improvedbackpacks:upgrade:4>);
+    <improvedbackpacks:upgrade:2>,
+    <improvedbackpacks:upgrade:3>,
+    <improvedbackpacks:upgrade:4>,
 
-mods.ItemStages.addItemStage("medieval", <pirates:cell>);
-
-
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil>);
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil:1>);
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil:2>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:15>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:14>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:13>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:12>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:11>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:10>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:9>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:8>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:7>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:6>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:5>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:4>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:3>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:2>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner:1>);
-mods.ItemStages.addItemStage("medieval", <minecraft:banner>);
-mods.ItemStages.addItemStage("medieval", <minecraft:brewing_stand>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:1>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:2>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:3>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:4>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:5>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:6>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:7>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:8>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:9>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:10>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:11>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:12>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:13>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:14>);
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:15>);
-mods.ItemStages.addItemStage("medieval", <minecraft:clock>);
-mods.ItemStages.addItemStage("medieval", <minecraft:enchanting_table>);
+    <pirates:cell>,
 
 
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_boots>);
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_chestplate>);
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_helmet>);
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_leggings>);
+    <minecraft:anvil>,
+    <minecraft:anvil:1>,
+    <minecraft:anvil:2>,
+    <minecraft:banner:15>,
+    <minecraft:banner:14>,
+    <minecraft:banner:13>,
+    <minecraft:banner:12>,
+    <minecraft:banner:11>,
+    <minecraft:banner:10>,
+    <minecraft:banner:9>,
+    <minecraft:banner:8>,
+    <minecraft:banner:7>,
+    <minecraft:banner:6>,
+    <minecraft:banner:5>,
+    <minecraft:banner:4>,
+    <minecraft:banner:3>,
+    <minecraft:banner:2>,
+    <minecraft:banner:1>,
+    <minecraft:banner>,
+    <minecraft:brewing_stand>,
+    <minecraft:carpet>,
+    <minecraft:carpet:1>,
+    <minecraft:carpet:2>,
+    <minecraft:carpet:3>,
+    <minecraft:carpet:4>,
+    <minecraft:carpet:5>,
+    <minecraft:carpet:6>,
+    <minecraft:carpet:7>,
+    <minecraft:carpet:8>,
+    <minecraft:carpet:9>,
+    <minecraft:carpet:10>,
+    <minecraft:carpet:11>,
+    <minecraft:carpet:12>,
+    <minecraft:carpet:13>,
+    <minecraft:carpet:14>,
+    <minecraft:carpet:15>,
+    <minecraft:clock>,
+    <minecraft:enchanting_table>,
 
-mods.ItemStages.addItemStage("medieval", <ancientwarfareautomation:worksite_upgrade:6> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:bard_instrument> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:iron_cleaver> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:iron_command_baton> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:iron_halberd> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:iron_lance> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:iron_shield> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:gold_shield> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:diamond_shield> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:shield_witchbane_1> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:shield_witchbane_2> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarenpc:sickle> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:altar_lectern> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:chair>.withTag({variant: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:coin_stack_gold>.withTag({size: 8}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:coin_stack_silver>.withTag({size: 8}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:construction_tool> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:construction_tool_lakes> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:decorative_flag>.withTag({name: "rakshasa"}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:drafting_station> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:gate_spawner> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:gate_spawner:4> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:gate_spawner:5> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:scissor_seat> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:spawner_placer> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:statue> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:table>.withTag({variant: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:tribal_chair> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:tribal_stool> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:urn> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:wooden_coffin>.withTag({variant: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:wooden_post> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarestructure:wooden_throne> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_ballista_bolt_explosive> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_ballista_bolt_flame> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_ballista_bolt_iron> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_explosive_shot_15> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_explosive_shot_30_big> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_hwacha_rocket> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ammo_hwacha_rocket_airburst> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:iron_core_wood> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:ironshod_wood> );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:2>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:5>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:8>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:9>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:10>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:11>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:12>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:13>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:14>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:18>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:spawner:19>.withTag({spawnData: {level: 0}}) );
-mods.ItemStages.addItemStage("medieval", <ancientwarfarevehicle:treated_wood> );
-mods.ItemStages.addItemStage("medieval", <animania:block_hamster_wheel> );
-//mods.ItemStages.addItemStage("medieval", <apotheosis:farmers_leash> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:bellows> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:bellows:1> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:infernal_enchanter> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:iron_wall> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:4> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:8> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:9> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:10> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:11> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:14> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:30> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:41> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:48> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:49> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:material:51> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:screw_pump> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:single_machine> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:steel_axle> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:steel_block> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:steel_broken_gearbox> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:steel_gearbox> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:steel_pressure_plate> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:wooden_axle> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:wooden_broken_gearbox> );
-mods.ItemStages.addItemStage("medieval", <betterwithmods:wooden_gearbox> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:compass> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:fancyworkbench:6> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:framedchest:6> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:potionshelf:6> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:recipebook> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seat:6> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:seatback5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:6> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:7> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:8> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:9> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:10> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:11> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:12> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:13> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:14> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:swordpedestal:15> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:1> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:2> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:3> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:4> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:5> );
-mods.ItemStages.addItemStage("medieval", <bibliocraft:table:6> );
-mods.ItemStages.addItemStage("medieval", <conarm:invisible_ink> );
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat> );
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_blast> );
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_fire> );
-mods.ItemStages.addItemStage("medieval", <conarm:resist_mat_proj> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_cloak> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_goggles_base> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_potion> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_sack> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_slowfall> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_sneak> );
-mods.ItemStages.addItemStage("medieval", <conarm:travel_soul> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cabinet> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cooking_table> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:corner> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:counter> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:cutting_board> );
-mods.ItemStages.addItemStage("medieval", <cookingforblockheads:fruit_basket> );
-mods.ItemStages.addItemStage("medieval", <creepingnether:hallowcoal> );
-mods.ItemStages.addItemStage("medieval", <creepingnether:hallowgold> );
-mods.ItemStages.addItemStage("medieval", <creepingnether:nethercoal> );
-mods.ItemStages.addItemStage("medieval", <creepingnether:nethergold> );
-mods.ItemStages.addItemStage("medieval", <dynamictrees:dendropotion> );
-mods.ItemStages.addItemStage("medieval", <dynamictrees:dendropotion:1> );
-mods.ItemStages.addItemStage("medieval", <dynamictrees:dendropotion:2> );
-mods.ItemStages.addItemStage("medieval", <dynamictrees:dendropotion:3> );
-mods.ItemStages.addItemStage("medieval", <dynamictrees:dendropotion:6> );
-mods.ItemStages.addItemStage("medieval", <forestry:butterfly_chest> );
-mods.ItemStages.addItemStage("medieval", <forestry:cart.beehouse> );
-mods.ItemStages.addItemStage("medieval", <forestry:cart.beehouse:1> );
-mods.ItemStages.addItemStage("medieval", <forestry:cocoon> );
-mods.ItemStages.addItemStage("medieval", <forestry:cocoon.solid> );
-mods.ItemStages.addItemStage("medieval", <forestry:crafting_material:5> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.acacia> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.balsa> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.baobab> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.cherry> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.chestnut> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.citrus> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.cocobolo> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.ebony> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.giganteum> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.greenheart> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.ipe> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.kapok> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.larch> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.lime> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.mahoe> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.mahogany> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.maple> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.padauk> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.palm> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.papaya> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.pine> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.plum> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.poplar> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.sequoia> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.teak> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.walnut> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.wenge> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.willow> );
-mods.ItemStages.addItemStage("medieval", <forestry:doors.zebrawood> );
-mods.ItemStages.addItemStage("medieval", <forestry:grafter> );
-mods.ItemStages.addItemStage("medieval", <forestry:grafter_proven> );
-mods.ItemStages.addItemStage("medieval", <forestry:scoop> );
-mods.ItemStages.addItemStage("medieval", <forestry:smoker> );
-mods.ItemStages.addItemStage("medieval", <forestry:wax_cast> );
-mods.ItemStages.addItemStage("medieval", <forestry:worktable> );
-//mods.ItemStages.addItemStage("medieval", <golems:golem_head> );
-//mods.ItemStages.addItemStage("medieval", <golems:golem_paper> );
-mods.ItemStages.addItemStage("medieval", <grapplemod:doubleupgradeitem> );
-mods.ItemStages.addItemStage("medieval", <grapplemod:enderhook>);
-mods.ItemStages.addItemStage("medieval", <grapplemod:launcheritem> );
-mods.ItemStages.addItemStage("medieval", <grapplemod:limitsupgradeitem> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:carriage_door> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:wood_sliding_door> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:shoji_door> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:door_factory> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:jail_door> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:medieval_door> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:saloon> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_spruce_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_oak_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_birch_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_oak_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_jungle_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_acacia_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_dark_oak_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_iron_3x3> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:big_door_rusty_3x3> );
-mods.ItemStages.addItemStage("medieval", <minecraft:acacia_boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:acacia_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil> );
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:anvil:2> );
-mods.ItemStages.addItemStage("medieval", <minecraft:armor_stand> );
-mods.ItemStages.addItemStage("medieval", <minecraft:beacon> );
-mods.ItemStages.addItemStage("medieval", <minecraft:birch_boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:birch_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:blaze_powder> );
-mods.ItemStages.addItemStage("medieval", <minecraft:boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:brewing_stand> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:2> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:3> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:4> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:5> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:6> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:7> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:8> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:9> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:10> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:11> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:12> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:13> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:14> );
-mods.ItemStages.addItemStage("medieval", <minecraft:carpet:15> );
-mods.ItemStages.addItemStage("medieval", <minecraft:cauldron> );
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_boots> );
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_chestplate> );
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_helmet> );
-mods.ItemStages.addItemStage("medieval", <minecraft:chainmail_leggings> );
-mods.ItemStages.addItemStage("medieval", <minecraft:chest> );
-mods.ItemStages.addItemStage("medieval", <minecraft:crafting_table> );
-mods.ItemStages.addItemStage("medieval", <minecraft:dark_oak_boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:dark_oak_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:diamond_block> );
-mods.ItemStages.addItemStage("medieval", <minecraft:diamond_horse_armor> );
-mods.ItemStages.addItemStage("medieval", <minecraft:furnace> );
-mods.ItemStages.addItemStage("medieval", <minecraft:ghast_tear> );
-mods.ItemStages.addItemStage("medieval", <minecraft:glowstone> );
-mods.ItemStages.addItemStage("medieval", <minecraft:glowstone_dust> );
-mods.ItemStages.addItemStage("medieval", <minecraft:gold_block> );
-mods.ItemStages.addItemStage("medieval", <minecraft:gold_ingot> );
-//mods.ItemStages.addItemStage("medieval", <minecraft:gold_nugget> );
-mods.ItemStages.addItemStage("medieval", <minecraft:gold_ore> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_apple> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_apple:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_carrot> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_horse_armor> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_leggings> );
-mods.ItemStages.addItemStage("medieval", <minecraft:golden_pickaxe> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_block> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_boots> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_helmet> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_horse_armor> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_ingot> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_ore> );
-mods.ItemStages.addItemStage("medieval", <minecraft:iron_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <minecraft:item_frame> );
-mods.ItemStages.addItemStage("medieval", <minecraft:jungle_boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:jungle_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:ladder> );
-mods.ItemStages.addItemStage("medieval", <minecraft:lapis_block> );
-mods.ItemStages.addItemStage("medieval", <minecraft:lapis_ore> );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:mundane"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "minecraft:luck"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:long_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:strong_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:long_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:strong_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:danger_sight"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "quark:long_danger_sight"}) );
+
+    <minecraft:chainmail_boots>,
+    <minecraft:chainmail_chestplate>,
+    <minecraft:chainmail_helmet>,
+    <minecraft:chainmail_leggings>,
+
+    <ancientwarfareautomation:worksite_upgrade:6>,
+    <ancientwarfarenpc:bard_instrument>,
+    <ancientwarfarenpc:iron_cleaver>,
+    <ancientwarfarenpc:iron_command_baton>,
+    <ancientwarfarenpc:iron_halberd>,
+    <ancientwarfarenpc:iron_lance>,
+    <ancientwarfarenpc:iron_shield>,
+    <ancientwarfarenpc:gold_shield>,
+    <ancientwarfarenpc:diamond_shield>,
+    <ancientwarfarenpc:shield_witchbane_1>,
+    <ancientwarfarenpc:shield_witchbane_2>,
+    <ancientwarfarenpc:sickle>,
+    <ancientwarfarestructure:altar_lectern>,
+    <ancientwarfarestructure:chair>.withTag({variant: "oak"}),
+    <ancientwarfarestructure:coin_stack_gold>.withTag({size: 8}),
+    <ancientwarfarestructure:coin_stack_silver>.withTag({size: 8}),
+    <ancientwarfarestructure:construction_tool>,
+    <ancientwarfarestructure:construction_tool_lakes>,
+    <ancientwarfarestructure:decorative_flag>.withTag({name: "rakshasa"}),
+    <ancientwarfarestructure:drafting_station>,
+    <ancientwarfarestructure:gate_spawner>,
+    <ancientwarfarestructure:gate_spawner:4>,
+    <ancientwarfarestructure:gate_spawner:5>,
+    <ancientwarfarestructure:scissor_seat>,
+    <ancientwarfarestructure:spawner_placer>,
+    <ancientwarfarestructure:statue>,
+    <ancientwarfarestructure:table>.withTag({variant: "oak"}),
+    <ancientwarfarestructure:tribal_chair>,
+    <ancientwarfarestructure:tribal_stool>,
+    <ancientwarfarestructure:urn>,
+    <ancientwarfarestructure:wooden_coffin>.withTag({variant: "oak"}),
+    <ancientwarfarestructure:wooden_post>,
+    <ancientwarfarestructure:wooden_throne>,
+    <ancientwarfarevehicle:ammo_ballista_bolt_explosive>,
+    <ancientwarfarevehicle:ammo_ballista_bolt_flame>,
+    <ancientwarfarevehicle:ammo_ballista_bolt_iron>,
+    <ancientwarfarevehicle:ammo_explosive_shot_15>,
+    <ancientwarfarevehicle:ammo_explosive_shot_30_big>,
+    <ancientwarfarevehicle:ammo_hwacha_rocket>,
+    <ancientwarfarevehicle:ammo_hwacha_rocket_airburst>,
+    <ancientwarfarevehicle:iron_core_wood>,
+    <ancientwarfarevehicle:ironshod_wood>,
+    <ancientwarfarevehicle:spawner:2>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:5>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:8>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:9>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:10>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:11>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:12>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:13>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:14>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:18>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:spawner:19>.withTag({spawnData: {level: 0}}),
+    <ancientwarfarevehicle:treated_wood>,
+    <animania:block_hamster_wheel>,
+//    <apotheosis:farmers_leash>,
+    <betterwithmods:bellows>,
+    <betterwithmods:bellows:1>,
+    <betterwithmods:infernal_enchanter>,
+    <betterwithmods:iron_wall>,
+    <betterwithmods:material>,
+    <betterwithmods:material:4>,
+    <betterwithmods:material:8>,
+    <betterwithmods:material:9>,
+    <betterwithmods:material:10>,
+    <betterwithmods:material:11>,
+    <betterwithmods:material:14>,
+    <betterwithmods:material:30>,
+    <betterwithmods:material:41>,
+    <betterwithmods:material:48>,
+    <betterwithmods:material:49>,
+    <betterwithmods:material:51>,
+    <betterwithmods:screw_pump>,
+    <betterwithmods:single_machine>,
+    <betterwithmods:steel_axle>,
+    <betterwithmods:steel_block>,
+    <betterwithmods:steel_broken_gearbox>,
+    <betterwithmods:steel_gearbox>,
+    <betterwithmods:steel_pressure_plate>,
+    <betterwithmods:wooden_axle>,
+    <betterwithmods:wooden_broken_gearbox>,
+    <betterwithmods:wooden_gearbox>,
+    <bibliocraft:compass>,
+    <bibliocraft:fancyworkbench>,
+    <bibliocraft:fancyworkbench:1>,
+    <bibliocraft:fancyworkbench:2>,
+    <bibliocraft:fancyworkbench:3>,
+    <bibliocraft:fancyworkbench:4>,
+    <bibliocraft:fancyworkbench:5>,
+    <bibliocraft:fancyworkbench:6>,
+    <bibliocraft:framedchest>,
+    <bibliocraft:framedchest:1>,
+    <bibliocraft:framedchest:2>,
+    <bibliocraft:framedchest:3>,
+    <bibliocraft:framedchest:4>,
+    <bibliocraft:framedchest:5>,
+    <bibliocraft:framedchest:6>,
+    <bibliocraft:potionshelf>,
+    <bibliocraft:potionshelf:1>,
+    <bibliocraft:potionshelf:2>,
+    <bibliocraft:potionshelf:3>,
+    <bibliocraft:potionshelf:4>,
+    <bibliocraft:potionshelf:5>,
+    <bibliocraft:potionshelf:6>,
+    <bibliocraft:recipebook>,
+    <bibliocraft:seat>,
+    <bibliocraft:seat:1>,
+    <bibliocraft:seat:2>,
+    <bibliocraft:seat:3>,
+    <bibliocraft:seat:4>,
+    <bibliocraft:seat:5>,
+    <bibliocraft:seat:6>,
+    <bibliocraft:seatback1>,
+    <bibliocraft:seatback2>,
+    <bibliocraft:seatback3>,
+    <bibliocraft:seatback4>,
+    <bibliocraft:seatback5>,
+    <bibliocraft:swordpedestal>,
+    <bibliocraft:swordpedestal:1>,
+    <bibliocraft:swordpedestal:2>,
+    <bibliocraft:swordpedestal:3>,
+    <bibliocraft:swordpedestal:4>,
+    <bibliocraft:swordpedestal:5>,
+    <bibliocraft:swordpedestal:6>,
+    <bibliocraft:swordpedestal:7>,
+    <bibliocraft:swordpedestal:8>,
+    <bibliocraft:swordpedestal:9>,
+    <bibliocraft:swordpedestal:10>,
+    <bibliocraft:swordpedestal:11>,
+    <bibliocraft:swordpedestal:12>,
+    <bibliocraft:swordpedestal:13>,
+    <bibliocraft:swordpedestal:14>,
+    <bibliocraft:swordpedestal:15>,
+    <bibliocraft:table>,
+    <bibliocraft:table:1>,
+    <bibliocraft:table:2>,
+    <bibliocraft:table:3>,
+    <bibliocraft:table:4>,
+    <bibliocraft:table:5>,
+    <bibliocraft:table:6>,
+    <conarm:invisible_ink>,
+    <conarm:resist_mat>,
+    <conarm:resist_mat_blast>,
+    <conarm:resist_mat_fire>,
+    <conarm:resist_mat_proj>,
+    <conarm:travel_cloak>,
+    <conarm:travel_goggles_base>,
+    <conarm:travel_potion>,
+    <conarm:travel_sack>,
+    <conarm:travel_slowfall>,
+    <conarm:travel_sneak>,
+    <conarm:travel_soul>,
+    <cookingforblockheads:cabinet>,
+    <cookingforblockheads:cooking_table>,
+    <cookingforblockheads:corner>,
+    <cookingforblockheads:counter>,
+    <cookingforblockheads:cutting_board>,
+    <cookingforblockheads:fruit_basket>,
+    <creepingnether:hallowcoal>,
+    <creepingnether:hallowgold>,
+    <creepingnether:nethercoal>,
+    <creepingnether:nethergold>,
+    <dynamictrees:dendropotion>,
+    <dynamictrees:dendropotion:1>,
+    <dynamictrees:dendropotion:2>,
+    <dynamictrees:dendropotion:3>,
+    <dynamictrees:dendropotion:6>,
+    <forestry:butterfly_chest>,
+    <forestry:cart.beehouse>,
+    <forestry:cart.beehouse:1>,
+    <forestry:cocoon>,
+    <forestry:cocoon.solid>,
+    <forestry:crafting_material:5>,
+    <forestry:doors.acacia>,
+    <forestry:doors.balsa>,
+    <forestry:doors.baobab>,
+    <forestry:doors.cherry>,
+    <forestry:doors.chestnut>,
+    <forestry:doors.citrus>,
+    <forestry:doors.cocobolo>,
+    <forestry:doors.ebony>,
+    <forestry:doors.giganteum>,
+    <forestry:doors.greenheart>,
+    <forestry:doors.ipe>,
+    <forestry:doors.kapok>,
+    <forestry:doors.larch>,
+    <forestry:doors.lime>,
+    <forestry:doors.mahoe>,
+    <forestry:doors.mahogany>,
+    <forestry:doors.maple>,
+    <forestry:doors.padauk>,
+    <forestry:doors.palm>,
+    <forestry:doors.papaya>,
+    <forestry:doors.pine>,
+    <forestry:doors.plum>,
+    <forestry:doors.poplar>,
+    <forestry:doors.sequoia>,
+    <forestry:doors.teak>,
+    <forestry:doors.walnut>,
+    <forestry:doors.wenge>,
+    <forestry:doors.willow>,
+    <forestry:doors.zebrawood>,
+    <forestry:grafter>,
+    <forestry:grafter_proven>,
+    <forestry:scoop>,
+    <forestry:smoker>,
+    <forestry:wax_cast>,
+    <forestry:worktable>,
+//    <golems:golem_head>,
+//    <golems:golem_paper>,
+    <grapplemod:doubleupgradeitem>,
+    <grapplemod:enderhook>,
+    <grapplemod:launcheritem>,
+    <grapplemod:limitsupgradeitem>,
+    <malisisdoors:carriage_door>,
+    <malisisdoors:wood_sliding_door>,
+    <malisisdoors:shoji_door>,
+    <malisisdoors:door_factory>,
+    <malisisdoors:jail_door>,
+    <malisisdoors:medieval_door>,
+    <malisisdoors:saloon>,
+    <malisisdoors:big_door_spruce_3x3>,
+    <malisisdoors:big_door_oak_3x3>,
+    <malisisdoors:big_door_birch_3x3>,
+    <malisisdoors:big_door_oak_3x3>,
+    <malisisdoors:big_door_jungle_3x3>,
+    <malisisdoors:big_door_acacia_3x3>,
+    <malisisdoors:big_door_dark_oak_3x3>,
+    <malisisdoors:big_door_iron_3x3>,
+    <malisisdoors:big_door_rusty_3x3>,
+    <minecraft:acacia_boat>,
+    <minecraft:acacia_door>,
+    <minecraft:anvil>,
+    <minecraft:anvil:1>,
+    <minecraft:anvil:2>,
+    <minecraft:armor_stand>,
+    <minecraft:beacon>,
+    <minecraft:birch_boat>,
+    <minecraft:birch_door>,
+    <minecraft:blaze_powder>,
+    <minecraft:boat>,
+    <minecraft:brewing_stand>,
+    <minecraft:carpet>,
+    <minecraft:carpet:1>,
+    <minecraft:carpet:2>,
+    <minecraft:carpet:3>,
+    <minecraft:carpet:4>,
+    <minecraft:carpet:5>,
+    <minecraft:carpet:6>,
+    <minecraft:carpet:7>,
+    <minecraft:carpet:8>,
+    <minecraft:carpet:9>,
+    <minecraft:carpet:10>,
+    <minecraft:carpet:11>,
+    <minecraft:carpet:12>,
+    <minecraft:carpet:13>,
+    <minecraft:carpet:14>,
+    <minecraft:carpet:15>,
+    <minecraft:cauldron>,
+    <minecraft:chainmail_boots>,
+    <minecraft:chainmail_chestplate>,
+    <minecraft:chainmail_helmet>,
+    <minecraft:chainmail_leggings>,
+    <minecraft:chest>,
+    <minecraft:crafting_table>,
+    <minecraft:dark_oak_boat>,
+    <minecraft:dark_oak_door>,
+    <minecraft:diamond_block>,
+    <minecraft:diamond_horse_armor>,
+    <minecraft:furnace>,
+    <minecraft:ghast_tear>,
+    <minecraft:glowstone>,
+    <minecraft:glowstone_dust>,
+    <minecraft:gold_block>,
+    <minecraft:gold_ingot>,
+//    <minecraft:gold_nugget>,
+    <minecraft:gold_ore>,
+    <minecraft:golden_apple>,
+    <minecraft:golden_apple:1>,
+    <minecraft:golden_carrot>,
+    <minecraft:golden_horse_armor>,
+    <minecraft:golden_leggings>,
+    <minecraft:golden_pickaxe>,
+    <minecraft:iron_block>,
+    <minecraft:iron_boots>,
+    <minecraft:iron_door>,
+    <minecraft:iron_helmet>,
+    <minecraft:iron_horse_armor>,
+    <minecraft:iron_ingot>,
+    <minecraft:iron_ore>,
+    <minecraft:iron_trapdoor>,
+    <minecraft:item_frame>,
+    <minecraft:jungle_boat>,
+    <minecraft:jungle_door>,
+    <minecraft:ladder>,
+    <minecraft:lapis_block>,
+    <minecraft:lapis_ore>,
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:mundane"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:leaping"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_leaping"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_leaping"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:fire_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_fire_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:swiftness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_swiftness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_swiftness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:slowness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_slowness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:healing"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_healing"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:poison"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_regeneration"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strength"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_strength"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_strength"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:weakness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_weakness"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:luck"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:strong_haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:mining_fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_mining_fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:strong_mining_fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:strong_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:danger_sight"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_danger_sight"}),
 /*
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_knowledge"}) );
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_resistance"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:absorption"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_absorption"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_absorption"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_haste"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_fatigue"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:wither"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_wither"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_wither"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:sundering"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_sundering"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_sundering"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:knowledge"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:long_knowledge"}),
+    <minecraft:lingering_potion>.withTag({Potion: "apotheosis:strong_knowledge"}),
 */
-mods.ItemStages.addItemStage("medieval", <minecraft:lit_pumpkin> );
-mods.ItemStages.addItemStage("medieval", <minecraft:nether_star> );
-mods.ItemStages.addItemStage("medieval", <minecraft:nether_wart> );
-mods.ItemStages.addItemStage("medieval", <minecraft:nether_wart_block> );
-mods.ItemStages.addItemStage("medieval", <minecraft:netherbrick> );
-mods.ItemStages.addItemStage("medieval", <minecraft:noteblock> );
-mods.ItemStages.addItemStage("medieval", <minecraft:painting> );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:mundane"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:thick"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:awkward"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "minecraft:luck"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "toughasnails:cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "toughasnails:heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:long_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:strong_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:long_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:strong_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:danger_sight"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "quark:long_danger_sight"}) );
+    <minecraft:lit_pumpkin>,
+    <minecraft:nether_star>,
+    <minecraft:nether_wart>,
+    <minecraft:nether_wart_block>,
+    <minecraft:netherbrick>,
+    <minecraft:noteblock>,
+    <minecraft:painting>,
+    <minecraft:potion>.withTag({Potion: "minecraft:mundane"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:thick"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:awkward"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:leaping"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:slowness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_slowness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:healing"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:harming"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:poison"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_poison"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_poison"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:regeneration"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strength"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_strength"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:weakness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:luck"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:haste"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_haste"}),
+    <minecraft:potion>.withTag({Potion: "quark:strong_haste"}),
+    <minecraft:potion>.withTag({Potion: "quark:mining_fatigue"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_mining_fatigue"}),
+    <minecraft:potion>.withTag({Potion: "quark:strong_mining_fatigue"}),
+    <minecraft:potion>.withTag({Potion: "quark:resistance"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_resistance"}),
+    <minecraft:potion>.withTag({Potion: "quark:strong_resistance"}),
+    <minecraft:potion>.withTag({Potion: "quark:danger_sight"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_danger_sight"}),
 /*
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:long_knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:potion>.withTag({Potion: "apotheosis:strong_knowledge"}) );
+    <minecraft:potion>.withTag({Potion: "apotheosis:resistance"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_resistance"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_resistance"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:absorption"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_absorption"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:haste"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_haste"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_haste"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:fatigue"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_fatigue"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_fatigue"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:wither"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_wither"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_wither"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:sundering"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_sundering"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_sundering"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:knowledge"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:long_knowledge"}),
+    <minecraft:potion>.withTag({Potion: "apotheosis:strong_knowledge"}),
 */
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:mundane"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:thick"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:long_weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "minecraft:luck"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:long_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:strong_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:long_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:strong_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:danger_sight"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "quark:long_danger_sight"}) );
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:mundane"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:thick"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_night_vision"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_leaping"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_leaping"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_fire_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:swiftness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_swiftness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_slowness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_healing"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:poison"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strength"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_strength"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_weakness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:luck"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:strong_haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:mining_fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_mining_fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:strong_mining_fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:strong_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:danger_sight"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_danger_sight"}),
 /*
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_knowledge"}) );
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_resistance"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:absorption"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_absorption"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_absorption"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_haste"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_fatigue"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:wither"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_wither"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_wither"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:sundering"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_sundering"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_sundering"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:knowledge"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:long_knowledge"}),
+    <minecraft:splash_potion>.withTag({Potion: "apotheosis:strong_knowledge"}),
 */
-mods.ItemStages.addItemStage("medieval", <minecraft:spruce_boat> );
-mods.ItemStages.addItemStage("medieval", <minecraft:spruce_door> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:2> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:3> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:4> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:5> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:6> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:7> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:8> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:9> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:10> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:11> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:12> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:13> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:14> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass:15> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:2> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:3> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:4> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:5> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:6> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:7> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:8> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:9> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:10> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:11> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:12> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:13> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:14> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stained_glass_pane:15> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stonebrick> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stonebrick:1> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stonebrick:2> );
-mods.ItemStages.addItemStage("medieval", <minecraft:stonebrick:3> );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_night_vision"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_invisibility"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_leaping"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_fire_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_swiftness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_slowness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_water_breathing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_healing"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_harming"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_poison"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_regeneration"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_strength"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_weakness"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "minecraft:luck"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_cold_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_heat_resistance_type"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resilience"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:long_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_mining_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:danger_sight"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "quark:long_danger_sight"}) );
+    <minecraft:spruce_boat>,
+    <minecraft:spruce_door>,
+    <minecraft:stained_glass>,
+    <minecraft:stained_glass:1>,
+    <minecraft:stained_glass:2>,
+    <minecraft:stained_glass:3>,
+    <minecraft:stained_glass:4>,
+    <minecraft:stained_glass:5>,
+    <minecraft:stained_glass:6>,
+    <minecraft:stained_glass:7>,
+    <minecraft:stained_glass:8>,
+    <minecraft:stained_glass:9>,
+    <minecraft:stained_glass:10>,
+    <minecraft:stained_glass:11>,
+    <minecraft:stained_glass:12>,
+    <minecraft:stained_glass:13>,
+    <minecraft:stained_glass:14>,
+    <minecraft:stained_glass:15>,
+    <minecraft:stained_glass_pane>,
+    <minecraft:stained_glass_pane:1>,
+    <minecraft:stained_glass_pane:2>,
+    <minecraft:stained_glass_pane:3>,
+    <minecraft:stained_glass_pane:4>,
+    <minecraft:stained_glass_pane:5>,
+    <minecraft:stained_glass_pane:6>,
+    <minecraft:stained_glass_pane:7>,
+    <minecraft:stained_glass_pane:8>,
+    <minecraft:stained_glass_pane:9>,
+    <minecraft:stained_glass_pane:10>,
+    <minecraft:stained_glass_pane:11>,
+    <minecraft:stained_glass_pane:12>,
+    <minecraft:stained_glass_pane:13>,
+    <minecraft:stained_glass_pane:14>,
+    <minecraft:stained_glass_pane:15>,
+    <minecraft:stonebrick>,
+    <minecraft:stonebrick:1>,
+    <minecraft:stonebrick:2>,
+    <minecraft:stonebrick:3>,
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:night_vision"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_night_vision"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:leaping"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_leaping"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_leaping"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:fire_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_fire_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:swiftness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_swiftness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_swiftness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:slowness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_slowness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:water_breathing"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_water_breathing"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:healing"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_healing"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:harming"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_harming"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:poison"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_poison"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_poison"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:regeneration"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_regeneration"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_regeneration"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strength"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_strength"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:strong_strength"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:weakness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_weakness"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "minecraft:luck"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:mining_fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_mining_fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_mining_fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:danger_sight"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_danger_sight"}),
 /*
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_resistance"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_absorption"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_haste"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_fatigue"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_wither"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_sundering"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_knowledge"}) );
-mods.ItemStages.addItemStage("medieval", <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_knowledge"}) );
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_resistance"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:absorption"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_absorption"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_absorption"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_haste"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_fatigue"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:wither"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_wither"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_wither"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:sundering"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_sundering"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_sundering"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:knowledge"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_knowledge"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_knowledge"}),
 */
-mods.ItemStages.addItemStage("medieval", <minecraft:torch> );
-mods.ItemStages.addItemStage("medieval", <minecraft:totem_of_undying> );
-mods.ItemStages.addItemStage("medieval", <minecraft:trapdoor> );
-mods.ItemStages.addItemStage("medieval", <minecraft:trapped_chest> );
-mods.ItemStages.addItemStage("medieval", <minecraft:wooden_button> );
-mods.ItemStages.addItemStage("medieval", <minecraft:wooden_door> );
-mods.ItemStages.addItemStage("medieval", <mysticalworld:spindle> );
-//mods.ItemStages.addItemStage("medieval", <openblocks:auto_anvil> );
-mods.ItemStages.addItemStage("medieval", <malisisdoors:customdooritem> );
-//mods.ItemStages.addItemStage("medieval", <openblocks:auto_enchantment_table> );
-mods.ItemStages.addItemStage("medieval", <primal:door_corypha> );
-mods.ItemStages.addItemStage("medieval", <primal:door_ironwood> );
-mods.ItemStages.addItemStage("medieval", <primal:door_yew> );
-mods.ItemStages.addItemStage("medieval", <primal:door_lacquer> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest:1> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest:2> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest:3> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest:4> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest_trap> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest_trap:1> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest_trap:2> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest_trap:3> );
-mods.ItemStages.addItemStage("medieval", <quark:custom_chest_trap:4> );
-mods.ItemStages.addItemStage("medieval", <quark:pirate_hat> );
-mods.ItemStages.addItemStage("medieval", <quark:acacia_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <quark:birch_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <quark:dark_oak_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <quark:jungle_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <quark:spruce_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <roots:wildwood_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <roots:wildwood_door> );
-mods.ItemStages.addItemStage("medieval", <rustic:apple_juice> );
-mods.ItemStages.addItemStage("medieval", <rustic:barrel> );
-mods.ItemStages.addItemStage("medieval", <rustic:brewing_barrel> );
-mods.ItemStages.addItemStage("medieval", <rustic:cabinet> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle_gold> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle_lever> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle_lever_gold> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle_lever_silver> );
-mods.ItemStages.addItemStage("medieval", <rustic:candle_silver> );
-mods.ItemStages.addItemStage("medieval", <rustic:chain> );
-mods.ItemStages.addItemStage("medieval", <rustic:chain_gold> );
-mods.ItemStages.addItemStage("medieval", <rustic:chain_silver> );
-mods.ItemStages.addItemStage("medieval", <rustic:chandelier> );
-mods.ItemStages.addItemStage("medieval", <rustic:chandelier_gold> );
-mods.ItemStages.addItemStage("medieval", <rustic:chandelier_silver> );
-mods.ItemStages.addItemStage("medieval", <rustic:clay_wall> );
-mods.ItemStages.addItemStage("medieval", <rustic:clay_wall_cross> );
-mods.ItemStages.addItemStage("medieval", <rustic:clay_wall_diag> );
-mods.ItemStages.addItemStage("medieval", <rustic:condenser> );
-mods.ItemStages.addItemStage("medieval", <rustic:condenser_advanced> );
-mods.ItemStages.addItemStage("medieval", <rustic:crushing_tub> );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 900, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 1800, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 450, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 1800, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 1800, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 1800, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 1800, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:feather", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:feather", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:blazing_trail", Duration: 3600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:blazing_trail", Duration: 9600, Amplifier: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "juniper_berry_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "elderberry_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wormwood_mixture", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "sage_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "gin", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "elderberry_wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "absinthe", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "sage_liqueur", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ironberryjuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "applejuice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "alewort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ale", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cider", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ironwine", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "mead", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberrywine", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cinderfire_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "shimmerdew_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "shimmerdew_spirits", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "viscous_wort", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "viscous_brew", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "peach_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "pear_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "persimmon_juice", Amount: 1000}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "peach_schnapps", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "perry", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "persimmon_wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}) );
-mods.ItemStages.addItemStage("medieval", <rustic:gargoyle> );
-mods.ItemStages.addItemStage("medieval", <rustic:golden_lantern> );
-mods.ItemStages.addItemStage("medieval", <rustic:granite_pillar> );
-mods.ItemStages.addItemStage("medieval", <rustic:grape_juice> );
-mods.ItemStages.addItemStage("medieval", <rustic:grape_stem> );
-mods.ItemStages.addItemStage("medieval", <rustic:iron_lantern> );
-mods.ItemStages.addItemStage("medieval", <rustic:iron_lattice> );
-mods.ItemStages.addItemStage("medieval", <rustic:ironberries> );
-mods.ItemStages.addItemStage("medieval", <rustic:ironberry_juice> );
-mods.ItemStages.addItemStage("medieval", <rustic:ironwood_door> );
-mods.ItemStages.addItemStage("medieval", <rustic:lantern_wood> );
-mods.ItemStages.addItemStage("medieval", <rustic:liquid_barrel> );
-mods.ItemStages.addItemStage("medieval", <rustic:marsh_mallow> );
-mods.ItemStages.addItemStage("medieval", <rustic:mooncap_mushroom> );
-mods.ItemStages.addItemStage("medieval", <rustic:olive_door> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_black> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_blue> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_brown> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_cyan> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_gray> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_green> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_light_blue> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_lime> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_magenta> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_orange> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_pink> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_purple> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_red> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_silver> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_white> );
-mods.ItemStages.addItemStage("medieval", <rustic:painted_wood_yellow> );
-mods.ItemStages.addItemStage("medieval", <rustic:retort> );
-mods.ItemStages.addItemStage("medieval", <rustic:retort_advanced> );
-mods.ItemStages.addItemStage("medieval", <rustic:silver_lantern> );
-mods.ItemStages.addItemStage("medieval", <rustic:wildberry_juice> );
-mods.ItemStages.addItemStage("medieval", <rusticatedfruit:peach_juice> );
-mods.ItemStages.addItemStage("medieval", <rusticatedfruit:pear_juice> );
-mods.ItemStages.addItemStage("medieval", <rusticatedfruit:persimmon_juice> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:candle_brass> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:chain_brass> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:chair_greatwood> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:chair_silverwood> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:cinderfire_whiskey> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:cinderfire_wort> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:cindermote> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:cindermote_seeds> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:dust_tiny_blaze> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:lantern_brass> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:shimmerdew_spirits> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:shimmerdew_wort> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:shimmerpetal> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:shimmerpetal_bulb> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:table_greatwood> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:table_silverwood> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:viscap> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:viscap_spores> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:viscous_brew> );
-mods.ItemStages.addItemStage("medieval", <rusticthaumaturgy:viscous_wort> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:chest_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:crafting_station_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:furnace_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:note_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:part_chest_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:tool_forge_slab> );
-mods.ItemStages.addItemStage("medieval", <slabmachines:workbench_slab> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers>.withTag({material: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:1>.withTag({material: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:2>.withTag({material: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:3>.withTag({material: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "spruce"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "birch"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "jungle"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "acacia"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:basicdrawers:4>.withTag({material: "dark_oak"}) );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:compdrawers> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:controller> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:controllerslave> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customdrawers> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customdrawers:1> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customdrawers:2> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customdrawers:3> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customdrawers:4> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:customtrim> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:drawer_key> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:framingtable> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:keybutton> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:keybutton:1> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:keybutton:2> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:keybutton:3> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:personal_key> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:quantify_key> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:shroud_key> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:tape> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim:1> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim:2> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim:3> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim:4> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:trim:5> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_conversion> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_one_stack> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_status> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_status:1> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_storage> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_storage:1> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_storage:2> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_storage:3> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_storage:4> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_template> );
-mods.ItemStages.addItemStage("medieval", <storagedrawers:upgrade_void> );
-mods.ItemStages.addItemStage("medieval", <t3s4ebw:crystal_crop> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:alloy_tank> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_alloy_tank> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_casting> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_casting:1> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_melter> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_melter:8> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_tank> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_tank:1> );
-mods.ItemStages.addItemStage("medieval", <tcomplement:porcelain_tank:2> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:2> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:3> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:4> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:5> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:fancy_frame:6> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ingots> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ingots:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ingots:2> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ingots:3> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ingots:4> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:materials:14> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:materials:15> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:materials:16> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:materials:18> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:materials:19> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:2> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:3> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:4> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:5> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:metal:6> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:moms_spaghetti> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:2> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:3> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:4> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:nuggets:5> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ore> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:ore:1> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:smeltery_io> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:spaghetti> );
-mods.ItemStages.addItemStage("medieval", <tconstruct:tinker_tank_controller> );
-mods.ItemStages.addItemStage("medieval", <telepastries:twilight_cake> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:1> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:2> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:4> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:5> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:6> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:7> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:fruit_juice:9> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:jelled_slime> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:magma_shard> );
-mods.ItemStages.addItemStage("medieval", <toughasnails:thermometer> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:alpha_fur> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:armor_shard> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:armor_shard_cluster> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:aurora_block> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:aurora_pillar> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:aurora_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:auroralized_glass> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_and_chain> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_storage> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_storage:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_storage:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_storage:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:block_storage:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:borer_essence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:7> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:boss_spawner:9> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:burnt_thorns> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:carminite> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_brick:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_door:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_door:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_door:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_pillar> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_pillar:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_pillar:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_pillar:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_rune_brick> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_rune_brick:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_rune_brick:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_rune_brick:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs_brick> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs_cracked> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs_mossy> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:castle_stairs_worn> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:charm_of_keeping_1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:charm_of_keeping_2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:charm_of_keeping_3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:charm_of_life_1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:charm_of_life_2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cicada> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cinder_furnace> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cinder_log> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cooked_meef> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cooked_venison> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:crumble_horn> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cube_of_annihilation> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:cube_talisman> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_leaves> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:deadrock> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:deadrock:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:deadrock:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ender_bow> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:etched_nagastone> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:etched_nagastone_mossy> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:etched_nagastone_weathered> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:experiment_115> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fiery_blood> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fiery_ingot> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fiery_tears> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fire_jet> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fire_jet:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fire_jet:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fire_jet:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:firefly> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:firefly_jar> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:fluffy_cloud> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:force_field> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:force_field:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:force_field:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:force_field:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:force_field:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_cobblestone> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_leaves> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_log> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_obsidian> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_pickaxe> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:giant_sword> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:glass_sword> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:glass_sword>.withTag({Unbreakable: 1 as byte}) );
-mods.ItemStages.addItemStage("medieval", <twilightforest:hedge> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:huge_lilypad> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:huge_mushgloom> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:huge_stalk> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:huge_waterlily> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:hydra_chop> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ice_bomb> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ice_bow> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ice_sword> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:iron_ladder> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ironwood_raw> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:knightmetal_ingot> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:knightmetal_shield> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:lamp_of_cinders> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:lifedrain_scepter> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:liveroot> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_beans> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_leaves> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_leaves:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_leaves:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_leaves:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log_core> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log_core:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log_core:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_log_core:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_map> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_map_empty> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:magic_map_focus> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_map> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_map_empty> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_map_focus> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_stone:7> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:maze_wafer> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mazebreaker_pickaxe>.withTag({ench: [{lvl: 4 as short, id: 32}, {lvl: 3 as short, id: 34}, {lvl: 2 as short, id: 35}]}) );
-mods.ItemStages.addItemStage("medieval", <twilightforest:meef_stroganoff> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:minotaur_axe> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:minotaur_axe_gold> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:moon_dial> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:moonworm> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:moonworm_queen> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:naga_chestplate>.withTag({ench: [{lvl: 3 as short, id: 1}]}) );
-mods.ItemStages.addItemStage("medieval", <twilightforest:naga_leggings>.withTag({ench: [{lvl: 3 as short, id: 0}]}) );
-mods.ItemStages.addItemStage("medieval", <twilightforest:naga_scale> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:naga_stone> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:naga_stone:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_pillar> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_pillar_mossy> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_pillar_weathered> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs_mossy> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs_mossy:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs_weathered> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:nagastone_stairs_weathered:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ore_magnet> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ore_map> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ore_map_empty> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:ore_meter> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:peacock_fan> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:phantom_chestplate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:phantom_helmet> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:raven_feather> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:raw_meef> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:raw_venison> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:root> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:root:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:seeker_bow> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:shader> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:shader_bag> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:shield_scepter> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:slider> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:slider:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:slider:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:slider:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:spiral_bricks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:steeleaf_ingot> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:stone_twist> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:stone_twist_thin> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:stronghold_shield> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:terrorcotta_circle> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:terrorcotta_diagonal> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:thorn_rose> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:thorns> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:thorns:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:canopy_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mangrove_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:dark_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:time_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:mine_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:sort_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:torchberries> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:9> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:10> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_device:12> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_key> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_translucent> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_wood> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_wood:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_wood:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_wood:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:tower_wood:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trans_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:transformation_powder> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:triple_bow> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trollber> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trollsteinn> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trollvidr> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:trophy_pedestal> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves_3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_leaves_3:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_log> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_log:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_log:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_log:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_button> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_door> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_fence> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_gate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_planks> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_plate> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_slab> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_stairs> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_oak_trapdoor> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:7> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_plant:9> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:4> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:5> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:6> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:7> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:8> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_sapling:9> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:twilight_scepter> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:uberous_soil> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:uncrafting_table> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:underbrick> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:underbrick:1> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:underbrick:2> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:underbrick:3> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:unripe_trollber> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:wispy_cloud> );
-mods.ItemStages.addItemStage("medieval", <twilightforest:zombie_scepter> );
-mods.ItemStages.addItemStage("medieval", <villagermarket:villager_market> );
-mods.ItemStages.addItemStage("medieval", <wolfarmor:chainmail_wolf_armor> );
-mods.ItemStages.addItemStage("medieval", <wolfarmor:diamond_wolf_armor> );
-mods.ItemStages.addItemStage("medieval", <progressiontweaks:machine_frame> );
+    <minecraft:torch>,
+    <minecraft:totem_of_undying>,
+    <minecraft:trapdoor>,
+    <minecraft:trapped_chest>,
+    <minecraft:wooden_button>,
+    <minecraft:wooden_door>,
+    <mysticalworld:spindle>,
+//    <openblocks:auto_anvil>,
+    <malisisdoors:customdooritem>,
+//    <openblocks:auto_enchantment_table>,
+    <primal:door_corypha>,
+    <primal:door_ironwood>,
+    <primal:door_yew>,
+    <primal:door_lacquer>,
+    <quark:custom_chest>,
+    <quark:custom_chest:1>,
+    <quark:custom_chest:2>,
+    <quark:custom_chest:3>,
+    <quark:custom_chest:4>,
+    <quark:custom_chest_trap>,
+    <quark:custom_chest_trap:1>,
+    <quark:custom_chest_trap:2>,
+    <quark:custom_chest_trap:3>,
+    <quark:custom_chest_trap:4>,
+    <quark:pirate_hat>,
+    <quark:acacia_trapdoor>,
+    <quark:birch_trapdoor>,
+    <quark:dark_oak_trapdoor>,
+    <quark:jungle_trapdoor>,
+    <quark:spruce_trapdoor>,
+    <roots:wildwood_trapdoor>,
+    <roots:wildwood_door>,
+    <rustic:apple_juice>,
+    <rustic:barrel>,
+    <rustic:brewing_barrel>,
+    <rustic:cabinet>,
+    <rustic:candle>,
+    <rustic:candle_gold>,
+    <rustic:candle_lever>,
+    <rustic:candle_lever_gold>,
+    <rustic:candle_lever_silver>,
+    <rustic:candle_silver>,
+    <rustic:chain>,
+    <rustic:chain_gold>,
+    <rustic:chain_silver>,
+    <rustic:chandelier>,
+    <rustic:chandelier_gold>,
+    <rustic:chandelier_silver>,
+    <rustic:clay_wall>,
+    <rustic:clay_wall_cross>,
+    <rustic:clay_wall_diag>,
+    <rustic:condenser>,
+    <rustic:condenser_advanced>,
+    <rustic:crushing_tub>,
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 900, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 1800, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 450, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 1800, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:fire_resistance", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:health_boost", Duration: 1800, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 1800, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:strength", Duration: 1800, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:feather", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:feather", Duration: 9600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:blazing_trail", Duration: 3600, Amplifier: 0}]}),
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:blazing_trail", Duration: 9600, Amplifier: 0}]}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "juniper_berry_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "elderberry_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wormwood_mixture", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "sage_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "gin", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "elderberry_wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "absinthe", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "sage_liqueur", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ironberryjuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "applejuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "alewort", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ale", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cider", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ironwine", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "mead", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberrywine", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "cinderfire_wort", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "shimmerdew_wort", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "shimmerdew_spirits", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "viscous_wort", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "viscous_brew", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "peach_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "pear_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "persimmon_juice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "peach_schnapps", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "perry", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "persimmon_wine", Amount: 1000, Tag: {Quality: 0.75 as float}}}),
+    <rustic:gargoyle>,
+    <rustic:golden_lantern>,
+    <rustic:granite_pillar>,
+    <rustic:grape_juice>,
+    <rustic:grape_stem>,
+    <rustic:iron_lantern>,
+    <rustic:iron_lattice>,
+    <rustic:ironberries>,
+    <rustic:ironberry_juice>,
+    <rustic:ironwood_door>,
+    <rustic:lantern_wood>,
+    <rustic:liquid_barrel>,
+    <rustic:marsh_mallow>,
+    <rustic:mooncap_mushroom>,
+    <rustic:olive_door>,
+    <rustic:painted_wood_black>,
+    <rustic:painted_wood_blue>,
+    <rustic:painted_wood_brown>,
+    <rustic:painted_wood_cyan>,
+    <rustic:painted_wood_gray>,
+    <rustic:painted_wood_green>,
+    <rustic:painted_wood_light_blue>,
+    <rustic:painted_wood_lime>,
+    <rustic:painted_wood_magenta>,
+    <rustic:painted_wood_orange>,
+    <rustic:painted_wood_pink>,
+    <rustic:painted_wood_purple>,
+    <rustic:painted_wood_red>,
+    <rustic:painted_wood_silver>,
+    <rustic:painted_wood_white>,
+    <rustic:painted_wood_yellow>,
+    <rustic:retort>,
+    <rustic:retort_advanced>,
+    <rustic:silver_lantern>,
+    <rustic:wildberry_juice>,
+    <rusticatedfruit:peach_juice>,
+    <rusticatedfruit:pear_juice>,
+    <rusticatedfruit:persimmon_juice>,
+    <rusticthaumaturgy:candle_brass>,
+    <rusticthaumaturgy:chain_brass>,
+    <rusticthaumaturgy:chair_greatwood>,
+    <rusticthaumaturgy:chair_silverwood>,
+    <rusticthaumaturgy:cinderfire_whiskey>,
+    <rusticthaumaturgy:cinderfire_wort>,
+    <rusticthaumaturgy:cindermote>,
+    <rusticthaumaturgy:cindermote_seeds>,
+    <rusticthaumaturgy:dust_tiny_blaze>,
+    <rusticthaumaturgy:lantern_brass>,
+    <rusticthaumaturgy:shimmerdew_spirits>,
+    <rusticthaumaturgy:shimmerdew_wort>,
+    <rusticthaumaturgy:shimmerpetal>,
+    <rusticthaumaturgy:shimmerpetal_bulb>,
+    <rusticthaumaturgy:table_greatwood>,
+    <rusticthaumaturgy:table_silverwood>,
+    <rusticthaumaturgy:viscap>,
+    <rusticthaumaturgy:viscap_spores>,
+    <rusticthaumaturgy:viscous_brew>,
+    <rusticthaumaturgy:viscous_wort>,
+    <slabmachines:chest_slab>,
+    <slabmachines:crafting_station_slab>,
+    <slabmachines:furnace_slab>,
+    <slabmachines:note_slab>,
+    <slabmachines:part_chest_slab>,
+    <slabmachines:tool_forge_slab>,
+    <slabmachines:workbench_slab>,
+    <storagedrawers:basicdrawers>.withTag({material: "oak"}),
+    <storagedrawers:basicdrawers>.withTag({material: "spruce"}),
+    <storagedrawers:basicdrawers>.withTag({material: "birch"}),
+    <storagedrawers:basicdrawers>.withTag({material: "jungle"}),
+    <storagedrawers:basicdrawers>.withTag({material: "acacia"}),
+    <storagedrawers:basicdrawers>.withTag({material: "dark_oak"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "oak"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "spruce"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "birch"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "jungle"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "acacia"}),
+    <storagedrawers:basicdrawers:1>.withTag({material: "dark_oak"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "oak"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "spruce"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "birch"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "jungle"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "acacia"}),
+    <storagedrawers:basicdrawers:2>.withTag({material: "dark_oak"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "oak"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "spruce"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "birch"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "jungle"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "acacia"}),
+    <storagedrawers:basicdrawers:3>.withTag({material: "dark_oak"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "oak"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "spruce"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "birch"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "jungle"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "acacia"}),
+    <storagedrawers:basicdrawers:4>.withTag({material: "dark_oak"}),
+    <storagedrawers:compdrawers>,
+    <storagedrawers:controller>,
+    <storagedrawers:controllerslave>,
+    <storagedrawers:customdrawers>,
+    <storagedrawers:customdrawers:1>,
+    <storagedrawers:customdrawers:2>,
+    <storagedrawers:customdrawers:3>,
+    <storagedrawers:customdrawers:4>,
+    <storagedrawers:customtrim>,
+    <storagedrawers:drawer_key>,
+    <storagedrawers:framingtable>,
+    <storagedrawers:keybutton>,
+    <storagedrawers:keybutton:1>,
+    <storagedrawers:keybutton:2>,
+    <storagedrawers:keybutton:3>,
+    <storagedrawers:personal_key>,
+    <storagedrawers:quantify_key>,
+    <storagedrawers:shroud_key>,
+    <storagedrawers:tape>,
+    <storagedrawers:trim>,
+    <storagedrawers:trim:1>,
+    <storagedrawers:trim:2>,
+    <storagedrawers:trim:3>,
+    <storagedrawers:trim:4>,
+    <storagedrawers:trim:5>,
+    <storagedrawers:upgrade_conversion>,
+    <storagedrawers:upgrade_one_stack>,
+    <storagedrawers:upgrade_status>,
+    <storagedrawers:upgrade_status:1>,
+    <storagedrawers:upgrade_storage>,
+    <storagedrawers:upgrade_storage:1>,
+    <storagedrawers:upgrade_storage:2>,
+    <storagedrawers:upgrade_storage:3>,
+    <storagedrawers:upgrade_storage:4>,
+    <storagedrawers:upgrade_template>,
+    <storagedrawers:upgrade_void>,
+    <t3s4ebw:crystal_crop>,
+    <tcomplement:alloy_tank>,
+    <tcomplement:porcelain_alloy_tank>,
+    <tcomplement:porcelain_casting>,
+    <tcomplement:porcelain_casting:1>,
+    <tcomplement:porcelain_melter>,
+    <tcomplement:porcelain_melter:8>,
+    <tcomplement:porcelain_tank>,
+    <tcomplement:porcelain_tank:1>,
+    <tcomplement:porcelain_tank:2>,
+    <tconstruct:fancy_frame>,
+    <tconstruct:fancy_frame:1>,
+    <tconstruct:fancy_frame:2>,
+    <tconstruct:fancy_frame:3>,
+    <tconstruct:fancy_frame:4>,
+    <tconstruct:fancy_frame:5>,
+    <tconstruct:fancy_frame:6>,
+    <tconstruct:ingots>,
+    <tconstruct:ingots:1>,
+    <tconstruct:ingots:2>,
+    <tconstruct:ingots:3>,
+    <tconstruct:ingots:4>,
+    <tconstruct:materials:14>,
+    <tconstruct:materials:15>,
+    <tconstruct:materials:16>,
+    <tconstruct:materials:18>,
+    <tconstruct:materials:19>,
+    <tconstruct:metal>,
+    <tconstruct:metal:1>,
+    <tconstruct:metal:2>,
+    <tconstruct:metal:3>,
+    <tconstruct:metal:4>,
+    <tconstruct:metal:5>,
+    <tconstruct:metal:6>,
+    <tconstruct:moms_spaghetti>,
+    <tconstruct:nuggets>,
+    <tconstruct:nuggets:1>,
+    <tconstruct:nuggets:2>,
+    <tconstruct:nuggets:3>,
+    <tconstruct:nuggets:4>,
+    <tconstruct:nuggets:5>,
+    <tconstruct:ore>,
+    <tconstruct:ore:1>,
+    <tconstruct:smeltery_io>,
+    <tconstruct:spaghetti>,
+    <tconstruct:tinker_tank_controller>,
+    <telepastries:twilight_cake>,
+    <toughasnails:fruit_juice:1>,
+    <toughasnails:fruit_juice:2>,
+    <toughasnails:fruit_juice:4>,
+    <toughasnails:fruit_juice:5>,
+    <toughasnails:fruit_juice:6>,
+    <toughasnails:fruit_juice:7>,
+    <toughasnails:fruit_juice:9>,
+    <toughasnails:jelled_slime>,
+    <toughasnails:magma_shard>,
+    <toughasnails:thermometer>,
+    <twilightforest:alpha_fur>,
+    <twilightforest:armor_shard>,
+    <twilightforest:armor_shard_cluster>,
+    <twilightforest:aurora_block>,
+    <twilightforest:aurora_pillar>,
+    <twilightforest:aurora_slab>,
+    <twilightforest:auroralized_glass>,
+    <twilightforest:block_and_chain>,
+    <twilightforest:block_storage>,
+    <twilightforest:block_storage:1>,
+    <twilightforest:block_storage:2>,
+    <twilightforest:block_storage:3>,
+    <twilightforest:block_storage:4>,
+    <twilightforest:borer_essence>,
+    <twilightforest:boss_spawner>,
+    <twilightforest:boss_spawner:1>,
+    <twilightforest:boss_spawner:2>,
+    <twilightforest:boss_spawner:3>,
+    <twilightforest:boss_spawner:4>,
+    <twilightforest:boss_spawner:5>,
+    <twilightforest:boss_spawner:6>,
+    <twilightforest:boss_spawner:7>,
+    <twilightforest:boss_spawner:9>,
+    <twilightforest:burnt_thorns>,
+    <twilightforest:canopy_button>,
+    <twilightforest:canopy_door>,
+    <twilightforest:canopy_fence>,
+    <twilightforest:canopy_gate>,
+    <twilightforest:canopy_planks>,
+    <twilightforest:canopy_plate>,
+    <twilightforest:canopy_slab>,
+    <twilightforest:canopy_stairs>,
+    <twilightforest:canopy_trapdoor>,
+    <twilightforest:carminite>,
+    <twilightforest:castle_brick>,
+    <twilightforest:castle_brick:1>,
+    <twilightforest:castle_brick:2>,
+    <twilightforest:castle_brick:3>,
+    <twilightforest:castle_brick:4>,
+    <twilightforest:castle_brick:5>,
+    <twilightforest:castle_door>,
+    <twilightforest:castle_door:1>,
+    <twilightforest:castle_door:2>,
+    <twilightforest:castle_door:3>,
+    <twilightforest:castle_pillar>,
+    <twilightforest:castle_pillar:1>,
+    <twilightforest:castle_pillar:2>,
+    <twilightforest:castle_pillar:3>,
+    <twilightforest:castle_rune_brick>,
+    <twilightforest:castle_rune_brick:1>,
+    <twilightforest:castle_rune_brick:2>,
+    <twilightforest:castle_rune_brick:3>,
+    <twilightforest:castle_stairs>,
+    <twilightforest:castle_stairs:8>,
+    <twilightforest:castle_stairs_brick>,
+    <twilightforest:castle_stairs_cracked>,
+    <twilightforest:castle_stairs_mossy>,
+    <twilightforest:castle_stairs_worn>,
+    <twilightforest:charm_of_keeping_1>,
+    <twilightforest:charm_of_keeping_2>,
+    <twilightforest:charm_of_keeping_3>,
+    <twilightforest:charm_of_life_1>,
+    <twilightforest:charm_of_life_2>,
+    <twilightforest:cicada>,
+    <twilightforest:cinder_furnace>,
+    <twilightforest:cinder_log>,
+    <twilightforest:cooked_meef>,
+    <twilightforest:cooked_venison>,
+    <twilightforest:crumble_horn>,
+    <twilightforest:cube_of_annihilation>,
+    <twilightforest:cube_talisman>,
+    <twilightforest:dark_button>,
+    <twilightforest:dark_door>,
+    <twilightforest:dark_fence>,
+    <twilightforest:dark_gate>,
+    <twilightforest:dark_leaves>,
+    <twilightforest:dark_planks>,
+    <twilightforest:dark_plate>,
+    <twilightforest:dark_slab>,
+    <twilightforest:dark_stairs>,
+    <twilightforest:dark_trapdoor>,
+    <twilightforest:deadrock>,
+    <twilightforest:deadrock:1>,
+    <twilightforest:deadrock:2>,
+    <twilightforest:ender_bow>,
+    <twilightforest:etched_nagastone>,
+    <twilightforest:etched_nagastone_mossy>,
+    <twilightforest:etched_nagastone_weathered>,
+    <twilightforest:experiment_115>,
+    <twilightforest:fiery_blood>,
+    <twilightforest:fiery_ingot>,
+    <twilightforest:fiery_tears>,
+    <twilightforest:fire_jet>,
+    <twilightforest:fire_jet:3>,
+    <twilightforest:fire_jet:1>,
+    <twilightforest:fire_jet:6>,
+    <twilightforest:firefly>,
+    <twilightforest:firefly_jar>,
+    <twilightforest:fluffy_cloud>,
+    <twilightforest:force_field>,
+    <twilightforest:force_field:1>,
+    <twilightforest:force_field:2>,
+    <twilightforest:force_field:3>,
+    <twilightforest:force_field:4>,
+    <twilightforest:giant_cobblestone>,
+    <twilightforest:giant_leaves>,
+    <twilightforest:giant_log>,
+    <twilightforest:giant_obsidian>,
+    <twilightforest:giant_pickaxe>,
+    <twilightforest:giant_sword>,
+    <twilightforest:glass_sword>,
+    <twilightforest:glass_sword>.withTag({Unbreakable: 1 as byte}),
+    <twilightforest:hedge>,
+    <twilightforest:huge_lilypad>,
+    <twilightforest:huge_mushgloom>,
+    <twilightforest:huge_stalk>,
+    <twilightforest:huge_waterlily>,
+    <twilightforest:hydra_chop>,
+    <twilightforest:ice_bomb>,
+    <twilightforest:ice_bow>,
+    <twilightforest:ice_sword>,
+    <twilightforest:iron_ladder>,
+    <twilightforest:ironwood_raw>,
+    <twilightforest:knightmetal_ingot>,
+    <twilightforest:knightmetal_shield>,
+    <twilightforest:lamp_of_cinders>,
+    <twilightforest:lifedrain_scepter>,
+    <twilightforest:liveroot>,
+    <twilightforest:magic_beans>,
+    <twilightforest:magic_leaves>,
+    <twilightforest:magic_leaves:1>,
+    <twilightforest:magic_leaves:2>,
+    <twilightforest:magic_leaves:3>,
+    <twilightforest:magic_log>,
+    <twilightforest:magic_log:1>,
+    <twilightforest:magic_log:2>,
+    <twilightforest:magic_log:3>,
+    <twilightforest:magic_log_core>,
+    <twilightforest:magic_log_core:1>,
+    <twilightforest:magic_log_core:2>,
+    <twilightforest:magic_log_core:3>,
+    <twilightforest:magic_map>,
+    <twilightforest:magic_map_empty>,
+    <twilightforest:magic_map_focus>,
+    <twilightforest:mangrove_button>,
+    <twilightforest:mangrove_door>,
+    <twilightforest:mangrove_fence>,
+    <twilightforest:mangrove_gate>,
+    <twilightforest:mangrove_planks>,
+    <twilightforest:mangrove_plate>,
+    <twilightforest:mangrove_slab>,
+    <twilightforest:mangrove_stairs>,
+    <twilightforest:mangrove_trapdoor>,
+    <twilightforest:maze_map>,
+    <twilightforest:maze_map_empty>,
+    <twilightforest:maze_map_focus>,
+    <twilightforest:maze_stone>,
+    <twilightforest:maze_stone:1>,
+    <twilightforest:maze_stone:2>,
+    <twilightforest:maze_stone:3>,
+    <twilightforest:maze_stone:4>,
+    <twilightforest:maze_stone:5>,
+    <twilightforest:maze_stone:6>,
+    <twilightforest:maze_stone:7>,
+    <twilightforest:maze_wafer>,
+    <twilightforest:mazebreaker_pickaxe>.withTag({ench: [{lvl: 4 as short, id: 32}, {lvl: 3 as short, id: 34}, {lvl: 2 as short, id: 35}]}),
+    <twilightforest:meef_stroganoff>,
+    <twilightforest:mine_button>,
+    <twilightforest:mine_door>,
+    <twilightforest:mine_fence>,
+    <twilightforest:mine_gate>,
+    <twilightforest:mine_planks>,
+    <twilightforest:mine_plate>,
+    <twilightforest:mine_slab>,
+    <twilightforest:mine_stairs>,
+    <twilightforest:mine_trapdoor>,
+    <twilightforest:minotaur_axe>,
+    <twilightforest:minotaur_axe_gold>,
+    <twilightforest:moon_dial>,
+    <twilightforest:moonworm>,
+    <twilightforest:moonworm_queen>,
+    <twilightforest:naga_chestplate>.withTag({ench: [{lvl: 3 as short, id: 1}]}),
+    <twilightforest:naga_leggings>.withTag({ench: [{lvl: 3 as short, id: 0}]}),
+    <twilightforest:naga_scale>,
+    <twilightforest:naga_stone>,
+    <twilightforest:naga_stone:1>,
+    <twilightforest:nagastone_pillar>,
+    <twilightforest:nagastone_pillar_mossy>,
+    <twilightforest:nagastone_pillar_weathered>,
+    <twilightforest:nagastone_stairs>,
+    <twilightforest:nagastone_stairs:8>,
+    <twilightforest:nagastone_stairs_mossy>,
+    <twilightforest:nagastone_stairs_mossy:8>,
+    <twilightforest:nagastone_stairs_weathered>,
+    <twilightforest:nagastone_stairs_weathered:8>,
+    <twilightforest:ore_magnet>,
+    <twilightforest:ore_map>,
+    <twilightforest:ore_map_empty>,
+    <twilightforest:ore_meter>,
+    <twilightforest:peacock_fan>,
+    <twilightforest:phantom_chestplate>,
+    <twilightforest:phantom_helmet>,
+    <twilightforest:raven_feather>,
+    <twilightforest:raw_meef>,
+    <twilightforest:raw_venison>,
+    <twilightforest:root>,
+    <twilightforest:root:1>,
+    <twilightforest:seeker_bow>,
+    <twilightforest:shader>,
+    <twilightforest:shader_bag>,
+    <twilightforest:shield_scepter>,
+    <twilightforest:slider>,
+    <twilightforest:slider:1>,
+    <twilightforest:slider:2>,
+    <twilightforest:slider:3>,
+    <twilightforest:sort_button>,
+    <twilightforest:sort_door>,
+    <twilightforest:sort_fence>,
+    <twilightforest:sort_gate>,
+    <twilightforest:sort_planks>,
+    <twilightforest:sort_plate>,
+    <twilightforest:sort_slab>,
+    <twilightforest:sort_stairs>,
+    <twilightforest:sort_trapdoor>,
+    <twilightforest:spiral_bricks>,
+    <twilightforest:steeleaf_ingot>,
+    <twilightforest:stone_twist>,
+    <twilightforest:stone_twist_thin>,
+    <twilightforest:stronghold_shield>,
+    <twilightforest:terrorcotta_circle>,
+    <twilightforest:terrorcotta_diagonal>,
+    <twilightforest:thorn_rose>,
+    <twilightforest:thorns>,
+    <twilightforest:thorns:1>,
+    <twilightforest:time_button>,
+    <twilightforest:time_door>,
+    <twilightforest:time_fence>,
+    <twilightforest:time_gate>,
+    <twilightforest:time_planks>,
+    <twilightforest:time_plate>,
+    <twilightforest:time_slab>,
+    <twilightforest:time_stairs>,
+    <twilightforest:time_trapdoor>,
+    <twilightforest:twilight_oak_trapdoor>,
+    <twilightforest:canopy_trapdoor>,
+    <twilightforest:mangrove_trapdoor>,
+    <twilightforest:dark_trapdoor>,
+    <twilightforest:time_trapdoor>,
+    <twilightforest:trans_trapdoor>,
+    <twilightforest:mine_trapdoor>,
+    <twilightforest:sort_trapdoor>,
+    <twilightforest:torchberries>,
+    <twilightforest:tower_device>,
+    <twilightforest:tower_device:2>,
+    <twilightforest:tower_device:4>,
+    <twilightforest:tower_device:5>,
+    <twilightforest:tower_device:6>,
+    <twilightforest:tower_device:9>,
+    <twilightforest:tower_device:10>,
+    <twilightforest:tower_device:12>,
+    <twilightforest:tower_key>,
+    <twilightforest:tower_translucent>,
+    <twilightforest:tower_wood>,
+    <twilightforest:tower_wood:1>,
+    <twilightforest:tower_wood:2>,
+    <twilightforest:tower_wood:3>,
+    <twilightforest:tower_wood:4>,
+    <twilightforest:trans_button>,
+    <twilightforest:trans_door>,
+    <twilightforest:trans_fence>,
+    <twilightforest:trans_gate>,
+    <twilightforest:trans_planks>,
+    <twilightforest:trans_plate>,
+    <twilightforest:trans_slab>,
+    <twilightforest:trans_stairs>,
+    <twilightforest:trans_trapdoor>,
+    <twilightforest:transformation_powder>,
+    <twilightforest:triple_bow>,
+    <twilightforest:trollber>,
+    <twilightforest:trollsteinn>,
+    <twilightforest:trollvidr>,
+    <twilightforest:trophy>,
+    <twilightforest:trophy:1>,
+    <twilightforest:trophy:2>,
+    <twilightforest:trophy:3>,
+    <twilightforest:trophy:4>,
+    <twilightforest:trophy:5>,
+    <twilightforest:trophy:6>,
+    <twilightforest:trophy:8>,
+    <twilightforest:trophy_pedestal>,
+    <twilightforest:twilight_leaves>,
+    <twilightforest:twilight_leaves:1>,
+    <twilightforest:twilight_leaves:2>,
+    <twilightforest:twilight_leaves:3>,
+    <twilightforest:twilight_leaves_3>,
+    <twilightforest:twilight_leaves_3:1>,
+    <twilightforest:twilight_log>,
+    <twilightforest:twilight_log:1>,
+    <twilightforest:twilight_log:2>,
+    <twilightforest:twilight_log:3>,
+    <twilightforest:twilight_oak_button>,
+    <twilightforest:twilight_oak_door>,
+    <twilightforest:twilight_oak_fence>,
+    <twilightforest:twilight_oak_gate>,
+    <twilightforest:twilight_oak_planks>,
+    <twilightforest:twilight_oak_plate>,
+    <twilightforest:twilight_oak_slab>,
+    <twilightforest:twilight_oak_stairs>,
+    <twilightforest:twilight_oak_trapdoor>,
+    <twilightforest:twilight_plant>,
+    <twilightforest:twilight_plant:1>,
+    <twilightforest:twilight_plant:2>,
+    <twilightforest:twilight_plant:3>,
+    <twilightforest:twilight_plant:4>,
+    <twilightforest:twilight_plant:5>,
+    <twilightforest:twilight_plant:6>,
+    <twilightforest:twilight_plant:7>,
+    <twilightforest:twilight_plant:8>,
+    <twilightforest:twilight_plant:9>,
+    <twilightforest:twilight_sapling>,
+    <twilightforest:twilight_sapling:1>,
+    <twilightforest:twilight_sapling:2>,
+    <twilightforest:twilight_sapling:3>,
+    <twilightforest:twilight_sapling:4>,
+    <twilightforest:twilight_sapling:5>,
+    <twilightforest:twilight_sapling:6>,
+    <twilightforest:twilight_sapling:7>,
+    <twilightforest:twilight_sapling:8>,
+    <twilightforest:twilight_sapling:9>,
+    <twilightforest:twilight_scepter>,
+    <twilightforest:uberous_soil>,
+    <twilightforest:uncrafting_table>,
+    <twilightforest:underbrick>,
+    <twilightforest:underbrick:1>,
+    <twilightforest:underbrick:2>,
+    <twilightforest:underbrick:3>,
+    <twilightforest:unripe_trollber>,
+    <twilightforest:wispy_cloud>,
+    <twilightforest:zombie_scepter>,
+    <villagermarket:villager_market>,
+    <wolfarmor:chainmail_wolf_armor>,
+    <wolfarmor:diamond_wolf_armor>,
+    <progressiontweaks:machine_frame>
+];
+
+
+for entry in medievalIngredients{
+    mods.ItemStages.addItemStage("medieval", entry);
+    mods.recipestages.Recipes.setRecipeStage("medieval", entry);
+	//get string
+	var name = entry.commandString as string;
+	var length = name.length();
+	length = length - 1;
+	mods.ltt.LootTable.removeGlobalItem(name.substring(1,length));
+}

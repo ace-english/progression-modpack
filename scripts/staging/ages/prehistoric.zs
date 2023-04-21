@@ -9,6 +9,9 @@ import mods.horsepower.Grindstone;
 import mods.horsepower.Press;
 import mods.horsepower.Recipes;
 
+#modloaded biomesoplenty
+
+
 /**************************************************************************
 
     horespower
@@ -17,6 +20,7 @@ import mods.horsepower.Recipes;
 
 //choppermods.horsepower.ChoppingBlock.add(<rustic:log:0>, <rustic:planks:0>*4, 4);
 mods.horsepower.ChoppingBlock.add(<rustic:log:1>, <rustic:planks:1>*4, 4);
+mods.horsepower.ChoppingBlock.add(<rustic:log:0>, <rustic:planks:0>*4, 4);
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:4>, <biomesoplenty:planks_0:0>*4, 4); //sacred
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:1>*4, 4); //cherry
 mods.horsepower.ChoppingBlock.add(<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:2>*4, 4); //umbran

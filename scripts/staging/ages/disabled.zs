@@ -10,6 +10,8 @@ recipes.removeByRecipeName("aquaculture:neptunium_helmet");
 recipes.removeByRecipeName("aquaculture:neptunium_chestplate");
 recipes.removeByRecipeName("aquaculture:neptunium_boots");
 recipes.removeByRecipeName("aquaculture:neptunium_axe");
+recipes.removeByRecipeName("biomesoplenty:coal_from_ash");
+recipes.removeByRecipeName("primal_tech:wooden_basin");
 recipes.removeByRecipeName("harvestcraft:market");
 recipes.removeByRecipeName("harvestcraft:shippingbin");
 recipes.removeByRecipeName("primal:planks_19");
@@ -64,10 +66,6 @@ recipes.removeByRecipeName("primal_tech:recipe_flint_saw_blade");
 recipes.removeByRecipeName("primal_tech:recipe_water_saw");
 
 
-recipes.remove(<minecraft:stone_pickaxe>);
-recipes.remove(<minecraft:stone_shovel>);
-recipes.remove(<minecraft:stone_axe>);
-
 recipes.removeByRecipeName("minecraft:fishing_rod");
 
 var disabledIngredients as IIngredient[] = [
@@ -90,6 +88,7 @@ var disabledIngredients as IIngredient[] = [
 	<betterwithmods:material:50>,
 	<betterwithmods:material:5>,
 	<betterwithmods:material:7>,
+	<betterwithmods:material:21>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,
 	<betterwithmods:aesthetic:10>,
@@ -123,28 +122,7 @@ var disabledIngredients as IIngredient[] = [
 	<primal_tech:water_saw>,
 	<primal_tech:bone_shears>,
 	<minecraft:bed:*>,
-	<minecraft:bow>,
-	<minecraft:diamond_axe>,
-	<minecraft:diamond_block>,
-	<minecraft:diamond_boots>,
-	<minecraft:diamond_chestplate>,
-	<minecraft:diamond_helmet>,
-	<minecraft:diamond_hoe>,
-	<minecraft:diamond_leggings>,
-	<minecraft:diamond_pickaxe>,
-	<minecraft:diamond_shovel>,
-	<minecraft:diamond_sword>,
-	<minecraft:golden_shovel>,
-	<minecraft:golden_sword>,
-	<minecraft:golden_leggings>,
-	<minecraft:golden_pickaxe>,
-	<minecraft:golden_chestplate>,
-	<minecraft:golden_helmet>,
-	<minecraft:golden_hoe>,
-	<minecraft:golden_axe>,
-	<minecraft:golden_boots>,
-	<minecraft:leather_chestplate>,
-	<minecraft:leather_leggings>,
+	<totemic:nether_pipe>,
 	//	<minecraft:leather_helmet>, // need for wolf armor
 	// 	<minecraft:leather_boots>, // need for wolf armor
 	<mysticalworld:copper_knife>,
@@ -336,38 +314,38 @@ var disabledIngredients as IIngredient[] = [
 	<minecraft:bed:13>,
 	<minecraft:bed:14>,
 	<minecraft:bed:15>,
-	<minecraft:diamond_axe>,
-	<minecraft:diamond_chestplate>,
-	<minecraft:diamond_hoe>,
-	<minecraft:diamond_leggings>,
-	<minecraft:fishing_rod>,
-	<minecraft:golden_axe>,
-	<minecraft:golden_boots>,
-	<minecraft:golden_chestplate>,
-	<minecraft:golden_helmet>,
-	<minecraft:golden_hoe>,
-	<minecraft:golden_shovel>,
-	<minecraft:golden_sword>,
-	<minecraft:iron_axe>,
-	<minecraft:iron_chestplate>,
-	<minecraft:iron_hoe>,
-	<minecraft:iron_leggings>,
-	<minecraft:iron_pickaxe>,
-	<minecraft:iron_shovel>,
-	<minecraft:iron_sword>,
+	<minecraft:diamond_axe:*>,
+	<minecraft:diamond_chestplate:*>,
+	<minecraft:diamond_hoe:*>,
+	<minecraft:diamond_leggings:*>,
+	<minecraft:fishing_rod:*>,
+	<minecraft:golden_axe:*>,
+	<minecraft:golden_boots:*>,
+	<minecraft:golden_chestplate:*>,
+	<minecraft:golden_helmet:*>,
+	<minecraft:golden_hoe:*>,
+	<minecraft:golden_shovel:*>,
+	<minecraft:golden_sword:*>,
+	<minecraft:iron_axe:*>,
+	<minecraft:iron_chestplate:*>,
+	<minecraft:iron_hoe:*>,
+	<minecraft:iron_leggings:*>,
+	<minecraft:iron_pickaxe:*>,
+	<minecraft:iron_shovel:*>,
+	<minecraft:iron_sword:*>,
 	<minecraft:leather_chestplate>,
 	<minecraft:leather_leggings>,
 	<minecraft:map>,
-	<minecraft:stone_axe>,
-	<minecraft:stone_hoe>,
-	<minecraft:stone_pickaxe>,
-	<minecraft:stone_shovel>,
-	<minecraft:stone_sword>,
-	<minecraft:wooden_axe>,
-	<minecraft:wooden_hoe>,
-	<minecraft:wooden_pickaxe>,
-	<minecraft:wooden_shovel>,
-	<minecraft:wooden_sword>,
+	<minecraft:stone_axe:*>,
+	<minecraft:stone_hoe:*>,
+	<minecraft:stone_pickaxe:*>,
+	<minecraft:stone_shovel:*>,
+	<minecraft:stone_sword:*>,
+	<minecraft:wooden_axe:*>,
+	<minecraft:wooden_hoe:*>,
+	<minecraft:wooden_pickaxe:*>,
+	<minecraft:wooden_shovel:*>,
+	<minecraft:wooden_sword:*>,
 	<mysticalworld:amethyst_axe>,
 	<mysticalworld:amethyst_hoe>,
 	<mysticalworld:amethyst_knife>,
