@@ -542,7 +542,6 @@ var modernIngredients as IIngredient[] = [
     <mekanism:glowplasticblock:15>,
     <mekanism:ingot>,
     <mekanism:ingot:1>,
-    <mekanism:ingot:2>,
     <mekanism:ingot:3>,
     <mekanism:ingot:4>,
     <mekanism:ingot:5>,
