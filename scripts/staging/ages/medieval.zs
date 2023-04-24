@@ -1067,7 +1067,6 @@ var medievalIngredients as IIngredient[] = [
     <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:long_knowledge"}),
     <minecraft:tipped_arrow>.withTag({Potion: "apotheosis:strong_knowledge"}),
 */
-    <minecraft:torch>,
     <minecraft:totem_of_undying>,
     <minecraft:trapdoor>,
     <minecraft:trapped_chest>,

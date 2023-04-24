@@ -32,33 +32,19 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] 1 salt + 250 water = 250 brine
-	[x] rock throw
-		- rock + distance??
-	[x] workblade back iunto knives family
-	[ ] andesite?
+	[ ] rock unification projct
+		[ ] use stages to disable
+		- andesite
+		- diorite
+		- limestone
+		- any other chisel nonsense? quark? rustic?
+	[ ] break netherrack?
+	[ ] remove torch decor
+	[ ] rocks into seared stone
+	[ ] war dance achievement
 	[ ] easy planks
-	[ ] make tin easier to find
-	[x] all stagin files - also stage recipes
-	[ ] check primal for plank config?
-	[x] grove supplication
-		-add curtains
-	[x] add @sapling to BOP pits
-	[x] more horse pull animals
-		[x] goats
-		[x] dogs
-		[x] not llamas
-	more trades
-		[x] hedge witch
-		[x] arborist
-		[x] farmer bone or flint hoe?
-		[x] more markets (at level 5)
-		[x] remove harvestcraft thing
-		[x] jewler buy amber, sell lapis
-		[x] librarian books
-	[x] knives
-		[x] unify
-		[x] add workblade recipes
-	[x] clay bottle
+		- brute force
+	[ ] immcraft shelf all wood
 	- can you make another thaumcraft soap?	
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
@@ -69,7 +55,7 @@ potential Jakob tasks:
 	[ ] add rock to tinkers
 	[-] give ore:toolAxe to all tconstruct:hatchet
 		- add chopping block instead?
-	wolf head recipes
+	[ ] wolf head recipes
 		glue
 		hide
 	[ ] turn off spooky ambience?
@@ -96,6 +82,30 @@ potential Jakob tasks:
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	[x] make tin easier to find
+	[x] grove supplication
+		-add curtains
+	[x] add @sapling to BOP pits
+	[x] all stagin files - also stage recipes
+	[x] more horse pull animals
+		[x] goats
+		[x] dogs
+		[x] not llamas
+	more trades
+		[x] hedge witch
+		[x] arborist
+		[x] farmer bone or flint hoe?
+		[x] more markets (at level 5)
+		[x] remove harvestcraft thing
+		[x] jewler buy amber, sell lapis
+		[x] librarian books
+	[x] knives
+		[x] unify
+		[x] add workblade recipes
+	[x] clay bottle
+	[x] rock throw
+		- rock + distance??
+	[x] workblade back iunto knives family
 	achievements
 		[x] make pretty
 			- gunpowder
