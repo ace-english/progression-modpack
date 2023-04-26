@@ -701,6 +701,8 @@ primal
 recipes.removeByRecipeName("primal:cobblestone");
 recipes.addShapeless(<immcraft:rock>, [<primal:rock_stone>]);
 
+furnace.addRecipe(<primal:ash_wolf>, <primal:wolf_head_item>);
+
 recipes.remove(<primal_tech:wooden_hopper>);
 recipes.remove(<primal_tech:charcoal_hopper>);
 recipes.addShaped(<primal_tech:wooden_hopper>, [

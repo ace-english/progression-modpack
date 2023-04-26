@@ -2,5 +2,4 @@ Restores your last grave:
 /tmg_restore latest
 
 
-/summon villager ~ ~1 ~ {Profession:1,Career:2}
-/summon villager ~ ~1 ~ {VillagerData:{profession:farmer}}
+/summon villager ~ ~1 ~ {Profession:12,Career:1}
