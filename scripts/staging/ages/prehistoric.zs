@@ -304,6 +304,18 @@ recipes.addShaped(<immcraft:chest>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
+recipes.addShaped(<immcraft:shelf>, [
+    [<ore:plankWood>, <immcraft:rock>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+
+recipes.addShaped(<immcraft:cupboard>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <immcraft:rock>, <ore:plankWood>]
+]);
+
 //early grappling hook
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
