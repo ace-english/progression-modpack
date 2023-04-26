@@ -80,10 +80,6 @@ var basicSaw = <primal:bone_saw>.anyDamage().transformDamage() | <primal:flint_s
 var metalSaw = <primal:iron_saw>.anyDamage().transformDamage() | <primal:copper_saw>.anyDamage().transformDamage() | <primal:quartz_saw>.anyDamage().transformDamage();
 var gemSaw = <primal:diamond_saw>.anyDamage().transformDamage() | <primal:emerald_saw>.anyDamage().transformDamage() | <primal:obsidian_saw>.anyDamage().transformDamage();
 
-for knifeEntry in knifes.items{
-    knife = knife | knifeEntry.anyDamage().transformDamage();
-}
-
 
 for plank, logs in plankLogPairs {
     recipes.remove(plank);
