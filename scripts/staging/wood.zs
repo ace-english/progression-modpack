@@ -76,15 +76,22 @@ var plankLogPairs as IIngredient[][IItemStack] = {
     <twilightforest:sort_planks> : [<twilightforest:magic_log:3>]
 };
 
+var basicSaw = <primal:bone_saw>.anyDamage().transformDamage() | <primal:flint_saw>.anyDamage().transformDamage();
+var metalSaw = <primal:iron_saw>.anyDamage().transformDamage() | <primal:copper_saw>.anyDamage().transformDamage() | <primal:quartz_saw>.anyDamage().transformDamage();
+var gemSaw = <primal:diamond_saw>.anyDamage().transformDamage() | <primal:emerald_saw>.anyDamage().transformDamage() | <primal:obsidian_saw>.anyDamage().transformDamage();
+
+for knifeEntry in knifes.items{
+    knife = knife | knifeEntry.anyDamage().transformDamage();
+}
+
+
 for plank, logs in plankLogPairs {
     recipes.remove(plank);
     for log in logs {
 			mods.horsepower.ChoppingBlock.add(log, plank*4, 4);
             mods.betterwithmods.Saw.add(log,[plank*4]);
-            /*
-            recipes.addShapeless(plank*3,[log,<ore:toolSawFlint>.anyDamage().transformDamage()]);
-            recipes.addShapeless(plank*4,[log,<ore:toolSawMetal>.anyDamage().transformDamage()]);
-            recipes.addShapeless(plank*6,[log,<ore:toolSawGem>.anyDamage().transformDamage()]);
-            */
+            recipes.addShapeless(plank*3,[log,basicSaw]);
+            recipes.addShapeless(plank*4,[log,metalSaw]);
+            recipes.addShapeless(plank*6,[log,gemSaw]);
 		}
 }
