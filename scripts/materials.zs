@@ -99,6 +99,7 @@ mods.tconstruct.Casting.addBasinRecipe(<primal:metalblock:0>, null, <liquid:molt
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
 mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<primal:rock_stone>, 400);
 
 
 
