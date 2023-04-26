@@ -295,6 +295,18 @@ amethyst.register();
 
 
 
+/*        new material - eagle           */
+val eagle = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("eagle_mat");
+eagle.localizedName = "Eagle";
+eagle.color = 0x422921;
+eagle.representativeItem = <item:totemic:eagle_drops:1>;
+eagle.addItem(<item:totemic:eagle_drops:1>);
+eagle.addFletchingMaterialStats(1,1.4);
+eagle.addMaterialTrait("veiled", "fletching");
+eagle.castable = false;
+eagle.craftable = true;
+eagle.register();
+
 /* cobblestone adjustments */
 val stone =<ticonmaterial:stone>;
 //stone.addItem(<item:primal:rock_stone>);
