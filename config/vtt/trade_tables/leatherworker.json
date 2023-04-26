@@ -23,7 +23,7 @@
 			{action:"add", buy: {id:"primal:pelt_shark", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: 7}, CareerLevel: 1},
 			{action:"add", buy: {id:"primal:pelt_sheep", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: 7}, CareerLevel: 1},
 			{action:"add", buy: {id:"primal:pelt_wolf", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: 7}, CareerLevel: 1},
-			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"minecraft:leather", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 3}, sell:{id:"minecraft:leather", Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:4,max:7}}, sell:{id:"armorunder:warm_liner_material", Count: {min:5,max:8}}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:4,max:7}}, sell:{id:"armorunder:cool_liner_material", Count: {min:5,max:8}}, CareerLevel: 2},
 			{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:2,max:3}}, sell:{id:"armorunder:liner_snips", Count: 1}, CareerLevel: 1},
