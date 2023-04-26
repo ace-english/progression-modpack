@@ -42,12 +42,32 @@ Dropt.list("early_thaum_crystals")
 
 Dropt.list("early_cobblestone")
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:stone"])
+      .matchBlocks(["minecraft:stone:0"])
       .matchHarvester(Dropt.harvester()
         .gameStages("BLACKLIST", "ALL", ["medieval"])
       )
       .addDrop(Dropt.drop()
           .items([<primal:rock_stone>])
+      )
+  );
+Dropt.list("early_netherrack")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:netherrack"])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["medieval"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<primal:rock_netherrack>])
+      )
+  );
+Dropt.list("early_granite")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:stone:1"])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["medieval"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<primal:rock_granite>])
       )
   );
 
@@ -129,8 +149,8 @@ mobs
 
 *********************************************/
 
-<entity:bewitchment:werewolf>.addDrop(<primal:pelt_dog> % 30);
-
+<entity:bewitchment:werewolf>.addDrop(<primal:pelt_dog> % 80);
+<entity:grimoireofgaia:werecat>.addDrop(<primal:pelt_dog> % 80);
 <entity:bewitchment:black_dog>.addDrop(<primal:pelt_wolf> % 70);
 <entity:bewitchment:black_dog>.addDrop(<minecraft:bone>);
 <entity:bewitchment:black_dog>.addDrop(<primal:wolf_meat_raw>);

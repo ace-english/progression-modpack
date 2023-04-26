@@ -26,3 +26,11 @@
  mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_inferium_ore>, <minecraft:netherrack>);
  mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:5>); //uranium
  mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:2>); //lead
+
+ 
+ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:2>, <minecraft:stone:0>);
+ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:3>, <minecraft:stone:0>);
+ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:4>, <minecraft:stone:0>);
+ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:5>, <minecraft:stone:0>);
+ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:6>, <minecraft:stone:0>);
+ mods.orestages.OreStages.addReplacement("disabled", <chisel:limestone2:7>, <minecraft:stone:0>);
