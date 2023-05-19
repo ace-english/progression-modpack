@@ -202,6 +202,13 @@ furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
 recipes.removeByRecipeName("bibliocraft:plumbline");
 recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
 
+//early anvil, for enchanting and nametags
+recipes.addShaped("primal_anvil", <minecraft:anvil>, [
+    [<ore:blockCrudeIron>, <ore:blockCrudeIron>, <ore:blockCrudeIron>],
+    [null, <ore:ingotCrudeIron>, null],
+    [<ore:ingotCrudeIron>, <ore:ingotCrudeIron>, <ore:ingotCrudeIron>]
+]);
+
 // add items to prehistoric era that are in gated mods
 
 mods.ItemStages.removeItemStage(<bewitchment:juniper_wood>);

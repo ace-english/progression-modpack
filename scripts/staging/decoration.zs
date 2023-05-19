@@ -44,7 +44,7 @@
 
  mods.orestages.OreStages.addReplacement("medieval", <ebwizardry:crystal_flower>, <minecraft:red_flower>);
  
- mods.orestages.OreStages.addReplacement("medieval", <minecraft:anvil>, <primal_tech:stone_anvil>);
+// mods.orestages.OreStages.addReplacement("medieval", <minecraft:anvil>, <primal_tech:stone_anvil>);
 
 
  //mods.orestages.OreStages.addReplacement("disabled", <minecraft:furnace:*>, <primal:cauldron>);
