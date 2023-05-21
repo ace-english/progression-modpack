@@ -1,4 +1,4 @@
-#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks primal
+#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks primal rustic
 #loader contenttweaker
 #priority 900
 
@@ -294,11 +294,44 @@ amethyst.addMaterialTrait("coldblooded", "extra");
 amethyst.register();
 
 
+/*        new material - yew      */     
+val yew = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("yew_mat");
+yew.localizedName = "Yew";
+yew.color = 0xdbbd84;
+yew.representativeItem = <item:primal:logs:1>;
+yew.addItem(<item:primal:yew_stick>, 2);
+yew.addItem(<item:primal:planks:1>);
+yew.addItem(<item:primal:logs:1>, 1, 1152);
+yew.addArrowShaftMaterialStats(0.9,10);
+yew.addBowMaterialStats(0.75, 1, 1);
+yew.addMaterialTrait("ecological", "shaft");
+yew.addMaterialTrait("ecological", "bow");
+yew.castable = false;
+yew.craftable = true;
+yew.register();
+
+
+/*        new material - ironwood           */
+val ironwood = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("ironwood_mat");
+ironwood.localizedName = "Ironwood";
+ironwood.color = 0x473c3b;
+ironwood.representativeItem = <item:rustic:log:1>;
+ironwood.addItem(<item:primal:ironwood_stick>, 2);
+//ironwood.addItem(<item:rustic:planks:1>);
+ironwood.addItem(<item:rustic:log:1>, 1, 1152);
+ironwood.addArrowShaftMaterialStats(1.3,10);
+ironwood.addBowMaterialStats(1, 1.2, 1);
+ironwood.addMaterialTrait("ecological", "shaft");
+ironwood.addMaterialTrait("ecological", "bow");
+ironwood.castable = false;
+ironwood.craftable = true;
+ironwood.register();
+
 
 /*        new material - eagle           */
 val eagle = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("eagle_mat");
 eagle.localizedName = "Eagle";
-eagle.color = 0x422921;
+eagle.color = 0x946c54;
 eagle.representativeItem = <item:totemic:eagle_drops:1>;
 eagle.addItem(<item:totemic:eagle_drops:1>);
 eagle.addFletchingMaterialStats(1,1.4);
