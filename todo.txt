@@ -15,12 +15,6 @@ potential Jakob tasks:
 		- industrial whatevers
 	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
 	
-	
-	[ ] triumph achievements
-		[ ] achievments
-			https://minecraft.fandom.com/wiki/Advancement/JSON_format#List_of_triggers
-			- gunpowder
-			[ ] tame a monster girl???
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -32,21 +26,73 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] 1 salt + 250 water = 250 brine
-	[ ] rock unification projct
-		[ ] use stages to disable
-		- andesite
-		- diorite
-		- limestone
-		- any other chisel nonsense? quark? rustic?
-	[x] break netherrack?
-	[x] remove torch decor
-	[x] rocks into seared stone
-	[ ] war dance achievement
-	[x] easy planks
-		- brute force
-	[x] immcraft shelf all wood
+	[ ] stage loot
+		- go through each folder in dumps\loot_tables
+		- start with minecraft
+		- https://docs.blamejared.com/1.12/en/Mods/LootTableTweaker/LootTableTweaker
+		or https://loottweaker-docs.readthedocs.io/en/latest/reference/example-script.html
+		- keep track of what is done
+		- make new script to remove stuff that is no good any more
+		- remove ingots
+		- remove weapons
+		- add crude iron
+		- add thatch
+		- add mud bricks
+		- add coins
+		- add gems
+	[ ] prehistoric achievments
+		[ ] war dance achievement
+		[ ] build a raft
+		- vehicles - make the wheel before asticore carts. wheel should be hard
+			- baykok?
+			- nature's compass under this
 	- can you make another thaumcraft soap?	
+	[ ] medieval achievements
+		[x] fire resistance
+		[ ] easy cobblestone
+		[ ] stomping tub
+			[ ] beer
+				[ ] 100% liquor
+		[ ] lance + armor + horse + armor?
+		[ ] ancient warfare start?
+		[ ] steel
+		[ ] twilight forest
+		[ ] complete any ancient warfare raid
+		[ ] stockroom catalogue
+		[ ] cooking table
+		[ ] irrigation
+		[ ] beekeeping
+	[ ] add opal, amethyst, garnet to 
+	[ ] industrial achievements
+		[ ] thaumcraft book
+			[ ] thaumcraft soap
+				[ ] golem
+		[ ] compass
+		[ ] gunpowder
+		[ ] davinci vessel
+			[ ] (journeymap)
+		[ ] forestry - build carpenter
+			[ ] build alveary
+		[ ] start immersive engineering
+			[ ] treated wood
+			[ ] wire
+			[ ] gun
+	[ ] modern achievements
+		[ ] post office
+		[ ] immersive petroleum
+		[ ] build a stove, fridge, toaster
+		[ ] start open computers
+		[ ] go to the end
+	[ ] future achievements
+		[ ] simple storage network
+		[ ] open computers
+		[ ] compact machines
+		[ ] mystical agriculture
+		[ ] psi
+		
+		
+		
+		
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
 		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
@@ -54,9 +100,7 @@ potential Jakob tasks:
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[?] unify hemp
 	[ ] add rock to tinkers
-	[-] give ore:toolAxe to all tconstruct:hatchet
-		- add chopping block instead?
-	[x] wolf head recipes
+	[-] give ore:toolAxe to all tconstruct:hatchet and lumberaxe
 	[ ] turn off spooky ambience?
 	[ ] skins
 		[x] fig leaf
@@ -81,6 +125,19 @@ potential Jakob tasks:
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
 		
 x --- complete --- x
+	[x] wolf head recipes
+	[x] rock unification projct
+		[x] use stages to disable
+		- andesite
+		- diorite
+		- limestone
+		- any other chisel nonsense? quark? rustic?
+	[x] break netherrack?
+	[x] remove torch decor
+	[x] rocks into seared stone
+	[x] easy planks
+		- brute force
+	[x] immcraft shelf all wood
 	[x] make tin easier to find
 	[x] grove supplication
 		-add curtains
@@ -276,13 +333,6 @@ x --- complete --- x
 
 tech progression for tools
 	ancient
-		- one for reading
-			- defeat a wizard?
-		- one for farming
-			-buy a hoe from a villager?
-		- vehicles - make the wheel before asticore carts. wheel should be hard
-			- baykok?
-			- nature's compass under this
 		- fire
 		-make a bedroll
 		-make a backpack
@@ -418,11 +468,6 @@ harvestcraft seeds from plants (gotta cultivate via agricraft
 	- make sure all seeds are possible first
 	- remove garlic (redundant)
 	- crank agricraft
-vanilla furnace?
-biomesoplenty:biome_finder
-remove three sugarcane->paper
-remove three wildwheat->paper
-
 
 Runestone can be made with gunpowder or lapis
 Runic shears require iron

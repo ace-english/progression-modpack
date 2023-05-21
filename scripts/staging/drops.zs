@@ -1,8 +1,10 @@
 import mods.ltt.LootTable;
 import mods.dropt.Dropt;
 import mods.dropt.Harvester;
-mods.ltt.LootTable.removeGlobalItem("<ancientwarfare:steel_ingot>");
-mods.ltt.LootTable.removeGlobalItem("<aquaculture:loot:6>");
+
+//to be added
+//mods.ltt.LootTable.removeGlobalItem("<ancientwarfare:steel_ingot>");
+//mods.ltt.LootTable.removeGlobalItem("<aquaculture:loot:6>");
 //mods.ltt.LootTable.removeGlobalItem("<harvestcraft:gigapickleseeditem>");
 
 Dropt.list("barley")

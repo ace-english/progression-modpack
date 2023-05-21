@@ -376,10 +376,6 @@ var medievalIngredients as IIngredient[] = [
 
     <pirates:cell>,
 
-
-    <minecraft:anvil>,
-    <minecraft:anvil:1>,
-    <minecraft:anvil:2>,
     <minecraft:banner:15>,
     <minecraft:banner:14>,
     <minecraft:banner:13>,
@@ -654,7 +650,6 @@ var medievalIngredients as IIngredient[] = [
     <malisisdoors:big_door_rusty_3x3>,
     <minecraft:acacia_boat>,
     <minecraft:acacia_door>,
-    <minecraft:anvil>,
     <minecraft:anvil:1>,
     <minecraft:anvil:2>,
     <minecraft:armor_stand>,
