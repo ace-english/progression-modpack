@@ -1,0 +1,24 @@
+{ 
+	Profession: "bewitchment:alchemist", 
+	Career:"alchemist",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:25,max:40}}, sell:{id:"bewitchment:elder_sapling", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:25,max:40}}, sell:{id:"bewitchment:juniper_sapling", Count: 1}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:aconitum_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:belladonna_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:hellebore_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:mandrake_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:garlic_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:white_sage_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:30}}, sell:{id:"bewitchment:wormwood_seeds", Count: {min:1,max:3}}, CareerLevel: 1},
+			{action:"add", buy: {id:"bewitchment:tallow", Count: 6}, sell:{id:"ordinarycoins:coinbronze", Count: 25}, CareerLevel: 1},
+			{action:"add", buy: {id:"bewitchment:wood_ash", Count: 10}, sell:{id:"ordinarycoins:coinbronze", Count: 45}, CareerLevel: 3},
+			{action:"add", buy: {id:"bewitchment:dragons_blood_resin", Count: 4}, sell:{id:"ordinarycoins:coinsilver", Count: 20}, CareerLevel: 3}
+			
+		]
+	}
+
+}
