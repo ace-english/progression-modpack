@@ -8,4 +8,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<primal:cauldron>)
 
 visibleIf("triumph:ancient/root")
-setPos(161,29)
+setPos(169,72)
