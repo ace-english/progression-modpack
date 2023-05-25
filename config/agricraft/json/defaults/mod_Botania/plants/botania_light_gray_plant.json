@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_light_gray_plant.json",
+  "path": "mod_botania/plants/botania_light_gray_plant.json",
   "enabled": true,
   "id": "botania:light_gray_flower_plant",
   "plant_name": "Mystical Light Gray Flower",
@@ -15,7 +15,7 @@
   "tier": 1,
   "weedable": false,
   "aggressive": false,
-  "spread_chance": 0.3,
+  "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,
