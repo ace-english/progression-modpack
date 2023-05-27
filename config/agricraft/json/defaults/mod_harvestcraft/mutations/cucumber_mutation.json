@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:cucumber_plant",
-  "parent1": "harvestcraft:peas_plant",
+  "parent1": "rustic:tomato",
   "parent2": "harvestcraft:okra_plant"
 }

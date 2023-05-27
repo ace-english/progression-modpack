@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/plants/eggplant_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "harvestcraft:eggplant_plant",
   "plant_name": "Eggplant",
   "seed_name": "Eggplant Seeds",
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:eggplantitem",
+        "item": "mysticalworld:aubergine",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

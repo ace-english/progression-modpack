@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:turnip_plant",
-  "parent1": "harvestcraft:parsnip_plant",
+  "parent1": "harvestcraft:jicama_plant",
   "parent2": "harvestcraft:radish_plant"
 }

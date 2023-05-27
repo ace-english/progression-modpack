@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:ginger_plant",
-  "parent1": "harvestcraft:mustard_plant",
+  "parent1": "harvestcraft:radish_plant",
   "parent2": "harvestcraft:peanut_plant"
 }

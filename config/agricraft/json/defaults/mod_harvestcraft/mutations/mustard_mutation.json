@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:mustard_plant",
-  "parent1": "harvestcraft:chilipepper_plant",
-  "parent2": "harvestcraft:bean_plant"
+  "parent1": "harvestcraft:amaranth_plant",
+  "parent2": "harvestcraft:chilipepper_plant"
 }

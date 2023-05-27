@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:radish_plant",
-  "parent1": "harvestcraft:tomato_plant",
+  "parent1": "rustic:tomato",
   "parent2": "harvestcraft:brusselsprout_plant"
 }

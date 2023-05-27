@@ -538,16 +538,60 @@ var disabledIngredients as IIngredient[] = [
 	<twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0}, {lvl: 4 as short, id: 2}]}),
 	<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
 	<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
-	<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]})
+	//duplicated crops
+	<betterwithmods:hemp>,
+	<harvestcraft:teaseeditem>,
+	<harvestcraft:chilipepperseeditem>,
+	<harvestcraft:chilipepperitem>,
+	<harvestcraft:eggplantseeditem>,
+	<harvestcraft:eggplantitem>,
+	<harvestcraft:tomatoseeditem>,
+	<harvestcraft:tomatoitem>,
+	<harvestcraft:greengrapeseeditem>,
+	<harvestcraft:greengrapeitem>,
+	<harvestcraft:eggplantseeditem>,
+	<harvestcraft:eggplantitem>,
+	<harvestcraft:grapeseeditem>,
+	<harvestcraft:grapeitem>,
+	<harvestcraft:teaseeditem>,
+	<harvestcraft:tealeafitem>,
+	<harvestcraft:raspberryicedteaitem>,
+	<harvestcraft:chaiteaitem>,
+	<harvestcraft:earlgreyteaitem>,
+	<harvestcraft:greenteaitem>,
+	<harvestcraft:rosepetalteaitem>,
+	<harvestcraft:bubbleteaitem>,
+	<harvestcraft:dandelionteaitem>,
+	<harvestcraft:sundayhighteaitem>,
+	<harvestcraft:lycheeteaitem>,
+	<harvestcraft:sweetteaitem>,
+	<harvestcraft:seaweeditem>,
+	<harvestcraft:teaitem>
 	];
 	
+val allEntries = oreDict.entries;
 for entry in disabledIngredients{
     mods.ItemStages.addItemStage("disabled", entry);
+
+	//remove from all ore dict entries
+	for oreDictEntry in allEntries{
+		for item in entry.items{
+			oreDictEntry.remove(item);
+		}
+	}
+	
+	
+	//remove all recipes
 	recipes.removeByInput(entry);
 	recipes.remove(entry);
+
 	//get string
+	/*
 	var name = entry.commandString as string;
 	var length = name.length();
 	length = length - 1;
+	//remove from all loot tables
+	//note: doesn't seem to work. had to do it manually
 	mods.ltt.LootTable.removeGlobalItem(name.substring(1,length));
+	*/
 }

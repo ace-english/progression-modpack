@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/plants/greengrape_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "harvestcraft:greengrape_plant",
   "plant_name": "Greengrape",
   "seed_name": "Greengrape Seeds",

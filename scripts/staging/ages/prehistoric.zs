@@ -99,6 +99,15 @@ import mods.horsepower.Recipes;
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
     mods.horsepower.Grindstone.add(<quark:crab_shell>, <minecraft:dye:14> * 2, 16, false);
 
+    mods.horsepower.Grindstone.add(<harvestcraft:oatsitem>, <roots:flour>, 16, false);
+    mods.horsepower.Grindstone.add(<harvestcraft:ryeitem>, <roots:flour>, 16, false);
+    mods.horsepower.Grindstone.add(<harvestcraft:amaranthitem>, <roots:flour>, 16, false);
+    mods.horsepower.Grindstone.add(<harvestcraft:quinoaitem>, <roots:flour>, 16, false);
+    
+    mods.horsepower.Grindstone.add(<harvestcraft:agaveitem>, <minecraft:sugar>, 16, false);
+    mods.horsepower.Grindstone.add(<harvestcraft:taroitem>, <minecraft:sugar>, 16, false);
+    mods.horsepower.Grindstone.add(<harvestcraft:beetitem>, <minecraft:sugar>, 16, false);
+
 
 
 
