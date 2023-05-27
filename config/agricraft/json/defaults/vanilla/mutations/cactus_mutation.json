@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "vanilla:cactus_plant",
-  "parent1": "vanilla:sugarcane_plant",
+  "parent1": "harvestcraft:agave_plant",
   "parent2": "vanilla:potato_plant"
 }

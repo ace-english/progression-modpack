@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/plants/blackberry_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "harvestcraft:blackberry_plant",
   "plant_name": "Blackberry",
   "seed_name": "Blackberry Seeds",

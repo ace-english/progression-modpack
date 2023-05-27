@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:seaweeditem",
+        "item": "aquaculture:food:0",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

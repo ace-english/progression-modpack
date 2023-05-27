@@ -2,7 +2,7 @@
   "path": "mod_harvestcraft/mutations/tomato_mutation.json",
   "enabled": true,
   "chance": 0.5,
-  "child": "harvestcraft:tomato_plant",
+  "child": "rustic:tomato",
   "parent1": "harvestcraft:sweetpotato_plant",
   "parent2": "vanilla:carrot_plant"
 }

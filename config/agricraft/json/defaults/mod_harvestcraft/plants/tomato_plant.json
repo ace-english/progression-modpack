@@ -1,24 +1,13 @@
 {
   "path": "mod_harvestcraft/plants/tomato_plant.json",
-  "enabled": true,
-  "id": "harvestcraft:tomato_plant",
-  "plant_name": "Tomato",
-  "seed_name": "Tomato Seeds",
-  "seed_items": [
-    {
-      "item": "harvestcraft:tomatoseeditem",
-      "meta": 0,
-      "tags": "",
-      "ignoreMeta": false,
-      "ignoreTags": [
-        "*"
-      ],
-      "useOreDict": false
-    }
-  ],
+  "enabled": false,
+  "id": "weed_plant",
+  "plant_name": "Weed",
+  "seed_name": "Weed Seeds",
+  "seed_items": [],
   "description": {
     "translations": {},
-    "default": "Tomato Seeds."
+    "default": "An annoying plant."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -26,49 +15,32 @@
   "tier": 1,
   "weedable": false,
   "aggressive": false,
-  "spread_chance": 0.3,
+  "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,
   "seed_drop_bonus": 0.0,
   "products": {
-    "products": [
-      {
-        "min": 1,
-        "max": 5,
-        "chance": 0.9,
-        "required": true,
-        "item": "harvestcraft:tomatoitem",
-        "meta": 0,
-        "tags": "",
-        "ignoreMeta": false,
-        "ignoreTags": [],
-        "useOreDict": false
-      }
-    ]
+    "products": []
   },
   "requirement": {
     "min_light": 10,
     "max_light": 16,
-    "soils": [
-      "silty_soil",
-      "loamy_soil",
-      "farmland_soil"
-    ],
+    "soils": [],
     "conditions": []
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/tomatoitem",
+    "seed_texture": "minecraft:items/seeds_wheat",
     "plant_textures": [
-      "harvestcraft:blocks/crops/tomato_stage_0",
-      "harvestcraft:blocks/crops/tomato_stage_0",
-      "harvestcraft:blocks/crops/tomato_stage_0",
-      "harvestcraft:blocks/crops/tomato_stage_1",
-      "harvestcraft:blocks/crops/tomato_stage_1",
-      "harvestcraft:blocks/crops/tomato_stage_2",
-      "harvestcraft:blocks/crops/tomato_stage_2",
-      "harvestcraft:blocks/crops/tomato_stage_3"
+      "minecraft:blocks/wheat_stage_0",
+      "minecraft:blocks/wheat_stage_1",
+      "minecraft:blocks/wheat_stage_2",
+      "minecraft:blocks/wheat_stage_3",
+      "minecraft:blocks/wheat_stage_4",
+      "minecraft:blocks/wheat_stage_5",
+      "minecraft:blocks/wheat_stage_6",
+      "minecraft:blocks/wheat_stage_7"
     ]
   }
 }

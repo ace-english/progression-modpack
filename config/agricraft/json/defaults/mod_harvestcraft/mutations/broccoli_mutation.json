@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:broccoli_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "harvestcraft:soybean_plant"
+  "parent1": "harvestcraft:kohlrabi_plant",
+  "parent2": "vanilla:wheat_plant"
 }

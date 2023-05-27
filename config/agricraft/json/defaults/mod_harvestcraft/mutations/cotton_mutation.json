@@ -4,5 +4,5 @@
   "chance": 0.5,
   "child": "harvestcraft:cotton_plant",
   "parent1": "harvestcraft:barley_plant",
-  "parent2": "harvestcraft:soybean_plant"
+  "parent2": "immersiveengineering:hemp_plant"
 }
