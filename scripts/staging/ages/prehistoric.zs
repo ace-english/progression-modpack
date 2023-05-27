@@ -98,7 +98,7 @@ import mods.horsepower.Recipes;
     mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
     mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
     mods.horsepower.Grindstone.add(<quark:crab_shell>, <minecraft:dye:14> * 2, 16, false);
-
+    
     mods.horsepower.Grindstone.add(<harvestcraft:oatsitem>, <roots:flour>, 16, false);
     mods.horsepower.Grindstone.add(<harvestcraft:ryeitem>, <roots:flour>, 16, false);
     mods.horsepower.Grindstone.add(<harvestcraft:amaranthitem>, <roots:flour>, 16, false);
@@ -210,6 +210,13 @@ furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
 //early plumbob
 recipes.removeByRecipeName("bibliocraft:plumbline");
 recipes.addShapeless("primal_plumbob", <bibliocraft:plumbline>, [<ore:ingotBronze>, <betterwithmods:rope>]);
+
+//modify astikorkarts recipe
+recipes.addShaped(<astikorcarts:cargocart>, [
+    [<ore:plankWood>, <immcraft:chest>, <ore:plankWood>],
+    [<ore:plankWood>, <immcraft:chest>, <ore:plankWood>],
+    [<astikorcarts:wheel>, <ore:plankWood>, <astikorcarts:wheel>]
+]);
 
 //early anvil, for enchanting and nametags
 recipes.addShaped("primal_anvil", <minecraft:anvil>, [
