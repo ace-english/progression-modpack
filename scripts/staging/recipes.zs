@@ -693,6 +693,18 @@ recipes.addShapeless(<malisisdoors:curtain_black>, [<ore:dyeblack>, <ore:curtain
 
 /*********************************************
 
+naturescompass
+
+*********************************************/
+
+recipes.addShaped(<naturescompass:naturescompass>,[
+    [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],
+    [<ore:logWood>, <astikorcarts:wheel>, <ore:logWood>],
+    [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]
+]);
+
+/*********************************************
+
 primal
 
 *********************************************/
