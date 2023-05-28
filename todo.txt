@@ -13,8 +13,8 @@ potential Jakob tasks:
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
-	[ ] nerf BOP gems in tcon - should be good at a trim piece but not obsidian mining level
-	
+	[ ] campfire on grill
+	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
 		anchovyrawitem
 		charr
@@ -26,22 +26,14 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[ ] stage loot
-		- go through each folder in dumps\loot_tables
-		- start with minecraft
-		- https://docs.blamejared.com/1.12/en/Mods/LootTableTweaker/LootTableTweaker
-		or https://loottweaker-docs.readthedocs.io/en/latest/reference/example-script.html
-		- keep track of what is done
-		- make new script to remove stuff that is no good any more
-		- remove ingots
-		- remove weapons
-		- add crude iron
-		- add thatch
-		- add mud bricks
-		- add coins
-		- add gems
+	[x] more toasted seeds
+	[x] seeds map
+	[x] add sugar substitute recipes
+	[x] flaked bone to meal
+	[x] add garnet, opal, amethyst for runestone
 	[ ] prehistoric achievments
 		[ ] war dance achievement
+		[ ] summon villager achievement
 		[ ] build a raft
 		- vehicles - make the wheel before asticore carts. wheel should be hard
 			- baykok?
@@ -62,7 +54,6 @@ potential Jakob tasks:
 		[ ] cooking table
 		[ ] irrigation
 		[ ] beekeeping
-	[ ] add opal, amethyst, garnet to 
 	[ ] industrial achievements
 		[ ] thaumcraft book
 			[ ] thaumcraft soap
@@ -89,26 +80,15 @@ potential Jakob tasks:
 		[ ] compact machines
 		[ ] mystical agriculture
 		[ ] psi
-		
-		
-		
-		
 	[ ] Info accessories
 		[ ] minecraft:compass (prereq for sailing?)
-		[ ] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
+		[x] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
 	[?] unify hemp
 	[ ] add rock to tinkers
 	[-] give ore:toolAxe to all tconstruct:hatchet and lumberaxe
 	[ ] turn off spooky ambience?
-	[ ] skins
-		[x] fig leaf
-	mobs
-		[ ] add cyborgs
-		[ ] dinos?
-		[x] stage gear
-			[ ] witch loot
 	[ ] sol balance
 	[ ] redstone industrial
 		- magnets are magic - create magical path for compass not including redstone
@@ -122,9 +102,23 @@ potential Jakob tasks:
 		- gathering ritual
 		- wildifre
 		- chrisopoeia
-		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.mds
+		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.md
 		
 x --- complete --- x
+	[x] stage loot
+		- go through each folder in dumps\loot_tables
+		- start with minecraft
+		- https://docs.blamejared.com/1.12/en/Mods/LootTableTweaker/LootTableTweaker
+		or https://loottweaker-docs.readthedocs.io/en/latest/reference/example-script.html
+		- keep track of what is done
+		- make new script to remove stuff that is no good any more
+		- remove ingots
+		- remove weapons
+		- add crude iron
+		- add thatch
+		- add mud bricks
+		- add coins
+		- add gems
 	[x] wolf head recipes
 	[x] rock unification projct
 		[x] use stages to disable
