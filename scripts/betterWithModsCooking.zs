@@ -1,4 +1,7 @@
 
+import mods.betterwithmods.Mill;
+
+
 //cake
 recipes.remove(<minecraft:cake>);
 
@@ -22,3 +25,20 @@ recipes.removeByRecipeName("harvestcraft:minecraft_cookie");
 recipes.addShaped(<betterwithmods:raw_pastry:2>, [
     [<ore:foodFlour>, <ore:foodCocoapowder>, <ore:foodFlour>]
 ]);
+
+mods.betterwithmods.Mill.remove([<betterwithmods:raw_pastry:3>]);
+mods.betterwithmods.Mill.remove([<betterwithmods:material:3>]);
+/*
+for item in <ore:listAllgrain>.items{
+	mods.betterwithmods.Mill.addRecipe([item], [<betterwithmods:raw_pastry>]);
+}
+
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:beetitem>], [<minecraft:sugar>*2]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:agaveitem>], [<minecraft:sugar>*2]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:taroitem>], [<minecraft:sugar>*2]);
+
+for item in <ore:listAllfiber>.items{
+	mods.betterwithmods.Mill.addRecipe([item], [<minecraft:string>]);
+}
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:cottonitem>], [<minecraft:string>*2]);
+*/
