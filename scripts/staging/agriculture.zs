@@ -1,5 +1,17 @@
 mods.ItemStages.stageModItems("agriculture", "agricraft");
 
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:10>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:11>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:8>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:7>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:6>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:5>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:3>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget:1>);
+mods.ItemStages.removeItemStage(<agricraft:agri_nugget>);
+
+
+
 mods.ItemStages.addItemStage("agriculture", <composter:compost>);
 mods.ItemStages.addItemStage("agriculture", <composter:compost_bin>);
 mods.ItemStages.addItemStage("agriculture", <endercrop:ender_crop>);
@@ -45,8 +57,6 @@ mods.ItemStages.addItemStage("agriculture", <harvestcraft:flaxseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:garlicseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:gigapickleseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:gingerseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:grapeseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:greengrapeseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:huckleberryseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:jicamaseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:juniperberryseeditem> );
@@ -61,7 +71,6 @@ mods.ItemStages.addItemStage("agriculture", <harvestcraft:lettuceseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:milletseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:mulberryseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:mustardseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:mustardseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:oatsseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:okraseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:onionseeditem> );
@@ -74,15 +83,10 @@ mods.ItemStages.addItemStage("agriculture", <harvestcraft:radishseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:raspberryseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:rhubarbseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:riceseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:roastedpumpkinseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:rutabagaseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:ryeseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:saltedsunflowerseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:scallionseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:seaweedseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:seedenergygelitem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:seedsoupitem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:sesameseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:sesameseedsseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:sisalseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:soybeanseeditem> );
@@ -92,10 +96,7 @@ mods.ItemStages.addItemStage("agriculture", <harvestcraft:strawberryseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:sunflowerseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:sweetpotatoseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:taroseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:teaseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:toastedsesameseedsitem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:tomatilloseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:tomatoseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:turnipseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:waterchestnutseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:whitemushroomseeditem> );
@@ -162,3 +163,25 @@ mods.ItemStages.addItemStage("agriculture", <tconstruct:scythe_head>.withTag({Ma
 mods.ItemStages.addItemStage("agriculture", <tconstruct:scythe_head>.withTag({Material: "ref_thaumium"}) );
 mods.ItemStages.addItemStage("agriculture", <tconstruct:scythe_head>.withTag({Material: "ref_lavium"}) );
 mods.ItemStages.addItemStage("agriculture", <tconstruct:scythe_head>.withTag({Material: "ref_qivium"}) );
+mods.ItemStages.addItemStage("agriculture", <primal:quartz_hoe>);
+mods.ItemStages.addItemStage("agriculture", <primal:diamond_hoe>);
+mods.ItemStages.addItemStage("agriculture", <primal:emerald_hoe>);
+mods.ItemStages.addItemStage("agriculture", <primal:opal_hoe>);
+mods.ItemStages.addItemStage("agriculture", <primal:obsidian_hoe>);
+
+//not sure where this recipe went
+recipes.addShaped("primal:flint_hoe2", <primal:flint_hoe>,[
+    [<primal:flint_knapp>, <ore:cordageGeneral>],
+    [<ore:stickWood>, null]
+]);
+
+//not sure where this recipe went
+recipes.addShaped("primal:bone_hoe2", <primal:bone_hoe>,[
+    [<primal:bone_knapp>, <ore:cordageGeneral>],
+    [<ore:stickWood>, null]
+]);
+
+mods.recipestages.Recipes.setRecipeStage("agriculture", "flint_hoe2");
+mods.recipestages.Recipes.setRecipeStage("agriculture", "flint_hoe");
+mods.recipestages.Recipes.setRecipeStage("agriculture", "bone_hoe");
+mods.recipestages.Recipes.setRecipeStage("agriculture", "bone_hoe2");
