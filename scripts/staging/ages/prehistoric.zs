@@ -197,8 +197,8 @@ recipes.addShaped(<immcraft:cupboard>, [
 ]);
 
 //early grappling hook
-recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
-recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <tconstruct:tool_rod>.withTag({Material: "wood"}), <minecraft:lead>]);
+recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <ore:stickWood>, <minecraft:lead>]);
+recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <ore:stickWood>, <minecraft:lead>]);
 
 //flatbread
 <ore:bread>.add(<progressiontweaks:flat_bread>);
