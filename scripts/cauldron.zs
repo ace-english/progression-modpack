@@ -162,6 +162,7 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
     [<betterwithmods:material:12>*1]
 );
+/*
 
 mods.primal.Cauldron.addRecipe(
     "salt", 
@@ -170,7 +171,6 @@ mods.primal.Cauldron.addRecipe(
     [], 
     [<bewitchment:salt>*4]
 );
-/*
 recipes.addShaped(<primal:cauldron_lid>,[
     [<ore:pinWood>],
     [<primal:crude_iron_plate>]
