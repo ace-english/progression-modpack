@@ -21,9 +21,86 @@ Dropt.list("barley")
   );
 
 
+Dropt.list("grass")
+    .add(Dropt.rule()
+      .matchBlocks(["twilightforest:twilight_plant:5",
+              "biomesoplenty:plant_1",
+              "biomesoplenty:plant_0:14",
+              "biomesoplenty:plant_0:8",
+              "biomesoplenty:plant_0:7",
+              "biomesoplenty:plant_0:1",
+              "minecraft:double_plant:2",
+              "biomesoplenty:plant_0",
+              "minecraft:tallgrass:*"])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("WHITELIST", "ALL", ["medieval"])
+      )
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:wormwood_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:hellebore_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:belladonna_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:white_sage_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:mandrake_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<bewitchment:aconitum_seeds>])
+      )
+  );
+Dropt.list("grass2")
+  .add(Dropt.rule()
+      .matchBlocks(["twilightforest:twilight_plant:5",
+              "biomesoplenty:plant_1",
+              "biomesoplenty:plant_0:14",
+              "biomesoplenty:plant_0:8",
+              "biomesoplenty:plant_0:7",
+              "biomesoplenty:plant_0:1",
+              "minecraft:double_plant:2",
+              "biomesoplenty:plant_0",
+              "minecraft:tallgrass:*"])
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+          .items([<primal:plant_fiber>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+          .items([<roots:wildroot>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+          .items([<roots:terra_spores>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+          .items([<minecraft:wheat_seeds>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(8))
+          .items([<immersiveengineering:seed>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20)) // drops nothing if selected
+      )
+  );
+
 
 Dropt.list("early_thaum_crystals")
   .add(Dropt.rule()
+      .replaceStrategy("REPLACE_ITEMS")
       .matchBlocks([
         "thaumcraft:crystal_aqua",
         "thaumcraft:crystal_ignis",
