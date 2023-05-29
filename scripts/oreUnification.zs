@@ -73,6 +73,7 @@ recipes.removeByRecipeName("chisel:uncraft_blockelectrum");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_slab_back");
 recipes.removeByRecipeName("primal:metalblock_8");
+recipes.removeByRecipeName("agricraft:combine_nugget_lead");
 recipes.removeByRecipeName("agricraft:metal_storage/lead_block_uncraft");
 recipes.removeByRecipeName("agricraft:metal_storage/combine_nugget_lead");
 recipes.removeByRecipeName("chisel:uncraft_blocklead");
@@ -131,6 +132,9 @@ mods.tconstruct.Casting.removeBasinRecipe(<forestry:resource_storage:2>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_tin>);
 mods.tconstruct.Casting.addTableRecipe(<mekanism:ingot:2>, <tconstruct:cast_custom>, <liquid:tin>, 144); //ingot
 recipes.removeByRecipeName("mekanism:basicblock_13");
+
+//iron
+recipes.removeByRecipeName("immersiveengineering:metal_storage/iron_ingot_uncraft");
 
 //uranium
 recipes.removeByRecipeName("immersiveengineering:metal_storage/uranium_block");
