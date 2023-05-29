@@ -386,6 +386,7 @@ var modernIngredients as IIngredient[] = [
     <malisisdoors:sliding_trapdoor>,
     <mcwbridges:most1>,
     <mcwbridges:most2>,
+    /*
     <mekanism:basicblock>,
     <mekanism:basicblock:2>,
     <mekanism:basicblock:4>,
@@ -419,6 +420,7 @@ var modernIngredients as IIngredient[] = [
     <mekanism:basicblock2:7>,
     <mekanism:basicblock2:8>,
     <mekanism:basicblock2:9>,
+    */
     <mekanism:biofuel>,
     <mekanism:boundingblock>,
     <mekanism:cardboardbox>,
@@ -449,6 +451,7 @@ var modernIngredients as IIngredient[] = [
     <mekanism:crystal:5>,
     <mekanism:crystal:6>,
     <mekanism:dictionary>,
+    /*
     <mekanism:dirtydust>,
     <mekanism:dirtydust:1>,
     <mekanism:dirtydust:2>,
@@ -462,6 +465,7 @@ var modernIngredients as IIngredient[] = [
     <mekanism:dust:3>,
     <mekanism:dust:5>,
     <mekanism:dust:6>,
+    */
     <mekanism:electricbow>,
     <mekanism:electricbow>.withTag({mekData: {energyStored: 120000.0}}),
     <mekanism:electrolyticcore>,
@@ -540,11 +544,13 @@ var modernIngredients as IIngredient[] = [
     <mekanism:glowplasticblock:13>,
     <mekanism:glowplasticblock:14>,
     <mekanism:glowplasticblock:15>,
+    /*
     <mekanism:ingot>,
     <mekanism:ingot:1>,
     <mekanism:ingot:3>,
     <mekanism:ingot:4>,
     <mekanism:ingot:5>,
+    */
     <mekanism:itemproxy>,
     <mekanism:machineblock>,
     <mekanism:machineblock:1>,
@@ -615,18 +621,22 @@ var modernIngredients as IIngredient[] = [
     <mekanism:mufflingupgrade>,
     <mekanism:networkreader>,
     <mekanism:networkreader>.withTag({mekData: {energyStored: 60000.0}}),
+    /*
     <mekanism:nugget>,
     <mekanism:nugget:1>,
     <mekanism:nugget:3>,
     <mekanism:nugget:4>,
     <mekanism:nugget:5>,
+    */
     <mekanism:obsidiantnt>,
+    /*
     <mekanism:otherdust>,
     <mekanism:otherdust:1>,
     <mekanism:otherdust:3>,
     <mekanism:otherdust:4>,
     <mekanism:otherdust:5>,
     <mekanism:otherdust:6>,
+    */
     <mekanism:plasticblock>,
     <mekanism:plasticblock:1>,
     <mekanism:plasticblock:2>,

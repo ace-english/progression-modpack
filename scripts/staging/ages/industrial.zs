@@ -8,6 +8,12 @@ mods.ItemStages.stageModItems("industrial","immersivetech");
 mods.ItemStages.stageModItems("industrial","immersivecables");
 mods.ItemStages.stageModItems("industrial","travelersbackpack");
 
+mods.ItemStages.removeItemStage(<thaumcraft:nugget:4>);//lead
+mods.ItemStages.removeItemStage(<thaumcraft:nugget:1>);//copper
+mods.ItemStages.removeItemStage(<immersiveengineering:ore:3>);//silver
+mods.ItemStages.removeItemStage(<immersiveengineering:metal:9>);//copper
+mods.ItemStages.removeItemStage(<immersiveengineering:storage:0>);//copper
+
 
 
 var industrialIngredients as IIngredient[] = [
@@ -577,8 +583,8 @@ var industrialIngredients as IIngredient[] = [
     <mekanism:balloon:13>,
     <mekanism:balloon:14>,
     <mekanism:balloon:15>,
-    <mekanism:basicblock:13>,
-    <mekanism:nugget:6>,
+    //<mekanism:basicblock:13>,
+    //<mekanism:nugget:6>,
     <minecraft:activator_rail>,
     <minecraft:black_shulker_box>,
     <minecraft:blue_shulker_box>,

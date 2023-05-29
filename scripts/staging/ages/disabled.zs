@@ -1,4 +1,16 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+
+
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:100>);//copper
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:101>);//tin
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:102>);//silver
+
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:200>);//ruby
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:201>);//sapphire
+mods.ItemStages.removeItemStage(<projectred-core:resource_item:202>);//peridot
 
 
 recipes.removeByRecipeName("aquaculture:neptunium_sword");
@@ -64,9 +76,17 @@ recipes.removeByRecipeName("primal_tech:clay_kiln");
 recipes.removeByRecipeName("primal_tech:recipe_clay_kiln");
 recipes.removeByRecipeName("primal_tech:recipe_flint_saw_blade");
 recipes.removeByRecipeName("primal_tech:recipe_water_saw");
+recipes.removeByRecipeName("aquaculture:bonemeal_from_fish_bones");
 
 
 recipes.removeByRecipeName("minecraft:fishing_rod");
+
+
+//mods.ItemStages.removeItemStage(<mekanism:ingot:4>);//steel
+//mods.ItemStages.removeItemStage(<mekanism:nugget:4>);//steel
+//mods.ItemStages.removeItemStage(<mekanism:otherdust:1>);//steel
+//mods.ItemStages.removeItemStage(<mekanism:ingot:5>);//copper
+//mods.ItemStages.removeItemStage(<mekanism:nugget:5>);//copper
 
 var disabledIngredients as IIngredient[] = [
 	<betterwithmods:cooking_pot>,
@@ -538,6 +558,139 @@ var disabledIngredients as IIngredient[] = [
 	<twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0}, {lvl: 4 as short, id: 2}]}),
 	<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
 	<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
+	<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
+
+	//unused metals, unidicted
+	<primal:aluminum_nugget>,
+	<primal:aluminum_dust>,
+	<primal:aluminum_ingot>,
+	<primal:aluminum_plate>,
+	<agricraft:agri_nugget:8>,
+	<primal:metalblock:13>,
+
+	<mekanism:ingot:5>,
+	<mekanism:basicblock:12>,
+	<mekanism:nugget:5>,
+	<mekanism:dust:3>,
+	<immersiveengineering:metal:20>,
+	<thaumcraft:nugget:1>,
+	<primal:copper_nugget>,
+	<primal:copper_dust>,
+	<primal:copper_plate>,
+	<primal:copper_strand>,
+	//<mysticalworld:copper_nugget>,
+	//<mysticalworld:copper_dust>,
+	<grimoireofgaia:shard:4>,
+	<primal:metalblock:10>,
+	<forestry:ingot_copper>,
+	<forestry:resource_storage:1>,
+	<primal:copper_ingot>,
+	<immersiveengineering:metal:20>,
+
+	<primal:brass_nugget>,
+	<primal:metalblock:12>,
+	<primal:brass_ingot>,
+	<primal:brass_plate>,
+
+	<primal:metalblock:11>,
+	<primal:bronze_nugget>,
+	<primal:bronze_dust>,
+	<forestry:ingot_bronze>,
+	<primal:bronze_ingot>,
+	<primal:bronze_plate>,
+
+	<primal:lead_ingot>,
+	<primal:lead_dust>,
+	<primal:lead_nugget>,
+	<primal:lead_plate>,
+	<primal:metalblock:7>,
+	<mekanism:dust:6>,
+	<thaumcraft:nugget:4>,
+
+	<immersiveengineering:metal:22>,
+	<agricraft:agri_nugget:9>,
+	<primal:nickel_nugget>,
+	//<immersiveengineering:metal:13>,
+	<primal:nickel_plate>,
+	<primal:nickel_ingot>,
+
+/*
+	<immersiveengineering:metal:33>,
+	<immersiveengineering:metal:23>,
+	<immersiveengineering:metal:3>,
+	<immersiveengineering:ore:3>,
+	<projectred-core:resource_item:102>,
+	<primal:silver_plate>,
+	<primal:silver_ingot>,
+	<mysticalworld:silver_nugget>,
+	<bewitchment:silver_ingot>,
+	<agricraft:agri_nugget:7>,
+	<mysticalworld:silver_ingot>,
+	<agricraft:agri_nugget:7>,
+	<primal:platinum_nugget>,
+	<primal:silver_nugget>,
+	<primal:steel_plate>,
+	<agricraft:agri_nugget:7>,
+	<bewitchment:silver_ore>,
+	<immersiveengineering:ore:3>,
+*/
+
+	<immersiveengineering:metal:8>,
+	<immersiveengineering:metal:23>,
+	<tcomplement:materials:10>,
+	<primal:steel_ingot>,
+	<tcomplement:materials:20>,
+	<primal:steel_nugget>,
+	<primal:tin_dust>,
+	<primal:tin_plate>,
+	<forestry:ingot_tin>,
+	<primal:tin_ingot>,
+	<primal:tin_nugget>,
+	<mekanism:nugget:6>,
+	<agricraft:agri_nugget:5>,
+	<mysticalworld:silver_dust>,
+	<mysticalworld:silver_dust_tiny>,
+	<primal:silver_dust>,
+	<immersiveengineering:ore:3>,
+	<immersiveengineering:metal:33>,
+	<bewitchment:silver_ore>,
+	<thaumcraft:nugget:3>,
+	<bewitchment:silver_ingot>,
+	<grimoireofgaia:shard:5>,
+
+	<primal:tamahagane_ingot>,
+	<primal:shibuichi_ingot>,
+	<primal:vanadium_ingot>,
+	<primal:shibuichi_dust>,
+	<primal:shibuichi_nugget>,
+	<primal:metalblock:4>,
+	<primal:tamahagane_dust>,
+	<primal:tamahagane_bloom>,
+	<primal:tamahagane_plate>,
+	<primal:tamahagane_nugget>,
+	<primal:metalblock:3>,
+	<primal:vanadium_dust>,
+	<primal:vanadium_ingot>,
+	<primal:vanadium_plate>,
+	<primal:vanadium_nugget>,
+	<primal:shibuichi_plate>,
+
+	//steel
+	<primal:metalblock:1>,
+	<tcomplement:storage>,
+	<mekanism:ingot:4>,
+	<mekanism:nugget:4>,
+	<mekanism:otherdust:1>,
+	<ancientwarfare:steel_ingot>,
+
+	<projectred-core:resource_item:100>,
+	<projectred-core:resource_item:101>,
+	<projectred-core:resource_item:102>,
+
+	<projectred-core:resource_item:200>,
+	<projectred-core:resource_item:201>,
+	<projectred-core:resource_item:202>,
+	
 	//duplicated crops
 	<betterwithmods:hemp>,
 	<harvestcraft:teaseeditem>,
