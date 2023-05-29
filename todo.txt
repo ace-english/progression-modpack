@@ -34,8 +34,8 @@ potential Jakob tasks:
 	[ ] disable blunt force trauma
 	[x] add centaur to press
 	[ ] nerf pots - require turntable
-	[ ] prehistoric achievments
 	[ ] no curisities in amber until industrial
+	[ ] prehistoric achievments
 		[ ] war dance achievement
 		[ ] summon villager achievement
 		[ ] build a raft
@@ -89,11 +89,7 @@ potential Jakob tasks:
 		[x] <infoaccessories:info_accessory:4> Slimey Compass - add to loot table
 		[ ] <infoaccessories:info_accessory:6> biome analyzer - add recipe
 		<infoaccessories:info_accessory:1> sextant - maybe useful for Thaumcraft, also prereq for sailing or something?
-	[?] unify hemp
-	[ ] add rock to tinkers
-	[-] give ore:toolAxe to all tconstruct:hatchet and lumberaxe
 	[ ] turn off spooky ambience?
-	[ ] sol balance
 	[ ] redstone industrial
 		- magnets are magic - create magical path for compass not including redstone
 		- remove redstone from pereskia. integrate something from a different mod?

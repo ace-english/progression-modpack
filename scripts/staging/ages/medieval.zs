@@ -17,6 +17,8 @@ mods.ItemStages.stageModItems("medieval","tfspellpack");
 mods.ItemStages.stageModItems("medieval","waystones");
 mods.ItemStages.stageModItems("medieval","wizardryutils");
 
+mods.ItemStages.removeItemStage(<bewitchment:silver_ore>);
+
 
 var medievalIngredients as IIngredient[] = [
     <minecraft:furnace>,
@@ -1067,7 +1069,6 @@ var medievalIngredients as IIngredient[] = [
     <minecraft:trapped_chest>,
     <minecraft:wooden_button>,
     <minecraft:wooden_door>,
-    <mysticalworld:spindle>,
 //    <openblocks:auto_anvil>,
     <malisisdoors:customdooritem>,
 //    <openblocks:auto_enchantment_table>,
