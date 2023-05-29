@@ -169,19 +169,21 @@ mods.ItemStages.addItemStage("agriculture", <primal:emerald_hoe>);
 mods.ItemStages.addItemStage("agriculture", <primal:opal_hoe>);
 mods.ItemStages.addItemStage("agriculture", <primal:obsidian_hoe>);
 
+/*
 //not sure where this recipe went
-recipes.addShaped("primal:flint_hoe2", <primal:flint_hoe>,[
+recipes.addShaped("flint_hoe2", <primal:flint_hoe>,[
     [<primal:flint_knapp>, <ore:cordageGeneral>],
     [<ore:stickWood>, null]
 ]);
 
 //not sure where this recipe went
-recipes.addShaped("primal:bone_hoe2", <primal:bone_hoe>,[
+recipes.addShaped("bone_hoe2", <primal:bone_hoe>,[
     [<primal:bone_knapp>, <ore:cordageGeneral>],
     [<ore:stickWood>, null]
 ]);
+*/
 
-mods.recipestages.Recipes.setRecipeStage("agriculture", "flint_hoe2");
+//mods.recipestages.Recipes.setRecipeStage("agriculture", "flint_hoe2");
 mods.recipestages.Recipes.setRecipeStage("agriculture", "flint_hoe");
 mods.recipestages.Recipes.setRecipeStage("agriculture", "bone_hoe");
-mods.recipestages.Recipes.setRecipeStage("agriculture", "bone_hoe2");
+//mods.recipestages.Recipes.setRecipeStage("agriculture", "bone_hoe2");
