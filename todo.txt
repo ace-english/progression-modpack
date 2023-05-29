@@ -31,7 +31,11 @@ potential Jakob tasks:
 	[x] add sugar substitute recipes
 	[x] flaked bone to meal
 	[x] add garnet, opal, amethyst for runestone
+	[ ] disable blunt force trauma
+	[x] add centaur to press
+	[ ] nerf pots - require turntable
 	[ ] prehistoric achievments
+	[ ] no curisities in amber until industrial
 		[ ] war dance achievement
 		[ ] summon villager achievement
 		[ ] build a raft
