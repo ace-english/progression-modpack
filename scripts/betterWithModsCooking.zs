@@ -42,3 +42,6 @@ for item in <ore:listAllfiber>.items{
 }
 mods.betterwithmods.Mill.addRecipe([<harvestcraft:cottonitem>], [<minecraft:string>*2]);
 */
+furnace.addRecipe(<rustic:vase>, <betterwithmods:unfired_pottery:3>);
+recipes.remove(<rustic:vase>);
+
