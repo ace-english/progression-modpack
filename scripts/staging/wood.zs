@@ -10,6 +10,8 @@ var plankLogPairs as IIngredient[][IItemStack] = {
     <rustic:planks:1> : [<rustic:log:1>],
     <rustic:planks:1> : [<rustic:log:1>],
     <rustic:planks:0> : [<rustic:log:0>],
+    <minecraft:planks:1> : [<minecraft:log:1>],
+    <minecraft:planks:3> : [<minecraft:log:3>],
     <roots:wildwood_planks> : [<roots:wildwood_log>],
     <totemic:cedar_plank> : [<totemic:cedar_log>],
     <biomesoplenty:planks_0:0> : [<biomesoplenty:log_0:4>], //sacred
@@ -85,7 +87,7 @@ for plank, logs in plankLogPairs {
     recipes.remove(plank);
     for log in logs {
 			mods.horsepower.ChoppingBlock.add(log, plank*4, 4);
-            mods.betterwithmods.Saw.add(log,[plank*4]);
+            mods.betterwithmods.Saw.add(log,[plank*4, <betterwithmods:bark:0>, <betterwithmods:material:22>]);
             recipes.addShapeless(plank*3,[log,basicSaw]);
             recipes.addShapeless(plank*4,[log,metalSaw]);
             recipes.addShapeless(plank*6,[log,gemSaw]);

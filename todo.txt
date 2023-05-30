@@ -13,7 +13,15 @@ potential Jakob tasks:
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
-	[ ] campfire on grill
+		
+		
+	[ ] rock to rock 
+	[ ] shovel nbt
+	[x] replace nuggets
+	[x] craft curtain colors
+	[x] re enable amethyst
+	[x] spruce planks
+	[ ] make roots knife better?
 	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
 		anchovyrawitem
@@ -33,7 +41,7 @@ potential Jakob tasks:
 	[x] add garnet, opal, amethyst for runestone
 	[ ] disable blunt force trauma
 	[x] add centaur to press
-	[ ] nerf pots - require turntable
+	[x] nerf pots - require turntable
 	[ ] no curisities in amber until industrial
 	[ ] prehistoric achievments
 		[ ] war dance achievement

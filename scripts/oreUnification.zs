@@ -12,7 +12,7 @@ recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_slab_bac
 recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_ingot");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_block_uncraft");
-recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_ingot_uncraft");
+//recipes.removeByRecipeName("immersiveengineering:metal_storage/aluminum_ingot_uncraft");
 recipes.removeByRecipeName("agricraft:combine_nugget_aluminum");
 recipes.removeByRecipeName("chisel:uncraft_blockaluminum");
 recipes.removeByRecipeName("primal:metalblock_12");
@@ -29,13 +29,13 @@ recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot_nug
 recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot");
 recipes.removeByRecipeName("thaumcraft:nuggetstobrass");
 recipes.removeByRecipeName("thaumcraft:brassblocktoingots");
-recipes.removeByRecipeName("thaumcraft:brasstonuggets");
+//recipes.removeByRecipeName("thaumcraft:brasstonuggets");
 recipes.removeByRecipeName("thaumcraft:brassingotstoblock");
 
 //copper
 recipes.removeByRecipeName("primal:metalblock_7");
 recipes.removeByRecipeName("mysticalworld:copper_ingot_to_block");
-recipes.removeByRecipeName("mysticalworld:copper_ingot_to_nugget");
+//recipes.removeByRecipeName("mysticalworld:copper_ingot_to_nugget");
 recipes.removeByRecipeName("mysticalworld:copper_nugget_to_ingot");
 recipes.removeByRecipeName("mysticalworld:copper_block_to_ingot");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/copper_block");
@@ -54,7 +54,7 @@ mods.tconstruct.Casting.addBasinRecipe(<mysticalworld:copper_block>, null, <liqu
 recipes.removeByRecipeName("mekanism:basicblock_1");
 recipes.removeByRecipeName("mekanism:ingot_2_alt");
 recipes.removeByRecipeName("mekanism:ingot_2");
-recipes.removeByRecipeName("mekanism:nugget_2");
+//recipes.removeByRecipeName("mekanism:nugget_2");
 recipes.removeByRecipeName("primal:metalblock_6");
 mods.tconstruct.Casting.removeBasinRecipe(<forestry:resource_storage:3>);
 mods.tconstruct.Casting.addBasinRecipe(<mekanism:basicblock:1>, null, <liquid:bronze>, 1296);
@@ -65,7 +65,7 @@ mods.tconstruct.Casting.addTableRecipe(<mekanism:ingot:2>, <tconstruct:cast_cust
 recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_slab_back");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_ingot");
-recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_ingot_uncraft");
+//recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_ingot_uncraft");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_block_uncraft");
 recipes.removeByRecipeName("chisel:uncraft_blockelectrum");
 
@@ -82,7 +82,7 @@ recipes.removeByRecipeName("chisel:uncraft_blocklead");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_slab_back");
 recipes.removeByRecipeName("primal:metalblock_14");
-recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_ingot_uncraft");
+//recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_ingot_uncraft");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_block_uncraft");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_ingot");
 recipes.removeByRecipeName("agricraft:combine_nugget_nickel");
@@ -103,20 +103,21 @@ recipes.removeByRecipeName("primal:metalblock_11");
 //crude iron
 recipes.removeByRecipeName("primal:crude_iron_ingot");
 recipes.removeByRecipeName("primal:crude_iron_ingot_1");
-recipes.removeByRecipeName("primal:crude_iron_nugget");
+//recipes.removeByRecipeName("primal:crude_iron_nugget");
 recipes.removeByRecipeName("primal:metalblock");
 
 
 //silver
-/*
+recipes.removeByRecipeName("immersiveengineering:metal_storage/silver_block");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/silver_block_uncraft");
 recipes.removeByRecipeName("bewitchment:block_of_silver");
+recipes.removeByRecipeName("primal:metalblock_9");
+/*
 recipes.removeByRecipeName("bewitchment:silver_ingot");
 recipes.removeByRecipeName("bewitchment:block_of_silver_to_resource");
 recipes.removeByRecipeName("bewitchment:compat/silver_plate");
 recipes.removeByRecipeName("mysticalworld:silver_ingot_to_block");
-recipes.removeByRecipeName("immersiveengineering:metal_storage/silver_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/silver_slab_back");
-recipes.removeByRecipeName("primal:metalblock_9");
 <ore:ingotSilver>.add(<immersiveengineering:metal:3>);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:3>, <tconstruct:cast_custom>, <liquid:silver>, 144); //ingot
 mods.tconstruct.Casting.removeBasinRecipe(<immersiveengineering:storage:3>);
