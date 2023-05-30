@@ -680,16 +680,16 @@ recipes.addShapeless(<malisisdoors:curtain_orange>, [<ore:dyeOrange>, <ore:curta
 recipes.addShapeless(<malisisdoors:curtain_magenta>, [<ore:dyeMagenta>, <ore:curtain>]);
 recipes.addShapeless(<malisisdoors:curtain_blue>, [<ore:dyeBlue>, <ore:curtain>]);
 recipes.addShapeless(<malisisdoors:curtain_yellow>, [<ore:dyeYellow>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_lime>, [<ore:dyelime>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_pink>, [<ore:dyepink>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_gray>, [<ore:dyegray>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_cyan>, [<ore:dyecyan>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_purple>, [<ore:dyepurple>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_blue>, [<ore:dyeblue>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_brown>, [<ore:dyebrown>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_green>, [<ore:dyegreen>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_red>, [<ore:dyered>, <ore:curtain>]);
-recipes.addShapeless(<malisisdoors:curtain_black>, [<ore:dyeblack>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_lime>, [<ore:dyeLime>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_pink>, [<ore:dyePink>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_gray>, [<ore:dyeGray>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_cyan>, [<ore:dyeCyan>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_purple>, [<ore:dyePurple>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_blue>, [<ore:dyeBlue>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_brown>, [<ore:dyeBrown>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_green>, [<ore:dyeGreen>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_red>, [<ore:dyeRed>, <ore:curtain>]);
+recipes.addShapeless(<malisisdoors:curtain_black>, [<ore:dyeBlack>, <ore:curtain>]);
 
 /*********************************************
 
