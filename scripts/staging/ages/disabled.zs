@@ -656,8 +656,8 @@ var disabledIngredients as IIngredient[] = [
 	<thaumcraft:nugget:3>,
 	<immersiveengineering:metal:33>,
 	<primal:silver_plate>,
+	<immersiveengineering:metal:12>,
 /*
-	<immersiveengineering:metal:3>,
 	<projectred-core:resource_item:102>,
 	<bewitchment:silver_ingot>,
 	<agricraft:agri_nugget:7>,
