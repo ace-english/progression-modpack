@@ -228,6 +228,8 @@ recipes.addShaped("primal_anvil", <minecraft:anvil>, [
 
 // add items to prehistoric era that are in gated mods
 
+/*
+
 mods.ItemStages.removeItemStage(<bewitchment:juniper_wood>);
 mods.ItemStages.removeItemStage(<bewitchment:cypress_wood>);
 mods.ItemStages.removeItemStage(<bewitchment:elder_wood>);
@@ -317,5 +319,7 @@ mods.ItemStages.removeItemStage(<thaumcraft:leaves_greatwood>);
 mods.ItemStages.removeItemStage(<thaumcraft:sapling_silverwood>);
 mods.ItemStages.removeItemStage(<thaumcraft:log_silverwood>);
 mods.ItemStages.removeItemStage(<thaumcraft:leaves_silverwood>);
+
+*/
 
 //mods.primal_tech.StoneGrill.addRecipe()
