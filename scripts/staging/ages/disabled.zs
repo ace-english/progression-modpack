@@ -3,7 +3,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-
+/*
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:100>);//copper
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:101>);//tin
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:102>);//silver
@@ -11,7 +11,7 @@ mods.ItemStages.removeItemStage(<projectred-core:resource_item:102>);//silver
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:200>);//ruby
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:201>);//sapphire
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:202>);//peridot
-
+*/
 
 recipes.removeByRecipeName("aquaculture:neptunium_sword");
 recipes.removeByRecipeName("aquaculture:neptunium_shovel");
@@ -559,6 +559,37 @@ var disabledIngredients as IIngredient[] = [
 	<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
 	<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
 	<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]}),
+
+	<betterwithmods:material:4>,
+	<immersiveengineering:axe_steel>,
+	<immersiveengineering:hoe_steel>,
+	<immersiveengineering:steel_armor_chest>,
+	<immersiveengineering:steel_armor_feet>,
+	<immersiveengineering:steel_armor_head>,
+	<immersiveengineering:steel_armor_legs>,
+	<immersiveengineering:sword_steel>,
+	<thaumcraft:thaumium_axe>,
+	<thaumcraft:thaumium_boots>,
+	<thaumcraft:thaumium_chest>,
+	<thaumcraft:thaumium_helm>,
+	<thaumcraft:thaumium_hoe>,
+	<thaumcraft:thaumium_legs>,
+	<thaumcraft:thaumium_pick>,
+	<thaumcraft:thaumium_shovel>,
+	<thaumcraft:thaumium_sword>,
+	<thaumcraft:void_axe>,
+	<thaumcraft:void_boots>,
+	<thaumcraft:void_chest>,
+	<thaumcraft:void_helm>,
+	<thaumcraft:void_hoe>,
+	<thaumcraft:void_legs>,
+	<thaumcraft:void_pick>,
+	<thaumcraft:void_shovel>,
+	<thaumcraft:void_sword>,
+	<travelersbackpack:sleeping_bag_bottom>,
+	<projectred-core:resource_item:200>,
+	<projectred-core:resource_item:201>,
+	<projectred-core:resource_item:202>,
 
 	//unused metals, unidicted
 	<primal:aluminum_nugget>,
