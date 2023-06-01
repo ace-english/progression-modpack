@@ -76,7 +76,6 @@
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:eggplantitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:elderberryitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:flaxitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
-			{action:"add", chance:0.1, buy: {id:"harvestcraft:garlicitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:gigapickleitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:gingeritem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
 			{action:"add", chance:0.1, buy: {id:"harvestcraft:grapeitem", Count: {min:2,max:9}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
