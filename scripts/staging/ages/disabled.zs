@@ -724,6 +724,8 @@ var disabledIngredients as IIngredient[] = [
 	<projectred-core:resource_item:202>,
 	
 	//duplicated crops
+	<harvestcraft:garlicitem>,
+	<harvestcraft:garlicseeditem>,
 	<betterwithmods:hemp>,
 	<harvestcraft:teaseeditem>,
 	<harvestcraft:chilipepperseeditem>,
