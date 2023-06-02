@@ -105,6 +105,13 @@ kongPool.addItemEntry(<primal:pelt_animal>, 5, 1, [Functions.setCount(1,4)], [],
 kongPool.addItemEntry(<primal:shark_tooth>, 2, 1, [Functions.setCount(1,3)], [], "shark_tooth");
 kongPool.addItemEntry(<primal:crude_iron_ingot>, 5, 1, [Functions.setCount(1,7)], [], "crude_iron_nugget");
 
+val ironbox = LootTweaker.getTable("grimoireofgaia:loot_table_boxiron").getPool("main");
+ironbox.addItemEntry(<primal:crude_iron_ingot>, 5, 1, [Functions.setCount(3,10)], [], "crude_iron_ingot");
+ironbox.addItemEntry(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(3,10)], [], "iron_ingot");
+
+val netherbox = LootTweaker.getTable("grimoireofgaia:loot_table_boxnether").getPool("main");
+netherbox.addItemEntry(<minecraft:blaze_rod>, 5, 1, [Functions.setCount(3,10)], [], "blaze_rod");
+
 val malicePool = LootTweaker.getTable("ancientwarfare:chests/malice").getPool("main");
 malicePool.addItemEntry(<bewitchment:cold_iron_ingot>, 3, 1, [Functions.setCount(2,6)], [], "cold_iron_ingot");
 

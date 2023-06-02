@@ -2,7 +2,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 //gold
-recipes.removeByRecipeName("minecraft:gold_nugget");
+//recipes.removeByRecipeName("minecraft:gold_nugget");
 
 
 //aluminium
@@ -27,10 +27,16 @@ recipes.removeByRecipeName("primal:metalblock_12");
 <ore:ingotSilver>.add(<immersiveengineering:metal:3>);
 recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot_nugget");
 recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot");
+recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_block");
 recipes.removeByRecipeName("thaumcraft:nuggetstobrass");
 recipes.removeByRecipeName("thaumcraft:brassblocktoingots");
 //recipes.removeByRecipeName("thaumcraft:brasstonuggets");
 recipes.removeByRecipeName("thaumcraft:brassingotstoblock");
+
+//brass
+<thaumcraft:ingot:2>.displayName ="Brass Ingot";
+<thaumcraft:nugget:8>.displayName ="Brass Nugget";
+
 
 //copper
 recipes.removeByRecipeName("primal:metalblock_7");
@@ -71,12 +77,14 @@ recipes.removeByRecipeName("chisel:uncraft_blockelectrum");
 
 //lead
 recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_block");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_block_uncraft");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/lead_slab_back");
 recipes.removeByRecipeName("primal:metalblock_8");
 recipes.removeByRecipeName("agricraft:combine_nugget_lead");
 recipes.removeByRecipeName("agricraft:metal_storage/lead_block_uncraft");
 recipes.removeByRecipeName("agricraft:metal_storage/combine_nugget_lead");
 recipes.removeByRecipeName("chisel:uncraft_blocklead");
+recipes.addShapeless(<agricraft:agri_nugget:6>*9, [<immersiveengineering:metal:2>]);
 
 //nickel
 recipes.removeByRecipeName("immersiveengineering:metal_storage/nickel_block");
@@ -89,6 +97,7 @@ recipes.removeByRecipeName("agricraft:combine_nugget_nickel");
 recipes.removeByRecipeName("chisel:uncraft_blocknickel");
 
 //platinum
+/*
 recipes.removeByRecipeName("primal:metalblock_13");
 recipes.removeByRecipeName("primal:platinum_ingot_1");
 recipes.removeByRecipeName("primal:platinum_ingot");
@@ -96,6 +105,7 @@ recipes.removeByRecipeName("agricraft:combine_nugget_platinum");
 recipes.removeByRecipeName("chisel:uncraft_blockplatinum");
 mods.tconstruct.Casting.addBasinRecipe(<primal:metalblock:14>, null, <liquid:platinum>, 1296);
 mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockplatinum:0>);
+*/
 
 //zinc
 recipes.removeByRecipeName("primal:metalblock_11");
@@ -187,3 +197,7 @@ recipes.removeByRecipeName("thaumcraft:thaumiumblocktoingots");
 recipes.removeByRecipeName("thaumcraft:thaumiumtonuggets");
 recipes.removeByRecipeName("thaumcraft:thaumiumingotstoblocks");
 recipes.removeByRecipeName("thaumcraft:thaumiumplate");
+
+//zinc
+recipes.removeByRecipeName("primal:zinc_ingot");
+recipes.removeByRecipeName("primal:zinc_ingot_1");
