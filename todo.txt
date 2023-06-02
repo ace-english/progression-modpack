@@ -117,6 +117,7 @@ x --- complete --- x
 		- add coins
 		- add gems
 	
+	[x] grimoire of gaia loot fixes
 	[x] add centaur to press
 	[x] nerf pots - require turntable
 	[x] replace nuggets
