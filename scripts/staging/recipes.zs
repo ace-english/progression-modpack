@@ -360,11 +360,6 @@ betterwithmods
 
 *********************************************/
 
-//remove recipes for leather armor, tanned leather armour into glue
-//add recipe for pelt into glue
-
-//add recipe for soulforged steel gear - smeltery
-//add recipe for soulforged steel plate - hammer
 
 /*
 
@@ -387,6 +382,25 @@ recipes.addShaped(<betterwithmods:single_machine:3>,[
     [<ore:stone>, <astikorcarts:wheel>, <ore:stone>],
     [<ore:stone>, <ore:gearWood>, <ore:stone>],
 ]);
+recipes.addShaped(<betterwithmods:material:0>,[
+    [null, <ore:stickWood>, null],
+    [<ore:stickWood>, <totemic:buffalo_items:1>, <ore:stickWood>],
+    [null, <ore:stickWood>, null],
+]);
+
+recipes.addShaped(<betterwithmods:wooden_gearbox>,[
+    [null, <ore:stickWood>, null],
+    [<ore:stickWood>, <totemic:buffalo_items:1>, <ore:stickWood>],
+    [null, <ore:stickWood>, null],
+]);
+
+recipes.addShaped(<betterwithmods:wooden_axle>,[
+    [<ore:stickWood>],
+    [<minecraft:netherbrick>],
+    [<ore:stickWood>]
+]);
+
+<betterwithmods:wooden_axle>.addTooltip(format.darkRed("Mechanical power is of the devil"));
 
 recipes.addShapeless(<betterwithmods:manual>,[<betterwithmods:material:0>, <minecraft:book>]);
 
@@ -761,6 +775,9 @@ mods.primaltech.StoneAnvil.addRecipe(<betterwithmods:material:51>, <betterwithmo
 
 mods.primaltech.StoneAnvil.addRecipe(<mekanism:dust:4>, <mekanism:oreblock:2>);
 mods.primaltech.StoneAnvil.addRecipe(<mysticalworld:copper_dust>, <mysticalworld:copper_ore>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:zinc_dust>, <primal:ore_zinc:0>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:zinc_dust>, <primal:ore_zinc:1>);
+mods.primaltech.StoneAnvil.addRecipe(<primal:zinc_dust>, <primal:ore_zinc:2>);
 
 
 
@@ -808,6 +825,12 @@ recipes.addShaped(<conarm:armorstation>, [
 recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {ForgeCaps: {"wizardryutils:summoneditemdata": {}}, id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}), [
     [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
     [<primal:metalblock:0>, <tconstruct:tooltables:3>, <primal:metalblock:0>],
+    [<primal:metalblock:0>, null,<primal:metalblock:0>]
+]);
+
+recipes.addShaped(<conarm:armorforge>.withTag({textureBlock: {ForgeCaps: {"wizardryutils:summoneditemdata": {}}, id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}), [
+    [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
+    [<primal:metalblock:0>, <conarm:armorstation>, <primal:metalblock:0>],
     [<primal:metalblock:0>, null,<primal:metalblock:0>]
 ]);
 
