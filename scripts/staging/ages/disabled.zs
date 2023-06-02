@@ -638,6 +638,14 @@ var disabledIngredients as IIngredient[] = [
 	<mekanism:dust:6>,
 	<thaumcraft:nugget:4>,
 
+	<agricraft:agri_nugget:10>,
+	//it seems all platinum is unused! no ore!
+	<primal:metalblock:14>,
+	<primal:platinum_nugget>,
+	<primal:platinum_dust>,
+	<primal:platinum_ingot>,
+	<primal:platinum_plate>,
+
 	<immersiveengineering:metal:22>,
 	<agricraft:agri_nugget:9>,
 	<primal:nickel_nugget>,
