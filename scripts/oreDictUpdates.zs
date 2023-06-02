@@ -143,6 +143,7 @@ oreDictFruit.mirror(fruitForestry);
 **************************************************************************/
 
 <ore:listAllfishraw>.add(<fishingmadebetter:fish_slice_raw>);
+<ore:listAllfishcooked>.add(<fishingmadebetter:fish_slice_cooked>);
 recipes.removeByRecipeName("harvestcraft:fish_0");
 
 
