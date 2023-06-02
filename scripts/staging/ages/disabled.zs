@@ -202,7 +202,7 @@ var disabledIngredients as IIngredient[] = [
 	<betterwithmods:material:17>,
 	<betterwithmods:material:20>,
 	<betterwithmods:material:27>,
-	<betterwithmods:material:34>,
+	//<betterwithmods:material:34>,
 	<betterwithmods:material:36>,
 	<betterwithmods:material:38>,
 	<betterwithmods:material:39>,
@@ -592,6 +592,10 @@ var disabledIngredients as IIngredient[] = [
 	<projectred-core:resource_item:202>,
 
 	//unused metals, unidicted
+	<agricraft:agri_nugget:3>,
+	<agricraft:agri_nugget:5>,
+	<grimoireofgaia:shard:1>,
+
 	<primal:aluminum_nugget>,
 	<primal:aluminum_dust>,
 	<primal:aluminum_ingot>,
@@ -618,10 +622,10 @@ var disabledIngredients as IIngredient[] = [
 	<primal:copper_ingot>,
 	<immersiveengineering:metal:20>,
 
-	<primal:brass_nugget>,
-	<primal:metalblock:12>,
-	<primal:brass_ingot>,
 	<primal:brass_plate>,
+	<primal:metalblock:12>,
+	<primal:brass_nugget>,
+	<primal:brass_ingot>,
 
 	<primal:metalblock:11>,
 	<primal:bronze_nugget>,
@@ -645,6 +649,7 @@ var disabledIngredients as IIngredient[] = [
 	<primal:platinum_dust>,
 	<primal:platinum_ingot>,
 	<primal:platinum_plate>,
+
 
 	<immersiveengineering:metal:22>,
 	<agricraft:agri_nugget:9>,

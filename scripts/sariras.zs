@@ -19,11 +19,13 @@ mods.primal.Smelter.addRecipe("nether_brick", 6, [<minecraft:netherrack>, <prima
 mods.primal.Smelter.addRecipe("cent_egg", 24, [<ore:foodBoiledegg>, <ore:ash>, <ore:salt>], [<primal:egg_death>]);
 mods.primal.Smelter.addRecipe("iron", 12, [<ore:oreIron>, <ore:charcoal>, <ore:sand>], [<minecraft:iron_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("copper", 12, [<ore:oreCopper>, <ore:charcoal>, <ore:sand>], [<mysticalworld:copper_ingot>, <primal:slag>]);
+mods.primal.Smelter.addRecipe("zinc", 12, [<ore:oreClusteredZinc>|<ore:oreClusterZinc>, <ore:charcoal>, <ore:sand>], [<primal:zinc_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("tin", 12, [<ore:oreTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:6>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("bronze", 48, [<ore:ingotCopper>*3, <ore:ingotTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("bronze_2", 36, [<ore:dustCopper>*3, <ore:dustTin>, <ore:charcoal>, <ore:sand>], [<mekanism:ingot:2>*4, <primal:slag>*2]);
+mods.primal.Smelter.addRecipe("brass", 48, [<ore:ingotCopper>*2, <ore:ingotZinc>, <ore:charcoal>, <ore:sand>], [<thaumcraft:ingot:2>*3, <primal:slag>*2]);
+mods.primal.Smelter.addRecipe("brass_2", 36, [<ore:dustCopper>*2, <ore:dustZinc>, <ore:charcoal>, <ore:sand>], [<thaumcraft:ingot:2>*3, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("crude_iron", 6, [<primal:ore_cluster_bog_iron>*4, <primal:charcoal_mote>*2], [<primal:crude_iron_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("soul_steel", 50, [<minecraft:iron_ingot>, <primal:charcoal_mote>*2, <betterwithmods:urn:8>], [<betterwithmods:urn:0>, <betterwithmods:material:14>]);
-
 
 <primal_tech:fluid_bladder>.displayName ="Waterskin";
