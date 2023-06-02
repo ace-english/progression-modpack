@@ -54,7 +54,6 @@ mods.ItemStages.addItemStage("agriculture", <harvestcraft:curryleafseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:eggplantseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:elderberryseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:flaxseeditem> );
-mods.ItemStages.addItemStage("agriculture", <harvestcraft:garlicseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:gigapickleseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:gingerseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:huckleberryseeditem> );

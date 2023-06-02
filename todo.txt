@@ -2,14 +2,11 @@ potential Jakob tasks:
 	[ ] create unique tcon weapons/tools
 		- Ace can add them to villager trade tables
 	[ ] tinker materials
-		[x] yew
-		[x] ironwood
 		[ ] garnet
 		[ ] opal
 		[ ] ironwood (tf)
 		[ ] amber?
 			- exists as modifier already
-		[x] eagle feather
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
@@ -17,10 +14,6 @@ potential Jakob tasks:
 		
 	[ ] rock to rock 
 	[ ] shovel nbt
-	[x] replace nuggets
-	[x] craft curtain colors
-	[x] re enable amethyst
-	[x] spruce planks
 	[ ] make roots knife better?
 	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
@@ -34,15 +27,11 @@ potential Jakob tasks:
 		greenheartfishitem
 		sardine
 		grimoireofgaia:coalfish
-	[x] more toasted seeds
-	[x] seeds map
-	[x] add sugar substitute recipes
-	[x] flaked bone to meal
-	[x] add garnet, opal, amethyst for runestone
 	[ ] disable blunt force trauma
-	[x] add centaur to press
-	[x] nerf pots - require turntable
+	[ ] make turntable ancient possible
 	[ ] no curisities in amber until industrial
+	
+more achievements
 	[ ] prehistoric achievments
 		[ ] war dance achievement
 		[ ] summon villager achievement
@@ -127,6 +116,24 @@ x --- complete --- x
 		- add mud bricks
 		- add coins
 		- add gems
+	
+	[x] grimoire of gaia loot fixes
+	[x] add centaur to press
+	[x] nerf pots - require turntable
+	[x] replace nuggets
+	[x] craft curtain colors
+	[x] re enable amethyst
+	[x] spruce planks
+	[x] more toasted seeds
+	[x] morpheus 50%
+	[x] seeds map
+	[x] add sugar substitute recipes
+	[x] flaked bone to meal
+	[x] add garnet, opal, amethyst for runestone
+	[x] fix garlic staging
+	nutrition
+		[x] add info for bop peaches
+		[x] added items with missing nutrition
 	[x] wolf head recipes
 	[x] rock unification projct
 		[x] use stages to disable
@@ -193,6 +200,9 @@ x --- complete --- x
 		[x] replace in recipes
 		[x] ore dict
 	[x] materials
+		[x] yew
+		[x] ironwood
+		[x] eagle feather
 		[x] balance amethyst
 		[x] crude iron?
 		[x] chocolate?
