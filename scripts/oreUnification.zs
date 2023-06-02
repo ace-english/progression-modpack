@@ -27,10 +27,16 @@ recipes.removeByRecipeName("primal:metalblock_12");
 <ore:ingotSilver>.add(<immersiveengineering:metal:3>);
 recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot_nugget");
 recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_ingot");
+recipes.removeByRecipeName("tconstruct:common/metals/alubrass/alubrass_block");
 recipes.removeByRecipeName("thaumcraft:nuggetstobrass");
 recipes.removeByRecipeName("thaumcraft:brassblocktoingots");
 //recipes.removeByRecipeName("thaumcraft:brasstonuggets");
 recipes.removeByRecipeName("thaumcraft:brassingotstoblock");
+
+//brass
+<thaumcraft:ingot:2>.displayName ="Brass Ingot";
+<thaumcraft:nugget:8>.displayName ="Brass Nugget";
+
 
 //copper
 recipes.removeByRecipeName("primal:metalblock_7");
@@ -187,3 +193,7 @@ recipes.removeByRecipeName("thaumcraft:thaumiumblocktoingots");
 recipes.removeByRecipeName("thaumcraft:thaumiumtonuggets");
 recipes.removeByRecipeName("thaumcraft:thaumiumingotstoblocks");
 recipes.removeByRecipeName("thaumcraft:thaumiumplate");
+
+//zinc
+recipes.removeByRecipeName("primal:zinc_ingot");
+recipes.removeByRecipeName("primal:zinc_ingot_1");
