@@ -245,6 +245,31 @@ mods.ltt.LootTable.removeItem("ancientwarfare:chests/witchbane", "main", "ancien
 
 mods.ltt.LootTable.removeItem("ancientwarfare:chests/zimba", "main", "ancientwarfarenpc:iron_spear");
 
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_axe");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_shovel");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_sword");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_helmet");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_chestplate");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_leggings");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_boots");
+
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_axe");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_shovel");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_sword");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_helmet");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_chestplate");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_leggings");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxgold", "main", "minecraft:golden_boots");
+
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_axe");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_shovel");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_sword");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_helmet");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_chestplate");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_leggings");
+mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxiron", "main", "minecraft:iron_boots");
+
+
 mods.ltt.LootTable.removeItem("minecraft:chests/abandoned_mineshaft", "main", "minecraft:iron_pickaxe");
 
 mods.ltt.LootTable.removeItem("minecraft:chests/end_city_treasure", "main", "minecraft:diamond_sword");
