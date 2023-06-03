@@ -13,6 +13,8 @@ potential Jakob tasks:
 		
 		
 	[ ] rock to rock 
+	[ ] tune harvestcraft down a little
+	[ ] change roots spells Augment and Geas to use fish hook instead of rod
 	[ ] shovel nbt
 	[ ] make roots knife better?
 	[ ] add recipes for rustic silver furniture
