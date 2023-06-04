@@ -102,7 +102,8 @@ Dropt.list("grass")
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(20)) // drops nothing if selected
-  );
+  )
+);
 
 
 Dropt.list("roots_bark_jungle").add(Dropt.rule().matchHarvester(Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [<tinkers_reforged:runic_knife:*>]))
