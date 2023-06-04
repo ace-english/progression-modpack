@@ -34,6 +34,7 @@
   {"item": {"name": "harvestcraft:pomegranatejuiceitem","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
   {"item": {"name": "harvestcraft:raspberryjuiceitem","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
   {"item": {"name": "harvestcraft:starfruitjuiceitem","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
+  {"item": {"name": "harvestcraft:fruitpunchitem","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
   {"item": {"name": "harvestcraft:strawberryjuiceitem","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
   {"item": {"name": "rustic:apple_juice","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
   {"item": {"name": "rustic:grape_juice","metadata": 0},"thirst": 7,"hydration": 1, "poisonChance": 0.0 },
