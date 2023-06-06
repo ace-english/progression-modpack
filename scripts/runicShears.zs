@@ -45,14 +45,14 @@ RunicShears.addEntityRecipe("rabbit_foot11",<minecraft:rabbit_foot>,<entity:anim
 RunicShears.addEntityRecipe("rabbit_foot12",<minecraft:rabbit_foot>,<entity:animania:buck_dutch>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot13",<minecraft:rabbit_foot>,<entity:animania:buck_chinchilla>, 20 * 3000);
 
-RunicShears.addEntityRecipe("chicken_feathers0",<minecraft:feather>,<entity:animania:hen_leghorn>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers1",<minecraft:feather>,<entity:animania:hen_orpington>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers2",<minecraft:feather>,<entity:animania:hen_rhode_island_red>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers3",<minecraft:feather>,<entity:animania:hen_wyandotte>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers4",<minecraft:feather>,<entity:animania:rooster_wyandotte>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers5",<minecraft:feather>,<entity:animania:rooster_rhode_island_red>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers6",<minecraft:feather>,<entity:animania:rooster_orpington>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers7",<minecraft:feather>,<entity:animania:rooster_leghorn>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers0",<roots:mystic_feather>,<entity:animania:hen_leghorn>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers1",<roots:mystic_feather>,<entity:animania:hen_orpington>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers2",<roots:mystic_feather>,<entity:animania:hen_rhode_island_red>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers3",<roots:mystic_feather>,<entity:animania:hen_wyandotte>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers4",<roots:mystic_feather>,<entity:animania:rooster_wyandotte>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers5",<roots:mystic_feather>,<entity:animania:rooster_rhode_island_red>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers6",<roots:mystic_feather>,<entity:animania:rooster_orpington>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers7",<roots:mystic_feather>,<entity:animania:rooster_leghorn>, 20 * 60);
 
 RunicShears.addEntityRecipe("peacock_feathers0",<animania:blue_peacock_feather>,<entity:animania:peahen_blue>, 20 * 60);
 RunicShears.addEntityRecipe("peacock_feathers1",<animania:blue_peacock_feather>,<entity:animania:peacock_blue>, 20 * 60);

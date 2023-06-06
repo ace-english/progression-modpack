@@ -9,8 +9,7 @@ Mortar.addRecipe("gunpowder", <minecraft:gunpowder>*3, [
 ]);
 
 Mortar.addRecipe("more_petals", <roots:petals>, [<ore:listAllflower>]);
-Mortar.addRecipe("tannin2", <primal:tannin_ground>, [<ore:rootsBark>]);
-Mortar.addRecipe("tannin1", <primal:tannin_ground>, [<ore:barkWood>]);
+Mortar.addRecipe("tannin", <primal:tannin_ground>, [<ore:rootsBark>|<ore:barkWood>]);
 Mortar.removeRecipe(<roots:flour>);
 Mortar.addRecipe("more_flour", <roots:flour>, [<ore:listAllgrain>]);
 
