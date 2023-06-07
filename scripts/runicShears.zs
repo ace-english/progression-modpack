@@ -37,6 +37,7 @@ RunicShears.addEntityRecipe("rabbit_foot3",<minecraft:rabbit_foot>,<entity:anima
 RunicShears.addEntityRecipe("rabbit_foot4",<minecraft:rabbit_foot>,<entity:animania:doe_lop>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot5",<minecraft:rabbit_foot>,<entity:animania:doe_dutch>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot6",<minecraft:rabbit_foot>,<entity:animania:doe_chinchilla>, 20 * 3000);
+
 RunicShears.addEntityRecipe("rabbit_foot7",<minecraft:rabbit_foot>,<entity:animania:buck_havana>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot8",<minecraft:rabbit_foot>,<entity:animania:buck_cottontail>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot9",<minecraft:rabbit_foot>,<entity:animania:buck_rex>, 20 * 3000);
@@ -44,15 +45,17 @@ RunicShears.addEntityRecipe("rabbit_foot10",<minecraft:rabbit_foot>,<entity:anim
 RunicShears.addEntityRecipe("rabbit_foot11",<minecraft:rabbit_foot>,<entity:animania:buck_lop>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot12",<minecraft:rabbit_foot>,<entity:animania:buck_dutch>, 20 * 3000);
 RunicShears.addEntityRecipe("rabbit_foot13",<minecraft:rabbit_foot>,<entity:animania:buck_chinchilla>, 20 * 3000);
+RunicShears.addEntityRecipe("rabbit_foot14",<minecraft:rabbit_foot>,<entity:animania:buck_jack>, 20 * 3000);
+RunicShears.addEntityRecipe("rabbit_foot15",<minecraft:rabbit_foot>,<entity:animania:doe_jack>, 20 * 3000);
 
-RunicShears.addEntityRecipe("chicken_feathers0",<minecraft:feather>,<entity:animania:hen_leghorn>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers1",<minecraft:feather>,<entity:animania:hen_orpington>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers2",<minecraft:feather>,<entity:animania:hen_rhode_island_red>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers3",<minecraft:feather>,<entity:animania:hen_wyandotte>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers4",<minecraft:feather>,<entity:animania:rooster_wyandotte>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers5",<minecraft:feather>,<entity:animania:rooster_rhode_island_red>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers6",<minecraft:feather>,<entity:animania:rooster_orpington>, 20 * 60);
-RunicShears.addEntityRecipe("chicken_feathers7",<minecraft:feather>,<entity:animania:rooster_leghorn>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers0",<roots:mystic_feather>,<entity:animania:hen_leghorn>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers1",<roots:mystic_feather>,<entity:animania:hen_orpington>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers2",<roots:mystic_feather>,<entity:animania:hen_rhode_island_red>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers3",<roots:mystic_feather>,<entity:animania:hen_wyandotte>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers4",<roots:mystic_feather>,<entity:animania:rooster_wyandotte>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers5",<roots:mystic_feather>,<entity:animania:rooster_rhode_island_red>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers6",<roots:mystic_feather>,<entity:animania:rooster_orpington>, 20 * 60);
+RunicShears.addEntityRecipe("chicken_feathers7",<roots:mystic_feather>,<entity:animania:rooster_leghorn>, 20 * 60);
 
 RunicShears.addEntityRecipe("peacock_feathers0",<animania:blue_peacock_feather>,<entity:animania:peahen_blue>, 20 * 60);
 RunicShears.addEntityRecipe("peacock_feathers1",<animania:blue_peacock_feather>,<entity:animania:peacock_blue>, 20 * 60);
@@ -125,6 +128,9 @@ Pacifist.addEntity(<entity:animania:doe_dutch>);
 Pacifist.addEntity(<entity:animania:kit_chinchilla>);
 Pacifist.addEntity(<entity:animania:doe_chinchilla>);
 Pacifist.addEntity(<entity:animania:buck_chinchilla>);
+Pacifist.addEntity(<entity:animania:kit_jack>);
+Pacifist.addEntity(<entity:animania:doe_jack>);
+Pacifist.addEntity(<entity:animania:buck_jack>);
 
 //horses
 Pacifist.addEntity(<entity:animania:mare_draft>);
@@ -303,6 +309,10 @@ SummonCreatures.addLifeEssence(<entity:animania:doe_dutch>);
 SummonCreatures.addLifeEssence(<entity:animania:kit_chinchilla>);
 SummonCreatures.addLifeEssence(<entity:animania:doe_chinchilla>);
 SummonCreatures.addLifeEssence(<entity:animania:buck_chinchilla>);
+SummonCreatures.addLifeEssence(<entity:animania:kit_jack>);
+SummonCreatures.addLifeEssence(<entity:animania:doe_jack>);
+SummonCreatures.addLifeEssence(<entity:animania:buck_jack>);
+
 
 //horses
 SummonCreatures.addLifeEssence(<entity:animania:mare_draft>);
@@ -462,6 +472,9 @@ AnimalHarvest.addEntity(<entity:animania:doe_dutch>);
 AnimalHarvest.addEntity(<entity:animania:kit_chinchilla>);
 AnimalHarvest.addEntity(<entity:animania:doe_chinchilla>);
 AnimalHarvest.addEntity(<entity:animania:buck_chinchilla>);
+AnimalHarvest.addEntity(<entity:animania:kit_jack>);
+AnimalHarvest.addEntity(<entity:animania:doe_jack>);
+AnimalHarvest.addEntity(<entity:animania:buck_jack>);
 
 //horses
 AnimalHarvest.addEntity(<entity:animania:mare_draft>);
