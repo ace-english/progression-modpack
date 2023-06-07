@@ -278,10 +278,41 @@ recipes.removeByRecipeName("crafttweaker:animania_lead_modified");
 <ore:toolShears>.add(<primal:quartz_shears>);
 <ore:toolShears>.add(<bewitchment:boline>);
 
+//rafts
+<ore:raft>.add(<jarm:oak_raft>);
+<ore:raft>.add(<jarm:spruce_raft>);
+<ore:raft>.add(<jarm:birch_raft>);
+<ore:raft>.add(<jarm:jungle_raft>);
+<ore:raft>.add(<jarm:acacia_raft>);
+<ore:raft>.add(<jarm:dark_oak_raft>);
+
 //ash
 val woodAsh=<ore:ash>;
 woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
+
+//water
+<ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}));
+<ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000}));
+<ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
+
+//shields
+<ore:shield>.add(<ancientwarfarenpc:shield_round_1>);
+<ore:shield>.add(<ancientwarfarenpc:shield_round_2>);
+<ore:shield>.add(<ancientwarfarenpc:shield_round_3>);
+<ore:shield>.add(<ancientwarfarenpc:shield_round_4>);
+<ore:shield>.add(<ancientwarfarenpc:stone_shield>);
+<ore:shield>.add(<ancientwarfarenpc:shield_buffloka>);
+<ore:shield>.add(<ancientwarfarenpc:gold_shield>);
+<ore:shield>.add(<ancientwarfarenpc:diamond_shield>);
+<ore:shield>.add(<ancientwarfarenpc:shield_witchbane_1>);
+<ore:shield>.add(<ancientwarfarenpc:shield_witchbane_2>);
+<ore:shield>.add(<twilightforest:knightmetal_shield>);
 
 //bark
 for bark in <ore:rootsBark>.items{
