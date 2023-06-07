@@ -13,89 +13,73 @@ Mortar.addRecipe("tannin", <primal:tannin_ground>, [<ore:rootsBark>|<ore:barkWoo
 Mortar.addRecipe("more_flour", <roots:flour>, [<ore:listAllgrain>]);
 Mortar.removeRecipe(<roots:flour>);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:geas"}}));
-Mortar.addRecipe("geas", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_geas"}}), [
+
+Mortar.changeSpell("spell_geas", [
     <minecraft:rotten_flesh>, <minecraft:lead>, <fishingmadebetter:hook_basic>, <roots:terra_spores>, <roots:baffle_cap_mushroom>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_aqua_bubble"}}));
-Mortar.addRecipe("aqua_bubble", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_aqua_bubble"}}), [
+Mortar.changeSpell("spell_aqua_bubble", [
     <ore:itemWaterBucket>, <roots:dewgonia>, <minecraft:snowball>, <ore:blockGlass>, <minecraft:quartz>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_sanctuary"}}));
-Mortar.addRecipe("sanctuary", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_sanctuary"}}), [
+Mortar.changeSpell("spell_sanctuary", [
     <ore:shield>, <roots:pereskia>, <ore:bowlWood>, <roots:bark_spruce>, <roots:wildroot>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_growth_infusion"}}));
-Mortar.addRecipe("growth_infusion", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_growth_infusion"}}), [
+Mortar.changeSpell("spell_growth_infusion", [
     <ore:listAllflower>, <ore:treeSapling>, <roots:terra_moss>, <mysticalworld:aubergine>, <ore:listAllgrain>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_sky_soarer"}}));
-Mortar.addRecipe("sky_soarer", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_sky_soarer"}}), [
+Mortar.changeSpell("spell_sky_soarer", [
     <ore:ladderWood>, <roots:petals>, <ore:feather>, <mysticalworld:aubergine_seed>, <roots:cloud_berry>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_saturate"}}));
-Mortar.addRecipe("saturate", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_saturate"}}), [
+Mortar.changeSpell("spell_saturate", [
     <minecraft:mushroom_stew>, <ore:bucketMilk>, <mysticalworld:aubergine>, <ore:egg>, <roots:wildewheet>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_wild_fire"}}));
-Mortar.addRecipe("wild_fire", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_wild_fire"}}), [
+Mortar.changeSpell("spell_wild_fire", [
     <ore:dyeOrange>, <ore:charcoal>, <ore:dustSaltpeter>, <roots:infernal_bulb>, <ore:gemGarnet>|<ore:gemRuby>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_natures_scythe"}}));
-Mortar.addRecipe("natures_scythe", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_natures_scythe"}}), [
+Mortar.changeSpell("spell_natures_scythe", [
     <roots:wildroot>, <roots:wildroot>, <mysticalworld:aubergine>, <primal:bone_hoe>|<primal:flint_hoe>, <ore:tallGrass>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_shatter"}}));
-Mortar.addRecipe("shatter", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_shatter"}}), [
+Mortar.changeSpell("spell_shatter", [
     <minecraft:flint>, <tconstruct:pick_head>.withTag({Material: "iron"}), 
         <roots:stalicripe>, <minecraft:tnt>, <ore:cobblestone>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_life_drain"}}));
-Mortar.addRecipe("life_drain", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_life_drain"}}), [
+Mortar.changeSpell("spell_life_drain", [
     <roots:baffle_cap_mushroom>, <roots:moonglow_leaf>, <primal:yew_aril>, <primal:sword_crude_bone>, <ore:skull>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_extension"}}));
-Mortar.addRecipe("extension", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_extension"}}), [
+Mortar.changeSpell("spell_extension", [
     <bibliocraft:plumbline>, <ore:eye>, <ore:raft>, <minecraft:dye:0>, <minecraft:golden_carrot>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_extension"}}));
-Mortar.addRecipe("extension", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_extension"}}), [
+Mortar.changeSpell("spell_extension", [
     <bibliocraft:plumbline>, <ore:eye>, <ore:pelt>, <minecraft:dye:0>, <minecraft:golden_carrot>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_augment"}}));
-Mortar.addRecipe("augment", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_augment"}}), [
+Mortar.changeSpell("spell_augment", [
     <minecraft:anvil:0>, <minecraft:ender_eye>, <minecraft:sugar>, <minecraft:rabbit_foot>, <minecraft:book>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}));
-Mortar.addRecipe("storm_cloud", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}), [
+Mortar.changeSpell("spell_storm_cloud", [
     <roots:dewgonia>, <ore:itemWaterBucket>, <ore:cropSeaweed>, <minecraft:clay_ball>, <minecraft:red_flower:1>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_harvest"}}));
-Mortar.addRecipe("harvest", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_harvest"}}), [
+Mortar.changeSpell("spell_harvest", [
     <primal:bone_hoe>|<primal:flint_hoe>, <mysticalworld:aubergine_seed>, <roots:wildewheet>, <roots:wildewheet_seed>, <minecraft:wheat_seeds>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_petal_shell"}}));
-Mortar.addRecipe("petal_shell", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_petal_shell"}}), [
+Mortar.changeSpell("spell_petal_shell", [
     <roots:petals>, <mysticalworld:aubergine>, <roots:spirit_herb>, <ore:shield>, <roots:pereskia>
 ]);
 
-Mortar.removeRecipe(<roots:spell_icon>.withTag({spell_storage: {s: "roots:spell_chrysopoeia"}}));
-Mortar.addRecipe("chrysopoeia", <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_chrysopoeia"}}), [
+Mortar.changeSpell("spell_chrysopoeia", [
     <ore:ingotCopper>, <ore:ingotGold>, <ore:listAllseed>, <minecraft:magma_cream>, <minecraft:diamond>
 ]);
 
