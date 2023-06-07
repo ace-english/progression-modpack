@@ -43,7 +43,7 @@ Mortar.changeSpell("spell_wild_fire", [
 ]);
 
 Mortar.changeSpell("spell_natures_scythe", [
-    <roots:wildroot>, <roots:wildroot>, <mysticalworld:aubergine>, <primal:bone_hoe>|<primal:flint_hoe>, <ore:tallGrass>
+    <roots:wildroot>, <roots:wildroot>, <mysticalworld:aubergine>, <primal:bone_hoe>|<primal:flint_hoe>, <ore:tallgrass>
 ]);
 
 Mortar.changeSpell("spell_shatter", [
@@ -57,10 +57,6 @@ Mortar.changeSpell("spell_life_drain", [
 
 Mortar.changeSpell("spell_extension", [
     <bibliocraft:plumbline>, <ore:eye>, <ore:raft>, <minecraft:dye:0>, <minecraft:golden_carrot>
-]);
-
-Mortar.changeSpell("spell_extension", [
-    <bibliocraft:plumbline>, <ore:eye>, <ore:pelt>, <minecraft:dye:0>, <minecraft:golden_carrot>
 ]);
 
 Mortar.changeSpell("spell_augment", [
