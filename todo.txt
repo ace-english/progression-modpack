@@ -13,8 +13,30 @@ potential Jakob tasks:
 		
 		
 	[ ] rock to rock 
+<<<<<<< HEAD
+	[ ] stop soulstone creep
+	[ ] unify mud
+	[ ] tune harvestcraft down a little
+	[ ] roots spells 
+		Augment and Geas to use fish hook instead of rod
+		Chrysosopia (remove redstone)
+		sky soarer 
+			bow
+			ladder
+		check out fey feathers - add to chickens?
+		busted fire herb
+		Extension - bunch of stuff fucked up
+		Life Drain
+		Nature's Scythe and Harvest require a hoe
+		can I adjust the loot bags?
+		buckets should be more general
+		armor stands prehistoric
+	[ ] turn off grass regrowing
+	[ ] agave on sand
+=======
 	[ ] tune harvestcraft down a little
 	[ ] change roots spells Augment and Geas to use fish hook instead of rod
+>>>>>>> c1d01b336c0c97bdff7244ab41c18c3faa87ff38
 	[ ] shovel nbt
 	[ ] make roots knife better?
 	[ ] add recipes for rustic silver furniture

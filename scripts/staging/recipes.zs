@@ -11,7 +11,7 @@ import mods.roots.Fey;
 //add recipe for <minecraft:fireworks>
 //chainmail
 
-
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_carrot>, <minecraft:carrot>, <liquid:gold>, 128, true);
 
 //for progression
 mods.recipestages.Recipes.setRecipeStage("industrial", "davincisvessels:tile.davincis.engine7");
