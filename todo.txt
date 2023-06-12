@@ -5,6 +5,7 @@ potential Jakob tasks:
 		[ ] garnet
 		[ ] opal
 		[ ] ironwood (tf)
+		[ ] buff crude iron
 		[ ] amber?
 			- exists as modifier already
 	[ ] add Recurrent Construct appearances?
@@ -43,7 +44,14 @@ potential Jakob tasks:
 		[ ] replace 'cracked' egg
 		[ ] cornmeal
 	[ ] shovel nbt
+	[ ] revisit bewitchment restrictions
+	[ ] crude iron in smelter
 	[ ] make roots knife better?
+	[ ] thaumcraft crystals nbts
+	more loot
+		bricks
+		slimeballs
+		high quality seeds
 	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
 		anchovyrawitem
