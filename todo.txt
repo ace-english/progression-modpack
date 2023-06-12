@@ -5,6 +5,7 @@ potential Jakob tasks:
 		[ ] garnet
 		[ ] opal
 		[ ] ironwood (tf)
+		[ ] buff crude iron
 		[ ] amber?
 			- exists as modifier already
 	[ ] add Recurrent Construct appearances?
@@ -13,10 +14,9 @@ potential Jakob tasks:
 		
 		
 	[ ] rock to rock 
-<<<<<<< HEAD
 	[ ] stop soulstone creep
 	[ ] unify mud
-	[ ] tune harvestcraft down a little
+	[x] tune harvestcraft down a little
 	[ ] roots spells 
 		Augment and Geas to use fish hook instead of rod
 		Chrysosopia (remove redstone)
@@ -33,12 +33,25 @@ potential Jakob tasks:
 		armor stands prehistoric
 	[ ] turn off grass regrowing
 	[ ] agave on sand
-=======
-	[ ] tune harvestcraft down a little
-	[ ] change roots spells Augment and Geas to use fish hook instead of rod
->>>>>>> c1d01b336c0c97bdff7244ab41c18c3faa87ff38
+		can I adjust the loot bags?
+		Chrysosopeia - dye to ink sac
+		dewgonia - use library lilypad
+		something wrong with the transmutation recipe
+		new glue recipe - just grind up an aquaculture fish??
+	[x] turn off grass regrowing
+	[x] agave on sand
+	food
+		[ ] replace 'cracked' egg
+		[ ] cornmeal
 	[ ] shovel nbt
+	[ ] revisit bewitchment restrictions
+	[ ] crude iron in smelter
 	[ ] make roots knife better?
+	[ ] thaumcraft crystals nbts
+	more loot
+		bricks
+		slimeballs
+		high quality seeds
 	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
 		anchovyrawitem

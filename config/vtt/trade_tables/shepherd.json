@@ -8,6 +8,7 @@
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"animania:entity_egg_sheep_random", Count:1}},
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinsilver", Count: 2}, sell:{id:"animania:entity_egg_cow_random", Count:1}},
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"animania:entity_egg_random", Count:1}},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:["primal:flint_hoe","primal:bone_hoe"], Count: 1}, CareerLevel: 1},
 			{action:"add", CareerLevel:2, buy:{id:"ordinarycoins:coinsilver", Count: {min:3, max:5}}, sell:{id:"animania:entity_egg_peacock_random", Count:1}},
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinbronze", Count: {min:19, max:28}}, sell:{id:"animania:entity_egg_chicken_random", Count:1}},
 			{action:"add", CareerLevel:1, buy:{id:"ordinarycoins:coinbronze", Count: {min:30, max:50}}, sell:{id:"animania:entity_egg_goat_random", Count:1}},

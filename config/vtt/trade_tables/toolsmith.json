@@ -10,6 +10,7 @@
 			{action:"add", buy: {id:"immersiveengineering:metal", Damage: 8, Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 2}, CareerLevel: 3},
 			{action:"add", buy: {id:"mekanism:ingot", Damage: 2, Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 2},
 			{action:"add", buy: {id:"minecraft:iron_ingot", Count: 6}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:["primal:flint_hoe","primal:bone_hoe"], Count: 1}, CareerLevel: 1},
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:binding"}, Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:axe_head"}, Count: 1}, CareerLevel: 3},
 			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:"tconstruct:cast", tag:{PartType: "tconstruct:pick_head"}, Count: 1}, CareerLevel: 3},
