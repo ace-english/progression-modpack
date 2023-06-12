@@ -8,6 +8,7 @@
 			{action:"add", buy: {id:"mysticalworld:venison", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
 			{action:"add", buy: {id:"minecraft:porkchop", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
 			{action:"add", buy: {id:"minecraft:chicken", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:["primal:flint_hoe","primal:bone_hoe"], Count: 1}, CareerLevel: 1},
 			{action:"add", buy: {id:"minecraft:beef", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, CareerLevel: 1},
 			{action:"add", buy: {id:"animania:raw_prime_bacon", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
 			{action:"add", buy: {id:"animania:raw_prime_beef", Count: {min:3,max:7}}, sell:{id:"ordinarycoins:coinbronze", Count: {min:40,max:64}}, CareerLevel: 2},
