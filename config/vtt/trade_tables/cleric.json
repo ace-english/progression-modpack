@@ -7,6 +7,7 @@
 			{action:"clear"},
 			{action:"add", buy: {id:"minecraft:rotten_flesh", Count: {min:16,max:25}}, sell:{id:"ordinarycoins:coinsilver", Count: 1}, CareerLevel: 1},
 			{action:"add", buy: {id:"ordinarycoins:coingold", Count: {min:28,max:40}}, sell:{id:"ebwizardry:ring_paladin", Count: 1}, CareerLevel: 2},
+			{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:["primal:flint_hoe","primal:bone_hoe"], Count: 1}, CareerLevel: 1},
 			{action:"add", buy: {id:"minecraft:bone", Count: 16}, sell:{id:"ordinarycoins:coinbronze", Count: 20}, CareerLevel: 1}			
 		]
 	}

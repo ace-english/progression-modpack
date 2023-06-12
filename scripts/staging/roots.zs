@@ -79,6 +79,10 @@ Mortar.changeSpell("spell_chrysopoeia", [
     <ore:ingotCopper>, <ore:ingotGold>, <ore:listAllseed>, <minecraft:magma_cream>, <minecraft:diamond>
 ]);
 
+Mortar.changeSpell("spell_fey_light", [
+    <ore:torch>, <minecraft:double_plant:0>, <roots:cloud_berry>, <ore:rootsBark>, <ore:cropPumpkin>
+]);
+
 
 //https://docs.blamejared.com/1.12/en/Mods/Roots_3/fey
 

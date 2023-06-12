@@ -6,6 +6,7 @@
 	Recipes:[
 		{action:"clear"},
 		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"forestry:grafter_proven", Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: 40}, sell:{id:["primal:flint_hoe","primal:bone_hoe"], Count: 1}, CareerLevel: 1},
 		{action:"add", chance: 0.1, buy: {id:"ordinarycoins:coinbronze", Count: {min:15,max:25}}, sell:{id:"dynamictrees:acaciaseed", Count: 1}, CareerLevel: 1},
 		{action:"add", chance: 0.1, buy: {id:"ordinarycoins:coinbronze", Count: {min:15,max:25}}, sell:{id:"dynamictrees:appleseed", Count: 1}, CareerLevel: 1},
 		{action:"add", chance: 0.1, buy: {id:"ordinarycoins:coinbronze", Count: {min:15,max:25}}, sell:{id:"dynamictrees:birchseed", Count: 1}, CareerLevel: 1},
