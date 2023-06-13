@@ -208,7 +208,7 @@ Dropt.list("roots_bark_wild").add(Dropt.rule().matchHarvester(Dropt.harvester().
 ));
 
 
-
+/*
 Dropt.list("early_thaum_crystals")
   .add(Dropt.rule()
       .replaceStrategy("REPLACE_ITEMS")
@@ -225,6 +225,19 @@ Dropt.list("early_thaum_crystals")
       )
       .addDrop(Dropt.drop()
           .items([<thaumcraft:nugget:9>])
+      )
+  );
+  */
+
+Dropt.list("early_thaum_crystals")
+  .add(Dropt.rule()
+      .matchDrops([<thaumcraft:crystal_essence>])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["industrial"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<thaumcraft:nugget:9>])
+          .matchQuantity([<thaumcraft:crystal_essence>])
       )
   );
 
