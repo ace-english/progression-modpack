@@ -15,26 +15,23 @@ potential Jakob tasks:
 		
 	[ ] rock to rock 
 	[ ] stop soulstone creep
-	[ ] unify mud
+	[x] unify mud
 	[x] tune harvestcraft down a little
 	[ ] roots spells 
-		Augment and Geas to use fish hook instead of rod
-		Chrysosopia (remove redstone)
-		sky soarer 
-			bow
-			ladder
-		check out fey feathers - add to chickens?
-		busted fire herb
-		Extension - bunch of stuff fucked up
-		Life Drain
-		Nature's Scythe and Harvest require a hoe
+		x Augment and Geas to use fish hook instead of rod
+		x Chrysosopia (remove redstone)
+		x sky soarer 
+		x check out fey feathers - add to chickens?
+		x busted fire herb
+		x Extension - bunch of stuff fucked up
+		x Life Drain
+		x Nature's Scythe and Harvest require a hoe
 		can I adjust the loot bags?
 		buckets should be more general
 		armor stands prehistoric
-	[ ] turn off grass regrowing
-	[ ] agave on sand
-		can I adjust the loot bags?
-		Chrysosopeia - dye to ink sac
+	[x] turn off grass regrowing
+	[x] agave on sand
+		x Chrysosopeia - dye to ink sac
 		dewgonia - use library lilypad
 		something wrong with the transmutation recipe
 		new glue recipe - just grind up an aquaculture fish??
@@ -44,10 +41,10 @@ potential Jakob tasks:
 		[ ] replace 'cracked' egg
 		[ ] cornmeal
 	[ ] shovel nbt
-	[ ] revisit bewitchment restrictions
+	[x] revisit bewitchment restrictions
 	[ ] crude iron in smelter
 	[ ] make roots knife better?
-	[ ] thaumcraft crystals nbts
+	[x] thaumcraft crystals nbts
 	more loot
 		bricks
 		slimeballs
@@ -65,8 +62,9 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] disable blunt force trauma
-	[ ] make turntable ancient possible
+	[x] make turntable ancient possible
 	[ ] no curisities in amber until industrial
+		- replace with bone? fish bone? lol
 	
 more achievements
 	[ ] prehistoric achievments

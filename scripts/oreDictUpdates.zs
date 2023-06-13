@@ -292,6 +292,7 @@ woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
 
 //water
+/*
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}));
@@ -300,6 +301,7 @@ woodAsh.add(<biomesoplenty:ash>);
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
+*/
 
 //shields
 <ore:shield>.add(<ancientwarfarenpc:shield_round_1>);

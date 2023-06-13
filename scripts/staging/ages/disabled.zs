@@ -80,6 +80,7 @@ recipes.removeByRecipeName("aquaculture:bonemeal_from_fish_bones");
 
 
 recipes.removeByRecipeName("minecraft:fishing_rod");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 
 //mods.ItemStages.removeItemStage(<mekanism:ingot:4>);//steel
@@ -773,7 +774,16 @@ var disabledIngredients as IIngredient[] = [
 	<harvestcraft:lycheeteaitem>,
 	<harvestcraft:sweetteaitem>,
 	<harvestcraft:seaweeditem>,
-	<harvestcraft:teaitem>
+	<harvestcraft:teaitem>,
+	//salt
+	<immersivetech:material:0>,
+	<animania:salt>,
+
+	//mud
+	<biomesoplenty:mudball>,
+	<biomesoplenty:mud_brick>,
+	<tconstruct:materials:1>
+
 	];
 	
 val allEntries = oreDict.entries;
@@ -791,6 +801,8 @@ for entry in disabledIngredients{
 	//remove all recipes
 	recipes.removeByInput(entry);
 	recipes.remove(entry);
+	furnace.remove(entry);
+
 
 	//get string
 	/*
