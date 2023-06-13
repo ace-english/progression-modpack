@@ -2,6 +2,7 @@ import mods.roots.Mortar;
 import mods.roots.Fey;
 import mods.roots.Pyre;
 import mods.roots.Rituals;
+import mods.roots.Chrysopoeia;
 
 recipes.remove(<minecraft:gunpowder>);
 Mortar.addRecipe("gunpowder", <minecraft:gunpowder>*3, [
@@ -84,7 +85,8 @@ Mortar.changeSpell("spell_fey_light", [
 ]);
 
 
-//https://docs.blamejared.com/1.12/en/Mods/Roots_3/fey
+Chrysopoeia.addRecipe("squid_ink", <ore:dyeBlack>*2, <minecraft:dye:0>);
+
 
 Fey.removeRecipe(<roots:terrastone_axe>);
 Fey.removeRecipe(<roots:terrastone_shovel>);
