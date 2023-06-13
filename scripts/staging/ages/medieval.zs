@@ -108,8 +108,6 @@ var medievalIngredients as IIngredient[] = [
 <bewitchment:alchemist_robes>,
 <bewitchment:alchemists_carpet>,
 <bewitchment:alchemists_fleece>,
-<bewitchment:amethyst_ore>,
-<bewitchment:amethyst>,
 <bewitchment:athame>,
 <bewitchment:bastards_grimoire>.withTag({amount: 2147483646, maxAmount: 2147483646}),
 <bewitchment:belladonna_seeds>,
