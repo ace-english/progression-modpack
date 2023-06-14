@@ -86,6 +86,8 @@ mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>,
 
 
 //crude iron
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 36,<primal:ore_cluster_bog_iron>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 1296,<primal:metalblock:0>, 400);
 mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_crude_iron>, 144);
