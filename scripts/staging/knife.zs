@@ -2,7 +2,7 @@
  import crafttweaker.item.IItemStack;
 
 var knifes = <ore:toolKnife>;
-//knifes.add(<animania:carving_knife>);
+knifes.add(<animania:carving_knife>);
 knifes.add(<tinkers_reforged:runic_knife>);
 knifes.add(<roots:stone_knife>);
 knifes.add(<roots:wood_knife>);

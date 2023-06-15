@@ -247,7 +247,7 @@ var disabledIngredients as IIngredient[] = [
 	<bibliocraft:testeritem>,
 	<chisel:chisel_diamond>,
 	<chisel:chisel_hitech>,
-	<animania:carving_knife>,
+	//<animania:carving_knife>,
 	<malisisdoors:trapdoor_acacia>,
 	<malisisdoors:trapdoor_birch>,
 	<malisisdoors:trapdoor_dark_oak>,
