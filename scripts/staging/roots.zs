@@ -4,15 +4,6 @@ import mods.roots.Pyre;
 import mods.roots.Rituals;
 import mods.roots.Chrysopoeia;
 
-recipes.remove(<minecraft:gunpowder>);
-Mortar.addRecipe("gunpowder", <minecraft:gunpowder>*3, [
-    <immersiveengineering:material:25>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustCarbon>
-]);
-
-Mortar.addRecipe("more_petals", <roots:petals>, [<ore:listAllflower>]);
-Mortar.addRecipe("tannin", <primal:tannin_ground>, [<ore:rootsBark>|<ore:barkWood>]);
-Mortar.addRecipe("more_flour", <roots:flour>, [<ore:listAllgrain>]);
-Mortar.removeRecipe(<roots:flour>);
 
 
 Mortar.changeSpell("spell_geas", [

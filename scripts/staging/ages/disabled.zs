@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+#priority 3000
 
 /*
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:100>);//copper
@@ -775,6 +776,20 @@ var disabledIngredients as IIngredient[] = [
 	<harvestcraft:sweetteaitem>,
 	<harvestcraft:seaweeditem>,
 	<harvestcraft:teaitem>,
+	<betterwithmods:cooked_egg>,
+    <betterwithmods:raw_egg>,
+	<primal:corn_ground>,
+	<primal:corn_cob>,
+	<primal:corn_stalk>,
+	<primal:corn_stalk_dry>,
+	<primal:corn_seeds>,
+	<primal:corn_ground>,
+	<harvestcraft:cornbreaditem>,
+	<harvestcraft:flouritem>,
+	<animania:plain_omelette>,
+	<harvestcraft:scrambledeggitem>,
+	<primal:egg_boiled>,
+
 	//salt
 	<immersivetech:material:0>,
 	<animania:salt>,
@@ -783,7 +798,6 @@ var disabledIngredients as IIngredient[] = [
 	<biomesoplenty:mudball>,
 	<biomesoplenty:mud_brick>,
 	<tconstruct:materials:1>
-
 	];
 	
 val allEntries = oreDict.entries;

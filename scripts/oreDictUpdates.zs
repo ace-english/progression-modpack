@@ -341,7 +341,6 @@ for bark in <ore:rootsBark>.items{
 <ore:treeSapling>.add(<dynamictreesforestry:darkoakseed>);
 <ore:treeSapling>.add(<dynamictreesphc:passionfruitseed>);
 <ore:treeSapling>.add(<dynamictreesphc:passionfruit_vine>);
-<ore:treeSapling>.add(<dynamictreesphc:peppercornripeitem>);
 <ore:treeSapling>.add(<dynamictreesforestry:acaciaseed>);
 <ore:treeSapling>.add(<dynamictreesforestry:balsabranch>);
 <ore:treeSapling>.add(<dynamictreesforestry:balsaseed>);
