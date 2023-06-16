@@ -3,6 +3,51 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
+import crafttweaker.item.IItemStack;
+
+<minecraft:wheat_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:wheat_plant", agri_growth: 1 as byte});
+
+var commonSeeds as IItemStack[string] = {
+    "harvestcraft:cotton_plant": <harvestcraft:cottonseeditem>, 
+    "harvestcraft:coffee_plant": <harvestcraft:coffeeseeditem>, 
+    "harvestcraft:candleberry_plant": <harvestcraft:candleberryseeditem>,
+    
+    "rustic:chili_pepper": <rustic:chili_pepper_seeds>,
+
+    "vanilla:daisy_plant": <agricraft:agri_seed>,
+    "vanilla:allium_plant": <agricraft:agri_seed>,
+
+    "vanilla:cactus_plant": <agricraft:agri_seed>,
+    "vanilla:wheat_plant": <minecraft:wheat_seeds>,
+    "vanilla:sugarcane_plant": <agricraft:agri_seed>,
+    "vanilla:beet_root_plant": <minecraft:beetroot_seeds>,
+    "vanilla:potato_plant": <agricraft:agri_seed>,
+    "vanilla:carrot_plant": <agricraft:agri_seed>,
+    "vanilla:melon_plant": <minecraft:melon_seeds>,
+    "vanilla:pumpkin_plant": <minecraft:pumpkin_seeds>
+};
+
+var rareSeeds as IItemStack[string] = {
+    "rustic:grapes": <rustic:grape_stem>,
+    "harvestcraft:soybean_plant": <harvestcraft:soybeanseeditem>, 
+
+    "ace:enderlily_plant": <endercrop:ender_seeds>,
+    "ace:ebcrystal_plant": <t3s4ebw:magic_seed>
+};
+
+function addSeeds(seeds as IItemStack[string], pool as LootPool, quality as int){
+    for plant, seed in seeds{
+        pool.addItemEntry(
+            seed.withTag({
+                agri_analyzed: 1 as byte, 
+                agri_strength: quality as byte, 
+                agri_gain: quality as byte, 
+                agri_seed: plant, 
+                agri_growth: quality as byte}
+            ), 
+            1, 1, [Functions.setCount(1,4)], [], plant+"_seed");
+    }
+}
 
 val barbarianChests = LootTweaker.getTable("ancientwarfare:chests/barbarian");
 val barbarianPool = barbarianChests.getPool("main");
@@ -43,6 +88,7 @@ citizenHigh.addItemEntry(<mysticalworld:mud_brick>, 5, 1, [Functions.setCount(3,
 citizenHigh.addItemEntry(<primal:cinis_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "cinis_brick_dry");
 citizenHigh.addItemEntry(<primal:adobe_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "adobe_brick_dry");
 citizenHigh.addItemEntry(<primal:terra_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "terra_brick_dry");
+addSeeds(rareSeeds, citizenHigh, 9);
 
 
 val citizenMed = LootTweaker.getTable("ancientwarfare:chests/citizen_medium_value").getPool("main");
@@ -53,6 +99,8 @@ citizenMed.addItemEntry(<primal:salt_dust_netjry>, 5, 1, [Functions.setCount(16,
 citizenMed.addItemEntry(<mysticalworld:mud_brick>, 5, 1, [Functions.setCount(3,32)], [], "mud_brick");
 citizenMed.addItemEntry(<primal:adobe_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "adobe_brick_dry");
 citizenMed.addItemEntry(<primal:terra_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "terra_brick_dry");
+addSeeds(rareSeeds, citizenMed, 7);
+addSeeds(commonSeeds, citizenMed, 10);
 
 
 val citizenLow = LootTweaker.getTable("ancientwarfare:chests/citizen_low_value").getPool("main");
@@ -62,6 +110,7 @@ citizenLow.addItemEntry(<primal:bucket_clay>, 5, 1, [Functions.setCount(1,2)], [
 citizenLow.addItemEntry(<primal:salt_dust_netjry>, 5, 1, [Functions.setCount(16,64)], [], "salt_dust_netjry");
 citizenLow.addItemEntry(<mysticalworld:mud_brick>, 5, 1, [Functions.setCount(3,32)], [], "mud_brick");
 citizenLow.addItemEntry(<primal:terra_brick_dry>, 5, 1, [Functions.setCount(3,32)], [], "terra_brick_dry");
+addSeeds(commonSeeds, citizenLow, 8);
 
 val covenChest = LootTweaker.getTable("ancientwarfare:chests/coven").getPool("main");
 covenChest.addItemEntry(<bewitchment:adders_fork>, 3, 1, [Functions.setCount(1,3)], [], "adders_fork");
@@ -164,6 +213,8 @@ val betterFishingTreasurePool = LootTweaker.getTable("fishingmadebetter:fishing_
 betterFishingTreasurePool.addItemEntry(<primal:crude_iron_ingot>, 35, 1, [], [], "crude_iron_ingot");
 betterFishingTreasurePool.addItemEntry(<primal:shark_tooth>, 20, 1, [], [], "shark_tooth");
 betterFishingTreasurePool.addItemEntry(<infoaccessories:info_accessory:4>, 8, 1, [], [], "slime_compass");
+addSeeds(rareSeeds, betterFishingTreasurePool, 7);
+addSeeds(commonSeeds, betterFishingTreasurePool, 10);
 
 val mineshaftPool = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main");
 mineshaftPool.addItemEntry(<primal:crude_iron_ingot>, 35, 1, [Functions.setCount(2,12)], [], "crude_iron_ingot");
@@ -175,16 +226,27 @@ mineshaftPool.addItemEntry(<roots:wildroot>, 35, 1, [Functions.setCount(2,9)], [
 mineshaftPool.addItemEntry(<roots:terra_moss>, 35, 1, [Functions.setCount(2,9)], [], "terra_moss");
 mineshaftPool.addItemEntry(<minecraft:flint>, 20, 1, [Functions.setCount(2,12)], [], "flint");
 mineshaftPool.addItemEntry(<antiqueatlas:empty_antique_atlas>, 10, 1, [], [], "map");
+mineshaftPool.addItemEntry(<primal:adobe_brick_dry>, 20, 1, [Functions.setCount(5,20)], [], "adobe_brick_dry");
+addSeeds(rareSeeds, mineshaftPool, 7);
+addSeeds(commonSeeds, mineshaftPool, 10);
 
 val netherBridgePool = LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main");
 netherBridgePool.addItemEntry(<infoaccessories:info_accessory:4>, 5, 1, [], [], "slime_compass");
+netherBridgePool.addItemEntry(<minecraft:compass>, 2, 1, [], [], "compass");
+addSeeds(rareSeeds, netherBridgePool, 7);
+addSeeds(commonSeeds, netherBridgePool, 10);
 
 val dungeonPool = LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main");
 dungeonPool.addItemEntry(<infoaccessories:info_accessory:4>, 5, 1, [], [], "slime_compass");
+dungeonPool.addItemEntry(<minecraft:compass>, 20, 1, [], [], "compass");
 dungeonPool.addItemEntry(<antiqueatlas:empty_antique_atlas>, 10, 1, [], [], "map");
 dungeonPool.addItemEntry(<roots:wildroot>, 35, 1, [Functions.setCount(2,9)], [], "wildroot");
 dungeonPool.addItemEntry(<roots:terra_moss>, 35, 1, [Functions.setCount(2,9)], [], "terra_moss");
 dungeonPool.addItemEntry(<minecraft:flint>, 20, 1, [Functions.setCount(2,12)], [], "flint");
+dungeonPool.addItemEntry(<primal:adobe_brick_dry>, 20, 1, [Functions.setCount(5,20)], [], "adobe_brick_dry");
+dungeonPool.addItemEntry(<minecraft:slime_ball>, 7, 1, [Functions.setCount(1,7)], [], "slime_ball");
+addSeeds(rareSeeds, dungeonPool, 7);
+addSeeds(commonSeeds, dungeonPool, 10);
 
 val spawnBonusChestPool = LootTweaker.getTable("minecraft:chests/spawn_bonus_chest").getPool("main");
 spawnBonusChestPool.addItemEntry(<minecraft:flint>, 1, 1, [Functions.setCount(5,5)], [], "flint");
@@ -196,14 +258,19 @@ strongholdLibraryPool.addItemEntry(<antiqueatlas:empty_antique_atlas>, 10, 1, []
 strongholdLibraryPool.addItemEntry(<roots:wildroot>, 35, 1, [Functions.setCount(2,9)], [], "wildroot");
 strongholdLibraryPool.addItemEntry(<roots:terra_moss>, 35, 1, [Functions.setCount(2,9)], [], "terra_moss");
 strongholdLibraryPool.addItemEntry(<minecraft:flint>, 20, 1, [Functions.setCount(2,12)], [], "flint");
+addSeeds(rareSeeds, strongholdLibraryPool, 8);
 
 val blacksmithPool = LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("main");
 blacksmithPool.addItemEntry(<primal:crude_iron_ingot>, 20, 1, [Functions.setCount(2,12)], [], "crude_iron_ingot");
+blacksmithPool.addItemEntry(<minecraft:slime_ball>, 3, 1, [Functions.setCount(1,2)], [], "slime_ball");
 blacksmithPool.addItemEntry(<minecraft:flint>, 10, 1, [Functions.setCount(2,12)], [], "flint");
+blacksmithPool.addItemEntry(<primal:adobe_brick_dry>, 20, 1, [Functions.setCount(5,20)], [], "brick");
 
 val woodlandMansionPool = LootTweaker.getTable("minecraft:chests/woodland_mansion").getPool("main");
 woodlandMansionPool.addItemEntry(<infoaccessories:info_accessory:4>, 1, 1, [], [], "slime_compass");
+woodlandMansionPool.addItemEntry(<minecraft:compass>, 20, 1, [], [], "compass");
 woodlandMansionPool.addItemEntry(<antiqueatlas:empty_antique_atlas>, 3, 1, [], [], "map");
+addSeeds(rareSeeds, woodlandMansionPool, 7);
 
 
 val fishingJunkPool = LootTweaker.getTable("minecraft:gameplay/fishing/junk").getPool("main");
@@ -214,6 +281,7 @@ fishingJunkPool.addItemEntry(<fishingmadebetter:hook_barbed>, 1, 1, [], [], "hoo
 fishingJunkPool.addItemEntry(<fishingmadebetter:reel_long>, 1, 1, [], [], "reel_long");
 fishingJunkPool.addItemEntry(<fishingmadebetter:reel_basic>, 1, 1, [], [], "reel_basic");
 fishingJunkPool.addItemEntry(<primal:bucket_clay>, 3, 1, [], [], "bucket_clay");
+fishingJunkPool.addItemEntry(<primal:muck>, 1, 1, [], [], "muck");
 
 val fishingTreasurePool = LootTweaker.getTable("minecraft:gameplay/fishing/treasure").getPool("main");
 fishingTreasurePool.addItemEntry(<infoaccessories:info_accessory:4>, 1, 1, [], [], "slime_compass");
