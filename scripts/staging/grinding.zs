@@ -12,9 +12,8 @@ import crafttweaker.item.IItemStack;
 //output:inputs
 var components as IIngredient[][IItemStack] = {
     <primal:tannin_ground> * 2: [<ore:rootsBark>, <ore:barkWood>],
-    <roots:flour>: [<ore:listAllgrain>],
     <minecraft:dye:14> * 2: [<quark:crab_shell>],
-    <roots:flour>: [<ore:cropCcassava>,<ore:listAllgrain>],
+    <roots:flour>: [<ore:cropCassava>,<ore:listAllgrain>],
     <primal:bone_knapp:0> * 2:[<ore:bone>],
     <minecraft:dye:15> *2: [<ore:bones>,<ore:flakeBone>],
     <minecraft:sugar>:[<ore:cropBeet>,<ore:cropAgave>,<ore:cropTaro>],
@@ -39,13 +38,11 @@ for output, inputs in components {
             ingredients=ingredients|input;
         */
         Mortar.addRecipe(output.displayName, output, [input]);
-        /*
-        for oredict in input.items {
-			for item in oredict.items{
-	            mods.horsepower.Grindstone.add(output, item, 16, false);
-            }
+        
+		for item in input.items{
+	            mods.horsepower.Grindstone.add(item, output, 6, false);
         }
-        */
+        
     }
     //Mortar.addRecipe(output.displayName, output, [ingredients]);
 }
