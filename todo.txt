@@ -15,43 +15,23 @@ potential Jakob tasks:
 		
 	[ ] rock to rock 
 	[ ] stop soulstone creep
-	[ ] unify mud
-	[x] tune harvestcraft down a little
-	[ ] roots spells 
-		Augment and Geas to use fish hook instead of rod
-		Chrysosopia (remove redstone)
-		sky soarer 
-			bow
-			ladder
-		check out fey feathers - add to chickens?
-		busted fire herb
-		Extension - bunch of stuff fucked up
-		Life Drain
-		Nature's Scythe and Harvest require a hoe
-		can I adjust the loot bags?
+	roots
 		buckets should be more general
-		armor stands prehistoric
-	[ ] turn off grass regrowing
-	[ ] agave on sand
-		can I adjust the loot bags?
-		Chrysosopeia - dye to ink sac
 		dewgonia - use library lilypad
 		something wrong with the transmutation recipe
 		new glue recipe - just grind up an aquaculture fish??
-	[x] turn off grass regrowing
 	[x] agave on sand
 	food
-		[ ] replace 'cracked' egg
-		[ ] cornmeal
+		[x] replace 'cracked' egg
+		[x] look for pam's one-item recipes with tools and replace them
+		[x] make more boiled food
+		[x] oredict betterwithmods, other duplicate foods
+		[ ] milk
+		[ ] unify chocolate - i have tcomplement after all it seems
+		[ ] rediculous way to obtain the gigapickle? lol
+		[ ] swim in chocolate
 	[ ] shovel nbt
-	[ ] revisit bewitchment restrictions
-	[ ] crude iron in smelter
 	[ ] make roots knife better?
-	[ ] thaumcraft crystals nbts
-	more loot
-		bricks
-		slimeballs
-		high quality seeds
 	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
 		anchovyrawitem
@@ -65,8 +45,8 @@ potential Jakob tasks:
 		sardine
 		grimoireofgaia:coalfish
 	[ ] disable blunt force trauma
-	[ ] make turntable ancient possible
 	[ ] no curisities in amber until industrial
+		- replace with bone? fish bone? lol
 	
 more achievements
 	[ ] prehistoric achievments
@@ -154,6 +134,28 @@ x --- complete --- x
 		- add coins
 		- add gems
 	
+	roots
+		x Augment and Geas to use fish hook instead of rod
+		x Chrysosopia (remove redstone)
+		x sky soarer 
+		x check out fey feathers - add to chickens?
+		x busted fire herb
+		x Extension - bunch of stuff fucked up
+		x Life Drain
+		x Nature's Scythe and Harvest require a hoe
+		x Chrysosopeia - dye to ink sac
+	[x] revisit bewitchment restrictions
+	[x] crude iron in smelter
+	[x] thaumcraft crystals nbts
+	more loot
+		x bricks
+		x slimeballs
+		[x] high quality seeds
+	[x] make turntable ancient possible
+	[x] unify mud
+	[x] tune harvestcraft down a little
+	[x] turn off grass regrowing
+	[x] agave on sand
 	[x] grimoire of gaia loot fixes
 	[x] add centaur to press
 	[x] nerf pots - require turntable

@@ -68,24 +68,26 @@ mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, null, <liqu
 mods.tconstruct.Melting.addRecipe(<liquid:molten_soulsteel> * 1296,<betterwithmods:steel_block>, 400);
 
 //chocolate
-mods.tconstruct.Alloy.addRecipe(<liquid:molten_chocolate> * 4, [<liquid:milk> * 1, <liquid:molten_sugar> * 2, <liquid:dark_chocolate> * 3]);
-mods.tconstruct.Melting.addRecipe(<liquid:dark_chocolate> * 125, <minecraft:dye:3>, 250);
-mods.tconstruct.Melting.addRecipe(<liquid:molten_chocolate> * 125, <harvestcraft:chocolatebaritem>, 250);
-mods.tconstruct.Melting.addRecipe(<liquid:molten_chocolate> * 250, <betterwithmods:chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:chocolate>, <tconstruct:cast_custom>, <liquid:molten_chocolate>, 250);
+mods.tconstruct.Alloy.removeRecipe(<liquid:milk_chocolate>, [<liquid:milk>, <liquid:chocolate_liquor>]);
+mods.tconstruct.Alloy.addRecipe(<liquid:milk_chocolate> * 4, [<liquid:milk> * 1, <liquid:molten_sugar> * 2, <liquid:chocolate_liquor> * 3]);
 
-mods.tconstruct.Casting.addTableRecipe(<animania:chocolate_truffle>, <animania:truffle>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chilichocolateitem>, <ore:cropChilipepper>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatebaconitem>, <ore:listAllporkcooked>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatecaramelfudgeitem>, <harvestcraft:caramelitem>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatecherryitem>, <ore:cropCherry>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatedonutitem>, <ore:foodDonut>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolateorangeitem>, <ore:cropOrange>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:chocolatestrawberryitem>, <ore:cropStrawberry>, <liquid:molten_chocolate>, 250);
-mods.tconstruct.Casting.addTableRecipe(<harvestcraft:honeycombchocolatebaritem>, <ore:dropHoney>, <liquid:molten_chocolate>, 250);
+val milk_chocolate = <liquid:milk_chocolate>.definition;
+milk_chocolate.temperature = <liquid:water>.temperature;
+/*
+mods.tconstruct.Melting.addRecipe(<liquid:dark_chocolate> * 125, <minecraft:dye:3>, 250);
+*/
+mods.tconstruct.Melting.addRecipe(<liquid:milk_chocolate> * 250, <betterwithmods:chocolate>, 250);
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_sugar> * 64, <minecraft:sugar>, 350);
+
+mods.tconstruct.Melting.addRecipe(<liquid:milk> * 125, <harvestcraft:freshmilkitem>, 5);
+
+
 
 
 //crude iron
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 36,<primal:ore_cluster_bog_iron>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 144,<primal:crude_iron_ingot>, 400);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_crude_iron> * 1296,<primal:metalblock:0>, 400);
 mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_ingot>, <tconstruct:cast_custom>, <liquid:molten_crude_iron>, 144);

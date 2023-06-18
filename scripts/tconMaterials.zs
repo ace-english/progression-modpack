@@ -173,19 +173,22 @@ cold_iron.addMaterialTrait("holy", "extra");
 cold_iron.register();
 
 /*        new material - chocolate           */
-var molten_chocolate = VanillaFactory.createFluid("molten_chocolate", Color.fromHex("522700"));
-molten_chocolate.register();
-
 var molten_sugar = VanillaFactory.createFluid("molten_sugar", Color.fromHex("E2D0CA"));
 molten_sugar.register();
 
+/*
+var molten_chocolate = VanillaFactory.createFluid("molten_chocolate", Color.fromHex("522700"));
+molten_chocolate.register();
+
+
 var dark_chocolate = VanillaFactory.createFluid("dark_chocolate", Color.fromHex("261505"));
 dark_chocolate.register();
+*/
 
 val chocolate = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("chocolate");
 chocolate.localizedName = "Chocolate";
 chocolate.color = 0x522700;
-chocolate.liquid = <liquid:molten_chocolate>;
+chocolate.liquid = <liquid:milk_chocolate>;
 chocolate.castable = true;
 chocolate.craftable = false;
 chocolate.representativeItem = <item:betterwithmods:chocolate>;
@@ -252,16 +255,16 @@ crude_iron.liquid = <liquid:molten_crude_iron>;
 crude_iron.castable = true;
 crude_iron.craftable = false;
 crude_iron.representativeItem = <item:primal:crude_iron_ingot>;
-crude_iron.addCoreMaterialStats(8,10);
-crude_iron.addPlatesMaterialStats(1, 3, 0);
-crude_iron.addTrimMaterialStats(1);
+crude_iron.addCoreMaterialStats(10,14);
+crude_iron.addPlatesMaterialStats(1, 3, 1);
+crude_iron.addTrimMaterialStats(2);
 crude_iron.addHeadMaterialStats(100, 3, 3, 2);
 crude_iron.addHandleMaterialStats(0.75, 60);
 crude_iron.addExtraMaterialStats(40);
 crude_iron.addProjectileMaterialStats();
-crude_iron.addMaterialTrait("cheapskate_armor", "core");
+crude_iron.addMaterialTrait("mundane1_armor", "core");
 crude_iron.addMaterialTrait("heavy_armor", "plates");
-crude_iron.addMaterialTrait("cheapskate_armor", "trim");
+crude_iron.addMaterialTrait("mundane1_armor", "trim");
 crude_iron.addMaterialTrait("crude2", "projectile");
 crude_iron.addMaterialTrait("crude2", "head");
 crude_iron.addMaterialTrait("crude1", "handle");

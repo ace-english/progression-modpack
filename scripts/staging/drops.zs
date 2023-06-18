@@ -72,7 +72,7 @@ Dropt.list("grass")
   )
     .add(Dropt.rule()
       .matchBlocks(grasses)
-      //.replaceStrategy("ADD")
+      .replaceStrategy("ADD")
       .matchHarvester(Dropt.harvester()
         .gameStages("WHITELIST", "ALL", ["medieval"])
       )
@@ -208,23 +208,36 @@ Dropt.list("roots_bark_wild").add(Dropt.rule().matchHarvester(Dropt.harvester().
 ));
 
 
-
+/*
 Dropt.list("early_thaum_crystals")
   .add(Dropt.rule()
       .replaceStrategy("REPLACE_ITEMS")
       .matchBlocks([
-        "thaumcraft:crystal_aqua",
-        "thaumcraft:crystal_ignis",
-        "thaumcraft:crystal_aer",
-        "thaumcraft:crystal_terra",
-        "thaumcraft:crystal_ordo",
-        "thaumcraft:crystal_perditio",
-        "thaumcraft:crystal_vitium"])
+        "thaumcraft:crystal_aqua:*",
+        "thaumcraft:crystal_ignis:*",
+        "thaumcraft:crystal_aer:*",
+        "thaumcraft:crystal_terra:*",
+        "thaumcraft:crystal_ordo:*",
+        "thaumcraft:crystal_perditio:*",
+        "thaumcraft:crystal_vitium:*"])
       .matchHarvester(Dropt.harvester()
         .gameStages("BLACKLIST", "ALL", ["industrial"])
       )
       .addDrop(Dropt.drop()
           .items([<thaumcraft:nugget:9>])
+      )
+  );
+  */
+
+Dropt.list("early_thaum_crystals")
+  .add(Dropt.rule()
+      .matchDrops([<thaumcraft:crystal_essence>])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["industrial"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<thaumcraft:nugget:9>])
+          .matchQuantity([<thaumcraft:crystal_essence>])
       )
   );
 
