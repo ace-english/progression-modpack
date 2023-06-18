@@ -23,12 +23,13 @@ potential Jakob tasks:
 	[x] agave on sand
 	food
 		[x] replace 'cracked' egg
-		[ ] look for pam's one-item recipes with tools and replace them
-		[ ] make more boiled food?
-		[ ] primal corn - other primal food that needs to be removed?
-		[ ] oredict all the betterwithmods?
-		[ ] more stuff to do with generic fruits and veggies?
-		milk
+		[x] look for pam's one-item recipes with tools and replace them
+		[x] make more boiled food
+		[x] oredict betterwithmods, other duplicate foods
+		[ ] milk
+		[ ] unify chocolate - i have tcomplement after all it seems
+		[ ] rediculous way to obtain the gigapickle? lol
+		[ ] swim in chocolate
 	[ ] shovel nbt
 	[ ] make roots knife better?
 	[ ] add recipes for rustic silver furniture
