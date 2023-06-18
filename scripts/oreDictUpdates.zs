@@ -330,8 +330,8 @@ for bark in <ore:rootsBark>.items{
 <ore:barkOak>.add(<roots:bark_oak>);
 
 //lava bucket
-<ore:itemLavaBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}));
-<ore:itemLavaBucket>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}));
+//<ore:itemLavaBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}));
+//<ore:itemLavaBucket>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}));
 //sapling
 <ore:treeSapling>.add(<dynamictreesbop:persimmonseed>);
 <ore:treeSapling>.add(<dynamictreesbop:poplarseed>);
