@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+#priority 3000
 
 /*
 mods.ItemStages.removeItemStage(<projectred-core:resource_item:100>);//copper
@@ -80,6 +81,7 @@ recipes.removeByRecipeName("aquaculture:bonemeal_from_fish_bones");
 
 
 recipes.removeByRecipeName("minecraft:fishing_rod");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 
 //mods.ItemStages.removeItemStage(<mekanism:ingot:4>);//steel
@@ -246,7 +248,7 @@ var disabledIngredients as IIngredient[] = [
 	<bibliocraft:testeritem>,
 	<chisel:chisel_diamond>,
 	<chisel:chisel_hitech>,
-	<animania:carving_knife>,
+	//<animania:carving_knife>,
 	<malisisdoors:trapdoor_acacia>,
 	<malisisdoors:trapdoor_birch>,
 	<malisisdoors:trapdoor_dark_oak>,
@@ -464,7 +466,7 @@ var disabledIngredients as IIngredient[] = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_leggings>,
-	<tcomplement:materials>,
+	//<tcomplement:materials>,
 	<tcomplement:steel_boots>,
 	<tcomplement:steel_chestplate>,
 	<tcomplement:steel_helmet>,
@@ -773,7 +775,40 @@ var disabledIngredients as IIngredient[] = [
 	<harvestcraft:lycheeteaitem>,
 	<harvestcraft:sweetteaitem>,
 	<harvestcraft:seaweeditem>,
-	<harvestcraft:teaitem>
+	<harvestcraft:teaitem>,
+	<betterwithmods:cooked_egg>,
+    <betterwithmods:raw_egg>,
+    <betterwithmods:raw_pastry:3>,
+	<primal:corn_ground>,
+	<primal:corn_cob>,
+	<primal:corn_stalk>,
+	<primal:corn_stalk_dry>,
+	<primal:corn_seeds>,
+	<primal:corn_ground>,
+	<harvestcraft:cornbreaditem>,
+	<harvestcraft:flouritem>,
+	<animania:plain_omelette>,
+	<harvestcraft:scrambledeggitem>,
+	<harvestcraft:grilledeggplantitem>,
+	<primal:egg_boiled>,
+	<primal:wheat_ground>,
+	<betterwithmods:material:44>,
+	<harvestcraft:chocolatebaritem>,
+	<harvestcraft:hotcocoaitem>,
+	<betterwithmods:kibble>,
+	<betterwithmods:wolf_chop>,
+	<betterwithmods:cooked_wolf_chop>,
+	<tcomplement:edibles:10>,
+	<tconstruct:edible:0>,
+
+	//salt
+	<immersivetech:material:0>,
+	<animania:salt>,
+
+	//mud
+	<biomesoplenty:mudball>,
+	<biomesoplenty:mud_brick>,
+	<tconstruct:materials:1>
 	];
 	
 val allEntries = oreDict.entries;
@@ -791,6 +826,8 @@ for entry in disabledIngredients{
 	//remove all recipes
 	recipes.removeByInput(entry);
 	recipes.remove(entry);
+	furnace.remove(entry);
+
 
 	//get string
 	/*

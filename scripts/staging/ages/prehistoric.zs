@@ -77,37 +77,7 @@ import mods.horsepower.Recipes;
     recipes.removeByRecipeName("primal:ore_salt_netjry");
     recipes.removeByRecipeName("primal:sand_2");
 
-    <ore:dyeRed>.remove(<rustic:wildberries>);
-    <ore:dyeLightGray>.remove(<rustic:ironberries>);
-    <ore:dyePurple>.remove(<rustic:grapes>);
-    mods.horsepower.Grindstone.add(<minecraft:clay:0>, <minecraft:clay_ball:0> * 4, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:double_plant:0>, <ore:dyeYellow>.firstItem, 16, false);
-    mods.horsepower.Grindstone.add(<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:sandstone:0>, <minecraft:sand:0> * 4, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:red_sandstone:0>, <minecraft:sand:1> * 4, 16, false);
-    mods.horsepower.Grindstone.add(<biomesoplenty:white_sandstone>, <biomesoplenty:white_sand> * 4, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:dye:3>, <betterwithmods:material:44>, 16, false);
-    mods.horsepower.Grindstone.add(<ore:barkWood>, <primal:tannin_ground:0> * 2, 16, false);
-    mods.horsepower.Grindstone.add(<primal_tech:charcoal_block>,<primal:charcoal_fair> * 9, 16, false);
-    mods.horsepower.Grindstone.add(<mekanism:basicblock:3>, <minecraft:coal:1> * 9, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:coal_block:0>, <minecraft:coal:0> * 9, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:bone_block:0>, <minecraft:dye:15> * 9, 16, false);
-    mods.horsepower.Grindstone.add(<rustic:wildberries>, <minecraft:dye:1>*2, 16, false);
-    mods.horsepower.Grindstone.add(<rustic:ironberries>, <minecraft:dye:7>*2, 16, false);
-    mods.horsepower.Grindstone.add(<rustic:grapes>, <minecraft:dye:5>*2, 16, false);
-    mods.horsepower.Grindstone.add(<minecraft:bone:0>, <primal:bone_knapp:0> * 2, 16, false);
-    mods.horsepower.Grindstone.add(<primal:bone_point>, <minecraft:dye:15>, 16, false);
-    mods.horsepower.Grindstone.add(<primal:shark_tooth:0>, <minecraft:dye:15> * 2, 16, false);
-    mods.horsepower.Grindstone.add(<quark:crab_shell>, <minecraft:dye:14> * 2, 16, false);
-    
-    mods.horsepower.Grindstone.add(<harvestcraft:oatsitem>, <roots:flour>, 16, false);
-    mods.horsepower.Grindstone.add(<harvestcraft:ryeitem>, <roots:flour>, 16, false);
-    mods.horsepower.Grindstone.add(<harvestcraft:amaranthitem>, <roots:flour>, 16, false);
-    mods.horsepower.Grindstone.add(<harvestcraft:quinoaitem>, <roots:flour>, 16, false);
-    
-    mods.horsepower.Grindstone.add(<harvestcraft:agaveitem>, <minecraft:sugar>, 16, false);
-    mods.horsepower.Grindstone.add(<harvestcraft:taroitem>, <minecraft:sugar>, 16, false);
-    mods.horsepower.Grindstone.add(<harvestcraft:beetitem>, <minecraft:sugar>, 16, false);
+
 
 
 

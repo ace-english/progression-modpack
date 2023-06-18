@@ -572,12 +572,16 @@ recipes.addShapeless(<harvestcraft:cuttingboarditem>, [<animania:carving_knife>,
 
 recipes.remove(<harvestcraft:potitem>);
 recipes.addShaped(<harvestcraft:potitem>, [
+    [<ore:stickWood>,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>],
+    [null,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>]
+]);
+recipes.addShaped(<harvestcraft:potitem>, [
     [<ore:stickWood>,<ore:ingotIron>,<ore:ingotIron>],
     [null,<ore:ingotIron>,<ore:ingotIron>]
 ]);
 recipes.addShaped(<harvestcraft:potitem>, [
-    [<ore:stickWood>,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>],
-    [null,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>]
+    [<ore:stickWood>,<ore:ingotCopper>,<ore:ingotCopper>],
+    [null,<ore:ingotCopper>,<ore:ingotCopper>]
 ]);
 
 
@@ -590,6 +594,11 @@ recipes.addShaped(<harvestcraft:skilletitem>, [
 recipes.addShaped(<harvestcraft:skilletitem>, [
     [null,<ore:ingotIron>,<ore:ingotIron>],
     [null,<ore:ingotIron>,<ore:ingotIron>],
+    [<ore:stickWood>,null,null],
+]);
+recipes.addShaped(<harvestcraft:skilletitem>, [
+    [null,<ore:ingotCopper>,<ore:ingotCopper>],
+    [null,<ore:ingotCopper>,<ore:ingotCopper>],
     [<ore:stickWood>,null,null],
 ]);
 
@@ -605,6 +614,29 @@ recipes.addShaped(<harvestcraft:saucepanitem>, [
     [<ore:ingotIron>,<ore:ingotIron>,null],
     [<ore:ingotIron>,<ore:ingotIron>,null]
 ]);
+recipes.addShaped(<harvestcraft:saucepanitem>, [
+    [null,null,<ore:stickWood>],
+    [<ore:ingotCopper>,<ore:ingotCopper>,null],
+    [<ore:ingotCopper>,<ore:ingotCopper>,null]
+]);
+
+
+recipes.remove(<animania:carving_knife>);
+recipes.addShaped(<animania:carving_knife>, [
+    [<ore:ingotCrudeIron>,<ore:ingotCrudeIron>,null],
+    [<ore:stickWood>, null, null]
+]);
+recipes.addShaped(<animania:carving_knife>, [
+    [<ore:ingotIron>,<ore:ingotIron>,null],
+    [<ore:stickWood>, null, null]
+]);
+recipes.addShaped(<animania:carving_knife>, [
+    [<ore:ingotCopper>,<ore:ingotCopper>,null],
+    [<ore:stickWood>, null, null]
+]);
+
+
+
 
 
 /*********************************************

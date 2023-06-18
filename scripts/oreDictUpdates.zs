@@ -292,6 +292,7 @@ woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
 
 //water
+/*
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}));
@@ -300,6 +301,7 @@ woodAsh.add(<biomesoplenty:ash>);
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
+*/
 
 //shields
 <ore:shield>.add(<ancientwarfarenpc:shield_round_1>);
@@ -328,8 +330,8 @@ for bark in <ore:rootsBark>.items{
 <ore:barkOak>.add(<roots:bark_oak>);
 
 //lava bucket
-<ore:itemLavaBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}));
-<ore:itemLavaBucket>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}));
+//<ore:itemLavaBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}));
+//<ore:itemLavaBucket>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}));
 //sapling
 <ore:treeSapling>.add(<dynamictreesbop:persimmonseed>);
 <ore:treeSapling>.add(<dynamictreesbop:poplarseed>);
@@ -339,7 +341,6 @@ for bark in <ore:rootsBark>.items{
 <ore:treeSapling>.add(<dynamictreesforestry:darkoakseed>);
 <ore:treeSapling>.add(<dynamictreesphc:passionfruitseed>);
 <ore:treeSapling>.add(<dynamictreesphc:passionfruit_vine>);
-<ore:treeSapling>.add(<dynamictreesphc:peppercornripeitem>);
 <ore:treeSapling>.add(<dynamictreesforestry:acaciaseed>);
 <ore:treeSapling>.add(<dynamictreesforestry:balsabranch>);
 <ore:treeSapling>.add(<dynamictreesforestry:balsaseed>);

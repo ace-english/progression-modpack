@@ -154,6 +154,7 @@ mods.primal.Cauldron.addRecipe(
     [<ore:tallow>,<betterwithmods:material:16>*4], 
     [<betterwithmods:material:29>*2]
 );
+/*
 
 mods.primal.Cauldron.addRecipe(
     "glue", 
@@ -162,7 +163,6 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
     [<betterwithmods:material:12>*1]
 );
-/*
 
 mods.primal.Cauldron.addRecipe(
     "salt", 
