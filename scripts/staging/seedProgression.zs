@@ -18,7 +18,8 @@ recipes.addShaped(<mysticalworld:assorted_seeds>*4,[
 recipes.addShapeless(<harvestcraft:seaweeditem>, [<aquaculture:food:0>]);
 
 recipes.removeByRecipeName("harvestcraft:string_cropcotton");
-recipes.addShapeless(<minecraft:string>, [<harvestcraft:cottonitem>]);
+recipes.removeByRecipeName("harvestcraft:cottonitem");
+recipes.addShapeless(<minecraft:string>*3, [<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>]);
 /*
 recipes.addShapeless(<mysticalworld:assorted_seeds>
 
