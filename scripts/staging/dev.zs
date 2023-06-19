@@ -5,7 +5,6 @@ mods.jmapstages.JMapStages.setDeathpointStage("exploration");
 mods.jmapstages.JMapStages.setMinimapStage("exploration");
 mods.ItemStages.addItemStage("dev", <ancientwarfareautomation:worksite_upgrade:4> );
 mods.ItemStages.addItemStage("dev", <ancientwarfareautomation:worksite_upgrade:5> );
-mods.ItemStages.addItemStage("dev", <ancientwarfarenpc:wooden_shield> );
 mods.ItemStages.addItemStage("dev", <ancientwarfarestructure:brazier_ember>.withTag({lit: 0 as byte}) );
 mods.ItemStages.addItemStage("dev", <ancientwarfarestructure:brazier_flame>.withTag({lit: 0 as byte}) );
 mods.ItemStages.addItemStage("dev", <ancientwarfarestructure:fire_pit>.withTag({lit: 0 as byte, variant: "default"}) );
