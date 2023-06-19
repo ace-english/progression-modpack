@@ -53,10 +53,20 @@ recipes.addShaped(<armorunder:cool_liner_material>, [
 ]);
 
 recipes.addShaped(<armorunder:cool_liner_material>, [
+    [<harvestcraft:sisalitem>, <harvestcraft:sisalitem>, <harvestcraft:sisalitem>],
+    [null, <harvestcraft:sisalitem>, null],
+    [<harvestcraft:sisalitem>, <harvestcraft:sisalitem>, <harvestcraft:sisalitem>]
+]);
+
+
+
+/*
+recipes.addShaped(<armorunder:cool_liner_material>, [
     [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>],
     [null, <harvestcraft:wovencottonitem>, null],
     [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>]
 ]);
+*/
 
 //primal shear recipe
 recipes.addShapedMirrored(<armorunder:liner_snips>, [
