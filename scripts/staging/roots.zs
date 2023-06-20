@@ -77,6 +77,7 @@ Mortar.changeSpell("spell_fey_light", [
 
 
 Chrysopoeia.addRecipe("squid_ink", <ore:dyeBlack>*2, <minecraft:dye:0>);
+Chrysopoeia.addRecipe("gigapickle", <harvestcraft:cucumberitem>*64, <harvestcraft:gigapickleitem>);
 
 
 Fey.removeRecipe(<roots:terrastone_axe>);

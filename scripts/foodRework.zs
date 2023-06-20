@@ -75,7 +75,7 @@ mods.primal.Cauldron.addRecipe(
 //vinegar
 //I sure would prefer some kind of fermentation. put it in a barrel and wait. anti-drying rack
 recipes.removeByRecipeName("harvestcraft:vinegaritem");
-recipes.addShapeless(<harvestcraft:vinegaritem>, [<harvestcraft:potitem>, <ore:listAlljuice>]);
+recipes.addShapeless(<harvestcraft:vinegaritem>, [<harvestcraft:potitem>.reuse(), <ore:listAlljuice>]);
 
 //raisins
 recipes.removeByRecipeName("harvestcraft:raisinsitem");
@@ -114,9 +114,36 @@ recipes.removeByRecipeName("harvestcraft:vanillaitem");
 furnace.addRecipe(<harvestcraft:vanillaitem>,<harvestcraft:vanillabeanitem>);
 
 //pasta
-recipes.removeByRecipeName(<harvestcraft:pastaitem>);
+recipes.remove(<harvestcraft:pastaitem>);
 recipes.addShapeless(<harvestcraft:pastaitem>*5, [<harvestcraft:doughitem>, <ore:listAllegg>]);
 
+//generic fruit recipes
+recipes.remove(<harvestcraft:papayajellyitem>);
+recipes.addShapeless(<harvestcraft:papayajellyitem>, [<harvestcraft:saucepanitem>.reuse(), <ore:listAllfruit>|<ore:listAllberry>, <ore:listAllsugar>]);
+<harvestcraft:papayajellyitem>.displayName ="Fruit Jelly";
+<harvestcraft:papayajellysandwichitem>.displayName ="Jelly Sandwich";
+
+recipes.remove(<harvestcraft:raspberrypieitem>);
+<harvestcraft:raspberrypieitem>.displayName ="Redberry Pie";
+recipes.addShapeless(<harvestcraft:raspberrypieitem>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <ore:listAllsugar>,
+    <biomesoplenty:berries>|<harvestcraft:raspberryitem>|<harvestcraft:cranberryitem>|<harvestcraft:mulberryitem>|<rustic:wildberries>
+]);
+
+//pies
+<harvestcraft:meatpieitem>.displayName ="Steak Pie";
+
+recipes.remove(<harvestcraft:applepieitem>);
+<harvestcraft:applepieitem>.displayName ="Meat Pie";
+recipes.addShapeless(<harvestcraft:applepieitem>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <harvestcraft:gravyitem>, <ore:listAllmeatraw>, <ore:listAllveggie>, <ore:cropPotato>]);
+
+recipes.remove(<grimoireofgaia:food_pie_meat>);
+recipes.addShapeless(<grimoireofgaia:food_pie_meat>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <harvestcraft:gravyitem>, <fishingmadebetter:fish_slice_raw>, <ore:listAllveggie>, <ore:cropPotato>]);
+
+
+
+//dandelion salad
+recipes.remove(<harvestcraft:dandelionsaladitem>);
+recipes.addShapeless(<harvestcraft:dandelionsaladitem>, [<harvestcraft:mixingbowlitem>.reuse(), <ore:listAllgreenveggie>, <minecraft:yellow_flower:0>, <minecraft:yellow_flower:0>]);
 
 
 //chocolate
@@ -160,7 +187,11 @@ recipes.addShapeless(<betterwithmods:tasty_sandwich>, [<ore:bread>, <ore:listAll
 
 //donut
 recipes.removeByRecipeName("harvestcraft:donutitem");
-recipes.addShapeless(<betterwithmods:donut>, [<harvestcraft:potitem>, <harvestcraft:doughitem>, <harvestcraft:oliveoilitem>]);
+recipes.addShapeless(<betterwithmods:donut>, [<harvestcraft:potitem>.reuse(), <harvestcraft:doughitem>, <harvestcraft:oliveoilitem>]);
+
+//juice
+recipes.removeByRecipeName("harvestcraft:fruitpunchitem");
+recipes.addShapeless(<harvestcraft:fruitpunchitem>, [<harvestcraft:juiceritem>.reuse(), <ore:listAllfruit>|<ore:listAllberry>, <ore:listAllsugar>]);
 
 <ore:jelly>.add(<harvestcraft:royaljellyitem>);
 <ore:jelly>.add(<harvestcraft:applejellyitem>);

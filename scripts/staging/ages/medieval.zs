@@ -22,11 +22,11 @@ mods.ItemStages.removeItemStage(<bewitchment:silver_ore>);
 
 var medievalIngredients as IIngredient[] = [
     <ancientwarfareautomation:worksite_upgrade:6>,
-<ancientwarfarenpc:bard_instrument:*>,
+<ancientwarfarenpc:bard_instrument>,
 <ancientwarfarenpc:diamond_shield:*>,
 <ancientwarfarenpc:gold_shield:*>,
 <ancientwarfarenpc:iron_cleaver:*>,
-<ancientwarfarenpc:iron_command_baton:*>,
+<ancientwarfarenpc:iron_command_baton>,
 <ancientwarfarenpc:iron_halberd:*>,
 <ancientwarfarenpc:iron_lance:*>,
 <ancientwarfarenpc:iron_shield:*>,

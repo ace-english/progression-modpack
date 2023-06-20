@@ -68,8 +68,9 @@ mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, null, <liqu
 mods.tconstruct.Melting.addRecipe(<liquid:molten_soulsteel> * 1296,<betterwithmods:steel_block>, 400);
 
 //chocolate
-mods.tconstruct.Alloy.removeRecipe(<liquid:milk_chocolate>, [<liquid:milk>, <liquid:chocolate_liquor>]);
-mods.tconstruct.Alloy.addRecipe(<liquid:milk_chocolate> * 4, [<liquid:milk> * 1, <liquid:molten_sugar> * 2, <liquid:chocolate_liquor> * 3]);
+//mods.tconstruct.Alloy.removeRecipe(<liquid:milk_chocolate>, [<liquid:chocolate_liquor>, <liquid:milk>]);
+mods.tconstruct.Alloy.removeRecipe(<liquid:milk_chocolate>);
+mods.tconstruct.Alloy.addRecipe(<liquid:milk_chocolate> * 6, [<liquid:milk> * 1, <liquid:molten_sugar> * 2, <liquid:chocolate_liquor> * 3]);
 
 val milk_chocolate = <liquid:milk_chocolate>.definition;
 milk_chocolate.temperature = <liquid:water>.temperature;
