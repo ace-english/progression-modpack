@@ -121,6 +121,10 @@ Pyre.removeRecipe(<roots:pereskia>);
 Pyre.addRecipe("pereskia", <roots:pereskia>*3,
     [<roots:wildroot>,<roots:petals>, <ore:listAllveggie>, <ore:gemAmber>, <minecraft:reeds>]);
 
+Pyre.removeRecipe(<roots:dewgonia>);
+Pyre.addRecipe("dewgonia", <roots:dewgonia>*3,
+    [<ore:tallgrass>,<minecraft:sugar>, <ore:dyeBlue>, <roots:terra_moss>, <ore:lilypad>]);
+
 Pyre.removeRecipe(<roots:stalicripe>);
 Pyre.addRecipe("stalicripe", <roots:stalicripe>*3,
     [<minecraft:flint>,<minecraft:stone>, <ore:listAllveggie>, <ore:gemAmber>, <minecraft:reeds>]);
@@ -138,7 +142,7 @@ Rituals.modifyRitual("ritual_divine_protection", [
 ]);
 
 Rituals.modifyRitual("ritual_transmutation", [
-    <ore:smelter>, <minecraft:gravel>, <roots:cloud_berry>, <ore:bark_oak>, <roots:chiseled_runestone>
+    <ore:smelter>, <minecraft:gravel>, <roots:cloud_berry>, <roots:bark_oak>, <roots:chiseled_runestone>
 ]);
 
 Rituals.modifyRitual("ritual_gathering", [

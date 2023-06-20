@@ -15,33 +15,12 @@ potential Jakob tasks:
 		
 	[ ] stop soulstone creep
 	roots
-		buckets should be more general
-		dewgonia - use library lilypad
-		something wrong with the transmutation recipe
-		new glue recipe - just grind up an aquaculture fish??
-	[x] agave on sand
-	[x] remove wood sheild from dev (???)
-	[ ] add ovis atre to shears
-	[x] sisal to cool liner
+		buckets should be more general?
+		[x] dewgonia - use library lilypad
+		[x] something wrong with the transmutation recipe
 	[ ] sisal on sand or dirt
-	[x] berry juice
-	[x] fix cotton recipe
-	food
-		[x] add redberry pie (overwrite raspberry pie with any red berries)
-		[x] gooseberry pie -> fruit pie
-		[x] make fish pie make sense
-		[x] dandelion salad - use dandelion instead of yellow dye
-		[x] papaya jelly -> generic jelly?
-		[x] replace 'cracked' egg
-		[x] look for pam's one-item recipes with tools and replace them
-		[x] make more boiled food
-		[x] oredict betterwithmods, other duplicate foods
-		[x] milk
-		[x] unify chocolate - i have tcomplement after all it seems
-		[x] rediculous way to obtain the gigapickle? lol
-			- chryso + 64 cucmbers lol
+	[ ] add ovis atre to shears
 	[ ] swim in chocolate?
-	[x] shovel nbt
 	[ ] make roots knife better?
 	[ ] harvestcraft fish file
 	https://web.archive.org/web/20220813191537/https://www.purdue.edu/hhs/nutr/fish4health/mobile/list.html
@@ -156,6 +135,26 @@ x --- complete --- x
 		x Life Drain
 		x Nature's Scythe and Harvest require a hoe
 		x Chrysosopeia - dye to ink sac
+	[x] agave on sand
+	[x] remove wood sheild from dev (???)
+	[x] sisal to cool liner
+	[x] berry juice
+	[x] fix cotton recipe
+	[x] shovel nbt
+	food
+		[x] add redberry pie (overwrite raspberry pie with any red berries)
+		[x] gooseberry pie -> fruit pie
+		[x] make fish pie make sense
+		[x] dandelion salad - use dandelion instead of yellow dye
+		[x] papaya jelly -> generic jelly?
+		[x] replace 'cracked' egg
+		[x] look for pam's one-item recipes with tools and replace them
+		[x] make more boiled food
+		[x] oredict betterwithmods, other duplicate foods
+		[x] milk
+		[x] unify chocolate - i have tcomplement after all it seems
+		[x] rediculous way to obtain the gigapickle? lol
+			- chryso + 64 cucmbers lol
 	[x] revisit bewitchment restrictions
 	[x] crude iron in smelter
 	[x] thaumcraft crystals nbts
