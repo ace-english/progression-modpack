@@ -13,7 +13,6 @@ potential Jakob tasks:
 		- industrial whatevers
 		
 		
-	[ ] rock to rock 
 	[ ] stop soulstone creep
 	roots
 		buckets should be more general
@@ -21,19 +20,31 @@ potential Jakob tasks:
 		something wrong with the transmutation recipe
 		new glue recipe - just grind up an aquaculture fish??
 	[x] agave on sand
+	[x] remove wood sheild from dev (???)
+	[ ] add ovis atre to shears
+	[x] sisal to cool liner
+	[ ] sisal on sand or dirt
+	[x] berry juice
+	[x] fix cotton recipe
 	food
+		[x] add redberry pie (overwrite raspberry pie with any red berries)
+		[x] gooseberry pie -> fruit pie
+		[x] make fish pie make sense
+		[x] dandelion salad - use dandelion instead of yellow dye
+		[x] papaya jelly -> generic jelly?
 		[x] replace 'cracked' egg
 		[x] look for pam's one-item recipes with tools and replace them
 		[x] make more boiled food
 		[x] oredict betterwithmods, other duplicate foods
-		[ ] milk
-		[ ] unify chocolate - i have tcomplement after all it seems
-		[ ] rediculous way to obtain the gigapickle? lol
-		[ ] swim in chocolate
-	[ ] shovel nbt
+		[x] milk
+		[x] unify chocolate - i have tcomplement after all it seems
+		[x] rediculous way to obtain the gigapickle? lol
+			- chryso + 64 cucmbers lol
+	[ ] swim in chocolate?
+	[x] shovel nbt
 	[ ] make roots knife better?
-	[ ] add recipes for rustic silver furniture
 	[ ] harvestcraft fish file
+	https://web.archive.org/web/20220813191537/https://www.purdue.edu/hhs/nutr/fish4health/mobile/list.html
 		anchovyrawitem
 		charr
 		crayfish
@@ -49,6 +60,7 @@ potential Jakob tasks:
 		- replace with bone? fish bone? lol
 	
 more achievements
+	[ ] obsidian
 	[ ] prehistoric achievments
 		[ ] war dance achievement
 		[ ] summon villager achievement
