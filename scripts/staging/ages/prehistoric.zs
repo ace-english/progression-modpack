@@ -144,9 +144,11 @@ recipes.addShaped(<openblocks:beartrap>, [
 
 
 //early chests
+/*
 mods.recipestages.Recipes.setRecipeStage("medieval", <minecraft:chest>);
 mods.recipestages.Recipes.setRecipeStage("medieval", <quark:custom_chest:*>);
 mods.recipestages.Recipes.setRecipeStage("medieval", <slabmachines:chest_slab>);
+*/
 
 recipes.addShaped(<immcraft:chest>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],

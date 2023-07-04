@@ -2770,7 +2770,7 @@ var medievalIngredients as IIngredient[] = [
 
 for entry in medievalIngredients{
     mods.ItemStages.addItemStage("medieval", entry);
-    mods.recipestages.Recipes.setRecipeStage("medieval", entry);
+    //mods.recipestages.Recipes.setRecipeStage("medieval", entry);
 }
 
 //add sailcloth

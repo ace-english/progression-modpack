@@ -1,5 +1,8 @@
 Restores your last grave:
-/tmg_restore @p latest
+/tmg_restore PLAYERNAME latest
+
+Add stage:
+/gamestage add PLAYERNAME STAGENAME
 
 
 /summon villager ~ ~1 ~ {Profession:12,Career:1}
