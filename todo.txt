@@ -25,6 +25,7 @@ potential Jakob tasks:
 	[ ] coal chain
 	[ ] loot table wrong silver?
 	[x] iron bars medieval
+	[ ] fix grapes
 	[ ] cooking table
 	[ ] missing recipes
 		[x] chests
