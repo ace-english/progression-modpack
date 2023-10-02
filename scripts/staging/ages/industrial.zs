@@ -655,7 +655,6 @@ var industrialIngredients as IIngredient[] = [
     <minecraft:heavy_weighted_pressure_plate>,
     <minecraft:hopper>,
     <minecraft:hopper_minecart>,
-    <minecraft:iron_bars>,
     <minecraft:lever>,
     <minecraft:light_blue_shulker_box>,
     <minecraft:light_weighted_pressure_plate>,
