@@ -120,7 +120,7 @@ covenChest.addItemEntry(<bewitchment:garnet>, 1, 1, [Functions.setCount(1,5)], [
 covenChest.addItemEntry(<bewitchment:opal>, 1, 1, [Functions.setCount(1,5)], [], "opal");
 covenChest.addItemEntry(<bewitchment:ritual_chalk>, 3, 1, [Functions.setCount(1,1)], [], "ritual_chalk");
 covenChest.addItemEntry(<bewitchment:cold_iron_ingot>, 3, 1, [Functions.setCount(2,6)], [], "cold_iron_ingot");
-covenChest.addItemEntry(<bewitchment:silver_ingot>, 3, 1, [Functions.setCount(2,6)], [], "silver_ingot");
+covenChest.addItemEntry(<immersiveengineering:metal:3>, 3, 1, [Functions.setCount(2,6)], [], "silver_ingot");
 covenChest.addItemEntry(<bewitchment:garlic_grilled>, 3, 1, [Functions.setCount(1,3)], [], "garlic_grilled");
 covenChest.addItemEntry(<bewitchment:cypressseed>, 3, 1, [Functions.setCount(1,3)], [], "cypressseed");
 covenChest.addItemEntry(<bewitchment:dragonsbloodseed>, 3, 1, [Functions.setCount(1,1)], [], "dragonsbloodseed");
