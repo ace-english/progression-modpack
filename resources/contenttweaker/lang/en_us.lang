@@ -6,5 +6,6 @@ fluid.chocolate_liquor=Dark Chocolate
 fluid.milk_chocolate=Melted Chocolate
 fluid.molten_cold_iron=Liquid Cold Iron
 fluid.molten_crude_iron=Molten Crude Iron
+fluid.molten_carbon=Molten Carbon
 entity.Villager.moneychanger=Moneychanger
 entity.Villager.jeweler=Jeweler
