@@ -243,6 +243,9 @@ soulsteel.addMaterialTrait("heavy", "handle");
 soulsteel.addMaterialTrait("heavy", "extra");
 soulsteel.register();
 
+/*        new material - molten_carbon          */
+var molten_carbon = VanillaFactory.createFluid("molten_carbon", Color.fromHex("353535"));
+molten_carbon.register();
 
 /*        new material - crude_iron          */
 var molten_crude_iron = VanillaFactory.createFluid("molten_crude_iron", Color.fromHex("473f39"));

@@ -160,8 +160,9 @@ mods.tconstruct.Casting.addBasinRecipe(<mekanism:basicblock:5>, null, <liquid:st
 mods.tconstruct.Casting.removeTableRecipe(<mekanism:ingot:4>);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:8>, <tconstruct:cast_custom>, <liquid:steel>, 144); //ingot
 <ore:ingotSsteel>.add(<immersiveengineering:metal:8>);
+mods.chisel.Carving.addVariation("blockSteel", <primal:metalblock:1>);
 recipes.removeByRecipeName("tcomplement:steelworks/steel_block");
-recipes.removeByRecipeName("mekanism:basicblock:5");
+recipes.removeByRecipeName("mekanism:basicblock_5");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_slab_back");
 
