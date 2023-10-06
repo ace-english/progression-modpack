@@ -244,7 +244,6 @@ var industrialIngredients as IIngredient[] = [
     <betterwithmods:material:29>,
     <betterwithmods:mining_charge>,
     <betterwithmods:moulding_iron>,
-    <betterwithmods:saw>,
     <betterwithmods:siding_iron>,
     <betterwithmods:slats>,
     <betterwithmods:slats:1>,

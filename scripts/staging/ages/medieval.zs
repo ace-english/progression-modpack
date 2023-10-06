@@ -98,6 +98,7 @@ var medievalIngredients as IIngredient[] = [
 <betterwithmods:steel_broken_gearbox>,
 <betterwithmods:steel_gearbox>,
 <betterwithmods:steel_pressure_plate>,
+<betterwithmods:saw>,
 <bewitchment:acacia_resin>,
 <bewitchment:aconitum_seeds>,
 <bewitchment:aconitum>,
@@ -2243,9 +2244,11 @@ var medievalIngredients as IIngredient[] = [
 <rustic:retort>,
 <rustic:silver_lantern>,
 <rustic:wildberry_juice>,
+/*
 <rusticatedfruit:peach_juice>,
 <rusticatedfruit:pear_juice>,
 <rusticatedfruit:persimmon_juice>,
+*/
 <rusticthaumaturgy:candle_brass>,
 <rusticthaumaturgy:chain_brass>,
 <rusticthaumaturgy:cinderfire_whiskey>,
