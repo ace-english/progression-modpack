@@ -570,6 +570,13 @@ recipes.remove(<harvestcraft:spiderweb_sapling>);
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShapeless(<harvestcraft:cuttingboarditem>, [<animania:carving_knife>,<ore:slabWood>]);
 
+recipes.remove(<harvestcraft:juiceritem>);
+recipes.addShaped(<harvestcraft:juiceritem>, 
+    [[<ore:stone>],
+    [<minecraft:stone_slab>]]);
+    
+//recipes.addShapeless(<dynamictrees:peachseed>, [<rusticatedfruit:seed_peach>,<dynamictrees:dirtbucket>]);
+
 recipes.remove(<harvestcraft:potitem>);
 recipes.addShaped(<harvestcraft:potitem>, [
     [<ore:stickWood>,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>],
