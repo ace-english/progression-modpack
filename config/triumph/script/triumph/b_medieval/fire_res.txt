@@ -2,7 +2,7 @@ setIcon(<minecraft:blaze_powder>)
 setTitle("Too Hot to Handle")
 setDescription("Obtain fire resistance")
 addParent("triumph:b_medieval/root")
-setPos(-25,-25)
+setPos(-40,-62)
 
 criteria = addCriteria("all_effects", "minecraft:effects_changed")
 criteria.addEffect("minecraft:fire_resistance")
