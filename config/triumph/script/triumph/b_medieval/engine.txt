@@ -1,13 +1,16 @@
 setIcon(<davincisvessels:engine>)
 setTitle("Manifest Destiny")
 setDescription("Use the Carbine Reactor from the Ur-Ghast tower to create the first Steam Engine")
-setFrameType("challenge")
 addParent("triumph:b_medieval/twilight")
-setPos(206,24)
+setFrameType("challenge")
+setShowToast(true)
+setAnnounceToChat(true)
+setPos(277,-24)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
 criteria.setItem(<davincisvessels:engine>)
 
+setRewardFunction("triumph:industrial")
 visibleIf("triumph:b_medieval/root")

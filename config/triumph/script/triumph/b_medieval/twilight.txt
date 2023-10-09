@@ -2,7 +2,7 @@ setIcon(<telepastries:twilight_cake>)
 setTitle("Into the Woods")
 setDescription("Make a Twilight Forest Cake")
 addParent("triumph:b_medieval/root")
-setPos(81,24)
+setPos(96,-24)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<telepastries:twilight_cake>)
