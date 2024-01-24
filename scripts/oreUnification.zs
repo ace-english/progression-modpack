@@ -159,6 +159,7 @@ recipes.removeByRecipeName("chisel:uncraft_blockuranium");
 mods.tconstruct.Casting.addBasinRecipe(<mekanism:basicblock:5>, null, <liquid:steel>, 1296);
 mods.tconstruct.Casting.removeTableRecipe(<mekanism:ingot:4>);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:8>, <tconstruct:cast_custom>, <liquid:steel>, 144); //ingot
+mods.tconstruct.Melting.addRecipe(<liquid:steel> * 144,<immersiveengineering:metal:8>);
 <ore:ingotSsteel>.add(<immersiveengineering:metal:8>);
 recipes.removeByRecipeName("tcomplement:steelworks/steel_block");
 recipes.removeByRecipeName("mekanism:basicblock:5");
