@@ -14,9 +14,7 @@ import mods.roots.Fey;
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_carrot>, <minecraft:carrot>, <liquid:gold>, 128, true);
 
 //for progression
-mods.recipestages.Recipes.setRecipeStage("industrial", "davincisvessels:tile.davincis.engine7");
-mods.ItemStages.removeItemStage(<davincisvessels:engine>);
-mods.ItemStages.addItemStage("medieval", <davincisvessels:engine> );
+recipes.remove(<davincisvessels:engine>);
 recipes.addShaped(<davincisvessels:engine>,[
     [<minecraft:iron_ingot>, <minecraft:water_bucket>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, <twilightforest:tower_device:12>, <minecraft:iron_ingot>],

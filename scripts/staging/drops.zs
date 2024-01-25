@@ -253,6 +253,19 @@ Dropt.list("early_cobblestone")
           .items([<primal:rock_stone>])
       )
   );
+
+
+Dropt.list("early_amber")
+  .add(Dropt.rule()
+      .matchDrops([<thaumcraft:curio:1>])
+      .matchHarvester(Dropt.harvester()
+        .gameStages("BLACKLIST", "ALL", ["industrial"])
+      )
+      .addDrop(Dropt.drop()
+          .items([<thaumcraft:amber>])
+      )
+  );
+
 Dropt.list("early_netherrack")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:netherrack"])

@@ -804,7 +804,6 @@ var industrialIngredients as IIngredient[] = [
 	<davincisvessels:balloon:15>,
 	<davincisvessels:buffer>,
 	<davincisvessels:crate_wood>,
-	<davincisvessels:engine>,
 	<davincisvessels:floater>,
 	<davincisvessels:gauge>,
 	<davincisvessels:gauge:1>,
@@ -1583,5 +1582,5 @@ var industrialIngredients as IIngredient[] = [
 
 for entry in industrialIngredients{
     mods.ItemStages.addItemStage("industrial", entry);
-    mods.recipestages.Recipes.setRecipeStage("industrial", entry);
+    //mods.recipestages.Recipes.setRecipeStage("industrial", entry);
 }

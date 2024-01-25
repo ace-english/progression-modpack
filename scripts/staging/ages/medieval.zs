@@ -498,7 +498,6 @@ var medievalIngredients as IIngredient[] = [
 <bibliocraft:bibliochase>,
 <bibliocraft:biblioclipboard>,
 <bibliocraft:bibliocreativelock>,
-<bibliocraft:bibliodrill>,
 <bibliocraft:biblioglasses>,
 <bibliocraft:biblioredbook>,
 <bibliocraft:bigbook>,
