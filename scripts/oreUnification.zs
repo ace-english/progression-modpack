@@ -158,13 +158,14 @@ recipes.removeByRecipeName("chisel:uncraft_blockuranium");
 //steel
 mods.tconstruct.Casting.addBasinRecipe(<mekanism:basicblock:5>, null, <liquid:steel>, 1296);
 mods.tconstruct.Casting.removeTableRecipe(<mekanism:ingot:4>);
-mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:8>, <tconstruct:cast_custom>, <liquid:steel>, 144); //ingot
-<ore:ingotSsteel>.add(<immersiveengineering:metal:8>);
-mods.chisel.Carving.addVariation("blockSteel", <primal:metalblock:1>);
+mods.tconstruct.Casting.addTableRecipe(<ancientwarfare:steel_ingot>, <tconstruct:cast_custom>, <liquid:steel>, 144); //ingot
+<ore:ingotSteel>.add(<ancientwarfare:steel_ingot>);
+//mods.chisel.Carving.addVariation("blockSteel", <primal:metalblock:1>);
 recipes.removeByRecipeName("tcomplement:steelworks/steel_block");
 recipes.removeByRecipeName("mekanism:basicblock_5");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_block");
 recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_slab_back");
+recipes.removeByRecipeName("mekanism:basicblock_5");
 
 //constantan
 recipes.removeByRecipeName("immersiveengineering:metal_storage/constantan_block");

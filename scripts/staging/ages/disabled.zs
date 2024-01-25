@@ -691,7 +691,6 @@ var disabledIngredients as IIngredient[] = [
 	<immersiveengineering:metal:8>,
 */
 
-	<immersiveengineering:metal:8>,
 	<immersiveengineering:metal:23>,
 	<tcomplement:materials:10>,
 	<primal:steel_ingot>,
