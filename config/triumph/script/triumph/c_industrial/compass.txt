@@ -10,4 +10,4 @@ criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria1.setItem("minecraft:compass")
 
 visibleIf("triumph:industrial/root")
-setPos(-249,-86)
+setPos(-242,-90)
