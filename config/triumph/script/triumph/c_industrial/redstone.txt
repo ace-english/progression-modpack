@@ -1,0 +1,13 @@
+setTranslatedTitle("A New Dawn")
+setIcon("minecraft:redstone")
+
+setTranslatedDescription("Obtain redstone")
+
+addParent("triumph:c_industrial/root")
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("minecraft:redstone")
+
+visibleIf("triumph:industrial/root")
+setPos(-224,-33)
