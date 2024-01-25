@@ -1,7 +1,6 @@
 mods.ItemStages.addItemStage("sailing", <davincisvessels:anchorpoint>);
 mods.ItemStages.addItemStage("sailing", <davincisvessels:buffer>);
 mods.ItemStages.addItemStage("sailing", <davincisvessels:crate_wood>);
-mods.ItemStages.addItemStage("sailing", <davincisvessels:engine>);
 mods.ItemStages.addItemStage("sailing", <davincisvessels:floater>);
 mods.ItemStages.addItemStage("sailing", <davincisvessels:gauge>);
 mods.ItemStages.addItemStage("sailing", <davincisvessels:gauge:1>);

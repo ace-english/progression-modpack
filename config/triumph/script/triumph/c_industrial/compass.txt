@@ -1,0 +1,13 @@
+setTranslatedTitle("Bring Me That Horizon")
+setIcon("minecraft:compass")
+
+setTranslatedDescription("Obtain a compass")
+
+addParent("triumph:c_industrial/root")
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("minecraft:compass")
+
+visibleIf("triumph:industrial/root")
+setPos(-249,-86)

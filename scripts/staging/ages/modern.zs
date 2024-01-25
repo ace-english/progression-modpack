@@ -71,7 +71,6 @@ var modernIngredients as IIngredient[] = [
     <ancientwarfarenpc:shield_tribal_1>,
     <ancientwarfarenpc:shield_tribal_2>,
     <ancientwarfarevehicle:ammo_canister_shot_10>,
-    <bibliocraft:bibliodrill>,
     <bibliocraft:clipboard>,
     <chisel:auto_chisel>,
     <cookingforblockheads:fridge>,
