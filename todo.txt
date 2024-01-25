@@ -15,17 +15,13 @@ potential Jakob tasks:
 		
 	[ ] stop soulstone creep
 	rustic juice hydration
-	remove steel and silver from drop tables
-	[ ] peach pit into useful stone
-	[ ] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
-	[ ] require bellows for lava?
+	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
 	[ ] fix juicer recipe
 	[ ] nutrition decline a little faster
-	[ ] saw medieval
-	[ ] coal chain
-	[ ] loot table wrong silver?
+	[x] saw medieval
+	[x] coal chain
+	[x] loot table wrong silver?
 	[x] iron bars medieval
-	[ ] fix grapes
 	[ ] cooking table
 	[ ] missing recipes
 		[x] chests
@@ -34,8 +30,8 @@ potential Jakob tasks:
 		buckets should be more general?
 		[x] dewgonia - use library lilypad
 		[x] something wrong with the transmutation recipe
-	[ ] sisal on sand or dirt
-	[ ] add ovis atre to shears
+	[x] sisal on sand or dirt
+	[x] add ovis atre to shears
 	[ ] swim in chocolate?
 	[ ] make roots knife better?
 	[ ] harvestcraft fish file
@@ -66,19 +62,19 @@ more achievements
 	- can you make another thaumcraft soap?	
 	[ ] medieval achievements
 		[x] fire resistance
-		[ ] easy cobblestone
-		[ ] stomping tub
-			[ ] beer
-				[ ] 100% liquor
+		[x] easy cobblestone
+		[x] stomping tub
+			[x] beer
+				[x] 100% liquor
 		[ ] lance + armor + horse + armor?
 		[ ] ancient warfare start?
+			[ ] complete any ancient warfare raid
 		[ ] steel
-		[ ] twilight forest
-		[ ] complete any ancient warfare raid
-		[ ] stockroom catalogue
+		[x] twilight forest
+		[x] stockroom catalogue
 		[ ] cooking table
 		[ ] irrigation
-		[ ] beekeeping
+		[x] beekeeping
 	[ ] industrial achievements
 		[ ] thaumcraft book
 			[ ] thaumcraft soap
@@ -89,7 +85,11 @@ more achievements
 			[ ] (journeymap)
 		[ ] forestry - build carpenter
 			[ ] build alveary
-		[ ] start immersive engineering
+		[ ] start immersive 
+		
+		
+		
+		engineering
 			[ ] treated wood
 			[ ] wire
 			[ ] gun

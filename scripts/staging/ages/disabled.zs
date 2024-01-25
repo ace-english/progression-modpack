@@ -246,6 +246,7 @@ var disabledIngredients as IIngredient[] = [
 	<bibliocraft:deathcompass>,
 	<bibliocraft:markerpole>,
 	<bibliocraft:testeritem>,
+	<cookingforblockheads:cutting_board>,
 	<chisel:chisel_diamond>,
 	<chisel:chisel_hitech>,
 	//<animania:carving_knife>,
@@ -687,6 +688,7 @@ var disabledIngredients as IIngredient[] = [
 	<agricraft:agri_nugget:7>,
 	<bewitchment:silver_ore>,
 	<immersiveengineering:ore:3>,
+	<immersiveengineering:metal:8>,
 */
 
 	<immersiveengineering:metal:8>,
@@ -730,11 +732,9 @@ var disabledIngredients as IIngredient[] = [
 	<primal:shibuichi_plate>,
 
 	//steel
-	<primal:metalblock:1>,
-	<tcomplement:storage>,
 	<mekanism:ingot:4>,
 	<mekanism:nugget:4>,
-	<mekanism:otherdust:1>,
+	<primal:steel_plate>,
 	<ancientwarfare:steel_ingot>,
 
 	<projectred-core:resource_item:100>,
@@ -744,6 +744,10 @@ var disabledIngredients as IIngredient[] = [
 	<projectred-core:resource_item:200>,
 	<projectred-core:resource_item:201>,
 	<projectred-core:resource_item:202>,
+	/*
+	<tcomplement:storage>,
+	<mekanism:otherdust:1>,
+	*/
 	
 	//duplicated crops
 	<harvestcraft:garlicitem>,
@@ -813,7 +817,8 @@ var disabledIngredients as IIngredient[] = [
 	
 val allEntries = oreDict.entries;
 for entry in disabledIngredients{
-    mods.ItemStages.addItemStage("disabled", entry);
+	mods.ItemStages.addItemStage("disabled", entry);
+    mods.ItemStages.addItemStage("disabled", entry.onlyDamaged());
 
 	//remove from all ore dict entries
 	for oreDictEntry in allEntries{
