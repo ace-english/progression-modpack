@@ -10,4 +10,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("minecraft:gunpowder")
 
 visibleIf("triumph:industrial/root")
-setPos(-214,6)
+setPos(-207,-9)

@@ -1,0 +1,9 @@
+setIcon(<travelersbackpack:travelers_backpack>)
+setTitle("Backpack Harder")
+setDescription("Build a Traveler's Backpack")
+addParent("triumph:c_industrial/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<travelersbackpack:travelers_backpack>)
+hideLines()
+setPos(-209,113)

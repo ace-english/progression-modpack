@@ -5,7 +5,7 @@ setIcon(<primal:flint_hoe>)
 setTitle("The Secret of Agriculture")
 
 //Set description String
-setDescription("Obtain a hoe from a villager to unlock farming")
+setDescription("Obtain a hoe from a villager to unlock farming. If you can't find a farmer, maybe you can summon one?")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("triumph:ancient/root")

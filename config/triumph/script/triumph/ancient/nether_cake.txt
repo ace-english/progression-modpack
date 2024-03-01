@@ -1,12 +1,13 @@
 setIcon(<telepastries:nether_cake>)
 setTitle("Not in Kansas Anymore")
-setDescription("Make a Nether Cake")
+setDescription("Enter the Nether via a Nether Cake")
 addParent("triumph:ancient/agriculture")
 addParent("triumph:ancient/workstump")
 setPos(127,-44)
 
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
-//Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<telepastries:nether_cake>)
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")
+
 visibleIf("triumph:ancient/root")

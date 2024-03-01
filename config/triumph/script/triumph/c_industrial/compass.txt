@@ -11,3 +11,5 @@ criteria1.setItem("minecraft:compass")
 
 visibleIf("triumph:industrial/root")
 setPos(-242,-90)
+hideLines()
+
