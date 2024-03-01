@@ -1,0 +1,13 @@
+setIcon(<betterwithmods:material:0>)
+addParent("triumph:b_medieval/root")
+setTitle("Yes, Gear")
+setDescription("Build a gearbox")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<betterwithmods:wooden_gearbox>)
+
+setRewardFunction("triumph:bwm_guide")
+visibleIf("triumph:b_medieval/root")
+setPos(47,-70)
