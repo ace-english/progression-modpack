@@ -11,6 +11,9 @@ potential Jakob tasks:
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
+
+
+rustic beehive still spawning, drops rustic bees
 		
 		
 	[ ] stop soulstone creep
@@ -79,20 +82,15 @@ more achievements
 		[ ] thaumcraft book
 			[ ] thaumcraft soap
 				[ ] golem
-		[ ] compass
-		[ ] gunpowder
+		[x] compass
+		[x] gunpowder
 		[ ] davinci vessel
 			[ ] (journeymap)
-		[ ] forestry - build carpenter
-			[ ] build alveary
-		[ ] start immersive 
-		
-		
-		
-		engineering
+		[x] forestry - build carpenter
+		[ ] start immersive engineering
 			[ ] treated wood
 			[ ] wire
-			[ ] gun
+			[x] gun
 	[ ] modern achievements
 		[ ] post office
 		[ ] immersive petroleum

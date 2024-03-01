@@ -7,6 +7,6 @@ setPos(13,1)
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.addItem(<rustic:condenser_advanced>)
-criteria.addItem(<rustic:condenser>)
+criteria.setItem(<rustic:condenser_advanced>)
+criteria.setItem(<rustic:condenser>)
 setRequirements("any")
