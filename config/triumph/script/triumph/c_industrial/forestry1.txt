@@ -5,4 +5,4 @@ addParent("triumph:c_industrial/root")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<forestry:sturdy_machine>)
-setPos(-249,93)
+setPos(-246,68)
