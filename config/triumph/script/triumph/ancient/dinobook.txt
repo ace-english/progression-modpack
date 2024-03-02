@@ -1,0 +1,9 @@
+setIcon(<fossil:dinopedia>)
+setTitle("Survival Evolved")
+setDescription("Build a Dinopedia. Right click a dinosaur with it to view dino info and status")
+addParent("triumph:ancient/words")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<fossil:dinopedia>)
+
+visibleIf("triumph:ancient/root")
