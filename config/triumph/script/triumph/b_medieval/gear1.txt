@@ -1,0 +1,14 @@
+setIcon(<betterwithmods:wooden_axle>)
+addParent("triumph:b_medieval/gear")
+setTitle("Axle Lottle")
+setDescription("Build a soulsteel axle or a wooden axle")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<betterwithmods:wooden_axle>)
+//criteria.setItem(<betterwithmods:steel_axle>)
+
+setRewardFunction("triumph:bwm_guide")
+visibleIf("triumph:b_medieval/root")
+setPos(69,-64)

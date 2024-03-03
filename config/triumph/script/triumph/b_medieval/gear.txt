@@ -10,4 +10,4 @@ criteria.setItem(<betterwithmods:wooden_gearbox>)
 
 setRewardFunction("triumph:bwm_guide")
 visibleIf("triumph:b_medieval/root")
-setPos(47,-70)
+setPos(22,-64)
