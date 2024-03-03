@@ -7,3 +7,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<fossil:dinopedia>)
 
 visibleIf("triumph:ancient/root")
+setPos(107,-106)

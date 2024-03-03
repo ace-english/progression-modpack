@@ -1,8 +1,9 @@
 setIcon(<minecraft:blaze_powder>)
 setTitle("Too Hot to Handle")
-setDescription("Obtain fire resistance")
+setDescription("Obtain fire resistance. This can be from Rustic potions, Bewitchment effects, wine, or even a totem pole")
 addParent("triumph:b_medieval/root")
-setPos(-40,-47)
+hideLines()
+setPos(-131,-95)
 
 criteria = addCriteria("all_effects", "minecraft:effects_changed")
 criteria.addEffect("minecraft:fire_resistance")
