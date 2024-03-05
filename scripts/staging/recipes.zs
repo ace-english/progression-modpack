@@ -386,17 +386,24 @@ recipes.addShaped(<betterwithmods:material:0>,[
     [null, <ore:stickWood>, null],
 ]);
 
+/*
 recipes.addShaped(<betterwithmods:wooden_gearbox>,[
     [null, <ore:stickWood>, null],
     [<ore:stickWood>, <totemic:buffalo_items:1>, <ore:stickWood>],
     [null, <ore:stickWood>, null],
 ]);
 
+global mouldingWood as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+
+recipes.removeByRecipeName("betterwithmods:blocks/mech/axle");
+
 recipes.addShaped(<betterwithmods:wooden_axle>,[
-    [<ore:stickWood>],
+    [mouldingWood],
     [<minecraft:netherbrick>],
-    [<ore:stickWood>]
+    [mouldingWood]
 ]);
+*/
+recipes.removeByRecipeName("betterwithmods:items/material/material.windmill_blade");
 
 <betterwithmods:wooden_axle>.addTooltip(format.darkRed("Mechanical power is of the devil"));
 
