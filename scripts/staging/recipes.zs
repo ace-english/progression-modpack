@@ -836,6 +836,20 @@ Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roo
 
 
 
+
+/*********************************************
+
+rustic
+
+*********************************************/
+
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped(<rustic:condenser_advanced>, [
+    [null,<ore:ingotBrickNether>,null],
+    [<ore:ingotBrickNether>,<ore:itemEmptyBucket>,<ore:ingotBrickNether>],
+    [<ore:ingotBrickNether>,<ore:blockSoulforgedSteel>,<ore:ingotBrickNether>],
+]);
+
 /*********************************************
 
 tconstruct
