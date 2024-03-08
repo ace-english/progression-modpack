@@ -16,9 +16,9 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_carrot>, <minecraft:car
 //for progression
 recipes.remove(<davincisvessels:engine>);
 recipes.addShaped(<davincisvessels:engine>,[
-    [<minecraft:iron_ingot>, <minecraft:water_bucket>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <twilightforest:tower_device:12>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+    [<ore:ingotSteel>, <minecraft:water_bucket>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <twilightforest:tower_device:12>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
 /*********************************************
@@ -685,7 +685,17 @@ rustic
 
 *********************************************/
 
-
+recipes.removeByRecipeName("rustic:rope");
+recipes.addShaped(<rustic:rope>*12,[
+    [<betterwithmods:rope>],
+    [<betterwithmods:rope>],
+    [<betterwithmods:rope>]
+]);
+recipes.addShaped(<rustic:rope>*3,[
+    [<ore:string>],
+    [<ore:string>],
+    [<ore:string>]
+]);
 
 
 /*********************************************
