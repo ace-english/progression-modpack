@@ -2767,6 +2767,9 @@ var medievalIngredients as IIngredient[] = [
 <wizardryutils:dusty_spell_book>,
 <wolfarmor:chainmail_wolf_armor:*>,
 <wolfarmor:diamond_wolf_armor:*>,
+
+//steel
+	<immersiveengineering:metal:8>
 ];
 
 
@@ -2775,11 +2778,12 @@ for entry in medievalIngredients{
     //mods.recipestages.Recipes.setRecipeStage("medieval", entry);
 }
 
+
 //add sailcloth
 
 recipes.addShaped("windmill_blade", <betterwithmods:material:10>, [
     [null, <ore:stickWood>, null],
+    [null, <ore:glue>, null],
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
-
 recipes.addShapeless("cloth_windmill_blade", <betterwithmods:material:11>, [<betterwithmods:material:10>, <immersiveengineering:material:12>]);
