@@ -49,3 +49,13 @@
 
  //mods.orestages.OreStages.addReplacement("disabled", <minecraft:furnace:*>, <primal:cauldron>);
 mods.orestages.OreStages.addReplacement("medieval", <minecraft:crafting_table>, <minecraft:planks:0>); 
+
+//archeology table before you can read
+mods.orestages.OreStages.addReplacement("literacy", <fossil:worktable>, <primal:storage_crate>); 
+mods.orestages.OreStages.addReplacement("literacy", <fossil:worktable_active>, <primal:storage_crate>); 
+
+//analyzer before modern
+mods.orestages.OreStages.addReplacement("modern", <fossil:cultivate>, <primal:storage_crate>); 
+mods.orestages.OreStages.addReplacement("modern", <fossil:cultivate_active>, <primal:storage_crate>); 
+mods.orestages.OreStages.addReplacement("modern", <fossil:analyzer>, <primal:storage_crate>); 
+mods.orestages.OreStages.addReplacement("modern", <fossil:analyzer_active>, <primal:storage_crate>); 

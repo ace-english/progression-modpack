@@ -14,8 +14,11 @@ potential Jakob tasks:
 
 
 rustic beehive still spawning, drops rustic bees
+day 1 dhampir?
+an 'analyzer' and a 'sifter' spawned in the village
 		
-		
+	[ ] fish
+	[ ] gold trim
 	[ ] stop soulstone creep
 	rustic juice hydration
 	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
