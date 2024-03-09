@@ -456,7 +456,6 @@ var disabledIngredients as IIngredient[] = [
 	<roots:wooden_shears:*>,
 	<rustic:apiary>,
 	<rustic:bee>,
-	<rustic:beehive>,
 	<rustic:fertile_soil>,
 	<rustic:honeycomb>,
 	<tcomplement:knightslime_boots:*>,
