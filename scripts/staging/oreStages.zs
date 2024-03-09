@@ -57,6 +57,10 @@ mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:6>, <minecr
 mods.orestages.OreStages.addReplacement("disabled", <chisel:limestone2:7>, <minecraft:stone:0>); 
 mods.orestages.OreStages.addReplacement("disabled", <quark:marble:1>, <chisel:marble2>);
 
+//replace amber
+mods.orestages.OreStages.addReplacement("disabled", <fossil:amber_ore>, <thaumcraft:ore_amber>);
+mods.orestages.OreStages.addReplacement("disabled", <biomesoplenty:gem_ore:7>, <thaumcraft:ore_amber>);
+
 mods.ItemStages.addItemStage("disabled", <minecraft:stone:2>);
 mods.ItemStages.addItemStage("disabled", <minecraft:stone:3>);
 mods.ItemStages.addItemStage("disabled", <minecraft:stone:4>);
