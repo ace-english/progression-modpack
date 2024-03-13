@@ -401,6 +401,7 @@ var disabledIngredients as IIngredient[] = [
 	<primal:wootz_ingot>,
 	<primal:wootz_nugget>,
 	<primal:wootz_plate>,
+	<primal:kiln_adobe>,
 	<primal_tech:clay_kiln>,
 	<primal_tech:flint_block>,
 	<primal_tech:flint_edged_disc>,
