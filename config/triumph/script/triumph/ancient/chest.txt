@@ -21,3 +21,4 @@ criteria4.setItem("immcraft:bookshelf")
 
 visibleIf("triumph:ancient/root")
 setPos(87,11)
+setRequirements("any")
