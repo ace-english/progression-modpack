@@ -2,8 +2,7 @@ setIcon(<telepastries:nether_cake>)
 setTitle("Not in Kansas Anymore")
 setDescription("Enter the Nether via a Nether Cake")
 addParent("triumph:ancient/agriculture")
-addParent("triumph:ancient/workstump")
-setPos(200,-19)
+setPos(184,-79)
 
 
 

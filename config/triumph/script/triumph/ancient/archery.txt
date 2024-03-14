@@ -209,4 +209,4 @@ criteria.setCount(50)
 
 
 setRewardFunction("triumph:archery")
-setPos(0,59)
+setPos(-3,109)

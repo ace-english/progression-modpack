@@ -1,0 +1,28 @@
+//Set icon item
+setIcon(<primal:iron_saw>)
+
+//Set title String
+setTitle("I Saw This On HGTV")
+
+//Set description String
+setDescription("Build a saw. Saw allows you to make planks much more quickly than the chopping block. Nicer saws give more planks")
+addParent("triumph:ancient/flaking")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:iron_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:obsidian_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:bone_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:flint_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:quartz_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:copper_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:diamond_saw")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:emerald_saw")
+setRequirements("any")
+setPos(-36,112)

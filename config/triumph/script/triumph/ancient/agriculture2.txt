@@ -7,7 +7,8 @@ setTitle("Tractor?")
 //Set description String
 setDescription("Build a plowcart. Attach it to a horse for really fast hoing")
 addParent("triumph:ancient/agriculture")
+addParent("triumph:ancient/wheel")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<astikorcarts:plowcart>)
-setPos(33,-62)
+setPos(133,-57)

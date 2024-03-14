@@ -2,7 +2,7 @@ setIcon(<horsepower:press>)
 setTitle("One Hosepower")
 setDescription("Craft a horse press. Put a large animal like a cow or a horse on a lead and connect it to the horse powered machine to get things going.")
 addParent("triumph:ancient/workstump")
-setPos(86,63)
+setPos(46,62)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<horsepower:press>)
