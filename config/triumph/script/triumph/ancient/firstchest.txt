@@ -20,4 +20,4 @@ criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("immcraft:bookshelf")
 
 visibleIf("triumph:ancient/root")
-setPos(87,11)
+setPos(87,3)

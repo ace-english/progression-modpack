@@ -3,7 +3,7 @@ setTitle("Not in Kansas Anymore")
 setDescription("Enter the Nether via a Nether Cake")
 addParent("triumph:ancient/agriculture")
 addParent("triumph:ancient/workstump")
-setPos(127,-44)
+setPos(183,-47)
 
 
 
