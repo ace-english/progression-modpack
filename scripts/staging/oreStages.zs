@@ -16,7 +16,7 @@ mods.ItemStages.addItemStage("medieval", <tconstruct:ore:1>);
 
 mods.orestages.OreStages.addReplacement("industrial", <minecraft:coal_ore>);
 mods.orestages.OreStages.addReplacement("industrial", <minecraft:redstone_ore>);
-mods.orestages.OreStages.addReplacement("industrial", <fossil:fossil>);
+mods.orestages.OreStages.addReplacement("industrial", <fossil:fossil>, <minecraft:stone:0>);
 mods.orestages.OreStages.addReplacement("industrial", <mysticalworld:quartz_ore>);
 mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:ore_quartz>);
 mods.orestages.OreStages.addReplacement("industrial", <thaumcraft:ore_cinnabar>);
@@ -25,7 +25,7 @@ mods.orestages.OreStages.addReplacement("industrial", <immersiveengineering:ore:
 
 mods.ItemStages.addItemStage("industrial", <minecraft:coal_ore>);
 mods.ItemStages.addItemStage("industrial", <minecraft:redstone_ore>);
-mods.ItemStages.addItemStage("industrial", <fossil:fossil>);
+mods.ItemStages.addItemStage("industrial", <fossil:fossil:*>);
 mods.ItemStages.addItemStage("industrial", <mysticalworld:quartz_ore>);
 mods.ItemStages.addItemStage("industrial", <thaumcraft:ore_quartz>);
 mods.ItemStages.addItemStage("industrial", <thaumcraft:ore_cinnabar>);
@@ -36,8 +36,8 @@ mods.orestages.OreStages.addReplacement("modern", <mekanism:oreblock:0>, <minecr
 mods.orestages.OreStages.addReplacement("modern", <forestry:resources:0>); //apatite
 //mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:prosperity_ore>);
 //mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:inferium_ore>);
-mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_prosperity_ore>, <minecraft:netherrack>);
-mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_inferium_ore>, <minecraft:netherrack>);
+//mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_prosperity_ore>, <minecraft:netherrack>);
+//mods.orestages.OreStages.addReplacement("modern", <mysticalagriculture:nether_inferium_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:5>); //uranium
 mods.orestages.OreStages.addReplacement("modern", <immersiveengineering:ore:2>); //lead
 
@@ -45,10 +45,10 @@ mods.ItemStages.addItemStage("modern", <mekanism:oreblock:0>);
 mods.ItemStages.addItemStage("modern", <forestry:resources:0>);
 //mods.ItemStages.addItemStage("modern", <mysticalagriculture:prosperity_ore>);
 //mods.ItemStages.addItemStage("modern", <mysticalagriculture:inferium_ore>);
-mods.ItemStages.addItemStage("modern", <mysticalagriculture:nether_prosperity_ore>);
-mods.ItemStages.addItemStage("modern", <mysticalagriculture:nether_inferium_ore>);
-mods.ItemStages.addItemStage("modern", <immersiveengineering:ore:5>);
-mods.ItemStages.addItemStage("modern", <immersiveengineering:ore:2>);
+//mods.ItemStages.addItemStage("modern", <mysticalagriculture:nether_prosperity_ore>);
+//mods.ItemStages.addItemStage("modern", <mysticalagriculture:nether_inferium_ore>);
+//mods.ItemStages.addItemStage("modern", <immersiveengineering:ore:5>);
+//mods.ItemStages.addItemStage("modern", <immersiveengineering:ore:2>);
 
 
 mods.orestages.OreStages.addReplacement("disabled", <minecraft:stone:2>, <minecraft:stone:0>);
