@@ -10,18 +10,63 @@ mods.ItemStages.removeItemStage(<agricraft:agri_nugget:3>);
 mods.ItemStages.removeItemStage(<agricraft:agri_nugget:1>);
 mods.ItemStages.removeItemStage(<agricraft:agri_nugget>);
 
-
-
-mods.ItemStages.addItemStage("agriculture", <composter:compost>);
-mods.ItemStages.addItemStage("agriculture", <composter:compost_bin>);
-mods.ItemStages.addItemStage("agriculture", <endercrop:ender_crop>);
-mods.ItemStages.addItemStage("agriculture", <endercrop:ender_seeds>);
-mods.ItemStages.addItemStage("agriculture", <endercrop:tilled_end_stone>);
 mods.ItemStages.addItemStage("agriculture", <astikorcarts:plowcart>);
+
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_cluster_shot_30> );
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_explosive_shot_45> );
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_hwacha_rocket_explosive> );
-mods.ItemStages.addItemStage("agriculture", <astikorcarts:plowcart> );
+
+mods.ItemStages.addItemStage("agriculture", <composter:compost>);
+mods.ItemStages.addItemStage("agriculture", <composter:compost_bin>);
+
+mods.ItemStages.addItemStage("agriculture", <endercrop:ender_crop>);
+mods.ItemStages.addItemStage("agriculture", <endercrop:ender_seeds>);
+mods.ItemStages.addItemStage("agriculture", <endercrop:tilled_end_stone>);
+
+mods.ItemStages.addItemStage("agriculture", <fossil:fern_seed> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossil_seed_fern> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:1> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:2> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:3> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:4> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:5> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:6> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:7> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:8> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:9> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:10> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:11> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:12> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:13> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:14> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:15> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:16> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:17> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:18> );
+mods.ItemStages.addItemStage("agriculture", <fossil:fossilseed:19> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:1> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:2> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:3> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:4> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:5> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:6> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:7> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:8> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:9> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:10> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:11> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:12> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:13> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:14> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:15> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:16> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:17> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:18> );
+mods.ItemStages.addItemStage("agriculture", <fossil:seed:19> );
+
+
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:agaveseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:amaranthseeditem> );
 mods.ItemStages.addItemStage("agriculture", <harvestcraft:arrowrootseeditem> );
