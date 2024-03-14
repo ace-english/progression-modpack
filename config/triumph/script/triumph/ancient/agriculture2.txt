@@ -10,4 +10,4 @@ addParent("triumph:ancient/agriculture")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<astikorcarts:plowcart>)
-setPos(44,-64)
+setPos(33,-62)

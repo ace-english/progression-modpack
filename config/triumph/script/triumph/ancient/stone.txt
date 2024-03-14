@@ -2,7 +2,7 @@ setIcon(<minecraft:cobblestone>)
 setTitle("Rock and Stone!")
 setDescription("Craft cobblestone using rocks and mortar. Rocks are gained by breaking stone")
 addParent("triumph:ancient/workstump")
-setPos(87,83)
+setPos(86,92)
 //hideLines()
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
