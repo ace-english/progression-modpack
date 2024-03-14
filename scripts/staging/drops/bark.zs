@@ -1,6 +1,7 @@
 import mods.ltt.LootTable;
 import mods.dropt.Dropt;
 import mods.dropt.Harvester;
+import mods.roots.Fey;
 
 
 Dropt.list("roots_bark_jungle").add(Dropt.rule().matchHarvester(Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [<tinkers_reforged:runic_knife:*>]))
@@ -28,7 +29,7 @@ Dropt.list("roots_bark_dark_oak").add(Dropt.rule().matchHarvester(Dropt.harveste
         "rustic:log:1",
         "biomesoplenty:log_3:6",
         "forestry:logs.1:1"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_dark_oak>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_dark_oak>,<roots:bark_dark_oak>,<roots:bark_dark_oak>,<roots:bark_dark_oak>,<roots:bark_dark_oak>])
 ));
 
 
@@ -47,7 +48,7 @@ Dropt.list("roots_bark_oak").add(Dropt.rule().matchHarvester(Dropt.harvester().t
         "forestry:logs.5:2",
         "forestry:logs.5:3",
         "minecraft:log"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_oak>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_oak>,<roots:bark_oak>,<roots:bark_oak>,<roots:bark_oak>,<roots:bark_oak>])
 ));
 
 
@@ -64,7 +65,7 @@ Dropt.list("roots_bark_acacia").add(Dropt.rule().matchHarvester(Dropt.harvester(
         "thaumcraft:log_silverwood",
         "twilightforest:twilight_log:2",
         "bewitchment:elder_wood"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_acacia>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_acacia>,<roots:bark_acacia>,<roots:bark_acacia>,<roots:bark_acacia>,<roots:bark_acacia>])
 ));
 
 Dropt.list("roots_bark_birch").add(Dropt.rule().matchHarvester(Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [<tinkers_reforged:runic_knife:*>]))
@@ -80,7 +81,7 @@ Dropt.list("roots_bark_birch").add(Dropt.rule().matchHarvester(Dropt.harvester()
         "thaumcraft:log_silverwood",
         "twilightforest:twilight_log:2",
         "bewitchment:elder_wood"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_birch>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_birch>,<roots:bark_birch>,<roots:bark_birch>,<roots:bark_birch>,<roots:bark_birch>])
 ));
 
 
@@ -96,10 +97,10 @@ Dropt.list("roots_bark_spruce").add(Dropt.rule().matchHarvester(Dropt.harvester(
         "forestry:logs.4:1",
         "forestry:logs.5",
         "totemic:cedar_log"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_spruce>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_spruce>,<roots:bark_spruce>,<roots:bark_spruce>,<roots:bark_spruce>,<roots:bark_spruce>])
 ));
 
 Dropt.list("roots_bark_wild").add(Dropt.rule().matchHarvester(Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [<tinkers_reforged:runic_knife:*>]))
       .matchBlocks(["roots:wildwood_log"])
-      .addDrop(Dropt.drop().items("ALL", [<roots:bark_wildwood>*5])
+      .addDrop(Dropt.drop().items("ALL", [<roots:bark_wildwood>,<roots:bark_wildwood>,<roots:bark_wildwood>,<roots:bark_wildwood>,<roots:bark_wildwood>])
 ));
