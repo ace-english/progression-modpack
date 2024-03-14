@@ -5,6 +5,7 @@ setIcon("primal_tech:fire_sticks")
 setTranslatedDescription("Make some fire sticks. To start a fire, hold a Fire Stick in both hands and click on a torch or block")
 
 addParent("triumph:ancient/flaking")
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -12,4 +13,4 @@ criteria.setItem("primal_tech:fire_sticks")
 
 
 visibleIf("triumph:ancient/root")
-setPos(-17,28)
+setPos(-101,66)

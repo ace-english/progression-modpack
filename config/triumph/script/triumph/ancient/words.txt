@@ -6,7 +6,7 @@ hideLines()
 setFrameType("challenge")
 
 //Set the position
-setPos(59,-106)
+setPos(32,-108)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
 

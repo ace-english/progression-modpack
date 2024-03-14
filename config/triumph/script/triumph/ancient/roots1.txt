@@ -8,4 +8,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
 criteria.setItem(<roots:roots_guide>)
-setPos(5,-81)
+setPos(-76,-81)
