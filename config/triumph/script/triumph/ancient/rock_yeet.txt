@@ -15,7 +15,7 @@ hideLines()
 setPos(-53,59)
 
 
-criteria = addCriteria("hurt_wolf", "minecraft:player_killed_entity")
+criteria = addCriteria("hurt_zombie", "minecraft:player_killed_entity")
 
 //entityData = criteria.getEntityData()
 

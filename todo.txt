@@ -14,8 +14,20 @@ potential Jakob tasks:
 
 
 rustic beehive still spawning, drops rustic bees
+day 1 dhampir?
+an 'analyzer' and a 'sifter' spawned in the village
 		
-		
+	[ ] make dinos drop pelts, large pelts
+	[ ] new doors need staging
+	[ ] campfire achievement?
+	[ ] saw achievment
+	[ ] workblade achievement
+	[ ] sarias achivement
+	[ ] torch achievement
+	[ ] bonus achievement - die from tree
+	[ ] bonus achievement - eat something nasty "but what does it taste like?"
+	[ ] fish
+	[ ] gold trim
 	[ ] stop soulstone creep
 	rustic juice hydration
 	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
