@@ -6,5 +6,5 @@ addParent("triumph:ancient/cauldron")
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<improvedbackpacks:backpack>)
 
-visibleIf("triumph:ancient/root")
-setPos(217,48)
+visibleIf("triumph:ancient/workstump")
+setPos(240,60)

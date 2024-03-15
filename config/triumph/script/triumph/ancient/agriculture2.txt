@@ -11,4 +11,5 @@ addParent("triumph:ancient/wheel")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<astikorcarts:plowcart>)
+visibleIf("triumph:ancient/wheel")
 setPos(86,-63)

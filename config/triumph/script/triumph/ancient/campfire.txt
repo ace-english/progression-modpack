@@ -1,6 +1,6 @@
 setIcon(<campfire:campfire>)
 setTitle("Campfire Cooking")
-setDescription("Craft a campfire. You can cook foor on it and use it for warmth and light")
+setDescription("Craft a campfire. You can cook food on it and use it for warmth and light")
 addParent("triumph:ancient/root")
 hideLines()
 
