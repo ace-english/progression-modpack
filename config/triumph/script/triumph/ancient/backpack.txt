@@ -7,4 +7,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<improvedbackpacks:backpack>)
 
 visibleIf("triumph:ancient/root")
-setPos(213,99)
+setPos(217,47)
