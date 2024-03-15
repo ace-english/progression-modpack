@@ -6,9 +6,9 @@ setTitle("Primitive Forge")
 
 //Set description String
 setDescription("Build a sarias for smelting")
-addParent("triumph:ancient/workstump")
+addParent("triumph:ancient/drying")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<primal:smelter>)
-setPos(128,17)
+setPos(126,18)
 visibleIf("triumph:ancient/root")

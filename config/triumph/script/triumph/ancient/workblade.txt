@@ -13,4 +13,4 @@ criteria.setItem("primal:iron_workblade")
 
 setRequirements("any")
 setPos(50,51)
-visibleIf("triumph:ancient/root")
+visibleIf("triumph:ancient/workstump")
