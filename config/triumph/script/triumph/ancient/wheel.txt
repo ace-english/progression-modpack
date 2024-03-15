@@ -2,7 +2,7 @@ setIcon(<astikorcarts:wheel>)
 setTitle("Now We're Getting Somewhere")
 setDescription("Invent the wheel")
 addParent("triumph:ancient/workstump")
-setPos(42,-45)
+setPos(50,-45)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
