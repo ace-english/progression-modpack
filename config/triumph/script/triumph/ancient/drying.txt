@@ -1,0 +1,14 @@
+//Set icon item
+setIcon(<primal:drying_rack, nbt:{type: "oak"}>)
+
+//Set title String
+setTitle("Dry")
+
+//Set description String
+setDescription("Build a drying rack. Good for drying bricks, and making jerky and leather")
+addParent("triumph:ancient/workstump")
+visibleIf("triumph:ancient/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primal:drying_rack>)
+setPos(50,18)
