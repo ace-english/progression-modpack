@@ -2,7 +2,7 @@ setIcon(<progressiontweaks:spear>)
 setTitle("Spearfishing")
 setDescription("Catch a fish the caveman way")
 addParent("triumph:ancient/root")
-setPos(-116,109)
+setPos(-127,-78)
 hideLines()
 
 criteria = addCriteria("killed_fish", "minecraft:player_killed_entity")

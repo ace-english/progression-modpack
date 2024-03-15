@@ -12,7 +12,7 @@ addParent("triumph:ancient/root")
 hideLines()
 
 //Set the position
-setPos(-53,109)
+setPos(-55,60)
 
 
 criteria = addCriteria("hurt_zombie", "minecraft:player_killed_entity")

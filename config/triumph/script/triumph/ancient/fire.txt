@@ -13,4 +13,4 @@ criteria.setItem("primal_tech:fire_sticks")
 
 
 visibleIf("triumph:ancient/root")
-setPos(-101,66)
+setPos(-113,27)
