@@ -1,0 +1,14 @@
+//Set icon item
+setIcon(<primal:smelter, nbt:{type: "mud"}>)
+
+//Set title String
+setTitle("Primitive Forge")
+
+//Set description String
+setDescription("Build a sarias for smelting")
+addParent("triumph:ancient/workstump")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primal:smelter>)
+setPos(128,17)
+visibleIf("triumph:ancient/root")

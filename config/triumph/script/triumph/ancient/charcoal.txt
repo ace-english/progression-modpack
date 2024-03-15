@@ -2,6 +2,7 @@ setIcon(<primal:charcoal_stack>)
 setTitle("Charcoal")
 setDescription("Make charcoal by burying logs and lighting them on fire")
 addParent("triumph:ancient/workstump")
+visibleIf("triumph:ancient/workstump")
 setPos(86,34)
 //hideLines()
 

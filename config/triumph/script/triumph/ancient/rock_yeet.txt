@@ -3,7 +3,7 @@
 setIcon(<immcraft:rock>)
 
 //Set title String
-setTitle("49 to go...")
+setTitle("29 to go...")
 
 //Set description String
 setDescription("Kill something by throwing a rock or a mud clump at it")

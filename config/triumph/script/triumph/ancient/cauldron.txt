@@ -7,5 +7,5 @@ addParent("triumph:ancient/stone")
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<primal:cauldron>)
 
-visibleIf("triumph:ancient/root")
-setPos(165,72)
+visibleIf("triumph:ancient/workstump")
+setPos(201,60)
