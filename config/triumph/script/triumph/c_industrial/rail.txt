@@ -1,0 +1,9 @@
+setIcon(<minecraft:rail>)
+setTitle("Coast to Coast")
+setDescription("Build a rail")
+addParent("triumph:c_industrial/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:rail>)
+visibleIf("triumph:c_industrial/root")
+setPos(-126,84)

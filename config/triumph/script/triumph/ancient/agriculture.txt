@@ -11,7 +11,7 @@ setDescription("Obtain a hoe from a villager to unlock farming. If you can't fin
 addParent("triumph:ancient/root")
 
 //Set the position
-setPos(-56,-47)
+setPos(-10,-53)
 
 //Adds criteria named "traded" with the trigger type "minecraft:villager_trade". This function returns the criteria as an object
 criteria = addCriteria("traded", "minecraft:villager_trade")

@@ -3,7 +3,7 @@ setTitle("Bees?")
 setDescription("Create a bee house and start beekeeping")
 addParent("triumph:b_medieval/root")
 hideLines()
-setPos(-41,92)
+setPos(-41,65)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 

@@ -5,4 +5,5 @@ addParent("triumph:c_industrial/forestry1")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<forestry:carpenter>)
-setPos(-177,68)
+setPos(-179,55)
+visibleIf("triumph:industrial/forestry1")
