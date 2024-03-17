@@ -5,4 +5,4 @@ addParent("triumph:b_medieval/root")
 criteria = addCriteria("hasRock2", "minecraft:inventory_changed")
 //criteria.addItem("rustic:fluid_bottle", 0, {FluidName: "wine",Amount:1000, Tag:{Quality: 0.75}})
 criteria.addItem("rustic:crushing_tub");
-setPos(-45,32)
+setPos(-4,39)
