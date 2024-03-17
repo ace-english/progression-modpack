@@ -521,6 +521,18 @@ bibliocraft
 //                       monocle
 //                       tinted glasses
 
+/*********************************************
+
+campfire
+
+*********************************************/
+
+recipes.remove(<campfire:campfire>);
+recipes.addShapedMirrored(<campfire:campfire>,[
+    [<ore:stickWood>,<ore:stickWood>],
+    [<forestry:wood_pile>, null]
+]);
+
 
 /*********************************************
 
