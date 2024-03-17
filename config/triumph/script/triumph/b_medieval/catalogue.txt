@@ -1,10 +1,8 @@
-setIcon(<bibliocraft:stockroomcatalogue>)
+setIcon(<bibliocraft:stockroomcatalog>)
 setTitle("Taking Inventory")
 setDescription("Create a low-tech storage system with the Stockroom Catalogue")
 addParent("triumph:b_medieval/root")
-setPos(44,94)
+setPos(-12,-94)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
-
-//Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<bibliocraft:stockroomcatalogue>)
+criteria.setItem(<bibliocraft:stockroomcatalog>)

@@ -1,0 +1,8 @@
+setIcon(<forestry:apiary>)
+setTitle("Bee Accomodations")
+setDescription("Build an apiary for better beekeeping")
+addParent("triumph:c_industrial/forestry2")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<forestry:apiary>)
+setPos(-58,68)

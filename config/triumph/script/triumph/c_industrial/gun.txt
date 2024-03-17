@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:railgun>)
+setTitle("My Little Friend")
+setDescription("Build a railgun")
+addParent("triumph:c_industrial/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:railgun>)
+setPos(-21,32)

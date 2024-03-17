@@ -1,0 +1,13 @@
+//Set icon item
+setIcon(<astikorcarts:plowcart>)
+
+//Set title String
+setTitle("Tractor?")
+
+//Set description String
+setDescription("Build a plowcart. Attach it to a horse for really fast hoing")
+addParent("triumph:ancient/agriculture")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<astikorcarts:plowcart>)
+setPos(44,-64)

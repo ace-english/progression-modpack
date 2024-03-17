@@ -1,0 +1,11 @@
+setTitle("Oh Thank Fuck")
+setIcon("minecraft:cobblestone")
+setDescription("Cobblestone drops from stone again")addParent("triumph:ancient/root")
+addParent("triumph:b_medieval/root")
+
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setBlock(<minecraft:cobblestone>)

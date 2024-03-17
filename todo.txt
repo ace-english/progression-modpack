@@ -11,15 +11,42 @@ potential Jakob tasks:
 	[ ] add Recurrent Construct appearances?
 		- macaw's bridges?
 		- industrial whatevers
+
+
+rustic beehive still spawning, drops rustic bees
+day 1 dhampir?
+an 'analyzer' and a 'sifter' spawned in the village
 		
-		
+	[ ] make dinos drop pelts, large pelts
+	[ ] new doors need staging
+	[ ] campfire achievement?
+	[ ] saw achievment
+	[ ] workblade achievement
+	[ ] sarias achivement
+	[ ] torch achievement
+	[ ] bonus achievement - die from tree
+	[ ] bonus achievement - eat something nasty "but what does it taste like?"
+	[ ] fish
+	[ ] gold trim
 	[ ] stop soulstone creep
+	rustic juice hydration
+	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
+	[ ] fix juicer recipe
+	[ ] nutrition decline a little faster
+	[x] saw medieval
+	[x] coal chain
+	[x] loot table wrong silver?
+	[x] iron bars medieval
+	[ ] cooking table
+	[ ] missing recipes
+		[x] chests
+		[ ] crafting table
 	roots
 		buckets should be more general?
 		[x] dewgonia - use library lilypad
 		[x] something wrong with the transmutation recipe
-	[ ] sisal on sand or dirt
-	[ ] add ovis atre to shears
+	[x] sisal on sand or dirt
+	[x] add ovis atre to shears
 	[ ] swim in chocolate?
 	[ ] make roots knife better?
 	[ ] harvestcraft fish file
@@ -50,33 +77,32 @@ more achievements
 	- can you make another thaumcraft soap?	
 	[ ] medieval achievements
 		[x] fire resistance
-		[ ] easy cobblestone
-		[ ] stomping tub
-			[ ] beer
-				[ ] 100% liquor
+		[x] easy cobblestone
+		[x] stomping tub
+			[x] beer
+				[x] 100% liquor
 		[ ] lance + armor + horse + armor?
 		[ ] ancient warfare start?
+			[ ] complete any ancient warfare raid
 		[ ] steel
-		[ ] twilight forest
-		[ ] complete any ancient warfare raid
-		[ ] stockroom catalogue
+		[x] twilight forest
+		[x] stockroom catalogue
 		[ ] cooking table
 		[ ] irrigation
-		[ ] beekeeping
+		[x] beekeeping
 	[ ] industrial achievements
 		[ ] thaumcraft book
 			[ ] thaumcraft soap
 				[ ] golem
-		[ ] compass
-		[ ] gunpowder
+		[x] compass
+		[x] gunpowder
 		[ ] davinci vessel
 			[ ] (journeymap)
-		[ ] forestry - build carpenter
-			[ ] build alveary
+		[x] forestry - build carpenter
 		[ ] start immersive engineering
 			[ ] treated wood
 			[ ] wire
-			[ ] gun
+			[x] gun
 	[ ] modern achievements
 		[ ] post office
 		[ ] immersive petroleum

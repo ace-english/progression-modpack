@@ -1,0 +1,8 @@
+setIcon(<betterwithmods:axle_generator:2>)
+addParent("triumph:b_medieval/gear1")
+setTitle("Intro to Power")
+setDescription("Build a water wheel or a windmill")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<betterwithmods:axle_generator>)
+setPos(116,-64)

@@ -244,7 +244,6 @@ var industrialIngredients as IIngredient[] = [
     <betterwithmods:material:29>,
     <betterwithmods:mining_charge>,
     <betterwithmods:moulding_iron>,
-    <betterwithmods:saw>,
     <betterwithmods:siding_iron>,
     <betterwithmods:slats>,
     <betterwithmods:slats:1>,
@@ -655,7 +654,6 @@ var industrialIngredients as IIngredient[] = [
     <minecraft:heavy_weighted_pressure_plate>,
     <minecraft:hopper>,
     <minecraft:hopper_minecart>,
-    <minecraft:iron_bars>,
     <minecraft:lever>,
     <minecraft:light_blue_shulker_box>,
     <minecraft:light_weighted_pressure_plate>,
@@ -806,7 +804,6 @@ var industrialIngredients as IIngredient[] = [
 	<davincisvessels:balloon:15>,
 	<davincisvessels:buffer>,
 	<davincisvessels:crate_wood>,
-	<davincisvessels:engine>,
 	<davincisvessels:floater>,
 	<davincisvessels:gauge>,
 	<davincisvessels:gauge:1>,
@@ -1585,5 +1582,5 @@ var industrialIngredients as IIngredient[] = [
 
 for entry in industrialIngredients{
     mods.ItemStages.addItemStage("industrial", entry);
-    mods.recipestages.Recipes.setRecipeStage("industrial", entry);
+    //mods.recipestages.Recipes.setRecipeStage("industrial", entry);
 }

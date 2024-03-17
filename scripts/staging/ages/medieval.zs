@@ -98,6 +98,7 @@ var medievalIngredients as IIngredient[] = [
 <betterwithmods:steel_broken_gearbox>,
 <betterwithmods:steel_gearbox>,
 <betterwithmods:steel_pressure_plate>,
+<betterwithmods:saw>,
 <bewitchment:acacia_resin>,
 <bewitchment:aconitum_seeds>,
 <bewitchment:aconitum>,
@@ -497,7 +498,6 @@ var medievalIngredients as IIngredient[] = [
 <bibliocraft:bibliochase>,
 <bibliocraft:biblioclipboard>,
 <bibliocraft:bibliocreativelock>,
-<bibliocraft:bibliodrill>,
 <bibliocraft:biblioglasses>,
 <bibliocraft:biblioredbook>,
 <bibliocraft:bigbook>,
@@ -804,7 +804,6 @@ var medievalIngredients as IIngredient[] = [
 <cookingforblockheads:cooking_table>,
 <cookingforblockheads:corner>,
 <cookingforblockheads:counter>,
-<cookingforblockheads:cutting_board>,
 <cookingforblockheads:fruit_basket>,
 <cookingforblockheads:recipe_book:1>,
 <cookingforblockheads:recipe_book:2>,
@@ -1263,6 +1262,7 @@ var medievalIngredients as IIngredient[] = [
 <minecraft:iron_helmet>,
 <minecraft:iron_horse_armor>,
 <minecraft:iron_trapdoor>,
+<minecraft:iron_bars>,
 <minecraft:item_frame>,
 <minecraft:jungle_boat>,
 <minecraft:jungle_door>,
@@ -2243,9 +2243,11 @@ var medievalIngredients as IIngredient[] = [
 <rustic:retort>,
 <rustic:silver_lantern>,
 <rustic:wildberry_juice>,
+/*
 <rusticatedfruit:peach_juice>,
 <rusticatedfruit:pear_juice>,
 <rusticatedfruit:persimmon_juice>,
+*/
 <rusticthaumaturgy:candle_brass>,
 <rusticthaumaturgy:chain_brass>,
 <rusticthaumaturgy:cinderfire_whiskey>,
@@ -2765,6 +2767,9 @@ var medievalIngredients as IIngredient[] = [
 <wizardryutils:dusty_spell_book>,
 <wolfarmor:chainmail_wolf_armor:*>,
 <wolfarmor:diamond_wolf_armor:*>,
+
+//steel
+	<immersiveengineering:metal:8>
 ];
 
 
@@ -2773,11 +2778,12 @@ for entry in medievalIngredients{
     //mods.recipestages.Recipes.setRecipeStage("medieval", entry);
 }
 
+
 //add sailcloth
 
 recipes.addShaped("windmill_blade", <betterwithmods:material:10>, [
     [null, <ore:stickWood>, null],
+    [null, <ore:glue>, null],
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
-
 recipes.addShapeless("cloth_windmill_blade", <betterwithmods:material:11>, [<betterwithmods:material:10>, <immersiveengineering:material:12>]);

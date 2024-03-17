@@ -14,13 +14,11 @@ import mods.roots.Fey;
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_carrot>, <minecraft:carrot>, <liquid:gold>, 128, true);
 
 //for progression
-mods.recipestages.Recipes.setRecipeStage("industrial", "davincisvessels:tile.davincis.engine7");
-mods.ItemStages.removeItemStage(<davincisvessels:engine>);
-mods.ItemStages.addItemStage("medieval", <davincisvessels:engine> );
+recipes.remove(<davincisvessels:engine>);
 recipes.addShaped(<davincisvessels:engine>,[
-    [<minecraft:iron_ingot>, <minecraft:water_bucket>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <twilightforest:tower_device:12>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+    [<ore:ingotSteel>, <minecraft:water_bucket>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <twilightforest:tower_device:12>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
 /*********************************************
@@ -388,17 +386,24 @@ recipes.addShaped(<betterwithmods:material:0>,[
     [null, <ore:stickWood>, null],
 ]);
 
+/*
 recipes.addShaped(<betterwithmods:wooden_gearbox>,[
     [null, <ore:stickWood>, null],
     [<ore:stickWood>, <totemic:buffalo_items:1>, <ore:stickWood>],
     [null, <ore:stickWood>, null],
 ]);
 
+global mouldingWood as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+
+recipes.removeByRecipeName("betterwithmods:blocks/mech/axle");
+
 recipes.addShaped(<betterwithmods:wooden_axle>,[
-    [<ore:stickWood>],
+    [mouldingWood],
     [<minecraft:netherbrick>],
-    [<ore:stickWood>]
+    [mouldingWood]
 ]);
+*/
+recipes.removeByRecipeName("betterwithmods:items/material/material.windmill_blade");
 
 <betterwithmods:wooden_axle>.addTooltip(format.darkRed("Mechanical power is of the devil"));
 
@@ -570,6 +575,13 @@ recipes.remove(<harvestcraft:spiderweb_sapling>);
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShapeless(<harvestcraft:cuttingboarditem>, [<animania:carving_knife>,<ore:slabWood>]);
 
+recipes.remove(<harvestcraft:juiceritem>);
+recipes.addShaped(<harvestcraft:juiceritem>, 
+    [[<ore:stone>],
+    [<minecraft:stone_slab>]]);
+    
+//recipes.addShapeless(<dynamictrees:peachseed>, [<rusticatedfruit:seed_peach>,<dynamictrees:dirtbucket>]);
+
 recipes.remove(<harvestcraft:potitem>);
 recipes.addShaped(<harvestcraft:potitem>, [
     [<ore:stickWood>,<ore:ingotCrudeIron>,<ore:ingotCrudeIron>],
@@ -673,7 +685,17 @@ rustic
 
 *********************************************/
 
-
+recipes.removeByRecipeName("rustic:rope");
+recipes.addShaped(<rustic:rope>*12,[
+    [<betterwithmods:rope>],
+    [<betterwithmods:rope>],
+    [<betterwithmods:rope>]
+]);
+recipes.addShaped(<rustic:rope>*3,[
+    [<ore:string>],
+    [<ore:string>],
+    [<ore:string>]
+]);
 
 
 /*********************************************
@@ -823,6 +845,20 @@ Fey.removeRecipe(<roots:component_pouch>);
 Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roots:wildroot>, <ore:leather>, <ore:leather>, <immcraft:chest>]);
 
 
+
+
+/*********************************************
+
+rustic
+
+*********************************************/
+
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped(<rustic:condenser_advanced>, [
+    [null,<ore:ingotBrickNether>,null],
+    [<ore:ingotBrickNether>,<ore:itemEmptyBucket>,<ore:ingotBrickNether>],
+    [<ore:ingotBrickNether>,<ore:blockSoulforgedSteel>,<ore:ingotBrickNether>],
+]);
 
 /*********************************************
 

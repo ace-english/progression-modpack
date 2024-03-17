@@ -1,0 +1,8 @@
+setIcon(<betterwithmods:saw>)
+addParent("triumph:b_medieval/gear2")
+setTitle("I saw, I came")
+setDescription("Build a saw. Must be run on axle power. Useful for building moulding, siding, and planks")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<betterwithmods:saw>)
+setPos(162,-64)

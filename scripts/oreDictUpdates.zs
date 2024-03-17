@@ -5,9 +5,11 @@
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+val oreDictString = <ore:string>;
 //add hemp to string
-//val oreDictString = <ore:string>;
 //oreDictString.add(<immersiveengineering:material:4>);
+//remove silk from string (can be made)
+oreDictString.remove(<mysticalworld:silk_thread>);
 //rename backpack more appropriately
 <forestry:adventurer_bag>.displayName ="Farmer's Backpack";
 <forestry:adventurer_bag_t2>.displayName ="Woven Farmer's Backpack";
