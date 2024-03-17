@@ -6,5 +6,5 @@ addParent("triumph:ancient/workstump")
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem(<tconstruct:tooltables:3>)
 
-visibleIf("triumph:ancient/root")
+visibleIf("triumph:ancient/workstump")
 setPos(86,-30)

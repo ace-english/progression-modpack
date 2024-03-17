@@ -1,10 +1,9 @@
-//setIcon(<tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.8 as float, FreeModifiers: 3, Durability: 535, HarvestLevel: 2, Attack: 3.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.8 as float, FreeModifiers: 3, Durability: 535, HarvestLevel: 2, Attack: 3.5 as float}, Special: {Categories: ["aoe", "harvest", "tool"]}, TinkerData: {Materials: ["wood", "bronze", "bronze"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "dense", color: -1852056, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "dense", "toolleveling"]}));
 setIcon(<mekanism:ingot:2>)
 setTitle("Bronze Age")
-setDescription("Create a bronze pickaxe. You can alloy bronze in the sarias. Then use a melter and a clay cast to create the pickaxe head")
-addParent("triumph:ancient/charcoal")
-setPos(125,47)
+setDescription("Obtain a bronze ingot. You can alloy bronze in the sarias. Then you can use a melter and a clay cast to create tool parts")
+addParent("triumph:ancient/sariras")
+setPos(165,-2)
 
 criteria = addCriteria("made_crude_iron", "minecraft:inventory_changed")
-criteria.addItem("<tconstruct:pick_head>.withTag({Material: "bronze"})")
+criteria.addItem(<mekanism:ingot:2>)
 visibleIf("triumph:ancient/root")

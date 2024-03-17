@@ -10,5 +10,5 @@ criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria1.setItem("minecraft:compass")
 
 visibleIf("triumph:industrial/root")
-setPos(-391,-87)
+setPos(-369,-38)
 hideLines()

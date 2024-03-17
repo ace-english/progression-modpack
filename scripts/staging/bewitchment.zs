@@ -1,4 +1,4 @@
-import moretweaker.bewitchment.WitchesRitual;
+/*import moretweaker.bewitchment.WitchesRitual;
 
 //https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.md
 
@@ -12,3 +12,4 @@ WitchesRitual.addRecipe(
     WitchesRitual.FIERY, 
     WitchesRitual.RITUAL, 
     WitchesRitual.NONE);
+    */

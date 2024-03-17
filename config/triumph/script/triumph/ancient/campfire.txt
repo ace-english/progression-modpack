@@ -1,0 +1,11 @@
+setIcon(<campfire:campfire>)
+setTitle("Campfire Cooking")
+setDescription("Craft a campfire. You can cook food on it and use it for warmth and light")
+addParent("triumph:ancient/root")
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<campfire:campfire>)
+setPos(-49,27)

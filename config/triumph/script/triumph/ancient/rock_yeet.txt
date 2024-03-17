@@ -3,7 +3,7 @@
 setIcon(<immcraft:rock>)
 
 //Set title String
-setTitle("49 to go...")
+setTitle("29 to go...")
 
 //Set description String
 setDescription("Kill something by throwing a rock or a mud clump at it")
@@ -12,7 +12,7 @@ addParent("triumph:ancient/root")
 hideLines()
 
 //Set the position
-setPos(-53,59)
+setPos(-55,60)
 
 
 criteria = addCriteria("hurt_zombie", "minecraft:player_killed_entity")
