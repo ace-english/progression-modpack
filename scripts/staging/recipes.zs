@@ -788,6 +788,24 @@ recipes.addShaped(<naturescompass:naturescompass>,[
 primal
 
 *********************************************/
+recipes.addShaped(<primal:armor_wolf_head>, [
+    [<ore:pelt>,<primal:wolf_head_item>,<ore:pelt>],
+    [<ore:pelt>,null,<ore:pelt>]
+]);
+recipes.addShaped(<primal:armor_wolf_body>, [
+    [<ore:pelt>,null,<ore:pelt>],
+    [<ore:pelt>,<ore:pelt>,<ore:pelt>],
+    [<ore:pelt>,<ore:pelt>,<ore:pelt>]
+]);
+recipes.addShaped(<primal:armor_wolf_legs>, [
+    [<ore:pelt>,<ore:pelt>,<ore:pelt>],
+    [<ore:pelt>,null,<ore:pelt>],
+    [<ore:pelt>,null,<ore:pelt>]
+]);
+recipes.addShaped(<primal:armor_wolf_feet>, [
+    [<ore:pelt>,null,<ore:pelt>],
+    [<ore:pelt>,null,<ore:pelt>]
+]);
 
 
 recipes.removeByRecipeName("primal:cobblestone");

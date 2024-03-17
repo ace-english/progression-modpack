@@ -1,0 +1,9 @@
+setIcon(<ironchest:iron_chest:0>)
+setTitle("Bigger Box")
+setDescription("Build a bigger chest")
+addParent("triumph:c_industrial/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<ironchest:iron_chest:0>)
+visibleIf("triumph:c_industrial/root")
+setPos(-271,-48)

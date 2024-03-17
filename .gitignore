@@ -54,4 +54,5 @@ config/triumph/script/triumph/examples/*
 stagable entities.txt
 armorable entities.txt
 .sync*
+config/ichunutil.cfg
 .vscode/sftp.json
