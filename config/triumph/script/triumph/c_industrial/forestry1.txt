@@ -1,0 +1,8 @@
+setIcon(<forestry:sturdy_machine>)
+setTitle("Bronze Box")
+setDescription("Build a sturdy casing")
+addParent("triumph:c_industrial/root")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<forestry:sturdy_machine>)
+setPos(-246,68)

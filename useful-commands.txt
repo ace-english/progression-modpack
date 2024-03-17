@@ -13,3 +13,7 @@ Tells you the number of unique foods you've eaten, as well as and how many more 
 Clears the stored list of unique foods a player has eaten and resets their heart count. This is useful for testing when editing the config or when you want to start over.
 /foodlist sync
  Forces a sync of the food list to the client, for when something went wrong and it's mismatched. 
+ 
+ 
+ 3 pure carbon + 1 iron = 1 steel
+ 4 coal + 1 iron = steel

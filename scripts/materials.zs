@@ -53,6 +53,15 @@ mods.tconstruct.Melting.addRecipe(<liquid:iron> * 16,<bewitchment:cold_iron_nugg
 //mods.tconstruct.Casting.addTableRecipe(<bewitchment:cold_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_cold_iron>, 16);
 //mods.tconstruct.Casting.addBasinRecipe(<bewitchment:block_of_cold_iron>, null, <liquid:molten_cold_iron>, 1296);
 
+
+//molten_carbon
+mods.tconstruct.Melting.addRecipe(<liquid:molten_carbon> * 100,<primal:charcoal_pure>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_carbon> * 5,<ore:bonemeal>, 200);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_carbon> * 100,<ore:coal>, 200);
+
+//steel
+mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 144, [<liquid:iron> * 144, <liquid:molten_carbon> * 300]);
+
 //soulforged steel
 mods.tconstruct.Melting.addRecipe(<liquid:molten_soulsteel> * 144,<betterwithmods:material:14>, 400);
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:molten_soulsteel>, 144); //ingot

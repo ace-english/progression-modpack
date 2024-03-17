@@ -1,0 +1,12 @@
+setIcon(<rustic:condenser_advanced>)
+setTitle("Local Brewery?")
+setDescription("Create a condenser and start brewing potions")
+addParent("triumph:b_medieval/root")
+setPos(13,1)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<rustic:condenser_advanced>)
+criteria.setItem(<rustic:condenser>)
+setRequirements("any")

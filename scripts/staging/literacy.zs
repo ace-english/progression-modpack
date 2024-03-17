@@ -505,7 +505,16 @@ var items as IIngredient[] = [
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 80}]}),
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 80}]}),
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 80}]}),
-<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 81}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 81}]}),
+
+<fossil:worktable>,
+<fossil:worktable_active>,
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 47}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 47}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 47}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 46}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 46}]}),
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 47}]})
 ];
 
 for item in items{

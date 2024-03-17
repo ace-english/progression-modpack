@@ -69,11 +69,7 @@ recipes.addShaped("villager", villager, [
     [<minecraft:carrot>,<ordinarycoins:coingold>,<minecraft:potato>]
 ]);
 
-recipes.addShaped("witch", witch, [
-    [null,<bewitchment:pentacle>,null],
-    [null,<minecraft:spawn_egg>,<bewitchment:broom>],
-    [null,<bewitchment:witches_cauldron>,null]
-]);
+recipes.addShapeless("witch", witch, [<bewitchment:pentacle>,<minecraft:spawn_egg>,<bewitchment:broom>]);
 
 
 //grimoire of gaia

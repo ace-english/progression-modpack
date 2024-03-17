@@ -1,0 +1,8 @@
+setIcon(<forestry:carpenter>)
+setTitle("Oily Builds")
+setDescription("Build a carpenter")
+addParent("triumph:c_industrial/forestry1")
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<forestry:carpenter>)
+setPos(-177,68)
