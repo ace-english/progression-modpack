@@ -1,0 +1,30 @@
+cp /mnt/Primary/ix-applications/releases/mineos/volumes/ix_volumes/data/servers/Thinking_Rocks/mods	-r
+
+move to folder
+git clone
+copy everything over
+
+
+Cloning into 'progression-modpack'...
+The authenticity of host 'github.com (192.30.255.113)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,192.30.255.113' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+SHA256:Cyh731bJ94cH/DtsrEZccFrmeiqouExIYfyKMdrKks0 
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHGl7E3iPDnIAfSlg0paAQWF6HzKbNXpZDfjMrtcZQeE angela.cauri.english@gmail.com
+
+sudo mv progression-modpack/* .
+sudo mv /mnt/Primary/FTP/new_world/*
+sudo git config --global --add safe.directory /mnt/Primary/ix-applications/releases/mineos/volumes/ix_volumes/data/servers/thinkingrocks
+
+root@NASlan[...ix_volumes/data/servers/thinkingrocks]# sudo git fetch origin mai                                                                                                             n
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.

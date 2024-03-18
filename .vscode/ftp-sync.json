@@ -1,0 +1,26 @@
+{
+    "remotePath": "/mnt/Primary/ix-applications/releases/mineos/volumes/ix_volumes/data/servers/thinkingrocks",
+    "host": "10.0.0.11",
+    "username": "ftp_user",
+    "password": "c8wuqqsbmieyk6fu",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
