@@ -807,6 +807,10 @@ recipes.addShaped(<primal:armor_wolf_feet>, [
     [<ore:pelt>,null,<ore:pelt>]
 ]);
 
+<primal:armor_wolf_body>.displayName = "Fur Chest";
+<primal:armor_wolf_legs>.displayName = "Fur Leggings";
+<primal:armor_wolf_feet>.displayName = "Fur Boots";
+
 
 recipes.removeByRecipeName("primal:cobblestone");
 recipes.addShapeless(<immcraft:rock>, [<primal:rock_stone>]);
