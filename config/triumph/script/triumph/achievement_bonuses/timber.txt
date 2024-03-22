@@ -1,0 +1,10 @@
+setIcon(<dynamictrees:oakbranch>)
+setTitle("Timber")
+setDescription("Get hit by a falling tree")
+addParent("triumph:achievement_bonuses/root")
+
+hideLines()
+
+criteria = addCriteria("killed", "minecraft:entity_hurt_player")
+criteria.setEntityType("dynamictrees:falling_tree")
+setPos(-80,-91)

@@ -3,12 +3,13 @@
 setIcon(<immcraft:rock>)
 
 //Set title String
-setTitle("29 to go...")
+setTitle("14 to go...")
 
 //Set description String
-setDescription("Kill something by throwing a rock or a mud clump at it")
+setDescription("Kill something by throwing a projectile at it")
 
 addParent("triumph:ancient/root")
+visibleIf("triumph:ancient/rock_yeet")
 hideLines()
 
 //Set the position

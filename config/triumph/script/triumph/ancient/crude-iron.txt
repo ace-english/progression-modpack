@@ -1,6 +1,6 @@
 setIcon(<primal:crude_iron_ingot>)
 setTitle("Crude Iron")
-setDescription("Make an ingot from bog iron in a sariras. You can add items to the sariras by throwing them in, then light it with fire sticks or a flint and steel. Shift-click on the sariras to check on the progress")
+setDescription("Make an ingot from bog iron in a sariras")
 addParent("triumph:ancient/sariras")
 setPos(165,33)
 

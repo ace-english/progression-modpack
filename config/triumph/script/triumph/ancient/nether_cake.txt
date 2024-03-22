@@ -9,4 +9,4 @@ setPos(184,-79)
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("the_nether")
 
-visibleIf("triumph:ancient/root")
+visibleIf("triumph:ancient/agriculture")

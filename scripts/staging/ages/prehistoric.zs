@@ -172,12 +172,8 @@ recipes.addShaped(<immcraft:cupboard>, [
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "iron"}), <ore:stickWood>, <minecraft:lead>]);
 recipes.addShapeless(<grapplemod:grapplinghook>, [<tconstruct:pick_head>.withTag({Material: "bronze"}), <ore:stickWood>, <minecraft:lead>]);
 
-//flatbread
-<ore:bread>.add(<progressiontweaks:flat_bread>);
-<ore:foodBread>.add(<progressiontweaks:flat_bread>);
-
 furnace.remove(<minecraft:bread>);
-furnace.addRecipe(<progressiontweaks:flat_bread>, <ore:foodFlour>);
+//furnace.addRecipe(<progressiontweaks:flat_bread>, <ore:foodFlour>);
 furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
 
 //early plumbob
