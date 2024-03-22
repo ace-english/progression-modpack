@@ -576,6 +576,65 @@ recipes.addShaped(<forestry:apiarist_legs>, [
 
 /*********************************************
 
+fossils
+
+*********************************************/
+
+
+recipes.addShaped(<fossil:wooden_javelin>, [
+    [<primal:flint_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+recipes.addShaped(<fossil:wooden_javelin>, [
+    [<primal:bone_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+recipes.addShaped(<fossil:wooden_javelin>, [
+    [<primal:quartz_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+<fossil:wooden_javelin>.displayName = "Spear";
+
+recipes.addShaped(<fossil:stone_javelin>, [
+    [<primal:obsidian_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+<fossil:stone_javelin>.displayName = "Obsidian Spear";
+
+recipes.addShaped(<fossil:gold_javelin>, [
+    [<primal:emerald_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+
+recipes.addShaped(<fossil:gold_javelin>, [
+    [<primal:opal_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+<fossil:gold_javelin>.displayName = "Bejewled Spear";
+
+recipes.addShaped(<fossil:diamond_javelin>, [
+    [<primal:diamond_point>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+<fossil:diamond_javelin>.displayName = "Diamond Spear";
+
+recipes.addShaped(<fossil:iron_javelin>, [
+    [<ore:plateIron>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+<fossil:iron_javelin>.displayName = "Iron Spear";
+
+
+/*********************************************
+
 harvestcraft
 
 *********************************************/
@@ -689,6 +748,72 @@ recipes.addShaped(<improvedbackpacks:backpack>, [
     [<ore:string>,<ore:leather>,<ore:string>],
     [<ore:leather>,<immcraft:chest>,<ore:leather>],
     [<ore:string>,<ore:leather>,<ore:string>]
+]);
+
+/*********************************************
+
+jarm rafts
+
+*********************************************/
+
+recipes.remove(<jarm:oak_raft>);
+recipes.addShaped(<jarm:oak_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logOak>,<ore:logOak>,<ore:logOak>]
+]);
+recipes.addShaped(<jarm:oak_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logOak>,<ore:logOak>,<ore:logOak>]
+]);
+
+recipes.remove(<jarm:spruce_raft>);
+recipes.addShaped(<jarm:spruce_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logSpruce>,<ore:logSpruce>,<ore:logSpruce>]
+]);
+recipes.addShaped(<jarm:spruce_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logSpruce>,<ore:logSpruce>,<ore:logSpruce>]
+]);
+
+recipes.remove(<jarm:birch_raft>);
+recipes.addShaped(<jarm:birch_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logBirch>,<ore:logBirch>,<ore:logBirch>]
+]);
+recipes.addShaped(<jarm:birch_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logBirch>,<ore:logBirch>,<ore:logBirch>]
+]);
+
+recipes.remove(<jarm:jungle_raft>);
+recipes.addShaped(<jarm:jungle_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logJungle>,<ore:logJungle>,<ore:logJungle>]
+]);
+recipes.addShaped(<jarm:jungle_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logJungle>,<ore:logJungle>,<ore:logJungle>]
+]);
+
+recipes.remove(<jarm:acacia_raft>);
+recipes.addShaped(<jarm:acacia_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logAcacia>,<ore:logAcacia>,<ore:logAcacia>]
+]);
+recipes.addShaped(<jarm:acacia_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logAcacia>,<ore:logAcacia>,<ore:logAcacia>]
+]);
+
+recipes.remove(<jarm:dark_oak_raft>);
+recipes.addShaped(<jarm:dark_oak_raft>, [
+    [<ore:string>,null,<ore:string>],
+    [<ore:logDarkOak>,<ore:logDarkOak>,<ore:logDarkOak>]
+]);
+recipes.addShaped(<jarm:dark_oak_raft>, [
+    [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+    [<ore:logDarkOak>,<ore:logDarkOak>,<ore:logDarkOak>]
 ]);
 
 /*********************************************
