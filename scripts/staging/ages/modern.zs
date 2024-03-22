@@ -875,7 +875,6 @@ var modernIngredients as IIngredient[] = [
     <tconstruct:clear_stained_glass:15>,
     <toughasnails:temperature_coil>,
     <toughasnails:temperature_coil:1>,
-    <progressiontweaks:nanomachine_frame>,
     	<immersivepetroleum:dummy>,
 	<immersivepetroleum:material>,
 	<immersivepetroleum:metal_device>,

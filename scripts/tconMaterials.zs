@@ -51,7 +51,6 @@ bread.representativeItem = <item:minecraft:bread>;
 bread.addItem(<item:minecraft:bread>);
 bread.addItem(<item:roots:wildewheet_bread>);
 //bread.addItem(<item:harvestcraft:toastitem>);
-bread.addItem(<item:progressiontweaks:flat_bread>);
 bread.addCoreMaterialStats(1,2);
 bread.addPlatesMaterialStats(1, 1, 0);
 bread.addTrimMaterialStats(1);

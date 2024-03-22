@@ -17,21 +17,44 @@ rustic beehive still spawning, drops rustic bees
 day 1 dhampir?
 an 'analyzer' and a 'sifter' spawned in the village
 		
-	[ ] make dinos drop pelts, large pelts
-	[ ] new doors need staging
-	[ ] campfire achievement?
-	[ ] saw achievment
-	[ ] workblade achievement
-	[ ] sarias achivement
-	[ ] torch achievement
-	[ ] bonus achievement - die from tree
 	[ ] bonus achievement - eat something nasty "but what does it taste like?"
-	[ ] fish
+		- rotten flesh
+		- zombie brain
+		- raw (whatever)
+		- mystery meat (raw or cooked)
+		- yew aril
+	[ ] remove gross foods from spice of life
+	[ ] rope bridge for macaw require rope
+	[ ] add hemp seed to <ore:seed>
+	[ ] add grimoireofgaia:misc_fur to <ore:pelt>
+	[ ] add dinos to horse press
+	[ ] raft with plant fiber
+	[ ] palentologist trades
+	[ ] add tea sapling to villager trade
+	[ ] stage bio good from fossils
+	[ ] stage chicken essence 
+	[ ] adjust sarias achievements to be more intelligble
+	spears
+		- remove spear mod
+			- remove flatbread too
+		- add recipes for javelins
+		- rename stone one "obsidian"
+		- rename wood one just "spear" and use either bone or flint
 	[ ] gold trim
 	[ ] stop soulstone creep
+	[ ] fish
 	rustic juice hydration
+	[x] spark bomb medieval
+	[x] make dinos drop pelts, large pelts
+	[x] new doors need staging
+	[x] campfire achievement?
+	[x] saw achievment
+	[x] workblade achievement
+	[x] sarias achivement
+	[x] torch achievement
+	[x] bonus achievement - die from tree
 	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
-	[ ] fix juicer recipe
+	[x] fix juicer recipe
 	[ ] nutrition decline a little faster
 	[x] saw medieval
 	[x] coal chain

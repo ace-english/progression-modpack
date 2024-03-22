@@ -406,7 +406,6 @@ var disabledIngredients as IIngredient[] = [
 	<primal_tech:flint_block>,
 	<primal_tech:flint_edged_disc>,
 	<primal_tech:leaf_bed>,
-	<progressiontweaks:lime>,
 	<quark:candle>,
 	<quark:candle:1>,
 	<quark:candle:2>,
