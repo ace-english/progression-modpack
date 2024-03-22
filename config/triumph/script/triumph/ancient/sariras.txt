@@ -5,7 +5,7 @@ setIcon(<primal:smelter, nbt:{type: "mud"}>)
 setTitle("Primitive Forge")
 
 //Set description String
-setDescription("Build a sarias for smelting")
+setDescription("Build a sarias for smelting. You can add items to the sariras by throwing them in, then light it with fire sticks, a torch, or a flint and steel. Shift-click on the sariras to check on the progress")
 addParent("triumph:ancient/drying")
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
