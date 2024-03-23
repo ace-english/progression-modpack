@@ -1,4 +1,4 @@
-#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft progressiontweaks primal rustic
+#modloaded tconstruct contenttweaker conarm aquaculture roots harvestcraft primal rustic
 #loader contenttweaker
 #priority 900
 
@@ -419,43 +419,6 @@ wood.addItem(<item:forestry:planks.1:9>, 1, 288);
 wood.addItem(<item:forestry:planks.1:10>, 1, 288);
 wood.addItem(<item:forestry:planks.1:11>, 1, 288);
 wood.addItem(<item:forestry:planks.1:12>, 1, 288);
-/*
-wood.addItem(<item:forestry:planks.fireproof.0:0>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:1>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:2>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:3>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:4>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:5>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:6>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:7>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:8>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:9>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:10>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:11>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:12>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:13>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:14>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.0:15>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:0>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:1>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:2>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:3>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:4>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:5>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:6>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:7>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:8>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:9>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:10>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:11>, 1, 288);
-wood.addItem(<item:forestry:planks.fireproof.1:12>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:0>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:1>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:2>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:3>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:4>, 1, 288);
-wood.addItem(<item:forestry:planks.vanilla.fireproof.0:5>, 1, 288);
-*/
 wood.addItem(<item:rustic:planks>, 1, 288);
 wood.addItem(<item:rustic:planks:1>, 1, 288);
 wood.addItem(<item:rustic:painted_wood_black>, 1, 288);
@@ -639,43 +602,6 @@ wood.addItem(<item:forestry:logs.4:3>, 1, 576);
 wood.addItem(<item:forestry:logs.5:3>, 1, 576);
 wood.addItem(<item:forestry:logs.6:3>, 1, 576);
 wood.addItem(<item:forestry:logs.7:0>, 1, 576);
-/*
-wood.addItem(<item:forestry:logs.fireproof.0:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.1:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.2:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.3:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.4:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.5:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.6:0>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.0:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.1:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.2:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.3:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.4:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.5:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.6:1>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.0:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.1:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.2:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.3:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.4:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.5:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.6:2>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.0:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.1:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.2:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.3:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.4:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.5:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.6:3>, 1, 576);
-wood.addItem(<item:forestry:logs.fireproof.7:0>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.0:0>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.0:1>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.0:2>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.0:3>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.1:0>, 1, 576);
-wood.addItem(<item:forestry:logs.vanilla.fireproof.1:1>, 1, 576);
-*/
 wood.addItem(<item:rustic:log>, 1, 576);
 wood.addItem(<item:rustic:log:1>, 1, 576);
 wood.addItem(<item:thaumcraft:log_greatwood>, 1, 576);
