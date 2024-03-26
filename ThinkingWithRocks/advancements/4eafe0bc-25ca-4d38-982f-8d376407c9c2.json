@@ -1,0 +1,296 @@
+{
+  "roots:terra_moss": {
+    "criteria": {
+      "book": "2024-03-25 00:12:28 +0000"
+    },
+    "done": true
+  },
+  "roots:stalicripe": {
+    "criteria": {
+      "book": "2024-03-26 04:52:30 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_creeper": {
+    "criteria": {
+      "unlock": "2024-03-25 00:50:58 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_silty_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 00:22:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_sandy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 00:22:19 +0000"
+    },
+    "done": true
+  },
+  "roots:staff": {
+    "criteria": {
+      "book": "2024-03-26 03:52:27 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2024-03-24 23:33:42 +0000"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2024-03-24 23:33:42 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_zombie": {
+    "criteria": {
+      "unlock": "2024-03-24 23:49:40 +0000"
+    },
+    "done": true
+  },
+  "roots:spirit_herb": {
+    "criteria": {
+      "book": "2024-03-25 23:50:24 +0000"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/wheel": {
+    "criteria": {
+      "has_planks": "2024-03-25 00:39:59 +0000"
+    },
+    "done": true
+  },
+  "fossil:fossil/iced_meat": {
+    "criteria": {
+      "broken_sword": "2024-03-26 04:56:16 +0000"
+    },
+    "done": true
+  },
+  "roots:pereskia": {
+    "criteria": {
+      "book": "2024-03-25 00:09:28 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:grimoireofgaia_nine_tails": {
+    "criteria": {
+      "unlock": "2024-03-26 03:57:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "roots:runic_shears": {
+    "criteria": {
+      "shears": "2024-03-25 00:27:16 +0000"
+    },
+    "done": true
+  },
+  "roots:cloud_berry": {
+    "criteria": {
+      "book": "2024-03-26 05:14:47 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:main/craft_backpack": {
+    "criteria": {
+      "get_stone": "2024-03-26 03:40:45 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2024-03-24 23:33:42 +0000",
+      "wildewheet": "2024-03-25 23:50:10 +0000",
+      "terra_moss": "2024-03-25 00:12:28 +0000",
+      "spirit_herb": "2024-03-25 23:50:24 +0000",
+      "stalicripe": "2024-03-26 04:52:30 +0000",
+      "pereskia": "2024-03-25 00:09:28 +0000",
+      "cloud_berry": "2024-03-26 05:14:47 +0000"
+    },
+    "done": false
+  },
+  "roots:wildewheet": {
+    "criteria": {
+      "book": "2024-03-25 23:50:10 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:main/upgrade_backpack": {
+    "criteria": {
+      "get_stone": "2024-03-26 04:29:55 +0000"
+    },
+    "done": true
+  },
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2024-03-24 23:33:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "betterwithmods:root": {
+    "criteria": {
+      "has_item": "2024-03-25 00:39:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "mysticalworld:aubergine": {
+    "criteria": {
+      "book": "2024-03-25 23:50:55 +0000"
+    },
+    "done": true
+  },
+  "roots:runestone": {
+    "criteria": {
+      "runestone": "2024-03-25 00:23:49 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_skeleton": {
+    "criteria": {
+      "unlock": "2024-03-26 04:54:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:05:04 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_zombie_villager": {
+    "criteria": {
+      "unlock": "2024-03-26 05:07:00 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 00:22:19 +0000"
+    },
+    "done": true
+  },
+  "horsepower:horsepower/root": {
+    "criteria": {
+      "get_wheat": "2024-03-25 00:39:23 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_spider": {
+    "criteria": {
+      "unlock": "2024-03-25 00:50:34 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "clay_cast": "2024-03-26 03:41:52 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:root": {
+    "criteria": {
+      "tick": "2024-03-24 23:33:42 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2024-03-24 23:33:42 +0000"
+    },
+    "done": true
+  }
+}

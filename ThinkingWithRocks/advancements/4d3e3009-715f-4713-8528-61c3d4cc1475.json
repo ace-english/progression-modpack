@@ -1,0 +1,278 @@
+{
+  "universalbestiary:minecraft_creeper": {
+    "criteria": {
+      "unlock": "2024-03-25 00:52:26 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/scrolls": {
+    "criteria": {
+      "criteria_0": "2024-03-26 03:13:27 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:mined_coquina": {
+    "criteria": {
+      "hat": "2024-03-25 01:09:38 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_silty_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 01:28:49 +0000"
+    },
+    "done": true
+  },
+  "roots:pacifist": {
+    "criteria": {
+      "book": "2024-03-25 02:07:54 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_sandy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 01:28:49 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:mined_garnet": {
+    "criteria": {
+      "hat": "2024-03-25 02:01:12 +0000"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2024-03-25 00:49:32 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_zombie": {
+    "criteria": {
+      "unlock": "2024-03-25 01:30:55 +0000"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/wheel": {
+    "criteria": {
+      "has_planks": "2024-03-25 01:30:50 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:defeat_evil_wizard": {
+    "criteria": {
+      "criteria_0": "2024-03-26 03:11:51 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:grimoireofgaia_nine_tails": {
+    "criteria": {
+      "unlock": "2024-03-26 02:04:07 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/elements": {
+    "criteria": {
+      "sorcery": "2024-03-26 03:13:26 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:root": {
+    "criteria": {
+      "criteria_0": "2024-03-26 03:11:53 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:crystal": {
+    "criteria": {
+      "criteria_0": "2024-03-26 03:11:53 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:main/craft_backpack": {
+    "criteria": {
+      "get_stone": "2024-03-26 04:03:37 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:apprentice": {
+    "criteria": {
+      "magic": "2024-03-26 03:11:53 +0000"
+    },
+    "done": true
+  },
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2024-03-25 00:49:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:wizard_tower": {
+    "criteria": {
+      "criteria_0": "2024-03-25 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "animania:animania/feed_peafowl_opal": {
+    "criteria": {
+      "opal_peahen": "2024-03-26 02:11:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "betterwithmods:root": {
+    "criteria": {
+      "has_item": "2024-03-25 01:30:50 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/obelisks": {
+    "criteria": {
+      "criteria_0": "2024-03-25 02:09:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/terrestrial_artifact": {
+    "criteria": {
+      "emerald": "2024-03-25 01:59:53 +0000"
+    },
+    "done": false
+  },
+  "ebwizardry:armour_set": {
+    "criteria": {
+      "wizard_hat": "2024-03-26 03:11:53 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_skeleton": {
+    "criteria": {
+      "unlock": "2024-03-26 03:26:22 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2024-03-25 00:52:51 +0000"
+    },
+    "done": true
+  },
+  "horsepower:horsepower/root": {
+    "criteria": {
+      "get_wheat": "2024-03-25 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-25 01:28:49 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:root": {
+    "criteria": {
+      "tick": "2024-03-25 00:49:32 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2024-03-25 00:49:32 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/tome_of_arcana": {
+    "criteria": {
+      "criteria_0": "2024-03-26 03:13:25 +0000"
+    },
+    "done": false
+  }
+}

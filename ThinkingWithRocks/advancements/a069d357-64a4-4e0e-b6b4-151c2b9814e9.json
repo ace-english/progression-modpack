@@ -1,0 +1,322 @@
+{
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_silty_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-26 04:44:38 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_sandy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-26 04:44:38 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:mined_garnet": {
+    "criteria": {
+      "hat": "2024-03-26 05:20:18 +0000"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2024-03-24 22:58:37 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2024-03-26 04:48:57 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_silverfish": {
+    "criteria": {
+      "unlock": "2024-03-26 05:11:22 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/elements": {
+    "criteria": {
+      "earth": "2024-03-26 05:21:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:grimoireofgaia_toad": {
+    "criteria": {
+      "unlock": "2024-03-24 23:57:28 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2024-03-26 04:48:57 +0000",
+      "terra_moss": "2024-03-25 00:57:09 +0000"
+    },
+    "done": false
+  },
+  "universalbestiary:grimoireofgaia_spriggan": {
+    "criteria": {
+      "unlock": "2024-03-26 04:15:09 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/spells": {
+    "criteria": {
+      "criteria_0": "2024-03-25 00:57:27 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_skeleton": {
+    "criteria": {
+      "unlock": "2024-03-25 00:39:21 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_zombie_villager": {
+    "criteria": {
+      "unlock": "2024-03-24 23:54:12 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-03-26 04:44:38 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:root": {
+    "criteria": {
+      "tick": "2024-03-24 22:58:37 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2024-03-24 22:58:37 +0000"
+    },
+    "done": true
+  },
+  "roots:terra_moss": {
+    "criteria": {
+      "book": "2024-03-25 00:57:09 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_creeper": {
+    "criteria": {
+      "unlock": "2024-03-24 23:36:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/plowcart": {
+    "criteria": {
+      "has_wheel": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_cave_spider": {
+    "criteria": {
+      "unlock": "2024-03-25 00:44:06 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "roots:pacifist": {
+    "criteria": {
+      "book": "2024-03-25 01:10:26 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_horse": {
+    "criteria": {
+      "unlock": "2024-03-25 01:10:26 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:mined_salt": {
+    "criteria": {
+      "hat": "2024-03-26 05:22:03 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_zombie": {
+    "criteria": {
+      "unlock": "2024-03-26 04:00:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/sand_from_dried_sand": {
+    "criteria": {
+      "has_gem_block": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/wheel": {
+    "criteria": {
+      "has_planks": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/mobcart": {
+    "criteria": {
+      "has_wheel": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:root": {
+    "criteria": {
+      "criteria_0": "2024-03-26 05:21:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "yellow_flower": "2024-03-26 04:18:46 +0000",
+      "red_flower": "2024-03-26 04:18:46 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:main/craft_backpack": {
+    "criteria": {
+      "get_stone": "2024-03-26 04:16:18 +0000"
+    },
+    "done": true
+  },
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2024-03-24 22:58:37 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "ebwizardry:wizard_tower": {
+    "criteria": {
+      "criteria_0": "2024-03-26 05:17:00 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "betterwithmods:root": {
+    "criteria": {
+      "has_item": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "bewitchment:mined_opal": {
+    "criteria": {
+      "hat": "2024-03-25 00:57:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2024-03-24 23:32:24 +0000"
+    },
+    "done": true
+  },
+  "horsepower:horsepower/root": {
+    "criteria": {
+      "get_wheat": "2024-03-26 03:44:24 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "clay_cast": "2024-03-24 22:58:36 +0000"
+    },
+    "done": true
+  },
+  "universalbestiary:minecraft_spider": {
+    "criteria": {
+      "unlock": "2024-03-25 00:50:27 +0000"
+    },
+    "done": true
+  }
+}

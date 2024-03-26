@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal_tech:bone_axe"
+        },
+        "title": "Prehistoric Age",
+        "description": "Making fire with sticks and throwing rocks at dinosaurs",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "rewards": {
+        "function": "../functions:prehistoric"
+    }
+}

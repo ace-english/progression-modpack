@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "a069d357-64a4-4e0e-b6b4-151c2b9814e9",
+    "name": "CorsairJackey",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4eafe0bc-25ca-4d38-982f-8d376407c9c2",
+    "name": "ACETrumps",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4d3e3009-715f-4713-8528-61c3d4cc1475",
+    "name": "ZwhiteNinja",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
