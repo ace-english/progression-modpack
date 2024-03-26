@@ -34,6 +34,7 @@ options.txt
 config/agricraft/json/server*
 shaderpacks/*.txt
 *.xcf
+*.class
 config/jei/bookmarks.ini
 servers.dat
 WailaErrorOutput.txt
