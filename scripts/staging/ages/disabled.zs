@@ -797,6 +797,7 @@ var disabledIngredients as IIngredient[] = [
 	<betterwithmods:material:44>,
 	<harvestcraft:chocolatebaritem>,
 	<harvestcraft:hotcocoaitem>,
+	<harvestcraft:saltitem>,
 	<betterwithmods:kibble>,
 	<betterwithmods:wolf_chop>,
 	<betterwithmods:cooked_wolf_chop>,
