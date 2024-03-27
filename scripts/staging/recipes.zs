@@ -632,6 +632,18 @@ recipes.addShaped(<fossil:iron_javelin>, [
 ]);
 <fossil:iron_javelin>.displayName = "Iron Spear";
 
+recipes.addShaped(<fossil:sifter>,[
+    [<ore:string>, <ore:plankWood>, <ore:string>],
+    [<ore:plankWood>,<ore:meshIron>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:string>,<ore:plankWood>]
+]);
+
+recipes.addShaped(<fossil:sifter>,[
+    [<ore:string>, <ore:plankWood>, <ore:string>],
+    [<ore:plankWood>,<ore:slatMetal>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:string>,<ore:plankWood>]
+]);
+
 
 /*********************************************
 
