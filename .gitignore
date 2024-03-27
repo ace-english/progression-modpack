@@ -56,3 +56,4 @@ armorable entities.txt
 .sync*
 config/ichunutil.cfg
 .vscode/sftp.json
+config/triumph/script/ignore*
