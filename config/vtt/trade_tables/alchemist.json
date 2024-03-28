@@ -17,7 +17,6 @@
 			{action:"add", buy: {id:"bewitchment:tallow", Count: 6}, sell:{id:"ordinarycoins:coinbronze", Count: 25}, CareerLevel: 1},
 			{action:"add", buy: {id:"bewitchment:wood_ash", Count: 10}, sell:{id:"ordinarycoins:coinbronze", Count: 45}, CareerLevel: 3},
 			{action:"add", buy: {id:"bewitchment:dragons_blood_resin", Count: 4}, sell:{id:"ordinarycoins:coinsilver", Count: 20}, CareerLevel: 3}
-			
 		]
 	}
 

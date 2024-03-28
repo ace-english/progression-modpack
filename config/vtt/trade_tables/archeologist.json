@@ -1,0 +1,11 @@
+{ 
+	Profession:"fossil:archeologist", 
+	Career:"archeologist",
+	
+	Offers:{
+	Recipes:[
+		{action:"clear"},
+		{action:"add", buy: {id:"fossil:relic_scrap", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: 10}, CareerLevel: 1}
+		]
+	}
+}
