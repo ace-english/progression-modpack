@@ -4,8 +4,7 @@ import crafttweaker.item.IIngredient;
 mods.WailaStages.addWailaStage("medieval");
 
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.anvil");
-mods.ItemStages.stageRecipeCategory("medieval", "minecraft.furnace");
-mods.ItemStages.stageRecipeCategory("medieval", "minecraft.crafting_table");
+//mods.ItemStages.stageRecipeCategory("medieval", "minecraft.furnace");
 mods.ItemStages.stageRecipeCategory("medieval", "minecraft.crafting_table");
 
 //mods.ItemStages.stageModItems("medieval","bewitchment");
