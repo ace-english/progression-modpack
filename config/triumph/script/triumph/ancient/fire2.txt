@@ -1,7 +1,7 @@
 setIcon(<campfire:campfire>)
 setTitle("Campfire Cooking")
 setDescription("Craft a campfire. You can cook food on it and use it for warmth and light")
-addParent("triumph:ancient/root")
+addParent("triumph:ancient/fire")
 hideLines()
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")

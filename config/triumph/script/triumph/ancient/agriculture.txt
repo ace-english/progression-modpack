@@ -13,12 +13,11 @@ addParent("triumph:ancient/root")
 //Set the position
 setPos(-10,-53)
 
-//Adds criteria named "traded" with the trigger type "minecraft:villager_trade". This function returns the criteria as an object
 criteria = addCriteria("traded", "minecraft:villager_trade")
 criteria.setEntityType("minecraft:villager")
 criteria.setItem(<primal:flint_hoe>)
 
-criteria = addCriteria("traded", "minecraft:villager_trade")
+criteria = addCriteria("traded2", "minecraft:villager_trade")
 criteria.setEntityType("minecraft:villager")
 criteria.setItem(<primal:bone_hoe>)
 

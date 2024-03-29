@@ -1,7 +1,7 @@
 setIcon(<primal_tech:fibre_torch_lit>)
 setTitle("The Torch")
 setDescription("Craft a fibre torch. To light it, right click on another source of fire with the torch in your hand, or right click on the torch in the world with a fire stick")
-addParent("triumph:ancient/root")
+addParent("triumph:ancient/fire2")
 hideLines()
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
