@@ -18,19 +18,16 @@ day 1 dhampir?
 an 'analyzer' and a 'sifter' spawned in the village
 		
 	[ ] bonus achievement - eat something nasty "but what does it taste like?"
-		- rotten flesh
-		- zombie brain
-		- raw (whatever)
-		- mystery meat (raw or cooked)
-		- yew aril
-	[ ] add grimoireofgaia:misc_fur to <ore:pelt>
-	[ ] palentologist trades
-	[ ] add tea sapling to villager trade
 	[ ] rope bridge for macaw require rope
+	[ ] soup rework
 	[ ] gold trim
 	[ ] stop soulstone creep
 	[ ] fish
 	rustic juice hydration
+	[x] generic meat jerky
+	[x] add grimoireofgaia:misc_fur to <ore:pelt>
+	[x] palentologist trades
+	[x] add tea sapling to villager trade
 	[x] remove gross foods from spice of life
 	[x] add hemp seed to <ore:seed>
 	[x] add dinos to horse press
