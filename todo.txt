@@ -12,10 +12,6 @@ potential Jakob tasks:
 		- macaw's bridges?
 		- industrial whatevers
 
-
-rustic beehive still spawning, drops rustic bees
-day 1 dhampir?
-an 'analyzer' and a 'sifter' spawned in the village
 		
 	[ ] bonus achievement - eat something nasty "but what does it taste like?"
 	[ ] rope bridge for macaw require rope
@@ -24,44 +20,11 @@ an 'analyzer' and a 'sifter' spawned in the village
 	[ ] stop soulstone creep
 	[ ] fish
 	rustic juice hydration
-	[x] generic meat jerky
-	[x] add grimoireofgaia:misc_fur to <ore:pelt>
-	[x] palentologist trades
-	[x] add tea sapling to villager trade
-	[x] remove gross foods from spice of life
-	[x] add hemp seed to <ore:seed>
-	[x] add dinos to horse press
-	[x] raft with plant fiber
-	[x] stage bio good from fossils
-	[x] stage chicken essence 
-	[x] adjust sarias achievements to be more intelligble
-	[x] spears
-	[x] spark bomb medieval
-	[x] make dinos drop pelts, large pelts
-	[x] new doors need staging
-	[x] campfire achievement?
-	[x] saw achievment
-	[x] workblade achievement
-	[x] sarias achivement
-	[x] torch achievement
-	[x] bonus achievement - die from tree
-	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
-	[x] fix juicer recipe
 	[ ] nutrition decline a little faster
-	[x] saw medieval
-	[x] coal chain
-	[x] loot table wrong silver?
-	[x] iron bars medieval
 	[ ] cooking table
 	[ ] missing recipes
 		[x] chests
 		[ ] crafting table
-	roots
-		buckets should be more general?
-		[x] dewgonia - use library lilypad
-		[x] something wrong with the transmutation recipe
-	[x] sisal on sand or dirt
-	[x] add ovis atre to shears
 	[ ] swim in chocolate?
 	[ ] make roots knife better?
 	[ ] harvestcraft fish file
@@ -81,10 +44,8 @@ an 'analyzer' and a 'sifter' spawned in the village
 		- replace with bone? fish bone? lol
 	
 more achievements
-	[ ] obsidian
 	[ ] prehistoric achievments
 		[ ] war dance achievement
-		[ ] summon villager achievement
 		[ ] build a raft
 		- vehicles - make the wheel before asticore carts. wheel should be hard
 			- baykok?
@@ -106,9 +67,10 @@ more achievements
 		[ ] irrigation
 		[x] beekeeping
 	[ ] industrial achievements
-		[ ] thaumcraft book
-			[ ] thaumcraft soap
-				[ ] golem
+		[ ] quartz
+			[ ] thaumcraft book
+				[ ] thaumcraft soap
+					[ ] golem
 		[x] compass
 		[x] gunpowder
 		[ ] davinci vessel
@@ -151,6 +113,35 @@ more achievements
 		https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.md
 		
 x --- complete --- x
+	[x] saw medieval
+	[x] coal chain
+	[x] loot table wrong silver?
+	[x] iron bars medieval
+	[x] sisal on sand or dirt
+	[x] add ovis atre to shears
+	[x] generic meat jerky
+	[x] add grimoireofgaia:misc_fur to <ore:pelt>
+	[x] palentologist trades
+	[x] add tea sapling to villager trade
+	[x] remove gross foods from spice of life
+	[x] add hemp seed to <ore:seed>
+	[x] add dinos to horse press
+	[x] raft with plant fiber
+	[x] stage bio good from fossils
+	[x] stage chicken essence 
+	[x] adjust sarias achievements to be more intelligble
+	[x] spears
+	[x] spark bomb medieval
+	[x] make dinos drop pelts, large pelts
+	[x] new doors need staging
+	[x] campfire achievement?
+	[x] saw achievment
+	[x] workblade achievement
+	[x] sarias achivement
+	[x] torch achievement
+	[x] bonus achievement - die from tree
+	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
+	[x] fix juicer recipe
 	[x] stage loot
 		- go through each folder in dumps\loot_tables
 		- start with minecraft
