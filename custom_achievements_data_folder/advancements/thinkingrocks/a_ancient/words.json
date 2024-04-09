@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "thinkingrocks:functions/literacy"
+        "function": "thinkingrocks:literacy"
     }
 }

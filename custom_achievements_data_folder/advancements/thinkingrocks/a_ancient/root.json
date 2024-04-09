@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "thinkingrocks:functions/prehistoric"
+        "function": "thinkingrocks:prehistoric"
     }
 }
