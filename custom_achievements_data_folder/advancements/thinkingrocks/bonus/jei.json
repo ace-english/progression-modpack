@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "biomesoplenty:terrestrial_artifact"
+        },
+        "title": "Worldwalker",
+        "description": "Find gems across various biomes and craft a Terrestrial Artifact. This achievement will unlock the JEI map"
+    },
+    "parent": "thinkingrocks:bonus/root",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:terrestrial_artifact"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:exploration"
+    }
+}
