@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "astikorcarts:wheel"
+        },
+        "title": "Now We're Getting Somewhere",
+        "description": "Invent the wheel"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "wheel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "astikorcarts:wheel"
+                    }
+                ]
+            }
+        }
+    }
+}
