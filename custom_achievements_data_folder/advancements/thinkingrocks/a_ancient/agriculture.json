@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:flint"
+            "item": "primal:flint_hoe"
         },
-        "title": "Flaking",
-        "description": "Left-click Flint or Bone against a hard rock a few times to create Flaked Flint/Bone. Doing it again will give you a Flaked Point. You can get flint from 2 gravel or rarely by breaking dirt. You can also flake dinosaur bones"
+        "title": "The Secret of Agriculture",
+        "description": "Obtain a hoe from a villager to unlock farming. If you can't find a farmer, maybe you can summon one?"
     },
     "parent": "thinkingrocks:a_ancient/root",
     "criteria": {
@@ -29,5 +29,8 @@
             }
         }
     },
-    "requirements": [["bone", "flint"]]
+    "requirements": [["bone", "flint"]],
+    "rewards": {
+        "function": "thinkingrocks:functions/agriculture"
+    }
 }
