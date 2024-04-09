@@ -4,26 +4,26 @@
             "item": "minecraft:flint"
         },
         "title": "Flaking",
-        "description": "Left-click Flint or Bone against a hard rock a few times to create Flaked Flint/Bone. Doing it again will give you a Flaked Point. You can get flint from 2 gravel or rarely by breaking dirt, sand, etc. You can also flake dinosaur bones"
+        "description": "Left-click Flint or Bone against a hard rock a few times to create Flaked Flint/Bone. Doing it again will give you a Flaked Point. You can get flint from 2 gravel or rarely by breaking dirt. You can also flake dinosaur bones"
     },
     "parent": "thinkingrocks:a_ancient/root",
     "criteria": {
         "flint": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:villager_trade",
             "conditions": {
                 "items": [
                     {
-                        "item": "primal:flint_knapp"
+                        "item": "primal:flint_hoe"
                     }
                 ]
             }
         },
         "bone": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:villager_trade",
             "conditions": {
                 "items": [
                     {
-                        "item": "primal:bone_knapp"
+                        "item": "primal:bone_hoe"
                     }
                 ]
             }

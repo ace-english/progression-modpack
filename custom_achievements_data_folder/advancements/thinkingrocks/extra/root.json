@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "rustic:bee"
+        },
+        "title": "Bonus",
+        "description": "Bonus challenges",
+        "background": "biomesoplenty:textures/blocks/honeycomb_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location"
+        }
+    }
+}
