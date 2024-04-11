@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "forestry:sturdy_machine"
+        },
+        "title": "Bronze Box",
+        "description": "Build a sturdy casing"
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "forestry:sturdy_machine"
+                    }
+                ]
+            }
+        }
+    }
+}

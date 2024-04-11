@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": "Big Boom",
+        "description": "Obtain gunpowder. Think this is easier in vanilla..."
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder"
+                    }
+                ]
+            }
+        }
+    }
+}

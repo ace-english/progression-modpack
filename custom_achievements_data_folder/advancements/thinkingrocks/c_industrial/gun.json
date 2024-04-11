@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "immersiveengineering:railgun"
+        },
+        "title": "My Little Friend",
+        "description": "Obtain a gun"
+    },
+    "parent": "thinkingrocks:c_industrial/redstone",
+    "criteria": {
+        "railgun": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "immersiveengineering:railgun"
+                    }
+                ]
+            }
+        },
+        "revolver": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "immersiveengineering:revolver"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["railgun","revolver"]]
+}

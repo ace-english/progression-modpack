@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "immersiveengineering:wirecoil",
+            "data": 5
+        },
+        "title": "Speed of Thought",
+        "description": "Build redstone wire for trasmitting redstone signals across distances"
+    },
+    "parent": "thinkingrocks:c_industrial/redstone",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "immersiveengineering:wirecoil",
+                        "data": 5
+                    }
+                ]
+            }
+        }
+    }
+}

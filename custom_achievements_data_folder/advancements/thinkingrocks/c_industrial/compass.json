@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "title": "Bring Me That Horizon",
+        "description": "Obtain a compass"
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:compass"
+                    }
+                ]
+            }
+        }
+    }
+}

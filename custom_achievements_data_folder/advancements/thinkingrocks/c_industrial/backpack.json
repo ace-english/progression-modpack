@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "travelersbackpack:travelers_backpack"
+        },
+        "title": "Backpack 2: Backpack Harder",
+        "description": "Obtain a Traveler's Backpack"
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "travelersbackpack:travelers_backpack"
+                    }
+                ]
+            }
+        }
+    }
+}

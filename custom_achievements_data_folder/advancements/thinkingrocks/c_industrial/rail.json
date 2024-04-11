@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rail"
+        },
+        "title": "Coast to Coast",
+        "description": "Obtain a rail"
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rail"
+                    }
+                ]
+            }
+        }
+    }
+}
