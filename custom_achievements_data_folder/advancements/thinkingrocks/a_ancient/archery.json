@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "immcraft:rock"
+        },
+        "title": "Nice shot!",
+        "description": "Hit something with a projectile from 50 units away. Unlocks Archery. You can throw rocks, mud clumps, and spears",
+        "frame":"challenge"
+    },
+    "parent": "thinkingrocks:a_ancient/root",
+    "criteria": {
+        "yeet": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "distance": {
+                        "horizontal":{
+                            "min":10
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:archery"
+    }
+}
