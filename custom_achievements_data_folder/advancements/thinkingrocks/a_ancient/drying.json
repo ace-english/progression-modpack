@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:drying_rack"
+        },
+        "title": "Dry",
+        "description": "Build a drying rack. Good for drying bricks, and making jerky and leather"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:drying_rack"
+                    }
+                ]
+            }
+        }
+    }
+}

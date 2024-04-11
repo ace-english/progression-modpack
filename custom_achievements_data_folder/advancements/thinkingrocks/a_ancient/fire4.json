@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal_tech:torch_wood"
+        },
+        "title": "Even Brighter",
+        "description": "Craft an unlit torch"
+    },
+    "parent": "thinkingrocks:a_ancient/fire3",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal_tech:torch_wood"
+                    }
+                ]
+            }
+        }
+    }
+}

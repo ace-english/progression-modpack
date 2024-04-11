@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:cauldron"
+        },
+        "title": "Cooking with Fire",
+        "description": "Make a Cauldron. To heat, place over an open flame"
+    },
+    "parent": "thinkingrocks:a_ancient/stone",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:cauldron"
+                    }
+                ]
+            }
+        }
+    }
+}

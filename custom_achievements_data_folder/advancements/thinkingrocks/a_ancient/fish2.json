@@ -1,0 +1,63 @@
+{
+    "display": {
+        "icon": {
+            "item": "fishingmadebetter:fishing_rod_wood"
+        },
+        "title": "Angling",
+        "description": "Catch a fish the CIVILIZED way, ugh"
+    },
+    "parent": "thinkingrocks:a_ancient/fish1",
+    "criteria": {
+        "fish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                     {
+                    "item": "aquaculture:fish"
+                }
+            ]
+            }
+        },
+        "fishing_rod_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "fishingmadebetter:fishing_rod_wood"
+                    }
+                ]
+            }
+        },
+        "fishing_rod_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "fishingmadebetter:fishing_rod_iron"
+                    }
+                ]
+            }
+        },
+        "fishing_rod_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "fishingmadebetter:fishing_rod_diamond"
+                    }
+                ]
+            }
+        },
+        "fishing_rod_corypha": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:fishing_rod_corypha"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["fish"], ["fishing_rod_wood", "fishing_rod_iron", "fishing_rod_diamond", "fishing_rod_corypha"]]
+}

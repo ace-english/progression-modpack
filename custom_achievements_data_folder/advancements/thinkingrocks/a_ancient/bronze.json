@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:ingot",
+            "data": 2
+        },
+        "title": "Bronze Age",
+        "description": "Obtain a bronze ingot. You can alloy bronze in the sarias. Then you can use a melter and a clay cast to create tool parts"
+    },
+    "parent": "thinkingrocks:a_ancient/sariras",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:ingot",
+                        "data": 2
+                    }
+                ]
+            }
+        }
+    }
+}

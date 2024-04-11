@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:crude_iron_ingot"
+        },
+        "title": "Crude Iron",
+        "description": "Make an ingot from bog iron in a sariras"
+    },
+    "parent": "thinkingrocks:a_ancient/sariras",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:crude_iron_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

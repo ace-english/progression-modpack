@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:charcoal_stack"
+        },
+        "title": "Charcoal",
+        "description": "Make charcoal by burying logs and lighting them on fire. Stack must be covered on all sides by dirt"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:charcoal_fair"
+                    }
+                ]
+            }
+        },
+        "charcoal1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:charcoal_good"
+                    }
+                ]
+            }
+        },
+        "charcoal2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:charcoal_high"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["charcoal", "charcoal1", "charcoal2"]]
+}

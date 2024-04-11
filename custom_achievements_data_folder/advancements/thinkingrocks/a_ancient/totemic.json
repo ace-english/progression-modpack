@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "totemic:totem_whittling_knife"
+        },
+        "title": "Latest in knife-based magic",
+        "description": "Create a whittling knife. Can be used to craft totem poles"
+    },
+    "parent": "thinkingrocks:a_ancient/flaking",
+    "criteria": {
+        "wheel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "totemic:totem_whittling_knife"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:totempedia"
+    }
+}

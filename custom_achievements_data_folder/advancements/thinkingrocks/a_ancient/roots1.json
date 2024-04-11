@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "roots:roots_guide"
+        },
+        "title": "Druidcraft",
+        "description": "Create the guidebook to get started with Roots. (You can read it even if you don't have literacy yet)"
+    },
+    "parent": "thinkingrocks:a_ancient/root",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "roots:roots_guide"
+                    }
+                ]
+            }
+        }
+    }
+}
