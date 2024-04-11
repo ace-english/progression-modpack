@@ -23,27 +23,27 @@ an 'analyzer' and a 'sifter' spawned in the village
 		- raw (whatever)
 		- mystery meat (raw or cooked)
 		- yew aril
-	[ ] remove gross foods from spice of life
-	[ ] rope bridge for macaw require rope
-	[ ] add hemp seed to <ore:seed>
-	[ ] add grimoireofgaia:misc_fur to <ore:pelt>
-	[ ] add dinos to horse press
-	[ ] raft with plant fiber
-	[ ] palentologist trades
+	[ ] dino jerky
+		- use Pam's art
+		= remove existing recipes
+		- rename
+		- add drying recipes for dino meats
+	[ ] drying basin - salt
 	[ ] add tea sapling to villager trade
-	[ ] stage bio good from fossils
-	[ ] stage chicken essence 
-	[ ] adjust sarias achievements to be more intelligble
-	spears
-		- remove spear mod
-			- remove flatbread too
-		- add recipes for javelins
-		- rename stone one "obsidian"
-		- rename wood one just "spear" and use either bone or flint
-	[ ] gold trim
+	[ ] add sapling oredict to tree seeds that lack it
+	[ ] rope bridge for macaw require rope[ ] gold trim
 	[ ] stop soulstone creep
 	[ ] fish
 	rustic juice hydration
+	[x] add hemp seed to <ore:seed>
+	[x] remove gross foods from spice of life
+	[x] add grimoireofgaia:misc_fur to <ore:pelt>
+	[x] add dinos to horse press
+	[x] raft with plant fiber
+	[x] stage bio goo from fossils
+	[x] stage chicken essence 
+	[x] adjust sarias achievements to be more intelligble
+	[x] spears
 	[x] spark bomb medieval
 	[x] make dinos drop pelts, large pelts
 	[x] new doors need staging
@@ -55,23 +55,14 @@ an 'analyzer' and a 'sifter' spawned in the village
 	[x] bonus achievement - die from tree
 	[x] change grapes - use Harvestcraft sprites, yield Rustic fruit and use Rustic seeds
 	[x] fix juicer recipe
-	[ ] nutrition decline a little faster
 	[x] saw medieval
 	[x] coal chain
 	[x] loot table wrong silver?
 	[x] iron bars medieval
 	[ ] cooking table
-	[ ] missing recipes
-		[x] chests
-		[ ] crafting table
-	roots
-		buckets should be more general?
-		[x] dewgonia - use library lilypad
-		[x] something wrong with the transmutation recipe
 	[x] sisal on sand or dirt
 	[x] add ovis atre to shears
 	[ ] swim in chocolate?
-	[ ] make roots knife better?
 	[ ] harvestcraft fish file
 	https://web.archive.org/web/20220813191537/https://www.purdue.edu/hhs/nutr/fish4health/mobile/list.html
 		anchovyrawitem
