@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:flint_hatchet"
+        },
+        "title": "Stone Age",
+        "description": "Make a Flint Hatchet"
+    },
+    "parent": "thinkingrocks:a_ancient/flaking",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:flint_hatchet"
+                    }
+                ]
+            }
+        }
+    }
+}

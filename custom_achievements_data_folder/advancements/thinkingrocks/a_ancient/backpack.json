@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "improvedbackpacks:backpack"
+        },
+        "title": "Backpack Backpack",
+        "description": "Make a backpack. You can equip it in your chest slot. Works as a small portable chest, and is upgradable"
+    },
+    "parent": "thinkingrocks:a_ancient/cauldron",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "improvedbackpacks:backpack"
+                    }
+                ]
+            }
+        }
+    }
+}

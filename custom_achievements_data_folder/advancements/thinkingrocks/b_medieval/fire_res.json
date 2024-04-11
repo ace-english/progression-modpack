@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": "Too Hot to Handle",
+        "description": "Obtain fire resistance. This can be from Rustic potions, Bewitchment effects, wine, totem poles, or a lot of spicy food"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": 
+                    {
+                        "minecraft:fire_resistance" : {}
+                    }
+                
+            }
+        }
+    }
+}

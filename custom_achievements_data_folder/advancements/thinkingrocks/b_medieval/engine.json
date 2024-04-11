@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "davincisvessels:engine"
+        },
+        "title": "Manifest Destiny",
+        "description": "Use the Carbine Reactor from the Ur-Ghast tower to create the first Steam Engine",
+        "frame":"challenge"
+    },
+    "parent": "thinkingrocks:b_medieval/twilight",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "davincisvessels:engine"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:industrial"
+    }
+}

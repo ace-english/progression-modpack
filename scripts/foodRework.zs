@@ -9,7 +9,7 @@ import mods.betterwithmods.Cauldron;
 //unify eggs
 recipes.remove(<betterwithmods:ham_and_eggs>);
 recipes.addShapeless(<betterwithmods:ham_and_eggs>, [<harvestcraft:friedeggitem>, <ore:listAllporkcooked>]);
-
+<fossil:cooked_egg>.displayName = "Fried Dino Egg";
 
 furnace.remove(<betterwithmods:cooked_egg>);
 furnace.remove(<animania:plain_omelette>);
@@ -79,7 +79,8 @@ recipes.addShapeless(<harvestcraft:vinegaritem>, [<harvestcraft:potitem>.reuse()
 
 //raisins
 recipes.removeByRecipeName("harvestcraft:raisinsitem");
-mods.tconstruct.Drying.addRecipe(<harvestcraft:raisinsitem>,<ore:cropGrape>, 60);
+mods.tconstruct.Drying.addRecipe(<harvestcraft:raisinsitem>,<ore:cropGrape>, 600);
+mods.primal.DryingRack.addNonRottingRecipe("raisins", 10, <ore:cropGrape>, <harvestcraft:raisinsitem>);
 
 //root
 recipes.removeByRecipeName("harvestcraft:ediblerootitem");
@@ -224,4 +225,11 @@ recipes.addShapeless(<harvestcraft:fruitpunchitem>, [<harvestcraft:juiceritem>.r
 recipes.removeByRecipeName("harvestcraft:donutitem");
 recipes.removeByRecipeName("harvestcraft:jellydonutitem");
 recipes.addShapeless(<harvestcraft:jellydonutitem>, [<ore:foodDonut>, <ore:jelly>]);
+
+//slime
+recipes.removeByRecipeName("harvestcraft:slime_ball");
+<ore:listAllfreshfish>.remove(<aquaculture:fish:16>);
+<ore:foodJellyfishraw>.add(<aquaculture:fish:16>);
+mods.tconstruct.Drying.addRecipe(<minecraft:slime_ball>,<ore:foodJellyfishraw>, 6000);
+mods.primal.DryingRack.addNonRottingRecipe("slime", 10, <ore:foodJellyfishraw>, <minecraft:slime_ball>);
 

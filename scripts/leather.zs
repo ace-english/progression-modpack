@@ -115,7 +115,8 @@ recipes.addShaped(<improvedbackpacks:ender_backpack>, [
     [<ore:string>, <ore:leather>, <ore:string>]
 ]);
 
-
-
-//add buffalo hide to hide
-//add drying rack recipes
+recipes.removeByRecipeName("grimoireofgaia:vanilla_block_wool");
+furnace.remove(<minecraft:leather>);
+<ore:pelt>.add(<grimoireofgaia:misc_fur>);
+<ore:peltLarge>.add(<grimoireofgaia:misc_fur>);
+<ore:peltFur>.add(<grimoireofgaia:misc_fur>);

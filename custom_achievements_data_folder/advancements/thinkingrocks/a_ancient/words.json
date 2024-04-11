@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "title": "Literacy",
+        "description": "Kill the magic man and steal his fancy words",
+        "frame":"challenge"
+    },
+    "parent": "thinkingrocks:a_ancient/root",
+    "criteria": {
+        "killed_evil_wizard": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": 
+                    {
+                        "type": "ebwizardry:evil_wizard"
+                    }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:literacy"
+    }
+}

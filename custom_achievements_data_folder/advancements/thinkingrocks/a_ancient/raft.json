@@ -1,0 +1,73 @@
+{
+    "display": {
+        "icon": {
+            "item": "jarm:oak_raft"
+        },
+        "title": "Watch for Sharks",
+        "description": "Build a raft"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "oak_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:oak_raft"
+                    }
+                ]
+            }
+        },
+        "spruce_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:spruce_raft"
+                    }
+                ]
+            }
+        },
+        "birch_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:birch_raft"
+                    }
+                ]
+            }
+        },
+        "jungle_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:jungle_raft"
+                    }
+                ]
+            }
+        },
+        "acacia_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:acacia_raft"
+                    }
+                ]
+            }
+        },
+        "dark_oak_raft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "jarm:dark_oak_raft"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["oak_raft", "spruce_raft", "birch_raft", "jungle_raft", "acacia_raft", "dark_oak_raft"]]
+}

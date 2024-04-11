@@ -8,7 +8,7 @@ saves/
 backups/
 screenshots/
 local/
-saves/
+dumps/
 TombManyGraves/
 downloads/
 discordsuite/
@@ -49,10 +49,14 @@ config/InvTweaks.cfg
 mods/UNU *.jar
 config/jei/bookmarks.ini
 Progresson modpack.drawio
-dumps/*
 config/triumph/script/triumph/examples/*
 stagable entities.txt
 armorable entities.txt
 .sync*
 config/ichunutil.cfg
 .vscode/sftp.json
+config/triumph/script/ignore*
+config/vanillafix.cfg
+config/chiselsandbits_clipboard.cfg
+shaderpacks/*.zip.txt
+config/vanillafix.cfg

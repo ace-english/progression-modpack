@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "fossil:dinopedia"
+        },
+        "title": "Survival Evolved",
+        "description": "Build a Dinopedia. Right click a dinosaur with it to view dino info and status"
+    },
+    "parent": "thinkingrocks:a_ancient/words",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "fossil:dinopedia"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "campfire:campfire"
+        },
+        "title": "Campfire Cooking",
+        "description": "Craft a campfire. You can cook food on it and use it for warmth and light"
+    },
+    "parent": "thinkingrocks:a_ancient/fire",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "campfire:campfire"
+                    }
+                ]
+            }
+        }
+    }
+}

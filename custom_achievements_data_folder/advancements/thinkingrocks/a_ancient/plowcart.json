@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "astikorcarts:plowcart"
+        },
+        "title": "Tractor?",
+        "description": "Build a plowcart. Attach it to a horse for really fast hoing. Requires agriculture"
+    },
+    "parent": "thinkingrocks:a_ancient/wheel",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "astikorcarts:plowcart"
+                    }
+                ]
+            }
+        }
+    }
+}

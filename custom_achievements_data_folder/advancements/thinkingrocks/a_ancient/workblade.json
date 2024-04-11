@@ -1,0 +1,83 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:flint_workblade"
+        },
+        "title": "I Workblade This On HGTV?",
+        "description": "Acquire a workblade. The workblade is important for many recipes, such as leather. You can also make ladders by using the workblade on a block, and strip bark from wood by right blicking with the workblade."
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "iron_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:iron_workblade"
+                    }
+                ]
+            }
+        },
+        "obsidian_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:obsidian_workblade"
+                    }
+                ]
+            }
+        },
+        "opal_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:opal_workblade"
+                    }
+                ]
+            }
+        },
+        "flint_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:flint_workblade"
+                    }
+                ]
+            }
+        },
+        "quartz_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:quartz_workblade"
+                    }
+                ]
+            }
+        },
+        "diamond_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:diamond_workblade"
+                    }
+                ]
+            }
+        },
+        "emerald_workblade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:emerald_workblade"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["iron_workblade", "obsidian_workblade", "opal_workblade", "quartz_workblade", "diamond_workblade", "emerald_workblade", "flint_workblade"]]
+}

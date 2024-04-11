@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal_tech:fire_sticks"
+        },
+        "title": "Prometheus",
+        "description": "Make some fire sticks. To start a fire, hold a Fire Stick in both hands and click on a torch or block"
+    },
+    "parent": "thinkingrocks:a_ancient/flaking",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal_tech:fire_sticks"
+                    }
+                ]
+            }
+        }
+    }
+}

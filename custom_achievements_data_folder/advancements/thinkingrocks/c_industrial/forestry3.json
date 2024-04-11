@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "forestry:apiary"
+        },
+        "title": "Bee Accomodations",
+        "description": "Build an apiary for better beekeeping"
+    },
+    "parent": "thinkingrocks:c_industrial/forestry2",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "forestry:apiary"
+                    }
+                ]
+            }
+        }
+    }
+}

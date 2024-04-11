@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "horsepower:press"
+        },
+        "title": "One Hosepower",
+        "description": "Craft a horse press. Put a large animal like a cow or a horse on a lead and connect it to the horse powered machine to get things going"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "horsepower:press"
+                    }
+                ]
+            }
+        }
+    }
+}

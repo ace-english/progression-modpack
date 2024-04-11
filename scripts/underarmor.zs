@@ -11,7 +11,7 @@ mods.ItemStages.addItemStage("modern", <armorunder:goopak_spent>);
 
 var warm_stuff as IIngredient[] = [
     <armorunder:heating_goo>, 
-    <minecraft:wool>, 
+    <minecraft:wool:*>, 
     <twilightforest:arctic_fur>, 
     <grimoireofgaia:misc_fur>,
     <primal:pelt_bear_black>,

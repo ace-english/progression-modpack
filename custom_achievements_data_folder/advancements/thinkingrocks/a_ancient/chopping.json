@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "horsepower:chopping_block"
+        },
+        "title": "Chopp'd",
+        "description": "Make a chopping block. To make planks, place them on the chopping block and hit repeatedly with an axe"
+    },
+    "parent": "thinkingrocks:a_ancient/flint_axe",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "horsepower:chopping_block"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -5,12 +5,9 @@ addParent("triumph:ancient/root")
 hideLines()
 setFrameType("challenge")
 
-//Set the position
 setPos(32,-108)
 
 criteria = addCriteria("killed_evil_wizard", "minecraft:player_killed_entity")
-
-//Sets the required entity type for the criteria. This is the entity that the player must kill.
 criteria.setEntityType("ebwizardry:evil_wizard")
 
 setRewardFunction("triumph:literacy")

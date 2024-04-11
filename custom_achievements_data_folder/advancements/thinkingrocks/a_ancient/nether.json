@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "telepastries:nether_cake"
+        },
+        "title": "Not in Kansas Anymore",
+        "description": "Enter the Nether via a Nether Cake"
+    },
+    "parent": "thinkingrocks:a_ancient/agriculture",
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:homecake"
+    }
+}

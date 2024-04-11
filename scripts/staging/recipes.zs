@@ -632,6 +632,18 @@ recipes.addShaped(<fossil:iron_javelin>, [
 ]);
 <fossil:iron_javelin>.displayName = "Iron Spear";
 
+recipes.addShaped(<fossil:sifter>,[
+    [<ore:string>, <ore:plankWood>, <ore:string>],
+    [<ore:plankWood>,<ore:meshIron>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:string>,<ore:plankWood>]
+]);
+
+recipes.addShaped(<fossil:sifter>,[
+    [<ore:string>, <ore:plankWood>, <ore:string>],
+    [<ore:plankWood>,<ore:slatMetal>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:string>,<ore:plankWood>]
+]);
+
 
 /*********************************************
 
@@ -706,16 +718,16 @@ recipes.addShaped(<harvestcraft:saucepanitem>, [
 
 recipes.remove(<animania:carving_knife>);
 recipes.addShaped(<animania:carving_knife>, [
-    [<ore:ingotCrudeIron>,<ore:ingotCrudeIron>,null],
-    [<ore:stickWood>, null, null]
+    [<ore:ingotCrudeIron>,<ore:ingotCrudeIron>],
+    [<ore:stickWood>, null]
 ]);
 recipes.addShaped(<animania:carving_knife>, [
-    [<ore:ingotIron>,<ore:ingotIron>,null],
-    [<ore:stickWood>, null, null]
+    [<ore:ingotIron>,<ore:ingotIron>],
+    [<ore:stickWood>, null]
 ]);
 recipes.addShaped(<animania:carving_knife>, [
-    [<ore:ingotCopper>,<ore:ingotCopper>,null],
-    [<ore:stickWood>, null, null]
+    [<ore:ingotCopper>,<ore:ingotCopper>],
+    [<ore:stickWood>, null]
 ]);
 
 

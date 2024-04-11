@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal_tech:work_stump"
+        },
+        "title": "Crafting Table?",
+        "description": "Make a Work Stump. To craft, place items on the grid and hit with a Crafting Rock"
+    },
+    "parent": "thinkingrocks:a_ancient/chopping",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal_tech:work_stump"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:crafting_rock"
+    }
+}

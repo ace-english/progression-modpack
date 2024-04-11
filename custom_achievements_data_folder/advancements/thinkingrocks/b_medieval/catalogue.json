@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "bibliocraft:stockroomcatalog"
+        },
+        "title": "Taking Inventory",
+        "description": "Create a low-tech storage system with the Stockroom Catalogue"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "bibliocraft:stockroomcatalog"
+                    }
+                ]
+            }
+        }
+    }
+}

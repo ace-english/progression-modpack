@@ -1,0 +1,1 @@
+give @p primal_tech:rock

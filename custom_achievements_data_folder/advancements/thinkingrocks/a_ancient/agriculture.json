@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:flint_hoe"
+        },
+        "title": "The Secret of Agriculture",
+        "description": "Obtain a hoe from a villager to unlock farming. If you can't find a farmer, maybe you can summon one?"
+    },
+    "parent": "thinkingrocks:a_ancient/root",
+    "criteria": {
+        "flint": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:flint_hoe"
+                    }
+                ]
+            }
+        },
+        "bone": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:bone_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["bone", "flint"]],
+    "rewards": {
+        "function": "thinkingrocks:agriculture"
+    }
+}

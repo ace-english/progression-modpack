@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "grapplemod:grapplinghook"
+        },
+        "title": "Grappling Hook!",
+        "description": "Build a grappling hook for better spelunking"
+    },
+    "parent": "thinkingrocks:a_ancient/bronze",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "grapplemod:grapplinghook"
+                    }
+                ]
+            }
+        }
+    }
+}

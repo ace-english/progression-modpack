@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "tconstruct:tooltables",
+            "data": 3
+        },
+        "title": "Tinker Table Soldier Spy",
+        "description": "Craft a Parts Workbench and a Tool Station to get some real tools going"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tconstruct:tooltables",
+                        "data": 3
+                    }
+                ]
+            }
+        },
+        "parts": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tconstruct:tooltables",
+                        "data": 2
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["table"],["parts"]]
+}

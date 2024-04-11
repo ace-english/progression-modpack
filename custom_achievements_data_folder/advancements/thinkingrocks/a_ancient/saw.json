@@ -1,0 +1,93 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:iron_saw"
+        },
+        "title": "I Saw This On HGTV",
+        "description": "Build a saw. Saw allows you to make planks much more quickly than the chopping block. Nicer saws give more planks"
+    },
+    "parent": "thinkingrocks:a_ancient/flaking",
+    "criteria": {
+        "iron_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:iron_saw"
+                    }
+                ]
+            }
+        },
+        "obsidian_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:obsidian_saw"
+                    }
+                ]
+            }
+        },
+        "bone_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:bone_saw"
+                    }
+                ]
+            }
+        },
+        "flint_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:flint_saw"
+                    }
+                ]
+            }
+        },
+        "quartz_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:quartz_saw"
+                    }
+                ]
+            }
+        },
+        "copper_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:copper_saw"
+                    }
+                ]
+            }
+        },
+        "diamond_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:diamond_saw"
+                    }
+                ]
+            }
+        },
+        "emerald_saw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:emerald_saw"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["iron_saw", "obsidian_saw", "bone_saw", "flint_saw", "quartz_saw", "copper_saw", "diamond_saw", "emerald_saw"]]
+}

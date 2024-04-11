@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "tconstruct:smeltery_controller"
+        },
+        "title": "The Forge",
+        "description": "Build a Smeltery Controller. Unlocks Medieval stage",
+        "frame":"challenge"
+    },
+    "parent": "thinkingrocks:a_ancient/nether",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tconstruct:smeltery_controller"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:medieval"
+    }
+}

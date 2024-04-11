@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "ironchest:iron_chest"
+        },
+        "title": "Bigger Box",
+        "description": "Build a bigger chest"
+    },
+    "parent": "thinkingrocks:c_industrial/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "ironchest:iron_chest"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal:smelter"
+        },
+        "title": "Primitive Forge",
+        "description": "Build a sarias for smelting. You can add items to the sariras by throwing them in, then light it with fire sticks, a torch, or a flint and steel. Shift-click on the sariras to check on the progress"
+    },
+    "parent": "thinkingrocks:a_ancient/drying",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal:smelter"
+                    }
+                ]
+            }
+        }
+    }
+}

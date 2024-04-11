@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "roots:stone_knife"
+        },
+        "title": "This is a knife",
+        "description": "Create a runic knife on a tool forge, for Roots and various crafting purposes"
+    },
+    "parent": "thinkingrocks:a_ancient/roots1",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tinkers_reforged:runic_knife"
+                    }
+                ]
+            }
+        }
+    }
+}

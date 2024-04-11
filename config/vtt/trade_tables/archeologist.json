@@ -1,0 +1,42 @@
+{ 
+	Profession:"fossil:archeologist", 
+	Career:"archeologist",
+	
+	Offers:{
+	Recipes:[
+		{action:"clear"},
+		{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:10,max:20}}, sell:{id:"fossil:relic_scrap", Count: 1}, CareerLevel: 1},
+		{action:"add", buy: {id:"ordinarycoins:coinbronze", Count: {min:15,max:30}}, sell:{id:"fossil:stone_tablet", Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:10,max:30}}, sell:{id:"fossil:broken_sword", Count: 1}, CareerLevel: 3},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: {min:10,max:30}}, sell:{id:"fossil:broken_helmet", Count: 1}, CareerLevel: 3},
+		{action:"add", buyB: {id:"ordinarycoins:coingold", Count: 3}, buy: {id:"fossil:broken_sword", Count: 1}, sell:{id:"fossil:ancient_sword", Count: 1}, CareerLevel: 5},
+		{action:"add", buyB: {id:"ordinarycoins:coingold", Count: 3}, buy:{id:"fossil:broken_helmet", Count: 1},  sell:{id:"fossil:ancient_helmet", Count: 1}, CareerLevel: 5},
+		{action:"add", buy: {id:"fossil:whip", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
+		{action:"add", chance:0.5, buy: {id:"immersiveengineering:revolver", Count: 1}, sell:{id:"ordinarycoins:coingold", Count: 20}, CareerLevel: 4},
+		{action:"add", buy: {id:"fossil:pottery_shard", Count: 1}, sell:{id:"ordinarycoins:coinbronze", Count: {min:5,max:0}}, CareerLevel: 1},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 0, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 1, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 2, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 3, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 4, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 5, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 6, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 7, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 8, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 9, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 10, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 11, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 12, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 13, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 14, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:figurine", Damage: 15, Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 1}, sell:{id:"fossil:wooden_javelin", Count: 1}, CareerLevel: 1},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 2}, sell:{id:"fossil:stone_javelin", Count: 1}, CareerLevel: 2},
+		{action:"add", buy: {id:"ordinarycoins:coinsilver", Count: 5}, sell:{id:"fossil:iron_javelin", Count: 1}, CareerLevel: 3},
+		{action:"add", buy: {id:"ordinarycoins:coingold", Count: 1}, sell:{id:"fossil:gold_javelin", Count: 1}, CareerLevel: 3},
+		{action:"add", buy: {id:"ordinarycoins:coingold", Count: 3}, sell:{id:"fossil:diamond_javelin", Count: 1}, CareerLevel: 4},
+		{action:"add", buy: {id:"ordinarycoins:coingold", Count: 5}, sell:{id:"fossil:ancient_javelin", Count: 1}, CareerLevel: 5},
+		{action:"add", chance:0.5, buy: {id:"immersiveengineering:railgun", Count: 1}, sell:{id:"ordinarycoins:coingold", Count: 30}, CareerLevel: 4}
+		]
+	}
+}

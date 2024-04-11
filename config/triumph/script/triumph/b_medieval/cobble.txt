@@ -1,6 +1,6 @@
-setTitle("Oh Thank Fuck")
 setIcon("minecraft:cobblestone")
-setDescription("Cobblestone drops from stone again")addParent("triumph:ancient/root")
+setTitle("Oh Thank Fuck")
+setDescription("Cobblestone drops from stone again")
 addParent("triumph:b_medieval/root")
 
 

@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;  
 import crafttweaker.liquid.ILiquidStack;  
 import mods.rustic.CrushingTub;  
+import mods.rustic.EvaporatingBasin;
    
 val nullIngr as IItemStack = null;  
 /*
@@ -17,3 +18,6 @@ for seed in <ore:listAllseed>.items{
     CrushingTub.addRecipe(<liquid:seed.oil> * 50, nullIngr, seed * 1);
 }
 recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)]);
+
+//	public static void addRecipe(IItemStack output, ILiquidStack input) {
+EvaporatingBasin.addRecipe(<bewitchment:salt>, <liquid:water>*250);

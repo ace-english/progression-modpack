@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "betterwithmods:material"
+        },
+        "title": "Yes, Gear",
+        "description": "Build a gearbox"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "betterwithmods:wooden_gearbox"
+                    }
+                ]
+            }
+        }
+    }
+}

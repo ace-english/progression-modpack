@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "immcraft:chest"
+        },
+        "title": "My Stuff",
+        "description": "Build a crude chest"
+    },
+    "parent": "thinkingrocks:a_ancient/workstump",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "immcraft:chest"
+                    }
+                ]
+            }
+        }
+    }
+}

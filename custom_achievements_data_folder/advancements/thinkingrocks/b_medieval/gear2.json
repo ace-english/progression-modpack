@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "betterwithmods:axle_generator",
+            "data": 2
+        },
+        "title": "Intro to Power",
+        "description": "Build a water wheel or a windmill"
+    },
+    "parent": "thinkingrocks:b_medieval/gear1",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "betterwithmods:axle_generator"
+                    }
+                ]
+            }
+        }
+    }
+}

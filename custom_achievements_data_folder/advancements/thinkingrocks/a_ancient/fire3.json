@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "primal_tech:fibre_torch_lit"
+        },
+        "title": "The Torch",
+        "description": "Craft a fibre torch. To light it, right click on another source of fire with the torch in your hand, or right click on the torch in the world with a fire stick"
+    },
+    "parent": "thinkingrocks:a_ancient/fire2",
+    "criteria": {
+        "firestick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "primal_tech:fibre_torch"
+                    }
+                ]
+            }
+        }
+    }
+}

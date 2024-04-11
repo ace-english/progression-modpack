@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "betterwithmods:wooden_axle"
+        },
+        "title": "Axle Lottle",
+        "description": "Build a soulsteel axle or a wooden axle"
+    },
+    "parent": "thinkingrocks:b_medieval/gear",
+    "criteria": {
+        "wooden_axle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "betterwithmods:wooden_axle"
+                    }
+                ]
+            }
+        },
+        "steel_axle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "betterwithmods:steel_axle"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["wooden_axle","steel_axle"]]
+}

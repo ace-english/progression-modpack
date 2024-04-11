@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "forestry:carpenter"
+        },
+        "title": "Oily Builds",
+        "description": "Build a carpenter"
+    },
+    "parent": "thinkingrocks:c_industrial/forestry1",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "forestry:carpenter"
+                    }
+                ]
+            }
+        }
+    }
+}

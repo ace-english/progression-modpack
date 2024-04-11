@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "thaumcraft:mechanism_simple"
+        },
+        "title": "Industrial Age",
+        "description": "Coal, steam, and science",
+        "background": "minecraft:textures/blocks/brick.png",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "davincisvessels:engine"
+                    }
+                ]
+            }
+        }
+    }
+}

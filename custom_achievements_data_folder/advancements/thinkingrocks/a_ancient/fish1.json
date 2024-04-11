@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "fossil:stone_javelin"
+        },
+        "title": "Spearfishing",
+        "description": "Catch a fish the caveman way"
+    },
+    "parent": "thinkingrocks:a_ancient/root",
+    "criteria": {
+        "killed_fish0": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jaff:cod"
+                }
+            }
+        },
+        "killed_fish1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jaff:clownfish"
+                }
+            }
+        },
+        "killed_fish2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jaff:salmon"
+                }
+            }
+        },
+        "killed_fish3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "jaff:pufferfish"
+                }
+            }
+        }
+    },
+    "requirements": [["killed_fish0", "killed_fish1", "killed_fish2", "killed_fish3"]]
+}
