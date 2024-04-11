@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "telepastries:twilight_cake"
+        },
+        "title": "Into the Woods",
+        "description": "Make a Twilight Forest Cake"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "twilight_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thinkingrocks:homecake"
+    }
+}

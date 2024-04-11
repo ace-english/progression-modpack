@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "rustic:condenser"
+        },
+        "title": "Local Brewery?",
+        "description": "Create a condenser and start brewing potions"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "condenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "rustic:condenser"
+                    }
+                ]
+            }
+        },
+        "condenser_advanced": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "rustic:condenser_advanced"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["condenser","condenser_advanced"]]
+}

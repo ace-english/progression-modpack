@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "betterwithmods:saw"
+        },
+        "title": "I saw, I came",
+        "description": "Build a saw. Must be run on axle power. Useful for building moulding, siding, and planks"
+    },
+    "parent": "thinkingrocks:b_medieval/gear2",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "betterwithmods:saw"
+                    }
+                ]
+            }
+        }
+    }
+}

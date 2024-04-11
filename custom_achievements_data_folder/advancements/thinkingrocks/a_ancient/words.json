@@ -4,7 +4,8 @@
             "item": "minecraft:book"
         },
         "title": "Literacy",
-        "description": "Kill the magic man and steal his fancy words"
+        "description": "Kill the magic man and steal his fancy words",
+        "frame":"challenge"
     },
     "parent": "thinkingrocks:a_ancient/root",
     "criteria": {

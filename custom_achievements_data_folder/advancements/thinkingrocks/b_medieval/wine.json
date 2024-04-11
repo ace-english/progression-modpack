@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "rustic:crushing_tub"
+        },
+        "title": "Trouble Brewing",
+        "description": "Make a crushing tub for making juices and alchoholic drinks"
+    },
+    "parent": "thinkingrocks:b_medieval/root",
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "rustic:crushing_tub"
+                    }
+                ]
+            }
+        }
+    }
+}
