@@ -130,8 +130,6 @@ recipes.addShaped(<naturescompass:naturescompass>,[
 simplytea
 
 *********************************************/
-<simplytea:teapot>
-<simplytea:cup>
 
 recipes.remove(<simplytea:teapot>);
 recipes.addShaped(<simplytea:teapot>, [

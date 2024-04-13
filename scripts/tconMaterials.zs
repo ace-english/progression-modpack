@@ -23,6 +23,37 @@ documentation:
 
  *****************************************************************/
 
+
+/*        new material - tf_ironwood           */
+var molten_ironwood = VanillaFactory.createFluid("molten_ironwood", Color.fromHex("475931"));
+molten_ironwood.register();
+
+val tf_ironwood = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("tf_ironwood");
+tf_ironwood.localizedName = "Twilight Ironwood";
+tf_ironwood.color = 0x475931;
+tf_ironwood.castable = true;
+tf_ironwood.craftable = true;
+tf_ironwood.representativeItem = <item:twilightforest:ironwood_ingot>;
+tf_ironwood.addItem(<item:twilightforest:ironwood_ingot>);
+tf_ironwood.addItem(<item:twilightforest:block_storage>);
+tf_ironwood.addItem(<item:twilightforest:ironwood_raw>);
+tf_ironwood.addCoreMaterialStats(10,12);
+tf_ironwood.addPlatesMaterialStats(1, 10, 2);
+tf_ironwood.addTrimMaterialStats(1);
+tf_ironwood.addHeadMaterialStats(600, 6, 7, 3);
+tf_ironwood.addHandleMaterialStats(1.2, 200);
+tf_ironwood.addExtraMaterialStats(200);
+tf_ironwood.addBowMaterialStats(2, 1.5, 2);
+tf_ironwood.addArrowShaftMaterialStats(2,0);
+tf_ironwood.addProjectileMaterialStats();
+tf_ironwood.addProjectileMaterialStats();
+tf_ironwood.addMaterialTrait("ecological", "core");
+tf_ironwood.addMaterialTrait("stiff", "plates");
+tf_ironwood.addMaterialTrait("ecological", "trim");
+tf_ironwood.addMaterialTrait("twilit");
+tf_ironwood.addMaterialTrait("ecological");
+tf_ironwood.register();
+
 /*        new material - leather           */
 val leather = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("leather_mat");
 leather.localizedName = "Leather";
@@ -154,7 +185,7 @@ cold_iron.liquid = <liquid:molten_cold_iron>;
 cold_iron.castable = false;
 cold_iron.craftable = true;
 cold_iron.representativeItem = <item:bewitchment:cold_iron_ingot>;
-fey_leather.addItem(<item:bewitchment:cold_iron_ingot>);
+cold_iron.addItem(<item:bewitchment:cold_iron_ingot>);
 cold_iron.addCoreMaterialStats(13,15);
 cold_iron.addPlatesMaterialStats(1, 6, 1);
 cold_iron.addTrimMaterialStats(4);

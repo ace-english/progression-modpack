@@ -104,7 +104,12 @@ mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_ingot>, <tconstruct:ca
 mods.tconstruct.Casting.addTableRecipe(<primal:crude_iron_nugget>, <tconstruct:cast_custom:1>, <liquid:molten_crude_iron>, 16);
 mods.tconstruct.Casting.addBasinRecipe(<primal:metalblock:0>, null, <liquid:molten_crude_iron>, 1296);
 
-//no more blocks by hand
+//tf ironwood
+mods.tconstruct.Melting.addRecipe(<liquid:molten_ironwood> * 1296,<twilightforest:block_storage>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_ironwood> * 144,<twilightforest:ironwood_ingot>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_ironwood> * 288,<twilightforest:ironwood_raw>, 400);
+mods.tconstruct.Casting.addTableRecipe(<twilightforest:ironwood_ingot>, <tconstruct:cast_custom>, <liquid:molten_ironwood>, 144);
+mods.tconstruct.Casting.addBasinRecipe(<twilightforest:block_storage>, null, <liquid:molten_ironwood>, 1296);
 
 
 //misc recipes
