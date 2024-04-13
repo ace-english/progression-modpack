@@ -60,3 +60,4 @@ config/vanillafix.cfg
 config/chiselsandbits_clipboard.cfg
 shaderpacks/*.zip.txt
 config/vanillafix.cfg
+*.lnk
