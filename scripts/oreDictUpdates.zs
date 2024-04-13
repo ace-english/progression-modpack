@@ -480,6 +480,15 @@ for bark in <ore:rootsBark>.items{
 <ore:logSpruce>.add(<forestry:logs.5>);
 <ore:logSpruce>.add(<totemic:cedar_log>);
 
+<ore:plankIronwood>.add(<rustic:planks:1>);
+
+recipes.addShapeless(<minecraft:log:0>,[<ore:logOak>]);
+recipes.addShapeless(<minecraft:log:1>,[<ore:logSpruce>]);
+recipes.addShapeless(<minecraft:log:2>,[<ore:logBirch>]);
+recipes.addShapeless(<minecraft:log:3>,[<ore:logJungle>]);
+recipes.addShapeless(<minecraft:log2:0>,[<ore:logAcacia>]);
+recipes.addShapeless(<minecraft:log2:1>,[<ore:logDarkOak>]);
+
 //seeds
 <ore:seed>.add(<immersiveengineering:seed>);
 <ore:seed>.add(<agricraft:agri_seed>);
