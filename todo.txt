@@ -9,13 +9,23 @@ potential Jakob tasks:
 
 		
 	[ ] bonus achievement - eat something nasty "but what does it taste like?"
-	[ ] soup rework
-	[ ] gold trim
+		- rotten flesh
+		- zombie brain
+		- raw (whatever)
+		- mystery meat (raw or cooked)
+		- yew aril
+	[ ] dino jerky
+		- use Pam's art
+		= remove existing recipes
+		- rename
+		- add drying recipes for dino meats
+	[ ] drying basin - salt
+	[ ] add tea sapling to villager trade
+	[ ] add sapling oredict to tree seeds that lack it
+	[ ] rope bridge for macaw require rope[ ] gold trim
 	[ ] stop soulstone creep
 	rustic juice hydration
-	[ ] nutrition decline a little faster
 	[ ] swim in chocolate?
-	[ ] make roots knife better?
 	[ ] harvestcraft fish file
 	https://web.archive.org/web/20220813191537/https://www.purdue.edu/hhs/nutr/fish4health/mobile/list.html
 		anchovyrawitem
