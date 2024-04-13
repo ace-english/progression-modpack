@@ -415,6 +415,8 @@ for bark in <ore:rootsBark>.items{
 <ore:treeSapling>.add(<dynamictreesforestry:zebrawoodbranch>);
 <ore:treeSapling>.add(<dynamictreesforestry:zebrawoodbranchx>);
 <ore:treeSapling>.add(<dynamictreesforestry:zebrawoodseed>);
+<ore:treeSapling>.add(<bewitchment:cypressseed>);
+
 
 
 // add generics to wood types
