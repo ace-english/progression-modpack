@@ -3,6 +3,27 @@ import mods.roots.Pacifist;
 import mods.roots.AnimalHarvest;
 import mods.roots.SummonCreatures;
 
+import moretweaker.bewitchment.WitchesRitual;
+//https://bitbucket.org/noeppi_noeppi/moretweaker/wiki/bewitchment.md
+
+recipes.removeByRecipeName("bewitchment:unfired_jar");
+recipes.addShaped(<bewitchment:unfired_jar>*4, [
+    [null,<minecraft:clay_ball>,null],
+    [<minecraft:clay_ball>,null,<minecraft:clay_ball>],
+    [null,<minecraft:clay_ball>,null]
+]);
+
+WitchesRitual.addRecipe(
+    "Unholy Divining",
+    [<minecraft:compass>],
+    [<primal:iron_pin>, <ore:dyeRed>, <bewitchment:droplet_of_wisdom>],
+    null,
+    null,
+    500,
+    WitchesRitual.FIERY, 
+    WitchesRitual.RITUAL, 
+    WitchesRitual.NONE);
+
 //fix grilled garlic functional
 furnace.addRecipe(<bewitchment:garlic_grilled>, <ore:cropGarlic>);
 //add garlic to poppet recipie

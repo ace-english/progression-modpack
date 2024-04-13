@@ -20,10 +20,3 @@ recipes.addShapeless(<harvestcraft:seaweeditem>, [<aquaculture:food:0>]);
 recipes.removeByRecipeName("harvestcraft:string_cropcotton");
 recipes.removeByRecipeName("harvestcraft:cottonitem");
 recipes.addShapeless(<minecraft:string>*3, [<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>]);
-/*
-recipes.addShapeless(<mysticalworld:assorted_seeds>
-
-
-    <mysticalworld:spindle>,
-
-    */

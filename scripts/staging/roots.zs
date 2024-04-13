@@ -116,6 +116,12 @@ Fey.addRecipe("runestone", <roots:runestone>*8,
 Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, 
     [<ore:toolShears>, <roots:pereskia>, <roots:pereskia>, <ore:runestone>, <ore:runestone>]);
+    
+Fey.removeRecipe(<roots:component_pouch>);
+Fey.addRecipe("component_pouch", <roots:component_pouch>, [<ore:rootsBark>, <roots:wildroot>, <ore:leather>, <ore:leather>, <immcraft:chest>]);
+
+
+
 
 Pyre.removeRecipe(<roots:pereskia>);
 Pyre.addRecipe("pereskia", <roots:pereskia>*3,
@@ -132,6 +138,9 @@ Pyre.addRecipe("stalicripe", <roots:stalicripe>*3,
 Pyre.removeRecipe(<roots:infernal_bulb>);
 Pyre.addRecipe("infernal_bulb", <roots:infernal_bulb>*3,
     [<roots:wildroot>,<minecraft:magma_cream>, <ore:dustSaltpeter>, <ore:itemLavaBucket>, <betterwithmods:material:16>]);
+
+
+    
 
 Rituals.modifyRitual("ritual_grove_supplication", [
     <ore:doorWood>|<ore:curtain>, <minecraft:stone>, <minecraft:iron_ingot>|<primal:crude_iron_ingot>, <roots:wildroot>, <ore:gemAmber>
@@ -152,3 +161,4 @@ Rituals.modifyRitual("ritual_gathering", [
 Rituals.modifyRitual("ritual_purity", [
     <roots:terra_moss>, <mysticalworld:aubergine>, <roots:baffle_cap_mushroom>, <ore:bucketMilk>, <minecraft:glass_bottle>
 ]);
+

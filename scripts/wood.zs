@@ -1,4 +1,3 @@
-
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
@@ -75,7 +74,10 @@ var plankLogPairs as IIngredient[][IItemStack] = {
     <twilightforest:time_planks> : [<twilightforest:magic_log:0>],
     <twilightforest:trans_planks> : [<twilightforest:magic_log:1>],
     <twilightforest:mine_planks> : [<twilightforest:magic_log:2>],
-    <twilightforest:sort_planks> : [<twilightforest:magic_log:3>]
+    <twilightforest:sort_planks> : [<twilightforest:magic_log:3>],
+    <primal:planks:3> : [<primal:logs_split_corypha>],
+    <primal:planks:1> : [<primal:logs:1>],
+    <primal:planks:3> : [<primal:logs_split_corypha>]
 };
 
 var basicSaw = <primal:bone_saw>.anyDamage().transformDamage() | <primal:flint_saw>.anyDamage().transformDamage();
