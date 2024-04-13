@@ -34,11 +34,15 @@ CrushingTub.addRecipe(<liquid:binnie.juice.apricot> * 250, nullIngr, <extratrees
 
 CrushingTub.addRecipe(<liquid:honey> * 250, nullIngr, <biomesoplenty:filled_honeycomb> * 1);
 CrushingTub.addRecipe(<liquid:honey> * 250, nullIngr, <harvestcraft:honeycombitem> * 1);
-for seed in <ore:listAllveggie>.items{
-    CrushingTub.addRecipe(<liquid:plantoil> * 50, nullIngr, seed * 1);
+
+for honey in <ore:beeComb>.items{
+    CrushingTub.addRecipe(<liquid:honey> * 250, nullIngr, honey * 1);
+}
+for veg in <ore:listAllveggie>.items{
+    CrushingTub.addRecipe(<liquid:plantoil> * 50, nullIngr, veg * 1);
 }
 for seed in <ore:listAllseed>.items{
-    CrushingTub.addRecipe(<liquid:seed.oil> * 50, nullIngr, seed * 1);
+    CrushingTub.addRecipe(<liquid:seed.oil> * 10, nullIngr, seed * 1);
 }
 recipes.addShapeless(<harvestcraft:oliveoilitem>, [<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "plantoil", Amount: 1000}}).transformReplace(<ceramics:clay_bucket>)]);
@@ -46,3 +50,7 @@ recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<ceramics:clay_bucket>.with
 
 //	public static void addRecipe(IItemStack output, ILiquidStack input) {
 EvaporatingBasin.addRecipe(<bewitchment:salt>, <liquid:water>*250);
+
+for grain in <ore:listAllgrain>.items{
+    CrushingTub.addRecipe(<liquid:alewort> * 250, nullIngr, grain);
+}
