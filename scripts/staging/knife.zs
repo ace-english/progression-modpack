@@ -358,3 +358,12 @@ recipes.addShapeless(<primal:night_stone:1>, [<primal:night_stone:6>, knife]);
 recipes.addShapeless(<primal:nether_seed>, [<primal:nether_root>]);
 recipes.addShapeless(<primal:dry_grass_seed>, [<primal:dry_grass_root>]);
 recipes.addShapeless(<primal:void_seed>, [<primal:void_grass_root>]);
+
+//paper
+recipes.addShapeless(<minecraft:paper>,[<minecraft:book>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<minecraft:written_book>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<minecraft:enchanted_book>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<ancientwarfare:manual>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<ebwizardry:ruined_spell_book>,knife]);
+//recipes.addShapeless(<minecraft:paper>,[<ebwizardry:spell_book:*>,knife]);
+//recipes.addShapeless(<minecraft:paper>,[<ebwizardry:scroll:*>,knife]);
