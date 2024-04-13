@@ -40,7 +40,9 @@ for seed in <ore:listAllveggie>.items{
 for seed in <ore:listAllseed>.items{
     CrushingTub.addRecipe(<liquid:seed.oil> * 50, nullIngr, seed * 1);
 }
-recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<harvestcraft:oliveoilitem>, [<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "oliveoil", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "plantoil", Amount: 1000}}).transformReplace(<ceramics:clay_bucket>)]);
+recipes.addShapeless(<harvestcraft:oliveoilitem>*4, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "seed.oil", Amount: 1000}}).transformReplace(<ceramics:clay_bucket>)]);
 
 //	public static void addRecipe(IItemStack output, ILiquidStack input) {
 EvaporatingBasin.addRecipe(<bewitchment:salt>, <liquid:water>*250);

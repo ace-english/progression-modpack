@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.betterwithmods.Cauldron;
 
+recipes.removeByRecipeName("harvestcraft:minecraft_bread");
+recipes.removeByRecipeName("harvestcraft:minecraft_bakedpotato");
 
 //unify eggs
 recipes.remove(<betterwithmods:ham_and_eggs>);
@@ -60,6 +62,20 @@ furnace.remove(<primal:mushroom_cooked>);
 <primal:mushroom_cooked>.displayName ="Boiled Mushroom";
 furnace.addRecipe(<harvestcraft:grilledmushroomitem>, <ore:listAllmushroom>);
 recipes.remove(<harvestcraft:grilledmushroomitem>);
+
+//roasted chestnut
+recipes.remove(<harvestcraft:roastedchestnutitem>);
+furnace.addRecipe(<harvestcraft:roastedchestnutitem>, <ore:cropChestnut>);
+
+//rice
+recipes.remove(<harvestcraft:ricesoupitem>);
+furnace.addRecipe(<harvestcraft:ricesoupitem>, <ore:cropRice>);
+<harvestcraft:ricesoupitem>.displayName ="Steamed Rice";
+<biomesoplenty:ricebowl>.displayName ="Wild Rice Bowl";
+
+//kale chips
+recipes.remove(<harvestcraft:kalechipsitem>);
+furnace.addRecipe(<harvestcraft:kalechipsitem>, <ore:cropKale>);
 
 //hot cocoa
 /*
