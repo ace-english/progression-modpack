@@ -20,11 +20,6 @@ mods.primal.Cauldron.addRecipe(
     [IItemStack[] item_outputs]
 );
 
-
-*/
-
-
-/*
     #notallmilk
     
 var milks as ILiquidStack[] = [
@@ -35,6 +30,7 @@ var milks as ILiquidStack[] = [
     <liquid:milk_sheep>,
     <liquid:milk>
 ];
+
 for milk in milks{
     mods.primal.Cauldron.addRecipe(
         "mushroom_stew", 
@@ -162,21 +158,20 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
     [<betterwithmods:material:12>*1]
 );
-/*
 
 mods.primal.Cauldron.addRecipe(
-    "salt", 
+    "oat_milk", 
     8, 
-    <liquid:water> * 1000,
-    [], 
-    [<bewitchment:salt>*4]
+    <liquid:water> * 1000, 
+    <liquid:milk> * 250, 
+    [<primal:plant_cloth>, <harvestcraft:oatsitem>*8], 
+    []
 );
-recipes.addShaped(<primal:cauldron_lid>,[
-    [<ore:pinWood>],
-    [<primal:crude_iron_plate>]
-]);
 
-recipes.addShaped(<primal:cauldron_lid>,[
-    [<ore:buttonWood>],
-    [<primal:crude_iron_plate>]
-]);*/
+mods.primal.Cauldron.addRecipe(
+    "ceramic_cheese", 
+    8, 
+    <liquid:brine_netjry> * 250, 
+    [<primal:plant_cloth>, <ceramics:clay_bucket:1>], 
+    [<ceramics:clay_bucket>, <primal:cheese_white>*2]
+);
