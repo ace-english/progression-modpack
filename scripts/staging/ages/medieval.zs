@@ -1178,7 +1178,6 @@ var medievalIngredients as IIngredient[] = [
 <malisisdoors:big_door_rusty_3x3>,
 <malisisdoors:big_door_spruce_3x3>,
 <malisisdoors:carriage_door>,
-<malisisdoors:customdooritem>,
 <malisisdoors:door_factory>,
 <malisisdoors:jail_door>,
 <malisisdoors:medieval_door>,

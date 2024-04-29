@@ -1,4 +1,4 @@
-//#modloaded improvedbackpacks 
+#modloaded animania
 
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -9,32 +9,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 <immcraft:rock>.displayName = "Throwing Rock";
 
-//shitty caveman door lol
 
-var sprucedoor = <malisisdoors:customdooritem>.withTag({
-	item: 5395, 
-	redstoneBehavior: 3, 
-	proximityDetection: 0 as byte, 
-	sound: "carriage_door", 
-	openingTime: 12, 
-	autoCloseTime: 0, 
-	topMaterial: "quark:bark", 
-	bottomMaterial: "quark:bark", 
-	topMaterialMetadata: 5, 
-	frameMetadata: 5, 
-	bottomMaterialMetadata: 5, 
-	block: 874, 
-	doubleDoor: 1 as byte, 
-	movement: "rotate_around", 
-	frame: "quark:bark"});
-
-recipes.addShaped(sprucedoor, [
-    [<ore:logSpruce>,<ore:logSpruce>],
-    [<ore:logSpruce>,<ore:logSpruce>],
-    [<ore:logSpruce>,<ore:logSpruce>]
-]);
-
-sprucedoor.displayName = "Spruce Log Door";
 /*********************************************
 
 betterbuilderswands
