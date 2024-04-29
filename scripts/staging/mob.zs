@@ -27,6 +27,7 @@ mods.MobStages.addStage("medieval", "grimoireofgaia:succubus");
 mods.MobStages.addStage("medieval", "grimoireofgaia:selkie");
 mods.MobStages.addStage("medieval", "grimoireofgaia:orc");
 mods.MobStages.addStage("medieval", "grimoireofgaia:oni");
+mods.MobStages.addStage("medieval", "grimoireofgaia:nine_tails");
 mods.MobStages.addStage("medieval", "grimoireofgaia:naga");
 mods.MobStages.addStage("medieval", "grimoireofgaia:mermaid");
 mods.MobStages.addStage("medieval", "grimoireofgaia:minotaur");
