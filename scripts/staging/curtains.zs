@@ -27,6 +27,15 @@ recipes.addShaped(<malisisdoors:curtain_white>,[
     [<minecraft:rabbit_hide>,<minecraft:rabbit_hide>],
     [<minecraft:rabbit_hide>,<minecraft:rabbit_hide>]
 ]);
+recipes.addShaped(<malisisdoors:curtain_red>,[
+    [<primal:pelt_ovis>],
+    [<primal:pelt_ovis>]
+]);
+recipes.addShaped(<malisisdoors:curtain_gray>,[
+    [<primal:ovis_atre_wool>,<primal:ovis_atre_wool>],
+    [<primal:ovis_atre_wool>,<primal:ovis_atre_wool>],
+    [<primal:ovis_atre_wool>,<primal:ovis_atre_wool>]
+]);
 
 <ore:curtain>.add(<malisisdoors:curtain_white>);
 <ore:curtain>.add(<malisisdoors:curtain_orange>);
