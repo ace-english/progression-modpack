@@ -135,8 +135,9 @@ recipes.remove(<harvestcraft:pastaitem>);
 recipes.addShapeless(<harvestcraft:pastaitem>*5, [<harvestcraft:doughitem>, <ore:listAllegg>]);
 
 //generic fruit recipes
+var fruits = <biomesoplenty:berries>|<ore:cropDate>|<ore:cropPapaya>|<ore:cropDurain>|<ore:cropCactusfruit>|<ore:cropPineapple>|<ore:cropHuckleberry>|<ore:cropMulberry>|<ore:cropDragonfruit>|<ore:cropWildberry>;
 recipes.remove(<harvestcraft:papayajellyitem>);
-recipes.addShapeless(<harvestcraft:papayajellyitem>, [<harvestcraft:saucepanitem>.reuse(), <ore:listAllfruit>|<ore:listAllberry>, <ore:listAllsugar>]);
+recipes.addShapeless(<harvestcraft:papayajellyitem>, [<harvestcraft:saucepanitem>.reuse(), fruits, <ore:listAllsugar>]);
 <harvestcraft:papayajellyitem>.displayName ="Fruit Jelly";
 <harvestcraft:papayajellysandwichitem>.displayName ="Jelly Sandwich";
 
@@ -146,10 +147,13 @@ recipes.addShapeless(<harvestcraft:raspberrypieitem>, [<harvestcraft:bakewareite
     <biomesoplenty:berries>|<harvestcraft:raspberryitem>|<harvestcraft:cranberryitem>|<harvestcraft:mulberryitem>|<rustic:wildberries>
 ]);
 
+<harvestcraft:orangejellyitem>.displayName ="Orange Marmalade";
+
 //pies
 <harvestcraft:meatpieitem>.displayName ="Steak Pie";
 
 recipes.remove(<harvestcraft:applepieitem>);
+<ore:foodApplepie>.remove(<harvestcraft:applepieitem>);
 <harvestcraft:applepieitem>.displayName ="Meat Pie";
 recipes.addShapeless(<harvestcraft:applepieitem>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <harvestcraft:gravyitem>, <ore:listAllmeatraw>, <ore:listAllveggie>, <ore:cropPotato>]);
 
