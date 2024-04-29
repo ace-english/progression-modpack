@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/aconitum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:aconitum_plant",
+  "parent1": "roots:pereskia_plant",
+  "parent2": "vanilla:dandelion_plant"
+}

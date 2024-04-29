@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/wormwood_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:wormwood_plant",
+  "parent1": "roots:terra_moss_plant",
+  "parent2": "harvestcraft:rye_plant"
+}

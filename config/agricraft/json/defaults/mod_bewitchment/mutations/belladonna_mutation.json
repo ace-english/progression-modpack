@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/belladonna_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:belladonna_plant",
+  "parent1": "rustic:tomato",
+  "parent2": "vanilla:pink_tulip_plant"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/mandrake_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:mandrake_plant",
+  "parent1": "roots:wildroot_plant",
+  "parent2": "harvestcraft:parsnip_plant"
+}

@@ -58,6 +58,7 @@ Dropt.list("grass")
           .selector(Dropt.weight(8))
           .items([<immersiveengineering:seed>])
       )
+  /*
   )
     .add(Dropt.rule()
       .matchBlocks(grasses)
@@ -89,4 +90,5 @@ Dropt.list("grass")
           .selector(Dropt.weight(3))
           .items([<bewitchment:aconitum_seeds>])
       )
+      */
 );

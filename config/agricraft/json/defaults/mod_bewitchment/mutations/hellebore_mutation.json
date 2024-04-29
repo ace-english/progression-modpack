@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/hellebore_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:hellebore_plant",
+  "parent1": "vanilla:daisy_plant",
+  "parent2": "vanilla:nether_wart_plant"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_bewitchment/mutations/white_sage_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bewitchment:white_sage_plant",
+  "parent1": "roots:spirit_herb_plant",
+  "parent2": "immersiveengineering:hemp_plant"
+}
