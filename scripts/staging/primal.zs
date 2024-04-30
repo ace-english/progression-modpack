@@ -92,6 +92,7 @@ furnace.addRecipe(<primal:logs:0>, <rustic:log:1>);
 <primal:planks:0>.displayName = "Tempered Ironwood Planks";
 
 mods.tconstruct.Drying.addRecipe(<ceramics:clay_bucket>, <ceramics:unfired_clay>, 18);
+mods.primal.DryingRack.addNonRottingRecipe("bucket",30, <ceramics:unfired_clay>, <ceramics:clay_bucket>);
 
 //drying rack
 //crate
