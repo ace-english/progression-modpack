@@ -48,7 +48,7 @@ recipes.addShaped(<primal_tech:charcoal_hopper>, [
     [<primal_tech:charcoal_block>,<primal_tech:wooden_hopper>,<primal_tech:charcoal_block>],
     [null,<primal_tech:charcoal_block>, null]
 ]);
-recipes.remove(<primal_tech:charcoal_hopper>);
+recipes.remove(<horsepower:press>);
 recipes.addShaped(<horsepower:press>, [
     [<minecraft:lead>,<ore:stickWood>,<minecraft:lead>],
     [<ore:plankWood>,<ore:thinWood>,<ore:plankWood>],
