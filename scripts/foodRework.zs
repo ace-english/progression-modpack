@@ -141,6 +141,14 @@ recipes.addShapeless(<harvestcraft:papayajellyitem>, [<harvestcraft:saucepanitem
 <harvestcraft:papayajellyitem>.displayName ="Fruit Jelly";
 <harvestcraft:papayajellysandwichitem>.displayName ="Jelly Sandwich";
 
+fruits = fruits|<ore:listAllfruit>|<ore:listAllberries>|<ore:cropPear>|<ore:cropPeach>|<ore:cropPersimmon>|<ore:cropCactusfruit>|<ore:cropCantaloupe>|<ore:cropKiwi>|<ore:cropFig>|<ore:cropGrapefruit>|<ore:cropPomegranate>|<ore:cropStarfruit>|<ore:cropBanana>|<ore:cropPlum>|<ore:cropLime>|<ore:cropCoconut>|<ore:cropMango>|<ore:cropApricot>|<ore:cropOrange>|<ore:cropGrape>;
+
+recipes.remove(<harvestcraft:fruitsaladitem>);
+recipes.addShaped(<harvestcraft:fruitsaladitem>, [
+    [<harvestcraft:cuttingboarditem>.reuse(),fruits],
+    [fruits, null]
+]);
+
 recipes.remove(<harvestcraft:raspberrypieitem>);
 <harvestcraft:raspberrypieitem>.displayName ="Redberry Pie";
 recipes.addShapeless(<harvestcraft:raspberrypieitem>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <ore:listAllsugar>,
@@ -252,4 +260,8 @@ recipes.removeByRecipeName("harvestcraft:slime_ball");
 <ore:foodJellyfishraw>.add(<aquaculture:fish:16>);
 mods.tconstruct.Drying.addRecipe(<minecraft:slime_ball>,<ore:foodJellyfishraw>, 6000);
 mods.primal.DryingRack.addNonRottingRecipe("slime", 10, <ore:foodJellyfishraw>, <minecraft:slime_ball>);
+
+//bacon
+<ore:listAllporkcooked>.add(<tconstruct:edible:0>);
+
 

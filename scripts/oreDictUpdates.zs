@@ -1,7 +1,3 @@
-//made especially for you...
-//by Ace
-
-
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 

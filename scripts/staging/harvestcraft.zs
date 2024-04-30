@@ -83,9 +83,3 @@ recipes.addShaped(<animania:carving_knife>, [
     [<ore:ingotCopper>,<ore:ingotCopper>],
     [<ore:stickWood>, null]
 ]);
-
-recipes.remove(<harvestcraft:fruitsaladitem>);
-recipes.addShaped(<harvestcraft:fruitsaladitem>, [
-    [<harvestcraft:cuttingboarditem>.reuse(),<ore:listAllfruit>|<ore:listAllberries>],
-    [<ore:listAllfruit>|<ore:listAllberries>, null]
-]);
