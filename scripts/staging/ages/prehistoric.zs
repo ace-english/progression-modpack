@@ -196,4 +196,4 @@ recipes.addShaped("primal_anvil", <minecraft:anvil>, [
 
 recipes.remove(<harvestcraft:coconutitem>);
 //<harvestcraft:coconutitem>.addTooltip(format.lightPurple("Mmm, generic"));
-mods.primal.Flake.addRecipe("coconut", 0.6f, 0.1f, 0.99f, <dynamictreesphc:coconutseed>,[<harvestcraft:coconutitem>]);
+mods.primal.Flake.addRecipe("coconut", 0.6f, 0.1f, 1, <dynamictreesphc:coconutseed>,[<harvestcraft:coconutitem>]);

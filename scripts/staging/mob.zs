@@ -1,6 +1,8 @@
 mods.MobStages.addStage("archery", "grimoireofgaia:shaman");
 mods.MobStages.addStage("archery", "grimoireofgaia:anubis");
 mods.MobStages.addStage("archery", "grimoireofgaia:minotaurus");
+
+/*
 mods.MobStages.addStage("archery", "ancientwarfarenpc:faction.archer");
 mods.MobStages.addStage("archery", "ancientwarfarenpc:faction.spellcaster");
 mods.MobStages.addStage("archery", "ancientwarfarenpc:faction.archer.elite");
@@ -15,6 +17,8 @@ mods.MobStages.toggleSpawner("ancientwarfarevehicle:vehicle", true);
 mods.MobStages.toggleSpawner("ancientwarfarenpc:faction.siege_engineer", true);
 mods.MobStages.toggleSpawner("ancientwarfarenpc:faction.mounted_archer", true);
 mods.MobStages.toggleSpawner("ancientwarfarenpc:faction.cavalry", true);
+*/
+
 mods.MobStages.addStage("medieval", "minecraft:witch");
 
 mods.MobStages.addStage("medieval", "grimoireofgaia:witch");

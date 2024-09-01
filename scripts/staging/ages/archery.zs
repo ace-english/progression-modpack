@@ -1,11 +1,13 @@
 mods.ItemStages.addItemStage("archery", <minecraft:arrow>);
 mods.ItemStages.addItemStage("archery", <minecraft:bow:*>);
 mods.ItemStages.addItemStage("archery", <betterwithmods:composite_bow:*>);
+/*
 mods.ItemStages.addItemStage("archery", <ancientwarfareautomation:worksite_upgrade:10> );
 mods.ItemStages.addItemStage("archery", <ancientwarfarenpc:bard_instrument:1> );
 mods.ItemStages.addItemStage("archery", <ancientwarfarenpc:bard_instrument:2> );
 mods.ItemStages.addItemStage("archery", <ancientwarfarenpc:bard_instrument:3> );
 mods.ItemStages.addItemStage("archery", <ancientwarfarenpc:combat_order> );
+*/
 mods.ItemStages.addItemStage("archery", <betterwithmods:composite_bow> );
 mods.ItemStages.addItemStage("archery", <grimoireofgaia:bag_arrow> );
 mods.ItemStages.addItemStage("archery", <minecraft:spectral_arrow> );

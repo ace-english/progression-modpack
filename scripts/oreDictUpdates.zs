@@ -299,7 +299,6 @@ woodAsh.add(<biomesoplenty:ash>);
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}));
-*/
 
 //shields
 <ore:shield>.add(<ancientwarfarenpc:shield_round_1>);
@@ -314,6 +313,7 @@ woodAsh.add(<biomesoplenty:ash>);
 <ore:shield>.add(<ancientwarfarenpc:shield_witchbane_2>);
 <ore:shield>.add(<twilightforest:knightmetal_shield>);
 
+*/
 //bark
 for bark in <ore:rootsBark>.items{
     <ore:barkWood>.add(bark);

@@ -219,8 +219,8 @@ var industrialIngredients as IIngredient[] = [
     <minecraft:furnace_minecart>,
     <minecraft:hopper_minecart>,
 
-    <ancientwarfarevehicle:ammo_cluster_shot_45>,
-    <ancientwarfarevehicle:ammo_explosive_shot_10_big>,
+//    <ancientwarfarevehicle:ammo_cluster_shot_45>,
+//    <ancientwarfarevehicle:ammo_explosive_shot_10_big>,
     <betterwithmods:block_dispenser>,
     <betterwithmods:booster>,
     <betterwithmods:buddy_block>,

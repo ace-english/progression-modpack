@@ -20,6 +20,7 @@ mods.ItemStages.removeItemStage(<bewitchment:silver_ore>);
 
 
 var medievalIngredients as IIngredient[] = [
+    /*
     <ancientwarfareautomation:worksite_upgrade:6>,
 <ancientwarfarenpc:bard_instrument>,
 <ancientwarfarenpc:diamond_shield:*>,
@@ -74,6 +75,7 @@ var medievalIngredients as IIngredient[] = [
 <ancientwarfarevehicle:spawner:8>.withTag({spawnData: {level: 0}}),
 <ancientwarfarevehicle:spawner:9>.withTag({spawnData: {level: 0}}),
 <ancientwarfarevehicle:treated_wood>,
+*/
 <animania:block_hamster_wheel>,
 <betterwithmods:bellows:1>,
 <betterwithmods:bellows>,
@@ -2080,6 +2082,7 @@ var medievalIngredients as IIngredient[] = [
 <primal:worktable_slab:8>.withTag({type: "lacquer"}),
 <primal:worktable_slab:9>.withTag({type: "corypha"}),
 <primal:worktable_slab>.withTag({type: "oak"}),
+<tconstruct:wooden_hopper>,
 //<progressiontweaks:machine_frame>,
 <quark:acacia_trapdoor>,
 <quark:birch_trapdoor>,

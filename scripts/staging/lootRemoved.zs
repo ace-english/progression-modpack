@@ -1,7 +1,7 @@
 mods.ltt.LootTable.removeItem("minecraft:chests/simple_dungeon", "main", "minecraft:golden_apple");
 mods.ltt.LootTable.removeItem("betterwithmods:gameplay/fishing/junk", "betterwithmods:gameplay/fishing/junk", "minecraft:leather_boots");
 
-
+/*
 mods.ltt.LootTable.removeItem("ancientwarfare:chests/compat/harvestcraft/harvestcraft_shop_spice", "main", "harvestcraft:garlicitem");
 
 mods.ltt.LootTable.removeItem("ancientwarfare:chests/inject/abandoned_mineshaft", "ancientwarfare_inject_pool", "ancientwarfare:wooden_hammer");
@@ -244,6 +244,7 @@ mods.ltt.LootTable.removeItem("ancientwarfare:chests/vyncan_mesa", "main", "anci
 mods.ltt.LootTable.removeItem("ancientwarfare:chests/witchbane", "main", "ancientwarfarenpc:iron_spear");
 
 mods.ltt.LootTable.removeItem("ancientwarfare:chests/zimba", "main", "ancientwarfarenpc:iron_spear");
+*/
 
 mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_axe");
 mods.ltt.LootTable.removeItem("grimoireofgaia:loot_table_boxdiamond", "main", "minecraft:diamond_shovel");
