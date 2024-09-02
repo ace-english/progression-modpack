@@ -12,9 +12,11 @@ mods.ItemStages.removeItemStage(<agricraft:agri_nugget>);
 
 mods.ItemStages.addItemStage("agriculture", <astikorcarts:plowcart>);
 
+/*
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_cluster_shot_30> );
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_explosive_shot_45> );
 mods.ItemStages.addItemStage("agriculture", <ancientwarfarevehicle:ammo_hwacha_rocket_explosive> );
+*/
 
 mods.ItemStages.addItemStage("agriculture", <composter:compost>);
 mods.ItemStages.addItemStage("agriculture", <composter:compost_bin>);

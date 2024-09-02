@@ -3,6 +3,7 @@ mods.jmapstages.JMapStages.setWaypointStage("exploration");
 mods.jmapstages.JMapStages.setFullscreenStage("exploration");
 mods.jmapstages.JMapStages.setDeathpointStage("exploration");
 mods.jmapstages.JMapStages.setMinimapStage("exploration");
+/*
 mods.ItemStages.addItemStage("dev", <ancientwarfareautomation:worksite_upgrade:4> );
 mods.ItemStages.addItemStage("dev", <ancientwarfareautomation:worksite_upgrade:5> );
 mods.ItemStages.addItemStage("dev", <ancientwarfarestructure:brazier_ember>.withTag({lit: 0 as byte}) );
@@ -134,6 +135,7 @@ mods.ItemStages.addItemStage("dev", <ancientwarfarevehicle:spawner:20>.withTag({
 mods.ItemStages.addItemStage("dev", <ancientwarfarevehicle:spawner:20>.withTag({spawnData: {level: 2}}) );
 mods.ItemStages.addItemStage("dev", <ancientwarfarevehicle:spawner:20>.withTag({spawnData: {level: 3}}) );
 mods.ItemStages.addItemStage("dev", <ancientwarfarevehicle:spawner:20>.withTag({spawnData: {level: 4}}) );
+*/
 mods.ItemStages.addItemStage("dev", <minecraft:chain_command_block> );
 mods.ItemStages.addItemStage("dev", <minecraft:command_block> );
 mods.ItemStages.addItemStage("dev", <minecraft:command_block_minecart> );
@@ -141,6 +143,7 @@ mods.ItemStages.addItemStage("dev", <minecraft:mob_spawner> );
 mods.ItemStages.addItemStage("dev", <minecraft:repeating_command_block> );
 mods.ItemStages.addItemStage("dev", <minecraft:structure_block> );
 mods.ItemStages.addItemStage("dev", <minecraft:structure_void> );
+/*
 mods.ItemStages.addItemStage("dev", <reccomplex:artifact_generation_tag> );
 mods.ItemStages.addItemStage("dev", <reccomplex:block_selector> );
 mods.ItemStages.addItemStage("dev", <reccomplex:block_selector_floating> );
@@ -570,7 +573,7 @@ mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "golems:entities/golem_wool/silver"}) );
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "golems:entities/golem_wool/white"}) );
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "golems:entities/golem_wool/yellow"}) );
-*/
+
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "immersiveengineering:chests/stronghold_library"}) );
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "immersiveengineering:chests/village_blacksmith"}) );
 mods.ItemStages.addItemStage("dev", <reccomplex:inventory_generation_single_tag>.withTag({itemCollectionKey: "jaff:entities/clownfish"}) );
@@ -1345,6 +1348,7 @@ mods.ItemStages.addItemStage("dev", <reccomplex:maze_generator> );
 mods.ItemStages.addItemStage("dev", <reccomplex:spawn_script> );
 mods.ItemStages.addItemStage("dev", <reccomplex:structure_generator> );
 mods.ItemStages.addItemStage("dev", <reccomplex:weighted_command_block> );
+*/
 mods.ItemStages.addItemStage("dev", <roots:creative_pouch> );
 mods.ItemStages.addItemStage("dev", <storagedrawers:upgrade_creative> );
 mods.ItemStages.addItemStage("dev", <storagedrawers:upgrade_creative:1> );

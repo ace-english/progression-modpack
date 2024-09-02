@@ -42,15 +42,15 @@ recipes.remove(<rustic:candle_lever_gold>);
 
 recipes.addShaped(<rustic:candle_lever>, [
     [<rustic:candle>],
-    [<ancientwarfare:component:1>] //iron gear set
+    [<ore:gearIron>]
 ]);
 recipes.addShaped(<rustic:candle_lever_silver>, [
     [<rustic:candle_silver>],
-    [<ancientwarfare:component:1>] //iron gear set
+    [<ore:gearIron>]
 ]);
 recipes.addShaped(<rustic:candle_lever_gold>, [
     [<rustic:candle_gold>],
-    [<ancientwarfare:component:1>] //iron gear set
+    [<ore:gearIron>]
 ]);
 
 //include vaguer candlestick option
@@ -87,6 +87,7 @@ mods.forestry.Carpenter.addRecipe(<bewitchment:white_candle>*24,
     <liquid:water> * 600
 );
 
+/*
 //options for all the colors
 recipes.addShaped(<ancientwarfarestructure:altar_candle>.withTag({dyeColor: 0}),[
     [<bewitchment:black_candle>],
@@ -183,3 +184,4 @@ recipes.addShaped(<ancientwarfarestructure:altar_candle>.withTag({dyeColor: 15})
     [<ore:nuggetIron>],
     [<ore:nuggetIron>]
 ]);
+*/

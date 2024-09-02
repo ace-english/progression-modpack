@@ -49,14 +49,14 @@ function addSeeds(seeds as IItemStack[string], pool as LootPool, quality as int)
     }
 }
 
-val barbarianChests = LootTweaker.getTable("ancientwarfare:chests/barbarian");
+/*val barbarianChests = LootTweaker.getTable("ancientwarfare:chests/barbarian");
 val barbarianPool = barbarianChests.getPool("main");
 //addItemEntry (item:id, weight, quality, functions such as number dropped and damage, conditions)
 barbarianPool.addItemEntry(<primal:obsidian_knapp>, 5, 1, [Functions.setCount(2,5)], [], "obsidian_knapp");
 barbarianPool.addItemEntry(<primal:emerald_knapp>, 5, 1, [Functions.setCount(2,5)], [], "emerald_knapp");
 barbarianPool.addItemEntry(<primal:quartz_knapp>, 5, 1, [Functions.setCount(2,5)], [], "quartz_knapp");
 barbarianPool.addItemEntry(<primal:diamond_knapp>, 5, 1, [Functions.setCount(2,5)], [], "diamond_knapp");
-barbarianPool.addItemEntry(<ancientwarfarenpc:macuahuitl>, 5, 1, [Functions.setCount(1,1)], [], "macuahuitl");
+//barbarianPool.addItemEntry(<ancientwarfarenpc:macuahuitl>, 5, 1, [Functions.setCount(1,1)], [], "macuahuitl");
 barbarianPool.addItemEntry(<ordinarycoins:coinbronze>, 5, 1, [Functions.setCount(10,35)], [], "coinbronze");
 barbarianPool.addItemEntry(<primal:pelt_animal>, 5, 1, [Functions.setCount(1,4)], [], "pelt_animal");
 barbarianPool.addItemEntry(<primal:shark_tooth>, 5, 1, [Functions.setCount(1,3)], [], "shark_tooth");
@@ -208,6 +208,8 @@ fishermanPool.addItemEntry(<fishingmadebetter:reel_basic>, 1, 1, [Functions.setC
 
 val witchbanePool = LootTweaker.getTable("ancientwarfare:chests/witchbane").getPool("main");
 witchbanePool.addItemEntry(<bewitchment:cold_iron_ingot>, 3, 1, [Functions.setCount(2,6)], [], "cold_iron_ingot");
+
+*/
 
 val betterFishingTreasurePool = LootTweaker.getTable("fishingmadebetter:fishing_treasure").getPool("fishingmadebetter:fishing_treasure");
 betterFishingTreasurePool.addItemEntry(<primal:crude_iron_ingot>, 35, 1, [], [], "crude_iron_ingot");

@@ -36,16 +36,17 @@ recipes.addShapeless(<immcraft:rock>, [<primal:rock_stone>]);
 
 furnace.addRecipe(<primal:ash_wolf>, <primal:wolf_head_item>);
 
-recipes.remove(<primal_tech:wooden_hopper>);
 recipes.remove(<primal_tech:charcoal_hopper>);
+/*
 recipes.addShaped(<primal_tech:wooden_hopper>, [
     [<ore:plankWood>,null,<ore:plankWood>],
     [<ore:plankWood>,null,<ore:plankWood>],
     [null,<ore:plankWood>, null]
 ]);
+*/
 recipes.addShaped(<primal_tech:charcoal_hopper>, [
     [<primal_tech:charcoal_block>,null,<primal_tech:charcoal_block>],
-    [<primal_tech:charcoal_block>,<primal_tech:wooden_hopper>,<primal_tech:charcoal_block>],
+    [<primal_tech:charcoal_block>,<tconstruct:wooden_hopper>,<primal_tech:charcoal_block>],
     [null,<primal_tech:charcoal_block>, null]
 ]);
 recipes.remove(<horsepower:press>);

@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 var items as IIngredient[] = [
 <agricraft:journal>,
 <akashictome:tome>,
-<ancientwarfare:manual>,
+//<ancientwarfare:manual>,
 <animania:animania_manual>,
 /*
 <apotheosis:armor_chest_book>,

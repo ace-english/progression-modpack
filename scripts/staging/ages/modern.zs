@@ -65,12 +65,13 @@ var modernIngredients as IIngredient[] = [
     <minecraft:concrete_powder:13>,
     <minecraft:concrete_powder:14>,
     <minecraft:concrete_powder:15>,
-
+/*
     <ancientwarfarenpc:shield_round_5>,
     <ancientwarfarenpc:shield_round_6>,
     <ancientwarfarenpc:shield_tribal_1>,
     <ancientwarfarenpc:shield_tribal_2>,
     <ancientwarfarevehicle:ammo_canister_shot_10>,
+	*/
     <bibliocraft:clipboard>,
     <chisel:auto_chisel>,
     <cookingforblockheads:fridge>,

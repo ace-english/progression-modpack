@@ -1,4 +1,5 @@
 #modloaded animania
+#priority 1
 
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -9,6 +10,11 @@ import crafttweaker.liquid.ILiquidStack;
 
 <immcraft:rock>.displayName = "Throwing Rock";
 
+recipes.removeByRecipeName("crafttweaker:animania_saddle_modified");
+recipes.removeShaped(<minecraft:saddle>,[
+    [<ore:leather>,<ore:leather>,<ore:leather>],
+    [<minecraft:iron_ingot>,<ore:blockWool>,<minecraft:iron_ingot>]
+]);
 
 /*********************************************
 

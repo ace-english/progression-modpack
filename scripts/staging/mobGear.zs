@@ -40,26 +40,25 @@ var boneAxePrim as IItemStack = <primal_tech:bone_axe>;
 var boneClub as IItemStack = <primal_tech:bone_club>;
 var boneKnifePrim as IItemStack = <primal_tech:bone_knife>;
 var boneSharp as IItemStack = <primal:sharp_bone>;
+/*
 var macuahuitl as IItemStack = <ancientwarfarenpc:macuahuitl>;
 var obsidianSpear as IItemStack = <ancientwarfarenpc:obsidian_spear>;
+*/
 
 //prehistoric shields
-var stoneShield as IItemStack = <ancientwarfarenpc:stone_shield>;
-var buffaloShield as IItemStack = <ancientwarfarenpc:shield_buffloka>;
-var roundShield1 as IItemStack = <ancientwarfarenpc:shield_round_1>;
-var roundShield2 as IItemStack = <ancientwarfarenpc:shield_round_2>;
-var roundShield3 as IItemStack = <ancientwarfarenpc:shield_round_3>;
-var roundShield4 as IItemStack = <ancientwarfarenpc:shield_round_4>;
+var stoneShield as IItemStack = <spartanshields:shield_basic_stone>;
+var woodSheild as IItemStack = <spartanshields:shield_basic_wood>;
+var bronzeShield as IItemStack = <spartanshields:shield_basic_bronze>;
+var copperShield as IItemStack = <spartanshields:shield_basic_copper>;
+
 
 //prehistoric armor
 var wolfHat as IItemStack = <primal:armor_wolf_head>;
 
 //medieval shields
-var ironShield as IItemStack = <ancientwarfarenpc:iron_shield>;
-var goldShield as IItemStack = <ancientwarfarenpc:gold_shield>;
-var diamondShield as IItemStack = <ancientwarfarenpc:diamond_shield>;
-var witchbaneShield1 as IItemStack = <ancientwarfarenpc:shield_witchbane_1>;
-var witchbaneShield2 as IItemStack = <ancientwarfarenpc:shield_witchbane_2>;
+var ironShield as IItemStack = <spartanshields:shield_basic_iron>;
+var ironTowerShield as IItemStack = <spartanshields:shield_tower_iron>;
+var steelShield as IItemStack = <spartanshields:shield_basic_steel>;
 var woodTowerShield as IItemStack = <minecraft:shield>;
 
 //medieval weapons
@@ -99,16 +98,14 @@ melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", boneAx
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", boneClub, 3, 1));
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", boneKnifePrim, 1, 1));
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", boneSharp, 3, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", macuahuitl, 2, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", obsidianSpear, 1, 1));
+//melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", macuahuitl, 2, 1));
+//melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", obsidianSpear, 1, 1));
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("mainhand", null, 1, 1));
 
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", stoneShield, 1, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", buffaloShield, 4, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", roundShield1, 1, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", roundShield2, 1, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", roundShield3, 1, 1));
-melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", roundShield4, 1, 1));
+melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", woodSheild, 4, 1));
+melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", bronzeShield, 1, 1));
+melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", copperShield, 1, 1));
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("offhand", null, 10, 1));
 
 melee_prehistoric_group.addArmor(ArmorHandler.createArmorSlot("head", wolfHat, 1, 1));
@@ -119,11 +116,9 @@ var melee_medieval_group = ArmorHandler.createArmorGroup("archery", 0.9);
 melee_medieval_group.addEntity(ArmorHandler.createArmorEntity("minecraft:zombie"));
 melee_medieval_group.addGameStage("medieval");
 
-melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", ironShield, 2, 1));
-melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", goldShield, 0.2, 1));
-melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", diamondShield, 0.1, 1));
-melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", witchbaneShield1, 1, 1));
-melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", witchbaneShield2, 1, 1));
+melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", steelShield, 2, 1));
+melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", ironShield, 1, 1));
+melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", ironTowerShield, 1, 1));
 melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", woodTowerShield, 4, 1));
 melee_medieval_group.addArmor(ArmorHandler.createArmorSlot("offhand", null, 6, 1));
 
