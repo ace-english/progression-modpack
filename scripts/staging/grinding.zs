@@ -15,7 +15,7 @@ var components as IIngredient[][IItemStack] = {
     <minecraft:dye:14> * 2: [<quark:crab_shell>],
     <roots:flour>: [<ore:cropCassava>,<ore:listAllgrain>],
     <minecraft:dye:15> *2: [<ore:bones>,<ore:flakeBone>],
-    <minecraft:sugar>:[<ore:cropBeet>,<ore:cropAgave>,<ore:cropTaro>],
+    <minecraft:sugar>:[<ore:cropBeet>,<ore:cropAgave>,<ore:cropTaro>,<minecraft:reeds>],
     <harvestcraft:currypowderitem>: [<ore:cropCurryleaf>],
     <harvestcraft:cornmealitem>: [<ore:cropCorn>],
     <harvestcraft:groundnutmegitem>: [<ore:cropNutmeg>],
