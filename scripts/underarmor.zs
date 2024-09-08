@@ -58,7 +58,11 @@ recipes.addShaped(<armorunder:cool_liner_material>, [
     [<harvestcraft:sisalitem>, <harvestcraft:sisalitem>, <harvestcraft:sisalitem>]
 ]);
 
-
+recipes.addShaped(<armorunder:cool_liner_material>, [
+    [<primal:valus_fiber>, <primal:valus_fiber>, <primal:valus_fiber>],
+    [null, <primal:valus_fiber>, null],
+    [<primal:valus_fiber>, <primal:valus_fiber>, <primal:valus_fiber>]
+]);
 
 /*
 recipes.addShaped(<armorunder:cool_liner_material>, [
