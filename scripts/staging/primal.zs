@@ -104,6 +104,20 @@ recipes.addShapedMirrored(<toughasnails:canteen>, [
 
 ]);
 
+//mortar recipe fix
+<ore:mortalIngredient>.add(<minecraft:sand:1>);
+recipes.removeByRecipeName("primal:mortar_0");
+recipes.removeByRecipeName("primal:mortar_2");
+recipes.removeByRecipeName("primal:mortar_3");
+recipes.removeByRecipeName("primal:mortar_4");
+var mortarIngredients = <primal:bitumin_clump>|<ore:muck>|<primal:slag>|<ore:clayball>;
+
+recipes.addShaped(<primal:mortar>*32, [
+    [<ore:mortalIngredient>,mortarIngredients,<ore:mortalIngredient>],
+    [mortarIngredients,<ore:mortalIngredient>,mortarIngredients],
+    [<ore:mortalIngredient>,mortarIngredients,<ore:mortalIngredient>],
+]);
+
 //drying rack
 //crate
 //sticks
