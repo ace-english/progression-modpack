@@ -612,6 +612,8 @@ var disabledIngredients as IIngredient[] = [
 	<projectred-core:resource_item:201>,
 	<projectred-core:resource_item:202>,
 
+	<teslacorelib:gear_wood>,
+
 	//unused metals, unidicted
 	<agricraft:agri_nugget:3>,
 	<agricraft:agri_nugget:5>,
@@ -808,6 +810,7 @@ var disabledIngredients as IIngredient[] = [
 	<harvestcraft:venisoncookeditem>,
 	<primal:egg_boiled>,
 	<primal:wheat_ground>,
+	<primal_tech:fluid_bladder>,
 	<betterwithmods:material:44>,
 	<harvestcraft:chocolatebaritem>,
 	<harvestcraft:hotcocoaitem>,
@@ -829,7 +832,13 @@ var disabledIngredients as IIngredient[] = [
 	//mud
 	<biomesoplenty:mudball>,
 	<biomesoplenty:mud_brick>,
-	<tconstruct:materials:1>
+	<tconstruct:materials:1>,
+	
+	//tallow
+	<betterwithmods:material:13>,
+	<primal:tallow>,
+	<quark:tallow>,
+	<rustic:tallow>
 	];
 	
 val allEntries = oreDict.entries;

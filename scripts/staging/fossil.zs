@@ -4,12 +4,6 @@ import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-/*********************************************
-
-fossils
-
-*********************************************/
-
 
 recipes.addShaped(<fossil:wooden_javelin>, [
     [<primal:flint_point>],
