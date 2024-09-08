@@ -95,6 +95,15 @@ furnace.addRecipe(<primal:logs:0>, <rustic:log:1>);
 mods.tconstruct.Drying.addRecipe(<ceramics:clay_bucket>, <ceramics:unfired_clay>, 18);
 mods.primal.DryingRack.addNonRottingRecipe("bucket",30, <ceramics:unfired_clay>, <ceramics:clay_bucket>);
 
+<toughasnails:canteen>.displayName ="Waterskin";
+
+recipes.addShapedMirrored(<toughasnails:canteen>, [
+    [<ore:cordageGeneral>,<ore:hideRaw>,null],
+    [<ore:hideRaw>,null,<ore:hideRaw>],
+    [null,<ore:hideRaw>,null]
+
+]);
+
 //drying rack
 //crate
 //sticks

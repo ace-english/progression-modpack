@@ -28,5 +28,3 @@ mods.primal.Smelter.addRecipe("brass", 48, [<ore:ingotCopper>*2, <ore:ingotZinc>
 mods.primal.Smelter.addRecipe("brass_2", 36, [<ore:dustCopper>*2, <ore:dustZinc>, <ore:charcoal>, <ore:sand>], [<thaumcraft:ingot:2>*3, <primal:slag>*2]);
 mods.primal.Smelter.addRecipe("crude_iron", 6, [<primal:ore_cluster_bog_iron>*4, <primal:charcoal_mote>*2], [<primal:crude_iron_ingot>, <primal:slag>]);
 mods.primal.Smelter.addRecipe("soul_steel", 50, [<minecraft:iron_ingot>, <primal:charcoal_mote>*2, <betterwithmods:urn:8>], [<betterwithmods:urn:0>, <betterwithmods:material:14>]);
-
-<primal_tech:fluid_bladder>.displayName ="Waterskin";
