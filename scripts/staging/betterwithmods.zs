@@ -17,6 +17,17 @@ betterwithmods
 
 /*
 
+mods.betterwithmods.Turntable.add(IIngredient input, IItemStack productState, IItemStack[] output);
+
+mods.betterwithmods.Turntable.add(IIngredient input, IItemStack[] output);
+
+*/
+
+//turn table
+//mods.betterwithmods.Turntable.add(<betterwithmods:unfired_pottery:2>,null, [<bewitchment:unfired_jar>]);
+
+/*
+
 //add recipe for soulforged steel spring - plate + cutters = 2?
 recipes.addShaped(<betterwithmods:material:49>,[
     [<betterwithmods:material:30>],
@@ -28,6 +39,7 @@ recipes.addShapeless(<betterwithmods:material:19>,[<ore:string>, <minecraft:reds
 recipes.addShapeless(<betterwithmods:material:28>,[<ore:string>, <minecraft:gunpowder>]);
 
 */
+
 recipes.addShapeless(<betterwithmods:material:28>,[<minecraft:gunpowder>, <ore:string>]);
 
 recipes.remove(<betterwithmods:single_machine:3>);
@@ -36,10 +48,10 @@ recipes.addShaped(<betterwithmods:single_machine:3>,[
     [<ore:stone>, <astikorcarts:wheel>, <ore:stone>],
     [<ore:stone>, <ore:gearWood>, <ore:stone>],
 ]);
-recipes.addShaped(<betterwithmods:material:0>,[
-    [null, <ore:stickWood>, null],
-    [<ore:stickWood>, <totemic:buffalo_items:1>, <ore:stickWood>],
-    [null, <ore:stickWood>, null],
+
+recipes.remove(<betterwithmods:material:0>);
+recipes.addShapeless(<betterwithmods:material:0>,[
+    <ore:thinWood>,<tcomplement:chisel>.anyDamage().transformDamage()
 ]);
 
 /*
@@ -129,3 +141,4 @@ recipes.addShaped(<betterwithmods:steel_axle>,[
 recipes.addShaped(<betterwithmods:steel_pressure_plate>,[
     [<betterwithmods:material:14>, <betterwithmods:material:14>]
 ]);
+
