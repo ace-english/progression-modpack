@@ -330,17 +330,17 @@ amethyst.addMaterialTrait("coldblooded", "extra");
 amethyst.register();
 
 
-/*        new material - eagle           */
-val eagle = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("eagle_mat");
-eagle.localizedName = "Eagle Feather";
-eagle.color = 0x946c54;
-eagle.representativeItem = <item:totemic:eagle_drops:1>;
-eagle.addItem(<item:totemic:eagle_drops:1>);
-eagle.addFletchingMaterialStats(1,1.4);
-eagle.addMaterialTrait("veiled", "fletching");
-eagle.castable = false;
-eagle.craftable = true;
-eagle.register();
+/*        new material - valus           */
+val valus = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("valus_mat");
+valus.localizedName = "Valus Fiber";
+valus.color = 0xeae8ed;
+valus.representativeItem = <item:primal:valus_fiber>;
+valus.addItem(<item:primal:valus_fiber:1>);
+valus.addBowStringMaterialStats(1.2f);
+valus.addMaterialTrait("hellish");
+valus.castable = false;
+valus.craftable = true;
+valus.register();
 
 
 /*        new material - yew      */     
@@ -364,6 +364,31 @@ yew.addMaterialTrait("ecological");
 yew.castable = false;
 yew.craftable = true;
 yew.register();
+
+
+/*        new material - corphy wood      */     
+val corphy = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("corphy_mat");
+corphy.localizedName = "Corphyry";
+corphy.color = 0x691d10;
+corphy.representativeItem = <item:primal:corypha_stalk>;
+corphy.addItem(<item:primal:corypha_stick>, 2, 144);
+corphy.addItem(<item:primal:planks:3>, 1, 288);
+corphy.addItem(<item:primal:corypha_stalk:0>, 1, 576);
+corphy.addItem(<item:primal:corypha_stalk:1>, 1, 576);
+corphy.addArrowShaftMaterialStats(0.9,10);
+corphy.addBowMaterialStats(0.75, 1, 1);
+corphy.addProjectileMaterialStats();
+corphy.addHeadMaterialStats(35, 2, 2, 0);
+corphy.addHandleMaterialStats(1, 25);
+corphy.addExtraMaterialStats(15);
+corphy.addCoreMaterialStats(2.5,3);
+corphy.addPlatesMaterialStats(1, 1, 0);
+corphy.addTrimMaterialStats(0.5);
+corphy.addMaterialTrait("flammable");
+corphy.addMaterialTrait("ecological");
+corphy.castable = false;
+corphy.craftable = true;
+corphy.register();
 
 
 /*        new material - ironwood           */
