@@ -118,6 +118,20 @@ recipes.addShaped(<primal:mortar>*32, [
     [<ore:mortalIngredient>,mortarIngredients,<ore:mortalIngredient>],
 ]);
 
+//hopper
+recipes.remove(<primal_tech:wooden_hopper>);
+recipes.addShaped(<primal_tech:wooden_hopper>, [
+    [<ore:logWood>,null,<ore:logWood>],
+    [<ore:logWood>,<totemic:buffalo_items:1>,<ore:logWood>],
+    [null,<ore:logWood>,null],
+]);
+
+
+
+
+
+
+
 //drying rack
 //crate
 //sticks
