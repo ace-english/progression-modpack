@@ -168,11 +168,16 @@ recipes.addShapeless(<harvestcraft:applepieitem>, [<harvestcraft:bakewareitem>.r
 recipes.remove(<grimoireofgaia:food_pie_meat>);
 recipes.addShapeless(<grimoireofgaia:food_pie_meat>, [<harvestcraft:bakewareitem>.reuse(), <ore:foodDough>, <harvestcraft:gravyitem>, <fishingmadebetter:fish_slice_raw>, <ore:listAllveggie>, <ore:cropPotato>]);
 
+//spice
+<harvestcraft:spiceleafitem>.displayName ="Herbs";
+<harvestcraft:spiceleafseeditem>.displayName ="Herb Seed";
+<ore:listAllspice>.add(<bewitchment:white_sage>);
 
 
 //dandelion salad
 recipes.remove(<harvestcraft:dandelionsaladitem>);
-recipes.addShapeless(<harvestcraft:dandelionsaladitem>, [<harvestcraft:mixingbowlitem>.reuse(), <ore:listAllgreenveggie>, <minecraft:yellow_flower:0>, <minecraft:yellow_flower:0>]);
+//recipes.addShapeless(<harvestcraft:dandelionsaladitem>, [<harvestcraft:mixingbowlitem>.reuse(), <ore:listAllgreenveggie>, <minecraft:yellow_flower:0>, <minecraft:yellow_flower:0>]);
+recipes.addShapeless(<harvestcraft:dandelionsaladitem>, [<harvestcraft:mixingbowlitem>.reuse(), <ore:listAllgreenveggie>, <ore:flowerYellow>, <ore:flowerYellow>]);
 
 
 //chocolate
