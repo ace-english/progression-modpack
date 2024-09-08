@@ -54,7 +54,11 @@ recipes.addShapeless(<animania:goat_cheese_wedge>*4, [knife,<animania:goat_chees
 recipes.remove(<animania:sheep_cheese_wedge>);
 recipes.addShapeless(<animania:sheep_cheese_wedge>*4, [knife,<animania:sheep_cheese_wheel>]);
 
-//totemic pillars
+/***********************************************
+
+                totemic pillars
+
+***********************************************/
 
 //oak 
 recipes.remove(<totemic:wooden_pillar_base:0>);
@@ -256,7 +260,12 @@ recipes.addShapeless(<totemic:wooden_pillar_base:13>, [knife,<totemic:wooden_pil
 
 recipes.addShapeless(<minecraft:string>*2, [<ore:wool>, knife]);
 
-//---------primal--------------
+/***********************************************
+
+                primal
+
+***********************************************/
+
 recipes.remove(<primal_tech:plant_fibres>);
 recipes.addShapeless(<primal_tech:plant_fibres>,[<ore:tallgrass>,knife]);
 recipes.remove(<primal_tech:fire_sticks>);
@@ -350,6 +359,7 @@ recipes.remove(<primal:fletching>*6);
 recipes.addShapeless(<primal:fletching>*6, [<ore:feather>, knife]);
 recipes.remove(<primal:leather_strip>);
 recipes.addShapeless(<primal:leather_strip>*9, [<ore:leather>, knife]); 
+recipes.addShapeless(<primal:leather_strip>*4, [<ore:hideSpoiled>|<ore:hidePigmanSpoiled>, knife]); 
 
 
 recipes.remove(<primal:common_stone:5>);
@@ -483,11 +493,19 @@ recipes.addShapeless(<primal:dry_grass_seed>, [<primal:dry_grass_root>]);
 recipes.remove(<primal:void_seed>);
 recipes.addShapeless(<primal:void_seed>, [<primal:void_grass_root>]);
 
+/***********************************************
+
+misc
+
+***********************************************/
+
 //paper
 recipes.addShapeless(<minecraft:paper>,[<minecraft:book>,knife]);
 recipes.addShapeless(<minecraft:paper>,[<minecraft:written_book>,knife]);
 recipes.addShapeless(<minecraft:paper>,[<minecraft:enchanted_book>,knife]);
 //recipes.addShapeless(<minecraft:paper>,[<ancientwarfare:manual>,knife]);
 recipes.addShapeless(<minecraft:paper>,[<ebwizardry:ruined_spell_book>,knife]);
-//recipes.addShapeless(<minecraft:paper>,[<ebwizardry:spell_book:*>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<ebwizardry:spell_book:*>,knife]);
+recipes.addShapeless(<minecraft:paper>,[<ebwizardry:spell_book>,knife]);
 //recipes.addShapeless(<minecraft:paper>,[<ebwizardry:scroll:*>,knife]);
+

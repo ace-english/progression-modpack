@@ -17,3 +17,7 @@ Clears the stored list of unique foods a player has eaten and resets their heart
  
  3 pure carbon + 1 iron = 1 steel
  4 coal + 1 iron = steel
+
+ f3+a = reload area
+
+ /pregen
