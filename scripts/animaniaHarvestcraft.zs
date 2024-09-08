@@ -71,3 +71,11 @@ oreDictMeatCooked.add(<animania:cooked_peacock>);
 val oreDictMeatRaw = <ore:listAllMeatsRaw>;
 oreDictMeatRaw.add(<animania:raw_prime_peacock>);
 oreDictMeatRaw.add(<animania:raw_peacock>);
+
+//water
+recipes.addShapeless(<harvestcraft:freshwateritem> *8, [
+    <primal:bucket_terra>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).transformReplace(<primal:bucket_terra>)|
+    <primal:bucket_cinis>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).transformReplace(<primal:bucket_cinis>)|
+    <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<ceramics:clay_bucket>)
+]
+);

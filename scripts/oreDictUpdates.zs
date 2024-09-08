@@ -290,9 +290,11 @@ woodAsh.add(<bewitchment:wood_ash>);
 woodAsh.add(<biomesoplenty:ash>);
 
 //water
-/*
 <ore:itemWaterBucket>.add(<primal:bucket_clay>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:itemWaterBucket>.add(<primal:bucket_terra>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:itemWaterBucket>.add(<ceramics:clay_bucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+/*
 <ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}));
 <ore:itemWaterBucket>.add(<forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000}));
 <ore:itemWaterBucket>.add(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
