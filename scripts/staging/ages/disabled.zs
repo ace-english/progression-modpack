@@ -742,6 +742,11 @@ var disabledIngredients as IIngredient[] = [
 	<primal:vanadium_plate>,
 	<primal:vanadium_nugget>,
 	<primal:shibuichi_plate>,
+	<primal:arrow_ironwood>,
+	<primal:arrow_paraffin>,
+	<primal:arrow_bitumen>,
+	<primal:arrow_water>,
+	<primal:fletching>,
 
 	//steel
 	<mekanism:ingot:4>,
