@@ -136,6 +136,8 @@ var items as IIngredient[] = [
 <immcraft:bookshelf>,
 <immcraft:bookstand>,
 <immcraft:manual>,
+<fairylights:letter_bunting>,
+<fairylights:letter_bunting>.withTag({text: {styling: [] as byte[] as byte[], value: ""}}),
 <minecraft:book>,
 <minecraft:bookshelf>,
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 0}]}),
