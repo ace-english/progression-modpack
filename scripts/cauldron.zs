@@ -151,6 +151,7 @@ mods.primal.Cauldron.addRecipe(
     [<betterwithmods:material:29>*2]
 );
 
+/*
 mods.primal.Cauldron.addRecipe(
     "glue", 
     8, 
@@ -158,14 +159,24 @@ mods.primal.Cauldron.addRecipe(
     [<ore:barkWood>,<minecraft:dye:15>, <primal:chum>*4], 
     [<betterwithmods:material:12>*1]
 );
+*/
 
 mods.primal.Cauldron.addRecipe(
-    "oat_milk", 
+    "almond_milk", 
     8, 
-    <liquid:water> * 1000, 
+    <liquid:water> * 250, 
     <liquid:milk> * 250, 
-    [<primal:plant_cloth>, <harvestcraft:oatsitem>*8], 
-    []
+    [<ore:cropAlmond>*8|<ore:cropSoybean>*8|<ore:cropOats>*8, <primal:plant_cloth>], 
+    [<primal:plant_cloth>]
+    
+);
+
+mods.primal.Cauldron.addRecipe(
+    "tallow", 
+    3, 
+    <liquid:brine_netjry> * 25, 
+    [<ore:fatAnimal>*2], 
+    [<bewitchment:tallow>]
 );
 
 mods.primal.Cauldron.addRecipe(
