@@ -34,6 +34,18 @@ for knifeEntry in knifes.items{
 }
 
 
+/*
+this works, but I gotta see what's built in so I can replace them
+recipes.removeByInput(<primal:diamond_workblade>);
+recipes.removeByInput(<primal:emerald_workblade>);
+recipes.removeByInput(<primal:flint_workblade>);
+recipes.removeByInput(<primal:iron_workblade>);
+recipes.removeByInput(<primal:obsidian_workblade>);
+recipes.removeByInput(<primal:opal_workblade>);
+recipes.removeByInput(<primal:quartz_workblade>);
+*/
+
+
 recipes.addShapeless(<primal:hide_raw>, [knife,<primal:wolf_head_item>]);
 
 //animania items
